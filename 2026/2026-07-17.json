@@ -1,0 +1,908 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "6e1a88e558676805606c866084f0ff4f8f5e6b281f49696aaed830ce8bb69942",
+  "nr_frunze": 100,
+  "predictii": [
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Microsoft pe 2026-07-17",
+      "intrebare_id": 233,
+      "rationament": "Corecție ușoară după creșterea recentă spre 401 USD.",
+      "sha256": "aa03db9dd8aa21aaa488576642a38efbcfeef87ffa5c63330c59866b63c3f30f",
+      "valoare": 399.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul NVIDIA pe 2026-07-17",
+      "intrebare_id": 234,
+      "rationament": "Revenire tehnică după scăderea de la maximul recent.",
+      "sha256": "a98d99756ce67cd517cea6d93403f803a918ac99796d8a3a7c3496afdb49a45a",
+      "valoare": 208.1
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Amazon pe 2026-07-17",
+      "intrebare_id": 235,
+      "rationament": "Stabilizare în zona de suport după corecția de ieri.",
+      "sha256": "930300542fb7e010361e6f98bbdb3dd4e97fa264b662b2d8a5158056d918cbdd",
+      "valoare": 250.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Alphabet pe 2026-07-17",
+      "intrebare_id": 236,
+      "rationament": "Corecție exagerată ieri, aștept o ușoară revenire tehnică.",
+      "sha256": "594b66f25a09796bf32de1c95b486d8023877111e1d1f12af72be65bbe37d5a6",
+      "valoare": 356.2
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Meta pe 2026-07-17",
+      "intrebare_id": 237,
+      "rationament": "Consolidare peste 660 USD după scăderea din ultima ședință.",
+      "sha256": "7b78fa9daedbcc13959eb820b0dad8604ac7149c67c26ca9b5fa7dfea7c5b981",
+      "valoare": 668.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Tesla pe 2026-07-17",
+      "intrebare_id": 238,
+      "rationament": "Tendință ușor oscilatorie, aștept o mică apreciere de la 391 USD.",
+      "sha256": "ea032dc4f001b0715b6191920cea36d52d008988c6ac46fcd68f9e181c6352be",
+      "valoare": 392.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul AMD pe 2026-07-17",
+      "intrebare_id": 239,
+      "rationament": "Suport puternic la 500 USD, probabil o ușoară revenire.",
+      "sha256": "4216f968fcd6d40bbe5c71d0f5bc85d22e6048e1bf7b964d70ee0265b5a50445",
+      "valoare": 505.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Broadcom pe 2026-07-17",
+      "intrebare_id": 240,
+      "rationament": "Revenire după scăderea bruscă de la 394 USD.",
+      "sha256": "fbd0165668210657dcc02d16e92d95f80bfc89d0dfd038849f2aa15d432b8802",
+      "valoare": 378.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Netflix pe 2026-07-17",
+      "intrebare_id": 241,
+      "rationament": "Corecție minoră după atingerea nivelului de 74.35 USD.",
+      "sha256": "400e5001a787a10af5e9a67090c8a8d9f36a45123a53cbf91535b048e197fb71",
+      "valoare": 74.1
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Intel pe 2026-07-17",
+      "intrebare_id": 242,
+      "rationament": "Bounce tehnic după ce a coborât sub pragul de 100 USD.",
+      "sha256": "bf7c683037a93a3c8237b191bc281d5e8d28952f4cc80416d1d68192cc6e8fc2",
+      "valoare": 98.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Disney pe 2026-07-17",
+      "intrebare_id": 243,
+      "rationament": "Consolidare după creșterea rapidă spre 99.71 USD.",
+      "sha256": "7e9ffe60da393b260050ab354f42cb90abf0a18c21357826f1599f4ecbac2ffe",
+      "valoare": 98.8
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul JPMorgan pe 2026-07-17",
+      "intrebare_id": 244,
+      "rationament": "Stabilizare în jurul mediei recente după scăderea de ieri.",
+      "sha256": "311af5af738d9f724d1dd06e40cbe44afde230d0f3b77ce656c5aef385f63bfe",
+      "valoare": 344.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Visa pe 2026-07-17",
+      "intrebare_id": 245,
+      "rationament": "Corecție după creșterea bruscă la 365.14 USD.",
+      "sha256": "548fcab330a78c50d17878786ecf727d7890cfb1ad0a791bacd9a4efe4a1577b",
+      "valoare": 362.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Walmart pe 2026-07-17",
+      "intrebare_id": 246,
+      "rationament": "Retragere temporară după atingerea maximului local de 114.95 USD.",
+      "sha256": "d52bb64d6737b8c38ac24831cdef0756fe0bf639e6398dd2791ba47026b308ea",
+      "valoare": 114.2
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Coca-Cola pe 2026-07-17",
+      "intrebare_id": 247,
+      "rationament": "Scădere ușoară pentru retestarea suportului după creșterea recentă.",
+      "sha256": "0e8948ad4485e003c8e6f4811bcef9a1331ce3b3452ccec7083b3b5bfafd4263",
+      "valoare": 84.1
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul ExxonMobil pe 2026-07-17",
+      "intrebare_id": 248,
+      "rationament": "Consolidare după trendul ascendent din ultimele zile.",
+      "sha256": "6176363b194465c9117920c785d3bfe3e658279aa963e4579ecd8900a081287d",
+      "valoare": 145.2
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Boeing pe 2026-07-17",
+      "intrebare_id": 249,
+      "rationament": "Revenire ușoară după scăderea sub 215 USD.",
+      "sha256": "619e8deb916e89265b4e7c6b093e5152a61fa05a7e06e0d89c883891f08a3bd0",
+      "valoare": 215.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Palantir pe 2026-07-17",
+      "intrebare_id": 250,
+      "rationament": "Corecție minoră după creșterea consecutivă din ultimele zile.",
+      "sha256": "0c8596b2fe947d3ed57b27a8203f42f79b0da7a27bb627c0de8428fc07fc660d",
+      "valoare": 133.8
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Coinbase pe 2026-07-17",
+      "intrebare_id": 251,
+      "rationament": "Volatilitate ridicată, aștept o ușoară recuperare după scădere.",
+      "sha256": "687e0ecd2f9fabd55b400f07bcf2e91b1e5e3aa7decb7c36cb43e99ce8c78772",
+      "valoare": 162.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Uber pe 2026-07-17",
+      "intrebare_id": 252,
+      "rationament": "Retragere minoră după creșterea de la 72.67 USD.",
+      "sha256": "d111f2e9c3095fbd756939008f0a8d1b86c19e36d905ccfc31eefc4f83dc1199",
+      "valoare": 73.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Robinhood pe 2026-07-17",
+      "intrebare_id": 253,
+      "rationament": "Corecție severă ieri, probabil o revenire parțială pe termen scurt.",
+      "sha256": "86dbb1c5be62b4f37a3f1108d72c449d74838c24555b96a4ebffcc453a48f1ab",
+      "valoare": 108.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Shopify pe 2026-07-17",
+      "intrebare_id": 254,
+      "rationament": "Consolidare în intervalul recent după creșterea la 125 USD.",
+      "sha256": "2c91fd6240ae8a1e8ceeabab38f3c8f32a8bd53ddc1a1e976559ef70cf106bd1",
+      "valoare": 124.2
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul MicroStrategy pe 2026-07-17",
+      "intrebare_id": 255,
+      "rationament": "Corelație cu piața crypto, aștept o ușoară recuperare.",
+      "sha256": "398218e3ad8350d3b32940c2b4d4f3bb4af4c4d091e9d47eb1114a3c27f9e80c",
+      "valoare": 95.2
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul S&P 500 (SPY) pe 2026-07-17",
+      "intrebare_id": 256,
+      "rationament": "Revenire ușoară a indicelui după scăderea de ieri.",
+      "sha256": "941f18335e897965597e20a28e6669f4e1e2aee5bb3455050efe913d0b7e7233",
+      "valoare": 752.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-17 15:45:40",
+      "intrebare": "Preţul Nasdaq 100 (QQQ) pe 2026-07-17",
+      "intrebare_id": 257,
+      "rationament": "Corecție tehnologică severă ieri, urmată de o recuperare parțială.",
+      "sha256": "9cf2a275b82bf96f0dc6e7b5f0001b501c078da4646a5273218ca0e2a5999f51",
+      "valoare": 709.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Microsoft pe 2026-07-17",
+      "intrebare_id": 233,
+      "rationament": "Trend recent ascendent, dar volatilitate mare; corecție ușoară după creștere.",
+      "sha256": "7afbab13668a066c529e0e0cc4f103896cfac7348c5eb301dab8b342167db588",
+      "valoare": 399.2
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul NVIDIA pe 2026-07-17",
+      "intrebare_id": 234,
+      "rationament": "Oscilații mari, dar tendință de revenire după scădere; probabil stabilizare.",
+      "sha256": "d786c5f50d288ce7a6f0fdc3325ac91271f548054528db0d9ad59f4bfc3a85e5",
+      "valoare": 208.1
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Amazon pe 2026-07-17",
+      "intrebare_id": 235,
+      "rationament": "După creștere și scădere, anticipez revenire spre maximul recent.",
+      "sha256": "1c38b152a668f4cda5436763728eec0882799c365427b0512fb9548ec4237200",
+      "valoare": 251.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Alphabet pe 2026-07-17",
+      "intrebare_id": 236,
+      "rationament": "Volatilitate crescută, probabil revenire spre media ultimelor zile.",
+      "sha256": "19a8033ca303c7d3b8a144d43b3c15d9c662124a2f7c33ae4104acc21f7f6d46",
+      "valoare": 358.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Meta pe 2026-07-17",
+      "intrebare_id": 237,
+      "rationament": "După scădere, probabil revenire spre maximul recent.",
+      "sha256": "4fe7cb97be48b68ac246cf6ea9415a52d6de94a2bc57e3c6cb27801150db50d3",
+      "valoare": 670.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Tesla pe 2026-07-17",
+      "intrebare_id": 238,
+      "rationament": "Oscilații mici, probabil stabilizare în jurul valorii actuale.",
+      "sha256": "be5952b147c49848117cd7f533f541b46987c1fe0532e79526a9e98f3a3e2cc7",
+      "valoare": 393.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul AMD pe 2026-07-17",
+      "intrebare_id": 239,
+      "rationament": "Scădere abruptă, probabil revenire parțială spre media ultimelor zile.",
+      "sha256": "1bd684d91ce0f911c89cea6e3452c78cabed0b17d96665db23fa456aa400b069",
+      "valoare": 510.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Broadcom pe 2026-07-17",
+      "intrebare_id": 240,
+      "rationament": "Scădere recentă, probabil revenire spre media săptămânii.",
+      "sha256": "c9d13b740f7f0a050202072abb3ddd62d5824d7d78ce39c516e44a4946de2dfb",
+      "valoare": 380.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Netflix pe 2026-07-17",
+      "intrebare_id": 241,
+      "rationament": "Oscilații mici, probabil stabilizare în jurul valorii actuale.",
+      "sha256": "5eba26a7bfac2f75788e6ec038a29ea7912e3c281e575ec20f7df4c7443cbcc9",
+      "valoare": 74.1
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Intel pe 2026-07-17",
+      "intrebare_id": 242,
+      "rationament": "Scădere abruptă, probabil revenire parțială spre media ultimelor zile.",
+      "sha256": "4be9b066457cb8b66266f7e62635287a042bc63bdae4cb16e51ab3a38ddd530e",
+      "valoare": 100.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Disney pe 2026-07-17",
+      "intrebare_id": 243,
+      "rationament": "Creștere recentă, probabil corecție ușoară.",
+      "sha256": "6f0a6192e0463b703104544249b578515fcb0c6a0acff0dff54da57737772697",
+      "valoare": 98.5
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul JPMorgan pe 2026-07-17",
+      "intrebare_id": 244,
+      "rationament": "Oscilații mici, probabil stabilizare în jurul valorii actuale.",
+      "sha256": "f031b157e44e902c97f80b16c2164dbcccf605ca5563dcbb7f691d652559ecf0",
+      "valoare": 344.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Visa pe 2026-07-17",
+      "intrebare_id": 245,
+      "rationament": "Creștere abruptă, probabil corecție ușoară.",
+      "sha256": "e23976d5118c50afc9f84f599620ee2b7520a0bcee65b5d629043f296a98c25c",
+      "valoare": 362.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Walmart pe 2026-07-17",
+      "intrebare_id": 246,
+      "rationament": "Oscilații mici, probabil stabilizare în jurul valorii actuale.",
+      "sha256": "6b719eb043d71d61b633a8be263ee3b7c99e74d2c4cff549e355ae2024ddb103",
+      "valoare": 114.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Coca-Cola pe 2026-07-17",
+      "intrebare_id": 247,
+      "rationament": "Oscilații mici, probabil stabilizare în jurul valorii actuale.",
+      "sha256": "3c5fd0fca5f4f38c002b515eafa6e07912170b81228c62f52a0af603bc915be2",
+      "valoare": 84.5
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul ExxonMobil pe 2026-07-17",
+      "intrebare_id": 248,
+      "rationament": "Creștere recentă, probabil corecție ușoară.",
+      "sha256": "1e9ece2d1f08465eb51cc41ce7ef4597270a8d8ff49e91461242a1d5e1eff231",
+      "valoare": 145.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Boeing pe 2026-07-17",
+      "intrebare_id": 249,
+      "rationament": "Scădere recentă, probabil revenire spre media săptămânii.",
+      "sha256": "7287711d5ac8be964610eda14895964bd64d6b515fc73d84fd525f0b37cb43ea",
+      "valoare": 216.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Palantir pe 2026-07-17",
+      "intrebare_id": 250,
+      "rationament": "Oscilații mici, probabil stabilizare în jurul valorii actuale.",
+      "sha256": "e2371217b5e82e3b348493fdd068b38c4647b89b906a8b7055ba1c9cbe4ef790",
+      "valoare": 134.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Coinbase pe 2026-07-17",
+      "intrebare_id": 251,
+      "rationament": "Oscilații mari, probabil stabilizare după scădere.",
+      "sha256": "915d306e6453cc08b2ad6973559dc44c92ec9027a07b80775953f299bea03a54",
+      "valoare": 161.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Uber pe 2026-07-17",
+      "intrebare_id": 252,
+      "rationament": "Oscilații mici, probabil stabilizare în jurul valorii actuale.",
+      "sha256": "daf459d0a43284487af631fa426dca01fded803d213edba4e2a45338510e3267",
+      "valoare": 74.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Robinhood pe 2026-07-17",
+      "intrebare_id": 253,
+      "rationament": "Scădere abruptă, probabil revenire parțială spre media ultimelor zile.",
+      "sha256": "d688cfb6f12c8d44a6fec73ecb7eb11d8bcb5a52947249a57e8dd9a72cd8092c",
+      "valoare": 110.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Shopify pe 2026-07-17",
+      "intrebare_id": 254,
+      "rationament": "Oscilații mici, probabil stabilizare în jurul valorii actuale.",
+      "sha256": "d3ac61fa2fd6ba83f4e31ea485c500671e81c9848a9099091c5d243f5fcd11bd",
+      "valoare": 124.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul MicroStrategy pe 2026-07-17",
+      "intrebare_id": 255,
+      "rationament": "Oscilații mici, probabil stabilizare în jurul valorii actuale.",
+      "sha256": "63b1f5e11bfec9de96abc860a3bce196c173423117ecec03bfc158502b89125b",
+      "valoare": 95.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul S&P 500 (SPY) pe 2026-07-17",
+      "intrebare_id": 256,
+      "rationament": "Oscilații mici, probabil stabilizare în jurul valorii actuale.",
+      "sha256": "e26df15539f754a46c639c4d1e99062e2e68241f6e88804e5596d731a00ca7e8",
+      "valoare": 751.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-17 15:45:53",
+      "intrebare": "Preţul Nasdaq 100 (QQQ) pe 2026-07-17",
+      "intrebare_id": 257,
+      "rationament": "Scădere recentă, probabil revenire spre media săptămânii.",
+      "sha256": "30b867d89b4917995d0b62575212f164c30d3b52c3f625ce58308e4a9d914c40",
+      "valoare": 710.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Microsoft pe 2026-07-17",
+      "intrebare_id": 233,
+      "rationament": "trend ascendent",
+      "sha256": "710fad9155beea7a36be9ae2979d970a5769a7dda72581e3b5ef1d520e327c1e",
+      "valoare": 401.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul NVIDIA pe 2026-07-17",
+      "intrebare_id": 234,
+      "rationament": "corecție mică",
+      "sha256": "97204094169c1dc797e2d7afadcb49155596819667988aaf5a30a3679612dd3e",
+      "valoare": 205.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Amazon pe 2026-07-17",
+      "intrebare_id": 235,
+      "rationament": "stabilitate",
+      "sha256": "9c9af2c5a0694512a05a82f84c0b6e06bf631f44ee14f0574cb5b8fbe769f739",
+      "valoare": 250.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Alphabet pe 2026-07-17",
+      "intrebare_id": 236,
+      "rationament": "corecție",
+      "sha256": "4cd6c850b695755e79669761557bea3ec593f5fa6f59b56699a6a8b58c64de7f",
+      "valoare": 355.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Meta pe 2026-07-17",
+      "intrebare_id": 237,
+      "rationament": "continuare creștere",
+      "sha256": "c7f5b03cc610a8985697270b5821f6d1dcce6d8c570725a86d7a7bc07e0f8c01",
+      "valoare": 670.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Tesla pe 2026-07-17",
+      "intrebare_id": 238,
+      "rationament": "stabilitate",
+      "sha256": "f7f65bb26759b8cd6d812fd86f45609750120245df3c0faf0c3ea9a38ee23fa2",
+      "valoare": 390.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul AMD pe 2026-07-17",
+      "intrebare_id": 239,
+      "rationament": "reacție pozitivă",
+      "sha256": "67198caa86ebfe4a1a47e11376d88e4ec57d7b1f68e7d50798b6e4216f32543b",
+      "valoare": 510.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Broadcom pe 2026-07-17",
+      "intrebare_id": 240,
+      "rationament": "corecție mică",
+      "sha256": "fa3e5ba022efa561d1abc0def6437ed71f98404d8ec93d2eb23b64c5f7406003",
+      "valoare": 380.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Netflix pe 2026-07-17",
+      "intrebare_id": 241,
+      "rationament": "stabilitate",
+      "sha256": "2e0d22b4f3d31acf980c38f07240bed66d975a5e5d12445a0ae4fcbcd039bd12",
+      "valoare": 74.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Intel pe 2026-07-17",
+      "intrebare_id": 242,
+      "rationament": "reacție pozitivă",
+      "sha256": "a8409a1974704759d489a225ced8e9fed08b50d6fabb08bdaea62f2e481d5456",
+      "valoare": 100.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Disney pe 2026-07-17",
+      "intrebare_id": 243,
+      "rationament": "continuare creștere",
+      "sha256": "b0169cba159aae5494fd0808c8a435768a3b2dea099ee985c55404ca3fe69e48",
+      "valoare": 100.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul JPMorgan pe 2026-07-17",
+      "intrebare_id": 244,
+      "rationament": "stabilitate",
+      "sha256": "e8ad1ffcb78b6bf2a2ffe3b3f5a5f29a0eaaedc8760fbe67678a71b43a5f12f4",
+      "valoare": 344.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Visa pe 2026-07-17",
+      "intrebare_id": 245,
+      "rationament": "continuare creștere",
+      "sha256": "92a7b62782b8b197524ecf4f4ed9cc25f56288b6d8dadcf5734df1d87b1a644d",
+      "valoare": 364.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Walmart pe 2026-07-17",
+      "intrebare_id": 246,
+      "rationament": "stabilitate",
+      "sha256": "8cf56f3d5c972f1875d2940992abcfb1135db14b4e67784e6d9c30873051ab63",
+      "valoare": 115.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Coca-Cola pe 2026-07-17",
+      "intrebare_id": 247,
+      "rationament": "stabilitate",
+      "sha256": "289a927ee3c8862fdab75d16308e243decda7202f2c3d9de6b6ab9f03ba3e1be",
+      "valoare": 84.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul ExxonMobil pe 2026-07-17",
+      "intrebare_id": 248,
+      "rationament": "continuare creștere",
+      "sha256": "3545990b05079d88a38ce6c7f7243aae8a6325da1e2590f41ad4978f832e66ad",
+      "valoare": 146.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Boeing pe 2026-07-17",
+      "intrebare_id": 249,
+      "rationament": "reacție pozitivă",
+      "sha256": "0df87a67d726ae03c3a85bf1e62d61ebc86f6511cdbec02246f0d3d6f1deb801",
+      "valoare": 220.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Palantir pe 2026-07-17",
+      "intrebare_id": 250,
+      "rationament": "continuare creștere",
+      "sha256": "4ee49982b7aee3c43b22961602c0d118f54848f173e940702d3ba03ae94d091b",
+      "valoare": 135.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Coinbase pe 2026-07-17",
+      "intrebare_id": 251,
+      "rationament": "stabilitate",
+      "sha256": "606e3e020b20ab06dd88758b9e81cb52d76c8dd7ea4a38e88c9827b6ebff3b58",
+      "valoare": 162.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Uber pe 2026-07-17",
+      "intrebare_id": 252,
+      "rationament": "stabilitate",
+      "sha256": "873320d4316961bdb2fb82c7230c1962a3bb9f8580e0dfc77fe0ee33a9b867e2",
+      "valoare": 73.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Robinhood pe 2026-07-17",
+      "intrebare_id": 253,
+      "rationament": "reacție pozitivă",
+      "sha256": "fe66bbc95b74675c45acb766ffe2d94f5c5396e5e528ab15c0ea66e5c279f7f3",
+      "valoare": 108.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Shopify pe 2026-07-17",
+      "intrebare_id": 254,
+      "rationament": "continuare creștere",
+      "sha256": "78448347c9dfd6a7ad3f52f7ddc9fa7df3392dde0dbfa0ec4b0482c7f827c8c9",
+      "valoare": 124.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul MicroStrategy pe 2026-07-17",
+      "intrebare_id": 255,
+      "rationament": "stabilitate",
+      "sha256": "fa843307f68e3bcb888b8d3fa1c9b21486346aa17fca206dd3e2edffeb072f1b",
+      "valoare": 96.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul S&P 500 (SPY) pe 2026-07-17",
+      "intrebare_id": 256,
+      "rationament": "continuare creștere",
+      "sha256": "7a92295fbc4ab745cf5275cf88ad1136334dc41b2fb0c7756de33bab495994c2",
+      "valoare": 752.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-17 15:45:56",
+      "intrebare": "Preţul Nasdaq 100 (QQQ) pe 2026-07-17",
+      "intrebare_id": 257,
+      "rationament": "stabilitate",
+      "sha256": "21a05f1cfc890511045ff9783e6fc8d97bfc6fe631654075e8c78e85e5db3e23",
+      "valoare": 714.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Microsoft pe 2026-07-17",
+      "intrebare_id": 233,
+      "rationament": "Salt puternic pe 15-16, posibil mic pullback după +6.60 într-o zi.",
+      "sha256": "2e889dda68017bbb8c2e7f5a9de5b041d2b860af5cd866f25b0108e4f10a2be4",
+      "valoare": 400.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul NVIDIA pe 2026-07-17",
+      "intrebare_id": 234,
+      "rationament": "A scăzut ieri după maxim; oscilează în jur de 207-212, ușor rebound.",
+      "sha256": "ffc5e0190a3c8a8dccefe46ee49d4ea3887985f695eb64550dba561045a19318",
+      "valoare": 209.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Amazon pe 2026-07-17",
+      "intrebare_id": 235,
+      "rationament": "Pullback de la 254.96; se stabilizează în jur de 250.",
+      "sha256": "d87bfa622c15e4f77577d0a9f552b9bb6f106d06ce2e255860c80bb1291e1b15",
+      "valoare": 250.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Alphabet pe 2026-07-17",
+      "intrebare_id": 236,
+      "rationament": "Cădere bruscă de la 370.92; posibil mic rebound tehnic.",
+      "sha256": "7be9e790f8040fcfd1c29c0052677134152475c5b40bcdada9ac799f2bb4428b",
+      "valoare": 358.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Meta pe 2026-07-17",
+      "intrebare_id": 237,
+      "rationament": "Trend puternic ascendent, pullback minor de la 681; rămâne peste 660.",
+      "sha256": "ec5135ce27f614532cf8b32729abea7ce853c4f85670be1facd476be99ebb3df",
+      "valoare": 668.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Tesla pe 2026-07-17",
+      "intrebare_id": 238,
+      "rationament": "Coboară lent de câteva zile; aproape de nivelul curent.",
+      "sha256": "d3a5a9ba49fcc6d746baff23ba767b1054d4b6da25e016195e492750a7a10e73",
+      "valoare": 391.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul AMD pe 2026-07-17",
+      "intrebare_id": 239,
+      "rationament": "Cădere abruptă de la 529 la 501; posibil rebound parțial.",
+      "sha256": "cb34212ade821243fc924a61246c79fd1bae445272b116e4a2a7ff0baad800d0",
+      "valoare": 508.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Broadcom pe 2026-07-17",
+      "intrebare_id": 240,
+      "rationament": "Scădere puternică de la 394; mic rebound după selloff.",
+      "sha256": "7ee8758f68dd6cc84fb3d8f5f4c9b94a2d8b913fbaebe92763bdf8d57a4cac15",
+      "valoare": 378.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Netflix pe 2026-07-17",
+      "intrebare_id": 241,
+      "rationament": "Stabil în jur de 73-74; ușoară revenire ieri.",
+      "sha256": "45f02bd16ff71dabe40e9dba6e1575c9ad3118696c93bd293a521511173e865c",
+      "valoare": 74.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Intel pe 2026-07-17",
+      "intrebare_id": 242,
+      "rationament": "Declin persistent și dur; posibil mic rebound după 96.98.",
+      "sha256": "a08c15ed3127945bb85e692a84fc46273e3847cb277cb97028bc44f6277697df",
+      "valoare": 97.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Disney pe 2026-07-17",
+      "intrebare_id": 243,
+      "rationament": "Trend ascendent clar recent; continuă ușor peste 99.71.",
+      "sha256": "fc2dd6dc368ccae6ca199735a7bee83645c73d9fe2d64e637a5a005b20d25688",
+      "valoare": 100.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul JPMorgan pe 2026-07-17",
+      "intrebare_id": 244,
+      "rationament": "Aproape de maxim; consolidare în jur de 343.",
+      "sha256": "2908f71fb9db2c68a9135d6768b2944ade7df62773853a85add16f1f5032d618",
+      "valoare": 344.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Visa pe 2026-07-17",
+      "intrebare_id": 245,
+      "rationament": "Salt la 365 ieri; ușor pullback.",
+      "sha256": "3f0279f72406658494fddfe709163905110bef8f4e20376c6f5e4091a03b9be1",
+      "valoare": 364.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Walmart pe 2026-07-17",
+      "intrebare_id": 246,
+      "rationament": "Oscilează în jur de 113-115; ușoară moderare.",
+      "sha256": "0c4d2c68e82591096cc8a8140ac8d2c2ee5a3e90eaadb95bc8e35d15ec7ee824",
+      "valoare": 114.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Coca-Cola pe 2026-07-17",
+      "intrebare_id": 247,
+      "rationament": "Salt la 84.92 ieri; posibil mic pullback în bandă.",
+      "sha256": "b22719c158e7bfdaa3869b8aa651bea7696b50c78297d76a3a824420f2d22c00",
+      "valoare": 84.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul ExxonMobil pe 2026-07-17",
+      "intrebare_id": 248,
+      "rationament": "Trend ascendent lent; aproape de nivelul curent.",
+      "sha256": "22f7a561600334524f0f729656399a95cc05769a1b9ac1134e523011d89b0c75",
+      "valoare": 145.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Boeing pe 2026-07-17",
+      "intrebare_id": 249,
+      "rationament": "Declin persistent; posibil mic rebound după 214.34.",
+      "sha256": "156d5a1468181bdce4ef10f65fad2eb5030e64200404b39adbdb166309f70c8c",
+      "valoare": 216.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Palantir pe 2026-07-17",
+      "intrebare_id": 250,
+      "rationament": "Stabil ascendent în jur de 134; aproape neschimbat.",
+      "sha256": "d63d1ce5da4d43209f1d8c7f67c411734e1eb581c5ab766bde29d3c270588b62",
+      "valoare": 134.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Coinbase pe 2026-07-17",
+      "intrebare_id": 251,
+      "rationament": "Volatil; pullback de la 167, mic rebound după 160.49.",
+      "sha256": "012d76372de267815eec22c2d9c85d0271dd5105e571465e243604aa697d5c41",
+      "valoare": 161.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Uber pe 2026-07-17",
+      "intrebare_id": 252,
+      "rationament": "Oscilează îngust în jur de 74; ușoară moderare.",
+      "sha256": "368618d19beacf4adf09f1dc9d385f557bb8c006966c5ccb73633318084df390",
+      "valoare": 73.8
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Robinhood pe 2026-07-17",
+      "intrebare_id": 253,
+      "rationament": "Cădere abruptă de la 115.54 la 106; posibil rebound parțial.",
+      "sha256": "e7c7dda295d4160191200825c3936666e61dd7a16990bf322a1e13daf5b4b71b",
+      "valoare": 109.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Shopify pe 2026-07-17",
+      "intrebare_id": 254,
+      "rationament": "Stabil ascendent în jur de 124-125; aproape neschimbat.",
+      "sha256": "151f6a37f405acd1d2dc53fe9119ecfdbea46a9350025b7ae2cbca9ab7e34b11",
+      "valoare": 124.8
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul MicroStrategy pe 2026-07-17",
+      "intrebare_id": 255,
+      "rationament": "Volatil, corelat cripto; aproape de nivelul curent.",
+      "sha256": "4fea5527cecd8894832d992702e09da4390746b747043044308a2d3ca1ba69cb",
+      "valoare": 94.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul S&P 500 (SPY) pe 2026-07-17",
+      "intrebare_id": 256,
+      "rationament": "Indice stabil în jur de 750; foarte mică revenire.",
+      "sha256": "00308dec90da579be383bc33ef5e7ad86593b9f2a9ca15b709bdaeb25e1f547a",
+      "valoare": 751.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-17 15:50:35",
+      "intrebare": "Preţul Nasdaq 100 (QQQ) pe 2026-07-17",
+      "intrebare_id": 257,
+      "rationament": "Scădere ieri la 705.94; mic rebound tehnic probabil.",
+      "sha256": "8019fb817d5d1dd2a7e4ad31c7739a08646f30c8581895ca7ec5d6f48717fef4",
+      "valoare": 708.0
+    }
+  ],
+  "zi": "2026-07-17"
+}

@@ -1,0 +1,2393 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "a271393602187328bb5941630d3a0500d092b45c02a4c265c5413c47b0b987a6",
+  "nr_frunze": 265,
+  "predictii": [
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:47:42",
+      "intrebare": "Preţul Bitcoin pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 258,
+      "rationament": "Prețul Bitcoin consolidează în intervalul 62k-65k; anticipez o ușoară creștere spre limita superioară a canalului de acumulare.",
+      "sha256": "453f0347a6b6f6bcc3c548f5ca4edb5c1d8d8c8579c6ef2347a0461384908f17",
+      "valoare": 64500.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:47:42",
+      "intrebare": "Preţul Ethereum pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 259,
+      "rationament": "Ethereum a corectat după vârful recent de 1917 USD, dar menține un trend general pozitiv pe termen mediu.",
+      "sha256": "e0af8c5eca0dd8d00067f1d53d1c95866e02a256446802e3717b3279021d67b0",
+      "valoare": 1860.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:47:42",
+      "intrebare": "Preţul Solana pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 260,
+      "rationament": "Solana prezintă o ușoară tendință de scădere pe termen scurt, stabilizându-se probabil în jurul valorii de 75.5 USD.",
+      "sha256": "d6dd4f5650253d9ed5b3c082818724a17e2bf67d16fad84449a86b7a05f1a71b",
+      "valoare": 75.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:47:42",
+      "intrebare": "Preţul XRP pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 261,
+      "rationament": "XRP demonstrează o stabilitate remarcabilă în jurul pragului de 1.09-1.10 USD, fără semnale de volatilitate majoră.",
+      "sha256": "9052239e755234dea7bcc7e2dabc58ee1a6b2206402b9f9600c60121d54d5220",
+      "valoare": 1.1
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:47:42",
+      "intrebare": "Preţul Cardano pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 262,
+      "rationament": "Cardano rămâne extrem de stabil la valoarea de 0.17 USD, evoluția fiind laterală în lipsa unor catalizatori puternici.",
+      "sha256": "e972072aba62fbb139ca183870da380445f2fe6d0eab8ac4925725827092ada3",
+      "valoare": 0.17
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:47:42",
+      "intrebare": "Preţul Dogecoin pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 263,
+      "rationament": "Dogecoin stagnează complet la 0.07 USD în ultimele zece zile, indicând o lipsă totală de impuls în piață.",
+      "sha256": "d52cb8dea53442dd582c911041a4a414e7f826491f72d3b0f86616d3c365a9da",
+      "valoare": 0.07
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:47:42",
+      "intrebare": "Preţul BNB pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 264,
+      "rationament": "BNB a revenit la suportul de 568 USD și este probabil să recupereze ușor spre media săptămânală de 572 USD.",
+      "sha256": "8e828218b8df1824484ce763160a2a45e70552909fea3740cfd1c606d17e9af1",
+      "valoare": 572.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:47:47",
+      "intrebare": "Preţul Bitcoin pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 258,
+      "rationament": "Momentum recent și volatilitate sugerează un impuls ascendent spre 69000.",
+      "sha256": "18d10ce5ce5f6f6ca0905fc5cbf5a27c5507de52025a01801cd72bee3c09c8f8",
+      "valoare": 69000.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:47:47",
+      "intrebare": "Preţul Ethereum pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 259,
+      "rationament": "Creșterea recentă și volatilitatea indică o continuare spre 2000.",
+      "sha256": "087947886529de22497e2099416ed482c58e6e36d6a6de76431735c56d5a47ab",
+      "valoare": 2000.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:47:47",
+      "intrebare": "Preţul Solana pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 260,
+      "rationament": "Stabilitate și ușoară revenire, estimare conservatoare la 78.",
+      "sha256": "46c6f8bdd1d1a22788e66d29622d7a4407856add311a0c0435a374aec1e5bd58",
+      "valoare": 78.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:47:47",
+      "intrebare": "Preţul XRP pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 261,
+      "rationament": "Mișcări mici, probabilitate de creștere marginală la 1.12.",
+      "sha256": "457d46c4dcc5e9787609d41a047112106f94f8912a318a3d900ee949b376adf6",
+      "valoare": 1.12
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:47:47",
+      "intrebare": "Preţul Cardano pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 262,
+      "rationament": "Range strâns, ușoară apreciere la 0.18.",
+      "sha256": "4174cb681010a82849567565d95dbdc944f7325f970b7c843307e99d86c1577d",
+      "valoare": 0.18
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:47:47",
+      "intrebare": "Preţul Dogecoin pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 263,
+      "rationament": "Lipsă volatilitate, stagnare la 0.07.",
+      "sha256": "9a4cf78cdfa64a62626f2cecf666db6ed105620551ab0b399d47a3936109d42c",
+      "valoare": 0.07
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:47:47",
+      "intrebare": "Preţul BNB pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 264,
+      "rationament": "Trend ascendent, probabilitate de creștere spre 590.",
+      "sha256": "0fab48e81ec4301db5d63bbc313737f3d1cba7486fb1e1ffbbdb699b04ae6435",
+      "valoare": 590.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:47:48",
+      "intrebare": "Preţul Bitcoin pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 258,
+      "rationament": "tendință ascendentă",
+      "sha256": "d5bba04fed4be000adc73a8cc6ecfc0cac10ef6c21e48f934e3cffce385201c1",
+      "valoare": 66000.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:47:48",
+      "intrebare": "Preţul Ethereum pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 259,
+      "rationament": "creștere stabilă",
+      "sha256": "16d8b2a9df908bdc93ca8461377809044b60848196913b182cc5f84bb8972206",
+      "valoare": 2000.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:47:48",
+      "intrebare": "Preţul Solana pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 260,
+      "rationament": "ușoară creștere",
+      "sha256": "33738bba41582faf9e749fcacd9ab0ae70fea778a63317e0c7e766db2ddeba04",
+      "valoare": 80.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:47:48",
+      "intrebare": "Preţul XRP pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 261,
+      "rationament": "creștere moderată",
+      "sha256": "52ad1d481dcf082dc51af49a4cae43d01c3a7fa06908071cf1c2f2c4e6ea0a27",
+      "valoare": 1.15
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:47:48",
+      "intrebare": "Preţul Cardano pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 262,
+      "rationament": "stabilitate",
+      "sha256": "93a23ed40140236638aaed95e0d8c9929ab10ef9a59dcb416567bebdadfc07d7",
+      "valoare": 0.18
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:47:48",
+      "intrebare": "Preţul Dogecoin pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 263,
+      "rationament": "ușoară creștere",
+      "sha256": "5d4c6bfb34cf57dcd37a9854238c65c297b5c1aedde6e2fbf8c59b5c3606c8b6",
+      "valoare": 0.08
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:47:48",
+      "intrebare": "Preţul BNB pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 264,
+      "rationament": "creștere moderată",
+      "sha256": "5fdedb48cac475a2e956585c62f9e2050ba847372a5ce9e3a16d7f2b94628f56",
+      "valoare": 600.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:47:51",
+      "intrebare": "Preţul Bitcoin pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 258,
+      "rationament": "Creștere moderată bazată pe suportul de 62k și volatilitatea recentă.",
+      "sha256": "4b04955cb537b3e7c41eba2eb635efd96357fb57585e7a2698500d2d2a6f0de0",
+      "valoare": 65500.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:47:51",
+      "intrebare": "Preţul Ethereum pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 259,
+      "rationament": "Tendință ascendentă clară, testarea rezistenței psihologice de 1900 USD.",
+      "sha256": "b758849ebe441cd6c1eabf53064cb2551588bdc7773601541846feb175f8f17d",
+      "valoare": 1920.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:47:51",
+      "intrebare": "Preţul Solana pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 260,
+      "rationament": "Corecție continuă după vârf, lipsa cumpărătorilor la nivelul actual.",
+      "sha256": "67f449ec62eba949c9c6f444d7186898c01a68114684b250ae9f1d8c18d72f61",
+      "valoare": 74.5
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:47:51",
+      "intrebare": "Preţul XRP pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 261,
+      "rationament": "Stabilitate extremă, lipsă de volume pentru o mișcare semnificativă.",
+      "sha256": "f143e7573b4f9ca9d1cfd3dd2deff38b6a8ea754fb19ac18c9f483990124e70e",
+      "valoare": 1.09
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:47:51",
+      "intrebare": "Preţul Cardano pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 262,
+      "rationament": "Monedă stagnantă, tranzacționare laterală fără direcție clară.",
+      "sha256": "00cc022241b1611f7d50acebc2ce43aba8499999da761908cfe9d7785e039e1d",
+      "valoare": 0.17
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:47:51",
+      "intrebare": "Preţul Dogecoin pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 263,
+      "rationament": "Preț constant, nicio schimbare fundamentală sau tehnică vizibilă.",
+      "sha256": "421d3f2879629584cf4ba9dca555cd7c9d6713ec7c11cc3362d8c394ab4284f2",
+      "valoare": 0.07
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:47:51",
+      "intrebare": "Preţul BNB pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 264,
+      "rationament": "Impuls descendent recent, testarea suportului de 560 USD.",
+      "sha256": "171f3086f18bb8fc1984c0719677a57a904f080fcab8d7e34bf2d4784f3e7ea3",
+      "valoare": 565.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:47:59",
+      "intrebare": "Preţul Bitcoin pe 2026-08-17 (1 lună)",
+      "intrebare_id": 265,
+      "rationament": "Consolidare peste suportul de 62k și tendință ușor ascendentă spre finalul verii.",
+      "sha256": "05f8eb0d25e369cc190ca8408b10793e56d214dd86e4d6bf5140dd6af7fe4fb4",
+      "valoare": 66500.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:47:59",
+      "intrebare": "Preţul Ethereum pe 2026-08-17 (1 lună)",
+      "intrebare_id": 266,
+      "rationament": "Corelație puternică cu Bitcoin și potențial de creștere peste pragul psihologic de 1900 USD.",
+      "sha256": "f1943dadb5c20529bc50d2106d361b6ffcf600ee92ee5ebbc75176568be1c382",
+      "valoare": 1950.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:47:59",
+      "intrebare": "Preţul Solana pe 2026-08-17 (1 lună)",
+      "intrebare_id": 267,
+      "rationament": "Suport solid în zona de 75 USD și recuperare treptată pe fondul activității din rețea.",
+      "sha256": "e14f7cb57466ed63a05bd75bb9a455ccaf0c4ee2b403aa02a06a4bd54d150842",
+      "valoare": 78.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:47:59",
+      "intrebare": "Preţul XRP pe 2026-08-17 (1 lună)",
+      "intrebare_id": 268,
+      "rationament": "Stabilitate remarcabilă în jurul valorii de 1.10 USD, cu perspective de ușoară apreciere.",
+      "sha256": "801bbc8a779cc888d67c9eda500947b59c396e1cad8d359a1a09f0b3c935383b",
+      "valoare": 1.12
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:47:59",
+      "intrebare": "Preţul Cardano pe 2026-08-17 (1 lună)",
+      "intrebare_id": 269,
+      "rationament": "Evoluție laterală prelungită, cu șanse de breakout minor spre 0.18 USD.",
+      "sha256": "304e9991e42a3d0895d2917064d9d9fa879f13d28d8611315164dffbad5972ef",
+      "valoare": 0.18
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:47:59",
+      "intrebare": "Preţul Dogecoin pe 2026-08-17 (1 lună)",
+      "intrebare_id": 270,
+      "rationament": "Consolidare strictă la 0.07 USD, cu potențial de spike speculativ pe termen mediu.",
+      "sha256": "ada0e6f3c42ed74fc7d8a60571ad20ac51812376ccfd642c3f63a84ca694a59b",
+      "valoare": 0.075
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:47:59",
+      "intrebare": "Preţul BNB pe 2026-08-17 (1 lună)",
+      "intrebare_id": 271,
+      "rationament": "Menținerea utilității în ecosistem și revenire spre pragul de 590 USD.",
+      "sha256": "496e83f8c09704d336a964e9c29910e7968abb6dff310ccf5547b2d118ab6db8",
+      "valoare": 590.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:05",
+      "intrebare": "Preţul Bitcoin pe 2026-08-17 (1 lună)",
+      "intrebare_id": 265,
+      "rationament": "Momentum pozitiv, volatilitate crescută, probabilitate de creștere pe termen scurt.",
+      "sha256": "61dc64a13a2eda88d4c4b875f400ffdf4961e31f55d5e49ef7771139818dba17",
+      "valoare": 70000.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:05",
+      "intrebare": "Preţul Ethereum pe 2026-08-17 (1 lună)",
+      "intrebare_id": 266,
+      "rationament": "Trend ascendent recent, posibilă continuare pe fondul pieței optimiste.",
+      "sha256": "6e2624b7897f9c0dac25713b28ce18694dd2e8423f3392f29a8f42899dcbaf4c",
+      "valoare": 2000.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:05",
+      "intrebare": "Preţul Solana pe 2026-08-17 (1 lună)",
+      "intrebare_id": 267,
+      "rationament": "Stabilitate relativă, ușoară creștere anticipată pe baza volumului.",
+      "sha256": "30ac33867becab93ac8851d2b0a5e42108730882f7aa58877504bb309391a0f1",
+      "valoare": 80.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:05",
+      "intrebare": "Preţul XRP pe 2026-08-17 (1 lună)",
+      "intrebare_id": 268,
+      "rationament": "Mișcare laterală, potențial de creștere marginală pe termen scurt.",
+      "sha256": "87182ab1657be4989fdf4b6d46bedc39a6ad94da967dea10dfc5feb2cb952a78",
+      "valoare": 1.12
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:05",
+      "intrebare": "Preţul Cardano pe 2026-08-17 (1 lună)",
+      "intrebare_id": 269,
+      "rationament": "Volatilitate scăzută, posibilă apreciere minoră pe trendul pieței.",
+      "sha256": "1a3ccc6dc19b468efda9158ac16efc06bac5558639313f630a15557f12a96658",
+      "valoare": 0.18
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:05",
+      "intrebare": "Preţul Dogecoin pe 2026-08-17 (1 lună)",
+      "intrebare_id": 270,
+      "rationament": "Lipsă de catalizatori, stagnare probabilă la nivelul actual.",
+      "sha256": "92899595b4db89120f9163ed0aba282c5c48251523ca99810b90050c946dd49b",
+      "valoare": 0.07
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:05",
+      "intrebare": "Preţul BNB pe 2026-08-17 (1 lună)",
+      "intrebare_id": 271,
+      "rationament": "Trend ascendent, potențial de creștere moderată pe termen scurt.",
+      "sha256": "17e14154c70b7b52cdb8e5a99dac771c5918d6397191bd8aff8d54e5b203ee39",
+      "valoare": 600.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:06",
+      "intrebare": "Preţul Bitcoin pe 2026-08-17 (1 lună)",
+      "intrebare_id": 265,
+      "rationament": "trend ascendent",
+      "sha256": "9aa3144b75deaf13ac5b321109d14b60c63ad203ae3dc739bda9f2f432d8789a",
+      "valoare": 70000.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:06",
+      "intrebare": "Preţul Ethereum pe 2026-08-17 (1 lună)",
+      "intrebare_id": 266,
+      "rationament": "creștere graduală",
+      "sha256": "330436822edd4985428849bbe7e3b2dfd8519a7b23ed34f070c585b4da608f42",
+      "valoare": 2200.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:06",
+      "intrebare": "Preţul Solana pe 2026-08-17 (1 lună)",
+      "intrebare_id": 267,
+      "rationament": "stabilitate",
+      "sha256": "4a467c8fde169f041b608795dd750e7024fe7c5137119e3ef86e8a232781438c",
+      "valoare": 90.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:06",
+      "intrebare": "Preţul XRP pe 2026-08-17 (1 lună)",
+      "intrebare_id": 268,
+      "rationament": "ușoară creștere",
+      "sha256": "3f60bf6ca7e4901ee12dfa4374ebff395cdde5d938cd1b40b12d1cddbb69187d",
+      "valoare": 1.2
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:06",
+      "intrebare": "Preţul Cardano pe 2026-08-17 (1 lună)",
+      "intrebare_id": 269,
+      "rationament": "stabilitate",
+      "sha256": "9941a0e1aca614569e0c0f81bee5dea6d6394fbec665b50dde3619e65fb393a6",
+      "valoare": 0.2
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:06",
+      "intrebare": "Preţul Dogecoin pe 2026-08-17 (1 lună)",
+      "intrebare_id": 270,
+      "rationament": "ușoară creștere",
+      "sha256": "23a9eb2ad564f23ca18756835fba1a6167f4fa2be05d5f95631e8ad1b2d6fec4",
+      "valoare": 0.08
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:06",
+      "intrebare": "Preţul BNB pe 2026-08-17 (1 lună)",
+      "intrebare_id": 271,
+      "rationament": "trend pozitiv",
+      "sha256": "38caae29b292e86e6a334a7de42512d6d4a07cd55befd0424a3279a251b68e3c",
+      "valoare": 650.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:12",
+      "intrebare": "Preţul Bitcoin pe 2026-08-17 (1 lună)",
+      "intrebare_id": 265,
+      "rationament": "Consolidare peste 62k sugerează impuls bullish pentru o creștere moderată.",
+      "sha256": "3c990ef674ea792448625e2b1a628df9a85711dd307c764bc93ef809a77ec5b4",
+      "valoare": 66500.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:12",
+      "intrebare": "Preţul Ethereum pe 2026-08-17 (1 lună)",
+      "intrebare_id": 266,
+      "rationament": "Rezistența la 1900 va fi spartă urmând trendul Bitcoin.",
+      "sha256": "1c8c6f27e90a6f39b8851987307d20dba0e6aa68b7eb1acb0cd0420ac1bd526a",
+      "valoare": 1950.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:12",
+      "intrebare": "Preţul Solana pe 2026-08-17 (1 lună)",
+      "intrebare_id": 267,
+      "rationament": "Suportul la 75 a rezistat; volatilitatea favorizează o revenire.",
+      "sha256": "6a51242839e73f0b38bade67092595919a9008078b5108fd1ecd25516bab5fdb",
+      "valoare": 82.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:12",
+      "intrebare": "Preţul XRP pe 2026-08-17 (1 lună)",
+      "intrebare_id": 268,
+      "rationament": "Consolidarea prelungită la 1.09 indică acumulare pentru o creștere.",
+      "sha256": "9b90ad87ada8ffcb86bac477a33ebfeb2f7cecc7de747a3f9220dba219c64f60",
+      "valoare": 1.15
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:12",
+      "intrebare": "Preţul Cardano pe 2026-08-17 (1 lună)",
+      "intrebare_id": 269,
+      "rationament": "Stabilizarea la 0.17 sugerează o urcare lentă și sigură.",
+      "sha256": "5c4169eb14a74680d0ca077cbae71eaf4db1c5088cf9dc2069f52487298eb56d",
+      "valoare": 0.18
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:12",
+      "intrebare": "Preţul Dogecoin pe 2026-08-17 (1 lună)",
+      "intrebare_id": 270,
+      "rationament": "Tranzacționarea plată precede adesea o mișcare speculativă ascendentă.",
+      "sha256": "a5da9e1de340ab7a20c5ea795b28a7bee12bdfb8c4f4fa16e6485da9fdd5e56b",
+      "valoare": 0.075
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:12",
+      "intrebare": "Preţul BNB pe 2026-08-17 (1 lună)",
+      "intrebare_id": 271,
+      "rationament": "Recuperare de la suportul 568 așteptată dat fiind ecosistemul puternic.",
+      "sha256": "5a2dbd4e0ce38d54e32ae0417904755c6581a00c0502d1c13ad5a3b695888a44",
+      "valoare": 590.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:48:21",
+      "intrebare": "Preţul Bitcoin pe 2026-10-17 (3 luni)",
+      "intrebare_id": 272,
+      "rationament": "Tendința generală de acumulare și stabilitatea peste pragul de 60000 USD sugerează o creștere moderată în următoarele trei luni.",
+      "sha256": "2bd4710d956bfbed13d81cf8116350e7bb7d18050b849d63ad1e0bf058656d89",
+      "valoare": 68500.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:48:21",
+      "intrebare": "Preţul Ethereum pe 2026-10-17 (3 luni)",
+      "intrebare_id": 273,
+      "rationament": "Corelația istorică cu Bitcoin și actualizările de rețea vor susține o apreciere treptată spre pragul de 2000 USD.",
+      "sha256": "16988535425e2e1255aaa7e7d12b7267e6165d3b2892d1f3b3d638afd4553e30",
+      "valoare": 1980.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:48:21",
+      "intrebare": "Preţul Solana pe 2026-10-17 (3 luni)",
+      "intrebare_id": 274,
+      "rationament": "Activitatea crescută în ecosistemul DeFi și viteza rețelei vor atrage capital, determinând o recuperare peste nivelul actual.",
+      "sha256": "23a88feb8a1600a233e2f8b1584b50820b94bc568ee401e02cd4125ced38b469",
+      "valoare": 84.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:48:21",
+      "intrebare": "Preţul XRP pe 2026-10-17 (3 luni)",
+      "intrebare_id": 275,
+      "rationament": "Stabilitatea prețului indică o consolidare puternică, iar claritatea reglementărilor va favoriza o ușoară tendință ascendentă.",
+      "sha256": "8d58c9ad4cdd74053f6a099ecc9731efe98c907ca63444f8be94149dbe805798",
+      "valoare": 1.18
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:48:21",
+      "intrebare": "Preţul Cardano pe 2026-10-17 (3 luni)",
+      "intrebare_id": 276,
+      "rationament": "Deși evoluția recentă este foarte stabilă, dezvoltările tehnice continue vor genera o apreciere marginală pe termen mediu.",
+      "sha256": "624c621992148f8186f2b9fd96d70b42851751a4df1de0e72420a6b04274a0db",
+      "valoare": 0.19
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:48:21",
+      "intrebare": "Preţul Dogecoin pe 2026-10-17 (3 luni)",
+      "intrebare_id": 277,
+      "rationament": "Moneda manifestă o volatilitate scăzută în prezent, dar suportul comunității va menține prețul ușor peste nivelul actual.",
+      "sha256": "978bc87672cf4f859076072927caf8bfdcd1bcbf53e68097554c512c28a5d0af",
+      "valoare": 0.076
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:48:21",
+      "intrebare": "Preţul BNB pe 2026-10-17 (3 luni)",
+      "intrebare_id": 278,
+      "rationament": "Cererea constantă pentru utilitatea BNB în ecosistemul Binance va propulsa prețul spre noi praguri de rezistență.",
+      "sha256": "c83c36e55809f7f52fc631a7ffb55e210d92698fd1fd7df11cc13302bddbe93e",
+      "valoare": 610.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:26",
+      "intrebare": "Preţul Bitcoin pe 2026-10-17 (3 luni)",
+      "intrebare_id": 272,
+      "rationament": "Trendul recent e ușor ascendent, volatilitate moderată, probabilitate de creștere pe termen mediu, fără șocuri majore anticipate.",
+      "sha256": "f85c5ea489df4316ba3b1c50bb086f08dadb0b8bafe579fab2f1aa18d262c81d",
+      "valoare": 70000.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:26",
+      "intrebare": "Preţul Ethereum pe 2026-10-17 (3 luni)",
+      "intrebare_id": 273,
+      "rationament": "Recentele creșteri sugerează potențial de apreciere, ecosistemul rămâne activ, dar volatilitatea poate limita avansul.",
+      "sha256": "83821cf2d7ffa6a469f1fbea483b347f94bc12dfd5ff7e016c9e97d58500fd00",
+      "valoare": 2000.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:26",
+      "intrebare": "Preţul Solana pe 2026-10-17 (3 luni)",
+      "intrebare_id": 274,
+      "rationament": "Preț stabil, ecosistem în expansiune, probabilitate de creștere moderată dacă nu apar probleme tehnice.",
+      "sha256": "e5a1a011fcc63085552ce5c7f4183f4748b1adf98672fd75fe00b36e6910c2d1",
+      "valoare": 80.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:26",
+      "intrebare": "Preţul XRP pe 2026-10-17 (3 luni)",
+      "intrebare_id": 275,
+      "rationament": "Stabilitate recentă, potențial de creștere limitat, depinde de evoluția reglementărilor și litigii.",
+      "sha256": "7a9cb5326afa1ba4ae1dee9fea9f5c37e0930315f6dc664f712ce1704073e790",
+      "valoare": 1.15
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:26",
+      "intrebare": "Preţul Cardano pe 2026-10-17 (3 luni)",
+      "intrebare_id": 276,
+      "rationament": "Preț foarte stabil, ecosistem lent, creștere ușoară posibilă dacă apar update-uri majore.",
+      "sha256": "d67cdc8fd463db008902034bbad407aa62751a9fce71fe028e79a3c92109e952",
+      "valoare": 0.18
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:26",
+      "intrebare": "Preţul Dogecoin pe 2026-10-17 (3 luni)",
+      "intrebare_id": 277,
+      "rationament": "Volatilitate scăzută, hype redus, creștere marginală posibilă pe termen mediu.",
+      "sha256": "d486b9d4200c27618c279a26b154099fa3c552fe0f1d07b496667fdc28b98168",
+      "valoare": 0.08
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:26",
+      "intrebare": "Preţul BNB pe 2026-10-17 (3 luni)",
+      "intrebare_id": 278,
+      "rationament": "Trend ascendent recent, Binance rămâne relevant, potențial de creștere moderată dacă nu apar probleme de reglementare.",
+      "sha256": "b016cb1a546984586819ad56d14ebbef07334aa5e46075102ef6063e10ab883d",
+      "valoare": 600.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:27",
+      "intrebare": "Preţul Bitcoin pe 2026-10-17 (3 luni)",
+      "intrebare_id": 272,
+      "rationament": "trend ascendent",
+      "sha256": "0d07f032c0057fa6c9b1455532083f63008f53cc6c22dc1ae8e1c318256b6851",
+      "valoare": 70000.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:27",
+      "intrebare": "Preţul Ethereum pe 2026-10-17 (3 luni)",
+      "intrebare_id": 273,
+      "rationament": "dezvoltări tehnologice",
+      "sha256": "27f12338ac7951b9f773227226b005642e7d45d1e9b6570c97ae412970235b32",
+      "valoare": 2200.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:27",
+      "intrebare": "Preţul Solana pe 2026-10-17 (3 luni)",
+      "intrebare_id": 274,
+      "rationament": "creștere adopție",
+      "sha256": "5599a93a764a6d6273034508aa7b8e097d9fd1dcc3443787e2806ec2dd5e0d31",
+      "valoare": 90.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:27",
+      "intrebare": "Preţul XRP pe 2026-10-17 (3 luni)",
+      "intrebare_id": 275,
+      "rationament": "parteneriate strategice",
+      "sha256": "77d539c65930f65ccdeb19bba2347dfef52d6aecc2647a086d2d6f3f3c571aad",
+      "valoare": 1.2
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:27",
+      "intrebare": "Preţul Cardano pe 2026-10-17 (3 luni)",
+      "intrebare_id": 276,
+      "rationament": "îmbunătățiri protocol",
+      "sha256": "9f4dd9fa7061af628e0b7ac8b6bc967a982471c2c8991e1de22d4f6667168406",
+      "valoare": 0.2
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:27",
+      "intrebare": "Preţul Dogecoin pe 2026-10-17 (3 luni)",
+      "intrebare_id": 277,
+      "rationament": "popularitate",
+      "sha256": "2482dfcd1ece9e9ae10ed8895e6d182b677ebdf5b0cbf2b9c980813a386bb0fd",
+      "valoare": 0.08
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:27",
+      "intrebare": "Preţul BNB pe 2026-10-17 (3 luni)",
+      "intrebare_id": 278,
+      "rationament": "extindere ecosistem",
+      "sha256": "b0f9f46b0a70fc94f8b08c88ae24710f9c44cfc39a8b8102a9e71154e43f6c81",
+      "valoare": 650.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:33",
+      "intrebare": "Preţul Bitcoin pe 2026-10-17 (3 luni)",
+      "intrebare_id": 272,
+      "rationament": "Corecție tehnică în piața matură, ciclu 2026.",
+      "sha256": "5508b3f36b06c4fc8b177126fb4976fdf5d7444e47b1594d5d0fed76bbf45f5a",
+      "valoare": 61000.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:33",
+      "intrebare": "Preţul Ethereum pe 2026-10-17 (3 luni)",
+      "intrebare_id": 273,
+      "rationament": "Lichidare lentă din cauza lipsei de catalizatori.",
+      "sha256": "4b3d574d88082f8b5672cd1733804abc4f4039ab698a0f5745f874b01a8c041a",
+      "valoare": 1750.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:33",
+      "intrebare": "Preţul Solana pe 2026-10-17 (3 luni)",
+      "intrebare_id": 274,
+      "rationament": "Epuizarea trendului, vânzare pe niveluri de rezistență.",
+      "sha256": "1f0745fdde69e94c5c97637d80d26babbee734018e26fe7cd0fa3a54670e0112",
+      "valoare": 72.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:33",
+      "intrebare": "Preţul XRP pe 2026-10-17 (3 luni)",
+      "intrebare_id": 275,
+      "rationament": "Stagnare prelungită duce la epuizarea cumpărătorilor.",
+      "sha256": "475f70e904d83b9bbbc64c6a6fb9650e4a2f826607ff806d28706a81065f8755",
+      "valoare": 1.05
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:33",
+      "intrebare": "Preţul Cardano pe 2026-10-17 (3 luni)",
+      "intrebare_id": 276,
+      "rationament": "Trend descendent lent pe fondul volumelor mici.",
+      "sha256": "381210ebc57a8728416e31ffd8e405d1b28f4c08b6a21f4f04e64a862539197b",
+      "valoare": 0.16
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:33",
+      "intrebare": "Preţul Dogecoin pe 2026-10-17 (3 luni)",
+      "intrebare_id": 277,
+      "rationament": "Lipsa de hype social reduce interesul investitorilor.",
+      "sha256": "9e137821ee30a91b1485dfa41a32bf8aad851e82fcbfa6c533aa38366b506004",
+      "valoare": 0.068
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:33",
+      "intrebare": "Preţul BNB pe 2026-10-17 (3 luni)",
+      "intrebare_id": 278,
+      "rationament": "Presiune regulamentară continuă asupra ecosistemului centralizat.",
+      "sha256": "209b6a91e6f1188c879a4dfce11b89b9589438b21be52288affc58cbb37d8f2b",
+      "valoare": 550.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:48:39",
+      "intrebare": "Preţul Bitcoin pe 2027-07-18 (1 an)",
+      "intrebare_id": 279,
+      "rationament": "Adoptarea instituțională continuă și statutul de aur digital vor propulsa Bitcoin spre noi maxime istorice, consolidându-i stabilitatea pe termen lung.",
+      "sha256": "164644112d1a117d1ac842305c1155a799e9433e749eb705f5620166f4ecf23f",
+      "valoare": 85000.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:48:39",
+      "intrebare": "Preţul Ethereum pe 2027-07-18 (1 an)",
+      "intrebare_id": 280,
+      "rationament": "Tranziția completă către scalabilitate prin L2 și cererea crescută pentru smart contracts vor susține aprecierea semnificativă a Ethereum.",
+      "sha256": "222962a1bb74a4c5519e7cfb779843ac0edd552e100d0d6ecc3f2b851e49e1ec",
+      "valoare": 3200.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:48:39",
+      "intrebare": "Preţul Solana pe 2027-07-18 (1 an)",
+      "intrebare_id": 281,
+      "rationament": "Viteza superioară de tranzacționare și atragerea de noi proiecte DeFi vor stimula creșterea Solana, în ciuda competiției intense.",
+      "sha256": "ebd79e91ad4487e99610d4dd31602b44e5a215f931e452a26b65849cc10a51a9",
+      "valoare": 130.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:42",
+      "intrebare": "Preţul Bitcoin pe 2027-07-18 (1 an)",
+      "intrebare_id": 279,
+      "rationament": "Adopția instituțională și oferta limitată vor susține creșterea, cu volatilitate, dar fără riscuri existențiale majore.",
+      "sha256": "b4846e6132f80ba3e36029f4e085c92ee80c96bb63cdd09083a7358b36d569a5",
+      "valoare": 150000.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:42",
+      "intrebare": "Preţul Ethereum pe 2027-07-18 (1 an)",
+      "intrebare_id": 280,
+      "rationament": "Utilitatea în DeFi și NFT, upgrade-uri tehnice, dar competiția și reglementarea pot limita creșterea.",
+      "sha256": "258ed084bdc637701fcb344bb84d89a79e96e2456a2451b19f819efca41bd04d",
+      "valoare": 3500.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:48:42",
+      "intrebare": "Preţul Solana pe 2027-07-18 (1 an)",
+      "intrebare_id": 281,
+      "rationament": "Creștere moderată, dar riscuri tehnice și competiția pot afecta traiectoria pe termen lung.",
+      "sha256": "4d4b4942005292f163cedaa4eb95af8bbc05786338dcf0addbb35a5aa2310710",
+      "valoare": 120.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:42",
+      "intrebare": "Preţul Bitcoin pe 2027-07-18 (1 an)",
+      "intrebare_id": 279,
+      "rationament": "creștere graduală datorită adopției instituționale",
+      "sha256": "396bc5acf039f0c0348d2a155751d5caa13d42458f2e13c124099204641a3820",
+      "valoare": 100000.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:42",
+      "intrebare": "Preţul Ethereum pe 2027-07-18 (1 an)",
+      "intrebare_id": 280,
+      "rationament": "dezvoltarea DeFi și a soluțiilor layer 2",
+      "sha256": "86edc77592888dac1cf7b7f608c702d344aaa1fd77d958b825e8217ccea677b2",
+      "valoare": 3000.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:48:42",
+      "intrebare": "Preţul Solana pe 2027-07-18 (1 an)",
+      "intrebare_id": 281,
+      "rationament": "progresul în tehnologia blockchain și parteneriate strategice",
+      "sha256": "f9ce58a4296498ddd7e77e482d70fd4f1b229bc1db239d878cbf760dc9f4f77d",
+      "valoare": 150.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:47",
+      "intrebare": "Preţul Bitcoin pe 2027-07-18 (1 an)",
+      "intrebare_id": 279,
+      "rationament": "Acumulare lentă pre-halving, susținută de ETF-uri și adoptare instituțională tot mai largă.",
+      "sha256": "f6ef13d00c190feae33da4ef8e9bd128b89963403488a11f01cac83b5a9a3f07",
+      "valoare": 72450.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:47",
+      "intrebare": "Preţul Ethereum pe 2027-07-18 (1 an)",
+      "intrebare_id": 280,
+      "rationament": "Scalabilitate îmbunătățită și revenirea activității DeFi mențin un preț stabil în piața matură.",
+      "sha256": "c95fc842f2006288ba99f2968a23203457be5a2f70f3067463d9a6cac685bf42",
+      "valoare": 2120.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:48:47",
+      "intrebare": "Preţul Solana pe 2027-07-18 (1 an)",
+      "intrebare_id": 281,
+      "rationament": "Adopție retail puternică și ecosistem DEX activ, contrabalansate de riscurile de centralizare.",
+      "sha256": "1d3c214b8392b13e4d1fb672176e6f8a73f9fdc384619975df453e84c154b580",
+      "valoare": 81.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:49:02",
+      "intrebare": "Preţul Bitcoin pe 2029-07-17 (3 ani)",
+      "intrebare_id": 282,
+      "rationament": "Adoptarea instituțională globală, statutul de aur digital și efectele halving-ului din 2028 vor propulsa Bitcoin ca activ de rezervă global de bază.",
+      "sha256": "ab109af519e9ba91f965b9c0535cfe5d1ec7fb44c88111ac9e655599585832d6",
+      "valoare": 125000.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:49:02",
+      "intrebare": "Preţul Ethereum pe 2029-07-17 (3 ani)",
+      "intrebare_id": 283,
+      "rationament": "Tranziția completă spre L2-uri, utilitatea în contracte inteligente și staking-ul instituțional vor consolida Ethereum ca infrastructură financiară descentralizată globală.",
+      "sha256": "e3b2a63e763f919d88587dab929aaf272819d2d5654ff516a6d21215a125a288",
+      "valoare": 4200.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:49:02",
+      "intrebare": "Preţul Solana pe 2029-07-17 (3 ani)",
+      "intrebare_id": 284,
+      "rationament": "Viteza superioară și costurile reduse vor atrage adopția de masă în microtranzacții și gaming, consolidându-i poziția în topul rețelelor de smart contracts.",
+      "sha256": "63800b7ec321c84cd06d35accee0c3011f6e5d9e926176b988db60bfff4571a1",
+      "valoare": 220.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:49:06",
+      "intrebare": "Preţul Bitcoin pe 2029-07-17 (3 ani)",
+      "intrebare_id": 282,
+      "rationament": "Adopția instituțională și oferta limitată vor susține creșterea, dar volatilitatea și riscurile reglementării pot încetini avansul.",
+      "sha256": "512a4da596cb0a98c36f09ddd680a986638b8215d23b8697b5ab2758c249698b",
+      "valoare": 150000.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:49:06",
+      "intrebare": "Preţul Ethereum pe 2029-07-17 (3 ani)",
+      "intrebare_id": 283,
+      "rationament": "Va rămâne platforma principală pentru DeFi și NFT, dar competiția și reglementarea pot limita creșterea.",
+      "sha256": "26f34db6df1fb53909e228df588a324148709b0e80fba2a43bce9fbb804e5357",
+      "valoare": 3500.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:49:06",
+      "intrebare": "Preţul Solana pe 2029-07-17 (3 ani)",
+      "intrebare_id": 284,
+      "rationament": "Creștere moderată dacă își menține poziția tehnologică, dar riscurile de securitate și concurența pot afecta evoluția.",
+      "sha256": "9330f6173dbceb3e4e0e54c6eef2e2a9803f15714d133a4ca333465dc7a19023",
+      "valoare": 120.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:49:06",
+      "intrebare": "Preţul Bitcoin pe 2029-07-17 (3 ani)",
+      "intrebare_id": 282,
+      "rationament": "Creștere graduală datorită adopției instituționale",
+      "sha256": "f5b0f6884f097d8caeeede64fb1973192952a27110c83d8daf77e03b3b93a72b",
+      "valoare": 150000.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:49:06",
+      "intrebare": "Preţul Ethereum pe 2029-07-17 (3 ani)",
+      "intrebare_id": 283,
+      "rationament": "Îmbunătățiri tehnologice și adopție în DeFi",
+      "sha256": "7c385cac951db189a407da27c806e29a8f74a1ef56bc086ee6d84b264dfe31b5",
+      "valoare": 8000.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:49:06",
+      "intrebare": "Preţul Solana pe 2029-07-17 (3 ani)",
+      "intrebare_id": 284,
+      "rationament": "Scalabilitate și viteză, dar concurență acerbă",
+      "sha256": "f5240f47400817d46c59765b7d8126d03a1444707995bd6033f409cc4b0a1be6",
+      "valoare": 200.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:49:10",
+      "intrebare": "Preţul Bitcoin pe 2029-07-17 (3 ani)",
+      "intrebare_id": 282,
+      "rationament": "Post-halving cycle peak and institutional adoption drive price to unprecedented all-time highs.",
+      "sha256": "7122a2bc08acf9ff2a43f580be641f9cbb1873c2769fac2381e32d9b60077430",
+      "valoare": 195000.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:49:10",
+      "intrebare": "Preţul Ethereum pe 2029-07-17 (3 ani)",
+      "intrebare_id": 283,
+      "rationament": "Layer-2 scaling and regulatory clarity boost utility, driving strong performance against Bitcoin.",
+      "sha256": "82555c4d0fc8ea97b3ee9cf3c1b863117f3ad077e9583dc3a73bda69bfe75dfd",
+      "valoare": 8500.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:49:10",
+      "intrebare": "Preţul Solana pe 2029-07-17 (3 ani)",
+      "intrebare_id": 284,
+      "rationament": "Ecosystem expansion and high-speed network capture significant market share from legacy blockchains.",
+      "sha256": "3b90b1cf3c4432906bb79d1fb88c1e06303f256195f3c09b95497106235cada7",
+      "valoare": 720.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:49:26",
+      "intrebare": "Preţul Bitcoin pe 2036-07-17 (10 ani)",
+      "intrebare_id": 285,
+      "rationament": "Bitcoin se va consolida ca aur digital și activ de rezervă global, susținut de adopția instituțională și de raritatea sa algoritmică.",
+      "sha256": "6043c51e6b97bd69c25e3cf78f867a26731b1105fdc4075931762e3e91bcc51b",
+      "valoare": 550000.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:49:26",
+      "intrebare": "Preţul Ethereum pe 2036-07-17 (10 ani)",
+      "intrebare_id": 286,
+      "rationament": "Ethereum va rămâne standardul pentru smart contracts și tokenizarea activelor globale, beneficiind de un efect de rețea masiv.",
+      "sha256": "12cc8901f418a30cf852b83a587c264fc074dce656aadc7a40e5abd208bb5d9b",
+      "valoare": 15000.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:49:26",
+      "intrebare": "Preţul Solana pe 2036-07-17 (10 ani)",
+      "intrebare_id": 287,
+      "rationament": "Solana va capta o cotă majoră din tranzacțiile de retail și Web3 datorită vitezei, în ciuda competiției și a riscurilor de centralizare.",
+      "sha256": "238a2bb625e58c71b30fb01384a47d9d4795db264e84549cb482134f1ca314ba",
+      "valoare": 800.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:49:31",
+      "intrebare": "Preţul Bitcoin pe 2036-07-17 (10 ani)",
+      "intrebare_id": 285,
+      "rationament": "Bitcoin va supraviețui, va crește lent, va rămâne dominant ca rezervă digitală, dar reglementările și competiția vor tempera creșterea.",
+      "sha256": "4c822da22c91018533469ccaa7d2e74f38d528c084483ac904046afdd60e9a3e",
+      "valoare": 150000.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:49:31",
+      "intrebare": "Preţul Ethereum pe 2036-07-17 (10 ani)",
+      "intrebare_id": 286,
+      "rationament": "Ethereum va exista, va crește moderat, va rămâne relevant în DeFi/NFT, dar va fi afectat de competiție și scalabilitate.",
+      "sha256": "46ea12615b881344eff3e835d0a64bc8d82009a123fffa08da3ce5d770a4e940",
+      "valoare": 3500.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:49:31",
+      "intrebare": "Preţul Solana pe 2036-07-17 (10 ani)",
+      "intrebare_id": 287,
+      "rationament": "Solana va supraviețui dacă evită riscurile tehnice, va crește, dar va fi eclipsată de blockchain-uri noi și reglementări.",
+      "sha256": "f698dce158f1a876bd9bfc52a98656bcdd713d34210db1ad4b10ee2df1588f46",
+      "valoare": 120.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:49:32",
+      "intrebare": "Preţul Bitcoin pe 2036-07-17 (10 ani)",
+      "intrebare_id": 285,
+      "rationament": "creștere graduală datorită adopției și limitării ofertei",
+      "sha256": "b9386bc20715a8e61d40b91a8b16c2abed875a52feb8765c385e11ddf796a1f2",
+      "valoare": 150000.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:49:32",
+      "intrebare": "Preţul Ethereum pe 2036-07-17 (10 ani)",
+      "intrebare_id": 286,
+      "rationament": "dezvoltarea DeFi și a tehnologiei sale",
+      "sha256": "c3691b5e8e344cccc2a94d0ca5607dfe406027eda5732c65c280c82b0fbed0b3",
+      "valoare": 8000.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:49:32",
+      "intrebare": "Preţul Solana pe 2036-07-17 (10 ani)",
+      "intrebare_id": 287,
+      "rationament": "scalabilitate și viteză, dar și concurență acerbă",
+      "sha256": "6db3eaff654ece72d72cdc794098705ed88b237a323b1f9a0b7095e8a33e47f6",
+      "valoare": 200.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:49:36",
+      "intrebare": "Preţul Bitcoin pe 2036-07-17 (10 ani)",
+      "intrebare_id": 285,
+      "rationament": "Adopția instituțională masivă și raritatea digitală îl consolidează ca rezervă de valoare globală, depășind activele tradiționale.",
+      "sha256": "45e861078c9d17da6f9e78a26764640f6f08adc88063a1554cf740bb89cdbde5",
+      "valoare": 285000.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:49:36",
+      "intrebare": "Preţul Ethereum pe 2036-07-17 (10 ani)",
+      "intrebare_id": 286,
+      "rationament": "Infrastructura critică pentru finanțe descentralizate; reglementările pot încetini creșterea, dar utilitatea rămâne fundamentală pentru ecosistem.",
+      "sha256": "6ecb32791feed9909aaad509d6fca1e3d16c62b86f14b034f6dd0dc02eec5a0f",
+      "valoare": 12500.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:49:36",
+      "intrebare": "Preţul Solana pe 2036-07-17 (10 ani)",
+      "intrebare_id": 287,
+      "rationament": "Viteza și costul mic atrag utilizatori masivi, dar riscurile de centralizare și competiția L1 mențin volatilitatea ridicată.",
+      "sha256": "2c8dfcd7a8c0276d6aedb595fb78752e901939a9dc85ae3f456d8d573e86832f",
+      "valoare": 850.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:49:45",
+      "intrebare": "Preţul Bitcoin pe 2026-07-18",
+      "intrebare_id": 288,
+      "rationament": "Prețul a arătat o ușoară recuperare pe 17 iulie, sugerând o tendință de stabilizare pe termen scurt.",
+      "sha256": "a523daada0b13f21cf210e749fed8a0005816ecd6e2a90e98c668e62b98c38ed",
+      "valoare": 64350.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:49:45",
+      "intrebare": "Preţul Ethereum pe 2026-07-18",
+      "intrebare_id": 289,
+      "rationament": "Corecția recentă de la maximul de 1917 USD indică o continuare a scăderii ușoare spre suport.",
+      "sha256": "6f6b7da415067892ff9e54f23998232008169c86e9f0e1d6259fd2057692d361",
+      "valoare": 1835.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:49:45",
+      "intrebare": "Preţul Solana pe 2026-07-18",
+      "intrebare_id": 290,
+      "rationament": "Scăderea constantă din ultimele trei zile sugerează menținerea unei presiuni de vânzare pe termen scurt.",
+      "sha256": "5e7938dff4bc87927fbb46841f59e470957212bdde495b69aaffe39b87378c9b",
+      "valoare": 74.8
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:49:45",
+      "intrebare": "Preţul XRP pe 2026-07-18",
+      "intrebare_id": 291,
+      "rationament": "Consolidarea strânsă în jurul valorii de 1.09 USD indică o probabilitate mare de menținere a stabilității.",
+      "sha256": "874b9e211414f59d4d69fee004e8c1046a1527a524874a050615e3baa172fc6a",
+      "valoare": 1.1
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:49:45",
+      "intrebare": "Preţul Cardano pe 2026-07-18",
+      "intrebare_id": 292,
+      "rationament": "Evoluția laterală extrem de stabilă indică menținerea prețului în intervalul de 0.17 USD.",
+      "sha256": "46cd729a60962d7abdeee33e4507d1fc7fe793a191bc24735e8bda1a2af9f045",
+      "valoare": 0.17
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:49:45",
+      "intrebare": "Preţul Dogecoin pe 2026-07-18",
+      "intrebare_id": 293,
+      "rationament": "Prețul a rămas neschimbat la 0.07 USD pe parcursul întregii perioade, indicând volatilitate minimă.",
+      "sha256": "768dfe95258e73ac9f745a3f84294ff0188572d76c513147e54ef6b22534e4b0",
+      "valoare": 0.07
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 00:49:45",
+      "intrebare": "Preţul BNB pe 2026-07-18",
+      "intrebare_id": 294,
+      "rationament": "Tendința descendentă din ultimele zile sugerează o continuare a corecției spre pragul de 565 USD.",
+      "sha256": "ddf28df955c9463c04c4e0a8a69025db7000dc9867c29ffee221d33ffc5edf71",
+      "valoare": 565.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:49:49",
+      "intrebare": "Preţul Bitcoin pe 2026-07-18",
+      "intrebare_id": 288,
+      "rationament": "Oscilații recente, probabil ușoară creștere față de azi.",
+      "sha256": "39d67fc9528557e0f5a7469da85066788b5d15c8d8db7848f5bc13bd35efb6cd",
+      "valoare": 64300.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:49:49",
+      "intrebare": "Preţul Ethereum pe 2026-07-18",
+      "intrebare_id": 289,
+      "rationament": "Tendință descendentă după maxim, posibilă revenire moderată.",
+      "sha256": "9e53e7dbbb003b7967d16d2a79225a20339845699db2047b5db93a339f4677a1",
+      "valoare": 1850.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:49:49",
+      "intrebare": "Preţul Solana pe 2026-07-18",
+      "intrebare_id": 290,
+      "rationament": "Stabilitate, ușoară revenire după scădere.",
+      "sha256": "e58646fcc794117ba2a0539e1929bf91c09b286b3337073ccf815c5016c83a92",
+      "valoare": 75.2
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:49:49",
+      "intrebare": "Preţul XRP pe 2026-07-18",
+      "intrebare_id": 291,
+      "rationament": "Stagnare, volatilitate minimă, probabil neschimbat.",
+      "sha256": "6cd1a15bc462ea9489e5fe36665c16c3f3b64b731a1c2837f2476c00dcaf39e9",
+      "valoare": 1.09
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:49:49",
+      "intrebare": "Preţul Cardano pe 2026-07-18",
+      "intrebare_id": 292,
+      "rationament": "Oscilații mici, probabil neschimbat.",
+      "sha256": "0170d499a0c7449d57e89812184179b0f33bb5c805c710aecb7d2612b6145269",
+      "valoare": 0.17
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:49:49",
+      "intrebare": "Preţul Dogecoin pe 2026-07-18",
+      "intrebare_id": 293,
+      "rationament": "Stabilitate maximă, probabil neschimbat.",
+      "sha256": "107c8650e1c83c05c277558e11b063aa8420e153da8fa22e66c34653f503887a",
+      "valoare": 0.07
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 00:49:49",
+      "intrebare": "Preţul BNB pe 2026-07-18",
+      "intrebare_id": 294,
+      "rationament": "Mică revenire după scădere, volatilitate moderată.",
+      "sha256": "92de9ba2cba969613a54068e53118f6cfc258a0ca84ebd7c349444a8257459f0",
+      "valoare": 570.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:49:50",
+      "intrebare": "Preţul Bitcoin pe 2026-07-18",
+      "intrebare_id": 288,
+      "rationament": "Tendință de creștere în ultimele zile",
+      "sha256": "c93cc050479c650291752af9667f4655fceb397ec7b5112f21a498ee2df19a08",
+      "valoare": 64300.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:49:50",
+      "intrebare": "Preţul Ethereum pe 2026-07-18",
+      "intrebare_id": 289,
+      "rationament": "Stabil în jurul valorii de 1800",
+      "sha256": "e6f34c40f955c8e2cb135983d7ea0925341338ec66046397684fb9919545e43b",
+      "valoare": 1830.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:49:50",
+      "intrebare": "Preţul Solana pe 2026-07-18",
+      "intrebare_id": 290,
+      "rationament": "Oscilații mici în jurul valorii de 75",
+      "sha256": "45b3488aa059b1554d6bc69d7a04d6ed3e770214028543c7fffc2c7929e79735",
+      "valoare": 76.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:49:50",
+      "intrebare": "Preţul XRP pe 2026-07-18",
+      "intrebare_id": 291,
+      "rationament": "Stabil la 1.09",
+      "sha256": "5b7c0165532617acf8f3876d236a5b061109573fbcc5fb39f2043f4f1d92fcde",
+      "valoare": 1.09
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:49:50",
+      "intrebare": "Preţul Cardano pe 2026-07-18",
+      "intrebare_id": 292,
+      "rationament": "Puțin sub 0.17",
+      "sha256": "9e8c5b3e0ca80307500456a922601757c62fa276f5babb2ce1e1dc0847a72266",
+      "valoare": 0.165
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:49:50",
+      "intrebare": "Preţul Dogecoin pe 2026-07-18",
+      "intrebare_id": 293,
+      "rationament": "Constant la 0.07",
+      "sha256": "65207e1b6cf7f04373edef28f8e2901c69ba626672036e71c96fbb155db69a27",
+      "valoare": 0.07
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-18 00:49:50",
+      "intrebare": "Preţul BNB pe 2026-07-18",
+      "intrebare_id": 294,
+      "rationament": "În jurul valorii de 570",
+      "sha256": "a2182b152a04d8c1a458c71f0519ad825b45336212f0dbd280b0780e36687c2c",
+      "valoare": 570.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:49:54",
+      "intrebare": "Preţul Bitcoin pe 2026-07-18",
+      "intrebare_id": 288,
+      "rationament": "Trend ușor ascendent recent, volatilitate medie.",
+      "sha256": "17e2312074155fabb2ee932b8a179431560a09988fcbb6ad96690556f5992c0b",
+      "valoare": 64200.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:49:54",
+      "intrebare": "Preţul Ethereum pe 2026-07-18",
+      "intrebare_id": 289,
+      "rationament": "Corecție după vârf, posibil suport la 1830.",
+      "sha256": "493f75dc0475eb6cb7d0042e7be979a9e7747633f32281c46c723bd710b368e8",
+      "valoare": 1835.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:49:54",
+      "intrebare": "Preţul Solana pe 2026-07-18",
+      "intrebare_id": 290,
+      "rationament": "Momentum descendent, testarea suportului inferior.",
+      "sha256": "19767de32b569a6e46a5271f7a3004306b5eab91a0c9cac7f90bef1c7b1a21bd",
+      "valoare": 74.8
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:49:54",
+      "intrebare": "Preţul XRP pe 2026-07-18",
+      "intrebare_id": 291,
+      "rationament": "Stabilitate extremă, oscilații minime.",
+      "sha256": "6bac5cf0ea810236101cf62737d65541485a592826979c4733f70d80d8054508",
+      "valoare": 1.09
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:49:54",
+      "intrebare": "Preţul Cardano pe 2026-07-18",
+      "intrebare_id": 292,
+      "rationament": "Oscilație între 0.16 și 0.17, rămâne sus.",
+      "sha256": "7d021b01eaf470d4f4780cc6ff345c05889705efba041ce6b781e79585d48834",
+      "valoare": 0.17
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:49:54",
+      "intrebare": "Preţul Dogecoin pe 2026-07-18",
+      "intrebare_id": 293,
+      "rationament": "Preț constant, nicio schimbare detectată.",
+      "sha256": "9d03278f3fcd7a21384380bfb032094cd88cca4339f6fdd268c5d7c58e5460e5",
+      "valoare": 0.07
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 00:49:54",
+      "intrebare": "Preţul BNB pe 2026-07-18",
+      "intrebare_id": 294,
+      "rationament": "Ușor scăzut, posibil mic rebound.",
+      "sha256": "e0b8edb7a3f683d753223f3b667348cb20cdffe938b720a9222118762b5a73ee",
+      "valoare": 569.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:14",
+      "intrebare": "Preţul Bitcoin pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 258,
+      "rationament": "Consolidare în jur de 64k, ușor pozitivă după recuperarea de la minimul din 13 iulie.",
+      "sha256": "eedeb9c18877289372cf7afcf1f27d191c5bea4fda64bcc708d5feeb52929bc3",
+      "valoare": 64500.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:14",
+      "intrebare": "Preţul Ethereum pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 259,
+      "rationament": "Momentum mai bun ca BTC; vârf 1917 recent, mă aștept la stabilizare peste 1840.",
+      "sha256": "30d79b261771eed0fdeb21fb6f442ce663d1ff84fed3c3b8027ca398f8877fbf",
+      "valoare": 1870.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:14",
+      "intrebare": "Preţul Solana pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 260,
+      "rationament": "Tendință ușor descendentă în ultima săptămână, presiune sub 76.",
+      "sha256": "1b056f52dd831e19d71629dc4f39293a24fb9129c4073f9fb7384989a9002699",
+      "valoare": 74.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:14",
+      "intrebare": "Preţul XRP pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 261,
+      "rationament": "Extrem de stabil în jur de 1.09-1.10, fără catalizator vizibil.",
+      "sha256": "4b36d5235c3dcf15e4771bb794974d514bb7e091e0fe8f206af27d0096b1f110",
+      "valoare": 1.09
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:14",
+      "intrebare": "Preţul Cardano pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 262,
+      "rationament": "Oscilează strâns 0.16-0.17, revine la 0.17.",
+      "sha256": "45843b3bd178b7018182bcc41cde1661d24552a6eed6fde9d14280bde14d07f2",
+      "valoare": 0.17
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:14",
+      "intrebare": "Preţul Dogecoin pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 263,
+      "rationament": "Plat la 0.07 timp de zece zile, nicio schimbare așteptată.",
+      "sha256": "d597a6da2b55ef0f2dad5f04194a25535b2bb29c6ebad5f48048037ecd4a8572",
+      "valoare": 0.07
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:14",
+      "intrebare": "Preţul BNB pe 2026-07-25 (1 săptămână)",
+      "intrebare_id": 264,
+      "rationament": "Interval 567-582, revenire ușoară spre mijloc după scăderea recentă.",
+      "sha256": "3c8fe15902c362d10ebbc1beee151a9b2aef2c827f5c8301b3cbba9bd5a60ba8",
+      "valoare": 571.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:30",
+      "intrebare": "Preţul Bitcoin pe 2026-08-17 (1 lună)",
+      "intrebare_id": 265,
+      "rationament": "Trend ușor ascendent pe 10 zile, consolidare peste 62k; mă aștept la o creștere moderată într-o lună.",
+      "sha256": "e565e68b1423b8ac6ae9a01e815d15935bc148045283adf6ffb600411cab5030",
+      "valoare": 66500.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:30",
+      "intrebare": "Preţul Ethereum pe 2026-08-17 (1 lună)",
+      "intrebare_id": 266,
+      "rationament": "Momentum pozitiv recent, a rupt 1900; probabil continuă modest peste nivelul actual.",
+      "sha256": "729c5f51b24da3ddbfb2e25ac5b247ce38955b6f5cd2f73d9e53df0a327f7e1c",
+      "valoare": 1980.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:30",
+      "intrebare": "Preţul Solana pe 2026-08-17 (1 lună)",
+      "intrebare_id": 267,
+      "rationament": "Lateral cu ușoară slăbiciune la final; anticipez stagnare aproape de prețul curent.",
+      "sha256": "509fd0b6cb97ccd79a02f0ee843de7bd4a8b82f19ec86e7efbc8c40f4faa8729",
+      "valoare": 76.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:30",
+      "intrebare": "Preţul XRP pe 2026-08-17 (1 lună)",
+      "intrebare_id": 268,
+      "rationament": "Foarte stabil în jurul 1.09-1.11; mă aștept la practic aceeași zonă.",
+      "sha256": "4ef05130727411ec36077fcff6a9f2ced78f140262fa31fe1264d4f0b600ee93",
+      "valoare": 1.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:30",
+      "intrebare": "Preţul Cardano pe 2026-08-17 (1 lună)",
+      "intrebare_id": 269,
+      "rationament": "Complet plat, oscilează între 0.16-0.17; presupun neschimbat.",
+      "sha256": "8ed35be46b4d822ad1e9532469a17675bce0d5528fc9ad68b516ca4003dedc17",
+      "valoare": 0.17
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:30",
+      "intrebare": "Preţul Dogecoin pe 2026-08-17 (1 lună)",
+      "intrebare_id": 270,
+      "rationament": "Neschimbat vizibil zece zile la 0.07; anticipez staționare.",
+      "sha256": "8ef1daa14ddca3e057d5fa538a8c516eff0f1e1771e4fff2eec867a241a0abce",
+      "valoare": 0.07
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:30",
+      "intrebare": "Preţul BNB pe 2026-08-17 (1 lună)",
+      "intrebare_id": 271,
+      "rationament": "Consolidare în jur de 570; ușoară înclinație ascendentă spre maximele recente.",
+      "sha256": "908a61b1c3b10b64fce098453dd70b67ddcac5728453947888cf89da8212f553",
+      "valoare": 580.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:48",
+      "intrebare": "Preţul Bitcoin pe 2026-10-17 (3 luni)",
+      "intrebare_id": 272,
+      "rationament": "Trend lateral-ușor pozitiv din ultimele zile; presupun drift moderat în sus pe trei luni, fără șoc macro.",
+      "sha256": "009f12631d3b8d0f54ac34c385a907b8dfe572379c0d73075bf61bf6be061492",
+      "valoare": 68500.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:48",
+      "intrebare": "Preţul Ethereum pe 2026-10-17 (3 luni)",
+      "intrebare_id": 273,
+      "rationament": "Momentum mai bun ca BTC în ultima săptămână; pariez pe continuarea recuperării relative față de 1842.",
+      "sha256": "90e92b97ba12046f9aef428585940615e72d8824a8f6e8854a27582ef04bb9f1",
+      "valoare": 2000.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:48",
+      "intrebare": "Preţul Solana pe 2026-10-17 (3 luni)",
+      "intrebare_id": 274,
+      "rationament": "Ușor sub media recentă acum; anticipez revenire modestă spre 80 pe orizont trimestrial.",
+      "sha256": "f2fe1a854254690afe12a04e9e398b46c0b6f4dde7d6cd4a2f015f4df376dae5",
+      "valoare": 80.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:48",
+      "intrebare": "Preţul XRP pe 2026-10-17 (3 luni)",
+      "intrebare_id": 275,
+      "rationament": "Stabil în jur de 1.09; presupun apreciere mică, fără catalizator vizibil.",
+      "sha256": "39d5d9ee5d9c0839b5c5aaf42b5558198681853b9e54b26035af7f59c56c8002",
+      "valoare": 1.12
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:48",
+      "intrebare": "Preţul Cardano pe 2026-10-17 (3 luni)",
+      "intrebare_id": 276,
+      "rationament": "Aproape plat la 0.17; pariez pe câștig marginal, altcoin slab.",
+      "sha256": "a68dfd8759a9e2aaa554dc58818d645cd6227bf3573919658d33164a10fa2cee",
+      "valoare": 0.18
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:48",
+      "intrebare": "Preţul Dogecoin pe 2026-10-17 (3 luni)",
+      "intrebare_id": 277,
+      "rationament": "Extrem de plat; presupun un mic impuls speculativ tipic memecoin peste trei luni.",
+      "sha256": "e222eed1e42be3e1cfc62d6fe0439a8e783f08c4c17be15126f978f476be4478",
+      "valoare": 0.075
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:50:48",
+      "intrebare": "Preţul BNB pe 2026-10-17 (3 luni)",
+      "intrebare_id": 278,
+      "rationament": "Consolidare în jur de 570; anticipez creștere lentă susținută de ecosistem.",
+      "sha256": "03e22f3e5146d402bf5c8dee64bd6f9a7ed560a2282855a1adfd6c0d134b63d0",
+      "valoare": 590.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:00",
+      "intrebare": "Preţul Bitcoin pe 2027-07-18 (1 an)",
+      "intrebare_id": 279,
+      "rationament": "Adopţie instituţională şi raritatea post-halving susţin creşterea pe termen lung, dar volatilitatea şi reglementarea limitează amploarea.",
+      "sha256": "bd9718ea7d0a855c6548dae6c1c7fa3de698c315dabf251d781eade310142d19",
+      "valoare": 88000.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:00",
+      "intrebare": "Preţul Ethereum pe 2027-07-18 (1 an)",
+      "intrebare_id": 280,
+      "rationament": "Ecosistem dominant în DeFi şi staking, dar presat de L2-uri ieftine şi competiţie; recuperare moderată de la nivelul actual scăzut.",
+      "sha256": "646881eca554f45c41e11427a109f67120163bae72efd5c66c6d0f4edd2e2b89",
+      "valoare": 2600.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:00",
+      "intrebare": "Preţul Solana pe 2027-07-18 (1 an)",
+      "intrebare_id": 281,
+      "rationament": "Reţea rapidă cu adopţie reală, dar riscuri de centralizare şi stabilitate; potenţial de revenire dacă supravieţuieşte ciclului.",
+      "sha256": "10ac16bbd0eab9409c967cf6167d2813cc676521dd9667ff6eb827773927c31f",
+      "valoare": 105.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:18",
+      "intrebare": "Preţul Bitcoin pe 2029-07-17 (3 ani)",
+      "intrebare_id": 282,
+      "rationament": "Rețea dominantă cu deficit programat și adopție instituțională crescândă; supraviețuiește ciclurile și crește moderat, dar mai lent decât în trecut.",
+      "sha256": "599ca544c2455521e3d553bf39822aaf8ef45e6087c63dbafd878fc4856e9c34",
+      "valoare": 118000.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:18",
+      "intrebare": "Preţul Ethereum pe 2029-07-17 (3 ani)",
+      "intrebare_id": 283,
+      "rationament": "Infrastructura L2 și staking-ul îi consolidează utilitatea; presiunea competitivă limitează revenirea, dar rămâne al doilea ecosistem major peste 3 ani.",
+      "sha256": "8ac4ed67287d5f409d2c51dbc2bd5caf10adfedd61dd0a56afcd27448c845ff5",
+      "valoare": 3400.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:18",
+      "intrebare": "Preţul Solana pe 2029-07-17 (3 ani)",
+      "intrebare_id": 284,
+      "rationament": "Debit ridicat și ecosistem activ favorizează recuperarea de la nivelul actual scăzut, dar riscul de întreruperi și competiția L1/L2 mențin incertitudinea.",
+      "sha256": "f03dc124fda6252923371761666efd6a30e58c50d7a57f71611107dc39082ad8",
+      "valoare": 140.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:32",
+      "intrebare": "Preţul Bitcoin pe 2036-07-17 (10 ani)",
+      "intrebare_id": 285,
+      "rationament": "Rezervă digitală tot mai instituționalizată; ofertă fixă și cicluri de halving susțin creșterea seculară, dar volatilitatea și reglementarea rămân riscuri.",
+      "sha256": "3bcbff5c721ce0661eb43971c3db5df818183101c18a246625fe25e48d76bebc",
+      "valoare": 420000.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:32",
+      "intrebare": "Preţul Ethereum pe 2036-07-17 (10 ani)",
+      "intrebare_id": 286,
+      "rationament": "Infrastructura dominantă pentru contracte inteligente și tokenizare; scalarea L2 și veniturile din staking o consolidează, dacă rezistă competiției alt-L1.",
+      "sha256": "dd7b89cffb1056c4d4feb3670672300788fbcf1a429d22320350657772d96bdd",
+      "valoare": 9500.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:32",
+      "intrebare": "Preţul Solana pe 2036-07-17 (10 ani)",
+      "intrebare_id": 287,
+      "rationament": "Randament tehnic ridicat atrage adopție, dar riscul de centralizare și întreruperile de rețea o fac cea mai fragilă existențial dintre cele trei.",
+      "sha256": "a8281ec018642c451ef58844ecac832ab1ad6273216a9d78f45106246a75af10",
+      "valoare": 340.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:51",
+      "intrebare": "Preţul Bitcoin pe 2026-07-18",
+      "intrebare_id": 288,
+      "rationament": "Oscilează în jur de 64k, ușor peste închiderea de azi după recuperarea de la mijlocul lunii.",
+      "sha256": "8a4717ebf87020e01cf1929abda5c129153ddcde410154927b7b0053ce8ce18b",
+      "valoare": 64200.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:51",
+      "intrebare": "Preţul Ethereum pe 2026-07-18",
+      "intrebare_id": 289,
+      "rationament": "A urcat spre 1900 apoi a corectat; mă aștept la stabilizare ușor peste 1842.",
+      "sha256": "02624b5ebc89e4e70a6eee1910f03213269bb066e3014b114f64f08ce9d71a9a",
+      "valoare": 1855.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:51",
+      "intrebare": "Preţul Solana pe 2026-07-18",
+      "intrebare_id": 290,
+      "rationament": "Tendință slab descendentă spre 75; posibil mic rebound tehnic după minimul recent.",
+      "sha256": "6438f338962a04fd4499247439e7d955964472ac4c31f248b0a8e416a9289c8c",
+      "valoare": 75.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:51",
+      "intrebare": "Preţul XRP pe 2026-07-18",
+      "intrebare_id": 291,
+      "rationament": "Extrem de stabil în jur de 1.09; fără semnal de rupere într-o direcție.",
+      "sha256": "af1edd640eab7992ca2b8f0ef811ea5b2bd8581335ba1add1c65b11c7a744432",
+      "valoare": 1.09
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:51",
+      "intrebare": "Preţul Cardano pe 2026-07-18",
+      "intrebare_id": 292,
+      "rationament": "Oscilează între 0.16 și 0.17; rotunjit spre valoarea recentă dominantă.",
+      "sha256": "bb3b62fe559972e9d299adf44ecace5ef94b8b73fe28443a357fdc8920882765",
+      "valoare": 0.17
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:51",
+      "intrebare": "Preţul Dogecoin pe 2026-07-18",
+      "intrebare_id": 293,
+      "rationament": "Plat la 0.07 pe tot intervalul; nicio mișcare vizibilă la această rezoluție.",
+      "sha256": "c3b4eba2571758a198b08c0d0a7e72f41092f391aad49486a8954b4ab233a4d3",
+      "valoare": 0.07
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 00:51:51",
+      "intrebare": "Preţul BNB pe 2026-07-18",
+      "intrebare_id": 294,
+      "rationament": "Se rotește în jur de 570 după vârful de 582; mă aștept la revenire ușoară.",
+      "sha256": "7143f4fdbdb9e7622accd8a8db62f0912c39549eb61ac3f5d713492ab09377e6",
+      "valoare": 569.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 09:30:15",
+      "intrebare": "Câştigă Oțelul Galați cu CFR Cluj?",
+      "intrebare_id": 295,
+      "rationament": "Oțelul este o echipă defensivă și greu de învins acasă, dar CFR Cluj are un lot superior și pornește ca favorită în acest duel.",
+      "sha256": "8789f5fb467b274f70f418a2fea2410878fb17d8e964dfea637725b5198c165e",
+      "valoare": 0.28
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 09:30:15",
+      "intrebare": "Câştigă Mjällby cu Lincoln Red Imps?",
+      "intrebare_id": 296,
+      "rationament": "Diferența valorică uriașă dintre campionatul Suediei și cel din Gibraltar o face pe Mjällby favorită certă pe teren propriu.",
+      "sha256": "f519a5b4cf573bc50e5f100b40af3678d6a0f7cdbdb164f4b94102f649109f1d",
+      "valoare": 0.85
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 09:30:18",
+      "intrebare": "Câştigă Oțelul Galați cu CFR Cluj?",
+      "intrebare_id": 295,
+      "rationament": "CFR Cluj are tradiție și lot superior, dar Oțelul beneficiază de avantajul terenului propriu.",
+      "sha256": "bf80f95de7b88e1158d21bec8c07ceaa7a4e0c0ac29d64d3f1178f7869d8a8c0",
+      "valoare": 0.32
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 09:30:18",
+      "intrebare": "Câştigă Mjällby cu Lincoln Red Imps?",
+      "intrebare_id": 296,
+      "rationament": "Mjällby e echipa mai puternică și joacă acasă, Lincoln are experiență limitată la acest nivel.",
+      "sha256": "652ee2ce70723c0988d7578f75208190f29dd4cd4f11b693771b63ca94ed1dae",
+      "valoare": 0.74
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 09:30:25",
+      "intrebare": "Câştigă Oțelul Galați cu CFR Cluj?",
+      "intrebare_id": 295,
+      "rationament": "CFR are un lot mult mai valoros, deși Oțelul beneficiază de avantajul terenului.",
+      "sha256": "26e2ecfe85af24a8648f666522f19b37492b26c24a36a8ca2cc732dafa81d7fb",
+      "valoare": 0.32
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-18 09:30:25",
+      "intrebare": "Câştigă Mjällby cu Lincoln Red Imps?",
+      "intrebare_id": 296,
+      "rationament": "Liga suedeză este net superioară celei din Gibraltar; favor clar pentru gazde.",
+      "sha256": "138572d5a2c4e6b1678d29f0f48b5de81727965669ec068fc7037ec2146dc02e",
+      "valoare": 0.82
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 09:35:13",
+      "intrebare": "Câştigă Oțelul Galați cu CFR Cluj?",
+      "intrebare_id": 295,
+      "rationament": "CFR Cluj e tradițional printre fruntașe; avantajul terenului ridică gazda, dar oaspetele rămâne favorit.",
+      "sha256": "260cf9ec8e52c5fe32c8f84da74cecd4ea537851d143811ecff413e12f60a2b9",
+      "valoare": 0.33
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 09:35:13",
+      "intrebare": "Câştigă Mjällby cu Lincoln Red Imps?",
+      "intrebare_id": 296,
+      "rationament": "Echipă suedeză de primă ligă acasă contra campioanei Gibraltarului; diferență de valoare clară, dar cupele europene aduc surprize.",
+      "sha256": "ee5862c45204603f5ef2f3c5cb114a3bbf506ff0ac3f34cff4a706fe0fedf42f",
+      "valoare": 0.7
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Dell Technologies pe 2026-07-20",
+      "intrebare_id": 297,
+      "rationament": "Dell a înregistrat o corecție severă de la vârful de 457.54 USD, dar a arătat semne de stabilizare la 396.34 USD în ultima ședință. Cererea pentru servere optimizate pentru AI continuă să fie un catalizator puternic, deși presiunea pe marje din cauza costurilor componentelor rămâne un risc major. Ne așteptăm la o ușoară recuperare tehnică, pe măsură ce investitorii reevaluează evaluarea după declinul recent.",
+      "sha256": "d6f4f8a3b960dfb2c9768ec2e669a5ab0f095e84777f16545dbe1d8aafaa253c",
+      "valoare": 398.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Delta Air Lines pe 2026-07-20",
+      "intrebare_id": 298,
+      "rationament": "Delta Air Lines se află într-un trend descendent, scăzând la 84.17 USD pe fondul îngrijorărilor legate de supracapacitatea din industrie și costurile ridicate cu forța de muncă. Deși sezonul estival susține volumele de pasageri, presiunea pe tarifele medii limitează profitabilitatea pe termen scurt. Anticipăm o ușoară continuare a declinului, reflectând prudența pieței înainte de noi date operaționale.",
+      "sha256": "f00cafd90c7d2aa2a7d6188b754c86b69ec9112507bf798e6f939be173dc43b7",
+      "valoare": 83.8
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Devon Energy pe 2026-07-20",
+      "intrebare_id": 299,
+      "rationament": "Devon Energy a demonstrat reziliență, urcând la 43.83 USD pe fondul stabilizării prețurilor la țițeiul WTI în jurul valorii de 75-80 USD. Strategia companiei axată pe returnarea de capital prin dividende variabile și răscumpărări de acțiuni atrage investitori defensivi în sectorul energetic. Estimăm o creștere moderată, susținută de disciplina operațională din bazinul Delaware.",
+      "sha256": "86c5787303b1c1665ad5ca4372794929033793a14f37cb410d6e818a6fe74c1f",
+      "valoare": 44.1
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Dexcom pe 2026-07-20",
+      "intrebare_id": 300,
+      "rationament": "Dexcom a corectat ușor la 76.65 USD după un salt temporar, reflectând volatilitatea din sectorul dispozitivelor medicale pentru diabet. Concurența intensă din partea sistemului FreeStyle Libre al Abbott și temerile persistente privind impactul pe termen lung al medicamentelor GLP-1 limitează avântul acțiunii. Ne așteptăm la o consolidare descendentă, pe măsură ce piața caută claritate privind ratele de adopție ale noului senzor Stelo.",
+      "sha256": "ff0e1dbb694309bdf745db68edd8a0a3ca6e942512d10f126dcc2a9baef6d02a",
+      "valoare": 76.2
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Diamondback Energy pe 2026-07-20",
+      "intrebare_id": 301,
+      "rationament": "Diamondback Energy prezintă un impuls puternic, atingând 195.54 USD, susținut de sinergiile anticipate din fuziunea cu Endeavor Energy. Eficiența ridicată a costurilor de foraj în Permian Basin poziționează compania ca lider de cost în sectorul de explorare și producție. Anticipăm o continuare a trendului ascendent, pe măsură ce investitorii premiază generarea robustă de flux de numerar liber.",
+      "sha256": "a76699b326c40cdd1ab9f8a204f7292fa4c9511745b0f5cd562d92d6fbec3535",
+      "valoare": 196.8
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Digital Realty pe 2026-07-20",
+      "intrebare_id": 302,
+      "rationament": "Digital Realty s-a stabilizat la 173.88 USD, oscilând între cererea masivă de centre de date pentru AI și presiunea ratelor ridicate ale dobânzilor asupra REIT-urilor. Capacitatea companiei de a crește chiriile la reînnoirea contractelor compensează parțial costurile mari de finanțare a noilor dezvoltări. Estimăm o ușoară apreciere, susținută de fluxurile defensive de capital în infrastructura digitală.",
+      "sha256": "f7983ee7c85d36ed49946199553a446717fae991cbbc3e215db8b7b5163fc593",
+      "valoare": 174.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Dollar General pe 2026-07-20",
+      "intrebare_id": 303,
+      "rationament": "Dollar General a înregistrat o creștere semnificativă în iulie, închizând la 125.75 USD, pe măsură ce consumatorii cu venituri mici își orientează cheltuielile spre retaileri de tip discount. Totuși, presiunea pe marje din cauza furturilor din magazine și a promoțiilor agresive rămâne un factor de risc activ. Ne așteptăm la o stabilizare cu o ușoară tendință pozitivă, datorită efectului de „trade-down” într-o economie incertă.",
+      "sha256": "cc86f6b16f6343e219470c221e9fc7023d7ff538c7a8dc4aa37080badf61a084",
+      "valoare": 126.3
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Dollar Tree pe 2026-07-20",
+      "intrebare_id": 304,
+      "rationament": "Dollar Tree a corectat la 125.94 USD după ce a testat pragul de 128 USD, reflectând eforturile continue de restructurare a segmentului Family Dollar. Inițiativele de creștere a prețurilor peste pragul tradițional de 1.25 USD încep să îmbunătățească marjele brute, deși costurile logistice rămân ridicate. Estimăm o evoluție relativ neutră, pe măsură ce piața digeră planurile de optimizare a portofoliului de magazine.",
+      "sha256": "029c8bf4d0eae65ce1b3a3044fb4f24fbf923aae4c981af2c50fe902eeba7ffb",
+      "valoare": 126.2
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Dominion Energy pe 2026-07-20",
+      "intrebare_id": 305,
+      "rationament": "Dominion Energy s-a menținut stabil în jurul valorii de 71.04 USD, beneficiind de profilul său defensiv de utilitate publică și de cererea masivă de energie din partea centrelor de date din Virginia de Nord. Planul de simplificare a afacerilor și reducerea datoriei prin vânzări de active oferă o mai mare vizibilitate asupra dividendului. Anticipăm o evoluție stabilă, influențată de randamentele atractive ale obligațiunilor guvernamentale.",
+      "sha256": "14be649343d9b526e340b434a412c7227068692b7b1343592a7d5516abfc1509",
+      "valoare": 71.2
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Domino's pe 2026-07-20",
+      "intrebare_id": 306,
+      "rationament": "Domino's Pizza a suferit o corecție la 322.18 USD după un raliu abrupt determinat de rezultate peste așteptări și extinderea parteneriatului cu Uber Eats. Deși loialitatea clienților și inovațiile digitale susțin vânzările în aceleași magazine, presiunea inflaționistă asupra ingredientelor și concurența pe livrări limitează potențialul de creștere imediat. Ne așteptăm la o ușoară consolidare descendentă.",
+      "sha256": "df52c1f85996428cf43f25d1eb0e441ccfac66f872de6185df96fdf55f5edd52",
+      "valoare": 320.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul DoorDash pe 2026-07-20",
+      "intrebare_id": 307,
+      "rationament": "DoorDash continuă să scadă, închizând la 184.14 USD, pe fondul temerilor legate de reglementările privind salariul minim al curierilor și încetinirea cheltuielilor discreționare ale consumatorilor. Extinderea în segmente non-restaurant (băcănie, retail) necesită investiții mari de marketing, afectând profitabilitatea netă pe termen scurt. Estimăm o continuare a presiunii de vânzare, în lipsa unor catalizatori pozitivi imediați.",
+      "sha256": "953201e98a56b74dad11648a89bd99d033a9761924b136b494377b700c55984e",
+      "valoare": 183.2
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Dover Corporation pe 2026-07-20",
+      "intrebare_id": 308,
+      "rationament": "Dover Corporation s-a retras la 214.18 USD, menținându-se într-un canal de consolidare datorită portofoliului său industrial diversificat. Cererea puternică în segmentele de tehnologii curate și soluții pentru combustibili compensează slăbiciunea temporară din sectorul de retail fueling. Ne așteptăm la o revenire moderată, susținută de marjele operaționale solide și eficiența programului de reducere a costurilor.",
+      "sha256": "41b3efd5f655c17bd55859b6af1333424d4dcf8824df06b107630a4a48d3ba8b",
+      "valoare": 214.8
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Dow Inc. pe 2026-07-20",
+      "intrebare_id": 309,
+      "rationament": "Dow Inc. a recuperat teren până la 29.92 USD, reflectând o ușoară îmbunătățire a cererii globale de produse chimice de bază și materiale plastice. Totuși, costurile ridicate ale materiilor prime din Europa și supracapacitatea din China continuă să pună presiune pe marjele de profit ale companiei. Anticipăm o creștere marginală, pe măsură ce investitorii mizează pe o redresare ciclică a sectorului industrial.",
+      "sha256": "3f922d4d2f59091bb775a8a256df2812b3ca499033d4a234dc77bff2813ee62a",
+      "valoare": 30.1
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul D. R. Horton pe 2026-07-20",
+      "intrebare_id": 310,
+      "rationament": "D.R. Horton a scăzut brusc la 149.39 USD, fiind extrem de sensibilă la fluctuațiile ratelor ipotecare care descurajează cumpărătorii de locuințe. Deși deficitul structural de locuințe din SUA oferă un suport pe termen lung, stimulentele financiare oferite cumpărătorilor pentru a reduce ratele le afectează marjele brute. Estimăm o ușoară scădere suplimentară, pe fondul persistenței dobânzilor ridicate.",
+      "sha256": "7cce0bb2a43e6583f8d459d86f92d8a88f5e57810fda1bca855148ab7c790559",
+      "valoare": 148.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul DTE Energy pe 2026-07-20",
+      "intrebare_id": 311,
+      "rationament": "DTE Energy a închis la 148.19 USD, reflectând o perioadă de consolidare după fluctuațiile recente ale temperaturilor de vară care influențează consumul de electricitate. Investițiile masive planificate în infrastructura de energie curată din Michigan oferă o bază solidă de creștere a tarifelor aprobate de autorități. Ne așteptăm la o stabilizare cu o ușoară tendință pozitivă, datorită caracterului defensiv al acțiunii.",
+      "sha256": "6d7ad8539dbaceeabdfaa28e52096d32d820c232314b6d32309c8d5bb6eacd19",
+      "valoare": 148.4
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Duke Energy pe 2026-07-20",
+      "intrebare_id": 312,
+      "rationament": "Duke Energy s-a retras la 125.01 USD, evoluând în linie cu sectorul de utilități care resimte presiunea randamentelor ridicate ale obligațiunilor de stat. Cu toate acestea, baza sa largă de clienți reglementați în state cu creștere demografică rapidă, precum Florida și Carolina de Nord, asigură fluxuri de numerar extrem de predictibile. Estimăm o ușoară recuperare, pe măsură ce investitorii caută randamente sigure de dividende.",
+      "sha256": "461bdf77bf76b3249543f71cdf2fc9757dd2e6ba6222817ad3b102c5f2d5ab53",
+      "valoare": 125.3
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul DuPont pe 2026-07-20",
+      "intrebare_id": 313,
+      "rationament": "DuPont a înregistrat o ușoară redresare la 135.29 USD, susținută de semnele de stabilizare din industria semiconductorilor și a electronicelor, unde este un furnizor cheie de materiale avansate. Planul de divizare a companiei în trei entități independente continuă să fie un catalizator pe termen mediu pentru deblocarea valorii. Ne așteptăm la o continuare moderată a aprecierii, deși riscurile legate de costurile materiilor prime persistă.",
+      "sha256": "89d04d78b87b4b33d4a8b4ac5c2bf279878b0e544fc596ec15c2b2a67f9151d7",
+      "valoare": 135.8
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Eaton Corporation pe 2026-07-20",
+      "intrebare_id": 314,
+      "rationament": "Eaton Corporation s-a stabilizat la 399.99 USD după o corecție abruptă de la nivelul de 415 USD, cauzată de marcările de profit din sectorul industrial. Tendințele seculare de modernizare a rețelelor electrice și electrificarea centrelor de date continuă să asigure un portofoliu record de comenzi. Anticipăm o recuperare tehnică, investitorii profitând de corecție pentru a acumula o acțiune cu perspective solide de creștere structurală.",
+      "sha256": "5d70df89f9cd93ee70884e1f17c6c2a622b72dc36f3a2d53a2be4aaf0aee8c4f",
+      "valoare": 402.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul eBay Inc. pe 2026-07-20",
+      "intrebare_id": 315,
+      "rationament": "eBay a închis la 112.06 USD, încercând o stabilizare după declinul recent cauzat de temerile privind încetinirea creșterii volumului brut de mărfuri (GMV). Deși inițiativele axate pe categorii de nișă (piese auto, obiecte de colecție) și publicitatea pe platformă susțin marjele, concurența acerbă din partea Amazon și Temu limitează expansiunea. Estimăm o ușoară corecție, reflectând prudența pieței față de perspectivele e-commerce-ului tradițional.",
+      "sha256": "bccf55250b8bfed055e66a8d82cec071ecd99579ba646ca5379446727682737e",
+      "valoare": 111.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul EchoStar pe 2026-07-20",
+      "intrebare_id": 316,
+      "rationament": "EchoStar rămâne sub presiune, închizând la 92.00 USD, pe fondul îngrijorărilor severe legate de datoria masivă și consumul ridicat de numerar pentru construirea rețelei 5G. Deși sinergiile rezultate din fuziunea cu Dish Network sunt estimate să reducă costurile, execuția rămâne extrem de riscantă într-un mediu extrem de competitiv. Anticipăm o continuare a declinului, pe măsură ce investitorii evită companiile cu un grad ridicat de îndatorare.",
+      "sha256": "70076d4a31d653000cd2544f01711a2a7c94ae3e94b60e0da456f3314543258e",
+      "valoare": 91.1
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Ecolab pe 2026-07-20",
+      "intrebare_id": 317,
+      "rationament": "Ecolab a închis la 272.83 USD, demonstrând o volatilitate crescută în contextul reechilibrării portofoliilor din sectorul materialelor industriale. Puterea puternică de stabilire a prețurilor și scăderea costurilor materiilor prime continuă să susțină expansiunea marjei operaționale în segmentele de apă și igienă. Ne așteptăm la o ușoară apreciere, datorită cererii constante din partea clienților instituționali și industriali.",
+      "sha256": "2dcf5079761e06a9a307057bab5af855adb4b179ff6501e4efcf6883fd25bee5",
+      "valoare": 273.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Edison International pe 2026-07-20",
+      "intrebare_id": 318,
+      "rationament": "Edison International s-a retras ușor la 77.63 USD după ce a atins un maxim recent, beneficiind de progresele înregistrate în reducerea riscurilor de incendii de vegetație în California. Planul masiv de investiții în rețeaua de distribuție și sprijinul de reglementare favorabil oferă o traiectorie clară de creștere a câștigurilor. Estimăm o revenire, susținută de interesul investitorilor pentru active defensive cu randament stabil.",
+      "sha256": "41070eb8b46fe7ab186a3dd966dc47f2e4e51521da936252820834674982f1f1",
+      "valoare": 77.9
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Edwards Lifesciences pe 2026-07-20",
+      "intrebare_id": 319,
+      "rationament": "Edwards Lifesciences continuă să scadă, atingând 85.73 USD, pe fondul semnelor de încetinire a creșterii pe piața principală de înlocuire a valvei aortice transcateter (TAVR). Deși extinderea în terapiile transcateter mitrale și tricuspide (TMTT) promite o creștere viitoare, adoptarea clinică mai lentă limitează impactul financiar imediat. Anticipăm o continuare a tendinței descendente, pe măsură ce piața își ajustează multiplii de evaluare.",
+      "sha256": "85a80eb87929c0cc825a29a5632bacb8f394fb68df667119898c4a361d307b17",
+      "valoare": 84.9
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-18 18:55:58",
+      "intrebare": "Preţul Electronic Arts pe 2026-07-20",
+      "intrebare_id": 320,
+      "rationament": "Electronic Arts demonstrează o traiectorie ascendentă extrem de stabilă, închizând la 208.90 USD, susținută de performanța robustă a francizelor sale sportive și a serviciilor live recurente. Capacitatea de a genera venituri constante din microtranzacții în EA Sports FC și Apex Legends reduce dependența de lansările majore de jocuri noi. Estimăm o continuare a acestui impuls pozitiv, pe fondul rezilienței sectorului de gaming.",
+      "sha256": "1dbf805d1341e62d46b6bdeb353918ccab8a6c113f2c4423617207810f250c54",
+      "valoare": 209.5
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Dell Technologies pe 2026-07-20",
+      "intrebare_id": 297,
+      "rationament": "Dell a avut o volatilitate ridicată în ultimele sesiuni, cu scăderi abrupte după spike-uri (ex: 457→412, 427→457→412). Lipsa unui catalizator pozitiv recent și corecția de după creșterea bruscă sugerează continuarea consolidării sub 400 USD. Sectorul hardware e sensibil la ciclicitate și la știri macro, iar volatilitatea recentă arată nervozitate. Mă aștept la o ușoară corecție suplimentară, apropiată de media ultimelor 3 zile.",
+      "sha256": "fd564ab135e861089acff7e6a6415ec5e2390e24e8dfe7e2282f066a3a8989b6",
+      "valoare": 398.5
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Delta Air Lines pe 2026-07-20",
+      "intrebare_id": 298,
+      "rationament": "Delta Air Lines a avut o tendință descendentă constantă, cu minime succesive și fără semne de revenire. Sectorul aviatic e vulnerabil la șocuri de costuri și cerere, iar lipsa unui bounce după scăderi sugerează presiune persistentă. Nu există catalizatori pozitivi evidenți în ultimele zile. Anticipez o continuare a scăderii, dar cu o amplitudine mai mică.",
+      "sha256": "6f7abb4c7b7dd58c0af23d104fd08b249373a8223202183384ece41f7e5e7ddd",
+      "valoare": 84.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Devon Energy pe 2026-07-20",
+      "intrebare_id": 299,
+      "rationament": "Devon Energy a arătat reziliență, cu o revenire clară în ultimele 3 zile și un pattern de higher lows. Sectorul energie a fost susținut de prețuri stabile la petrol, iar compania nu a avut șocuri negative recente. Momentum-ul pozitiv și închiderea la maxim local sugerează o probabilitate bună de continuare a trendului. Estimez o mică apreciere suplimentară.",
+      "sha256": "5ac9e7f2e5a029ff38740e825ff971a6226b797bd8bc83779468e40f351e62ac",
+      "valoare": 44.1
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Dexcom pe 2026-07-20",
+      "intrebare_id": 300,
+      "rationament": "Dexcom a avut o sesiune volatilă, cu spike la 77.98 urmat de o corecție minoră. Compania e pe un trend ascendent pe termen scurt, cu suport la 74-76. Sectorul medical a fost relativ stabil, iar lipsa știrilor negative recente susține menținerea aproape de maxime. Mă aștept la o ușoară corecție, dar peste 77 USD.",
+      "sha256": "0ec37aee6197b3d2c5fe01b2c419f21d6262e51ffef857ebe8faa67bf61d8ea5",
+      "valoare": 77.1
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Diamondback Energy pe 2026-07-20",
+      "intrebare_id": 301,
+      "rationament": "Diamondback Energy a avut o creștere constantă și a închis la maxim local. Sectorul petrolier e pe val, iar lipsa corecțiilor majore arată încredere. Nu există semne de epuizare a trendului, iar volumele probabil au fost ridicate. Anticipez continuarea trendului cu o apreciere modestă.",
+      "sha256": "e23db005f82d31052c44aaeaf6d0c31e3b6d388df6c3fae3c1ad99c433c44629",
+      "valoare": 197.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Digital Realty pe 2026-07-20",
+      "intrebare_id": 302,
+      "rationament": "Digital Realty a oscilat în jurul valorii de 174-180, fără catalizatori majori. Corecția recentă a fost urmată de stabilizare, iar sectorul REIT e influențat de dobânzi, care nu au avut șocuri. Nu văd motive pentru un breakout, deci estimez o mișcare laterală, aproape de ultima închidere.",
+      "sha256": "3c198a655b001aa3e61fa8c6d675fc9c72b2c7d8a3c7ec5d983a4b509ae063ef",
+      "valoare": 174.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Dollar General pe 2026-07-20",
+      "intrebare_id": 303,
+      "rationament": "Dollar General a avut o revenire puternică de la 115 la 127, urmată de o mică corecție. Retailul defensiv a beneficiat de rotație sectorială, iar trendul rămâne pozitiv. Nu există știri negative recente, iar volatilitatea e moderată. Văd o probabilitate de apreciere ușoară, dar sub maximul recent.",
+      "sha256": "212eb3202523db142a2222dc9ac125bf419645916174c59033cce8445aff8d20",
+      "valoare": 126.5
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Dollar Tree pe 2026-07-20",
+      "intrebare_id": 304,
+      "rationament": "Dollar Tree a avut o evoluție mixtă, cu spike-uri urmate de corecții rapide. Compania nu a avut catalizatori recenți, iar sectorul discount e stabil. Ultima sesiune a fost de scădere, deci mă aștept la stabilizare ușoară în jurul mediei ultimelor 3 zile.",
+      "sha256": "c20a7aa5e16977c190ef9aa2d454fab198602672804d181352899c7b4be8b5fb",
+      "valoare": 126.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Dominion Energy pe 2026-07-20",
+      "intrebare_id": 305,
+      "rationament": "Dominion Energy a oscilat într-un range strâns, cu o ușoară tendință ascendentă. Sectorul utilități e stabil, fără șocuri de reglementare sau rezultate. Momentum-ul e slab pozitiv, deci anticipez o ușoară apreciere.",
+      "sha256": "a94f193762ec398a0c6932c293ea42a6c908bade38f842a68b1aee673dfe4cf8",
+      "valoare": 71.2
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Domino's pe 2026-07-20",
+      "intrebare_id": 306,
+      "rationament": "Domino's a avut un spike recent la 329, urmat de o corecție minoră. Compania a beneficiat de rezultate solide și trendul rămâne pozitiv. Nu există riscuri majore pe termen scurt, iar volatilitatea e ridicată. Estimez o revenire spre maximul local.",
+      "sha256": "addb35008b7c609b64a455b5a24f2944a6314ebdea1882c916b3069a29240798",
+      "valoare": 324.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul DoorDash pe 2026-07-20",
+      "intrebare_id": 307,
+      "rationament": "DoorDash e pe un trend descendent, cu lower highs și lower lows. Sectorul delivery e sub presiune din cauza costurilor și a concurenței. Nu există catalizatori pozitivi recenți, iar momentum-ul e negativ. Anticipez o scădere suplimentară, dar limitată.",
+      "sha256": "00815544450fe26b58a08ebfb185d76ccfede25ff0be17ad950ea04f91fd70b7",
+      "valoare": 183.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Dover Corporation pe 2026-07-20",
+      "intrebare_id": 308,
+      "rationament": "Dover a oscilat între 211 și 217, fără trend clar. Compania e stabilă, fără știri majore, iar sectorul industrial e pe o pantă neutră. Ultima sesiune a fost de scădere minoră, deci mă aștept la o revenire ușoară spre maximul local.",
+      "sha256": "c58ec54b38fce05b667083033121250104a75d203572d1172a42437b3c642aac",
+      "valoare": 215.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Dow Inc. pe 2026-07-20",
+      "intrebare_id": 309,
+      "rationament": "Dow Inc. a avut o revenire puternică de la 27 la 30 în 2 săptămâni. Sectorul chimic a beneficiat de cerere crescută, iar trendul e pozitiv. Nu există semne de epuizare, deci anticipez o apreciere marginală.",
+      "sha256": "7b29d801e1f7a195e37be9b29686a41894b6b658cb10277478ce7d7b2d204448",
+      "valoare": 30.1
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul D. R. Horton pe 2026-07-20",
+      "intrebare_id": 310,
+      "rationament": "D.R. Horton a oscilat puternic, dar fără trend clar. Sectorul construcții e sensibil la dobânzi, dar nu au fost știri negative recente. Ultima sesiune a fost de scădere, deci mă aștept la o stabilizare ușoară.",
+      "sha256": "40c32cf67568b1c6b6a9836b14db1b6786635f2806c3302b24517fa002f752f0",
+      "valoare": 150.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul DTE Energy pe 2026-07-20",
+      "intrebare_id": 311,
+      "rationament": "DTE Energy a avut o scădere lentă, dar fără catalizatori negativi. Sectorul utilități e stabil, iar volatilitatea e scăzută. Mă aștept la o sesiune plată, cu o ușoară apreciere tehnică.",
+      "sha256": "3fa7c11da8f05cadeefbb9e4cc2ecf3f48d848017155b8ba0c9ca934c948473e",
+      "valoare": 148.5
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Duke Energy pe 2026-07-20",
+      "intrebare_id": 312,
+      "rationament": "Duke Energy a oscilat între 124 și 128, fără trend clar. Sectorul utilități nu a avut știri majore, iar volatilitatea e scăzută. Anticipez o mișcare laterală, aproape de ultima închidere.",
+      "sha256": "34beb504691a9fc7aedbe2d50cbbb3877b0decd62ef37a88aa1628e0ef14fc21",
+      "valoare": 125.3
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul DuPont pe 2026-07-20",
+      "intrebare_id": 313,
+      "rationament": "DuPont a avut o corecție de la 141 la 134, urmată de stabilizare. Sectorul chimic e pe o pantă neutră, fără catalizatori recenți. Mă aștept la o ușoară apreciere tehnică după stabilizarea recentă.",
+      "sha256": "78562cf8318331a9afed264641c80dc1a1db387242baa2974d09277c2a158cc7",
+      "valoare": 135.5
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Eaton Corporation pe 2026-07-20",
+      "intrebare_id": 314,
+      "rationament": "Eaton a avut o volatilitate ridicată, cu spike-uri și corecții rapide. Sectorul industrial e sensibil la macro, dar nu au fost știri negative. Ultima sesiune a fost de apreciere, deci mă aștept la o corecție minoră spre media ultimelor 3 zile.",
+      "sha256": "10d8843ff818e2adf33119c2a222a20b58cfe9137000735b0890f3ac50eb1180",
+      "valoare": 401.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul eBay Inc. pe 2026-07-20",
+      "intrebare_id": 315,
+      "rationament": "eBay e pe un trend descendent, cu lower highs și lower lows. Sectorul e-commerce e sub presiune, iar compania nu a avut catalizatori pozitivi recenți. Anticipez o stabilizare la nivelul actual, cu potențial de apreciere limitată.",
+      "sha256": "9a359279d4c5bcfc53e6bd28ed5b1c725c6667e5ecd605d523cc0b2fcc0fa817",
+      "valoare": 112.5
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul EchoStar pe 2026-07-20",
+      "intrebare_id": 316,
+      "rationament": "EchoStar a avut o scădere accentuată, urmată de stabilizare. Sectorul telecom e volatil, dar nu au fost știri majore. Mă aștept la o sesiune plată, cu o ușoară apreciere tehnică.",
+      "sha256": "0ef0d96dbbf6fb606bfe9b5e39f3847fb304c73d44ef36a9ce7f965f915ea78a",
+      "valoare": 92.5
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Ecolab pe 2026-07-20",
+      "intrebare_id": 317,
+      "rationament": "Ecolab a avut o corecție de la 283 la 272, urmată de stabilizare. Sectorul chimic e stabil, fără catalizatori recenți. Mă aștept la o sesiune plată, aproape de ultima închidere.",
+      "sha256": "3762cd109dde2817e2c4987bf1b53ef5fb3fa8ad234fe74fdbf3caae4ecd7ee2",
+      "valoare": 273.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Edison International pe 2026-07-20",
+      "intrebare_id": 318,
+      "rationament": "Edison International a avut un trend ascendent, cu higher highs și higher lows. Sectorul utilități e stabil, iar momentum-ul rămâne pozitiv. Anticipez o apreciere suplimentară, dar limitată.",
+      "sha256": "f9b4ea75234887264087e2462cf62f8fd218921769233fd9654fa90b968786bf",
+      "valoare": 77.8
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Edwards Lifesciences pe 2026-07-20",
+      "intrebare_id": 319,
+      "rationament": "Edwards Lifesciences e pe un trend descendent accentuat, fără semne de revenire. Sectorul medical nu a avut catalizatori pozitivi recenți. Mă aștept la o continuare a scăderii, dar cu amplitudine redusă.",
+      "sha256": "7c17f7ba64962e1134fb23a71bb279654480db3a0de74bc4c50d815c5825f5d9",
+      "valoare": 85.5
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-18 18:56:48",
+      "intrebare": "Preţul Electronic Arts pe 2026-07-20",
+      "intrebare_id": 320,
+      "rationament": "Electronic Arts a avut o apreciere constantă, cu higher highs și higher lows. Compania nu a avut șocuri negative, iar sectorul gaming e pe val. Anticipez continuarea trendului cu o apreciere suplimentară.",
+      "sha256": "4a5b0c7496033fb39605f65df7de59ebd33684f41c89e001b79ba1d077295d04",
+      "valoare": 209.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Dell Technologies pe 2026-07-20",
+      "intrebare_id": 297,
+      "rationament": "Dell a fost extrem de volatil: de la 457 (14 iul) a căzut la 391 (16 iul), apoi un mic rebound la 396.34. Amplitudinea zilnică de 5-8% arată o luptă între entuziasmul pe serverele AI (backlog ISG) și temeri de marjă subțire pe hardware. După doi vânzări puternice și un revenit timid, mizez pe o stabilizare/mic rebound tehnic peste 396. Riscul e evident: la această volatilitate un swing de ±15 USD e banal, deci reperul «azi» e greu de bătut.",
+      "sha256": "fb9544b0bf53fa57cde76c26aae53e1eab4eb9c6bc15a32293ffb1c0dd4db1fb",
+      "valoare": 398.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Delta Air Lines pe 2026-07-20",
+      "intrebare_id": 298,
+      "rationament": "Delta a scăzut constant de la 91.68 la 84.17, cu o cădere clară de 84 cenți în ultima zi, semn de presiune pe sectorul aerian (temeri de cerere de vară/costuri combustibil). Totuși 84.17 pare o zonă de suport după 6 sesiuni de scădere, cu un mic rebound plauzibil. Mizez pe o ușoară recuperare tehnică spre 84.90. Riscul: dacă sentimentul pe consum discreționar rămâne negativ, poate continua sub 84.",
+      "sha256": "b04971ddaa81f770a09654199ca923d9d93e5c050b7372f0385b84af586bf144",
+      "valoare": 84.9
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Devon Energy pe 2026-07-20",
+      "intrebare_id": 299,
+      "rationament": "Devon a urcat de la 40.36 la 43.83 pe un val de forță în energie, atingând maximul seriei în ultima zi. Mișcarea corelează cu petrolul și cu rotația spre value/energy. După un vârf, o mică consolidare/retrasare spre 43.60 e probabilă. Riscul e prețul țițeiului: un pas invers pe WTI trage direct în jos acest E&P.",
+      "sha256": "f693daf5607db51c7c169165a3f4e49b30f1b245318afac51230baabfa838077",
+      "valoare": 43.6
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Dexcom pe 2026-07-20",
+      "intrebare_id": 300,
+      "rationament": "Dexcom a sărit de la 72.73 la 77.98 (16 iul), apoi a corectat la 76.65 — un gap sugerând o știre pozitivă pe CGM (competiție cu Abbott/piața GLP-1). După spike urmează adesea digestie, deci prezic o ușoară retragere spre 76.20. Titlul e volatil pe sentimentul din medtech; un ±3% e normal aici.",
+      "sha256": "ca28e53543198bc2b36e9cf977f2c77363578c71e6f068f3357fbf6093ec6ac9",
+      "valoare": 76.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Diamondback Energy pe 2026-07-20",
+      "intrebare_id": 301,
+      "rationament": "Diamondback a urcat puternic de la 173.73 la 195.54, cel mai proaspăt maxim al seriei, împins de forța din shale/Permian și prețul petrolului. Ultima zi a fost un breakout de +5 USD, care invită la o mică profitare. Prezic o consolidare ușor sub vârf, la 194.50. Riscul principal rămâne corelarea directă cu WTI și volatilitatea energetică.",
+      "sha256": "6683dffe0dc54fa0cd25d7cc15de311b20695bb3f389a2755f84d3fa12b6cfdb",
+      "valoare": 194.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Digital Realty pe 2026-07-20",
+      "intrebare_id": 302,
+      "rationament": "Digital Realty s-a mișcat lateral în jur de 174-180, revenind la 173.88 după un vârf la 180. REIT-ul de data centers e prins între cererea AI (leasing solid) și sensibilitatea la dobânzi. Fără catalizator, mizez pe o stabilizare cu mic rebound spre 174.30. Riscul: orice mișcare pe randamentele Trezoreriei lovește direct evaluarea REIT-urilor.",
+      "sha256": "a51f2463da4a4b385ddbd7b4c35b7dff50e35666403fa8848d840b0671b1063a",
+      "valoare": 174.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Dollar General pe 2026-07-20",
+      "intrebare_id": 303,
+      "rationament": "Dollar General a avut un raliu clar de la 114.80 la 127.16 (16 iul), apoi o mică corecție la 125.75 — semn de reevaluare pozitivă pe retailul de discount (trade-down al consumatorului). După un vârf și o corecție, mizez pe consolidare ușor sub 125.75. Riscul: marjele și presiunea salarială pot răci entuziasmul recent.",
+      "sha256": "e363dc3b9c0c6380436c7744852ebd213d7aad47c84e30ac83ad2150b99c4497",
+      "valoare": 125.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Dollar Tree pe 2026-07-20",
+      "intrebare_id": 304,
+      "rationament": "Dollar Tree a urcat de la 121.46 la 128.45, apoi a corectat la 125.94, în paralel cu forța din discount retail (vezi și DG). Trendul rămâne pozitiv, cu o corecție sănătoasă după maxim. Prezic un mic rebound spre 126.50. Riscul e execuția pe integrarea Family Dollar și presiunea pe costuri.",
+      "sha256": "9e5492ca3dfb669d8acb6b6f632c44ae4dc4eea998851e0dd53ecbffecc3ab94",
+      "valoare": 126.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Dominion Energy pe 2026-07-20",
+      "intrebare_id": 305,
+      "rationament": "Dominion, utility defensiv, s-a apreciat lent și constant de la 69.26 la un vârf de 71.69, cu o mică retragere la 71.04. Utilitățile beneficiază de narativa cererii de energie pentru data centers, dar sunt sensibile la dobânzi. Volatilitatea redusă face reperul «azi» greu de bătut; prezic 71.15, cvasi-neschimbat. Riscul: o mișcare pe randamente.",
+      "sha256": "08b3bcc3d604d49495db4d154bd2c28f0f22d4bb7be3ec657574af077ba9036d",
+      "valoare": 71.15
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Domino's pe 2026-07-20",
+      "intrebare_id": 306,
+      "rationament": "Domino's a sărit de la 310.87 la 329.67 (16 iul), apoi a corectat la 322.18 — un spike sugerând o știre/rezultate pe același-magazin-vânzări. După un salt de aproape 6%, tipic urmează consolidare/profit-taking. Prezic o ușoară retragere spre 320. Riscul e reversiune completă a gap-ului dacă entuziasmul se stinge.",
+      "sha256": "06a52b6c35371afd1bb7ddffe14aa946a363fb38db11ef97e312af15db96d1fa",
+      "valoare": 320.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul DoorDash pe 2026-07-20",
+      "intrebare_id": 307,
+      "rationament": "DoorDash a scăzut constant de la 195.72 la 184.14, cu trei sesiuni roșii consecutive, pe presiunea pe growth/tech discreționar și marje de delivery. Momentumul e clar negativ, fără semn de fund. Prezic continuarea ușoară a slăbiciunii spre 183.50. Riscul opus: un rebound tehnic pe titluri growth ar putea inversa rapid.",
+      "sha256": "57ee43d7865939b6ea7147108c9c4e424b4117b0882e40b7ec639eeffdd7a330",
+      "valoare": 183.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Dover Corporation pe 2026-07-20",
+      "intrebare_id": 308,
+      "rationament": "Dover a oscilat strâns în jur de 211-217, revenind la 214.18 după un vârf de 217.51. Industrialul cu expunere diversificată nu are un catalizator vizibil în serie, doar zgomot lateral. Mizez pe cvasi-stabilitate la 214, aproape de reper. Riscul: sensibilitatea la ciclul industrial și PMI.",
+      "sha256": "fe7ea97e41097372404b24fca50cd226be29858140742a1dfb69ab40e309a887",
+      "valoare": 214.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Dow Inc. pe 2026-07-20",
+      "intrebare_id": 309,
+      "rationament": "Dow Inc. a urcat de la 27.33 la un vârf de 30.37, cu o consolidare la 29.92 în ultima zi — o revenire după nivelurile deprimate ale chimicalelor. Randamentul mare de dividend și rotația spre value susțin titlul. Prezic un mic rebound spre 30.05. Riscul: chimia e ciclică și sensibilă la cererea globală/spreads.",
+      "sha256": "fe6a756c27c2e0cf7b549efc3bb70e91ba991e90a37797a0c7f763fd604e29e3",
+      "valoare": 30.05
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul D. R. Horton pe 2026-07-20",
+      "intrebare_id": 310,
+      "rationament": "D.R. Horton a fost volatil între 148-157, revenind la 149.39 după un vârf de 154.42. Homebuilder-ul e prins direct în mișcarea ratelor ipotecare și a sentimentului pe locuințe. După o zi roșie de la 154 la 149, mizez pe un mic rebound tehnic spre 150.20. Riscul principal: orice surpriză pe dobânzi lovește imediat constructorii.",
+      "sha256": "53fdb28e09860cc59a1b84b4b99650a00e7d713387b9a05a375e4778b7827bf1",
+      "valoare": 150.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul DTE Energy pe 2026-07-20",
+      "intrebare_id": 311,
+      "rationament": "DTE Energy, utility regulat, a coborât ușor de la 153.84 la 148.19, cu o tendință blând negativă în ultimele sesiuni. Volatilitatea redusă și profilul defensiv fac mișcările mici. Prezic cvasi-neschimbat, ușor sub reper la 148.00. Riscul: sensibilitatea la randamentele obligațiunilor.",
+      "sha256": "ed82187f051319f538f0d236e381d65b7bc1cb745f5456ade555f2cd4d47ceb0",
+      "valoare": 148.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Duke Energy pe 2026-07-20",
+      "intrebare_id": 312,
+      "rationament": "Duke Energy s-a mișcat lateral în banda 124-128, revenind la 125.01 după oscilații mici. Ca utility defensiv, are volatilitate scăzută și beneficiază marginal de narativa cererii electrice AI. Mizez pe stabilitate aproape de reper, la 125.20. Riscul rămâne rata dobânzii, tipică sectorului.",
+      "sha256": "aadf63323d477ceabc1fd7c475aa316d1a7b568220bc901d1307d23c212d8db2",
+      "valoare": 125.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul DuPont pe 2026-07-20",
+      "intrebare_id": 313,
+      "rationament": "DuPont a scăzut de la 141.05 la un minim de 132.66, apoi a revenit trei sesiuni la 135.29 — un fund tehnic urmat de recuperare pe materiale specializate. Momentumul recent e ușor pozitiv după stabilizare. Prezic continuarea rebound-ului spre 135.50. Riscul: cererea ciclică pe electronice/industriale și spin-off-urile pot aduce volatilitate.",
+      "sha256": "f4bd3c731caac3574231e563c7c8ecc36f7ace2c6aa745ca82c70f5c3fc94118",
+      "valoare": 135.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Eaton Corporation pe 2026-07-20",
+      "intrebare_id": 314,
+      "rationament": "Eaton e foarte volatil, oscilând între 395-415, revenind la 399.99 după swing-uri de peste 15 USD. E un favorit al temei electrificare/data centers, dar evaluarea ridicată amplifică mișcările. Fără direcție clară în ultima zi, prezic cvasi-stabil la 400.50. Riscul: la această amplitudine, reperul «azi» e ușor de ratat în ambele sensuri.",
+      "sha256": "af3162d5bf7656f659a790d1e9d23a2351c4c262f9b1135b99abf4f11251337c",
+      "valoare": 400.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul eBay Inc. pe 2026-07-20",
+      "intrebare_id": 315,
+      "rationament": "eBay a urcat la 117.33 apoi a coborât la 110.91, revenind la 112.06 — o corecție după vârf, tipică marketplace-urilor mature. Trendul recent e ușor negativ, dar cu semn de stabilizare. Prezic un mic rebound spre 112.30. Riscul: creșterea lentă a GMV și presiunea competitivă limitează upside-ul.",
+      "sha256": "3122e2164ba6d6f20f034ad10b122cf1319aa3fb9069c86ed5edeeca62301f8b",
+      "valoare": 112.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul EchoStar pe 2026-07-20",
+      "intrebare_id": 316,
+      "rationament": "EchoStar a scăzut clar de la 98.29 la 91.54, cu un mic rebound la 92.00, într-un trend descendent pe temeri legate de datorie și competiția în telecom/satelit. Momentumul rămâne fragil, cu volatilitate ridicată. Prezic o ușoară slăbire spre 91.50. Riscul: titlul e sensibil la orice știre pe finanțare/spectru și poate face swing-uri mari.",
+      "sha256": "78288634a6f8f83d377302ee528df3277727fed42b0bd30e7b44de6ccd59f1a2",
+      "valoare": 91.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Ecolab pe 2026-07-20",
+      "intrebare_id": 317,
+      "rationament": "Ecolab a coborât de la 283.72 la un minim de 269.75, apoi a revenit la 272.83 — o corecție de calitate urmată de stabilizare. Titlul defensiv pe apă/igienă are momentum lateral după căderea inițială. Prezic un mic rebound spre 273.50. Riscul: evaluarea premium lasă puțin loc de surprize pozitive.",
+      "sha256": "6d4698f79ced637e8eaa2888db04092cb9684b795b6692d009b90a293200d067",
+      "valoare": 273.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Edison International pe 2026-07-20",
+      "intrebare_id": 318,
+      "rationament": "Edison International a urcat constant de la 74.84 la un vârf de 78.05, cu o mică retragere la 77.63 — trend pozitiv pentru un utility california, posibil pe diminuarea temerilor de răspundere pe incendii. Momentumul rămâne blând ascendent. Prezic continuarea ușoară spre 77.80. Riscul specific: expunerea la litigii/incendii și dobânzi.",
+      "sha256": "b7a3fe7cdedbeaaf72cc05b5f639dd128ba3e1b165b84a1db85fec5c25ec71eb",
+      "valoare": 77.8
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Edwards Lifesciences pe 2026-07-20",
+      "intrebare_id": 319,
+      "rationament": "Edwards Lifesciences e în declin clar și persistent, de la 95.18 la 85.73, cu multiple sesiuni roșii consecutive — presiune pe MedTech-ul de valve cardiace, posibil temeri de concurență/creștere. Momentumul negativ e cel mai pronunțat din grup, fără semn de fund. Prezic continuarea slăbiciunii spre 85.00. Riscul opus: un rebound tehnic după supravânzare ar putea inversa scurt.",
+      "sha256": "e421160a9eedb46b1259ada4ae2d702667c4d3f041ef9121bf7c2941ad18d44b",
+      "valoare": 85.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-18 18:58:48",
+      "intrebare": "Preţul Electronic Arts pe 2026-07-20",
+      "intrebare_id": 320,
+      "rationament": "Electronic Arts e cea mai calmă acțiune din grup, urcând ordonat de la 205.21 la 208.90 în pași mici, fără nicio zi roșie majoră — momentum ușor pozitiv și volatilitate foarte redusă, tipic pentru un editor de jocuri cu venituri recurente. Trendul consistent susține continuarea. Prezic un mic pas în sus spre 209.30. Riscul: calendar de lansări și sezonalitatea pot surprinde, dar pe termen de o zi mișcarea e mică.",
+      "sha256": "7cc5c6af55620a34b9fd12aebcb70a546c575998f3627fe9e00678d17a0a0dd1",
+      "valoare": 209.3
+    }
+  ],
+  "zi": "2026-07-18"
+}

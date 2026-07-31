@@ -1,0 +1,305 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "dea11f6da1346f7aa7f113ffbd017c0e62b4ccde8c6e3f7dff97f1ca8c3cd40a",
+  "nr_frunze": 33,
+  "predictii": [
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-20 09:30:02",
+      "intrebare": "Câştigă Mjällby cu Lincoln Red Imps?",
+      "intrebare_id": 296,
+      "rationament": "Mjällby are avantaj terenului",
+      "sha256": "50583fa14eaafe0ff36b2d7a9181b4e8f7a98c1ceb86f9fce9e3cf1ec061661e",
+      "valoare": 0.6
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-20 09:30:08",
+      "intrebare": "Câştigă Corvinul Hunedoara cu Csíkszereda Miercurea Ciuc?",
+      "intrebare_id": 330,
+      "rationament": "Corvinul are un avantaj solid pe teren propriu și o organizare defensivă superioară, dar Csíkszereda rămâne un adversar incomod și disciplinat.",
+      "sha256": "6862158eada21f8da34912c37bcd283750b2727f71e0286789dbb05f67e5ef18",
+      "valoare": 0.54
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-20 09:30:12",
+      "intrebare": "Câştigă Corvinul Hunedoara cu Csíkszereda Miercurea Ciuc?",
+      "intrebare_id": 330,
+      "rationament": "Corvinul are avantajul terenului propriu și experiență recentă în Liga I, dar meciul rămâne echilibrat.",
+      "sha256": "9e9f6885856d90291256ba8a5eb99bb676e01e751e1cf9c3839c4755c63e8890",
+      "valoare": 0.54
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-20 09:30:12",
+      "intrebare": "Câştigă Corvinul Hunedoara cu Csíkszereda Miercurea Ciuc?",
+      "intrebare_id": 330,
+      "rationament": "avantaj teren",
+      "sha256": "25647201e347381680e269fe08074c8098fdb928b7bf7fa5b4e609bfd3f673f1",
+      "valoare": 0.55
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-20 09:35:09",
+      "intrebare": "Câştigă Corvinul Hunedoara cu Csíkszereda Miercurea Ciuc?",
+      "intrebare_id": 330,
+      "rationament": "Avantaj teren pentru Corvinul, dar Csíkszereda e echipă solidă de Liga I; meci echilibrat, ușor sub 50%.",
+      "sha256": "ec773accd76a547ee057c501c8a608c4eadb48b907385322440d3767683e364d",
+      "valoare": 0.42
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-20 16:45:15",
+      "intrebare": "Preţul Bitcoin pe 2026-07-21",
+      "intrebare_id": 331,
+      "rationament": "Prețul Bitcoin consolidează ușor peste 64000 USD, indicând o potențială revenire minoră pe termen scurt.",
+      "sha256": "26616b0ab77210dd49d6fb9964349d4d1df3de7128bcc6ade8d413e1e1a1b5f0",
+      "valoare": 64620.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-20 16:45:15",
+      "intrebare": "Preţul Ethereum pe 2026-07-21",
+      "intrebare_id": 332,
+      "rationament": "Ethereum menține un suport stabil în zona 1870 USD, sugerând o ușoară tendință de creștere.",
+      "sha256": "896249fb0cf38a63554ef6457020d21b0225bfa55c2bc5e05602eac3b2944fe7",
+      "valoare": 1875.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-20 16:45:15",
+      "intrebare": "Preţul Solana pe 2026-07-21",
+      "intrebare_id": 333,
+      "rationament": "Solana prezintă un impuls ascendent constant în ultimele trei zile, indicând continuitate.",
+      "sha256": "09af9d5048654c7db2ab0dd8f3310a934397b291416e193390bea344c77a0e3d",
+      "valoare": 76.9
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-20 16:45:15",
+      "intrebare": "Preţul XRP pe 2026-07-21",
+      "intrebare_id": 334,
+      "rationament": "XRP manifestă o volatilitate extrem de redusă, stabilizându-se la pragul de 1.10 USD.",
+      "sha256": "46ba24c511193eec48d8f1b85dc4dde878f9caf89c56f4c660414243372a62aa",
+      "valoare": 1.1
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-20 16:45:15",
+      "intrebare": "Preţul Cardano pe 2026-07-21",
+      "intrebare_id": 335,
+      "rationament": "Cardano alternează strâns între 0.16 și 0.17 USD, fiind probabilă o revenire la pragul superior.",
+      "sha256": "b46c90ec976213a301f3a3906a1a6a019714fa7993293feb2171f9ab62fdd1bc",
+      "valoare": 0.17
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-20 16:45:15",
+      "intrebare": "Preţul Dogecoin pe 2026-07-21",
+      "intrebare_id": 336,
+      "rationament": "Dogecoin stagnează complet la valoarea de 0.07 USD, fără semnale de mișcare semnificativă.",
+      "sha256": "b6f165763e5cd2479e87cb87fc3c3a6075975b02f6111961a08b8cee6b457fa6",
+      "valoare": 0.07
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-20 16:45:15",
+      "intrebare": "Preţul BNB pe 2026-07-21",
+      "intrebare_id": 337,
+      "rationament": "BNB tinde să corecteze ușor în sus după scăderea recentă sub pragul de 570 USD.",
+      "sha256": "d73bf606bada252de355c62a6711b03a96e1d1d595272325639d896c0fe4f542",
+      "valoare": 570.2
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-20 16:45:20",
+      "intrebare": "Preţul Bitcoin pe 2026-07-21",
+      "intrebare_id": 331,
+      "rationament": "Oscilații mici, probabil ușor peste azi, dar volatilitatea sugerează o mică creștere.",
+      "sha256": "7d4f8ebba19d268074e6514431e8143361313677929813fb747ae4d6cc7ca268",
+      "valoare": 64600.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-20 16:45:20",
+      "intrebare": "Preţul Ethereum pe 2026-07-21",
+      "intrebare_id": 332,
+      "rationament": "Stabilizare recentă, probabil va rămâne aproape de prețul actual.",
+      "sha256": "caa66c4bfb451343ff77bd57efecad4322ac50ceb1d32ae7a13fa9c7ab3b1bca",
+      "valoare": 1872.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-20 16:45:20",
+      "intrebare": "Preţul Solana pe 2026-07-21",
+      "intrebare_id": 333,
+      "rationament": "Trend ascendent slab, probabil va crește ușor față de azi.",
+      "sha256": "c60b2b51ca8084cea769e9e721a7c81188c1a0afc651e589baefe2f87f5aca80",
+      "valoare": 76.8
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-20 16:45:20",
+      "intrebare": "Preţul XRP pe 2026-07-21",
+      "intrebare_id": 334,
+      "rationament": "Stabilitate evidentă, probabil va rămâne la același nivel.",
+      "sha256": "425a0722b2ba10dd48c73d43348b67a73e4271f3b5d82f09553befa63a9dd652",
+      "valoare": 1.1
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-20 16:45:20",
+      "intrebare": "Preţul Cardano pe 2026-07-21",
+      "intrebare_id": 335,
+      "rationament": "Oscilații mici, probabil revine la 0.17 după scăderea de azi.",
+      "sha256": "ef3bc04925c815171a87bf21c1066a91d5cff3b6e96e1e580e6f0976289111e7",
+      "valoare": 0.17
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-20 16:45:20",
+      "intrebare": "Preţul Dogecoin pe 2026-07-21",
+      "intrebare_id": 336,
+      "rationament": "Stabilitate maximă, nu văd motiv de schimbare.",
+      "sha256": "ae2f7f65a9c9b898960dc54ac6ace3a8e74eef5e4c8101f0f1986a0bda6aafc0",
+      "valoare": 0.07
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-20 16:45:20",
+      "intrebare": "Preţul BNB pe 2026-07-21",
+      "intrebare_id": 337,
+      "rationament": "Oscilații moderate, probabil ușor peste azi, dar nu semnificativ.",
+      "sha256": "e6e846626e6f550a4a442c026b1eb7013308b79b67e386f4a474a3784b60ce6e",
+      "valoare": 570.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-20 16:45:21",
+      "intrebare": "Preţul Bitcoin pe 2026-07-21",
+      "intrebare_id": 331,
+      "rationament": "trend stabil",
+      "sha256": "b7e75fb00dd956d69d48a10c44cc699a6fb792a0a6850f6c510b9ed9d5dd6e37",
+      "valoare": 64500.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-20 16:45:21",
+      "intrebare": "Preţul Ethereum pe 2026-07-21",
+      "intrebare_id": 332,
+      "rationament": "preț stabil",
+      "sha256": "d15b95389cb4cefdc057d1cc22403ec703040c22995dc41c0da7283b39781004",
+      "valoare": 1870.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-20 16:45:21",
+      "intrebare": "Preţul Solana pe 2026-07-21",
+      "intrebare_id": 333,
+      "rationament": "variație mică",
+      "sha256": "b0245cff45f783a9904feafd22ec20b3fa308fdf9e273d306578e4d353dc902c",
+      "valoare": 76.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-20 16:45:21",
+      "intrebare": "Preţul XRP pe 2026-07-21",
+      "intrebare_id": 334,
+      "rationament": "preț constant",
+      "sha256": "07abecb57edaef92a82e1e1eeabd9d7e77109c75600a6a86fde98c17b130d894",
+      "valoare": 1.1
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-20 16:45:21",
+      "intrebare": "Preţul Cardano pe 2026-07-21",
+      "intrebare_id": 335,
+      "rationament": "scădere ușoară",
+      "sha256": "2d8e840baf06e5c24547683d009fdadc22e4790e2f5295dd081d8001f50a3e0d",
+      "valoare": 0.16
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-20 16:45:21",
+      "intrebare": "Preţul Dogecoin pe 2026-07-21",
+      "intrebare_id": 336,
+      "rationament": "preț constant",
+      "sha256": "6586931c59ea6bb869efb13937b6f6edc68daa364ecd5331c0e28bd26eb58e83",
+      "valoare": 0.07
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-20 16:45:21",
+      "intrebare": "Preţul BNB pe 2026-07-21",
+      "intrebare_id": 337,
+      "rationament": "trend descrescător",
+      "sha256": "8ed4cea33fbafa6ebb68780fe2cf9b07b964ef43a78bdccc6cd73ce1db75fe2b",
+      "valoare": 568.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-20 16:50:35",
+      "intrebare": "Preţul Bitcoin pe 2026-07-21",
+      "intrebare_id": 331,
+      "rationament": "Trend ușor descendent ultimele 3 zile; presiune de vânzare moderată, sub reperul de azi.",
+      "sha256": "1077d1d669d48f3708d6595a17b46aaf30f2953d32c300f45528a11f6107bed0",
+      "valoare": 64300.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-20 16:50:35",
+      "intrebare": "Preţul Ethereum pe 2026-07-21",
+      "intrebare_id": 332,
+      "rationament": "Stabilizat în jurul lui 1870, ușoară corecție după platoul din ultimele 3 zile.",
+      "sha256": "e5bff6363ea39166f3d5869b345aba757662c168688fd78a9ed4b2807634f830",
+      "valoare": 1865.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-20 16:50:35",
+      "intrebare": "Preţul Solana pe 2026-07-21",
+      "intrebare_id": 333,
+      "rationament": "Trend ascendent clar ultimele 4 zile; momentum pozitiv slab dar persistent.",
+      "sha256": "e9ca843e52c5447261d8b1332f089949d684d058fa986107fd17f5b81889f9ad",
+      "valoare": 76.85
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-20 16:50:35",
+      "intrebare": "Preţul XRP pe 2026-07-21",
+      "intrebare_id": 334,
+      "rationament": "Oscilație extrem de îngustă 1.07–1.11; reperul e greu de bătut aici.",
+      "sha256": "7fb73381d5ed30bdfbcc4ff5c093bf0bbcca71711ef4dad8f9c5e466acfbc310",
+      "valoare": 1.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-20 16:50:35",
+      "intrebare": "Preţul Cardano pe 2026-07-21",
+      "intrebare_id": 335,
+      "rationament": "Alternează 0.16–0.17 aproape mecanic; după 0.16 azi, revenire probabilă.",
+      "sha256": "80fe6d0ad418bf17f3070fb60821df04b7e692559aafdcca2113d7fc8d959748",
+      "valoare": 0.17
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-20 16:50:35",
+      "intrebare": "Preţul Dogecoin pe 2026-07-21",
+      "intrebare_id": 336,
+      "rationament": "Zero mișcare vizibilă la 2 zecimale în 10 zile; reperul e optimal.",
+      "sha256": "ed204958019d8e6dbe74129e61eb93bbfb4090873c351c7d8f87b7bb59ce9e1a",
+      "valoare": 0.07
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-20 16:50:35",
+      "intrebare": "Preţul BNB pe 2026-07-21",
+      "intrebare_id": 337,
+      "rationament": "Trend descendent de la 581 la 568; continuare probabilă cu pas mic.",
+      "sha256": "766367337308b28260305982fd45a33bc84a41b84e1c2d37dcbafafc1fc5d167",
+      "valoare": 567.0
+    }
+  ],
+  "zi": "2026-07-20"
+}

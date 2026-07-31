@@ -1,0 +1,395 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "02f23fbd76475e743f381b9bcb04dd442c3915b98218a93ee8d9d372620e66c4",
+  "nr_frunze": 43,
+  "predictii": [
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-19 09:30:11",
+      "intrebare": "Câştigă Universitatea Cluj cu Farul Constanța?",
+      "intrebare_id": 321,
+      "rationament": "Universitatea Cluj beneficiază de avantajul terenului propriu, dar Farul are un stil ofensiv periculos, ceea ce echilibrează considerabil șansele de victorie.",
+      "sha256": "d5c49e6e24e69e56263150c173476e2eb87669378acd37c2d2bc9a45d4528ed6",
+      "valoare": 0.43
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-19 09:30:11",
+      "intrebare": "Câştigă Spain cu Argentina?",
+      "intrebare_id": 322,
+      "rationament": "Fiind o finală de Campionat Mondial pe teren neutru, meciul este extrem de echilibrat, Spania având un ușor avantaj prin prisma posesiei prelungite.",
+      "sha256": "8ba4508f66ad4e75208dbebf9d6224452ae9f1124a930b4b2254b52dd2ff5596",
+      "valoare": 0.38
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-19 09:30:14",
+      "intrebare": "Câştigă Universitatea Cluj cu Farul Constanța?",
+      "intrebare_id": 321,
+      "rationament": "Farul e mai puternică, dar avantajul terenului crește șansele Clujului; totuși, oaspeții sunt favoriți.",
+      "sha256": "9c900bfd91db6c70af4d98f25501a10d8b4c982620779677b3c37ad2f9130caa",
+      "valoare": 0.4
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-19 09:30:14",
+      "intrebare": "Câştigă Spain cu Argentina?",
+      "intrebare_id": 322,
+      "rationament": "Spania și Argentina sunt echipe de top, dar Spania are ușor avantaj ca gazdă; meci foarte echilibrat.",
+      "sha256": "d1c237c205821cb6fad7ae7ebda1f2b421b943ee9571656e16bb8b3a28e6e7c0",
+      "valoare": 0.48
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-19 09:30:23",
+      "intrebare": "Câştigă Universitatea Cluj cu Farul Constanța?",
+      "intrebare_id": 321,
+      "rationament": "Farul are un lot mai valoros, dar Cluj e puternică acasă.",
+      "sha256": "30b37860b80364bd11f1df6de7b7a7420c943f0e193323a7578af50ac586c59e",
+      "valoare": 0.45
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-19 09:30:23",
+      "intrebare": "Câştigă Spain cu Argentina?",
+      "intrebare_id": 322,
+      "rationament": "Termin neutru, ambele selecționate sunt de top mondial.",
+      "sha256": "1f80ed90242410697bc7b8ef461659ed72477631e2eac37fb66b74d95c8390a7",
+      "valoare": 0.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-19 09:35:11",
+      "intrebare": "Câştigă Universitatea Cluj cu Farul Constanța?",
+      "intrebare_id": 321,
+      "rationament": "Avantaj de teren pentru gazde, dar Farul e o echipă solidă de mijloc-sus; meci echilibrat, ușor sub 50%.",
+      "sha256": "49d99012725f667604c560155b245bc44bde303ef140aa26403b260f40865fe9",
+      "valoare": 0.47
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-19 09:35:11",
+      "intrebare": "Câştigă Spain cu Argentina?",
+      "intrebare_id": 322,
+      "rationament": "Două puteri mondiale la egalitate de valoare; ușorul avantaj de teren compensează exact incertitudinea, deci monedă echilibrată.",
+      "sha256": "091d888be88e2a589f879f0585bd3014076ad622ceaeb422e3145104273d3b8d",
+      "valoare": 0.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-19 16:45:10",
+      "intrebare": "Preţul Bitcoin pe 2026-07-20",
+      "intrebare_id": 323,
+      "rationament": "Prețul consolidează în jurul mediei recente, indicând o ușoară tendință de revenire după corecția minoră de ieri.",
+      "sha256": "3c53fe6914c5006c8ce900b9f23a6abdc9b3164e1b6773c6e3a464c5dcd7567a",
+      "valoare": 64550.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-19 16:45:10",
+      "intrebare": "Preţul Ethereum pe 2026-07-20",
+      "intrebare_id": 324,
+      "rationament": "Ethereum menține un impuls ascendent ușor în ultimele trei zile, sugerând o continuare a creșterii moderate.",
+      "sha256": "6037ea34d7e3fe5061fa503b9e4d54e06e6f50a1fc16b8c606ac015bb9e97dbc",
+      "valoare": 1875.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-19 16:45:10",
+      "intrebare": "Preţul Solana pe 2026-07-20",
+      "intrebare_id": 325,
+      "rationament": "Solana prezintă o recuperare treptată în ultimele sesiuni, indicând un potențial de creștere pe termen scurt.",
+      "sha256": "51e13ffee5943043a0dcb9e19f3c9139e86051597c83b887c118a300cd282442",
+      "valoare": 76.4
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-19 16:45:10",
+      "intrebare": "Preţul XRP pe 2026-07-20",
+      "intrebare_id": 326,
+      "rationament": "Stabilitatea extremă din ultimele patru zile sugerează că prețul va rămâne neschimbat pe termen foarte scurt.",
+      "sha256": "dd32c5ab1c6ece0b4bbb32d729c9ac7f0b5df06a55eb42b67f67c61b95ec548c",
+      "valoare": 1.09
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-19 16:45:10",
+      "intrebare": "Preţul Cardano pe 2026-07-20",
+      "intrebare_id": 327,
+      "rationament": "Prețul a rămas constant la 0.17 USD în ultimele trei zile, indicând o consolidare puternică fără variații majore.",
+      "sha256": "1cf75b86ef6ba9a7dbfbbb3bdf2f532bcea2504456edd994300e10e18016d3b1",
+      "valoare": 0.17
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-19 16:45:10",
+      "intrebare": "Preţul Dogecoin pe 2026-07-20",
+      "intrebare_id": 328,
+      "rationament": "Moneda manifestă o volatilitate extrem de redusă, menținându-și valoarea constantă de 0.07 USD pe parcursul întregului interval.",
+      "sha256": "685df1ff94e408b03564e3fb157e1b94a6cac3e30330face13cc2fe9410bc115",
+      "valoare": 0.07
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-07-19 16:45:10",
+      "intrebare": "Preţul BNB pe 2026-07-20",
+      "intrebare_id": 329,
+      "rationament": "Deși a scăzut recent, BNB tinde să oscileze în acest interval, sugerând o ușoară corecție pozitivă mâine.",
+      "sha256": "e9d399b6fb6288ddc8d57558419d44d29d1ec5262de955a9d83861f32a4abd7e",
+      "valoare": 569.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-19 16:45:16",
+      "intrebare": "Preţul Bitcoin pe 2026-07-20",
+      "intrebare_id": 323,
+      "rationament": "Oscilații recente între 63k-65k, tind spre media ultimelor zile.",
+      "sha256": "c71fe9ba3af5f128a7cba5362934b20662aa01835c561485127860bd391d684d",
+      "valoare": 64600.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-19 16:45:16",
+      "intrebare": "Preţul Ethereum pe 2026-07-20",
+      "intrebare_id": 324,
+      "rationament": "Stabilizare între 1840-1910, probabilitate mare să rămână aproape de 1870.",
+      "sha256": "687415b254de52318cf480b167de74c21a6390250ac91519bc14fcff7f9317aa",
+      "valoare": 1870.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-19 16:45:16",
+      "intrebare": "Preţul Solana pe 2026-07-20",
+      "intrebare_id": 325,
+      "rationament": "Mișcări mici, range 75-78, probabil revine spre 76.",
+      "sha256": "b2136e785d464d55239887cc77a615bcf19422e479468d050dd353191295fb89",
+      "valoare": 76.0
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-19 16:45:16",
+      "intrebare": "Preţul XRP pe 2026-07-20",
+      "intrebare_id": 326,
+      "rationament": "Foarte stabil, 1.09 a dominat ultimele zile.",
+      "sha256": "8149953210d007fe007f0bc2b10f9735d9e6e261299c3e573082d16eaf2b66aa",
+      "valoare": 1.09
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-19 16:45:16",
+      "intrebare": "Preţul Cardano pe 2026-07-20",
+      "intrebare_id": 327,
+      "rationament": "Mică volatilitate, 0.17 a fost prețul dominant.",
+      "sha256": "bab33a70724631e12e4db17abeea04a8cd6e1ca69425fe2129206c0eb6cb6040",
+      "valoare": 0.17
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-19 16:45:16",
+      "intrebare": "Preţul Dogecoin pe 2026-07-20",
+      "intrebare_id": 328,
+      "rationament": "Zero volatilitate, 0.07 constant de mult timp.",
+      "sha256": "55eb4d4855caaf65136ac5b726c6365e2c73413985065c229a09cd0d2bc94980",
+      "valoare": 0.07
+    },
+    {
+      "agent": "gpt",
+      "creata_la": "2026-07-19 16:45:16",
+      "intrebare": "Preţul BNB pe 2026-07-20",
+      "intrebare_id": 329,
+      "rationament": "Range 567-581, probabilitate mare să oscileze aproape de 570.",
+      "sha256": "56a4b2fb350a75a662c8aa1afe674164547f4361d4a170910d33a6fbef4d545c",
+      "valoare": 570.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-19 16:45:17",
+      "intrebare": "Preţul Bitcoin pe 2026-07-20",
+      "intrebare_id": 323,
+      "rationament": "trend ușor ascendent",
+      "sha256": "bd0e162ad68763b8f7fb2c28487f3d12b4b97ac4ee6e1302539324468586deb5",
+      "valoare": 64500.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-19 16:45:17",
+      "intrebare": "Preţul Ethereum pe 2026-07-20",
+      "intrebare_id": 324,
+      "rationament": "stabilizare",
+      "sha256": "5d20f9360c816bac528b5131ecb37eff217f622ec90f81824ab8b8cc3ed89ffa",
+      "valoare": 1870.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-19 16:45:17",
+      "intrebare": "Preţul Solana pe 2026-07-20",
+      "intrebare_id": 325,
+      "rationament": "oscilații mici",
+      "sha256": "4ac0b3795a554c747e2aa811297a53b0dfe0f368231f2e51566a73673921c227",
+      "valoare": 76.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-19 16:45:17",
+      "intrebare": "Preţul XRP pe 2026-07-20",
+      "intrebare_id": 326,
+      "rationament": "stagnare",
+      "sha256": "6d298ec265f10ab9dfc3e8cb70ece6edce6c8761b0a06b5472ca64e31c750cde",
+      "valoare": 1.09
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-19 16:45:17",
+      "intrebare": "Preţul Cardano pe 2026-07-20",
+      "intrebare_id": 327,
+      "rationament": "stabil",
+      "sha256": "04c39a046fdf89395183f4e3fc8d1fa63b9a4b83f9c363b5f67835f3b1400bda",
+      "valoare": 0.17
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-19 16:45:17",
+      "intrebare": "Preţul Dogecoin pe 2026-07-20",
+      "intrebare_id": 328,
+      "rationament": "constant",
+      "sha256": "a502dc67d2cebae5954bca479631c3e2c3d0052aecbaebb0ffa3f658b2a5e7d0",
+      "valoare": 0.07
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-07-19 16:45:17",
+      "intrebare": "Preţul BNB pe 2026-07-20",
+      "intrebare_id": 329,
+      "rationament": "corecție mică",
+      "sha256": "e98d6328248b4c58f14dd81c3e13f27f05f0a42dde51faf3356542a9dff88bc3",
+      "valoare": 570.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-19 16:45:20",
+      "intrebare": "Preţul Bitcoin pe 2026-07-20",
+      "intrebare_id": 323,
+      "rationament": "Consolidare după revenire, impulsul ușor pozitiv sugerează o creștere modestă.",
+      "sha256": "3d336005d0013d5b2cbd7f46d88e498ba3c797448c1d88b076cd49fea4775184",
+      "valoare": 64500.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-19 16:45:20",
+      "intrebare": "Preţul Ethereum pe 2026-07-20",
+      "intrebare_id": 324,
+      "rationament": "Recuperare din scădere, momentul pare favorabil pentru un câștig mic.",
+      "sha256": "e74e612a49a58516d44c772248acdad76753056020e6a492dc8dfb8ed23cc57a",
+      "valoare": 1875.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-19 16:45:20",
+      "intrebare": "Preţul Solana pe 2026-07-20",
+      "intrebare_id": 325,
+      "rationament": "Săritură de la suport, probabil să testeze rezistența superioară.",
+      "sha256": "9a66892e4b65e3ce899fe81b791730d5ec131567d07fd767132b5265754459c0",
+      "valoare": 76.5
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-19 16:45:20",
+      "intrebare": "Preţul XRP pe 2026-07-20",
+      "intrebare_id": 326,
+      "rationament": "Volatilitate extrem de redusă, prețul rămâne blocat în interval.",
+      "sha256": "da174da93818ded4fd4a644118a66bd51b53a570d61e25ee365ee13ecb6f4eda",
+      "valoare": 1.09
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-19 16:45:20",
+      "intrebare": "Preţul Cardano pe 2026-07-20",
+      "intrebare_id": 327,
+      "rationament": "Oscilație stabilă între niveluri, fără semnal clar de rupere.",
+      "sha256": "7ffa6005ed057636b9cdeb66ef5ea987f7cea1ebd9da471d9c341b11262b9845",
+      "valoare": 0.17
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-19 16:45:20",
+      "intrebare": "Preţul Dogecoin pe 2026-07-20",
+      "intrebare_id": 328,
+      "rationament": "Datele arată zero mișcare, se așteaptă continuarea stagnării.",
+      "sha256": "a5eb00c860d540b5d56d15f4f99374c8a41a8a7c049834dd74a70152b124d9a7",
+      "valoare": 0.07
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-07-19 16:45:20",
+      "intrebare": "Preţul BNB pe 2026-07-20",
+      "intrebare_id": 329,
+      "rationament": "Trend descrescător persistă, probabil să testeze suporturi inferioare.",
+      "sha256": "0a066a2355ea53d4b47ce6afbc4f5805a46ecd9acc79f937042d605349977e44",
+      "valoare": 565.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-19 16:50:19",
+      "intrebare": "Preţul Bitcoin pe 2026-07-20",
+      "intrebare_id": 323,
+      "rationament": "Oscilează în jur de 64k fără trend clar; ușor peste ultima închidere pe fond de stabilizare.",
+      "sha256": "3d7c2c2f8483ae2ec3dd96bd9618a71525c93c2ef7662ddbc56433edfd4779b4",
+      "valoare": 64550.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-19 16:50:19",
+      "intrebare": "Preţul Ethereum pe 2026-07-20",
+      "intrebare_id": 324,
+      "rationament": "Revenire consolidată peste 1860 în ultimele zile; ușor ascendent.",
+      "sha256": "9072fc58232ab6c0063971e5a93eef4170e19998ff6168f837cff401f5ce3acc",
+      "valoare": 1875.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-19 16:50:19",
+      "intrebare": "Preţul Solana pe 2026-07-20",
+      "intrebare_id": 325,
+      "rationament": "Recuperare graduală de la 75 spre 76; momentum ușor pozitiv.",
+      "sha256": "700f457021b8773079a0bdf03abe269846988ce57726fbd7f6139cb4b0e4f003",
+      "valoare": 76.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-19 16:50:19",
+      "intrebare": "Preţul XRP pe 2026-07-20",
+      "intrebare_id": 326,
+      "rationament": "Lateral stabil la 1.09; niciun catalizator vizibil pentru mișcare.",
+      "sha256": "42d4b165a3621ef9afb6e721330be0785c035de6f904d8689f119608fe8f0753",
+      "valoare": 1.09
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-19 16:50:19",
+      "intrebare": "Preţul Cardano pe 2026-07-20",
+      "intrebare_id": 327,
+      "rationament": "Plat la 0.16-0.17; rotunjirea maschează orice variație mică.",
+      "sha256": "0ab653e90b91f74f2f66f8ef4361c6cf3a92bef9ad8e534754f082e68314fa3b",
+      "valoare": 0.17
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-19 16:50:19",
+      "intrebare": "Preţul Dogecoin pe 2026-07-20",
+      "intrebare_id": 328,
+      "rationament": "Complet plat la nivel rotunjit; reperul e practic imbatabil aici.",
+      "sha256": "6f6d96eb7f324ab1696c382cb4a4d7ec76accc71bb200ae85a7b3ae13f7503c2",
+      "valoare": 0.07
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-07-19 16:50:19",
+      "intrebare": "Preţul BNB pe 2026-07-20",
+      "intrebare_id": 329,
+      "rationament": "Ușoară slăbire spre 568 dar oscilează în jur de 570; mică revenire.",
+      "sha256": "df46fc6195f6b9849255fb1163bdefc47c1b9e63b4cf9b0c82e33d2d48cb5298",
+      "valoare": 569.5
+    }
+  ],
+  "zi": "2026-07-19"
+}
