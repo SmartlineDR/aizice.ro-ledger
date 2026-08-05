@@ -1,0 +1,1808 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "98ed09a7087f6e982478453e095779dfa595fa19d016f2133fb6a62e3376cff4",
+  "nr_frunze": 200,
+  "predictii": [
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 14:30:04",
+      "intrebare": "Cursul euro (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1147,
+      "rationament": "tendință slabă",
+      "sha256": "6c744204cc525fabbd38f9af9e13fb594b027daf172de8dfbe78aa2438cde876",
+      "valoare": 5.25
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 14:30:04",
+      "intrebare": "Cursul dolar (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1148,
+      "rationament": "stabilizare",
+      "sha256": "fa51e90a8537fef13b95791d86523fbbef7a0c46d90fc7296cbf831658be63c3",
+      "valoare": 4.56
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 14:30:04",
+      "intrebare": "Cursul lirei sterline (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1149,
+      "rationament": "mică fluctuație",
+      "sha256": "038d6c76a3438a8fcfd28748ecedc5c52eb4070c0c9c3ba508f01b28fc1c38bb",
+      "valoare": 6.13
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 14:30:04",
+      "intrebare": "Cursul francului elveţian (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1150,
+      "rationament": "stabil",
+      "sha256": "5de59dbc45e6b03415974bf487b46eb9283b19630b518073126403f3b04203af",
+      "valoare": 5.635
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 14:30:04",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1151,
+      "rationament": "scădere ușoară",
+      "sha256": "c432411cf4d756c60e391c2a3d461fa3dfc8c74ce94b3fe099099e1e3502ec83",
+      "valoare": 595.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 14:30:08",
+      "intrebare": "Cursul euro (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1147,
+      "rationament": "Ușoară creștere recentă, dar volatilitate mică sugerează stabilizare aproape de maximul actual.",
+      "sha256": "98c69e7c09a94d1454d7170bb5631c7c9627db9667d876953c7b67c892e2e144",
+      "valoare": 5.248
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 14:30:08",
+      "intrebare": "Cursul dolar (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1148,
+      "rationament": "Tendință generală de scădere în ultima săptămână, revenirea recentă pare nesemnificativă.",
+      "sha256": "c0bd3657fe91698ec552a32f5ff5ab32e80d5718a81b4e00363c35a1a33292cb",
+      "valoare": 4.558
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 14:30:08",
+      "intrebare": "Cursul lirei sterline (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1149,
+      "rationament": "Oscilație într-un canal relativ stabil, ușoară corecție după vârful recent.",
+      "sha256": "9e5c0074e021701308435bffc87f00ba63bb93528111959e840db6235f9a2398",
+      "valoare": 6.128
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 14:30:08",
+      "intrebare": "Cursul francului elveţian (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1150,
+      "rationament": "Stabilizare după scăparea de volatilitate, prețul revine spre media recentă.",
+      "sha256": "ce25c4e30edad8d85534e776738e832d3498cf13dd0a2328cbe97d821cac6993",
+      "valoare": 5.629
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 14:30:08",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1151,
+      "rationament": "Momentum descendent persistent, testarea suportului inferior sugerează o continuare ușoară a scăderii.",
+      "sha256": "8c6d2de443d6c2d1bf4f2c528897cc1b299c23565eeaf9600d29cc2d32928952",
+      "valoare": 592.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 14:30:09",
+      "intrebare": "Cursul euro (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1147,
+      "rationament": "Random walk: mențin ultima valoare cunoscută, tendința fiind neglijabilă pe termen scurt.",
+      "sha256": "efe2cf1609e62907cd78301b5a41cb14bf389881300bde508c509ff26e5d9664",
+      "valoare": 5.2497
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 14:30:09",
+      "intrebare": "Cursul dolar (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1148,
+      "rationament": "Random walk: mențin ultima valoare cunoscută, volatilitatea recentă nu indică o direcție clară.",
+      "sha256": "c5ad34735cc539470c90146d1dcb80901dbd90c4f975ebef12769b35ff2231af",
+      "valoare": 4.5624
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 14:30:09",
+      "intrebare": "Cursul lirei sterline (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1149,
+      "rationament": "Random walk: mențin ultima valoare cunoscută, fluctuațiile sunt haotice și nepredictibile.",
+      "sha256": "de1f34d69ae50f428a51a0588601cd004816e3b59abf69245e86f99fbe6cdacb",
+      "valoare": 6.1318
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 14:30:09",
+      "intrebare": "Cursul francului elveţian (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1150,
+      "rationament": "Random walk: mențin ultima valoare cunoscută, lipsa unei tendințe persistente sugerează staționaritate.",
+      "sha256": "fb32c8f8fb8501912813152f14ee112bb300d24afb1351bd2365ae68ba08b77b",
+      "valoare": 5.6303
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 14:30:09",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1151,
+      "rationament": "Random walk: mențin ultima valoare cunoscută, prețul pare stabilizat în jurul acestui nivel.",
+      "sha256": "9ce2355b7c64e2ffd8d1fa8816a3827508b50250fb4050bc0d8293010284639c",
+      "valoare": 593.73
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 14:30:51",
+      "intrebare": "Cursul euro (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1147,
+      "rationament": "Fără trend, ultimul curs e estimarea centrală; altceva ar fi zgomot.",
+      "sha256": "e55b6edda5bb3b1cd5c2e52faea20cec7261ea6306c74cb7f0a03943dfeeeda0",
+      "valoare": 5.2497
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 14:30:51",
+      "intrebare": "Cursul dolar (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1148,
+      "rationament": "Cea mai bună predicție sub random walk este valoarea curentă.",
+      "sha256": "2bd88a7d656740b8b8df74c763448ef81cb322e4f63ad980dac9cfc4b8008ce9",
+      "valoare": 4.5624
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 14:30:51",
+      "intrebare": "Cursul lirei sterline (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1149,
+      "rationament": "Fără trend, reproduc ultimul curs; orice altă direcție e arbitrară.",
+      "sha256": "f300b318dd83fc97d64ed3241fcb51b5e3aec2232403417069bf2193c3a30a5a",
+      "valoare": 6.1318
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 14:30:51",
+      "intrebare": "Cursul francului elveţian (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1150,
+      "rationament": "Random walk: valoarea de azi rămâne cea mai probabilă pentru peste o săptămână.",
+      "sha256": "6bc747520352eb475dc41ddbea9fb382bdd031e0493184a9389ca50a049c67de",
+      "valoare": 5.6303
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 14:30:51",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1151,
+      "rationament": "Fără trend, ultima valoare observată este predicția naturală.",
+      "sha256": "247757f86d44d316fbc6634c5735433748459b953f3e096d08a7647b056a8807",
+      "valoare": 593.73
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 14:35:20",
+      "intrebare": "Cursul euro (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1147,
+      "rationament": "Leul are crawling peg cu depreciere lentă; ultimele zile urcă constant, extrapolez o mișcare mică în sus.",
+      "sha256": "60513eef960b8bf5d6f7566fae1656064c8d7cfb800923c3955f38f1147460bc",
+      "valoare": 5.2515
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 14:35:20",
+      "intrebare": "Cursul dolar (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1148,
+      "rationament": "Dolarul a scăzut cinci ședințe din șapte; aștept o corecție ușoară în sus față de minimul recent.",
+      "sha256": "28fd731f240ee38c6808bb7d304669cdc0e2bc83bdb6711072c6e1b45f650a9e",
+      "valoare": 4.568
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 14:35:20",
+      "intrebare": "Cursul lirei sterline (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1149,
+      "rationament": "Oscilează fără direcție în jur de 6.12-6.13; rămân aproape de mijlocul intervalului recent.",
+      "sha256": "36b074133f125fa25aec2cc2cb0c5bd8cfa42f49606572443d014821e0e4012f",
+      "valoare": 6.129
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 14:35:20",
+      "intrebare": "Cursul francului elveţian (RON) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1150,
+      "rationament": "Francul stă lateral cu volatilitate mică; iau ultima valoare plus o fracțiune din drift-ul leului.",
+      "sha256": "97379890be2523cc647237d7020640465066fa1de8ef539642dc73f1bdb751f0",
+      "valoare": 5.633
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 14:35:20",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1151,
+      "rationament": "Scădere de două săptămâni pare epuizată la 593; aur în RON revine ușor odată cu leul mai slab.",
+      "sha256": "fdc3adeab06dd2da5cafa98585b53919b1a5b326a47da7e65ae82b74c74f5cef",
+      "valoare": 596.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul Apple Inc. pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1152,
+      "rationament": "Am ales această valoare pentru că tendința recentă a acțiunilor Apple a fost una de scădere, dar prețul a început să se stabilizeze în jurul valorii actuale. De asemenea, poziția companiei pe piața tehnologiei și inovațiilor sale continue în domeniul dispozitivelor inteligente și serviciilor online ar putea contribui la o creștere stabilă a valorii acțiunilor. Cu toate acestea, riscurile legate de concurența pe piața dispozitivelor mobile și de evoluția tehnologiei ar putea influența negativ prețul acțiunilor.",
+      "sha256": "5b1e4b518179a0216dc1f2c87fb404b6f09eed9cf4f97f8b0f453c0e40a7143d",
+      "valoare": 303.42
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul Microsoft pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1153,
+      "rationament": "Prețul acțiunilor Microsoft a crescut semnificativ în ultima perioadă, datorită performanței sale financiare solide și a poziției sale dominante pe piața software-ului și a serviciilor cloud. Tendința actuală arată o continuare a creșterii, dar riscurile legate de concurența pe piața cloud-ului și de evoluția tehnologiei ar putea influența negativ prețul acțiunilor. De asemenea, investițiile companiei în inteligența artificială și în dezvoltarea de noi tehnologii ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "c061cffed0bd8785a5891946ffebd7cf85548e3aa6c92e56a069d6f14e1b747c",
+      "valoare": 487.65
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul Nvidia pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1154,
+      "rationament": "Acțiunile Nvidia au avut o evoluție volatilă în ultima perioadă, influențate de cererea pe piața componentelor grafice și de evoluția tehnologiei. Tendința actuală arată o stabilizare a prețului, dar riscurile legate de concurența pe piața componentelor grafice și de evoluția tehnologiei ar putea influența negativ prețul acțiunilor. De asemenea, investițiile companiei în dezvoltarea de noi tehnologii, cum ar fi inteligența artificială și vehiculele autonome, ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "ad78f56cd14062c7fa40923b49b9a3d7774d51aaf391d93508029a97512abb27",
+      "valoare": 206.64
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul Amazon pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1155,
+      "rationament": "Prețul acțiunilor Amazon a crescut semnificativ în ultima perioadă, datorită performanței sale financiare solide și a poziției sale dominante pe piața comerțului online. Tendința actuală arată o continuare a creșterii, dar riscurile legate de concurența pe piața comerțului online și de evoluția tehnologiei ar putea influența negativ prețul acțiunilor. De asemenea, investițiile companiei în dezvoltarea de noi tehnologii, cum ar fi inteligența artificială și robotica, ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "f696b8bca5102a2620a6e88b3445e68b649af2d7a64304a36ce37282040f914f",
+      "valoare": 284.02
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul Berkshire Hathaway pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1156,
+      "rationament": "Acțiunile Berkshire Hathaway au avut o evoluție stabilă în ultima perioadă, influențate de performanța financiară solidă a companiei și de poziția sa diversificată pe piața investițiilor. Tendința actuală arată o continuare a creșterii, dar riscurile legate de evoluția economiei globale și de concurența pe piața investițiilor ar putea influența negativ prețul acțiunilor. De asemenea, strategia de investiții a companiei, condusă de Warren Buffett, ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "ac4a549454212fd61742bfc2bc07cbd63fe8e1072fdc3f20818837847dd47a7d",
+      "valoare": 513.14
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul Lilly (Eli) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1157,
+      "rationament": "Prețul acțiunilor Eli Lilly a scăzut în ultima perioadă, influențat de concurența pe piața farmaceutică și de evoluția tehnologiei. Tendința actuală arată o stabilizare a prețului, dar riscurile legate de concurența pe piața farmaceutică și de evoluția tehnologiei ar putea influența negativ prețul acțiunilor. De asemenea, investițiile companiei în dezvoltarea de noi medicamente și tehnologii ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "54135c726805d7a02fc71e8bb9936f4f34e64f3cf32375c2f7b66b019c8207cf",
+      "valoare": 1121.36
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1158,
+      "rationament": "Acțiunile JPMorgan Chase au avut o evoluție stabilă în ultima perioadă, influențate de performanța financiară solidă a companiei și de poziția sa dominantă pe piața bancară. Tendința actuală arată o continuare a creșterii, dar riscurile legate de evoluția economiei globale și de concurența pe piața bancară ar putea influența negativ prețul acțiunilor. De asemenea, strategia de investiții a companiei ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "59836e3745e5138f1f4f6c6982054a29ceafb2a2ee650d453b6eaba246b5be29",
+      "valoare": 352.64
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul Visa Inc. pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1159,
+      "rationament": "Prețul acțiunilor Visa a crescut semnificativ în ultima perioadă, datorită performanței sale financiare solide și a poziției sale dominante pe piața plăților electronice. Tendința actuală arată o continuare a creșterii, dar riscurile legate de concurența pe piața plăților electronice și de evoluția tehnologiei ar putea influența negativ prețul acțiunilor. De asemenea, investițiile companiei în dezvoltarea de noi tehnologii și servicii ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "0dcfbf120ff3e31af944e67ca4be9d5e6831ab991cbb16d9b6066c82233e7fa1",
+      "valoare": 365.67
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul Mastercard pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1160,
+      "rationament": "Acțiunile Mastercard au avut o evoluție stabilă în ultima perioadă, influențate de performanța financiară solidă a companiei și de poziția sa dominantă pe piața plăților electronice. Tendința actuală arată o continuare a creșterii, dar riscurile legate de concurența pe piața plăților electronice și de evoluția tehnologiei ar putea influența negativ prețul acțiunilor. De asemenea, investițiile companiei în dezvoltarea de noi tehnologii și servicii ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "6d8c5373c1a8a765032995615336a0d3a61bdb9100152b09883cffa24f0f6a10",
+      "valoare": 570.97
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul Procter & Gamble pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1161,
+      "rationament": "Prețul acțiunilor Procter & Gamble a scăzut în ultima perioadă, influențat de concurența pe piața bunurilor de consum și de evoluția tehnologiei. Tendința actuală arată o stabilizare a prețului, dar riscurile legate de concurența pe piața bunurilor de consum și de evoluția tehnologiei ar putea influența negativ prețul acțiunilor. De asemenea, investițiile companiei în dezvoltarea de noi produse și tehnologii ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "4bfef1ea24e0957cfac9cd0e33baddbb32b455727abb790038196fe9fdf207d3",
+      "valoare": 144.97
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul Johnson & Johnson pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1162,
+      "rationament": "Acțiunile Johnson & Johnson au avut o evoluție stabilă în ultima perioadă, influențate de performanța financiară solidă a companiei și de poziția sa dominantă pe piața farmaceutică. Tendința actuală arată o continuare a creșterii, dar riscurile legate de concurența pe piața farmaceutică și de evoluția tehnologiei ar putea influența negativ prețul acțiunilor. De asemenea, investițiile companiei în dezvoltarea de noi medicamente și tehnologii ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "bef9b22381aa3d5423631f3c880108982bb42b35116087ebb8b86117813736e7",
+      "valoare": 254.41
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul Home Depot (The) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1163,
+      "rationament": "Prețul acțiunilor Home Depot a crescut semnificativ în ultima perioadă, datorită performanței sale financiare solide și a poziției sale dominante pe piața bunurilor de construcții. Tendința actuală arată o continuare a creșterii, dar riscurile legate de concurența pe piața bunurilor de construcții și de evoluția tehnologiei ar putea influența negativ prețul acțiunilor. De asemenea, investițiile companiei în dezvoltarea de noi produse și tehnologii ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "7697ced7867f590c2cd3ae06f9e5ce69a3fee84182eb4eccaad6987c887fd538",
+      "valoare": 340.02
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul Costco pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1164,
+      "rationament": "Acțiunile Costco au avut o evoluție stabilă în ultima perioadă, influențate de performanța financiară solidă a companiei și de poziția sa dominantă pe piața comerțului cu amănuntul. Tendința actuală arată o continuare a creșterii, dar riscurile legate de concurența pe piața comerțului cu amănuntul și de evoluția tehnologiei ar putea influența negativ prețul acțiunilor. De asemenea, investițiile companiei în dezvoltarea de noi tehnologii și servicii ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "0c5ef93b9f4dfd1b539f7db4c35efe64041df9ea589777bca0e18d6eb4913ddf",
+      "valoare": 954.08
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1165,
+      "rationament": "Prețul acțiunilor Coca-Cola a scăzut în ultima perioadă, influențat de concurența pe piața băuturilor și de evoluția tehnologiei. Tendința actuală arată o stabilizare a prețului, dar riscurile legate de concurența pe piața băuturilor și de evoluția tehnologiei ar putea influența negativ prețul acțiunilor. De asemenea, investițiile companiei în dezvoltarea de noi produse și tehnologii ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "494a4d17ffb6d3af13a0eecc7f9174d3e64f439e4aa855cebaa1bb6cffb924ac",
+      "valoare": 86.86
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul PepsiCo pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1166,
+      "rationament": "Acțiunile PepsiCo au avut o evoluție stabilă în ultima perioadă, influențate de performanța financiară solidă a companiei și de poziția sa dominantă pe piața băuturilor. Tendința actuală arată o continuare a creșterii, dar riscurile legate de concurența pe piața băuturilor și de evoluția tehnologiei ar putea influența negativ prețul acțiunilor. De asemenea, investițiile companiei în dezvoltarea de noi produse și tehnologii ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "6698e9557433fbc223794a3bd0891fec0baf2c94ba10b976983e058def1d5066",
+      "valoare": 139.63
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul Oracle Corporation pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1167,
+      "rationament": "Prețul acțiunilor Oracle a crescut semnificativ în ultima perioadă, datorită performanței sale financiare solide și a poziției sale dominante pe piața software-ului. Tendința actuală arată o continuare a creșterii, dar riscurile legate de concurența pe piața software-ului și de evoluția tehnologiei ar putea influența negativ prețul acțiunilor. De asemenea, investițiile companiei în dezvoltarea de noi tehnologii și servicii ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "2c028f0c40920f0f55d2a220634609d160b4c1e56f9320f541fd33f56cffee51",
+      "valoare": 141.85
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 15:45:10",
+      "intrebare": "Preţul Netflix pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1168,
+      "rationament": "Acțiunile Netflix au avut o evoluție volatilă în ultima perioadă, influențate de concurența pe piața serviciilor de streaming și de evoluția tehnologiei. Tendința actuală arată o stabilizare a prețului, dar riscurile legate de concurența pe piața serviciilor de streaming și de evoluția tehnologiei ar putea influența negativ prețul acțiunilor. De asemenea, investițiile companiei în dezvoltarea de noi conținuturi și tehnologii ar putea contribui la o creștere pe termen lung a valorii acțiunilor.",
+      "sha256": "df5e41a737e4f8b451c4f2fbafd416a190314bfa63c6c1709494e6607ab1fb4c",
+      "valoare": 73.33
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul Apple Inc. pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1152,
+      "rationament": "Recuperare tehnică anticipată după scăderea bruscă de la 340 la 303 USD, investitorii privind nivelul actual ca o zonă de suport puternică. Volatilitatea rămâne ridicată din cauza așteptărilor de venituri, dar sentimentul general sugerează o revenire la media mobilă. Riscul principal este o extindere a corecției tehnologice înainte de stabilizare.",
+      "sha256": "0c4a452b5843b56ccd925e82133d4a56b0bdbcb3b52b3a9e8e436ba1e3ee1569",
+      "valoare": 308.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul Microsoft pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1153,
+      "rationament": "Momentumul extrem de bullish din ultimele sesiuni, alimentat probabil de rezultate excepționale în cloud și AI, indică o continuare a trendului ascendent. Acest breakout peste 480 USD deschide calea către noi maxime, iar lichiditatea ridicată susține avansul. Totuși, o ușoară consolidare este posibilă după o creștere atât de rapidă, dar direcția rămâne pozitivă.",
+      "sha256": "c181f402c8e4a23aa862a448f8f7c15fcda30f611224ef05a5693767de0e179f",
+      "valoare": 495.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul Nvidia pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1154,
+      "rationament": "Acțiunea își revine lent după corecția de la 200 USD, susținută de cererea continuă de semiconductori și așteptările pentru noile lansări de produse. Graficul arată formarea unui fund dublu, un semnal tehnic bullish care sugerează testarea rezistenței de 210 USD. Riscul constă în profiturile luate de investitori dacă piața generală se întoarce în roșu.",
+      "sha256": "d04cb9093774dd2bd6e4ebaa900b660f5f96d912b3dc3060dc73600ca90c98e1",
+      "valoare": 210.5
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul Amazon pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1155,
+      "rationament": "Creșterea abruptă de la 230 la 280 USD semnalează un schimb major de sentiment, posibil determinat de marje de profit mai bune decât așteptările. Retail-ul și AWS conduc performanța, iar cumpărătorii agresivi mențin prețul peste media mobilă. Se preconizează o continuare a trendului pe măsură ce piața preia noile informații fundamentale.",
+      "sha256": "c1b4f810bd2b1a3c598193a0a3ca9a55fc43e95e256e1341e8d9375236110e72",
+      "valoare": 290.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul Berkshire Hathaway pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1156,
+      "rationament": "Ca acțiune defensivă, BRK-B a atins un nou maxim, demonstrând reziliență în fața volatilității pieței și atractivitatea sa ca refugiu. Alocarea de capital și rezervele de numerar masive oferă siguranță, atrăgând investitorii prudenti în această perioadă. Mișcarea este lentă, dar tendința rămâne ascendentă cu suport solid la 500 USD.",
+      "sha256": "1520ad8b79fe2eb48745099c2cf7bc99077c8ebf0f7cf909fb79236a86877822",
+      "valoare": 515.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul Lilly (Eli) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1157,
+      "rationament": "După o scădere semnificativă de la 1220 la 1120 USD, acțiunea pare supravândută, oferind o oportunitate de rebound tehnic pe termen scurt. Sectorul farmaceutic rămâne atractiv pentru diversificare, iar LLY este lider în tratamentele inovatoare. Investitorii ar putea intra pe poziții la aceste prețuri reduse, anticipând o stabilizare a volatilității.",
+      "sha256": "61b037d1e27767b0305bf778aa2559e358aed431732a8dd4660012bd2275ae9c",
+      "valoare": 1135.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1158,
+      "rationament": "Banca tranzacționează într-un canal lateral cu o ușoară tendință de apreciere, susținută de un mediu al ratelor dobânzii favorabil marjelor de profit. Situația economică globală pare stabilă, reducând riscul de credite neperformante care ar putea afecta sectorul. Se așteaptă o creștere moderată pe măsură ce investitorii caută siguranță în sectorul financiar.",
+      "sha256": "be14d6222d35d7c73489afac27527ea4f89ac720f95ebbb0357003f340d55d21",
+      "valoare": 355.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul Visa Inc. pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1159,
+      "rationament": "După atingerea unui maxim local la 368 USD, acțiunea se consolidează, ceea ce este un semn de sănătate a trendului ascendent pe termen lung. Cheltuielile consumatorilor rămân robuste, iar dominația Visa în plăți digitale îi asigură venituri recurene. Riscul este scăzut, dar creșterea lentă sugerează o mișcare laterală ușor pozitivă.",
+      "sha256": "db4ffcf7f48da6528755a23e01215aaa9e221b48373afac344a012f3a3cdd926",
+      "valoare": 366.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul Mastercard pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1160,
+      "rationament": "Similar cu Visa, MA a corectat ușor de la maximul de 577 USD, dar structura graficului rămâne bullish cu suport la 570 USD. Diversificarea geografică și inovațiile în tehnologia plăților catalizează creșterea, permițând recuperarea pierderilor minore. Se preconizează o revenire la maximul anterior pe măsură ce cumpărătorii intervin.",
+      "sha256": "96ee01123d326b78c773b639063fb4a60919b7936622999e1b46b8e1cc46bf11",
+      "valoare": 575.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul Procter & Gamble pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1161,
+      "rationament": "Acțiunea a scăzut treptat de la 149 USD, dar găsește suport aproape de nivelul de 145 USD, acționând ca un activ defensiv clasic în portofolii. Cererea pentru produse de consum de bază rămâne constantă, limitând riscul de scădere bruscă. Investitorii folosesc această scădere pentru a acumula acțiuni la un raport preț/câștig atractiv.",
+      "sha256": "76bf57b4327610438241da6070d455535dd9fe163021d1f8e1b2ab07fb6efca2",
+      "valoare": 145.5
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul Johnson & Johnson pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1162,
+      "rationament": "JNJ a suferit o corecție de la 266 USD, posibil din cauza unor știri specifice companiei, dar pare să stabilizeze la 254 USD. Portofoliul diversificat de produse farmaceutice și de consum oferă un amortizor împotriva volatilității pieței. Se așteaptă o mișcare laterală ușor pozitivă pe măsură ce vânzătorii epuizează presiunea.",
+      "sha256": "423c91035e776b7fd7c01ff6b3cfb7c29ed8d745ea285d4ca23e86224363f816",
+      "valoare": 255.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul Home Depot (The) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1163,
+      "rationament": "După o volatilitate ridicată, HD a revenit peste 340 USD, sugerând că investitorii au încredere în sectorul locuințelor în ciuda costurilor de finanțare. Sezonul de renovări continuă să susțină vânzările, iar compania își menține cota de piață eficient. O continuare a rebound-ului este probabilă dacă piața generală rămâne stabilă.",
+      "sha256": "f03261156aa716e0421b9e42654b053973be5e85e7b55abfefe8250f5300698c",
+      "valoare": 342.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul Costco pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1164,
+      "rationament": "Costco a atins un maxim de 974 USD și acum se consolidează în jurul valorii de 954 USD, un comportament tipic după o alergare rapidă a prețului. Modelul de abonament asigură venituri predictibile, dar evaluarea ridicată limitează creșterea suplimentară fără știri pozitive. Se preconizează o perioadă de consolidare ușor negativă sau neutră.",
+      "sha256": "56ec41fadd0d6f03fc6417647c67b13a61dca3aadb9b472ad9f8804c7711dfa4",
+      "valoare": 950.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1165,
+      "rationament": "După o urcare rapidă la 89 USD, acțiunea dă înapoi la 86.86 USD, profitând de oportunitatea de a realiza câștiguri pe termen scurt. Totuși, dividendul atractiv și puterea brandului o fac o alegere preferată în perioadele de incertitudine. Se așteaptă stabilizarea în jurul valorii de 87 USD înainte de următoarea mișcare direcțională.",
+      "sha256": "c10fb2a7569eaaef7968b76ab25ed46473ec0da76a4372edda1b9a8c8de09360",
+      "valoare": 86.5
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul PepsiCo pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1166,
+      "rationament": "PepsiCo urmează un model similar cu Coca-Cola, corectând de la 143 USD la 139 USD, dar menținându-se peste suportul critic de 138 USD. Diversificarea în snacks-uri și băuturi oferă o protecție împotriva schimbărilor preferințelor consumatorilor. Trendul este ușor descendent pe termen scurt, dar fundamentele rămân solide pentru o revenire.",
+      "sha256": "00df99bfeb54c4e02b138a3eccf483e225f71307e06e3f54604474fb35fb6dca",
+      "valoare": 140.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul Oracle Corporation pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1167,
+      "rationament": "Oracle a înregistrat un breakout masiv, trecând de la 115 USD la 141 USD, ceea ce indică o schimbare fundamentală în percepția investitorilor privind capacitățile sale cloud. Acest tip de mișcare impulsivă tinde să continue pe termen scurt pe măsură ce algoritmul de tranzacționare urmărește momentum-ul. Riscul principal este o retragere bruscă de profituri, dar trendul rămâne puternic bullish.",
+      "sha256": "56362eb9f4c292c52fb6496ff1f5a30d82ac0b739d5832b00e3a376fc657e9c2",
+      "valoare": 146.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 15:45:22",
+      "intrebare": "Preţul Netflix pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1168,
+      "rationament": "Netflix a crescut constant de la 68 USD la 73 USD, arătând o tendință ascendentă stabilă, dar lipsită de explozivitatea altor acțiuni tech. Creșterea lentă a abonaților și monetizarea conturilor partajate susțin prețul treptat. Se așteaptă o continuare a trendului ascendent moderat către 75 USD pe fondul rezultatelor solide.",
+      "sha256": "b88f903c09c4881f8b7d596a775e9e4b61642149a8eb05c7f33b24fb551815cc",
+      "valoare": 74.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul Apple Inc. pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1152,
+      "rationament": "După căderea bruscă de la 340 USD la 303 USD, Apple este în zonă suprasoldată, iar 300 USD acționează ca suport psihologic. Un rebound tehnic spre 310-315 USD este probabil dacă sectorul tech se stabilizează, sprijinit de serviciile cu marjă mare și baza instalată de iPhone. Riscul principal este continuarea declinului în cazul unor temeri macro sau de cerere în China.",
+      "sha256": "15a4cea9df8d669ba0528ff47d9c08fe97f991e112bd9518b91ff6118a8a26d1",
+      "valoare": 312.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul Microsoft pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1153,
+      "rationament": "Acțiunea a spart decisiv peste 400 USD, alimentată de optimismul pentru Azure și AI/cloud, iar trendul rămâne puternic ascendent. O continuare spre 495-500 USD este plauzibilă, deși piața poate corecta după avansul de aproximativ 25% dintr-o săptămână. Depășirea susținută a 500 USD ar deschide un nou etaj, dar riscul de supraextindere tehnică este ridicat.",
+      "sha256": "ff393d7acd32ae430193d619dadaf1216929926d100378b2d4633a91f216c67b",
+      "valoare": 498.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul Nvidia pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1154,
+      "rationament": "După ce a testat suportul de 190 USD, Nvidia a revenit peste 200 USD, semn că cererea rămâne solidă pe fondul accelerării AI și al GPU-urilor pentru centre de date. Poziția dominantă în semiconductori oferă un suport de moment, iar obiectivul imediat este 215-220 USD. Volatilitatea ridicată a sectorului rămâne principalul risc.",
+      "sha256": "3a4bf13576aa6cc8e72b632f602083a470a416d84a2f0b6acf5748f2c976ab8e",
+      "valoare": 216.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul Amazon pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1155,
+      "rationament": "Amazon a trecut de la consolidarea în zona 230 USD la un breakout peste 270-280 USD, pe îmbunătățirea marjelor de retail și a cererii pentru AWS. Momentumul poate duce prețul spre 290-295 USD dacă piața rămâne în apetit pentru creștere. Riscul este o corecție pe termen scurt, dat fiind avansul rapid și evaluarea ridicată.",
+      "sha256": "becba5eb72b69086df0d6f2a13611bf87b1740278f9606af197279c73d8e77e4",
+      "valoare": 293.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul Berkshire Hathaway pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1156,
+      "rationament": "Berkshire a urcat constant spre 513 USD, cu suport la 510 USD, într-un profil defensiv susținut de asigurări și de un portofoliu mare de acțiuni. Mișcarea pare de consolidare ascendentă, cu posibilă continuare spre 518-520 USD. Riscul principal este o corecție generală a pieței care să lovească și componentele sale.",
+      "sha256": "8c2823991d4def0066dd393d7c659823810ff5f43ac0f2cd1c2a64ebfdcedde6",
+      "valoare": 518.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul Lilly (Eli) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1157,
+      "rationament": "Eli Lilly a scăzut rapid de la 1.220 USD la 1.121 USD, pe profit-taking și temeri legate de competiția în segmentul GLP-1. Nivelul 1.120 USD este un suport fragil; dacă este spart, următoarea zonă este 1.080-1.100 USD. Un rebound tehnic este posibil, dar biasul pe termen foarte scurt rămâne negativ.",
+      "sha256": "71248086cb45fb984bb7a3cf2fffaa447d0858c2f4ec1cfc2459ee564abd1247",
+      "valoare": 1105.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1158,
+      "rationament": "JPMorgan a oscilat în jurul valorii de 350 USD, apărând suportul de 345 USD, iar băncile mari sunt sprijinite de o curbă a randamentelor mai favorabilă și de activitatea de investment banking. Tendința este ușor ascendentă, cu o posibilă țintă de 355-360 USD. Riscurile vin din datele macro, calitatea creditului și reglementare.",
+      "sha256": "de0cd15fe586cbbaa43a2f0b0c7a26629f375fda5a65f307f074c95bc143e3ab",
+      "valoare": 356.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul Visa Inc. pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1159,
+      "rationament": "Visa a urcat constant de la 351 USD la 366 USD, iar recenta corecție a fost superficială, semn că trendul ascendent rămâne intact. Sectorul plăților beneficiază de consum robust și de marje ridicate; 370 USD este o rezistență imediată. Riscul principal este reglementarea și o posibilă încetinire a consumatorului.",
+      "sha256": "dfa9964d676815cc51ffaa3bc36706b046e877c5d360c719d731958f94eed469",
+      "valoare": 370.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul Mastercard pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1160,
+      "rationament": "Mastercard a avut un avans puternic de la 530 USD la 577 USD, iar ușoara retragere la 570 USD pare o pauză de respirație, nu o inversare. Sectorul plăților electronice este favorizat de consumul rezistent; dacă 570 USD rezistă, următorul nivel este 580-585 USD. Riscul este o corecție după o creștere accelerată.",
+      "sha256": "2763c71d6e0a9a9c4b3f185a6578aab506ac4a89a656692fa3d421b59ea0fa34",
+      "valoare": 581.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul Procter & Gamble pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1161,
+      "rationament": "Procter & Gamble a pierdut teren de la 149 USD la 144 USD, pe fondul rotației din acțiunile defensive către growth. Compania are branduri puternice, dar lipsa unui catalizator imediat lasă biasul ușor negativ. Suportul de 144 USD este instabil; o închidere sub acest nivel ar putea deschide zona 142 USD.",
+      "sha256": "9526c55605b3109f3c615bc46199f36ae54fba5d69c9f26d60070a2363a67967",
+      "valoare": 143.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul Johnson & Johnson pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1162,
+      "rationament": "Johnson & Johnson a scăzut de la 266 USD la 254 USD, întrerupând un trend ascendent anterior. Presiunea vine din posibilele riscuri de litigii și din rotația sectorială departe de pharma. Suportul de 254 USD este testat; în lipsa unui rebound, următoarea țintă este 250-252 USD.",
+      "sha256": "9e9bc51abdc2db1810e631b99e8ea850281477144399e6207b30651b4779beb9",
+      "valoare": 253.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul Home Depot (The) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1163,
+      "rationament": "Home Depot a arătat volatilitate, dar a închis recent peste 340 USD, sugestiv pentru o revenire după testarea suportului de 332 USD. Cererea pentru renovări și piața locuințelor sunt catalizatori importanți, deși ratele dobânzilor rămân un risc. Dacă suportul 333-335 USD rezistă, următoarea țintă este 344-348 USD.",
+      "sha256": "19230b86ac058207269fb868f45d387098792c6b79e57a682ba02964cf6c6572",
+      "valoare": 344.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul Costco pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1164,
+      "rationament": "Costco a atins 974 USD și a corectat spre 954 USD, păstrând totuși un trend ascendent pe termen mediu. Modelul de abonamente asigură venituri recurente și trafic solid, ceea ce susține acțiunea în sectorul retail. Suportul de 950 USD este cheie; o revenire spre 960-965 USD este probabilă.",
+      "sha256": "de5394bdc19d7c8b8fd7e68e4fc2b66241d52a91e842c70b6c161cf328327f73",
+      "valoare": 960.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1165,
+      "rationament": "Coca-Cola a urcat brusc la 89 USD și a corectat ușor la 86,86 USD, păstrând un ton constructiv. Sectorul băuturilor este stabil, cu putere de preț și cerere previzibilă. Dacă suportul de 86,5 USD rezistă, prețul poate reveni spre 88-88,5 USD; riscul este rotația din acțiunile defensive.",
+      "sha256": "d3d2060998b903ebec379cd6136bf380ccac1f2b8219308b535cd4df34f7893f",
+      "valoare": 87.8
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul PepsiCo pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1166,
+      "rationament": "PepsiCo a crescut de la 135 USD la 143 USD, apoi a consolidat la 139-140 USD, fără să piardă suportul recent. Portofoliul diversificat de snacks și băuturi oferă cerere rezistentă și putere de preț. O revenire spre 141-142 USD este credibilă dacă piața rămâne stabilă; riscul este încetinirea consumatorului.",
+      "sha256": "d1144c1766a45ed370fc37313dfae61076c9cd9f70b9887e01396841207cde6c",
+      "valoare": 141.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul Oracle Corporation pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1167,
+      "rationament": "Oracle a avut un salt puternic de la 117 USD la 141 USD, pe optimism legat de cloud, baze de date și contracte AI. Trendul s-a accelerat, iar suportul rapid este în zona 135-137 USD. O continuare spre 145-148 USD este posibilă, dar riscul unei corecții bruște este ridicat după un avans atât de abrupt.",
+      "sha256": "418a7fd2ed394538b35277f81406c3fc513df91e4edbaf795b30d39c4c04e226",
+      "valoare": 146.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 15:46:40",
+      "intrebare": "Preţul Netflix pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1168,
+      "rationament": "Netflix a urcat constant de la 68 USD spre 73 USD, cu corecții minore, pe fondul creșterii numărului de abonați și al strategiei cu publicitate. Sectorul media streaming rămâne competitiv, dar liderul are marje în îmbunătățire. Dacă suportul de 71,5 USD rezistă, următoarea rezistență este 75 USD.",
+      "sha256": "0d7881a0ae788ca53b6301ff407b6eadadc6dac6d9284347f0c21dbcce77d627",
+      "valoare": 75.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul Apple Inc. pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1152,
+      "rationament": "Apple a pierdut aproape 10% în două ședințe (333,43 → 303,42), un tipar de reacție negativă la raportare, nu de zgomot: căderea din 31 iulie a fost verticală, iar 3 august a confirmat-o cu încă -1,8%, ceea ce sugerează revizuiri de estimări pe marja de servicii sau pe ghidajul de iPhone, nu doar o luare de profit. Post-earnings drift-ul negativ tinde să continue două-trei săptămâni, dar cu pantă mult mai mică decât ziua gap-ului, iar la Apple există un plafon natural pe scădere: programul de răscumpărări este cel mai mare din piață și devine mecanic mai agresiv sub prețuri deprimate. Mai există și riscul de amplificare — dacă motivul căderii e ghidajul, un downgrade întârziat de la o casă mare poate adăuga încă 3-4%. Merg pe o continuare slabă a derivei negative, cu stabilizare în a doua parte a intervalului, deci ușor sub nivelul actual.",
+      "sha256": "b4d0bea57513f5ef24d489954ff0ea33aa9d8ea5ac931be6bf5f603865befe57",
+      "valoare": 301.8
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul Microsoft pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1153,
+      "rationament": "Saltul de la 390,54 la 487,65 în trei ședințe (+25%) este unul dintre cele mai violente re-ratinguri posibile la o companie de 3-4 trilioane și indică o surpriză structurală, cel mai probabil pe creșterea Azure și pe conversia backlog-ului de AI în venit recunoscut. Diferența față de un spike speculativ e că mișcarea a continuat și în a treia zi (+4,9% pe 3 august), semn de reponderare instituțională, nu de acoperire de shorturi — fluxurile de index și fondurile de creștere au nevoie de mai mult de o săptămână ca să-și ajusteze pozițiile. Contra-argumentul e evaluarea: după un asemenea salt, multiplu devine el însuși riscul, iar orice titlu despre capex-ul pe centre de date sau despre presiunea pe marja brută din cloud poate declanșa o corecție de 5% fără nicio veste despre business. Estimez o continuare mult atenuată a driftului pozitiv, cu volatilitate mare în jur: peste actual, dar cu doar ~1%.",
+      "sha256": "ee004bcbebd7e1280045072fd65d75c49baac6e618cb798bdb0d0302691cd27f",
+      "valoare": 492.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul Nvidia pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1154,
+      "rationament": "Nvidia s-a mișcat lateral-descendent între 190 și 212 pe toată fereastra, iar ultimele patru ședințe formează o revenire ordonată de la minimul de 190,01 înapoi la 206,64 — un tipar de reacumulare, nu de trend. Elementul specific: Nvidia raportează abia spre sfârșitul lui august, deci intervalul până pe 11 august e o zonă fără catalizator propriu, în care acțiunea tinde să fie tractată de sentimentul pe AI al celorlalți — iar aici saltul Microsoft și cel Oracle sunt un semnal de cerere puternică pe infrastructură care se citește direct în comenzile Nvidia. Riscurile concrete rămân cele de aprovizionare și de concentrare a clienților: orice indiciu că hyperscalerii își decalează livrările sau că restricțiile la export se înăspresc lovește imediat. Merg pe prelungirea moderată a revenirii, spre partea superioară a intervalului recent, fără spargerea maximului de 212.",
+      "sha256": "55f1fa42696d04f76fd3a17330f9e66d94d990b5cbf738708606bdf99756b787",
+      "valoare": 209.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul Amazon pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1155,
+      "rationament": "Amazon a sărit de la 230,86 la 284,02 în patru ședințe (+23%), cu accelerare pe 31 iulie și 3 august, ceea ce arată o raportare cu dublă surpriză — cel mai probabil AWS peste așteptări plus o marjă de retail mai bună decât se estima, combinație care justifică o rescriere a modelului, nu doar o zi bună. Faptul că a urcat încă 4,6% în a doua ședință după gap e important: gap-urile care nu se închid în 48 de ore rareori se închid deloc pe orizont de o săptămână. Riscul specific e capex-ul: Amazon cheltuie masiv pe capacitate AI, iar dacă atenția pieței trece de la venituri la fluxul de numerar liber, entuziasmul se răcește rapid. Estimez continuare cu pantă mică — o consolidare la nivel înalt cu ușor plus, nu o nouă etapă de salt.",
+      "sha256": "d37b6023813912a75ff3e0826c90f7218f1a648feed1b49e357f78af404a719b",
+      "valoare": 288.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul Berkshire Hathaway pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1156,
+      "rationament": "Berkshire e cea mai liniștită serie din listă: un urcuș aproape monoton de la 489,65 la 513,14, cu o singură zi ieșită din tipar (28 iulie, +3%), deci volatilitate realizată foarte joasă și beta sub piață. Compania publică rezultatele semestriale la început de august, iar interesul concret e mai puțin profitul operațional și mai mult mărimea poziției de numerar și ritmul răscumpărărilor proprii — dacă numerarul atinge iar un maxim fără achiziții, o parte din investitori citesc asta ca lipsă de oportunități. În plus, Berkshire a funcționat în ultimii ani ca refugiu când tehnologia devine agitată, iar dispersia uriașă de săptămâna asta (Microsoft +25%, Apple -10%) alimentează exact acel flux defensiv. Mențin practic nivelul actual cu un plus marginal, în linie cu panta calmă de până acum.",
+      "sha256": "168761033481c56ac419242b37e633a65a71e238953de2ccb90b0c6ef24294f2",
+      "valoare": 514.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul Lilly (Eli) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1157,
+      "rationament": "Lilly a pierdut aproape 8% de la maximul de 1220,66 din 28 iulie, cu trei ședințe negative consecutive și o accelerare pe 3 august (-2,4%), tipar care la Lilly înseamnă aproape întotdeauna fie o dezamăgire pe ghidajul de incretine, fie o veste competitivă — presiunea pe prețul GLP-1 și avansul rivalilor pe formula orală sunt cele două riscuri concrete permanente ale acestui titlu. Diferența față de o cădere structurală e că nu a existat un gap masiv, ci o eroziune de câte 2%, ceea ce arată distribuție instituțională, nu panică. Lilly rămâne compania cu cea mai mare creștere de venituri din farma mare, iar la scăderi de această mărime cumpărătorii de valoare relativă din sectorul sănătate intervin de regulă rapid. Estimez o oprire a căderii și o revenire tehnică mică, sub 1% peste nivelul actual.",
+      "sha256": "435209d370e5c11ddcf7f207dee5bd7e911bce8aee2c582ea1271b8d9f363526",
+      "valoare": 1129.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1158,
+      "rationament": "JPMorgan a oscilat strâns între 344 și 357, cu o singură zi anormală (29 iulie, -3,5%) recuperată imediat în trei ședințe, deci un titlu în echilibru fără catalizator propriu până la raportarea din octombrie. Motorul pe termen scurt e curba dobânzilor și așteptările de politică monetară: banca beneficiază de o curbă abruptă prin venitul net din dobânzi, iar orice date de inflație sau ocupare care mută prețul reducerilor de dobândă îl mișcă înainte de orice element idiosincratic. Riscul specific rămâne calitatea creditului pe cardurile de consum și expunerea la imobiliare comerciale — deteriorări care apar în provizioane, nu în știri de o săptămână. În lipsa unui declanșator, merg pe continuarea driftului lateral ușor pozitiv construit în ultimele patru ședințe.",
+      "sha256": "63c5cd747005c748fd644285f24d25498ef4b3b5c63ce4aa089a1cf6757f1889",
+      "valoare": 353.8
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul Visa Inc. pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1159,
+      "rationament": "Visa a urcat la 368,73 pe 29 iulie și de atunci a alunecat trei ședințe consecutive la 365,67, o retragere de sub 1% care e mai degrabă respirație tehnică decât schimbare de direcție. Compania tocmai a trecut de raportarea trimestrială de vară, deci fereastra până pe 11 august e goală de catalizatori proprii; ce contează sunt volumele de plăți transfrontaliere, componenta cu marja cea mai mare, susținută de un sezon de călătorii puternic în august. Riscul concret și persistent e cel de reglementare și litigii pe comisioanele de interschimb, care revine periodic în titluri și taie câteva procente într-o singură ședință. Estimez o stabilizare aproape de nivelul actual, cu recuperarea unei mici părți din alunecarea recentă.",
+      "sha256": "0a392b07c894b9ea5000bed2f0e9ef7aa3eeb6b6cef1f95af37bee9d0868e220",
+      "valoare": 366.6
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul Mastercard pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1160,
+      "rationament": "Mastercard a făcut maximul la 577,35 pe 30 iulie și s-a retras două ședințe la 570,97, adică exact aceeași formă ca la Visa dar cu amplitudine mai mare — normal, are beta ceva mai ridicat și expunere internațională mai mare pe volume transfrontaliere. Traiectoria de fond rămâne clar ascendentă (538 → 571 în zece ședințe), iar retragerea de 1% nu strică structura. Elementul specific față de Visa e sensibilitatea mai mare la dolar: o slăbire a dolarului îi umflă direct veniturile convertite din Europa și Asia, iar o întărire face invers. Riscurile sunt cele de sector — presiune pe comisioane, plăți în timp real susținute de bănci centrale — dar nu au orizont de o săptămână. Merg pe recuperarea parțială a retragerii, ușor peste nivelul actual.",
+      "sha256": "41a430ec1c031d4f79262cfffae0e8cbc544c50fbf922399bf8be94233ec22dc",
+      "valoare": 573.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul Procter & Gamble pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1161,
+      "rationament": "Procter & Gamble s-a mișcat într-un culoar de 4% (143,96-149,13) și a atins minimul pe 30 iulie, urmat de două ședințe pozitive mici — tipar clasic de defensivă care își găsește suportul unde randamentul dividendului devine atractiv. Compania a raportat deja rezultatele de final de an fiscal, iar tema concretă este volumul: P&G a crescut ani la rând prin preț, iar piața urmărește acum dacă volumele revin fără reduceri, pentru că altfel marja brută suferă. Un al doilea factor specific este costul materiilor prime și al transportului, plus expunerea valutară pe piețele emergente. Într-o săptămână cu dispersie mare în tehnologie, banii rotesc de regulă puțin spre bunuri de consum de bază, ceea ce susține un plus marginal față de nivelul actual.",
+      "sha256": "7c2a25fd9237f7107316ef6a33cdb5108a99f15b6b569b0ea2e521cb5ac11b9c",
+      "valoare": 145.4
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul Johnson & Johnson pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1162,
+      "rationament": "Johnson & Johnson a urcat puternic până la 266,73 pe 28 iulie, apoi a cedat aproape 5% în patru ședințe până la 254,41, o corecție care la un titlu cu volatilitate atât de joasă este semnificativă și sugerează închiderea unei rotații defensive rapide, nu o problemă operațională. Riscul propriu al companiei rămâne cel juridic — dosarele pe talc și strategia de plafonare a răspunderii — care se mișcă în trepte, la decizii de instanță, imprevizibil ca dată. Pe fundamente, portofoliul de oncologie și imunologie susține creșterea, iar pierderea exclusivității la produse mature e deja în estimări. După patru ședințe de scădere fără știre nouă, probabilitatea unei stabilizări cu revenire mică e mai mare decât cea a continuării, deci merg puțin peste nivelul actual.",
+      "sha256": "b27bd2299bb679e4a1de26eadfa535f8b480ac851cf0c28f3bf4715d319b05a0",
+      "valoare": 255.6
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul Home Depot (The) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1163,
+      "rationament": "Home Depot a oscilat între 324,71 și 344,47, iar ultima ședință a adus un salt de 2,4% la 340,02 după trei zile de scădere — o volatilitate mai mare decât la restul retailului defensiv, tipică pentru sensibilitatea la dobânzi. Motorul concret e piața imobiliară: creditul ipotecar determină atât tranzacțiile, cât și proiectele mari de renovare, iar orice mișcare în așteptările de dobândă se vede imediat în preț, cu mult înainte de datele de vânzări. Compania raportează abia la jumătatea lui august, deci intervalul până pe 11 rămâne fără catalizator propriu, iar saltul de ultimă zi are aspect de mișcare macro, nu de repoziționare de fond. Estimez o retragere parțială a acestui salt și revenirea spre mijlocul intervalului recent, ușor sub nivelul actual.",
+      "sha256": "90de8e2fcc72ce57ca2b209f5388607c983b6cfd1e46e7b853e4c7a264817562",
+      "valoare": 338.6
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul Costco pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1164,
+      "rationament": "Costco a urcat la 974,03 pe 29 iulie, apoi s-a stabilizat între 951 și 955 în ultimele trei ședințe, ceea ce arată că retragerea de 2% și-a găsit un prag. Elementul specific care contează în fereastra până pe 11 august este raportul lunar de vânzări comparabile, publicat la început de lună — Costco e una dintre puținele mari companii care dă date lunare, deci are un catalizator propriu chiar în interval, iar seria recentă de comparabile a fost constant peste sector. Al doilea motor structural e venitul din abonamente, cu marjă aproape pură, susținut de ratele foarte mari de reînnoire. Riscul e evaluarea: la un multiplu mult peste orice alt retailer, o singură lună mai slabă produce o corecție de 4-5%. Merg pe reluarea urcușului lent, cu un plus modest.",
+      "sha256": "4087a09d8e1bec4892fb6c208c4ca707c1a5993ea0bc9d17e9dd88ec736747d0",
+      "valoare": 957.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1165,
+      "rationament": "Coca-Cola a avut un salt neobișnuit de 5% în două ședințe (82,25 → 88,27 pe 28 iulie), semn de reacție la raportare sau la o revizuire de ghidaj, urmat de trei ședințe de erodare până la 86,86 — retragerea tipică post-gap la un titlu defensiv, unde cumpărătorii inițiali nu sunt momentum traders. Fundamentul e mixul de preț: KO a susținut creșterea prin preț și mix de ambalaje, iar întrebarea concretă rămâne dacă volumele rezistă, mai ales pe America Latină și Asia. Al doilea factor specific este valuta — o parte importantă din venituri vine din piețe emergente, iar deprecierile locale mușcă direct din creșterea raportată. După trei zile de retragere, estimez oprirea alunecării și o stabilizare marginal peste nivelul actual, cu jumătatea superioară a gap-ului păstrată.",
+      "sha256": "53a5fa852ea0f7afcb5dc54217f91c99c860b2cd72ee13586cb436c427a3d0d3",
+      "valoare": 87.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul PepsiCo pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1166,
+      "rationament": "PepsiCo a urmat aproape identic tiparul Coca-Cola — salt la 143,50 pe 29 iulie, apoi retragere la 139,56 și stabilizare la 139,63 — dar cu o diferență de fond: la Pepsi contează și divizia de snacks, unde volumele din America de Nord au fost punctul slab, presate de consumatorii cu venituri mici și de discuția despre alimentele ultraprocesate. Faptul că ultima ședință a fost plat-pozitivă după trei zile de scădere sugerează că vânzătorii s-au epuizat. Randamentul dividendului acționează ca prag natural: la aceste niveluri, PEP intră în radarul fondurilor de venit, ceea ce limitează scăderea. Estimez o revenire mică, sub 0,5%, fără recuperarea integrală a maximului recent.",
+      "sha256": "86b98a41339ca416a2fa7628eb9a10a165212f300457fde627e171cfb76f03dc",
+      "valoare": 140.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul Oracle Corporation pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1167,
+      "rationament": "Oracle a făcut cea mai violentă mișcare relativă din listă după Microsoft: de la minimul de 114,99 pe 24 iulie la 141,85 pe 3 august, adică +23%, cu un salt final de 9,2% într-o singură ședință — semnătura clasică a unui anunț de contract mare de capacitate cloud pentru antrenare de modele. Oracle e cazul cel mai pur de re-rating pe tema AI: piața a trecut de la a-l vedea ca furnizor de baze de date în declin la a-l socoti al patrulea hyperscaler, iar acest tip de schimbare de narativ mișcă prețul în mai multe etape, nu într-una. Riscurile concrete sunt însă mari și specifice: datoria și capex-ul necesar pentru a livra acele contracte, plus concentrarea periculoasă a backlog-ului pe puțini clienți, ceea ce înseamnă că o singură renegociere lovește dur. Merg pe continuarea momentumului cu pantă redusă și volatilitate ridicată, aproximativ 2% peste nivelul actual.",
+      "sha256": "4b18679013587db6e8c4fe38fcfd222370a30b48b427d643440c4f34a92543fc",
+      "valoare": 144.8
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 15:52:50",
+      "intrebare": "Preţul Netflix pe 2026-08-11 (1 săptămână)",
+      "intrebare_id": 1168,
+      "rationament": "Seria Netflix (68-73 USD) reflectă evident un preț ajustat post-split, iar forma contează mai mult decât nivelul: un urcuș constant de la 68,67 la maximul de 73,63 pe 29 iulie, o retragere scurtă la 71,71 și o revenire de 2,3% pe 3 august — trend ascendent cu retrageri superficiale, cel mai sănătos tipar tehnic din listă. Motoarele concrete sunt nivelul de abonament cu reclame, care a devenit principalul vector de creștere a veniturilor pe utilizator, și creșterea de preț aplicată pe piețele mature, ambele deja vizibile în marja operațională. Riscul specific este costul conținutului și competiția pe drepturi sportive live, unde Netflix a început să liciteze agresiv; o achiziție mare de drepturi ar fi citită imediat ca presiune pe marjă. Estimez continuarea trendului cu un plus de circa 1%, în linie cu panta ultimelor două săptămâni.",
+      "sha256": "4df0e4b9966586a2294abe103829362e83cc0c9e843c6d02e98ceddbf3c497ef",
+      "valoare": 74.1
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 16:45:03",
+      "intrebare": "Preţul Bitcoin pe 2026-08-05",
+      "intrebare_id": 1169,
+      "rationament": "trend ușor ascendent",
+      "sha256": "96b68e16cca8e5728991cc6b5b2c1fa7d1a00f907048799079170d7eb9ccd540",
+      "valoare": 64500.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 16:45:03",
+      "intrebare": "Preţul Ethereum pe 2026-08-05",
+      "intrebare_id": 1170,
+      "rationament": "stabilizare",
+      "sha256": "1a1de9bbc65716a5afe24599cad0da731059146829f67a17fdc71b6d3932edf0",
+      "valoare": 1880.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 16:45:03",
+      "intrebare": "Preţul Solana pe 2026-08-05",
+      "intrebare_id": 1171,
+      "rationament": "fluctuații mici",
+      "sha256": "38d72497b4a6fc84d90913575b04996e07db7ba20d227e0490c707c344026882",
+      "valoare": 74.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 16:45:03",
+      "intrebare": "Preţul XRP pe 2026-08-05",
+      "intrebare_id": 1172,
+      "rationament": "ușor crescător",
+      "sha256": "78ced8a553270d6ee01d8bf39a45488278669e727f728bf1f3a0f818646049f0",
+      "valoare": 1.09
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 16:45:03",
+      "intrebare": "Preţul Cardano pe 2026-08-05",
+      "intrebare_id": 1173,
+      "rationament": "stabil",
+      "sha256": "56326272b5cd66c77cad7633dfc4f884bb3b9e2114f487c694d58b538577bf95",
+      "valoare": 0.19
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 16:45:03",
+      "intrebare": "Preţul Dogecoin pe 2026-08-05",
+      "intrebare_id": 1174,
+      "rationament": "constant",
+      "sha256": "60cddb60c91101c620b167689e706cc272fede966afc15d693399732cd336199",
+      "valoare": 0.07
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 16:45:03",
+      "intrebare": "Preţul BNB pe 2026-08-05",
+      "intrebare_id": 1175,
+      "rationament": "trend ușor descendent",
+      "sha256": "434300ee87534e04854fe16a5dc5b9faebe038def3ec647eb1ab0815fbcb9b2a",
+      "valoare": 592.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 16:45:06",
+      "intrebare": "Preţul Bitcoin pe 2026-08-05",
+      "intrebare_id": 1169,
+      "rationament": "Recuperare ușoară după scădere, trend lateral pozitiv.",
+      "sha256": "64ec307064c4f6df4cfc2365221ecb43c4f4cc7af5a66dcb84d2f3365357ef9c",
+      "valoare": 64200.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 16:45:06",
+      "intrebare": "Preţul Ethereum pe 2026-08-05",
+      "intrebare_id": 1170,
+      "rationament": "Stabilizare în jurul suportului, posibil mic rebound.",
+      "sha256": "4d6470e83149277c7fe35384c27b215eb96904f89bb5e5f4d90d4b3a686c2964",
+      "valoare": 1880.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 16:45:06",
+      "intrebare": "Preţul Solana pe 2026-08-05",
+      "intrebare_id": 1171,
+      "rationament": "Consolidare strânsă, ușoară tendință de creștere.",
+      "sha256": "9a97300d55506223815df6dc6941e7fbe1cd6e8c58e21085f77c72096a3dd801",
+      "valoare": 74.1
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 16:45:06",
+      "intrebare": "Preţul XRP pe 2026-08-05",
+      "intrebare_id": 1172,
+      "rationament": "Mișcare laterală, volatilitate minimă.",
+      "sha256": "68e31b53eb470e935e0532c42022c7e778e81b363964bd84d976a94b5d091149",
+      "valoare": 1.09
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 16:45:06",
+      "intrebare": "Preţul Cardano pe 2026-08-05",
+      "intrebare_id": 1173,
+      "rationament": "Menține nivelul atins recent, stabilitate.",
+      "sha256": "646e1a802604696b35c31526ec1cc686e1bf81ec764e090e3ae7ada016bafa8e",
+      "valoare": 0.19
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 16:45:06",
+      "intrebare": "Preţul Dogecoin pe 2026-08-05",
+      "intrebare_id": 1174,
+      "rationament": "Preț constant, fără schimbări majore.",
+      "sha256": "a83ec31a2745ab32f360433c6f0a1c1aafb4d21372464f194e49e0f8325b06b1",
+      "valoare": 0.07
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 16:45:06",
+      "intrebare": "Preţul BNB pe 2026-08-05",
+      "intrebare_id": 1175,
+      "rationament": "Trend ascendent recent, continuare probabilă.",
+      "sha256": "773450f31dfd32ca8ea752f24d5fa47b266ea7d3e1503c7f506bdfa61ab02245",
+      "valoare": 592.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 16:45:07",
+      "intrebare": "Preţul Bitcoin pe 2026-08-05",
+      "intrebare_id": 1169,
+      "rationament": "Ușoară continuare a trendului ascendent recent, cu suport la 63.5k și rezistență la 65k.",
+      "sha256": "939cd0c5fc58890a6c94e5c84a62ab6c82e11ff23e87d0434da991f2133fd854",
+      "valoare": 64100.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 16:45:07",
+      "intrebare": "Preţul Ethereum pe 2026-08-05",
+      "intrebare_id": 1170,
+      "rationament": "Consolidare laterală în jurul mediei mobile, cu presiune ușor bullish după recuperarea de la 1844.",
+      "sha256": "2cf27bdb8685631ccc27836c506e55ff5a65e361ee98216236c3036f8d45a1a7",
+      "valoare": 1875.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 16:45:07",
+      "intrebare": "Preţul Solana pe 2026-08-05",
+      "intrebare_id": 1171,
+      "rationament": "Recuperare modestă de la minimul de 71.95, testând rezistența din zona 74.50.",
+      "sha256": "e3be94c31432f88ad7d9dd028dce39ee94130082f2c5366e85c76d61496fcc36",
+      "valoare": 74.1
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 16:45:07",
+      "intrebare": "Preţul XRP pe 2026-08-05",
+      "intrebare_id": 1172,
+      "rationament": "Volatilitate extrem de scăzută, probabil menținerea nivelului actual sau fluctuații minime în jurul lui 1.08.",
+      "sha256": "90c22322e1909ccec24762afb3ecf9db72c430287519e8d9433156fccbbac7f3",
+      "valoare": 1.08
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 16:45:07",
+      "intrebare": "Preţul Cardano pe 2026-08-05",
+      "intrebare_id": 1173,
+      "rationament": "Stabilizare clară la 0.19 după saltul de pe 0.17, fără semne imediate de ruptură.",
+      "sha256": "9eda6eed3f98356b7b119433508633938bc5e3e5a789879298eabb3743b02e4a",
+      "valoare": 0.19
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 16:45:07",
+      "intrebare": "Preţul Dogecoin pe 2026-08-05",
+      "intrebare_id": 1174,
+      "rationament": "Lipsă totală de volatilitate în datele recente, menținerea plată la 0.07 este cea mai probabilă.",
+      "sha256": "d6bc6b09d8272b92d502265f25dbd5a4554aa0b2bf03f0384c9d566989b176d6",
+      "valoare": 0.07
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 16:45:07",
+      "intrebare": "Preţul BNB pe 2026-08-05",
+      "intrebare_id": 1175,
+      "rationament": "Trend ascendent constant spre 590+, posibilă testare a rezistenței psihologice de 600 USD.",
+      "sha256": "acc0d22805f74e88875d9146a832828de95479e120cb84e769bd86f6382c91e9",
+      "valoare": 592.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 16:45:51",
+      "intrebare": "Preţul Bitcoin pe 2026-08-05",
+      "intrebare_id": 1169,
+      "rationament": "Momentul ultimei creșteri și suportul de la 63.5k sugerează o continuare modestă.",
+      "sha256": "4db9e407c286192bfb00c7ca374ec15c5d9a2eaa5c8bfdff1c17336768f2e6c1",
+      "valoare": 64123.45
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 16:45:51",
+      "intrebare": "Preţul Ethereum pe 2026-08-05",
+      "intrebare_id": 1170,
+      "rationament": "Recuperare ușoară după scădere, cu suport la 1860; trend lateral-ascendent.",
+      "sha256": "300e791a006c2ee32f939eb1c3ef315afc841fff6e2c5e5f273c41d7cfcca792",
+      "valoare": 1878.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 16:45:51",
+      "intrebare": "Preţul Solana pe 2026-08-05",
+      "intrebare_id": 1171,
+      "rationament": "Consolidare peste 73.5 și impuls pozitiv în ultimele sesiuni.",
+      "sha256": "bc018e8a5f83d6f5b021237686642ba34633d261e3759dcaa41f6cddc00b0f5a",
+      "valoare": 74.3
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 16:45:51",
+      "intrebare": "Preţul XRP pe 2026-08-05",
+      "intrebare_id": 1172,
+      "rationament": "Stabilitate la 1.08, posibil test al rezistenței 1.09.",
+      "sha256": "3ee29ce1b53f94fd41990cd669dd2326600a96ccd1949e7dec83781163c5f2aa",
+      "valoare": 1.09
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 16:45:51",
+      "intrebare": "Preţul Cardano pe 2026-08-05",
+      "intrebare_id": 1173,
+      "rationament": "Breakout recent spre 0.19; impulsul ar putea continua spre 0.20.",
+      "sha256": "cbb04c7a122efcb46f9432676b72ab2c1aec8bf02b6425141dc82692b31f528c",
+      "valoare": 0.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 16:45:51",
+      "intrebare": "Preţul Dogecoin pe 2026-08-05",
+      "intrebare_id": 1174,
+      "rationament": "Mișcare laterală prelungită; o ieșire ar putea fi ușor ascendentă.",
+      "sha256": "44398edf70497eb64575c07c544819a2629658fa8b0fa3c25add2610f57945b3",
+      "valoare": 0.08
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 16:45:51",
+      "intrebare": "Preţul BNB pe 2026-08-05",
+      "intrebare_id": 1175,
+      "rationament": "Serie ascendentă lentă, cu suport la 588; posibil avans spre 593.",
+      "sha256": "49529b74c6b5d97c18a61dd25da1daef02962adeae3fb3b0a7f0743df9485a22",
+      "valoare": 593.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 16:50:24",
+      "intrebare": "Preţul Bitcoin pe 2026-08-05",
+      "intrebare_id": 1169,
+      "rationament": "Trei zile de urcare uşoară de la minimul 62823; extind slab momentumul, dar aproape de ultima închidere.",
+      "sha256": "8cbb4cf9858d80ec353750fa56d1790261fe5b42acecd8dbb44254bc6b6f8467",
+      "valoare": 64050.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 16:50:24",
+      "intrebare": "Preţul Ethereum pe 2026-08-05",
+      "intrebare_id": 1170,
+      "rationament": "Se stabilizează sub 1900 după căderea din 31 iulie; mic reviriment în linie cu Bitcoin.",
+      "sha256": "ac5f753cc8c801ccf84f35b6ddb530d43526d0303c053b25b027e8556787f47b",
+      "valoare": 1875.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 16:50:24",
+      "intrebare": "Preţul Solana pe 2026-08-05",
+      "intrebare_id": 1171,
+      "rationament": "Consolidare strânsă în jur de 73.6-73.9; tilt minim în sus, urmând beta-ul faţă de BTC.",
+      "sha256": "75fdd20739b799bb8fe5fc011b119c410356604e1ff749a5c33db227c29d9eae",
+      "valoare": 74.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 16:50:24",
+      "intrebare": "Preţul XRP pe 2026-08-05",
+      "intrebare_id": 1172,
+      "rationament": "Lateral la 1.06-1.09 de zece zile; rămân practic pe ultima închidere, cu un pas infim în sus.",
+      "sha256": "3ba5aaa45a57540fba3550683a112e1186ae7f1a6630bf10f7c28e5d06cddf83",
+      "valoare": 1.085
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 16:50:24",
+      "intrebare": "Preţul Cardano pe 2026-08-05",
+      "intrebare_id": 1173,
+      "rationament": "Salt la 0.19 pe 2 august, menţinut trei zile; presupun că palierul rezistă încă o zi.",
+      "sha256": "28f0808b7fe63a8ac913270603d275dd89dfa47dc141215aa63688842d5b8c4a",
+      "valoare": 0.19
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 16:50:24",
+      "intrebare": "Preţul Dogecoin pe 2026-08-05",
+      "intrebare_id": 1174,
+      "rationament": "Zece închideri identice la rezoluţia dată; orice altă valoare ar fi invenţie, nu informaţie.",
+      "sha256": "8f2814bb4ee047fc112a8e217a92ed8ab56608fd33e1b2105a0cde42b7d2f408",
+      "valoare": 0.07
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 16:50:24",
+      "intrebare": "Preţul BNB pe 2026-08-05",
+      "intrebare_id": 1175,
+      "rationament": "Trei zile plate în jur de 589-590 după vârful de 592; nu văd motiv de rupere.",
+      "sha256": "2a9f214be7cb7e4e6cbdbbbda183a08be33ba550e11ca86a4ddb88057d98570e",
+      "valoare": 590.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-04 17:30:18",
+      "intrebare": "Temperatura maximă la București pe 2026-08-05",
+      "intrebare_id": 1176,
+      "rationament": "Canicula continuă sub influența unei mase de aer cald persistente, fără semne de instabilitate.",
+      "sha256": "a83ad914c046e9dc542c0b8f993f7a4c1cf17b20dab92040195a3f7c8692f116",
+      "valoare": 35.2
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-04 17:30:18",
+      "intrebare": "Va ploua la București pe 2026-08-05?",
+      "intrebare_id": 1177,
+      "rationament": "Canicula continuă sub influența unei mase de aer cald persistente, fără semne de instabilitate.",
+      "sha256": "e3737187f53e89b2497847ba5bd81cbd315377eb825a617f2e2d9b1c9db5f2ee",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-04 17:30:18",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-05",
+      "intrebare_id": 1178,
+      "rationament": "Temperaturile rămân ridicate, specifice unei mase de aer stabil, cu șanse minime de averse izolate.",
+      "sha256": "78422bb97d78b4eba7a587e5c505cf5dc8bb4d41249557cd25e2cd0c8e61cb2a",
+      "valoare": 33.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-04 17:30:18",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-05?",
+      "intrebare_id": 1179,
+      "rationament": "Temperaturile rămân ridicate, specifice unei mase de aer stabil, cu șanse minime de averse izolate.",
+      "sha256": "fcfce4798db69b3a3105cacf312390135fc5822a44cc7cdf4177b8c69daae408",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-04 17:30:18",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-05",
+      "intrebare_id": 1180,
+      "rationament": "Vreme călduroasă și uscată, menținută de un câmp de înaltă presiune ce blochează precipitațiile.",
+      "sha256": "c12f653505f18424421f2f1a95531801ab13b296f44076af539b328d46bdfe1e",
+      "valoare": 35.4
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-04 17:30:18",
+      "intrebare": "Va ploua la Iași pe 2026-08-05?",
+      "intrebare_id": 1181,
+      "rationament": "Vreme călduroasă și uscată, menținută de un câmp de înaltă presiune ce blochează precipitațiile.",
+      "sha256": "a7d8ea364c0c2f2a57cd591694bea80db1845691cb9baeea582d9574133febe0",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-04 17:30:18",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-05",
+      "intrebare_id": 1182,
+      "rationament": "Persistența aerului tropical menține temperaturile extrem de ridicate, fără condiții de ploaie.",
+      "sha256": "4907d077eabd0d49eb4e5fa589e3a4ef9fa60c59a2258252ae65f9f6ce0a0ef8",
+      "valoare": 37.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-04 17:30:18",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-05?",
+      "intrebare_id": 1183,
+      "rationament": "Persistența aerului tropical menține temperaturile extrem de ridicate, fără condiții de ploaie.",
+      "sha256": "f68e5788870a89e66e4b4a5cdfba46006f53b6e89bb66f41cde43441b74acd43",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-04 17:30:18",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-05",
+      "intrebare_id": 1184,
+      "rationament": "Advecția de aer cald continuă, dar briza mării temperează ușor valorile maxime.",
+      "sha256": "77dfc8dc562b5500a8cd5ffb7de1f3b446b0d058fa257945e4631700828aa5cc",
+      "valoare": 29.2
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-04 17:30:18",
+      "intrebare": "Va ploua la Constanța pe 2026-08-05?",
+      "intrebare_id": 1185,
+      "rationament": "Advecția de aer cald continuă, dar briza mării temperează ușor valorile maxime.",
+      "sha256": "f025c8e1a955a3c8ac3a48b3584c414dac0789212489953683837984ec1981cd",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-04 17:30:18",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-05",
+      "intrebare_id": 1186,
+      "rationament": "Vreme caldă, cu o ușoară instabilitate după-amiaza specifică reliefului montan.",
+      "sha256": "1278362c7f78a738cbdaf6900a06d39217d3cbd41105a5d17d3aa2b65b4db1f7",
+      "valoare": 29.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-04 17:30:18",
+      "intrebare": "Va ploua la Brașov pe 2026-08-05?",
+      "intrebare_id": 1187,
+      "rationament": "Vreme caldă, cu o ușoară instabilitate după-amiaza specifică reliefului montan.",
+      "sha256": "32f462fc56bfe08ff1de9128dd026dd15b8ab3179251b7bf7530628328c007e5",
+      "valoare": 0.15
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 17:30:19",
+      "intrebare": "Temperatura maximă la București pe 2026-08-05",
+      "intrebare_id": 1176,
+      "rationament": "trend crescator",
+      "sha256": "b4b43795b15645f3a52b16abf1379d5d7ce0e659d2019b10645edd3cafe70c5c",
+      "valoare": 35.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 17:30:19",
+      "intrebare": "Va ploua la București pe 2026-08-05?",
+      "intrebare_id": 1177,
+      "rationament": "trend crescator",
+      "sha256": "f742c06872d9b710d2c4ea8d40d81d79140bc6a9684a7709e08baf3ea6226131",
+      "valoare": 0.05
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 17:30:19",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-05",
+      "intrebare_id": 1178,
+      "rationament": "stabilizare",
+      "sha256": "cf0c2b0fd66d18bb2fc7dc0aed4bd5353579798c42d9275adf93e87ac98ea0cd",
+      "valoare": 33.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 17:30:19",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-05?",
+      "intrebare_id": 1179,
+      "rationament": "stabilizare",
+      "sha256": "4b0d8c7ad7d83ec5f0b3304b59e40975492127106945a570618614400aa3a01f",
+      "valoare": 0.1
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 17:30:19",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-05",
+      "intrebare_id": 1180,
+      "rationament": "canicula",
+      "sha256": "ccb67bd9bc8fbe95f4bb5a49223e63cee5ab628a48546f56f5afde55222d353f",
+      "valoare": 35.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 17:30:19",
+      "intrebare": "Va ploua la Iași pe 2026-08-05?",
+      "intrebare_id": 1181,
+      "rationament": "canicula",
+      "sha256": "121898b6176d58a9512035bb25cac09658ff4eb5598f1ce4f9f4a6367f2a30c3",
+      "valoare": 0.05
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 17:30:19",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-05",
+      "intrebare_id": 1182,
+      "rationament": "maximă",
+      "sha256": "1854659629e59b3096aab500b9725612b5d657fc07d83114f6d5f50cb6a9398e",
+      "valoare": 37.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 17:30:19",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-05?",
+      "intrebare_id": 1183,
+      "rationament": "maximă",
+      "sha256": "d333dd6094637d8915afaf94f201b0e17f799faa271bf3bff8e61af885757d87",
+      "valoare": 0.05
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 17:30:19",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-05",
+      "intrebare_id": 1184,
+      "rationament": "stabil",
+      "sha256": "8d860c08ebb45f4301333b10952b3df4d8a2e7aa12c0ffe6fc97505dae285648",
+      "valoare": 29.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 17:30:19",
+      "intrebare": "Va ploua la Constanța pe 2026-08-05?",
+      "intrebare_id": 1185,
+      "rationament": "stabil",
+      "sha256": "75570944801a4df9f2a83c0055aef44535307c6e68dab08fd28a06239c0ab44b",
+      "valoare": 0.1
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 17:30:19",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-05",
+      "intrebare_id": 1186,
+      "rationament": "altitudine",
+      "sha256": "b105414c01968018fd973ae8e4bd6db8bd8f2d36bd8c433062985ab7e31d113d",
+      "valoare": 30.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-04 17:30:19",
+      "intrebare": "Va ploua la Brașov pe 2026-08-05?",
+      "intrebare_id": 1187,
+      "rationament": "altitudine",
+      "sha256": "b45371241a2b2813528203a603c6b008f6310717804a44ce0650fa7cc6858148",
+      "valoare": 0.15
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 17:30:23",
+      "intrebare": "Temperatura maximă la București pe 2026-08-05",
+      "intrebare_id": 1176,
+      "rationament": "Trend ascendent stabilizat, caniculă persistentă, secetă prelungită.",
+      "sha256": "83e81d58f6210b8feab45f917a7b187ad95d4a72ea6f3ca4b324f1399637ef79",
+      "valoare": 34.5
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 17:30:23",
+      "intrebare": "Va ploua la București pe 2026-08-05?",
+      "intrebare_id": 1177,
+      "rationament": "Trend ascendent stabilizat, caniculă persistentă, secetă prelungită.",
+      "sha256": "83e690b5bbb0cf9b6b7907634d40624429e97c62c8db0a4235d93b585e4364c8",
+      "valoare": 0.05
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 17:30:23",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-05",
+      "intrebare_id": 1178,
+      "rationament": "Valori ridicate pentru altitudine, stabilitate termică, absența precipitațiilor recente.",
+      "sha256": "a446eb003291093fdffe403a7cf343abde923d25f054ddb16a55684089c75250",
+      "valoare": 33.2
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 17:30:23",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-05?",
+      "intrebare_id": 1179,
+      "rationament": "Valori ridicate pentru altitudine, stabilitate termică, absența precipitațiilor recente.",
+      "sha256": "45aa0fc28e326dcd09659fd94979a42283628a1427a94e26366cebc2823a5165",
+      "valoare": 0.1
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 17:30:23",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-05",
+      "intrebare_id": 1180,
+      "rationament": "Vârf de caniculă atins, presiune atmosferică ridicată, cer senin.",
+      "sha256": "9c29a166a8426a1cc40c20842d643b246b6dcfbcf2b634685fc6e93e1527b571",
+      "valoare": 34.9
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 17:30:23",
+      "intrebare": "Va ploua la Iași pe 2026-08-05?",
+      "intrebare_id": 1181,
+      "rationament": "Vârf de caniculă atins, presiune atmosferică ridicată, cer senin.",
+      "sha256": "c229b9215ab7e25a95efaf88e072674c06ed7ecdc92294e3f060c55775b6aeb5",
+      "valoare": 0.05
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 17:30:23",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-05",
+      "intrebare_id": 1182,
+      "rationament": "Cea mai ridicată temperatură, masă de aer tropical stabil, fără nuanțe de ploaie.",
+      "sha256": "e0bebcd6883f2840e84e07a9f341c9e61303db02141889f19b93da1dc5c0fdec",
+      "valoare": 37.6
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 17:30:23",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-05?",
+      "intrebare_id": 1183,
+      "rationament": "Cea mai ridicată temperatură, masă de aer tropical stabil, fără nuanțe de ploaie.",
+      "sha256": "57c0f9fe1b01de6a7af318427e9e1e0dcca37ef33ce2dfec9bcc311c632a31da",
+      "valoare": 0.02
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 17:30:23",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-05",
+      "intrebare_id": 1184,
+      "rationament": "Ușoară scădere posibilă datorită brizei, totuși val de căldură persistent.",
+      "sha256": "2cca8b06628b052e5b007706cc98a84a1b9026b8ccba868adf555a93be439969",
+      "valoare": 29.2
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 17:30:23",
+      "intrebare": "Va ploua la Constanța pe 2026-08-05?",
+      "intrebare_id": 1185,
+      "rationament": "Ușoară scădere posibilă datorită brizei, totuși val de căldură persistent.",
+      "sha256": "471ac86faaa01147d86628ef50e76d8336ac70cfe2f25e3fa90245de1b50f3ad",
+      "valoare": 0.1
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 17:30:23",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-05",
+      "intrebare_id": 1186,
+      "rationament": "Temperaturi anormale pentru altitudine, trend constant, ușoară instabilitate orografică.",
+      "sha256": "745a762d210932266e649236be63ca9e23ed23123c7667066e2c29243705f039",
+      "valoare": 29.7
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-04 17:30:23",
+      "intrebare": "Va ploua la Brașov pe 2026-08-05?",
+      "intrebare_id": 1187,
+      "rationament": "Temperaturi anormale pentru altitudine, trend constant, ușoară instabilitate orografică.",
+      "sha256": "1aef2ce77e524520ed6a8d6fe4436d8725ab856047938c3139af6782e08a5d52",
+      "valoare": 0.15
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 17:30:25",
+      "intrebare": "Temperatura maximă la București pe 2026-08-05",
+      "intrebare_id": 1176,
+      "rationament": "Tendința ascendentă puternică (35.0°C ieri) sugerează menținerea căldurii extreme; cerul senin continuă.",
+      "sha256": "f7d1d3dfb3a29c1c9988a2446bc131c61048e46ef9cd45807e850b3ee3df7634",
+      "valoare": 35.2
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 17:30:25",
+      "intrebare": "Va ploua la București pe 2026-08-05?",
+      "intrebare_id": 1177,
+      "rationament": "Tendința ascendentă puternică (35.0°C ieri) sugerează menținerea căldurii extreme; cerul senin continuă.",
+      "sha256": "aeb7cd220825ebd182f59158c5ced60174ba3785ba1bb65e6856f7a2d4219b15",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 17:30:25",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-05",
+      "intrebare_id": 1178,
+      "rationament": "Stabilizare după vârfurile de 33-34°C; altitudinea moderată limitează ușor creșterea față de Câmpia Română.",
+      "sha256": "f5eff5507188dfa10d023434ee66ec2090d97dbe7c65b301d90cd83874c0c778",
+      "valoare": 33.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 17:30:25",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-05?",
+      "intrebare_id": 1179,
+      "rationament": "Stabilizare după vârfurile de 33-34°C; altitudinea moderată limitează ușor creșterea față de Câmpia Română.",
+      "sha256": "e2d71c8feff051f497b152746b4e32f5dc3ded87095b5551410216fb725c9f27",
+      "valoare": 0.15
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 17:30:25",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-05",
+      "intrebare_id": 1180,
+      "rationament": "Val de căldură intensă în est; trendul de 35.7°C se menține, fără semne de perturbare.",
+      "sha256": "2badd1f11aa1655c8746f704ce8ad923324106c6eeefdea8c7f89b91b21c1575",
+      "valoare": 35.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 17:30:25",
+      "intrebare": "Va ploua la Iași pe 2026-08-05?",
+      "intrebare_id": 1181,
+      "rationament": "Val de căldură intensă în est; trendul de 35.7°C se menține, fără semne de perturbare.",
+      "sha256": "dc138c9d9913ef7e494444f31fb16bf300dcf26fad76db03a9017d771e340976",
+      "valoare": 0.05
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 17:30:25",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-05",
+      "intrebare_id": 1182,
+      "rationament": "Anticiclon puternic în vest; temperaturile depășesc 37°C constant, probabil un nou vârf ușor.",
+      "sha256": "926ab5ef0888ea2b7799c9c86431107b433a0568ad069275c07f1068a5e99ae5",
+      "valoare": 38.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 17:30:25",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-05?",
+      "intrebare_id": 1183,
+      "rationament": "Anticiclon puternic în vest; temperaturile depășesc 37°C constant, probabil un nou vârf ușor.",
+      "sha256": "7192c929afd615a2b681848af4e287348e494f9560a6d593ed2902737e25583d",
+      "valoare": 0.05
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 17:30:25",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-05",
+      "intrebare_id": 1184,
+      "rationament": "Influența marină limitează încălzirea; creșterea de la 29.9°C este moderată, posibilă instabilitate locală.",
+      "sha256": "abb960d5694466e560b4ed6a4d9ba8f587ddd8d9974f59fc201e7370de9003a5",
+      "valoare": 30.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 17:30:25",
+      "intrebare": "Va ploua la Constanța pe 2026-08-05?",
+      "intrebare_id": 1185,
+      "rationament": "Influența marină limitează încălzirea; creșterea de la 29.9°C este moderată, posibilă instabilitate locală.",
+      "sha256": "77fd4233c7a835e72eb1b7d4783ee7a967724007bb601e4ce9b9709a664f1e62",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 17:30:25",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-05",
+      "intrebare_id": 1186,
+      "rationament": "Altitudinea mare (625m) menține temperaturi sub 31°C; riscul de ploi de vară crește ușor.",
+      "sha256": "e9163438a1ee027a2d63d2636bda76ec538a6c2693bd0f74719a126703b6a86c",
+      "valoare": 30.2
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-04 17:30:25",
+      "intrebare": "Va ploua la Brașov pe 2026-08-05?",
+      "intrebare_id": 1187,
+      "rationament": "Altitudinea mare (625m) menține temperaturi sub 31°C; riscul de ploi de vară crește ușor.",
+      "sha256": "171d295222ef7a8d4a330793fdbf980ed5feb3d358f605e66ba075824aad6885",
+      "valoare": 0.25
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 17:31:42",
+      "intrebare": "Temperatura maximă la București pe 2026-08-05",
+      "intrebare_id": 1176,
+      "rationament": "Val de căldură persistent, ultimele zile în creștere; risc redus de averse.",
+      "sha256": "604ef8433eefc16a433e7b452dc5f5ca45397b3232b77c3741718c0e27089c79",
+      "valoare": 35.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 17:31:42",
+      "intrebare": "Va ploua la București pe 2026-08-05?",
+      "intrebare_id": 1177,
+      "rationament": "Val de căldură persistent, ultimele zile în creștere; risc redus de averse.",
+      "sha256": "4010d2c9fb1bb7827cf60f95a8b441b3d0317cf9e8ae3a4e492ceeec4ad2cb9f",
+      "valoare": 0.1
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 17:31:42",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-05",
+      "intrebare_id": 1178,
+      "rationament": "Căldură stabilă la altitudine, cu ușoară tendință; posibile averse izolate.",
+      "sha256": "6ea0a43483e5747a64e36e2370a6ec24ea269cee1ca2eb7e553fc7184f589765",
+      "valoare": 33.8
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 17:31:42",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-05?",
+      "intrebare_id": 1179,
+      "rationament": "Căldură stabilă la altitudine, cu ușoară tendință; posibile averse izolate.",
+      "sha256": "ba205449eb57978ccca7e7e216ba5e83960bceafefb950913e714b12f170c266",
+      "valoare": 0.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 17:31:42",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-05",
+      "intrebare_id": 1180,
+      "rationament": "Tendință ascendentă în est, încă uscat; probabilitate mică de ploaie.",
+      "sha256": "444e455c629d27f5a211d67e1bdf63eeecfe77d6e65c02d05a43d10d869a7672",
+      "valoare": 35.9
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 17:31:42",
+      "intrebare": "Va ploua la Iași pe 2026-08-05?",
+      "intrebare_id": 1181,
+      "rationament": "Tendință ascendentă în est, încă uscat; probabilitate mică de ploaie.",
+      "sha256": "b9ed52f2043604b0089489aaff1f9cd4b72a1ee7760406239a91e522ef6f25c4",
+      "valoare": 0.12
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 17:31:42",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-05",
+      "intrebare_id": 1182,
+      "rationament": "Focare de căldură extremă persistă; aer uscat, șanse minime de ploaie.",
+      "sha256": "ad1531657bd651f23b729b6e7fd73e156c0b9c0c2ed9e66e0cc6a32ae4b7efbd",
+      "valoare": 38.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 17:31:42",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-05?",
+      "intrebare_id": 1183,
+      "rationament": "Focare de căldură extremă persistă; aer uscat, șanse minime de ploaie.",
+      "sha256": "30991eea5c113af9d7af78ea975b5b3dd257a2168ca7a9768514e7a5d54455c9",
+      "valoare": 0.08
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 17:31:42",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-05",
+      "intrebare_id": 1184,
+      "rationament": "Temperatură ridicată după saltul de ieri, influența mării limitează creșterea.",
+      "sha256": "ced548e8df85c9131c757eb34d0dc6f495b79c5c714648b703f422b5771ab98b",
+      "valoare": 29.8
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 17:31:42",
+      "intrebare": "Va ploua la Constanța pe 2026-08-05?",
+      "intrebare_id": 1185,
+      "rationament": "Temperatură ridicată după saltul de ieri, influența mării limitează creșterea.",
+      "sha256": "3102cd4b75bdff0896b154eac09c8c7fff9fcfdc70d4f47defcd57d7eba97d7f",
+      "valoare": 0.05
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 17:31:42",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-05",
+      "intrebare_id": 1186,
+      "rationament": "Calm și cald la munte; risc de averse orografice, dar fără semnal clar.",
+      "sha256": "e1b1ce69fc00da3501e8b15c64c41c86e7dacef25495205bf56966cd57ec4d86",
+      "valoare": 30.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-04 17:31:42",
+      "intrebare": "Va ploua la Brașov pe 2026-08-05?",
+      "intrebare_id": 1187,
+      "rationament": "Calm și cald la munte; risc de averse orografice, dar fără semnal clar.",
+      "sha256": "150b29e04ce53529967a54c753362605e915678679673f44979c3fd1672a25ce",
+      "valoare": 0.18
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 17:35:24",
+      "intrebare": "Temperatura maximă la București pe 2026-08-05",
+      "intrebare_id": 1176,
+      "rationament": "Val de căldură în creștere continuă, 33→35 în două zile; berbecul anticiclonic încă nu s-a rupt.",
+      "sha256": "07be6d709a3dd4279feaaa2afecbf3f563588115ddfad39b2864fc889a8c49fd",
+      "valoare": 35.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 17:35:24",
+      "intrebare": "Va ploua la București pe 2026-08-05?",
+      "intrebare_id": 1177,
+      "rationament": "Val de căldură în creștere continuă, 33→35 în două zile; berbecul anticiclonic încă nu s-a rupt.",
+      "sha256": "90d2472589a68936e4f2ac20c43d83afbc714a6b887b578acc8c0b230c83cde4",
+      "valoare": 0.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 17:35:24",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-05",
+      "intrebare_id": 1178,
+      "rationament": "Platou 32,6–33,9 de patru zile; altitudinea și relieful cresc riscul de convecție de seară.",
+      "sha256": "a4a63eeeb92c0fdf765e9e7d9de48184a9a46378066b91afdcb07046b072af95",
+      "valoare": 33.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 17:35:24",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-05?",
+      "intrebare_id": 1179,
+      "rationament": "Platou 32,6–33,9 de patru zile; altitudinea și relieful cresc riscul de convecție de seară.",
+      "sha256": "efc796c83b97a0158ed4760fc4452bc94651861cad25118146406e61f2998c9a",
+      "valoare": 0.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 17:35:24",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-05",
+      "intrebare_id": 1180,
+      "rationament": "Creștere fermă spre 35,7; Moldova sub aceeași masă de aer fierbinte, fără semn de schimbare.",
+      "sha256": "776029bf1480be5f5afe7ee76f62096d83571c9c0717ba425afd95834c2da3e5",
+      "valoare": 35.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 17:35:24",
+      "intrebare": "Va ploua la Iași pe 2026-08-05?",
+      "intrebare_id": 1181,
+      "rationament": "Creștere fermă spre 35,7; Moldova sub aceeași masă de aer fierbinte, fără semn de schimbare.",
+      "sha256": "59372ad25abf2c72f1ad91e3ae18881003b1cb61c4ef32924f6b10b09c73d546",
+      "valoare": 0.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 17:35:24",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-05",
+      "intrebare_id": 1182,
+      "rationament": "Plafonat la 37–38 de cinci zile; vestul primește primul eventuala destrămare a dorsalei.",
+      "sha256": "537aa99c3b3c98ae3b43a64501c1ec1d129f63684c29577a9f0930dd6e9dcfd9",
+      "valoare": 37.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 17:35:24",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-05?",
+      "intrebare_id": 1183,
+      "rationament": "Plafonat la 37–38 de cinci zile; vestul primește primul eventuala destrămare a dorsalei.",
+      "sha256": "292587d7e04f1158747cdeab00347aa3048198d6b873070a66b26cf788b8726f",
+      "valoare": 0.18
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 17:35:24",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-05",
+      "intrebare_id": 1184,
+      "rationament": "Briza de mare taie vârfurile; saltul la 29,9 pare excepție, marea rece trage înapoi.",
+      "sha256": "6e93672ef41feafc3d7eb2b24fa4550286d396c6f88b5047a9ec102b16c19141",
+      "valoare": 29.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 17:35:24",
+      "intrebare": "Va ploua la Constanța pe 2026-08-05?",
+      "intrebare_id": 1185,
+      "rationament": "Briza de mare taie vârfurile; saltul la 29,9 pare excepție, marea rece trage înapoi.",
+      "sha256": "ce2e2ba238d1aea4812d45af53d752b27b8ee484d4cd1df2b0363abab9a7b791",
+      "valoare": 0.08
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 17:35:24",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-05",
+      "intrebare_id": 1186,
+      "rationament": "Stabil la 29–30 la 625 m; depresiunea montană are cel mai mare risc de averse convective.",
+      "sha256": "f421aef92be10f6605db7575a7f261d3a15094f6a242670537a1a8c7885392b6",
+      "valoare": 30.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-04 17:35:24",
+      "intrebare": "Va ploua la Brașov pe 2026-08-05?",
+      "intrebare_id": 1187,
+      "rationament": "Stabil la 29–30 la 625 m; depresiunea montană are cel mai mare risc de averse convective.",
+      "sha256": "10e9652082cfdb4a08e145eddda8f8e209d86a01d093ca14995c96d5cdfdd120",
+      "valoare": 0.25
+    }
+  ],
+  "zi": "2026-08-04"
+}
