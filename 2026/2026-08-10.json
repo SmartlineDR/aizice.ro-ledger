@@ -1,0 +1,368 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "9ec1289a58c16748be0892aaa75f98cd36edda45aff9a46914894849bc7d887a",
+  "nr_frunze": 40,
+  "predictii": [
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-10 09:30:08",
+      "intrebare": "Câştigă Bodø/Glimt cu Union Saint-Gilloise?",
+      "intrebare_id": 1445,
+      "rationament": "Avantaj teren, dar Union este puternic",
+      "sha256": "7e37e82202e0596ddc9080a82c483c0ed1e7e6c51b809793726400f7c0e35266",
+      "valoare": 0.42
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-10 09:30:08",
+      "intrebare": "Câştigă NEC Nijmegen cu Olympiacos?",
+      "intrebare_id": 1446,
+      "rationament": "Olympiacos are experiență",
+      "sha256": "26cbde85dd14abceeefb204cd9d263c2a0a17b1c63b006ea3f6f96574e5e756f",
+      "valoare": 0.38
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-10 09:30:08",
+      "intrebare": "Câştigă Lyon cu Sparta Prague?",
+      "intrebare_id": 1447,
+      "rationament": "Lyon are valoare superioară",
+      "sha256": "0841222531ce114e365ed3c76b5295b3fc71f11da3004d82acc24b29a83019cb",
+      "valoare": 0.58
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-10 09:30:11",
+      "intrebare": "Câştigă Bodø/Glimt cu Union Saint-Gilloise?",
+      "intrebare_id": 1445,
+      "rationament": "Avantajul terenului nordic este decisiv; Bodø este puternică acasă în preliminarii.",
+      "sha256": "dce8875a6acffb2090bb3e88c0713ec9f64020089202fd7c69a42e69a82cc971",
+      "valoare": 0.58
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-10 09:30:11",
+      "intrebare": "Câştigă NEC Nijmegen cu Olympiacos?",
+      "intrebare_id": 1446,
+      "rationament": "Olympiacos are experiență europeană superioară, NEC este outsider chiar pe propriul teren.",
+      "sha256": "2cf0ee7e6825fed717f8696ef88f4f130d4cb6dd0ae7d97b9cca8cdac50eb084",
+      "valoare": 0.35
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-10 09:30:11",
+      "intrebare": "Câştigă Lyon cu Sparta Prague?",
+      "intrebare_id": 1447,
+      "rationament": "Lyon are un lot valoros și istorie europeană, fiind favorită clară acasă.",
+      "sha256": "8ff054fe62a9c443330e1e785b58cca0061c9234c317463af40145635803fe76",
+      "valoare": 0.68
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-10 09:30:11",
+      "intrebare": "Câştigă Bodø/Glimt cu Union Saint-Gilloise?",
+      "intrebare_id": 1445,
+      "rationament": "Avantajul terenului artificial la Bodø/Glimt compensează diferența de clasă, favorizând gazdele într-un meci echilibrat.",
+      "sha256": "5671b226d20364c4e9fd736dc1ad8f8f54a470962339e2179a545c1feef9d549",
+      "valoare": 0.52
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-10 09:30:11",
+      "intrebare": "Câştigă NEC Nijmegen cu Olympiacos?",
+      "intrebare_id": 1446,
+      "rationament": "Olympiacos este superior tehnic și experiențial, iar NEC Nijmegen are șanse mici de victorie pe teren propriu.",
+      "sha256": "c9ac6b2d01c4f50d6135f411f94045bb3b13182dc5e14ae336c8afbf6fd2d806",
+      "valoare": 0.35
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-10 09:30:11",
+      "intrebare": "Câştigă Lyon cu Sparta Prague?",
+      "intrebare_id": 1447,
+      "rationament": "Lyon este clar superior ca valoare și joacă pe teren propriu, având șanse mari de victorie împotriva Spartei.",
+      "sha256": "726cbb2d68ac2b829210924c7b0787cb27c7cf2347941b09510914683fd3a57c",
+      "valoare": 0.7
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 16:50:25",
+      "intrebare": "Preţul Bitcoin pe 2026-08-11",
+      "intrebare_id": 1498,
+      "rationament": "Trend lent ascendent care s-a aplatizat în ultimele patru zile; deviez minim peste ultima închidere.",
+      "sha256": "999639ea12b4a99b141aa4ea4b7dfbb8be825c4fce7e596ff3e6a8f7a3c2a973",
+      "valoare": 64960.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 16:50:25",
+      "intrebare": "Preţul Ethereum pe 2026-08-11",
+      "intrebare_id": 1499,
+      "rationament": "Trei zile consecutive de scădere ușoară după plafonarea la 1916; continui uşor descendent.",
+      "sha256": "69cb0817431010eff327c1e411eaeef6abd8e02da2cf9261c88f154e17c6d64f",
+      "valoare": 1905.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 16:50:25",
+      "intrebare": "Preţul Solana pe 2026-08-11",
+      "intrebare_id": 1500,
+      "rationament": "Singurul activ cu momentum clar: patru zile de creștere, +6% în trei zile; extind trendul modest.",
+      "sha256": "f434ed463d11a580dd80a9428efabd0b247fb793fe7a4934976da9b69f51b0a9",
+      "valoare": 77.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 16:50:25",
+      "intrebare": "Preţul XRP pe 2026-08-11",
+      "intrebare_id": 1501,
+      "rationament": "Declin lent oprit în palier la 1.03; nu am semnal care să justifice abaterea de la ultima închidere.",
+      "sha256": "68a58feda5e13724e94c74a5deb850032f4be0add24a8b9cb76596495692d57b",
+      "valoare": 1.03
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 16:50:25",
+      "intrebare": "Preţul Cardano pe 2026-08-11",
+      "intrebare_id": 1502,
+      "rationament": "Oscilează între 0.19 și 0.20 la rezoluția datelor; rămân pe ultima valoare.",
+      "sha256": "9b52d86b2a38dfa61f84129e9333971ac98f44ad0a367af449ab19c473424eda",
+      "valoare": 0.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 16:50:25",
+      "intrebare": "Preţul Dogecoin pe 2026-08-11",
+      "intrebare_id": 1503,
+      "rationament": "Zece zile identice la două zecimale; orice abatere ar fi zgomot inventat.",
+      "sha256": "3cedcf9286e4710dd27dcfd71c77a3bedf5f9d324ed1fa9b4a6c857e8ae92971",
+      "valoare": 0.07
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 16:50:25",
+      "intrebare": "Preţul BNB pe 2026-08-11",
+      "intrebare_id": 1504,
+      "rationament": "Urcare constantă tocmai frânată la 602; păstrez o înclinare pozitivă foarte mică.",
+      "sha256": "4be80a392ffe4c0f5178ce8041943f7e7e6e4afe4429e0e91d7fccca11ad48f1",
+      "valoare": 602.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:30",
+      "intrebare": "Temperatura maximă la București pe 2026-08-11",
+      "intrebare_id": 1505,
+      "rationament": "Minimul de 30.4 pe 9 august a trecut, urcarea a reinceput; camp anticiclonic uscat, deci continuare lenta spre 32-33.",
+      "sha256": "63ca43d656e67e45e583a2ee23b68b920eff353e6279541e313677f76a919a70",
+      "valoare": 32.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:30",
+      "intrebare": "Va ploua la București pe 2026-08-11?",
+      "intrebare_id": 1506,
+      "rationament": "Minimul de 30.4 pe 9 august a trecut, urcarea a reinceput; camp anticiclonic uscat, deci continuare lenta spre 32-33.",
+      "sha256": "6f57244c877538595e390aadd8bb8ddd07d1b54daaaa5c681604d1aa2f5edcea",
+      "valoare": 0.15
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:30",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-11",
+      "intrebare_id": 1507,
+      "rationament": "Revenire clara dupa racirea de 28.3; depresiunea Somesului se incalzeste rapid, dar convectia de dupa-amiaza ramane posibila in Transilvania.",
+      "sha256": "da46aaec610ff3dfd5f6f4309120be56a2be22f63a4abb9cac833b2472e6b3ec",
+      "valoare": 31.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:30",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-11?",
+      "intrebare_id": 1508,
+      "rationament": "Revenire clara dupa racirea de 28.3; depresiunea Somesului se incalzeste rapid, dar convectia de dupa-amiaza ramane posibila in Transilvania.",
+      "sha256": "368ed5d0d2258d4010996d05e394c64280defe8ad09ab49ca10987c453a430a1",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:30",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-11",
+      "intrebare_id": 1509,
+      "rationament": "Dupa prabusirea la 25.0, incalzire de circa 2°C pe zi; extrapolez atenuat, pentru ca ritmul asta se plafoneaza de obicei.",
+      "sha256": "91484b173a1994f3793cdcf43444a8886071e954ee6e7c82d388d1d7c0590e43",
+      "valoare": 30.8
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:30",
+      "intrebare": "Va ploua la Iași pe 2026-08-11?",
+      "intrebare_id": 1510,
+      "rationament": "Dupa prabusirea la 25.0, incalzire de circa 2°C pe zi; extrapolez atenuat, pentru ca ritmul asta se plafoneaza de obicei.",
+      "sha256": "c3e0e9ff234b4e77b9a3f67322e9522a41ff1d520cfe0e38071b7d68720b83da",
+      "valoare": 0.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:30",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-11",
+      "intrebare_id": 1511,
+      "rationament": "Cel mai cald punct al seriei, Campia Banatului; revenire de la 32.2 la 34.4 sugereaza continuarea urcarii spre 35-36.",
+      "sha256": "494d3cade071f7ae5595a8a09ef92c78bb3e0594b7a778a2fecec51998888913",
+      "valoare": 35.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:30",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-11?",
+      "intrebare_id": 1512,
+      "rationament": "Cel mai cald punct al seriei, Campia Banatului; revenire de la 32.2 la 34.4 sugereaza continuarea urcarii spre 35-36.",
+      "sha256": "33b3f5744f48f8e1db66ce5a28584a1af6c0f223cf71cc7de331726b2919b5e6",
+      "valoare": 0.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:30",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-11",
+      "intrebare_id": 1513,
+      "rationament": "Marea taie varfurile: zece zile intre 27 si 30, fara exceptie. Raman langa media recenta, nu langa tendinta continentala.",
+      "sha256": "bc7d607bcecdc320f41d2d926ba5bd08fd166e251e3513dd82461629c03f1b4d",
+      "valoare": 28.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:30",
+      "intrebare": "Va ploua la Constanța pe 2026-08-11?",
+      "intrebare_id": 1514,
+      "rationament": "Marea taie varfurile: zece zile intre 27 si 30, fara exceptie. Raman langa media recenta, nu langa tendinta continentala.",
+      "sha256": "b2b81b9401f9d5b32a7d19cb5bdce0919d8219a0dacd7b56ac200a4b8e2d57d7",
+      "valoare": 0.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:30",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-11",
+      "intrebare_id": 1515,
+      "rationament": "625 m si depresiune racoroasa; dupa 14.8 mm si redresarea la 27.3, urc putin, dar pastrez risc de aversa montana.",
+      "sha256": "4c675fa09ca9daefb5f6ed770a96470846158e0fd906d797b67a6acd44ef557d",
+      "valoare": 28.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:30",
+      "intrebare": "Va ploua la Brașov pe 2026-08-11?",
+      "intrebare_id": 1516,
+      "rationament": "625 m si depresiune racoroasa; dupa 14.8 mm si redresarea la 27.3, urc putin, dar pastrez risc de aversa montana.",
+      "sha256": "d1f944abfa91fb75b08c3db0b5226cb24e575a37348d8c3e65b4a1097bfa3a7f",
+      "valoare": 0.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:53",
+      "intrebare": "Temperatura maximă la București pe 2026-08-17 (7 zile)",
+      "intrebare_id": 1517,
+      "rationament": "Valul de caldura s-a rupt; la 7 zile revin spre normala climatica de mijloc de august, usor peste ea.",
+      "sha256": "868e55fd263af6fc7b389dfa1c1567bd57290f3fb80db78e2c8f11bc9f7049ed",
+      "valoare": 31.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:53",
+      "intrebare": "Va ploua la București pe 2026-08-17? (7 zile)",
+      "intrebare_id": 1518,
+      "rationament": "Valul de caldura s-a rupt; la 7 zile revin spre normala climatica de mijloc de august, usor peste ea.",
+      "sha256": "0bf4b1b993a6fb791fcd3205fbff549ac3474dcfa79c1f8051dbcba746d43178",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:53",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-17 (7 zile)",
+      "intrebare_id": 1519,
+      "rationament": "Racire deja instalata, altitudine 340 m si convectie transilvaneana frecventa; normala e sub 27, adaug putin pentru vara calda.",
+      "sha256": "4ed092ea3f682ff36b507efa5dc4b0eb8635c5169f48f65ccf3dce468ba4010e",
+      "valoare": 27.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:53",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-17? (7 zile)",
+      "intrebare_id": 1520,
+      "rationament": "Racire deja instalata, altitudine 340 m si convectie transilvaneana frecventa; normala e sub 27, adaug putin pentru vara calda.",
+      "sha256": "3aa41e117a0d0efe9e73212ea3cdb1a2294358db34ffb7fbf127d89aca6027b6",
+      "valoare": 0.35
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:53",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-17 (7 zile)",
+      "intrebare_id": 1521,
+      "rationament": "Oscilatie uriasa recenta (37 spre 25) arata regim instabil; media perioadei e cel mai sigur pariu orb.",
+      "sha256": "bbe06dd879d8b9831c853aead2f125341da82eb1a5e7109efb5be25829ed4191",
+      "valoare": 29.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:53",
+      "intrebare": "Va ploua la Iași pe 2026-08-17? (7 zile)",
+      "intrebare_id": 1522,
+      "rationament": "Oscilatie uriasa recenta (37 spre 25) arata regim instabil; media perioadei e cel mai sigur pariu orb.",
+      "sha256": "99c6561b8cd9907241e1f6067c66b37b4fa6c5931c43641c699a625e6aea5c07",
+      "valoare": 0.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:53",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-17 (7 zile)",
+      "intrebare_id": 1523,
+      "rationament": "Cel mai cald oras din set, dar 38 nu se repeta la 7 zile; revenire spre normala de 29-30 plus anomalie calda.",
+      "sha256": "1b32f3536eb9488d8a5bfcf6336d74c1d3cffe8d081925857eaffd6161ed9744",
+      "valoare": 31.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:53",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-17? (7 zile)",
+      "intrebare_id": 1524,
+      "rationament": "Cel mai cald oras din set, dar 38 nu se repeta la 7 zile; revenire spre normala de 29-30 plus anomalie calda.",
+      "sha256": "c11296d66d5a1649eacba362af8980943771fdd3d65991cc09ffcaf6b3a75155",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:53",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-17 (7 zile)",
+      "intrebare_id": 1525,
+      "rationament": "Marea tampoane extremele in ambele sensuri; probabilitate mica de precipitatii pe litoral in august.",
+      "sha256": "98a7a315c1f9c09626f41fd99a6b07b0ee376c4911f1bc70760dbdfc4f78407d",
+      "valoare": 28.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:53",
+      "intrebare": "Va ploua la Constanța pe 2026-08-17? (7 zile)",
+      "intrebare_id": 1526,
+      "rationament": "Marea tampoane extremele in ambele sensuri; probabilitate mica de precipitatii pe litoral in august.",
+      "sha256": "2598440b1f5bd6568413930dca87728411e40fd3305ce5b6d222c0aa42905b72",
+      "valoare": 0.15
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:53",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-17 (7 zile)",
+      "intrebare_id": 1527,
+      "rationament": "625 m si depresiune; a plouat deja 14.8 mm, semn de regim instabil care revine usor peste munte.",
+      "sha256": "d10c4a94f198bd404a8c9eec44020ee285a848f969343de3fe57eb0ee05d2fcc",
+      "valoare": 26.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-10 17:35:53",
+      "intrebare": "Va ploua la Brașov pe 2026-08-17? (7 zile)",
+      "intrebare_id": 1528,
+      "rationament": "625 m si depresiune; a plouat deja 14.8 mm, semn de regim instabil care revine usor peste munte.",
+      "sha256": "e51461232d78f80de5f57352f6e4f73c25bf1671f867fbea37be8cb40b9b8ef8",
+      "valoare": 0.35
+    }
+  ],
+  "zi": "2026-08-10"
+}
