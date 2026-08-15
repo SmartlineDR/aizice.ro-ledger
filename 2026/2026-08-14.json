@@ -1,0 +1,1628 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "d010d45732caeda1f84d0ac055ac4b319faa71e41c9dc4645efbc96234b92f81",
+  "nr_frunze": 180,
+  "predictii": [
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 09:30:05",
+      "intrebare": "Câştigă Voluntari cu Petrolul Ploiești?",
+      "intrebare_id": 1690,
+      "rationament": "Echilibru valoric, avantajul terenului propriu ușor favorabil gazdelor.",
+      "sha256": "4c049e4e9d6e81b43558104f73d3db0d49848ec8e4c2a32548db3119777621bf",
+      "valoare": 0.48
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 09:30:05",
+      "intrebare": "Câştigă Argeș Pitești cu Farul Constanța?",
+      "intrebare_id": 1691,
+      "rationament": "Farul are lot mai valoros, Argeș încearcă surpriza acasă.",
+      "sha256": "48be18e25fcc57978188c7852af7075ee2e1a2757a4537f51049cb99521de803",
+      "valoare": 0.34
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 09:30:09",
+      "intrebare": "Câştigă Csíkszereda Miercurea Ciuc cu Sepsi OSK?",
+      "intrebare_id": 1767,
+      "rationament": "avantaj teren",
+      "sha256": "2d9d6cf73cd56c7aefcb47f660f9ee08aab8c588a38ae8b15506a4844d0fd194",
+      "valoare": 0.45
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 09:30:09",
+      "intrebare": "Câştigă Deportivo Alavés cu Getafe?",
+      "intrebare_id": 1768,
+      "rationament": "egalitate",
+      "sha256": "3991a3e8c1790b2de287986050f1cb27470599fad7c8ca1f085fcac3b21dec92",
+      "valoare": 0.52
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 09:30:09",
+      "intrebare": "Câştigă Rapid București cu Dinamo București?",
+      "intrebare_id": 1769,
+      "rationament": "derby",
+      "sha256": "9f32f3523acd15b7b08522514bab3a58bb2161d26fb35952b9b88ac1c6b49fad",
+      "valoare": 0.48
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 09:30:09",
+      "intrebare": "Câştigă Sevilla cu Rayo Vallecano?",
+      "intrebare_id": 1770,
+      "rationament": "experiență",
+      "sha256": "5c1f72eb5b554b9d964068f4a84d91b797a0f5648c666a198a8f8ddfccefb6e7",
+      "valoare": 0.6
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 09:30:11",
+      "intrebare": "Câştigă Csíkszereda Miercurea Ciuc cu Sepsi OSK?",
+      "intrebare_id": 1767,
+      "rationament": "Sepsi are un lot superior, dar Csíkszereda profită de atmosfera de acasă.",
+      "sha256": "20b1168240b2afaeb525397c8e8232e0f5f596b2900edcdb8f34ea5068d7dfb8",
+      "valoare": 0.25
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 09:30:11",
+      "intrebare": "Câştigă Deportivo Alavés cu Getafe?",
+      "intrebare_id": 1768,
+      "rationament": "Meci echilibrat între două formații similare, avantajul terenului înclină balanța ușor.",
+      "sha256": "a9f1477554915e65c95390c5c8b9e21c65775dd3a41d292b94db48b8b9aeded8",
+      "valoare": 0.42
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 09:30:11",
+      "intrebare": "Câştigă Rapid București cu Dinamo București?",
+      "intrebare_id": 1769,
+      "rationament": "Derby intens; forma recentă și suporterii îi favorizează pe Rapid, dar orice e posibil.",
+      "sha256": "2f1ee984af56377d76bd3f7f9f07a9a75d9524ee68bbceb75ff241cd4f2721de",
+      "valoare": 0.55
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 09:30:11",
+      "intrebare": "Câştigă Sevilla cu Rayo Vallecano?",
+      "intrebare_id": 1770,
+      "rationament": "Sevilla este favorită datorită valorii lotului și experienței pe teren propriu.",
+      "sha256": "02a14b82d7e2751beed01f44f505f58da9c916b6692b4d27479527336dda7533",
+      "valoare": 0.55
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 09:30:12",
+      "intrebare": "Câştigă Csíkszereda Miercurea Ciuc cu Sepsi OSK?",
+      "intrebare_id": 1767,
+      "rationament": "Sepsi este istoric superior în dueluri directe; avantajul terenului nu compensează diferența de valoare.",
+      "sha256": "1f134c24c0b4b3f1daa9d50a58392b07bb33c2c37c9a788d2330169cb9822af5",
+      "valoare": 0.35
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 09:30:12",
+      "intrebare": "Câştigă Deportivo Alavés cu Getafe?",
+      "intrebare_id": 1768,
+      "rationament": "Meci echilibrat defensiv; Alavés are ușor avantaj acasă, dar Getafe este greu de învins.",
+      "sha256": "56a6b27aebdb1d4ce440a20aa4eff04aaf6a2b33b49658cf704b9fb303603fbd",
+      "valoare": 0.42
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 09:30:12",
+      "intrebare": "Câştigă Rapid București cu Dinamo București?",
+      "intrebare_id": 1769,
+      "rationament": "Rapid este favorită acasă în derby, dar rivalitatea și forma variabilă reduc probabilitatea clară.",
+      "sha256": "8e82676019348337985b624999707f828c1604f6daad597bb741aad117efb14b",
+      "valoare": 0.55
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 09:30:12",
+      "intrebare": "Câştigă Sevilla cu Rayo Vallecano?",
+      "intrebare_id": 1770,
+      "rationament": "Sevilla este clar superioară tehnic și acasă; Rayo este rezistent, dar inferior în clasament.",
+      "sha256": "9702adb22ab53afe4c8d06ff876df2c875a8a3f7304c5a928ca994924faa07ca",
+      "valoare": 0.6
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-14 09:36:16",
+      "intrebare": "Câştigă Csíkszereda Miercurea Ciuc cu Sepsi OSK?",
+      "intrebare_id": 1767,
+      "rationament": "Derby secuiesc echilibrat; gazda are avantajul terenului, dar Sepsi are lot mai experimentat în Liga I.",
+      "sha256": "9639bfe844228689af6e21cc41be4d17360871c4214150be003e10751d3b85c2",
+      "valoare": 0.36
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-14 09:36:16",
+      "intrebare": "Câştigă Deportivo Alavés cu Getafe?",
+      "intrebare_id": 1768,
+      "rationament": "Echipe de pluton similare, ambele defensive; Mendizorroza aduce plus, dar Getafe scoate multe remize.",
+      "sha256": "b1a5448d0e0d6d8014832db9248e8ed7224cd80b83b4be88860c29a144ea38f1",
+      "valoare": 0.42
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-14 09:36:16",
+      "intrebare": "Câştigă Rapid București cu Dinamo București?",
+      "intrebare_id": 1769,
+      "rationament": "Derby de tradiție cu valori apropiate; Giulești și publicul înclină ușor balanța, însă meciul e imprevizibil.",
+      "sha256": "363457fcd80b37cb0836d697b4644aedfecb9c8a0defc82c32fc50ce63940aa7",
+      "valoare": 0.43
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-14 09:36:16",
+      "intrebare": "Câştigă Sevilla cu Rayo Vallecano?",
+      "intrebare_id": 1770,
+      "rationament": "Sevilla acasă rămâne favorită ușoară, dar Rayo e un adversar organizat care câștigă frecvent deplasări.",
+      "sha256": "f899873b4fd588b346d1b2003721f516b5d743dbe5f37b2adee2e4a71d48594e",
+      "valoare": 0.46
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Lilly (Eli) pe 2026-08-14",
+      "intrebare_id": 1771,
+      "rationament": "Eli Lilly a trecut printr-o corecție de la maximul de 1231.94 la 1209.00, dar suportul din zona 1205-1210 pare să oprească declinul. Cererea pentru medicamentele metabolice rămâne motorul fundamental principal. Riscul principal este volatilitatea sectorului farma și posibilele știri de reglementare. Aș vedea o revenire tehnică modestă.",
+      "sha256": "9338361729232800f6454810bdc70fd982eab9c1d13f26e48434cda7dea30c2b",
+      "valoare": 1216.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Linde plc pe 2026-08-14",
+      "intrebare_id": 1772,
+      "rationament": "Linde a scăzut lent de la 492.46 la 478.20, iar sectorul chimic/industrial pare sub presiune. Compania are un profil defensiv și fluxuri de numerar stabile. O stabilizare aproape de nivelul actual este mai probabilă decât o mișcare mare. Riscul ușor de scădere rămâne din cauza cererii industriale slabe.",
+      "sha256": "2e3fd05c97c23184294efdebbd887ee582b4eea612e0f989c38580211e0eb877",
+      "valoare": 478.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Live Nation Entertainment pe 2026-08-14",
+      "intrebare_id": 1773,
+      "rationament": "Live Nation a urcat constant către 186.06, aproape de maximul recent, ceea ce indică impuls pozitiv. Afacerea de concerte și evenimente rămâne robustă, deși expunerea la discretionary spending este un risc. Biasul pe termen foarte scurt este ușor pozitiv.",
+      "sha256": "89309d581051f735756d6535528937955456d5f6073a7873c0bb848399da71c4",
+      "valoare": 187.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Lockheed Martin pe 2026-08-14",
+      "intrebare_id": 1774,
+      "rationament": "Lockheed Martin a oscilat puternic între 577 și 606, iar ultima scădere la 598 pare o corecție într-un trend ascendent. Tensiunile geopolitice și comenzile de apărare susțin sectorul. O revenire spre 600+ este plauzibilă, dar știrile despre costurile programelor pot aduce volatilitate.",
+      "sha256": "198127c9bd78243a7778d9799d5c25da338eb950df4ff1ed117aafb462b8a42a",
+      "valoare": 602.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Loews Corporation pe 2026-08-14",
+      "intrebare_id": 1775,
+      "rationament": "Loews a scăzut constant de la 116 la 112.72, fără un catalizator clar în datele de preț. Holdings-ul diversificat din asigurări, gaze și transport nu pare să atragă cumpărători. Suportul psihologic la 112 poate încetini declinul. Biasul meu este ușor negativ.",
+      "sha256": "9f568b010c1cd92d7f41880b81b355b9cb152255dd9988aeb31f2c28486bdf39",
+      "valoare": 112.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Lowe's pe 2026-08-14",
+      "intrebare_id": 1776,
+      "rationament": "Lowe's a urcat la 223.35 apoi a căzut la 215.97 înainte de a închide la 218.22. Sectorul de îmbunătățiri locuințe este sensibil la ratele dobânzilor și la consum. Ultimele sesiuni negative sugerează un bias ușor descendent.",
+      "sha256": "51041f285ea3ba061fc8067386da5c54cccdcdc789bb56f98ad8239fd0a4a7b6",
+      "valoare": 217.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Lululemon Athletica pe 2026-08-14",
+      "intrebare_id": 1777,
+      "rationament": "Lululemon a scăzut brusc de la 128.58 la 119.56, semnal de slăbiciune în retailul discretionar. Competiția și presiunea pe evaluare sunt riscuri concrete. După o scădere atât de abruptă, pot apărea cumpărători în zona 119-120. O ușoară stabilizare este așteptată.",
+      "sha256": "8dc62d0a650e1dbd0b69fa6ad2f98394be03d24e6d1858a07f839041d669777f",
+      "valoare": 120.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Lumentum pe 2026-08-14",
+      "intrebare_id": 1778,
+      "rationament": "Lumentum a avut o volatilitate extremă, de la 713 la 932 în zece sesiuni. Prețul a scăzut de la 932.47 la 880.41, reflectând ajustări bruște după mișcări mari. Compania este expusă la cererea pentru optică și AI, dar riscul de corecție este ridicat. Aș anticipa continuarea oscilației, poate ușor sub nivelul actual.",
+      "sha256": "b7ab428898937978e6d4fdd88403843bede694062e696b863155f4ddf50e0e44",
+      "valoare": 870.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul LyondellBasell pe 2026-08-14",
+      "intrebare_id": 1779,
+      "rationament": "LyondellBasell a urcat de la 59 la 63.98, apoi a corectat ușor la 62.40. Marjele petrochimice sunt legate de țiței și cererea industrială. Ultimul avans sugerează îmbunătățirea sentimentului din sector. Biasul meu este ușor pozitiv.",
+      "sha256": "e9563c896ec8b5fb1be21fd477b6c16aeee7b2224c28d2e07317aab7707e301c",
+      "valoare": 63.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul M&T Bank pe 2026-08-14",
+      "intrebare_id": 1780,
+      "rationament": "M&T Bank a urcat constant de la 246.29 la 253.25, pe fondul unui sector bancar solid. Randamentele mai mari și curba dobânzilor ajută băncile regionale. Un plus modest este plauzibil, dar ritmul ar putea încetini după avansul recent.",
+      "sha256": "e84a807c0d76a0377f2d9ddd1b08605cccbe96fac421eddcdf8950735aa31719",
+      "valoare": 254.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Marathon Petroleum pe 2026-08-14",
+      "intrebare_id": 1781,
+      "rationament": "Marathon Petroleum a crescut neobișnuit de mult, de la 316.47 la 356.37, probabil pe marje de rafinare și sentimentul energetic. Creșterea pare exagerată pe termen scurt, deci o corecție ușoară este mai probabilă decât un nou salt major. Sectorul energetic rămâne volatil și sensibil la prețul petrolului.",
+      "sha256": "270b57d15d04c47cf7c4c1ec17c594f41a4c86bc6d8b44c3106b55d192f1808d",
+      "valoare": 353.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Marriott International pe 2026-08-14",
+      "intrebare_id": 1782,
+      "rationament": "Marriott a avut o cădere de la 372 la 345, apoi o recuperare către 352.53. Sectorul hotelier este influențat de cererea de călătorii și de datele macro. Revenirea sugerează că știrile inițiale au fost exagerate. Aș vedea o continuare modestă a rebound-ului.",
+      "sha256": "84c0e6cecec8ad3adb8601255ff83191570630ff34a5ce03c48cba7066cb8008",
+      "valoare": 354.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Marsh McLennan pe 2026-08-14",
+      "intrebare_id": 1783,
+      "rationament": "Marsh McLennan a scăzut de la 193.29 la 188.69, într-un trend descendent lent. Brokerii de asigurări sunt influențați de ratele de primă și randamente. Fără un catalizator clar, mă aștept la o stabilizare ușor sub nivelul actual.",
+      "sha256": "ecc2df23e20cd44a4d18854515ed4835d0d5bbd8db30a4510b5d5f82e929241a",
+      "valoare": 188.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Martin Marietta Materials pe 2026-08-14",
+      "intrebare_id": 1784,
+      "rationament": "Martin Marietta a urcat la 555.82 apoi a corectat la 543.90 înainte de a închide la 544.76. Materialele de construcții au cerere solidă din infrastructură. După corecție, o stabilizare peste 544 este probabilă. Biasul meu este ușor pozitiv.",
+      "sha256": "7a60a96de375f6241028a6f6f4b440c3c514ea63f76e5bc67b098827ef71075b",
+      "valoare": 547.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Marvell Technology pe 2026-08-14",
+      "intrebare_id": 1785,
+      "rationament": "Marvell a urcat constant de la 187.56 la 222.18, susținut de cererea pentru cipuri personalizate și AI. Trendul este clar ascendent, dar volatilitatea din semiconductoare rămâne ridicată. Aș anticipa o continuare modestă, cu riscul unor corecții bruște.",
+      "sha256": "2d2b1f7e6e64296b15dfa93e325b50ec62ed2586a1b337ffe86ad469d54610d6",
+      "valoare": 225.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Masco pe 2026-08-14",
+      "intrebare_id": 1786,
+      "rationament": "Masco a scăzut de la 77.51 la 74.58, semnal de slăbiciune în construcții și produse pentru locuințe. Vânzările de locuințe și cererea de renovare afectează direct compania. O închidere sub 75 sugerează un bias ușor negativ.",
+      "sha256": "e300918740b84d9bef5da32a4ac960e38ccdac21db15c422cc50cdd0268429a6",
+      "valoare": 74.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Mastercard pe 2026-08-14",
+      "intrebare_id": 1787,
+      "rationament": "Mastercard a scăzut la 559.73 apoi a revenit la 567.04, ceea ce indică suport cumpărat. Plățile electronice rămân rezistente, dar volumele de consum pot fi sub așteptări. Aș vedea o continuare ușoară a revenirii.",
+      "sha256": "04a629a90ac1cd4080f7bb29f630138844aab75c8ad2caadc7d0b85def49e3f1",
+      "valoare": 568.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul McCormick & Company pe 2026-08-14",
+      "intrebare_id": 1788,
+      "rationament": "McCormick a sărit de la 52.97 la 54.45, posibil pe rezultate sau îmbunătățirea sentimentului. Alimentele condimentate sunt defensive, ceea ce susține stabilitatea. Dacă saltul reflectă fundamente, prețul poate rămâne ridicat. Biasul meu este ușor pozitiv.",
+      "sha256": "0b7d1fbb54c961fd44b13d4d852908f914ae692a6ba862a91570258d64f5303f",
+      "valoare": 54.9
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul McDonald's pe 2026-08-14",
+      "intrebare_id": 1789,
+      "rationament": "McDonald's a fluctuat între 270 și 276, cu ultima închidere la 272.25. Sectorul fast-food este presat de costuri și de consumatorul atent la preț. Suportul din zona 270 pare solid. O ușoară revenire este plauzibilă.",
+      "sha256": "a55726570628e6784530741b0213b9aab0b1160b7b17bea3de6dfb37d0901298",
+      "valoare": 273.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul McKesson Corporation pe 2026-08-14",
+      "intrebare_id": 1790,
+      "rationament": "McKesson a fost extrem de volatilă, urcând de la 827 la 901 apoi scăzând la 856.69. Distribuția farmaceutică poate avea știri mari, dar piața a deja prețuit mult. Suportul pare în zona 850-856. Aș anticipa o stabilizare, cu un bias ușor pozitiv.",
+      "sha256": "cb032e6857d7293b3f7f5111d5d1fdcc644ef042471c91b2a9a0138c82b0e99e",
+      "valoare": 860.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Medtronic pe 2026-08-14",
+      "intrebare_id": 1791,
+      "rationament": "Medtronic a urcat constant de la 85.39 la 90.58, pe un trend ascendent solid. Dispozitivele medicale au cerere stabilă și un portofoliu diversificat. După avans, o consolidare este posibilă, dar tendința rămâne ușor pozitivă.",
+      "sha256": "3bc7558c79d77b0b0b53d5220d1f34498d6e299fb963c636f8049b31a45d246d",
+      "valoare": 91.3
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Merck & Co. pe 2026-08-14",
+      "intrebare_id": 1792,
+      "rationament": "Merck a închis în creștere la 135.55, continuând un trend ascendent de la 127.77. Pipeline-ul oncologic și caracterul defensiv al farma susțin acțiunea. Momentum-ul este pozitiv, deci aș viza 137. Riscul principal este realizarea de profit.",
+      "sha256": "2d2ba4ba46a74e070aa6ffa8b5fc0d09d63df0320fee29dd3bdf883fff8f0970",
+      "valoare": 137.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Meta Platforms pe 2026-08-14",
+      "intrebare_id": 1793,
+      "rationament": "Meta a scăzut la 578.85 apoi a revenit la 594.97. Cererea publicitară și investițiile AI rămân motoarele principale. Suportul de la 578 a funcționat bine. Aș aștepta o continuare ușoară a rebound-ului.",
+      "sha256": "f4d2a54cb9beebed110b7ff24db46f2d3f2a031031b50330c837fe58cdf23053",
+      "valoare": 598.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul MetLife pe 2026-08-14",
+      "intrebare_id": 1794,
+      "rationament": "MetLife a arătat un rebound la 97.47 după o perioadă de 96-97. Asigurările de viață sunt sensibile la randamente, iar acțiunea pare stabilă. Biasul meu este ușor pozitiv după ultima sesiune.",
+      "sha256": "98ccab7ccfa91027d2be48b1895cf164f79fd808557d9bfbeee4c2d9515d24be",
+      "valoare": 98.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Apple Inc. pe 2026-08-14",
+      "intrebare_id": 1795,
+      "rationament": "Apple a scăzut de la 313.33 la 302.25, apoi a închis la 305.26, sugerând că suportul din zona 302 a rezistat. Compania rămâne defensivă, dar sub presiune de evaluare și cererea pentru iPhone. O ușoară revenire tehnică este posibilă.",
+      "sha256": "d98c904a5434115a9dd30b612bda5d6eaf0462ff1892c79a732b5d62fbd37d8e",
+      "valoare": 307.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Microsoft pe 2026-08-14",
+      "intrebare_id": 1796,
+      "rationament": "Microsoft a urcat de la 492.43 la 496.88, pe cerere de cloud și AI. Suportul la 492 a funcționat, iar închiderea peste 496 este pozitivă. Ținta rotundă de 500 este plauzibilă pe termen foarte scurt.",
+      "sha256": "9f69e6973da24d1e234ca8d0f9a21f51685d00eaa67547947aa79795cadb4639",
+      "valoare": 500.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Nvidia pe 2026-08-14",
+      "intrebare_id": 1797,
+      "rationament": "Nvidia a crescut constant de la 200.75 la 225.30, alimentat de cererea pentru GPU-uri AI. Evaluarea este ridicată, dar trendul rămâne puternic. Aș urmări o continuare, cu conștientizarea că pot apărea corecții bruște.",
+      "sha256": "b6c85541984c43e4dd239c1737c924a89280d3feca065c6fba1816a07829ea07",
+      "valoare": 228.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Amazon pe 2026-08-14",
+      "intrebare_id": 1798,
+      "rationament": "Amazon a scăzut de la 271.58 la 265.13, dar ultima închidere a fost ușor peste minimul recent. Retailul și AWS sunt influențate de consum și cheltuielile cloud. Un rebound modest este posibil, cu riscul unei continuări a corecției.",
+      "sha256": "e81774e3235659ab9dfba88ab66d104fb3a19d2009495fa5904c8b717b62b77f",
+      "valoare": 266.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Alphabet Inc. (Class A) pe 2026-08-14",
+      "intrebare_id": 1799,
+      "rationament": "Alphabet a scăzut puternic de la 377.65 la 343.54, apoi a revenit la 346.36. Frica de concurență în AI/search și reglementarea rămân factori importanți. Suportul din zona 343 a funcționat. Aș viza o recuperare modestă.",
+      "sha256": "663786cb23bf043de461d6653095592924ddbb9e8ff2ee67cdd6b73f05b0386c",
+      "valoare": 349.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Tesla, Inc. pe 2026-08-14",
+      "intrebare_id": 1800,
+      "rationament": "Tesla a crescut de la 311.21 la 339.96, cu o singură corecție minoră. Impulsul este susținut, dar volatilitatea rămâne extremă. Știrile despre livrări și competiție pot schimba rapid direcția. Biasul meu este ușor pozitiv.",
+      "sha256": "e7d9fb793ec8cde2926fed4bab0b1ba1fae81333cc7f7cc618e30f92c91f7e44",
+      "valoare": 344.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Advanced Micro Devices pe 2026-08-14",
+      "intrebare_id": 1801,
+      "rationament": "AMD a oscilat între 469.56 și 518.58, iar ultimele două închideri sunt plate la 483. Sectorul semiconductoarelor este volatil, dar suportul pare solid. Aș vedea o ușoară creștere în linie cu piața.",
+      "sha256": "e5cd45c958d7fbca795761096278536f088207d30393b94bcdb6a7050bcbc787",
+      "valoare": 486.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Broadcom pe 2026-08-14",
+      "intrebare_id": 1802,
+      "rationament": "Broadcom a fluctuat între 416 și 427, cu ultima închidere la 417.82. Cererea pentru infrastructură AI rămâne motorul principal. După două sesiuni de scădere mică, o închidere la 420 este rezonabilă.",
+      "sha256": "a47013e44b34964df387531b44af2c4f8f9fce17b820c3a9cb222c37603aee47",
+      "valoare": 420.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Netflix pe 2026-08-14",
+      "intrebare_id": 1803,
+      "rationament": "Netflix a sărit de la 74.21 la 78.24, posibil pe actualizări de prețuri sau abonați. Streaming-ul are marje bune, dar concurența este intensă. Momentum-ul sugerează o continuare ușoară.",
+      "sha256": "3cc863acec6765c117cf1a7937e03962c99ab4b555d597356391d0cfb0b57894",
+      "valoare": 79.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Intel pe 2026-08-14",
+      "intrebare_id": 1804,
+      "rationament": "Intel a crescut de la 90.20 la 104.56, cu volatilitate majoră legată de planurile de producție și foundry. Fundamentalul rămâne provocator, dar trendul este puternic. Aș viza 106, cu risc de corecție bruscă.",
+      "sha256": "0dbceca8f0cedb82dd24ec153db308b1eb75ac1a8ab23a80d4ef432739d5afe4",
+      "valoare": 106.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Walt Disney Company (The) pe 2026-08-14",
+      "intrebare_id": 1805,
+      "rationament": "Disney a urcat de la 96.19 la 104.80, susținut de parcuri, streaming și reducerea costurilor. Momentum-ul este pozitiv, dar piața a prețuit deja mult. O creștere modestă este așteptată.",
+      "sha256": "130e26333a65ac9616c38e11e4bdf365c707d72fa79779ebfaaa6dc76ffb4103",
+      "valoare": 105.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-08-14",
+      "intrebare_id": 1806,
+      "rationament": "JPMorgan a urcat constant de la 351.79 la 365.18, apoi a corectat ușor la 363.11. Băncile mari sunt susținute de randamente și activitatea de investiții. Biasul este pozitiv, dar după avans poate urma consolidare.",
+      "sha256": "96725dd16d2a8163ac9c00d7ed41f65e566e47f57acf0ca7b2b86fc960d514dd",
+      "valoare": 365.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Visa Inc. pe 2026-08-14",
+      "intrebare_id": 1807,
+      "rationament": "Visa a scăzut la 359.42 apoi a revenit la 365.45. Volumul plăților este stabil, dar expus la consum. Revenirea sugerează suport; aș viza 367.",
+      "sha256": "8d1752fe3ae7cc5242d51867a60c6094bbf89eeb7d6ba560dd8f94472ef8295a",
+      "valoare": 367.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Walmart pe 2026-08-14",
+      "intrebare_id": 1808,
+      "rationament": "Walmart a urcat de la 110.71 la 115.72, cu un maxim recent la 116.01. Retailul de discount și alimentar este defensiv și beneficiază de consumatorul atent la preț. Tendința este pozitivă; aș viza 116.50.",
+      "sha256": "e350abe7a61c3d44399e8deed815dc0cbd21ec54b332ad3c2bd417ef1255403f",
+      "valoare": 116.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-08-14",
+      "intrebare_id": 1809,
+      "rationament": "Coca-Cola a stat într-un range strâns între 86.48 și 87.59, cu ultima închidere aproape de maxim. Compania defensivă are cerere stabilă. Aș anticipa o închidere ușor peste nivelul actual.",
+      "sha256": "5e3b471ee0b0f8f00c0c4f8898e10a5b1529f4bbdf9844abd8e8be2e874b62a3",
+      "valoare": 87.6
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul ExxonMobil pe 2026-08-14",
+      "intrebare_id": 1810,
+      "rationament": "ExxonMobil a crescut la 159.80 apoi a corectat ușor la 158.61. Prețul petrolului este volatil, dar compania rămâne solidă. O stabilizare în jurul valorii de 159 este plauzibilă.",
+      "sha256": "ae7a612e74464e60b2e33e9fef2f94a165319f696aabd367e84e120b498508a5",
+      "valoare": 159.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Boeing pe 2026-08-14",
+      "intrebare_id": 1811,
+      "rationament": "Boeing a scăzut de la 240.19 la 230.33, pe probleme de producție și incertitudini de reglementare. Sectorul aerospațial este sensibil la știri. Biasul meu este ușor negativ, cu suport psihologic în zona 230.",
+      "sha256": "0c26d277ac70165fea8b556d604fb68fdfe1236e80357cc959ac0d361a458b54",
+      "valoare": 229.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Palantir Technologies pe 2026-08-14",
+      "intrebare_id": 1812,
+      "rationament": "Palantir a crescut puternic de la 123.06 la 179.01, cu volatilitate uriașă. Contractele guvernamentale și AI susțin acțiunea, dar evaluarea este extremă. Momentum-ul poate continua, dar riscul de corecție este mare. Țintesc 183.",
+      "sha256": "00f65d31664eb67ae961ce549447967a1f3f9c48148ce00b382aa4089e3b7384",
+      "valoare": 183.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Coinbase pe 2026-08-14",
+      "intrebare_id": 1813,
+      "rationament": "Coinbase a fluctuat cu bitcoin, dar ultima sesiune a fost pozitivă la 153.90. Volatilitatea cripto prezintă riscuri majore. Aș viza o continuare modestă, cu prudență.",
+      "sha256": "ed74928edc6af9d5682807c33cdfdcb30fcbf08a5394f8cc03ecca0b106b908e",
+      "valoare": 156.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Uber pe 2026-08-14",
+      "intrebare_id": 1814,
+      "rationament": "Uber a urcat de la 68.18 la 78.54, apoi a scăzut la 75.88. Compania are cerere solidă de mobilitate și livrări, dar concurența și reglementarea pot apăsa. Stabilizarea în jurul valorii de 76 este plauzibilă.",
+      "sha256": "eb5ec842d3a4804cf0e38dceda933b58048afa005f2178eb51aa1830d87fb002",
+      "valoare": 76.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Robinhood Markets pe 2026-08-14",
+      "intrebare_id": 1815,
+      "rationament": "Robinhood a crescut constant de la 86.56 la 99.37, pe volume mari de tranzacționare și interes retail. Momentum-ul este puternic, dar acțiunea este foarte volatilă. Aș viza 102, cu risc de realizare de profit.",
+      "sha256": "71c13868030895eec926973e272a6c1619517066544b75289965e2a0fe52d7e3",
+      "valoare": 102.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Shopify pe 2026-08-14",
+      "intrebare_id": 1816,
+      "rationament": "Shopify a explodat de la 117.15 la 158.53, pe platforma e-commerce și adoptarea AI. Creșterea este mare, dar evaluarea este sensibilă la dobânzi. Trendul este ascendent; aș continua cu 163.",
+      "sha256": "48c326a5a637b77ff2aa70f4e99affc1ab214d7d7b4fc574140fa52ff2b7b2b6",
+      "valoare": 163.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul MicroStrategy pe 2026-08-14",
+      "intrebare_id": 1817,
+      "rationament": "MicroStrategy a fluctuat în jurul bitcoinului, cu ultima închidere la 97.10. Prețul urmărește îndeaproape cripto, deci direcția este greu de prezis. Dacă bitcoinul rămâne stabil, o ușoară creștere este posibilă.",
+      "sha256": "7aab9b375168d48ce4f7bfb239dad954fa120bd25beda6192ed203cb8c87a813",
+      "valoare": 99.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul S&P 500 (SPY) pe 2026-08-14",
+      "intrebare_id": 1818,
+      "rationament": "S&P 500 a crescut la 777.88, aproape de maximul recent. Piața largă este susținută de tech și date macro rezistente. O mică continuare este probabilă, dar riscul de corecție crește. Țintesc 780.",
+      "sha256": "c23956ff2d5cd63a8e529ef9da87458011d9031f83fd5bbb1897b006a82871ef",
+      "valoare": 780.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 15:49:33",
+      "intrebare": "Preţul Nasdaq 100 (QQQ) pe 2026-08-14",
+      "intrebare_id": 1819,
+      "rationament": "Nasdaq 100 a urcat la 732.07, pe avansul semiconductorilor și al megacap-urilor tech. Momentum-ul este pozitiv, dar volatilitatea este ridicată. Aș viza 737.",
+      "sha256": "c612239b971e5cd39004435a5e3a7f9fbfc983cc4d670752994ff84c85a82dbe",
+      "valoare": 737.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-14 16:45:13",
+      "intrebare": "Preţul Bitcoin pe 2026-08-15",
+      "intrebare_id": 1820,
+      "rationament": "Corecția recentă sub 63000 USD indică o potențială stabilizare și o ușoară revenire tehnică pe termen scurt.",
+      "sha256": "3b5ae22b897f57f741ad79d585208b3c996243281c8e1a9d6509a381e203766b",
+      "valoare": 63100.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-14 16:45:13",
+      "intrebare": "Preţul Ethereum pe 2026-08-15",
+      "intrebare_id": 1821,
+      "rationament": "Urmărește tendința Bitcoin, corectându-se temporar, dar menținând suportul istoric din ultimele zile.",
+      "sha256": "714e86499c39ff1c92d3d1826736a4fd2c76a67054ea4303e3578d40e20d4344",
+      "valoare": 1882.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-14 16:45:13",
+      "intrebare": "Preţul Solana pe 2026-08-15",
+      "intrebare_id": 1822,
+      "rationament": "Evoluție laterală stabilă în canalul 75-76 USD, sugerând o ușoară apreciere spre medie.",
+      "sha256": "3e92694241390a2c49f435949d232e421371ec76b55856552fa31fe724f61bd9",
+      "valoare": 75.9
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-14 16:45:13",
+      "intrebare": "Preţul XRP pe 2026-08-15",
+      "intrebare_id": 1823,
+      "rationament": "Consolidare în jurul pragului psihologic de 1.00 USD, cu șanse mari de revenire minimă.",
+      "sha256": "b155a182073f0dc512c7579fe26fc574a4ed85ba4bf24d2f3e5f05ba31885618",
+      "valoare": 1.01
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-14 16:45:13",
+      "intrebare": "Preţul Cardano pe 2026-08-15",
+      "intrebare_id": 1824,
+      "rationament": "Volatilitate extrem de redusă, prețul oscilând strâns în jurul valorii de 0.18 USD.",
+      "sha256": "124f0ff9b3c78a33265c0f3bfb81c43000724606363cb7dbd19380d2d12c48ff",
+      "valoare": 0.185
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-14 16:45:13",
+      "intrebare": "Preţul Dogecoin pe 2026-08-15",
+      "intrebare_id": 1825,
+      "rationament": "Prețul a rămas complet neschimbat la 0.07 USD în ultimele zece zile, indicând stagnare.",
+      "sha256": "cb455790266d39f1bc6dd738d2c39e023999b051a033c9492cafb0a0aaf98264",
+      "valoare": 0.07
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-14 16:45:13",
+      "intrebare": "Preţul BNB pe 2026-08-15",
+      "intrebare_id": 1826,
+      "rationament": "Corecție după vârful recent, urmată probabil de o stabilizare peste pragul de 600 USD.",
+      "sha256": "1d988d9e8bd48536c5db3d862fa50a37d5bed9a586579985f97a316e06134b6c",
+      "valoare": 608.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:45:20",
+      "intrebare": "Preţul Bitcoin pe 2026-08-15",
+      "intrebare_id": 1820,
+      "rationament": "Scădere recentă, probabil o ușoară revenire tehnică.",
+      "sha256": "dec3d37938cf7607716ab5742e098f43f6b130405caaf90910bd53f232aabd49",
+      "valoare": 62950.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:45:20",
+      "intrebare": "Preţul Ethereum pe 2026-08-15",
+      "intrebare_id": 1821,
+      "rationament": "Stabilizare în jurul suportului de 1870 USD.",
+      "sha256": "8ef6be1c0138be0a3c105a78b0df187a00d3088739a629c56e0eb796bb2faca5",
+      "valoare": 1875.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:45:20",
+      "intrebare": "Preţul Solana pe 2026-08-15",
+      "intrebare_id": 1822,
+      "rationament": "Oscilație în interval, revenire spre media superioară.",
+      "sha256": "b1f36fd61dbb113e4297108a0793bd6301fde36bb0e8659cdf02038d7dea6292",
+      "valoare": 76.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:45:20",
+      "intrebare": "Preţul XRP pe 2026-08-15",
+      "intrebare_id": 1823,
+      "rationament": "Testarea suportului psihologic de 1.00 USD.",
+      "sha256": "68561a21256c22a994ddd31ef02360ebc73451553478201659185d1fe852e27c",
+      "valoare": 1.01
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:45:20",
+      "intrebare": "Preţul Cardano pe 2026-08-15",
+      "intrebare_id": 1824,
+      "rationament": "Lipsă de impuls, preț rămâne stabil.",
+      "sha256": "e2f8d43aa7c2e583317aab7f4c4af38c84121b1acb3e4231333daa7697cd4ca2",
+      "valoare": 0.18
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:45:20",
+      "intrebare": "Preţul Dogecoin pe 2026-08-15",
+      "intrebare_id": 1825,
+      "rationament": "Preț complet stagnant, fără volatilitate.",
+      "sha256": "294f702e79353719438b31f362eb1a758d842dad16323016f8a95ccfc47c655c",
+      "valoare": 0.07
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:45:20",
+      "intrebare": "Preţul BNB pe 2026-08-15",
+      "intrebare_id": 1826,
+      "rationament": "Corecție continuă după vârful recent.",
+      "sha256": "d10248c89ba3c40212b1909d104b213657390d3ac27acb4e92aff38068a203e6",
+      "valoare": 602.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 16:45:22",
+      "intrebare": "Preţul Bitcoin pe 2026-08-15",
+      "intrebare_id": 1820,
+      "rationament": "Trendul descendent recent sugerează o continuare ușoară a presiunii vânzătorilor, dar cu o posibilă stabilizare pe suportul imediat.",
+      "sha256": "39edfe25de94602c94af2cad7e60953e2acc8c9dbd001f7c5ac2e92403008891",
+      "valoare": 62850.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 16:45:22",
+      "intrebare": "Preţul Ethereum pe 2026-08-15",
+      "intrebare_id": 1821,
+      "rationament": "Volatilitate scăzută și corelare puternică cu Bitcoin; aștept o mișcare laterală ușor bearish în jurul mediei mobile recente.",
+      "sha256": "47753df300c3ca825ff75698b283792a79181e1df72d3316143144e683622a2b",
+      "valoare": 1875.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 16:45:22",
+      "intrebare": "Preţul Solana pe 2026-08-15",
+      "intrebare_id": 1822,
+      "rationament": "Prețul oscilează într-un canal îngust; o revenire minoră la medie este probabilă după scăderea de ieri.",
+      "sha256": "f2a9ece6bfd8b205b0a86df1d79da4f300281c6cbbffcf76490575edee6f66c4",
+      "valoare": 75.6
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 16:45:22",
+      "intrebare": "Preţul XRP pe 2026-08-15",
+      "intrebare_id": 1823,
+      "rationament": "Suport psihologic la 1.00 USD; aștept o reacție tehnică ușor bullish pentru a testa rezistența imediată.",
+      "sha256": "566a5ca450e6d9ad687e3912d52f5d13085e36163340e338a541ba8d7db51506",
+      "valoare": 1.005
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 16:45:22",
+      "intrebare": "Preţul Cardano pe 2026-08-15",
+      "intrebare_id": 1824,
+      "rationament": "Consolidare laterală prelungită; o mică creștere procentuală este mai probabilă decât o prăbușire bruscă în acest context.",
+      "sha256": "ece877a6543e189a8d1f1a537e73f9066da5f12a85806718bcf289d901b8de39",
+      "valoare": 0.182
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 16:45:22",
+      "intrebare": "Preţul Dogecoin pe 2026-08-15",
+      "intrebare_id": 1825,
+      "rationament": "Stabilitate extremă recent; o fluctuație minoră în sus este posibilă datorită lipsei de direcție clară.",
+      "sha256": "cbb71a2b361ab9cdd6dfb005daf9b4c799b5ac0010120971ac88d65b5fff19d8",
+      "valoare": 0.071
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 16:45:22",
+      "intrebare": "Preţul BNB pe 2026-08-15",
+      "intrebare_id": 1826,
+      "rationament": "Corelare cu trendul general al pieței; aștept o stabilizare ușor peste nivelul de închidere de ieri.",
+      "sha256": "7f4b18076b8e43be18c0f27421473d5bf0eeb3df9954c995677f077e980c0113",
+      "valoare": 606.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:48:18",
+      "intrebare": "Preţul Bitcoin pe 2026-08-15",
+      "intrebare_id": 1820,
+      "rationament": "Ultimele zile arată presiune de vânzare; mă aștept la o continuare ușoară a corecției.",
+      "sha256": "af053ad8ba7e80d59757a64783eba80fb2f06d70f685c73c9fdf156bc5032270",
+      "valoare": 62500.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:48:18",
+      "intrebare": "Preţul Ethereum pe 2026-08-15",
+      "intrebare_id": 1821,
+      "rationament": "Momentul negativ persistă, dar scăderea pare limitată de suportul apropiat.",
+      "sha256": "369084cefbe8bb00fb1ce3ca96733da832679e128b066ad1f609ab3a2fc7c170",
+      "valoare": 1868.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:48:18",
+      "intrebare": "Preţul Solana pe 2026-08-15",
+      "intrebare_id": 1822,
+      "rationament": "Corecție după maxim; posibilă consolidare sub nivelul de 75.50.",
+      "sha256": "caf20c53eb05bbb6bb66d4d152f72251ab13ba778170ce44fd576ba9b6fe610f",
+      "valoare": 75.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:48:18",
+      "intrebare": "Preţul XRP pe 2026-08-15",
+      "intrebare_id": 1823,
+      "rationament": "Trend descendent constant, dar fără pană; scădere marginală.",
+      "sha256": "ee3969bbb38846c522d0566905d8552c6e4ee0f26326f54a91004d658bce062b",
+      "valoare": 0.994
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:48:18",
+      "intrebare": "Preţul Cardano pe 2026-08-15",
+      "intrebare_id": 1824,
+      "rationament": "Serie de minime mai joase; estimare ușor sub 0.18.",
+      "sha256": "338579fccfdad25e509247d95bc5ffa6546cd75569386d2051b971339dce729e",
+      "valoare": 0.177
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:48:18",
+      "intrebare": "Preţul Dogecoin pe 2026-08-15",
+      "intrebare_id": 1825,
+      "rationament": "Fără impuls clar, dar aliniat la corecția generală a pieței.",
+      "sha256": "4c5249c103b8666180f0ace8d800853d8a34b9f0235cfb95312688fbc6c1c4cd",
+      "valoare": 0.069
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:48:18",
+      "intrebare": "Preţul BNB pe 2026-08-15",
+      "intrebare_id": 1826,
+      "rationament": "Scădere după vârful recent; revenire spre zona 600.",
+      "sha256": "3c5234296002ba30db7a6fec0ab9efa32f9b14e4e29b6b623593cd17eb2f41da",
+      "valoare": 601.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:48:30",
+      "intrebare": "Preţul Bitcoin pe 2026-09-13 (1 lună)",
+      "intrebare_id": 1827,
+      "rationament": "Recuperare tehnică după scădere, suport solid la 60k.",
+      "sha256": "7e64e0de4c1f7f091c990cc104c7906f61aaf4a1ca6713507371ac6782ac56ae",
+      "valoare": 64000.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:48:30",
+      "intrebare": "Preţul Ethereum pe 2026-09-13 (1 lună)",
+      "intrebare_id": 1828,
+      "rationament": "Corelație strânsă cu Bitcoin, ușoară apreciere.",
+      "sha256": "29d37ccddd5d01f38b837891826397c79d2a5193e1b7c48ab58d93f105c6395a",
+      "valoare": 1920.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:48:30",
+      "intrebare": "Preţul Solana pe 2026-09-13 (1 lună)",
+      "intrebare_id": 1829,
+      "rationament": "Momentum pozitiv, depășirea rezistenței recente.",
+      "sha256": "842bec177509da69afbc6b11a06d49799473f9173a00dd470b323f09cdfa3dd6",
+      "valoare": 82.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:48:30",
+      "intrebare": "Preţul XRP pe 2026-09-13 (1 lună)",
+      "intrebare_id": 1830,
+      "rationament": "Continuare trend descendent, lipsă de catalizatori.",
+      "sha256": "2b85a39e4ff1c78a033cdce7331f05928cccfaaf53bb3532fd37fc6ddb16a4f5",
+      "valoare": 0.98
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:48:30",
+      "intrebare": "Preţul Cardano pe 2026-09-13 (1 lună)",
+      "intrebare_id": 1831,
+      "rationament": "Presiune de vânzare persistentă, testarea minimelor.",
+      "sha256": "6e3d843f0d20a4a69010db304d2e852f82bc8384e05233847ec9479299b1b26a",
+      "valoare": 0.17
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:48:30",
+      "intrebare": "Preţul Dogecoin pe 2026-09-13 (1 lună)",
+      "intrebare_id": 1832,
+      "rationament": "Lateralizare continuă, volatilitate redusă.",
+      "sha256": "47a7e03885d7aa6746649c7496195fe95f60257576fac6a74f0e1dee662a328d",
+      "valoare": 0.07
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:48:30",
+      "intrebare": "Preţul BNB pe 2026-09-13 (1 lună)",
+      "intrebare_id": 1833,
+      "rationament": "Ecosistem stabil, ușoară creștere organică.",
+      "sha256": "7042d1d8c598cef7c19a82d4d49c52a3dd72e6ad9cb5fb70235c4e795f13ede7",
+      "valoare": 615.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:49:20",
+      "intrebare": "Preţul Bitcoin pe 2026-09-13 (1 lună)",
+      "intrebare_id": 1827,
+      "rationament": "Corecția recentă pare limitată; mă aștept la o stabilizare ușor peste nivelul actual.",
+      "sha256": "eeb67664371d8dd170684942b637d7aa51d7be4b0bf1ee2b92878af73b327764",
+      "valoare": 63500.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:49:20",
+      "intrebare": "Preţul Ethereum pe 2026-09-13 (1 lună)",
+      "intrebare_id": 1828,
+      "rationament": "Rămâne corelat cu Bitcoin, cu volatilitate mai mare; revenire modestă probabilă.",
+      "sha256": "ca9537054f263fd8a082a7bc2b37664593e752980b13ddf0305dd23599545bf0",
+      "valoare": 1890.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:49:20",
+      "intrebare": "Preţul Solana pe 2026-09-13 (1 lună)",
+      "intrebare_id": 1829,
+      "rationament": "Momentum pozitiv local, dar rezistență la 76-77 USD; prognoză ușor ascendentă.",
+      "sha256": "eb9091b1ea38ad4fac6eafecfdc2daf9a9d21def460b1df7dede1f5ec6fb6ac4",
+      "valoare": 76.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:49:20",
+      "intrebare": "Preţul XRP pe 2026-09-13 (1 lună)",
+      "intrebare_id": 1830,
+      "rationament": "Lichiditate redusă și trend lateral; prețul rămâne aproape de 1 USD.",
+      "sha256": "88b7162def6e187e831dc9b94dacbec6fbcd558abdf348bbce4915048285cf10",
+      "valoare": 1.01
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:49:20",
+      "intrebare": "Preţul Cardano pe 2026-09-13 (1 lună)",
+      "intrebare_id": 1831,
+      "rationament": "Trend descendent lent, dar suportul istoric poate stabiliza prețul.",
+      "sha256": "2245f94e8601a0a42f6e68067d254aef3495b8d4398ce671aa1b68916afb892a",
+      "valoare": 0.19
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:49:20",
+      "intrebare": "Preţul Dogecoin pe 2026-09-13 (1 lună)",
+      "intrebare_id": 1832,
+      "rationament": "Fără semnal clar; prețul rămâne blocat în jurul valorii actuale.",
+      "sha256": "e6393427db2f910d2636def580ac92ae2be9c0cab688bb94cc45a973ff761d26",
+      "valoare": 0.07
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:49:20",
+      "intrebare": "Preţul BNB pe 2026-09-13 (1 lună)",
+      "intrebare_id": 1833,
+      "rationament": "Ușoară forță relativă; suportul recent indică o creștere moderată.",
+      "sha256": "470583e5add4498d87cac4d927871fb1e1e1eca4aa39ca135dcf5a6589a078ba",
+      "valoare": 610.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:49:32",
+      "intrebare": "Preţul Bitcoin pe 2026-11-13 (3 luni)",
+      "intrebare_id": 1834,
+      "rationament": "Recuperare tehnică așteptată după scăderea recentă, menținere peste 60k.",
+      "sha256": "faf69c1747eae0bedcaba325b20e0f439a695de7cb6a06b2cd0c775c53301c4e",
+      "valoare": 68500.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:49:32",
+      "intrebare": "Preţul Ethereum pe 2026-11-13 (3 luni)",
+      "intrebare_id": 1835,
+      "rationament": "Urmărește Bitcoin, potențial de revenire la nivelul de 2000 USD.",
+      "sha256": "091f4426962c9ff3cf1c6e57d6c1461dac4cdf544bb882de6c28d249a5ce145c",
+      "valoare": 1950.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:49:32",
+      "intrebare": "Preţul Solana pe 2026-11-13 (3 luni)",
+      "intrebare_id": 1836,
+      "rationament": "Consolidare puternică peste 75 USD sugerează o continuare a trendului ascendent.",
+      "sha256": "f144dd360a5a332029919ccc6109e60c25debd52e832f5e8a2bc7c10ded8f888",
+      "valoare": 82.5
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:49:32",
+      "intrebare": "Preţul XRP pe 2026-11-13 (3 luni)",
+      "intrebare_id": 1837,
+      "rationament": "Suport psihologic la 1 USD, probabil rebound speculativ.",
+      "sha256": "28da153c9a293fd099aaf39277027be53ed4e40c89937a9cbca722ee58c92f70",
+      "valoare": 1.12
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:49:32",
+      "intrebare": "Preţul Cardano pe 2026-11-13 (3 luni)",
+      "intrebare_id": 1838,
+      "rationament": "Momentum negativ continuă, testarea nivelurilor inferioare.",
+      "sha256": "d2329984c67984e3a0024e0b15c55d070899faafc2924356399bb43be6d2147f",
+      "valoare": 0.17
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:49:32",
+      "intrebare": "Preţul Dogecoin pe 2026-11-13 (3 luni)",
+      "intrebare_id": 1839,
+      "rationament": "Lipsă de volatilitate, posibilă mișcare laterală sau ușoară creștere.",
+      "sha256": "186eb0ec8ae039aa16191a2b5416cfd0501232fec6dff16ac1b6fc2e36c06dce",
+      "valoare": 0.08
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:49:32",
+      "intrebare": "Preţul BNB pe 2026-11-13 (3 luni)",
+      "intrebare_id": 1840,
+      "rationament": "Rezistență la 600 USD, posibile presiuni de cumpărare.",
+      "sha256": "7255af2571a192bb19dbd1376b53223b2f8c2317ff891b16c95cf1044e30189b",
+      "valoare": 625.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:51:39",
+      "intrebare": "Preţul Bitcoin pe 2026-11-13 (3 luni)",
+      "intrebare_id": 1834,
+      "rationament": "Trendul recent e descendent; estimez o ușoară continuare, dar cu risc mare.",
+      "sha256": "62ddd08c08dd7c2cf1b9091836bd5c5920a4cc7a4fc8bac1ff2e90add2a88f97",
+      "valoare": 62000.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:51:39",
+      "intrebare": "Preţul Ethereum pe 2026-11-13 (3 luni)",
+      "intrebare_id": 1835,
+      "rationament": "Urmează Bitcoin; văd o presiune modestă de scădere pe termen scurt.",
+      "sha256": "77b8ef9d02ffc01a4ff49ace52695fff64bc396d76807020222b1d27cf0e6c84",
+      "valoare": 1850.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:51:39",
+      "intrebare": "Preţul Solana pe 2026-11-13 (3 luni)",
+      "intrebare_id": 1836,
+      "rationament": "Momentum pozitiv în ultimele zile; mă aștept să rămână peste nivelul actual.",
+      "sha256": "9f3b21626d5a8b2f0b6e9b0f7b25c1a37aca26702e6d22db7908658cc6e907f1",
+      "valoare": 78.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:51:39",
+      "intrebare": "Preţul XRP pe 2026-11-13 (3 luni)",
+      "intrebare_id": 1837,
+      "rationament": "Declin lent și volum redus; prognoză ușor sub prețul curent.",
+      "sha256": "8103cf0395e292365d8ebf0c665a008daf19c3355ce2e8a2350479eea70ccf82",
+      "valoare": 0.98
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:51:39",
+      "intrebare": "Preţul Cardano pe 2026-11-13 (3 luni)",
+      "intrebare_id": 1838,
+      "rationament": "Fără impuls; persistă tendința de slăbiciune, deci estimez o valoare mai mică.",
+      "sha256": "dd37d2f4b56340659284354302a536e170505bc82ed1ec8b2ddc7c16614f744f",
+      "valoare": 0.17
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:51:39",
+      "intrebare": "Preţul Dogecoin pe 2026-11-13 (3 luni)",
+      "intrebare_id": 1839,
+      "rationament": "Stagnare recentă; dacă piața își revine, ar putea câștiga ușor.",
+      "sha256": "9458cdf1abb3fec2f2978915c297b86ed1d05ba2327a3ae7f251374861c5bcf1",
+      "valoare": 0.08
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:51:39",
+      "intrebare": "Preţul BNB pe 2026-11-13 (3 luni)",
+      "intrebare_id": 1840,
+      "rationament": "Creștere susținută în seria recentă; estimez continuare moderată.",
+      "sha256": "08c39e31a1efa48219d332e7916ac242ce65055a69fd4cfcb62a1afeecf2f4a1",
+      "valoare": 630.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 16:51:43",
+      "intrebare": "Preţul Bitcoin pe 2027-08-14 (1 an)",
+      "intrebare_id": 1841,
+      "rationament": "Creștere lentă",
+      "sha256": "f9b1b980d74461f46d6e5ecdfbe8ca2141b8b5066a098cf0859fd74e48871724",
+      "valoare": 150000.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 16:51:43",
+      "intrebare": "Preţul Ethereum pe 2027-08-14 (1 an)",
+      "intrebare_id": 1842,
+      "rationament": "Stabilizare",
+      "sha256": "130c3694e6894283e10b88f5ce6e3e3657da8b8f3b6281a4b5794d05cdf9f902",
+      "valoare": 5000.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 16:51:43",
+      "intrebare": "Preţul Solana pe 2027-08-14 (1 an)",
+      "intrebare_id": 1843,
+      "rationament": "Revenire",
+      "sha256": "a37ea533b66af6a112dee69c958ffc56d427c54ee340ec4ef7c789c381acaab1",
+      "valoare": 100.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:51:47",
+      "intrebare": "Preţul Bitcoin pe 2027-08-14 (1 an)",
+      "intrebare_id": 1841,
+      "rationament": "Rezervele naționale și ETF-urile solidifică statutul de activ digital de referință.",
+      "sha256": "669e340aa4c0efec8035dadd693b3c4db68e63872d7d44eb90f6f0c447755bdb",
+      "valoare": 71200.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:51:47",
+      "intrebare": "Preţul Ethereum pe 2027-08-14 (1 an)",
+      "intrebare_id": 1842,
+      "rationament": "Reglementarea clară stimulează dezvoltarea DeFi și utilizarea în contracte inteligente.",
+      "sha256": "e27768cc2e216d65675d3eb55a7c88f2f4b076732100b5e84b58492b77c2587f",
+      "valoare": 2150.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 16:51:47",
+      "intrebare": "Preţul Solana pe 2027-08-14 (1 an)",
+      "intrebare_id": 1843,
+      "rationament": "Adopția masivă în sectorul NFT și gaming menține rețeaua relevantă.",
+      "sha256": "f5e668d2b06bf8fdf6aaf78c984bb7affe2b9ddf158fb9e2e91ab4829b3c534b",
+      "valoare": 82.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:52:07",
+      "intrebare": "Preţul Bitcoin pe 2027-08-14 (1 an)",
+      "intrebare_id": 1841,
+      "rationament": "Adopţia instituţională şi oferta limitată susţin redresarea pe termen lung, deşi reglementările pot crea volatilitate pe un an.",
+      "sha256": "42fb125f11ff785b7f62d06e68a39a7271e72bb94f48467e656a695116b1058d",
+      "valoare": 110000.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:52:07",
+      "intrebare": "Preţul Ethereum pe 2027-08-14 (1 an)",
+      "intrebare_id": 1842,
+      "rationament": "Rămâne platforma principală pentru DeFi şi tokenizare, dar concurenţa creşte; urmează o apreciere moderată, nu spectaculoasă.",
+      "sha256": "773102455e6530dee16e84db95ecef39d37ae0b2ff11b088f020480317569256",
+      "valoare": 4500.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 16:52:07",
+      "intrebare": "Preţul Solana pe 2027-08-14 (1 an)",
+      "intrebare_id": 1843,
+      "rationament": "Ecosistemul se menţine, însă competiţia şi riscurile tehnice limitează potenţialul; revenirea depinde de adoptarea susţinută.",
+      "sha256": "ed4835628286bfa262c6ceaed74b952da23812748b791ef39acac3261945ec70",
+      "valoare": 180.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 17:30:33",
+      "intrebare": "Temperatura maximă la București pe 2026-08-15",
+      "intrebare_id": 1844,
+      "rationament": "tendinta descrescatoare",
+      "sha256": "0b670815824e0de86232332138f3a95bdb6f9791f54bf331d983af4cb249bea8",
+      "valoare": 28.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 17:30:33",
+      "intrebare": "Va ploua la București pe 2026-08-15?",
+      "intrebare_id": 1845,
+      "rationament": "tendinta descrescatoare",
+      "sha256": "a73bbb28b17e9258ec5a9c9f7f1518391dad87788837f397224e25df5e6a9974",
+      "valoare": 0.2
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 17:30:33",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-15",
+      "intrebare_id": 1846,
+      "rationament": "schimbari bruște",
+      "sha256": "0aa1efb00c022b500cfa5474bbfb7d06228652e8874ac6a9c98158c4f4cd4bbd",
+      "valoare": 27.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 17:30:33",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-15?",
+      "intrebare_id": 1847,
+      "rationament": "schimbari bruște",
+      "sha256": "2772c186f90a67440aef2d7189e5c357d981a703febd00740028d12aa4b22ef7",
+      "valoare": 0.3
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 17:30:33",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-15",
+      "intrebare_id": 1848,
+      "rationament": "stabilizare",
+      "sha256": "211b111cdb7b5bf9348bbcce677420b3d8b95037f57068a42f3e9902ffd8cbfe",
+      "valoare": 28.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 17:30:33",
+      "intrebare": "Va ploua la Iași pe 2026-08-15?",
+      "intrebare_id": 1849,
+      "rationament": "stabilizare",
+      "sha256": "658d3731d69dc7a61e673058441e20905bfb514fba2651dfd298477c1de0cdf8",
+      "valoare": 0.25
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 17:30:33",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-15",
+      "intrebare_id": 1850,
+      "rationament": "caldura persistenta",
+      "sha256": "c07c787ae77d91f0d31c573a6d0bb637d4d8f90cb896d64045cee7bf7d8f114a",
+      "valoare": 32.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 17:30:33",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-15?",
+      "intrebare_id": 1851,
+      "rationament": "caldura persistenta",
+      "sha256": "67b6116ec5212cda1b2909cf83ff7c52a5fdd08b1840de2fcc3ccdd3f398d99f",
+      "valoare": 0.1
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 17:30:33",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-15",
+      "intrebare_id": 1852,
+      "rationament": "influentă maritimă",
+      "sha256": "93b2ceaf35206d43abed440394497db0bbc8bf936744c9d7c89df872a13c11f0",
+      "valoare": 25.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 17:30:33",
+      "intrebare": "Va ploua la Constanța pe 2026-08-15?",
+      "intrebare_id": 1853,
+      "rationament": "influentă maritimă",
+      "sha256": "8c4534a26ccd367833ee66e1e6adc9487fcc3e5d2afa9067abf2874b7638992a",
+      "valoare": 0.15
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 17:30:33",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-15",
+      "intrebare_id": 1854,
+      "rationament": "altitudine mare",
+      "sha256": "d75b68ea7816c3cdb6a2ddff36d325eb79e718752ebb16794c856e26b969798d",
+      "valoare": 24.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-14 17:30:33",
+      "intrebare": "Va ploua la Brașov pe 2026-08-15?",
+      "intrebare_id": 1855,
+      "rationament": "altitudine mare",
+      "sha256": "880fc4a3161fa48cc5a1e5bf5569c967baae440712b873dd21e668a1e46c5e13",
+      "valoare": 0.4
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 17:30:39",
+      "intrebare": "Temperatura maximă la București pe 2026-08-15",
+      "intrebare_id": 1844,
+      "rationament": "Răcire semnificativă recentă, posibilă stabilizare sau ușoară revenire.",
+      "sha256": "1ef74116f779150047b469ed0f1b1205f2c1dfa2af4867c7797acdaa1a03fdbe",
+      "valoare": 28.5
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 17:30:39",
+      "intrebare": "Va ploua la București pe 2026-08-15?",
+      "intrebare_id": 1845,
+      "rationament": "Răcire semnificativă recentă, posibilă stabilizare sau ușoară revenire.",
+      "sha256": "24e312dd95a4d9c974c7fd70a32e34d42eeb503553edbcca62bcbc94faa76e37",
+      "valoare": 0.2
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 17:30:39",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-15",
+      "intrebare_id": 1846,
+      "rationament": "Trend descendent persistent, aer rece instabil în depresiune.",
+      "sha256": "b23d031fa38487e7c161039fe346d14714bf2d71aff5fe581a0f17f94ae20fba",
+      "valoare": 27.5
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 17:30:39",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-15?",
+      "intrebare_id": 1847,
+      "rationament": "Trend descendent persistent, aer rece instabil în depresiune.",
+      "sha256": "19f39a32fd9dae4151584d75ae607ebda65b9bd7ab47cff66f35d1fcb1d84b46",
+      "valoare": 0.15
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 17:30:39",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-15",
+      "intrebare_id": 1848,
+      "rationament": "Oscilații termice mari, încălzire probabilă după minimul recent.",
+      "sha256": "f6890d095b412961e847982ce9dde21d02e0332ab110d08ce6f8e83f89d815f1",
+      "valoare": 28.5
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 17:30:39",
+      "intrebare": "Va ploua la Iași pe 2026-08-15?",
+      "intrebare_id": 1849,
+      "rationament": "Oscilații termice mari, încălzire probabilă după minimul recent.",
+      "sha256": "21cc0991b964611ecdcc5dfa49be6e5af0c6a00aebc9dc0cf6c9230737271f1d",
+      "valoare": 0.1
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 17:30:39",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-15",
+      "intrebare_id": 1850,
+      "rationament": "Căldură persistentă, frontul rece a avut impact redus aici.",
+      "sha256": "d69f0d57d16a3e04da755bf5bc8aca3aba33d2c53ff287bee1fa11690010a748",
+      "valoare": 32.8
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 17:30:39",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-15?",
+      "intrebare_id": 1851,
+      "rationament": "Căldură persistentă, frontul rece a avut impact redus aici.",
+      "sha256": "ed6a915b7125e965deadae734b1696af77bbb9f5fad5a320ae82efe316220cfe",
+      "valoare": 0.05
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 17:30:39",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-15",
+      "intrebare_id": 1852,
+      "rationament": "Influență marină și vânt rece mențin temperaturile scăzute.",
+      "sha256": "a00d011bc9f3ff7532d7fa69d1c3453965c23931878c898720306bede30e61b2",
+      "valoare": 25.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 17:30:39",
+      "intrebare": "Va ploua la Constanța pe 2026-08-15?",
+      "intrebare_id": 1853,
+      "rationament": "Influență marină și vânt rece mențin temperaturile scăzute.",
+      "sha256": "799721ba1f7783d5f6f8c62160adbe5a77fd63e4afd68b022df158f31ff3c6b3",
+      "valoare": 0.1
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 17:30:39",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-15",
+      "intrebare_id": 1854,
+      "rationament": "Altitudine înaltă și aer rece, probabilitate mai mare de instabilitate.",
+      "sha256": "abcd01d9294a0b25ea9ef4c39e9c6c7e14d4a2aba0bd62acbb2a39edc25fab45",
+      "valoare": 23.5
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-14 17:30:39",
+      "intrebare": "Va ploua la Brașov pe 2026-08-15?",
+      "intrebare_id": 1855,
+      "rationament": "Altitudine înaltă și aer rece, probabilitate mai mare de instabilitate.",
+      "sha256": "247a9584f008dd0274dde39c474cfaf74e020c9f4c9afab11385adec513305ba",
+      "valoare": 0.3
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 17:30:40",
+      "intrebare": "Temperatura maximă la București pe 2026-08-15",
+      "intrebare_id": 1844,
+      "rationament": "Tendința ușor ascendentă după răcire; vară uscată, șanse minime de ploaie semnificativă.",
+      "sha256": "86d8f6040cb52bfb341cb7df3b2ab6a2b5886b1905cdc580c81ae27f7d2ce1a8",
+      "valoare": 28.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 17:30:40",
+      "intrebare": "Va ploua la București pe 2026-08-15?",
+      "intrebare_id": 1845,
+      "rationament": "Tendința ușor ascendentă după răcire; vară uscată, șanse minime de ploaie semnificativă.",
+      "sha256": "7779a0d05d059ffe7c5f4af297c01402463ea4987099a054dcd5dee741e97838",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 17:30:40",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-15",
+      "intrebare_id": 1846,
+      "rationament": "Răcire continuă spre medie; altitudinea favorizează instabilitate ușoară, dar trendul e uscat.",
+      "sha256": "ff42cbfddc95209a806ea14565ec790ba6db58ac6e4c63242ea5a0be1032a8a9",
+      "valoare": 27.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 17:30:40",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-15?",
+      "intrebare_id": 1847,
+      "rationament": "Răcire continuă spre medie; altitudinea favorizează instabilitate ușoară, dar trendul e uscat.",
+      "sha256": "11f66c80809d59fffda764318c31d1fb3e85c4521f1e513111018b2e66b1c15a",
+      "valoare": 0.15
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 17:30:40",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-15",
+      "intrebare_id": 1848,
+      "rationament": "Oscilații mari recente; revenire spre medie, cu risc ușor crescut de averse locale.",
+      "sha256": "0d34e204fe71484b37bcc69da75eeb5cd868d379148ad8821e4eab31ed9dfeb6",
+      "valoare": 27.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 17:30:40",
+      "intrebare": "Va ploua la Iași pe 2026-08-15?",
+      "intrebare_id": 1849,
+      "rationament": "Oscilații mari recente; revenire spre medie, cu risc ușor crescut de averse locale.",
+      "sha256": "e42058ad8a7ed000cd834e746d5632e5625657e879b3a32a2898143132ac8eb0",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 17:30:40",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-15",
+      "intrebare_id": 1850,
+      "rationament": "Anticiclon puternic, temperaturi ridicate persistente; cer senin, probabilitate ploaie neglijabilă.",
+      "sha256": "999dce47d3bb15bbdd49b10d190658bd0d335cdfdf03fd88b474d4c44d4a7c2d",
+      "valoare": 33.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 17:30:40",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-15?",
+      "intrebare_id": 1851,
+      "rationament": "Anticiclon puternic, temperaturi ridicate persistente; cer senin, probabilitate ploaie neglijabilă.",
+      "sha256": "a902f24e39260c1f8b63e6ad153f93226936fbe110ab66dcbc154b8e79adc236",
+      "valoare": 0.05
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 17:30:40",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-15",
+      "intrebare_id": 1852,
+      "rationament": "Influența marină moderată; temperaturi stabile, ușoară scădere, cer variabil dar uscat.",
+      "sha256": "4749b91a8e2c85440167093a5a9df8eec615362325b1da1486548b0849e7e3a2",
+      "valoare": 25.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 17:30:40",
+      "intrebare": "Va ploua la Constanța pe 2026-08-15?",
+      "intrebare_id": 1853,
+      "rationament": "Influența marină moderată; temperaturi stabile, ușoară scădere, cer variabil dar uscat.",
+      "sha256": "59ce794ca3ec900385b428867ae7f78452a541367cc41cba961dd216195dc5a0",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 17:30:40",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-15",
+      "intrebare_id": 1854,
+      "rationament": "Altitudine mare, răcire accentuată; istoric recent umed, risc moderat de instabilitate.",
+      "sha256": "a7306efdf08f3dc1caacf6f0fb30d364806405c34dee94a2fb6d752d59c4f5bb",
+      "valoare": 23.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-14 17:30:40",
+      "intrebare": "Va ploua la Brașov pe 2026-08-15?",
+      "intrebare_id": 1855,
+      "rationament": "Altitudine mare, răcire accentuată; istoric recent umed, risc moderat de instabilitate.",
+      "sha256": "dba38d7c2fe5142a9d1cd74ec87a8bf1ad32f1f8b03b0c3b1887c8a4cf953dec",
+      "valoare": 0.25
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 17:33:35",
+      "intrebare": "Temperatura maximă la București pe 2026-08-15",
+      "intrebare_id": 1844,
+      "rationament": "Răcirea s-a oprit; revenire spre normalul de la jumătatea lui august, cer uscat.",
+      "sha256": "4a3ec06e7bff4e3724240a948504d2043944b117ce1e454d708d2a64fc2c9de2",
+      "valoare": 30.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 17:33:35",
+      "intrebare": "Va ploua la București pe 2026-08-15?",
+      "intrebare_id": 1845,
+      "rationament": "Răcirea s-a oprit; revenire spre normalul de la jumătatea lui august, cer uscat.",
+      "sha256": "c8a0b63a4e4415e451d40f6077efb42c35ba80e4d4bd02a97520fce51d04dca2",
+      "valoare": 0.08
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 17:33:35",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-15",
+      "intrebare_id": 1846,
+      "rationament": "Tendința de răcire pare aproape de final; max aproape de media climatologică, posibile averse locale.",
+      "sha256": "8228f081700c76eda9f28f1e6e954c008df917af1ceddfdb0b4bd847a8d14258",
+      "valoare": 27.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 17:33:35",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-15?",
+      "intrebare_id": 1847,
+      "rationament": "Tendința de răcire pare aproape de final; max aproape de media climatologică, posibile averse locale.",
+      "sha256": "f12b51c6797703e2eb8da80eb5e85fa93b45e1694fc29c3f1b4f9e42ff50f5ec",
+      "valoare": 0.25
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 17:33:35",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-15",
+      "intrebare_id": 1848,
+      "rationament": "Creștere ușoară după minimele din 12-13 august; aer mai uscat și instabilitate redusă.",
+      "sha256": "b64f7a7a8f69162371660a1d3976403b1599ab7a65049a4126f9e40391cc6624",
+      "valoare": 29.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 17:33:35",
+      "intrebare": "Va ploua la Iași pe 2026-08-15?",
+      "intrebare_id": 1849,
+      "rationament": "Creștere ușoară după minimele din 12-13 august; aer mai uscat și instabilitate redusă.",
+      "sha256": "9439a9cc273c5834395192d63ca594dc7905b015d6c4ee74f6f75336a90636bc",
+      "valoare": 0.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 17:33:35",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-15",
+      "intrebare_id": 1850,
+      "rationament": "Cald și uscat, dar sub canicular; revenire ușoară față de minimul recent de 31,2°C.",
+      "sha256": "113093687a5cf96da1a905b86e09e815b83b69b62b540ddd661a4b696500ac0d",
+      "valoare": 33.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 17:33:35",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-15?",
+      "intrebare_id": 1851,
+      "rationament": "Cald și uscat, dar sub canicular; revenire ușoară față de minimul recent de 31,2°C.",
+      "sha256": "b8936cc8eb4aa5326b192b9056378bb68ca4181b879c7d1ea06d106e29d1ee54",
+      "valoare": 0.05
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 17:33:35",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-15",
+      "intrebare_id": 1852,
+      "rationament": "Influența marii și frontul rece țin maxima scăzută; uscat.",
+      "sha256": "6434ecedba3b34e0ab50acac6e09dbd8f53b4aeba9a0bac07f4316b684d16234",
+      "valoare": 26.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 17:33:35",
+      "intrebare": "Va ploua la Constanța pe 2026-08-15?",
+      "intrebare_id": 1853,
+      "rationament": "Influența marii și frontul rece țin maxima scăzută; uscat.",
+      "sha256": "8b15f5806bca90d98732caf771de95fbdbf59576a8974964ded0c12c9bb23e87",
+      "valoare": 0.08
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 17:33:35",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-15",
+      "intrebare_id": 1854,
+      "rationament": "Altitudine, cer parțial noros; posibilă aversă după-amiaza, dar temperatura redusă.",
+      "sha256": "dc692108f46fc3f41d733efe2a54083f0d9eb7941ecb8581c04d95f79c79743f",
+      "valoare": 24.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-14 17:33:35",
+      "intrebare": "Va ploua la Brașov pe 2026-08-15?",
+      "intrebare_id": 1855,
+      "rationament": "Altitudine, cer parțial noros; posibilă aversă după-amiaza, dar temperatura redusă.",
+      "sha256": "42a657d13f9ec94219ff699730f96a79c2e73c74ad445cdd284752f58de3f038",
+      "valoare": 0.35
+    }
+  ],
+  "zi": "2026-08-14"
+}
