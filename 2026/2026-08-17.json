@@ -1,0 +1,1232 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "9bb4f927ee5b3cdc7fecc06eac79bb9f3c3fa56f528ec55b8d3aa1c49ea3f055",
+  "nr_frunze": 136,
+  "predictii": [
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-17 09:30:07",
+      "intrebare": "Câştigă Fenerbahçe cu Lyon?",
+      "intrebare_id": 1901,
+      "rationament": "Fenerbahçe slabă",
+      "sha256": "c759252d5b2a93c476411d3887768e1f37db84bbce9decd7c561af289943ecbd",
+      "valoare": 0.42
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-17 09:30:07",
+      "intrebare": "Câştigă Dinamo Zagreb cu Viking?",
+      "intrebare_id": 1902,
+      "rationament": "Dinamo Zagreb puternic",
+      "sha256": "5c511132653eb6b41439f646f23b808fc1e74372f2d1d97ac73703e19597af22",
+      "valoare": 0.65
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-17 09:30:07",
+      "intrebare": "Câştigă Levski Sofia cu AEK Athens?",
+      "intrebare_id": 1903,
+      "rationament": "AEK Athens favorit",
+      "sha256": "50e705602a8a16dc8f2734688e4372b919a7fb820dce9b4e6fec44f608d493b0",
+      "valoare": 0.38
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 09:30:10",
+      "intrebare": "Câştigă Fenerbahçe cu Lyon?",
+      "intrebare_id": 1901,
+      "rationament": "Fenerbahçe este puternică pe teren propriu, dar Lyon are calitate. Meci echilibrat, ușor avantaj gazdă.",
+      "sha256": "de97b0eca600fedda5e58a153d07e293d87a5963cadbd81325a813f70b3b574b",
+      "valoare": 0.53
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 09:30:10",
+      "intrebare": "Câştigă Dinamo Zagreb cu Viking?",
+      "intrebare_id": 1902,
+      "rationament": "Dinamo are experiență europeană superioară. Viking e o echipă modestă, dezavantajată clar în deplasare.",
+      "sha256": "4d7f49396d20fef5081b428a054b7c806f6258f2911213782282f96d3142ab2b",
+      "valoare": 0.72
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 09:30:10",
+      "intrebare": "Câştigă Levski Sofia cu AEK Athens?",
+      "intrebare_id": 1903,
+      "rationament": "AEK are un lot mai valoros și mai consistent. Levski contează pe public, dar e outsider.",
+      "sha256": "e00d4f097f90c29c95618e57614765b0d71f7098d9d1abc6b856860a41149d85",
+      "valoare": 0.38
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 09:30:10",
+      "intrebare": "Câştigă Fenerbahçe cu Lyon?",
+      "intrebare_id": 1901,
+      "rationament": "Lyon e tehnic superior, dar avantajul terenului la Fenerbahçe echilibrează balanța într-un meci strâns.",
+      "sha256": "af37157c2fdf5cbbf308b7b270e6ff1be2b28954bf52b9ed4d957ef4a55f6a86",
+      "valoare": 0.48
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 09:30:10",
+      "intrebare": "Câştigă Dinamo Zagreb cu Viking?",
+      "intrebare_id": 1902,
+      "rationament": "Diferența de clasă și experiența europeană a Dinamo Zagreb fac din ei favoriți clari acasă.",
+      "sha256": "ed60d0aa62c08303b391c957f6fdab0764a0474ebf0a1c148eb561e8dcf66610",
+      "valoare": 0.72
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 09:30:10",
+      "intrebare": "Câştigă Levski Sofia cu AEK Athens?",
+      "intrebare_id": 1903,
+      "rationament": "AEK Athens are o lot mai valoros și o tradiție mai puternică în competițiile europene recente.",
+      "sha256": "efeade1c5d5b1c058d65779d66d2d861d60d94c30f89546c2066e2f4804f8103",
+      "valoare": 0.35
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 09:36:08",
+      "intrebare": "Câştigă Fenerbahçe cu Lyon?",
+      "intrebare_id": 1901,
+      "rationament": "Atmosfera din Kadıköy şi lotul costisitor compensează calitatea francezilor, dar egalul rămâne foarte probabil.",
+      "sha256": "b61e4ff248dbc183d488532c8967ede5c69c2068a3f24a61c5c71096754dc163",
+      "valoare": 0.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 09:36:08",
+      "intrebare": "Câştigă Dinamo Zagreb cu Viking?",
+      "intrebare_id": 1902,
+      "rationament": "Diferenţă clară de lot şi experienţă europeană; Viking rar câştigă deplasări grele, deşi norvegienii sunt în mijlocul sezonului.",
+      "sha256": "e6466c08f9b8d45f22f641e0b8cdb25f2c2567f5a59e7ad3f6cee8b85ca0a117",
+      "valoare": 0.66
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 09:36:08",
+      "intrebare": "Câştigă Levski Sofia cu AEK Athens?",
+      "intrebare_id": 1903,
+      "rationament": "AEK e superioară valoric; Levski se bazează doar pe teren propriu şi un meci închis, cu şanse reale de egal.",
+      "sha256": "231ed718ae9d4dd6f3a301ab8568ab8b5b986a6a0385366b3bef82f8bf26d56f",
+      "valoare": 0.34
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 16:45:10",
+      "intrebare": "Preţul Bitcoin pe 2026-08-18",
+      "intrebare_id": 1949,
+      "rationament": "Trend descendent ușor, corecție după revenirea de ieri.",
+      "sha256": "5ad27cbfe61c32757bb72537cd77ad0f5ee885da793553eb588826e638045ef3",
+      "valoare": 63200.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 16:45:10",
+      "intrebare": "Preţul Ethereum pe 2026-08-18",
+      "intrebare_id": 1950,
+      "rationament": "Consolidare în jurul suportului, volatilitate scăzută.",
+      "sha256": "8b4aa85b32bc17daff1477ba0363e6c3baf8281231b4c0776122b6d90ce41eb3",
+      "valoare": 1885.0
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 16:45:10",
+      "intrebare": "Preţul Solana pe 2026-08-18",
+      "intrebare_id": 1951,
+      "rationament": "Tendință de scădere lentă, lipsă de impuls.",
+      "sha256": "0838287a9843d057687a13d4e2207ea28745a9ecf10ae482540ccfde612f3af9",
+      "valoare": 74.8
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 16:45:10",
+      "intrebare": "Preţul XRP pe 2026-08-18",
+      "intrebare_id": 1952,
+      "rationament": "Rezistență la 1 USD, posibilă scădere minoră.",
+      "sha256": "9379ac523c937840d06c781b9edeb469f69ea048df49b5407d34e9c36bf2287a",
+      "valoare": 0.99
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 16:45:10",
+      "intrebare": "Preţul Cardano pe 2026-08-18",
+      "intrebare_id": 1953,
+      "rationament": "Tendință bearish clară, testarea minimelor recente.",
+      "sha256": "d8085af01205ed47811818248f63a3b3ed203efc5233b897441873ffab18870b",
+      "valoare": 0.168
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 16:45:10",
+      "intrebare": "Preţul Dogecoin pe 2026-08-18",
+      "intrebare_id": 1954,
+      "rationament": "Preț stabil, lipsă totală de mișcare recentă.",
+      "sha256": "9f4e42f343e3b3ebd6ff81b70cfb50b19720ea793a9c996aed2ff507f5989781",
+      "valoare": 0.07
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 16:45:10",
+      "intrebare": "Preţul BNB pe 2026-08-18",
+      "intrebare_id": 1955,
+      "rationament": "Consolidare după scădere, presiune vânzătoare prezentă.",
+      "sha256": "39834b3d3d6d468c30a1092f6ca9d668d20742af62dd0b269695e66c838bbb0c",
+      "valoare": 602.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 16:45:11",
+      "intrebare": "Preţul Bitcoin pe 2026-08-18",
+      "intrebare_id": 1949,
+      "rationament": "Ușoară corecție după rebound-ul de ieri, menținând trendul lateral-descendent pe termen scurt.",
+      "sha256": "5d7f1d87acaa276aa1684f3fc503f78e72d7f5b9047555ed50b036f50da38221",
+      "valoare": 63550.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 16:45:11",
+      "intrebare": "Preţul Ethereum pe 2026-08-18",
+      "intrebare_id": 1950,
+      "rationament": "Consolidare în apropierea rezistenței recente, cu presiune ușor bearish din istoricul recent.",
+      "sha256": "4836913ea2964bbab004f69e722941fb7e4927cfccfcd56b571a180beca038c6",
+      "valoare": 1895.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 16:45:11",
+      "intrebare": "Preţul Solana pe 2026-08-18",
+      "intrebare_id": 1951,
+      "rationament": "Volatilitate redusă, prețul oscilează într-un canal îngust în jurul mediei mobile.",
+      "sha256": "c59975cd77a8326f836d91d3a9d2cc48e6e22719720e8054aeae4a1e8389f18e",
+      "valoare": 75.1
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 16:45:11",
+      "intrebare": "Preţul XRP pe 2026-08-18",
+      "intrebare_id": 1952,
+      "rationament": "Stagnare completă în jurul pragului psihologic de 1 USD, fără direcție clară.",
+      "sha256": "6ed2d9314520826583252ce43322138ac76853cae714293e945f417bf62be28f",
+      "valoare": 1.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 16:45:11",
+      "intrebare": "Preţul Cardano pe 2026-08-18",
+      "intrebare_id": 1953,
+      "rationament": "Trend descendent lent și stabil, fără semne de reversiune imediată în datele recente.",
+      "sha256": "bb1225cb2f9c9892029399c405660d15e41ed9c30a7e74438cb7f80240b4c11d",
+      "valoare": 0.17
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 16:45:11",
+      "intrebare": "Preţul Dogecoin pe 2026-08-18",
+      "intrebare_id": 1954,
+      "rationament": "Prețul este plat și lipsit de volatilitate, probabil va rămâne neschimbat.",
+      "sha256": "9bd93754b9b9d9287e4bd313e6587fb16a60d7113b5cfe1b88c26fc59d944b23",
+      "valoare": 0.07
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 16:45:11",
+      "intrebare": "Preţul BNB pe 2026-08-18",
+      "intrebare_id": 1955,
+      "rationament": "Consolidare în zona de suport, cu potențial de mică corecție după încercarea eșuată de breakout.",
+      "sha256": "eb7c9c0a191b841fba9738a7b9b772109cbdfec05c20374818c2c0db2069685d",
+      "valoare": 603.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 16:45:55",
+      "intrebare": "Preţul Bitcoin pe 2026-08-18",
+      "intrebare_id": 1949,
+      "rationament": "Momentumul pozitiv de ieri poate continua; target ușor peste închiderea recentă.",
+      "sha256": "4b445113fe1d8de64b2f21150f259e3f779454e09136a94d33d608f52bd19e5c",
+      "valoare": 63650.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 16:45:55",
+      "intrebare": "Preţul Ethereum pe 2026-08-18",
+      "intrebare_id": 1950,
+      "rationament": "Creșterea din ultima sesiune sugerează continuare ușoară peste 1900.",
+      "sha256": "408d7afc830be5975026a758ae50fa2b4dea66e579fb2d3215cc02cd1534fe69",
+      "valoare": 1905.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 16:45:55",
+      "intrebare": "Preţul Solana pe 2026-08-18",
+      "intrebare_id": 1951,
+      "rationament": "Recuperarea ultimei zile indică un avans modest, dar fără salt mare.",
+      "sha256": "014d5201184cfa9edb93d68e405d1aa53a669398de26c1f326178b5cdd967ce3",
+      "valoare": 75.6
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 16:45:55",
+      "intrebare": "Preţul XRP pe 2026-08-18",
+      "intrebare_id": 1952,
+      "rationament": "Ușoară revenire de la minim; aștept o închidere marginal peste prag.",
+      "sha256": "70c6ff9ad0c549b8f538ae3c220640a7118685eaa3125a23d1fde7150006ccc9",
+      "valoare": 1.01
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 16:45:55",
+      "intrebare": "Preţul Cardano pe 2026-08-18",
+      "intrebare_id": 1953,
+      "rationament": "Trendul descendent rămâne activ; probabil o nouă scădere incrementală.",
+      "sha256": "fb721134ac59bb8a66c3e2cefa65642d103a64a0400ffda320ebdb279548e5e2",
+      "valoare": 0.16
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 16:45:55",
+      "intrebare": "Preţul Dogecoin pe 2026-08-18",
+      "intrebare_id": 1954,
+      "rationament": "Fără impuls clar, prețul ar trebui să rămână neschimbat.",
+      "sha256": "68cf36cc0253411be91d5fee6ce77724c4d4657c1d9305c1caf25469d6eeae8b",
+      "valoare": 0.07
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 16:45:55",
+      "intrebare": "Preţul BNB pe 2026-08-18",
+      "intrebare_id": 1955,
+      "rationament": "Sesiunea pozitivă susține o creștere ușoară, dar rezistență la 607.",
+      "sha256": "bd3b77e82026d237be5b559f9599b4a96a8b145b8bef3124437c51844571beba",
+      "valoare": 605.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 16:50:23",
+      "intrebare": "Preţul Bitcoin pe 2026-08-18",
+      "intrebare_id": 1949,
+      "rationament": "Trend descendent de 10 zile, dar saltul de ieri sugerează stabilizare; consolidare ușoară peste nivelul curent.",
+      "sha256": "5e78a53ff481ec11f4d6e5940a6a94b6eddd94fad524566bf98b3e6cfac56b4b",
+      "valoare": 63550.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 16:50:23",
+      "intrebare": "Preţul Ethereum pe 2026-08-18",
+      "intrebare_id": 1950,
+      "rationament": "Revenire peste 1890 după minim; probabil retragere marginală, ETH a rămas într-un interval strâns.",
+      "sha256": "ad17698de4fa28b4bb7da40723815f3a2a2de0bf506d4df5b7356a99a2aae79f",
+      "valoare": 1896.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 16:50:23",
+      "intrebare": "Preţul Solana pe 2026-08-18",
+      "intrebare_id": 1951,
+      "rationament": "Oscilează în banda 74.6–76.3 fără direcție; revin aproape de mijlocul intervalului.",
+      "sha256": "979fa7fde090d830e2f7a8f2153cfd0c79b941a7d1449d128d5852125c2f3946",
+      "valoare": 75.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 16:50:23",
+      "intrebare": "Preţul XRP pe 2026-08-18",
+      "intrebare_id": 1952,
+      "rationament": "Eroziune lentă spre 0.99, dar rotunjirea la doi zecimali face 1.00 alegerea cea mai probabilă.",
+      "sha256": "f67013be85dfbc34d5c3d467d244a0f8664a4b04f52144437b548b7d3537e6c0",
+      "valoare": 1.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 16:50:23",
+      "intrebare": "Preţul Cardano pe 2026-08-18",
+      "intrebare_id": 1953,
+      "rationament": "Declin constant, deja la 0.17; presiunea continuă, dar rotunjirea nu lasă loc de diferență.",
+      "sha256": "05ca018e6ff6b773ad08ce564451ad24775b7a2e4ba9136babf0edbbd58b0189",
+      "valoare": 0.17
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 16:50:23",
+      "intrebare": "Preţul Dogecoin pe 2026-08-18",
+      "intrebare_id": 1954,
+      "rationament": "Complet plat la doi zecimali timp de zece zile; orice altceva ar fi ghicit gratuit.",
+      "sha256": "6d59d059cf3a0852af16e927af0ece0529bc07b523f4fdc3f4f5e4b468a94e7b",
+      "valoare": 0.07
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 16:50:23",
+      "intrebare": "Preţul BNB pe 2026-08-18",
+      "intrebare_id": 1955,
+      "rationament": "Interval 599–617, acum la mijloc după corecția de la 616; drift minim ascendent.",
+      "sha256": "dc2af6de80667c659ab520804f55f4b35ea1ecb8013323307e85648ab89fe0b2",
+      "valoare": 604.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-17 17:30:14",
+      "intrebare": "Temperatura maximă la București pe 2026-08-18",
+      "intrebare_id": 1956,
+      "rationament": "Tendința de încălzire continuă sub influența unei mase de aer cald și stabil.",
+      "sha256": "7918f8776ac7c4453ca966fc4e11f4e9c4806d2066831dbb838ef15a04a6d2c0",
+      "valoare": 33.8
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-17 17:30:14",
+      "intrebare": "Va ploua la București pe 2026-08-18?",
+      "intrebare_id": 1957,
+      "rationament": "Tendința de încălzire continuă sub influența unei mase de aer cald și stabil.",
+      "sha256": "5eac277904689145b2bbf947e0f5fdbbd05fdd49d493cef8b7a56bead6417c2c",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-17 17:30:14",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-18",
+      "intrebare_id": 1958,
+      "rationament": "Creștere constantă a temperaturilor în ultimele zile, fără semne de instabilitate.",
+      "sha256": "47aac76edaad9e2a16dc4d0b8bc049d3add1925bacd555bced74d5f51c8cd481",
+      "valoare": 32.2
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-17 17:30:14",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-18?",
+      "intrebare_id": 1959,
+      "rationament": "Creștere constantă a temperaturilor în ultimele zile, fără semne de instabilitate.",
+      "sha256": "90d082c668fb193b77a2685baea065b4761fa339a5e3429e27cea4bcd5ba4bae",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-17 17:30:14",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-18",
+      "intrebare_id": 1960,
+      "rationament": "Încălzire accentuată pe fondul unui regim anticiclonic persistent.",
+      "sha256": "26955cc4a1ab971651fdbc9cfa3b52469704bb8dbc0c86b754c68bc9b164df21",
+      "valoare": 34.2
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-17 17:30:14",
+      "intrebare": "Va ploua la Iași pe 2026-08-18?",
+      "intrebare_id": 1961,
+      "rationament": "Încălzire accentuată pe fondul unui regim anticiclonic persistent.",
+      "sha256": "8109f9f42616d4985742209ba64ccde892aae18f34f7a1a6aee3dc64a857cc68",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-17 17:30:14",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-18",
+      "intrebare_id": 1962,
+      "rationament": "Temperaturile cresc rapid spre un nou vârf de caniculă, aerul fiind foarte uscat.",
+      "sha256": "1912d7af4acb920e6e3e03556a124f4cc3b531fd197ae277a14e8ec63845a774",
+      "valoare": 36.8
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-17 17:30:14",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-18?",
+      "intrebare_id": 1963,
+      "rationament": "Temperaturile cresc rapid spre un nou vârf de caniculă, aerul fiind foarte uscat.",
+      "sha256": "0e0fe5e531a1269cf5570d66075b01bcda9c13b6fd8825542b4369c935b312ab",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-17 17:30:14",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-18",
+      "intrebare_id": 1964,
+      "rationament": "Stabilizare termică moderată de briza mării, cu șanse nule de precipitații.",
+      "sha256": "12b17fc226e5ad6e5db0d68f40e4f92529bf79de53f944523d006b9636c56432",
+      "valoare": 26.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-17 17:30:14",
+      "intrebare": "Va ploua la Constanța pe 2026-08-18?",
+      "intrebare_id": 1965,
+      "rationament": "Stabilizare termică moderată de briza mării, cu șanse nule de precipitații.",
+      "sha256": "b39e3dafb11ae9b331b3060ca96b606bdf2f35340f5e6c2f42d2a99181905ea7",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-17 17:30:14",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-18",
+      "intrebare_id": 1966,
+      "rationament": "Încălzire treptată specifică zonei montane, cu probabilitate redusă de averse izolate.",
+      "sha256": "bc8f970e9f117d6899335f46e527647b44d893b1175cb2cde346c7cebb0bdcf4",
+      "valoare": 29.4
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-08-17 17:30:14",
+      "intrebare": "Va ploua la Brașov pe 2026-08-18?",
+      "intrebare_id": 1967,
+      "rationament": "Încălzire treptată specifică zonei montane, cu probabilitate redusă de averse izolate.",
+      "sha256": "cf912462fe3f5f2f3a7c0f62d4cc00dee112b3ae9320a9a5c14c13cb14765c4a",
+      "valoare": 0.15
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 17:30:25",
+      "intrebare": "Temperatura maximă la București pe 2026-08-18",
+      "intrebare_id": 1956,
+      "rationament": "Trend ascendent, presiune atmosferică ridicată, vreme de vară stabilă.",
+      "sha256": "2c179cadae34a0537f277095a5a2c5997197f652dce819ee255d8a2ad9005bff",
+      "valoare": 32.8
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 17:30:25",
+      "intrebare": "Va ploua la București pe 2026-08-18?",
+      "intrebare_id": 1957,
+      "rationament": "Trend ascendent, presiune atmosferică ridicată, vreme de vară stabilă.",
+      "sha256": "cb34b090b9363bcb77b75cf6b8caaf7559dbb374f5797c7a87ecb73001c54e91",
+      "valoare": 0.1
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 17:30:25",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-18",
+      "intrebare_id": 1958,
+      "rationament": "Încălzire continuă, ușor mai răcoros datorită altitudinii.",
+      "sha256": "24307e06de03868f26dea8ed0c6b1e22e5fc7c51762d0ed900639d16374607ee",
+      "valoare": 31.2
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 17:30:25",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-18?",
+      "intrebare_id": 1959,
+      "rationament": "Încălzire continuă, ușor mai răcoros datorită altitudinii.",
+      "sha256": "144be8ee9edf86534b251347bbf3a03a08d30b9aa0e7efd26e15c786c90cbd95",
+      "valoare": 0.15
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 17:30:25",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-18",
+      "intrebare_id": 1960,
+      "rationament": "Creștere rapidă a temperaturilor, condiții de caniculă.",
+      "sha256": "d5e55f28b026ecd7f3aff1836e9334386338abfb5f2983c61a4599ea77302a05",
+      "valoare": 33.8
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 17:30:25",
+      "intrebare": "Va ploua la Iași pe 2026-08-18?",
+      "intrebare_id": 1961,
+      "rationament": "Creștere rapidă a temperaturilor, condiții de caniculă.",
+      "sha256": "cf2f574405c846b89fd5b950d4c5c0de0cb8948e42eaa45654136a4f9cdd5630",
+      "valoare": 0.1
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 17:30:25",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-18",
+      "intrebare_id": 1962,
+      "rationament": "Căldură extremă persistentă, cer senin, secetă.",
+      "sha256": "4a52acad1aa0940b6e9535a11c69ab84cafea8637e3de9fde02ab60b3cb1de0b",
+      "valoare": 35.5
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 17:30:25",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-18?",
+      "intrebare_id": 1963,
+      "rationament": "Căldură extremă persistentă, cer senin, secetă.",
+      "sha256": "4542640df65deff807591d961bbe39670e3830dce4fda7db80c25f636bee9ed7",
+      "valoare": 0.05
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 17:30:25",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-18",
+      "intrebare_id": 1964,
+      "rationament": "Efect de răcorire al mării, ușoară creștere termică.",
+      "sha256": "c094139995ad3e78ef9819c353db99191c8fd676a2223f50e5fe28881494e862",
+      "valoare": 26.5
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 17:30:25",
+      "intrebare": "Va ploua la Constanța pe 2026-08-18?",
+      "intrebare_id": 1965,
+      "rationament": "Efect de răcorire al mării, ușoară creștere termică.",
+      "sha256": "f0c71f98afe375e78c33d0a2f43e30d7a0bfa08af5909f073a75dfda835842a5",
+      "valoare": 0.1
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 17:30:25",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-18",
+      "intrebare_id": 1966,
+      "rationament": "Temperaturi ridicate pentru altitudine, ușoară instabilitate montană.",
+      "sha256": "9236a5b58d4cad7fae8e8ed5b937f949b4ff43e5a03f2ba7458bd0614178ec08",
+      "valoare": 28.5
+    },
+    {
+      "agent": "glm",
+      "creata_la": "2026-08-17 17:30:25",
+      "intrebare": "Va ploua la Brașov pe 2026-08-18?",
+      "intrebare_id": 1967,
+      "rationament": "Temperaturi ridicate pentru altitudine, ușoară instabilitate montană.",
+      "sha256": "39472948fb1576e20d43aacb2aaa72467659014a358f3615234204759b977d8f",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:30:27",
+      "intrebare": "Temperatura maximă la București pe 2026-08-18",
+      "intrebare_id": 1956,
+      "rationament": "Tendința ascendentă recentă (32.4°C ieri) și climatul sec al augustului sugerează căldură persistentă cu șanse mici de ploaie.",
+      "sha256": "d3433bf84859e323c2974a34a39112a7f6d0318f732fb7804b244ede10aeb77b",
+      "valoare": 31.2
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:30:27",
+      "intrebare": "Va ploua la București pe 2026-08-18?",
+      "intrebare_id": 1957,
+      "rationament": "Tendința ascendentă recentă (32.4°C ieri) și climatul sec al augustului sugerează căldură persistentă cu șanse mici de ploaie.",
+      "sha256": "be404a8b520068e6a891abbaa9411906aa74c05c39dafb152466d9b45c266998",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:30:27",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-18",
+      "intrebare_id": 1958,
+      "rationament": "Recuperare termică după răcire, urmând tendința de creștere (31.4°C ieri). Altitudinea moderată menține temperaturi ridicate dar nu extreme.",
+      "sha256": "8eb865b2c72e5b3d0f181bd9accb00788aa2b9cd88e30aa6e1a614d47e95a189",
+      "valoare": 30.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:30:27",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-18?",
+      "intrebare_id": 1959,
+      "rationament": "Recuperare termică după răcire, urmând tendința de creștere (31.4°C ieri). Altitudinea moderată menține temperaturi ridicate dar nu extreme.",
+      "sha256": "3ff6e58e7fc509319fc7526fe13a20155b0df4e162bda5d49c38f9828f3dff61",
+      "valoare": 0.15
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:30:27",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-18",
+      "intrebare_id": 1960,
+      "rationament": "Vârf termic recent (33.5°C) indică o masă de aer cald stabilă. Lipsa precipitațiilor în ultimele zile sugerează continuarea secetei.",
+      "sha256": "ed1186f985d85472cbf6087871bd6db4b63b33ea251f914ad60af3e1060a7053",
+      "valoare": 32.8
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:30:27",
+      "intrebare": "Va ploua la Iași pe 2026-08-18?",
+      "intrebare_id": 1961,
+      "rationament": "Vârf termic recent (33.5°C) indică o masă de aer cald stabilă. Lipsa precipitațiilor în ultimele zile sugerează continuarea secetei.",
+      "sha256": "0ccbb0b1e1d886dd40495cf0983d9c12c5e168f8e2989f1f053f6fd1cac29b2c",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:30:27",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-18",
+      "intrebare_id": 1962,
+      "rationament": "Cea mai caldă regiune, cu trend ascendent puternic (36.0°C ieri). Condiții anticyclonice stabile, probabilitate de ploaie neglijabilă.",
+      "sha256": "0c1fbd13754d604cbf9db2789a5ec8e004e90ece6aa2eb6a6dee158950f1dd8f",
+      "valoare": 35.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:30:27",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-18?",
+      "intrebare_id": 1963,
+      "rationament": "Cea mai caldă regiune, cu trend ascendent puternic (36.0°C ieri). Condiții anticyclonice stabile, probabilitate de ploaie neglijabilă.",
+      "sha256": "bd661bc25508f85b62d21359066ab8c3d280d387f4c60b95c8b3ebd2439bb5d0",
+      "valoare": 0.05
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:30:27",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-18",
+      "intrebare_id": 1964,
+      "rationament": "Influența marină moderată, temperaturi stabile în jurul mediei. Umiditatea ridicată crește ușor șansele de precipitații locale, dar rămâne scăzută.",
+      "sha256": "c54c9ee63cbbe39f6225fc963db9c4c196a0b635c879a3b5905de34b58da9385",
+      "valoare": 26.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:30:27",
+      "intrebare": "Va ploua la Constanța pe 2026-08-18?",
+      "intrebare_id": 1965,
+      "rationament": "Influența marină moderată, temperaturi stabile în jurul mediei. Umiditatea ridicată crește ușor șansele de precipitații locale, dar rămâne scăzută.",
+      "sha256": "1c8ef7f2b410dd46f32aee5aa79087722d880c29d9bbb7527538ee4e130ebcad",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:30:27",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-18",
+      "intrebare_id": 1966,
+      "rationament": "Recuperare termică după răcire, dar altitudinea mare limitează maximul. Instabilitate reziduală posibilă, deși trendul recent este uscat.",
+      "sha256": "9ab3f4b2943b60b4435dd3293482b3478a5659710074048a102c61dd3997cbf2",
+      "valoare": 27.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:30:27",
+      "intrebare": "Va ploua la Brașov pe 2026-08-18?",
+      "intrebare_id": 1967,
+      "rationament": "Recuperare termică după răcire, dar altitudinea mare limitează maximul. Instabilitate reziduală posibilă, deși trendul recent este uscat.",
+      "sha256": "9029782f42e7426d6e5fc8ecce8d213f2c3003c0d04024804ce13acf721a986b",
+      "valoare": 0.25
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:32:37",
+      "intrebare": "Temperatura maximă la București pe 2026-08-18",
+      "intrebare_id": 1956,
+      "rationament": "Ultimele zile arată încălzire constantă după front; seria uscată susține cer senin și o maximă peste 32,4°C.",
+      "sha256": "f9bb0221f17f59f16fa4e47a470c752fba3c0bd671a5416aec8e818fc56bb162",
+      "valoare": 33.8
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:32:37",
+      "intrebare": "Va ploua la București pe 2026-08-18?",
+      "intrebare_id": 1957,
+      "rationament": "Ultimele zile arată încălzire constantă după front; seria uscată susține cer senin și o maximă peste 32,4°C.",
+      "sha256": "dc4f9f4d641ccbab8010810bbe6af584ccf05b537faaa20de9daec1cf3431d54",
+      "valoare": 0.12
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:32:37",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-18",
+      "intrebare_id": 1958,
+      "rationament": "Tendința ascendentă din ultimele trei zile și lipsa ploii indică persistența masei calde.",
+      "sha256": "522769758f0487cc8fdf68ac576858eee989e41d25a6a9cceb00ea64109a801f",
+      "valoare": 32.4
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:32:37",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-18?",
+      "intrebare_id": 1959,
+      "rationament": "Tendința ascendentă din ultimele trei zile și lipsa ploii indică persistența masei calde.",
+      "sha256": "3317fc5bf4c630b985ab606288111bf308ca9bf3a65623e6a6b2b5dd04535d4a",
+      "valoare": 0.18
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:32:37",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-18",
+      "intrebare_id": 1960,
+      "rationament": "Încălzire puternică în ultimele zile, aproape de vârful de 33,9°C; vreme uscată, deci probabil continuă.",
+      "sha256": "2c84bc07e19ae4e77bef81f1620b889216ec2d363fbfe0a808b81cf96b7758c4",
+      "valoare": 34.6
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:32:37",
+      "intrebare": "Va ploua la Iași pe 2026-08-18?",
+      "intrebare_id": 1961,
+      "rationament": "Încălzire puternică în ultimele zile, aproape de vârful de 33,9°C; vreme uscată, deci probabil continuă.",
+      "sha256": "cc4161f2613ae1fa767957e327145b131a277e79d2ff63be87d78330d35f7684",
+      "valoare": 0.1
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:32:37",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-18",
+      "intrebare_id": 1962,
+      "rationament": "Serie caldă și uscată, cu 36°C ieri; masa de aer rămâne fierbinte, posibil aproape de vârful anterior.",
+      "sha256": "2cb97adcee682f2f412f2aa962000eb56403acb25f600a124eb2ee3b7327c027",
+      "valoare": 36.6
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:32:37",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-18?",
+      "intrebare_id": 1963,
+      "rationament": "Serie caldă și uscată, cu 36°C ieri; masa de aer rămâne fierbinte, posibil aproape de vârful anterior.",
+      "sha256": "127ff473bdef7509746180dcce7b53ee12ce8613e481b49c730bf99ec6e043aa",
+      "valoare": 0.12
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:32:37",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-18",
+      "intrebare_id": 1964,
+      "rationament": "Marea stabilizează temperaturile; ultimele zile au crescut lent, deci estimez o valoare similară, fără ploaie.",
+      "sha256": "372e8d69e2dd33ea30544c9a4c69d932d9b160da359c0e2d41a067dcf4f60c27",
+      "valoare": 26.4
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:32:37",
+      "intrebare": "Va ploua la Constanța pe 2026-08-18?",
+      "intrebare_id": 1965,
+      "rationament": "Marea stabilizează temperaturile; ultimele zile au crescut lent, deci estimez o valoare similară, fără ploaie.",
+      "sha256": "b1665903f9337b1b879b0b3d9657ea870840953ce9cd9d23e622f6458b35c9a1",
+      "valoare": 0.08
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:32:37",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-18",
+      "intrebare_id": 1966,
+      "rationament": "După minimele din 13-14 august se încălzește constant; la altitudine creșterea e moderată, iar aversele revin ușor.",
+      "sha256": "b3f6063e717ef75a3e0ef71582b9895cef65f54b7f6c0f4ab4cd48ee822f0f9f",
+      "valoare": 29.8
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:32:37",
+      "intrebare": "Va ploua la Brașov pe 2026-08-18?",
+      "intrebare_id": 1967,
+      "rationament": "După minimele din 13-14 august se încălzește constant; la altitudine creșterea e moderată, iar aversele revin ușor.",
+      "sha256": "5d157589de0dc8d44eead3c9f56dbe32c04859ec7db897fe5164ea5607dea08d",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:32:49",
+      "intrebare": "Temperatura maximă la București pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1968,
+      "rationament": "Tendința recentă arată încălzire ușoară după o scădere, tipic pentru august în câmpie, cu risc mic de ploaie.",
+      "sha256": "cc788c2a99c27051f582e52a1b8e7f73568dbb642783c5c52a6f4ca673708f92",
+      "valoare": 30.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:32:49",
+      "intrebare": "Va ploua la București pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1969,
+      "rationament": "Tendința recentă arată încălzire ușoară după o scădere, tipic pentru august în câmpie, cu risc mic de ploaie.",
+      "sha256": "7f2b83fbd3361a3833130d1382532bfb05d63ea420593fd9fa3146b3fee59312",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:32:49",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1970,
+      "rationament": "Oscilații moderate recente; altitudinea moderată menține temperaturi sub București, cu șanse mici de precipitații.",
+      "sha256": "9869ed7baa87352511e71c5770d3dd7dcda728a151b3af0a2cefad50614a04c3",
+      "valoare": 29.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:32:49",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1971,
+      "rationament": "Oscilații moderate recente; altitudinea moderată menține temperaturi sub București, cu șanse mici de precipitații.",
+      "sha256": "7629741543f78baa81da1461cd9cd719a3467ed2c54040c15b0839b835643af8",
+      "valoare": 0.15
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:32:49",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1972,
+      "rationament": "Recuperare termică după zile mai răcoroase; climatul continental favorizează cer senin și temperaturi în creștere.",
+      "sha256": "1aa3c55b5bb8a7b58d0d5cfe9f7854a4159f118b9846e44721ae11098d65c58b",
+      "valoare": 30.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:32:49",
+      "intrebare": "Va ploua la Iași pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1973,
+      "rationament": "Recuperare termică după zile mai răcoroase; climatul continental favorizează cer senin și temperaturi în creștere.",
+      "sha256": "a3032b6ea92e7fed5b26b706c31e7d14be2bfaaf9be75472e8a6e1718cafb125",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:32:49",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1974,
+      "rationament": "Val de căldură persistentă în vestul țării; datele recente confirmă temperaturi ridicate și cer clar.",
+      "sha256": "d61f2ee5c104d6ccbdd29fec07afbcf7c6e0dded56cae82ef25021a37f541596",
+      "valoare": 34.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:32:49",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1975,
+      "rationament": "Val de căldură persistentă în vestul țării; datele recente confirmă temperaturi ridicate și cer clar.",
+      "sha256": "cd735d47dd6d16a9a6571c060bd46194005f389989810592c1a451444bb0d36e",
+      "valoare": 0.05
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:32:49",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1976,
+      "rationament": "Influența marină stabilizează temperaturile la valori moderate, cu risc neglijabil de ploaie în august.",
+      "sha256": "73fa9d4a89fd18bb89105847a2ddee7ad7857612faebfdb0933efbf6a99263d9",
+      "valoare": 26.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:32:49",
+      "intrebare": "Va ploua la Constanța pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1977,
+      "rationament": "Influența marină stabilizează temperaturile la valori moderate, cu risc neglijabil de ploaie în august.",
+      "sha256": "e488fca62316d2ba2eb95f8e0c6ce43e96aebd6be745e1ed8ac352112f508cf0",
+      "valoare": 0.05
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:32:49",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1978,
+      "rationament": "Altitudinea ridicată scade temperaturile; istoricul recent arată variabilitate și risc ușor crescut de ploaie.",
+      "sha256": "336751426352f029de16af2401219ce58d8a1a5fcbf6e96c0fe6a7096f9b0ce9",
+      "valoare": 25.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-17 17:32:49",
+      "intrebare": "Va ploua la Brașov pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1979,
+      "rationament": "Altitudinea ridicată scade temperaturile; istoricul recent arată variabilitate și risc ușor crescut de ploaie.",
+      "sha256": "b1677b6e0f2fc8fe6c741ddbbea73efd302b0af8269de2200e18816f64f2fb28",
+      "valoare": 0.25
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:34:41",
+      "intrebare": "Temperatura maximă la București pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1968,
+      "rationament": "Temperaturile revin spre normal după răcirea bruscă; sfârșit de august rămâne cald și uscat, cu ploi convective rare.",
+      "sha256": "ec17f9552329cde59e0d8f36619af05b4a543ab806e586bca423e29a26474ff2",
+      "valoare": 29.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:34:41",
+      "intrebare": "Va ploua la București pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1969,
+      "rationament": "Temperaturile revin spre normal după răcirea bruscă; sfârșit de august rămâne cald și uscat, cu ploi convective rare.",
+      "sha256": "759ac95db3208d3f0ef60c4ec5f3e5219d9dc0c8230dd30e8df8898b5795b6fd",
+      "valoare": 0.15
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:34:41",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1970,
+      "rationament": "Serie foarte caldă, dar climatologic altitudinea scade maximele; probabilitate moderată de averse de instabilitate.",
+      "sha256": "18f6ece786d04c77f7ab0b1fd56d1e354788cdcaf5002d01c8b8e1f47c3fd822",
+      "valoare": 27.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:34:41",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1971,
+      "rationament": "Serie foarte caldă, dar climatologic altitudinea scade maximele; probabilitate moderată de averse de instabilitate.",
+      "sha256": "fc8a507a4817b83c47d9ebfbff40b133c8878735036bbc6b42259985f00f3928",
+      "valoare": 0.25
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:34:41",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1972,
+      "rationament": "Ultima zi arată încălzire clară; normalul este ~28°C și riscul de ploaie rămâne scăzut.",
+      "sha256": "da26dd08ce4814b424a6ec9a40f6eace75af31d5f5b29e24b2375a08a678440f",
+      "valoare": 29.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:34:41",
+      "intrebare": "Va ploua la Iași pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1973,
+      "rationament": "Ultima zi arată încălzire clară; normalul este ~28°C și riscul de ploaie rămâne scăzut.",
+      "sha256": "b2a741e5d0772900216e767f7f3d9fdf31ebafc10a28fda64792320de630f52e",
+      "valoare": 0.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:34:41",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1974,
+      "rationament": "Căldura persistentă din serie sugerează valori ridicate; dar fără prognoză nu extrapolez extremul actual.",
+      "sha256": "ef1d4eef5c17dd1f1c21acf8f5df452a1106e2c887c89e23b2f218685707fbe4",
+      "valoare": 31.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:34:41",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1975,
+      "rationament": "Căldura persistentă din serie sugerează valori ridicate; dar fără prognoză nu extrapolez extremul actual.",
+      "sha256": "aba04f5ed40b1a31fee039bfa9e97958b2bbdd1b690d11af5c580481263afc9d",
+      "valoare": 0.1
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:34:41",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1976,
+      "rationament": "Briza marină și răcirea recentă mențin maxime moderate; uscat în majoritatea zilelor.",
+      "sha256": "5ed216e53041117e5f111a867bf3e20197dfd325c4a672da257443239360ae0d",
+      "valoare": 26.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:34:41",
+      "intrebare": "Va ploua la Constanța pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1977,
+      "rationament": "Briza marină și răcirea recentă mențin maxime moderate; uscat în majoritatea zilelor.",
+      "sha256": "b09f0f1528d49f62d0e2a0e5201296419802d6b021d257f345d2ce7d53accd9a",
+      "valoare": 0.1
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:34:41",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1978,
+      "rationament": "Revine după minimele recente, dar altitudinea limitează încălzirea; averse orografice posibile.",
+      "sha256": "1c16a171e328ae8463e1c43515da7089a216158fcc6d01c53a26f555371ea5eb",
+      "valoare": 25.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-17 17:34:41",
+      "intrebare": "Va ploua la Brașov pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1979,
+      "rationament": "Revine după minimele recente, dar altitudinea limitează încălzirea; averse orografice posibile.",
+      "sha256": "b62d60f5a15324e4dbec9f9ebf22ce6a0baff9fc5fa2dd0d6c536966eb13345c",
+      "valoare": 0.35
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:25",
+      "intrebare": "Temperatura maximă la București pe 2026-08-18",
+      "intrebare_id": 1956,
+      "rationament": "Încălzire continuă patru zile la rând (26,5→32,4) sub regim anticiclonic uscat; ridicarea continuă încă o zi.",
+      "sha256": "11acb5919ba524d70c3a594040460b2e23c2f45ab7a542bf0b51881c76cf0540",
+      "valoare": 33.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:25",
+      "intrebare": "Va ploua la București pe 2026-08-18?",
+      "intrebare_id": 1957,
+      "rationament": "Încălzire continuă patru zile la rând (26,5→32,4) sub regim anticiclonic uscat; ridicarea continuă încă o zi.",
+      "sha256": "e1c25b5ef9975d13179ff722a0beaae97b72fb81b084198d98cbcaa129889585",
+      "valoare": 0.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:25",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-18",
+      "intrebare_id": 1958,
+      "rationament": "Trend clar ascendent 26,8→31,4; la 340 m și cu aer cald acumulat, convecție de după-amiază posibilă în Transilvania.",
+      "sha256": "ee3f3d426d9a2d52743d9e4037d4a57bd7a0e3497c303fcf726a88d10519d09c",
+      "valoare": 32.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:25",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-18?",
+      "intrebare_id": 1959,
+      "rationament": "Trend clar ascendent 26,8→31,4; la 340 m și cu aer cald acumulat, convecție de după-amiază posibilă în Transilvania.",
+      "sha256": "415a5739742d28e53dc3c7d9712eaba3e2cf6c78a83ee9b83873b0c50b5a1e08",
+      "valoare": 0.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:25",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-18",
+      "intrebare_id": 1960,
+      "rationament": "Cea mai rapidă încălzire din lot (+6°C în trei zile); Moldova prinde vârful masei de aer continental.",
+      "sha256": "8d44fec01777f387f3f5e044876bba6cd793453c19128a8561e509f370ab0c13",
+      "valoare": 34.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:25",
+      "intrebare": "Va ploua la Iași pe 2026-08-18?",
+      "intrebare_id": 1961,
+      "rationament": "Cea mai rapidă încălzire din lot (+6°C în trei zile); Moldova prinde vârful masei de aer continental.",
+      "sha256": "327e58c9a66cfcb4259f6b48a817f4351358067efd496572aed3e3fdb3322876",
+      "valoare": 0.12
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:25",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-18",
+      "intrebare_id": 1962,
+      "rationament": "Cel mai cald oraș, 36,0 deja atins ieri; Banatul menține plusul termic încă o zi înainte de orice schimbare.",
+      "sha256": "ebd807871797ad5ebe5e02688786dd4657ab98e0ce01f12fd11563f02a7bafac",
+      "valoare": 36.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:25",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-18?",
+      "intrebare_id": 1963,
+      "rationament": "Cel mai cald oraș, 36,0 deja atins ieri; Banatul menține plusul termic încă o zi înainte de orice schimbare.",
+      "sha256": "7d47ff7900535526aefa3b25f099aa8011aa32e6f0188062a62daf105ef9ad78",
+      "valoare": 0.12
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:25",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-18",
+      "intrebare_id": 1964,
+      "rationament": "Marea taie amplitudinea: creștere lentă de ~0,5°C/zi, fără saltul din interior; briza ține și precipitațiile jos.",
+      "sha256": "fba6a52fa1cdaba2ed4fe3bba4e1b3478df6628cd0105f510d8d5d737ce73ca0",
+      "valoare": 27.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:25",
+      "intrebare": "Va ploua la Constanța pe 2026-08-18?",
+      "intrebare_id": 1965,
+      "rationament": "Marea taie amplitudinea: creștere lentă de ~0,5°C/zi, fără saltul din interior; briza ține și precipitațiile jos.",
+      "sha256": "676eed982cd77c1ddce5e73be3f5d8b0a3406c2ac2320062c7b5e7f280657191",
+      "valoare": 0.08
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:25",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-18",
+      "intrebare_id": 1966,
+      "rationament": "Urcare fermă 23,1→28,8 în depresiune; altitudinea de 625 m limitează maximul, dar aerul cald crește riscul de averse orografice.",
+      "sha256": "d9e5fb3439038ffa799139fdd4c4cc053782fd1de890241c12dcf5b8c2d5ca99",
+      "valoare": 29.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:25",
+      "intrebare": "Va ploua la Brașov pe 2026-08-18?",
+      "intrebare_id": 1967,
+      "rationament": "Urcare fermă 23,1→28,8 în depresiune; altitudinea de 625 m limitează maximul, dar aerul cald crește riscul de averse orografice.",
+      "sha256": "4259e8cacb3f60d939906cd9b56eddac85fa5b1eaab2ccadc770d39a4f87ff96",
+      "valoare": 0.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:49",
+      "intrebare": "Temperatura maximă la București pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1968,
+      "rationament": "Normal climatologic ~29-30°C plus tendinta de reincalzire din ultimele patru zile; regimul uscat pare persistent.",
+      "sha256": "11f741423e62fce7c0937a56f834d97f5fab4a1aa49e84ef696750bfcc8a80e7",
+      "valoare": 30.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:49",
+      "intrebare": "Va ploua la București pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1969,
+      "rationament": "Normal climatologic ~29-30°C plus tendinta de reincalzire din ultimele patru zile; regimul uscat pare persistent.",
+      "sha256": "c650da18eca6a85c8605a5b5c330cdf7351183c82eb0dd5f097f312106ab574f",
+      "valoare": 0.22
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:49",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1970,
+      "rationament": "Altitudine 340 m raceste fata de campie; media recenta e peste normal, deci regresie usoara spre climatologie.",
+      "sha256": "1b68ecd669591e214e6c27a7b2a59dce2ee5b776dbef8a3fd89cce86a0750dbe",
+      "valoare": 28.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:49",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1971,
+      "rationament": "Altitudine 340 m raceste fata de campie; media recenta e peste normal, deci regresie usoara spre climatologie.",
+      "sha256": "64562b62384e4b10ac5a6f0fe42de2c60b8814c15889b3fed66593ebd174749d",
+      "valoare": 0.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:49",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1972,
+      "rationament": "Moldova are variabilitate mare zilnica; aleg aproape de media ultimelor zile, putin peste normalul de final de august.",
+      "sha256": "e48ce3ba3a5c938b0ab1fb23e6e528f8af30e536cb019be123acc00eff398635",
+      "valoare": 29.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:49",
+      "intrebare": "Va ploua la Iași pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1973,
+      "rationament": "Moldova are variabilitate mare zilnica; aleg aproape de media ultimelor zile, putin peste normalul de final de august.",
+      "sha256": "654160cb231e0649d837a2d32511481ec313dc22eb25391cbcb925811c61133e",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:49",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1974,
+      "rationament": "Cel mai cald punct al seriei, constant peste 31°C; pastrez anomalia calda dar o reduc spre normalul de 30°C.",
+      "sha256": "a64cd31e8f6e1c4ff81f3d66751a250d926b7039433e00d8536342a5f9915554",
+      "valoare": 32.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:49",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1975,
+      "rationament": "Cel mai cald punct al seriei, constant peste 31°C; pastrez anomalia calda dar o reduc spre normalul de 30°C.",
+      "sha256": "0ba6d6b439640228f6b18c82daf5179a75e894ed65fbf7948fc4d895c43c1dad",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:49",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1976,
+      "rationament": "Marea tempereaza extremele; ultimele zile ~25°C par un minim tranzitoriu, revenire spre normalul litoral.",
+      "sha256": "04223e142b4e798fe2cbc7add511b11fbfee7bf8511f6f953fccb4d57f5abf35",
+      "valoare": 27.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:49",
+      "intrebare": "Va ploua la Constanța pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1977,
+      "rationament": "Marea tempereaza extremele; ultimele zile ~25°C par un minim tranzitoriu, revenire spre normalul litoral.",
+      "sha256": "15411bc35f7df78f574e1993592c1d568c5b27459163f16238af077eb0953aa4",
+      "valoare": 0.18
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:49",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-24 (7 zile)",
+      "intrebare_id": 1978,
+      "rationament": "Depresiune la 625 m, cea mai rece statie; relieful favorizeaza convectie de dupa-amiaza, deci cea mai mare sansa de ploaie.",
+      "sha256": "53e53875c39c2b2d3bf329c637bc80e31a4c3bb771eb9b48bfa919205984008f",
+      "valoare": 25.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-17 17:35:49",
+      "intrebare": "Va ploua la Brașov pe 2026-08-24? (7 zile)",
+      "intrebare_id": 1979,
+      "rationament": "Depresiune la 625 m, cea mai rece statie; relieful favorizeaza convectie de dupa-amiaza, deci cea mai mare sansa de ploaie.",
+      "sha256": "2ea08b2bc807a1e3bb6fc69733aea4cade89298c9bc818684e6d860aee0e5fec",
+      "valoare": 0.35
+    }
+  ],
+  "zi": "2026-08-17"
+}
