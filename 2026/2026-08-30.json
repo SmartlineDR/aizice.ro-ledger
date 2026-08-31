@@ -1,0 +1,2312 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "41a6244902ff73daa4b2b2eb5e1d12505a62797ffb92e89ecc572df18d81d4d9",
+  "nr_frunze": 256,
+  "predictii": [
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 09:30:19",
+      "intrebare": "Câştigă Leeds United cu Brentford?",
+      "intrebare_id": 2753,
+      "rationament": "Leeds are avantajul terenului, dar Brentford este o echipă bine organizată tactic, favorizând un meci echilibrat.",
+      "sha256": "cedcd10774644933081c0964937ffe8dd1df984224600edf7310f5e989207e01",
+      "valoare": 0.42
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 09:30:19",
+      "intrebare": "Câştigă Paris FC cu Nice?",
+      "intrebare_id": 2754,
+      "rationament": "Nice este superior tehnic și cu experiență în Ligue 1, în timp ce Paris FC luptă pentru menținere.",
+      "sha256": "8a2704d2c5758be2c102c331e11c1ae345cc4d38dcc651c106d63d3365fa65f4",
+      "valoare": 0.35
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 09:30:19",
+      "intrebare": "Câştigă Freiburg cu Werder Bremen?",
+      "intrebare_id": 2755,
+      "rationament": "Freiburg este consistent acasă în Bundesliga, având o ușoară superioritate față de Bremen, care fluctuează.",
+      "sha256": "5d1a1de9f479ac68e56c88f1c5316d0615320af55c6055e3e62c6bfe92408d69",
+      "valoare": 0.52
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 09:30:19",
+      "intrebare": "Câştigă Manchester United cu Ipswich Town?",
+      "intrebare_id": 2756,
+      "rationament": "Diferența de valoare a lotului este semnificativă; United câștigă majoritatea meciurilor acasă împotriva promovabililor.",
+      "sha256": "e7aa892998dc394a97b070418c17ddaacfde4e2af7003966a0997e98ce9d1ad6",
+      "valoare": 0.75
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 09:30:19",
+      "intrebare": "Câştigă Augsburg cu Schalke 04?",
+      "intrebare_id": 2757,
+      "rationament": "Augsburg este solid pe teren propriu, în timp ce Schalke, dacă este în Bundesliga, este adesea vulnerabil în deplasare.",
+      "sha256": "7f5f2e4e37758965c135db4772b4f6b1444b13db76f0aa94cf8cacb6e5f2a051",
+      "valoare": 0.58
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 09:30:19",
+      "intrebare": "Câştigă Lazio cu Genoa?",
+      "intrebare_id": 2758,
+      "rationament": "Lazio este o forță în Serie A acasă, având un atac puternic capabil să depășească apărarea defensivă a Genovezei.",
+      "sha256": "1f4089ade2474db6fb65ae0daf63c2523e82692506d573225fff8185bb832c7a",
+      "valoare": 0.65
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 09:30:19",
+      "intrebare": "Câştigă Lecce cu Roma?",
+      "intrebare_id": 2759,
+      "rationament": "Roma este clar superioară individual și tactic, chiar și în deplasare, față de Lecce, care luptă pentru supraviețuire.",
+      "sha256": "adecac53eab78b5b7bf1bcb844b1dcf5e6a474473ff353f5d42be212930a346c",
+      "valoare": 0.25
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 09:30:19",
+      "intrebare": "Câştigă Rapid București cu Universitatea Craiova?",
+      "intrebare_id": 2760,
+      "rationament": "Rapid are un avantaj psihologic și de teren în derby-ul cu Craiova, deși echipele sunt apropiate ca nivel.",
+      "sha256": "ecd56ccc149d30b8920ecf425c4be32f896cc645922e4f23c7c430618abc633b",
+      "valoare": 0.55
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 09:30:19",
+      "intrebare": "Câştigă Osasuna cu Getafe?",
+      "intrebare_id": 2761,
+      "rationament": "Ambele echipe sunt defensive și fizice; Osasuna are avantajul terenului, dar Getafe este greu de învins.",
+      "sha256": "52838576f4c682bd89e8505658a9c81e8cf433ea5ed203e4c15c2de33efefc5b",
+      "valoare": 0.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 09:30:19",
+      "intrebare": "Câştigă Barcelona cu Rayo Vallecano?",
+      "intrebare_id": 2762,
+      "rationament": "Barcelona domină clar meciurile acasă împotriva echipelor de mijlocul clasamentului datorită calității superioare.",
+      "sha256": "5c1f8940844fa052f93b893585d17606a0fca7866e73d29186c9b49abda3fa66",
+      "valoare": 0.8
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 09:30:27",
+      "intrebare": "Câştigă Leeds United cu Brentford?",
+      "intrebare_id": 2753,
+      "rationament": "Leeds are avantajul terenului, dar Brentford este mai consistent în ultimii ani.",
+      "sha256": "d6d83568e3b0039aacd2e6fab101e0192492fceb2bd1e1e56a1c17627aa91d3c",
+      "valoare": 0.45
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 09:30:27",
+      "intrebare": "Câştigă Paris FC cu Nice?",
+      "intrebare_id": 2754,
+      "rationament": "Nice este o echipă de top, iar Paris FC este mai slabă, chiar și acasă.",
+      "sha256": "6101561338b3301e638232c531eb5b7dccab86c20b3f305f4f088b67e9fe41ec",
+      "valoare": 0.3
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 09:30:27",
+      "intrebare": "Câştigă Freiburg cu Werder Bremen?",
+      "intrebare_id": 2755,
+      "rationament": "Freiburg este mai stabilă acasă, dar Bremen poate surprinde.",
+      "sha256": "2fcc942d66a22ebd9c5ed11bb955ab07a0eee466edd1a80c57568e61f8537fc4",
+      "valoare": 0.55
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 09:30:27",
+      "intrebare": "Câştigă Manchester United cu Ipswich Town?",
+      "intrebare_id": 2756,
+      "rationament": "United este favorită clar, chiar dacă Ipswich poate rezista.",
+      "sha256": "dafa5be9bd09dc41ab0c112a96190d97dac93ed3786a9815e039175cf0c4f5ed",
+      "valoare": 0.7
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 09:30:27",
+      "intrebare": "Câştigă Augsburg cu Schalke 04?",
+      "intrebare_id": 2757,
+      "rationament": "Echipe echilibrate, cu Augsburg având un mic avantaj acasă.",
+      "sha256": "b026c7ba202229c5eecec7560b63df9e23110c8cfb69779376bdca6fa4c53434",
+      "valoare": 0.5
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 09:30:27",
+      "intrebare": "Câştigă Lazio cu Genoa?",
+      "intrebare_id": 2758,
+      "rationament": "Lazio este mai puternică, dar Genoa poate fi periculoasă în contraatac.",
+      "sha256": "f36b32b63c48d2e88d3551b1a447631a5bc77fb2afa7cb295b612cf6044d9acd",
+      "valoare": 0.65
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 09:30:27",
+      "intrebare": "Câştigă Lecce cu Roma?",
+      "intrebare_id": 2759,
+      "rationament": "Roma este superioară, dar Lecce poate profita de terenul propriu.",
+      "sha256": "b9b8f32e18a4e962e6a52c49b13081c88dac71808e4de8b4ec8d870aede6b2b2",
+      "valoare": 0.35
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 09:30:27",
+      "intrebare": "Câştigă Rapid București cu Universitatea Craiova?",
+      "intrebare_id": 2760,
+      "rationament": "Meci echilibrat, cu Rapid având un mic avantaj acasă.",
+      "sha256": "b7212b99c35106a37c6d3406899ecda017eb97eefab92c7a3f8f47c6640d6043",
+      "valoare": 0.45
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 09:30:27",
+      "intrebare": "Câştigă Osasuna cu Getafe?",
+      "intrebare_id": 2761,
+      "rationament": "Echipe similare, Osasuna poate profita de terenul propriu.",
+      "sha256": "fa980872de1718fca69f9e207ebba92b26732cb601728b36fc8a3dde76ba4592",
+      "valoare": 0.5
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 09:30:27",
+      "intrebare": "Câştigă Barcelona cu Rayo Vallecano?",
+      "intrebare_id": 2762,
+      "rationament": "Barcelona este mult superioară, chiar dacă Rayo poate surprinde.",
+      "sha256": "b40bbee592ef683392c0f4de9e78f512f96d72959de638c1271b82b82ac473e8",
+      "valoare": 0.8
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 09:30:34",
+      "intrebare": "Câştigă Leeds United cu Brentford?",
+      "intrebare_id": 2753,
+      "rationament": "Echipe apropiate ca valoare, avantajul terenului echilibrează șansele.",
+      "sha256": "b929be83872ae31fcc91b07f2e9373c8c82a67226dd8385f760d2c16e1bd7f1d",
+      "valoare": 0.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 09:30:34",
+      "intrebare": "Câştigă Paris FC cu Nice?",
+      "intrebare_id": 2754,
+      "rationament": "Nice este ușor favorită, dar Paris FC are șanse bune acasă.",
+      "sha256": "808c591201b85303d786dd2218e634d981b6616eaf100b24dfd0288439cc5b23",
+      "valoare": 0.45
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 09:30:34",
+      "intrebare": "Câştigă Freiburg cu Werder Bremen?",
+      "intrebare_id": 2755,
+      "rationament": "Freiburg are un avantaj moderat acasă, dar Werder Bremen poate surprinde.",
+      "sha256": "1439e40fdbd5cfdc511832138e2d2256484ae0d9dea7970db0144b5bcb666484",
+      "valoare": 0.55
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 09:30:34",
+      "intrebare": "Câştigă Manchester United cu Ipswich Town?",
+      "intrebare_id": 2756,
+      "rationament": "Manchester United este clar favorită, cu un avantaj mare de valoare și teren.",
+      "sha256": "dd26ec7ac639c0a399c7d1730ce396c8bfbd393eb82a63a937d91e6965a335a5",
+      "valoare": 0.75
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 09:30:34",
+      "intrebare": "Câştigă Augsburg cu Schalke 04?",
+      "intrebare_id": 2757,
+      "rationament": "Meci echilibrat, cu șanse egale pentru ambele echipe.",
+      "sha256": "c37b74565c6347fb4f8d44d325acf0e85255327d401e6546842f11c7e62d0be1",
+      "valoare": 0.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 09:30:34",
+      "intrebare": "Câştigă Lazio cu Genoa?",
+      "intrebare_id": 2758,
+      "rationament": "Lazio are un avantaj solid acasă, dar Genoa poate fi periculoasă.",
+      "sha256": "e8e3f7b6966d8375b6a6d4a270a5b7423d055b95e957cc6f19e3c29c3ec70ee6",
+      "valoare": 0.65
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 09:30:34",
+      "intrebare": "Câştigă Lecce cu Roma?",
+      "intrebare_id": 2759,
+      "rationament": "Roma este favorită, dar Lecce poate profita de terenul propriu.",
+      "sha256": "7c644f8289ce56de0ea02477507bada6aba7fd73fe81c9131bd54018ea8ddb1e",
+      "valoare": 0.35
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 09:30:34",
+      "intrebare": "Câştigă Rapid București cu Universitatea Craiova?",
+      "intrebare_id": 2760,
+      "rationament": "Universitatea Craiova este ușor favorită, dar Rapid are șanse acasă.",
+      "sha256": "e00e99c1bd8fc581258de157c83571a1d03e70f051f7d687567f2d86d005bb61",
+      "valoare": 0.4
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 09:30:34",
+      "intrebare": "Câştigă Osasuna cu Getafe?",
+      "intrebare_id": 2761,
+      "rationament": "Osasuna are un mic avantaj acasă, dar Getafe poate echilibra meciul.",
+      "sha256": "7866beee071093ce63540b78354909c371bce4178abc40376164a92b2bf2811d",
+      "valoare": 0.55
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 09:30:34",
+      "intrebare": "Câştigă Barcelona cu Rayo Vallecano?",
+      "intrebare_id": 2762,
+      "rationament": "Barcelona este clar favorită, cu un avantaj mare de valoare și teren.",
+      "sha256": "dd84cf23d42bdc0122390407fcc0123550f720998ae600ada9908427eafddf45",
+      "valoare": 0.8
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 09:30:38",
+      "intrebare": "Câştigă Leeds United cu Brentford?",
+      "intrebare_id": 2753,
+      "rationament": "Leeds are avantajul terenului propriu, dar Brentford rămâne o echipă extrem de organizată și dificil de învins în Premier League.",
+      "sha256": "59f703b4903c0f22db878122c8d287d36772102de4e84beea990b27fcf40a8ca",
+      "valoare": 0.45
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 09:30:38",
+      "intrebare": "Câştigă Paris FC cu Nice?",
+      "intrebare_id": 2754,
+      "rationament": "Nice deține o experiență superioară în Ligue 1 și un lot mai valoros, în timp ce nou-promovata Paris FC luptă pentru adaptare.",
+      "sha256": "a978b0c7bd36fc37db5a1bdfacd7592d46b804666de34464f50764248533dcd9",
+      "valoare": 0.35
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 09:30:38",
+      "intrebare": "Câştigă Freiburg cu Werder Bremen?",
+      "intrebare_id": 2755,
+      "rationament": "Freiburg este redutabilă pe teren propriu, dar Bremen are capacitatea de a specula orice ezitare defensivă.",
+      "sha256": "5c8271f0ce021cb0e99a442ac2a6fcc654da2aa5c6aa9f78b0851aed738939ec",
+      "valoare": 0.52
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 09:30:38",
+      "intrebare": "Câştigă Manchester United cu Ipswich Town?",
+      "intrebare_id": 2756,
+      "rationament": "Diferența uriașă de valoare și factorul Old Trafford oferă lui Manchester United o șansă clară de victorie.",
+      "sha256": "6a6ce87daee4bd350b7dac28c05d7fbc29bd1db290a3c485f188734b4af5872f",
+      "valoare": 0.72
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 09:30:38",
+      "intrebare": "Câştigă Augsburg cu Schalke 04?",
+      "intrebare_id": 2757,
+      "rationament": "Un duel extrem de echilibrat în Bundesliga, unde Augsburg mizează pe defensivă, iar Schalke pe determinare.",
+      "sha256": "52cd3a8a77a608cd95f75fee99b58612d0a3bf07523de662e34d50db6e786b72",
+      "valoare": 0.48
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 09:30:38",
+      "intrebare": "Câştigă Lazio cu Genoa?",
+      "intrebare_id": 2758,
+      "rationament": "Lazio pornește asumat ca favorită pe Stadio Olimpico în fața unui Genoa pragmatic și incomod.",
+      "sha256": "8003782a16144578b99094908cbe13ed254222246a3a282c080d2cbc7503d86c",
+      "valoare": 0.58
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 09:30:38",
+      "intrebare": "Câştigă Lecce cu Roma?",
+      "intrebare_id": 2759,
+      "rationament": "Roma are superioritate tactică și individuală netă, Lecce fiind nevoită să se apere în inferioritate valorică.",
+      "sha256": "4ca8e25d4fde1a4a85ce4b5585f0b7723dfea36c038b52545d953dc03361af62",
+      "valoare": 0.32
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 09:30:38",
+      "intrebare": "Câştigă Rapid București cu Universitatea Craiova?",
+      "intrebare_id": 2760,
+      "rationament": "Un derby clasic din Superligă, complet imprevizibil, unde forța Giuleștiului echilibrează valoarea olteană.",
+      "sha256": "93f8cd54c5aa033d75c2c51e0d52295b47893dbb2d7124c454ab89a8074155b5",
+      "valoare": 0.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 09:30:38",
+      "intrebare": "Câştigă Osasuna cu Getafe?",
+      "intrebare_id": 2761,
+      "rationament": "Meci de luptă pură în La Liga, cu șanse egale între două echipe recunoscute pentru intensitate defensivă.",
+      "sha256": "d8f8230e7739e20f1bdbc878a4f7e55e68d2f29d6463be5596e23699d62c833d",
+      "valoare": 0.46
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 09:30:38",
+      "intrebare": "Câştigă Barcelona cu Rayo Vallecano?",
+      "intrebare_id": 2762,
+      "rationament": "Barcelona domină clar confruntarea prin calitatea ofensivă superioară, deși Rayo poate pune probleme pe contraatac.",
+      "sha256": "d9ae517af0c93746d134f57c7e77170578df6a3b1d706e99ef064c63379bc233",
+      "valoare": 0.78
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 09:30:59",
+      "intrebare": "Câştigă Leeds United cu Brentford?",
+      "intrebare_id": 2753,
+      "rationament": "Leeds modest home edge over evenly matched Brentford; slight advantage yields ~45% win chance.",
+      "sha256": "e3a7f5de4605465c8c4d27591fd51bbb57c4fee022bfb3193bf9fcd8d5f0c855",
+      "valoare": 0.45
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 09:30:59",
+      "intrebare": "Câştigă Paris FC cu Nice?",
+      "intrebare_id": 2754,
+      "rationament": "Paris FC faces superior Nice; home ground insufficient to overcome quality gap, ~25% win.",
+      "sha256": "f7d07a98770d202bbfa70a28ec187ea6c50fa3731de3a801ceac1911f3870b3b",
+      "valoare": 0.25
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 09:30:59",
+      "intrebare": "Câştigă Freiburg cu Werder Bremen?",
+      "intrebare_id": 2755,
+      "rationament": "Freiburg's stronger squad and home form give them edge over Bremen, ~55% win probability.",
+      "sha256": "610ea823e849e8b086325532487ed2c14d42a03f6fe51182ab9cb812d6e6418f",
+      "valoare": 0.55
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 09:30:59",
+      "intrebare": "Câştigă Manchester United cu Ipswich Town?",
+      "intrebare_id": 2756,
+      "rationament": "Man United’s superior depth and home advantage dominate promoted Ipswich, ~75% win chance.",
+      "sha256": "4895ace3542d23f676f592e650b36ab7c0243bb635f9e9e7d14886a775d03acf",
+      "valoare": 0.75
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 09:30:59",
+      "intrebare": "Câştigă Augsburg cu Schalke 04?",
+      "intrebare_id": 2757,
+      "rationament": "Augsburg’s steady Bundesliga performance beats struggling Schalke, home boost yields ~60% win.",
+      "sha256": "6a12714555b994602d2c2f768726f4eb1937863994d6139039579a9c6160b7f9",
+      "valoare": 0.6
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 09:30:59",
+      "intrebare": "Câştigă Lazio cu Genoa?",
+      "intrebare_id": 2758,
+      "rationament": "Lazio’s higher quality and home support outweigh Genoa’s mid‑table level, ~70% win.",
+      "sha256": "62078ec5459fcb718132d6d40fb01ded047f23cc2228e734e9866d421e700edd",
+      "valoare": 0.7
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 09:30:59",
+      "intrebare": "Câştigă Lecce cu Roma?",
+      "intrebare_id": 2759,
+      "rationament": "Roma’s stronger squad overwhelms Lecce despite home field, giving Lecce ~30% win odds.",
+      "sha256": "bd53f7c642b6172f718a8330afbd1eb458935fdbcd0accf1532e1f0edf66c8a5",
+      "valoare": 0.3
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 09:30:59",
+      "intrebare": "Câştigă Rapid București cu Universitatea Craiova?",
+      "intrebare_id": 2760,
+      "rationament": "Close Liga I rivalry; home edge gives Rapid slight advantage, ~50% win probability.",
+      "sha256": "13b7eea1d5702041799deb9878319f400d4e4427c228ec85b475623749c61925",
+      "valoare": 0.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 09:30:59",
+      "intrebare": "Câştigă Osasuna cu Getafe?",
+      "intrebare_id": 2761,
+      "rationament": "Osasuna’s modest home edge over similarly rated Getafe yields ~45% win chance.",
+      "sha256": "63d93ec22c09f975b3e9bf978cf4eeb3e51094784646ab5ff1f9be6e353d4c28",
+      "valoare": 0.45
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 09:30:59",
+      "intrebare": "Câştigă Barcelona cu Rayo Vallecano?",
+      "intrebare_id": 2762,
+      "rationament": "Barcelona’s elite talent and home dominance overwhelm Rayo, ~85% win expectation.",
+      "sha256": "def322facc200245284a35983852cb128e7d5c1c7e77231bd415a314b5e5a8eb",
+      "valoare": 0.85
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 09:31:33",
+      "intrebare": "Câştigă Leeds United cu Brentford?",
+      "intrebare_id": 2753,
+      "rationament": "Ambele echipe sunt apropiate, dar Leeds are un mic avantaj teren.",
+      "sha256": "2d67866067f4e8d5b15ef5d8835e900dc1d734a8ddf57745f17645c41f666300",
+      "valoare": 0.51
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 09:31:33",
+      "intrebare": "Câştigă Paris FC cu Nice?",
+      "intrebare_id": 2754,
+      "rationament": "Nice este mai bună, dar Paris FC se luptă acasă.",
+      "sha256": "3f5190bac3f045321e8d97d263af5dc088ac2477cdf5c908d6fdea23da0e87c2",
+      "valoare": 0.42
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 09:31:33",
+      "intrebare": "Câştigă Freiburg cu Werder Bremen?",
+      "intrebare_id": 2755,
+      "rationament": "Freiburg este stabil acasă, Bremen este mai slab în deplasare.",
+      "sha256": "115a73b28764d1b77a452f680d9baa336a63c0f08b051b617552d92eaab8d0fd",
+      "valoare": 0.55
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 09:31:33",
+      "intrebare": "Câştigă Manchester United cu Ipswich Town?",
+      "intrebare_id": 2756,
+      "rationament": "Man United este favorit clar, Ipswich luptă pentru supraviețuire.",
+      "sha256": "da20454f834d4659ff847eab1f91a75dfb44db61e930ca63396dc4435530cfbf",
+      "valoare": 0.6
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 09:31:33",
+      "intrebare": "Câştigă Augsburg cu Schalke 04?",
+      "intrebare_id": 2757,
+      "rationament": "Augsburg este mai puternic, Schalke luptă în ligile secundare.",
+      "sha256": "0f6e84bd2301dc08c7e17c4d9ced6d6e693c87798c990aba75debe346451d409",
+      "valoare": 0.65
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 09:31:33",
+      "intrebare": "Câştigă Lazio cu Genoa?",
+      "intrebare_id": 2758,
+      "rationament": "Lazio are un nivel mult mai ridicat în Serie A.",
+      "sha256": "26f1d8b1f99b1e4ae9e8a5c45968644f2d13042b5cb5cb0cfbb40b420dd4047b",
+      "valoare": 0.7
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 09:31:33",
+      "intrebare": "Câştigă Lecce cu Roma?",
+      "intrebare_id": 2759,
+      "rationament": "Roma este o echipă mare, Lecce este doar medie.",
+      "sha256": "912c2373bd64aa240a2df793b11c641d6291e0afcf2ca58c6dda6403ee565c1a",
+      "valoare": 0.65
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 09:31:33",
+      "intrebare": "Câştigă Rapid București cu Universitatea Craiova?",
+      "intrebare_id": 2760,
+      "rationament": "Derby intens, Rapid are avantajul terenului în oraș.",
+      "sha256": "b294b4ca5ba2e25a16da75dfd560c003d63ef7a0840b942d46e93cb4ce1002df",
+      "valoare": 0.52
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 09:31:33",
+      "intrebare": "Câştigă Osasuna cu Getafe?",
+      "intrebare_id": 2761,
+      "rationament": "Ambele sunt echipe de mijloc, meci foarte echilibrat.",
+      "sha256": "b24d886c26084ed5d7623244d24699925f9bc8f7b6b3ef619396defbb78adea0",
+      "valoare": 0.51
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 09:31:33",
+      "intrebare": "Câştigă Barcelona cu Rayo Vallecano?",
+      "intrebare_id": 2762,
+      "rationament": "Barcelona este favorit clar, Rayo este o echipă modestă.",
+      "sha256": "572f1eaa9e65ecc9a6694eef2c9007926c5bc73e4df214ce21f5f645db27aeff",
+      "valoare": 0.75
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:37:51",
+      "intrebare": "Câştigă Farul Constanța cu Botoșani?",
+      "intrebare_id": 2726,
+      "rationament": "Meci echilibrat de Liga I, cu multe egaluri; Farul are doar plusul terenului propriu.",
+      "sha256": "06faf7754907bf136797ea25adf87d8cbacec80f13f55a1c462f7a76c0839244",
+      "valoare": 0.43
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:37:51",
+      "intrebare": "Câştigă Chelsea cu Brighton and Hove Albion?",
+      "intrebare_id": 2727,
+      "rationament": "Chelsea favorită pe Stamford Bridge, dar Brighton e incomodă și scoate frecvent puncte la echipele mari.",
+      "sha256": "817860ad0b2ebfea09dc8ad149c5af191396869384c2ebca7d27bbe6a0c1d4af",
+      "valoare": 0.56
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:37:51",
+      "intrebare": "Câştigă Real Madrid cu Málaga?",
+      "intrebare_id": 2728,
+      "rationament": "Diferență uriașă de lot pe Bernabéu; doar o surpriză rară ar opri victoria madrilenilor.",
+      "sha256": "7188bffd4f781e8919c025c72ca258d01432446207a0e8eab0d7eea140d1e61e",
+      "valoare": 0.89
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:37:51",
+      "intrebare": "Câştigă Germain – Rennes cu Le Mans?",
+      "intrebare_id": 2729,
+      "rationament": "Rennes are lot de primă ligă consolidat acasă contra unui nou-promovat cu buget mult mai mic.",
+      "sha256": "d5bd50871aeb43d6f5b42bf27d45d0b32d50d5b5d52359876a1f15bdf8e4ed9f",
+      "valoare": 0.66
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:37:51",
+      "intrebare": "Câştigă Napoli cu Como?",
+      "intrebare_id": 2730,
+      "rationament": "Napoli favorită pe Maradona, dar Como investește și joacă organizat, deci nu e formalitate.",
+      "sha256": "06160a4f5c78ed7709202bffa89fb3913f00e11f5c4288c5e6a4dc73fda54bce",
+      "valoare": 0.63
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:37:51",
+      "intrebare": "Câştigă FCSB cu UTA Arad?",
+      "intrebare_id": 2731,
+      "rationament": "FCSB favorită acasă, însă evoluțiile inconstante și oboseala cupelor europene reduc marja.",
+      "sha256": "f2bf8dac1633042475ef8498a8833c12e8a3dd804939bea9030cc44d2e940f73",
+      "valoare": 0.58
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:37:51",
+      "intrebare": "Câştigă Monaco cu Marseille?",
+      "intrebare_id": 2732,
+      "rationament": "Duel echilibrat între două forțe din Ligue 1; terenul propriu nu compensează complet incertitudinea.",
+      "sha256": "cb41b15b94ab27dc948475494dcd221f18c83282d65093b0d22945dde9955786",
+      "valoare": 0.44
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:37:51",
+      "intrebare": "Câştigă Cagliari cu Inter Milan?",
+      "intrebare_id": 2733,
+      "rationament": "Inter e semnificativ mai puternică; Cagliari poate smulge cel mult un egal pe teren propriu.",
+      "sha256": "c8aecbd95bd74702c35a520e9bab90ce96cb976cbdabd76ee09132a94464d892",
+      "valoare": 0.18
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:38:13",
+      "intrebare": "Câştigă Leeds United cu Brentford?",
+      "intrebare_id": 2753,
+      "rationament": "Leeds are avantajul terenului, dar Brentford e echipă stabilită de Premier League cu valoare superioară a lotului.",
+      "sha256": "753964754439d3c87dbe348989252bd45805937bf5be1d932dfadb2b4f91384d",
+      "valoare": 0.33
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:38:13",
+      "intrebare": "Câştigă Paris FC cu Nice?",
+      "intrebare_id": 2754,
+      "rationament": "Paris FC e nou-venit fragil în Ligue 1; Nice are lot de zonă europeană, chiar și în deplasare.",
+      "sha256": "d32da87d6a2458e9004a14773b0ab0b2a204977da2d621d18e064010f1635477",
+      "valoare": 0.31
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:38:13",
+      "intrebare": "Câştigă Freiburg cu Werder Bremen?",
+      "intrebare_id": 2755,
+      "rationament": "Freiburg e solid pe teren propriu, Werder e mediocru dar imprevizibil; ușor favorit, fără dominație clară.",
+      "sha256": "8d2925234bd3c976fb7a4c9425c981f0c9095212f47986c14d2fcabbabe1656d",
+      "valoare": 0.48
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:38:13",
+      "intrebare": "Câştigă Manchester United cu Ipswich Town?",
+      "intrebare_id": 2756,
+      "rationament": "Diferență mare de lot plus Old Trafford, dar United e inconsecvent și pierde puncte cu adversari modești.",
+      "sha256": "589f5c31e0620cf22c3f1ee4f31d7dd7c865f208e16425c97c0789b284cfb901",
+      "valoare": 0.62
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:38:13",
+      "intrebare": "Câştigă Augsburg cu Schalke 04?",
+      "intrebare_id": 2757,
+      "rationament": "Augsburg e favorit acasă contra unui Schalke reconstruit, însă marja e mică în mijlocul clasamentului.",
+      "sha256": "9d9c4dcad03ab4a5c9a6f28929d6855a20cc5f01279f7a0fc45f8e64163e1cc2",
+      "valoare": 0.46
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:38:13",
+      "intrebare": "Câştigă Lazio cu Genoa?",
+      "intrebare_id": 2758,
+      "rationament": "Lazio superioară valoric acasă; Genoa joacă defensiv organizat, ceea ce crește șansa unui egal.",
+      "sha256": "a86114f42dbc124e107fbfc530872614c86303782cd680237e473fd28a1b68bc",
+      "valoare": 0.55
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:38:13",
+      "intrebare": "Câştigă Lecce cu Roma?",
+      "intrebare_id": 2759,
+      "rationament": "Roma are lot mult mai bun; Lecce speră la un blocaj defensiv, nu la victorie.",
+      "sha256": "1e4ea2c1a11d5df3ea2ce0f976796428552a842505f57b2e62bf4dcbb6a7d63d",
+      "valoare": 0.21
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:38:13",
+      "intrebare": "Câştigă Rapid București cu Universitatea Craiova?",
+      "intrebare_id": 2760,
+      "rationament": "Craiova a fost constant în vârful Ligii I; Rapid echilibrează parțial prin public și teren propriu.",
+      "sha256": "8808616edd1c9fd83606b93161ef0b3f3b6a0031bbda0617a3fc83cb3eb339b3",
+      "valoare": 0.36
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:38:13",
+      "intrebare": "Câştigă Osasuna cu Getafe?",
+      "intrebare_id": 2761,
+      "rationament": "Duel echilibrat, fizic și cu goluri puține; El Sadar înclină ușor balanța spre Osasuna.",
+      "sha256": "00d3ab233e4cccc98f93a0393310904a5d17bf2b984c43e12865ce12fe7cc92d",
+      "valoare": 0.42
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 09:38:13",
+      "intrebare": "Câştigă Barcelona cu Rayo Vallecano?",
+      "intrebare_id": 2762,
+      "rationament": "Barcelona domină acasă, dar Rayo e echipă incomodă care a mai smuls puncte pe terenuri mari.",
+      "sha256": "9afe819b057e97c4543003a36ca843a203e65f83c5e8fadab8cfe3b6290082d2",
+      "valoare": 0.78
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-30 16:45:09",
+      "intrebare": "Preţul Bitcoin pe 2026-08-31",
+      "intrebare_id": 2763,
+      "rationament": "tendință pozitivă",
+      "sha256": "8dc6406c05334aa04f445cc68d4a178391382729b7e8f44264376ddd4c13722a",
+      "valoare": 79000.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-30 16:45:09",
+      "intrebare": "Preţul Ethereum pe 2026-08-31",
+      "intrebare_id": 2764,
+      "rationament": "stabilizare",
+      "sha256": "64994e2137671ec4376ccec789a6c7164ec0de3995d932859275b5aaa7266d91",
+      "valoare": 2480.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-30 16:45:09",
+      "intrebare": "Preţul Solana pe 2026-08-31",
+      "intrebare_id": 2765,
+      "rationament": "creștere",
+      "sha256": "609ed1d276dc171a13bc309eff69ca563cf0856d99f770fe3d4558e134f8f4ab",
+      "valoare": 107.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-30 16:45:09",
+      "intrebare": "Preţul XRP pe 2026-08-31",
+      "intrebare_id": 2766,
+      "rationament": "fluctuație",
+      "sha256": "9bd2ddc117dccca8627fa3682974ebecb56237ce9601fda4c6418e4cb0b93891",
+      "valoare": 1.42
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-30 16:45:09",
+      "intrebare": "Preţul Cardano pe 2026-08-31",
+      "intrebare_id": 2767,
+      "rationament": "stagnare",
+      "sha256": "56bd317ad99d4c1d6f9e924cea10a3bf6ebe5a3f8798e037ef08f7abb05d14ca",
+      "valoare": 0.2
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-30 16:45:09",
+      "intrebare": "Preţul Dogecoin pe 2026-08-31",
+      "intrebare_id": 2768,
+      "rationament": "stabil",
+      "sha256": "943f57eade15b6eec28240ad1f035f205abf2139c81f299579965ad8dd348981",
+      "valoare": 0.09
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-08-30 16:45:09",
+      "intrebare": "Preţul BNB pe 2026-08-31",
+      "intrebare_id": 2769,
+      "rationament": "tendință pozitivă",
+      "sha256": "07a548df6458452c09661b0817d69ac008f142807acedeb3e581a6bfabdf6d56",
+      "valoare": 700.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 16:45:10",
+      "intrebare": "Preţul Bitcoin pe 2026-08-31",
+      "intrebare_id": 2763,
+      "rationament": "Trend ușor ascendent recent, cu medie mobilă susținând prețul peste nivelul de ieri.",
+      "sha256": "b2cb139a7162bc4cc9a8a92c3ccb35f02de03c120e178f6a982751f99333b436",
+      "valoare": 78950.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 16:45:10",
+      "intrebare": "Preţul Ethereum pe 2026-08-31",
+      "intrebare_id": 2764,
+      "rationament": "Consolidare laterală ușor bullish, anticipând o mică corecție pozitivă față de închiderea anterioară.",
+      "sha256": "c6075bb24ac6da96734df57d279d5314d69f40fd11ac0426afa27c6337c259a5",
+      "valoare": 2475.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 16:45:10",
+      "intrebare": "Preţul Solana pe 2026-08-31",
+      "intrebare_id": 2765,
+      "rationament": "Momentum puternic recent, cu prețul testând rezistențe și probabil continuând ușor în sus.",
+      "sha256": "999f44fe72b029eb939e53adf4984140c8e43486cb671845fc37f421854766f9",
+      "valoare": 107.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 16:45:10",
+      "intrebare": "Preţul XRP pe 2026-08-31",
+      "intrebare_id": 2766,
+      "rationament": "Volatilitate scăzută, stabilizare în jurul mediei recente, cu ușoară presiune ascendentă.",
+      "sha256": "aac0b329440b6f9ac5358d89b4fa0b16dd97ef374c6130815e8a6f1f8f61c2e5",
+      "valoare": 1.41
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 16:45:10",
+      "intrebare": "Preţul Cardano pe 2026-08-31",
+      "intrebare_id": 2767,
+      "rationament": "Preț plat și stabil, fără semnale clare de schimbare, menținând suportul actual.",
+      "sha256": "00693e7b9fcfcc46a8f73db486b910d9eabee9b60537aecd0a38e33428aea89b",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 16:45:10",
+      "intrebare": "Preţul Dogecoin pe 2026-08-31",
+      "intrebare_id": 2768,
+      "rationament": "Complet stabil în ultimile zile, fără volatilitate semnificativă, probabil menținând nivelul.",
+      "sha256": "ef5ba48d3ac996661f04eab39bf8b59d44d636a90b899aa10e1a209934451aa7",
+      "valoare": 0.09
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 16:45:10",
+      "intrebare": "Preţul BNB pe 2026-08-31",
+      "intrebare_id": 2769,
+      "rationament": "Trend ușor ascendent cu corecții minore, anticipând o continuare moderată a trendului.",
+      "sha256": "f03a9c58f2e62a0d55e8e3472e5b1e897140c89c7a3d8cc964b0f3b904aac7e2",
+      "valoare": 699.0
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 16:45:16",
+      "intrebare": "Preţul Bitcoin pe 2026-08-31",
+      "intrebare_id": 2763,
+      "rationament": "Trend ușor ascendent, medie mobilă susținătoare.",
+      "sha256": "aedefca115447151744a6df3f71cdd76f46dcfc2e741e121a891eba7d24bc936",
+      "valoare": 78500.0
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 16:45:16",
+      "intrebare": "Preţul Ethereum pe 2026-08-31",
+      "intrebare_id": 2764,
+      "rationament": "Consolidare în jurul nivelului actual.",
+      "sha256": "db01aedbf57837581f0e2fafbcb75dce93d8afc6d664a3fb0ff2801e11da3bdf",
+      "valoare": 2475.0
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 16:45:16",
+      "intrebare": "Preţul Solana pe 2026-08-31",
+      "intrebare_id": 2765,
+      "rationament": "Momentum pozitiv recent, posibilă continuare.",
+      "sha256": "1e421238bcd017bbe3d0cbda5614c1f8b8364b0710f72c986596e15bed7c7451",
+      "valoare": 107.0
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 16:45:16",
+      "intrebare": "Preţul XRP pe 2026-08-31",
+      "intrebare_id": 2766,
+      "rationament": "Volatilitate scăzută, stabilitate în jurul suportului.",
+      "sha256": "5b7c0b0dec08f1e05d7cde51bbd501a6528fdb9ff035352507438090a40b88ce",
+      "valoare": 1.41
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 16:45:16",
+      "intrebare": "Preţul Cardano pe 2026-08-31",
+      "intrebare_id": 2767,
+      "rationament": "Lateralitate persistentă, fără semnale clare.",
+      "sha256": "7fc8ee09619dfc698819038e37bb0b952adda9246bdbce852c382c6dc850ca4e",
+      "valoare": 0.2
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 16:45:16",
+      "intrebare": "Preţul Dogecoin pe 2026-08-31",
+      "intrebare_id": 2768,
+      "rationament": "Stagnare prelungită, fără schimbări semnificative.",
+      "sha256": "1689254c5e5587ffc62dda0686e4c309fb8cfca5c0f038f6f7b2c2ad6bfcc433",
+      "valoare": 0.09
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 16:45:16",
+      "intrebare": "Preţul BNB pe 2026-08-31",
+      "intrebare_id": 2769,
+      "rationament": "Recuperare ușoară după scădere, trend lateral.",
+      "sha256": "69c0f2c6319a294210dd93c21d0fc56f9a4e0782fbfc8c434fbb59e3ffa9678a",
+      "valoare": 698.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 16:45:22",
+      "intrebare": "Preţul Bitcoin pe 2026-08-31",
+      "intrebare_id": 2763,
+      "rationament": "prețul de închidere de azi, ipoteza «mâine = azi»",
+      "sha256": "283a9bce24c8870416bfb6550e937a578c79924c8a0c262dd339b7f5248b1747",
+      "valoare": 78719.03
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 16:45:22",
+      "intrebare": "Preţul Ethereum pe 2026-08-31",
+      "intrebare_id": 2764,
+      "rationament": "prețul de închidere de azi, ipoteza «mâine = azi»",
+      "sha256": "4e590657881a51c56f46ba3a0b65b0cb38974fbe057ece245d33536d77214969",
+      "valoare": 2466.38
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 16:45:22",
+      "intrebare": "Preţul Solana pe 2026-08-31",
+      "intrebare_id": 2765,
+      "rationament": "prețul de închidere de azi, ipoteza «mâine = azi»",
+      "sha256": "d622b737058705e181cafa749e4e143f85fdb1b17f71915455b9319737db97fd",
+      "valoare": 106.37
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 16:45:22",
+      "intrebare": "Preţul XRP pe 2026-08-31",
+      "intrebare_id": 2766,
+      "rationament": "prețul de închidere de azi, ipoteza «mâine = azi»",
+      "sha256": "586a2db027b081e73eb152603c8aacd312f38c731e749f7e0a88253b4269e16e",
+      "valoare": 1.4
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 16:45:22",
+      "intrebare": "Preţul Cardano pe 2026-08-31",
+      "intrebare_id": 2767,
+      "rationament": "prețul de închidere de azi, ipoteza «mâine = azi»",
+      "sha256": "1b2f992ad66c55ac4479edb96e9b19556f1b8c553b6952b874075c0a7d807e90",
+      "valoare": 0.2
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 16:45:22",
+      "intrebare": "Preţul Dogecoin pe 2026-08-31",
+      "intrebare_id": 2768,
+      "rationament": "prețul de închidere de azi, ipoteza «mâine = azi»",
+      "sha256": "bf37b7979850dee8633e72cd4141df0431b1c2b0c96c5089baebdf9552a14c88",
+      "valoare": 0.09
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 16:45:22",
+      "intrebare": "Preţul BNB pe 2026-08-31",
+      "intrebare_id": 2769,
+      "rationament": "prețul de închidere de azi, ipoteza «mâine = azi»",
+      "sha256": "d549b0f2d50273eef5b6eacd797e660370154e10c559acd1a17e3559e7205058",
+      "valoare": 697.46
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 16:46:02",
+      "intrebare": "Preţul Bitcoin pe 2026-08-31",
+      "intrebare_id": 2763,
+      "rationament": "Mișcare laterală recentă; prețul revine spre media intervalului 77-80k.",
+      "sha256": "3cc056bfffffe21a5bd86d60d53cef5b9c25f5404984a588f6099cd7679f7d24",
+      "valoare": 78400.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 16:46:02",
+      "intrebare": "Preţul Ethereum pe 2026-08-31",
+      "intrebare_id": 2764,
+      "rationament": "Redresare modestă după suportul de 2450; rămâne în zonă de acumulare.",
+      "sha256": "0882e65d05f5203f85aaad9dd8e3412d1f2cd566921cf9aec816d23b2fef7b45",
+      "valoare": 2470.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 16:46:02",
+      "intrebare": "Preţul Solana pe 2026-08-31",
+      "intrebare_id": 2765,
+      "rationament": "Corecție ușoară după creșterea puternică; suportul pare să fie în jur de 105.",
+      "sha256": "638a8c7af26ee0118fcad1de1434b87c459f9be9781008faba51ee689e272d3c",
+      "valoare": 105.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 16:46:02",
+      "intrebare": "Preţul XRP pe 2026-08-31",
+      "intrebare_id": 2766,
+      "rationament": "Stagnare la niveluri joase; ușoară revenire tehnică de la suportul de 1.38.",
+      "sha256": "4f5b48a46e85873dad0242318a89cb1d1bebe50ea510561f76ec759135cd387b",
+      "valoare": 1.41
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 16:46:02",
+      "intrebare": "Preţul Cardano pe 2026-08-31",
+      "intrebare_id": 2767,
+      "rationament": "Trend descendent constant, fără semnale de inversare; continuare ușor sub minim.",
+      "sha256": "dd1da89e12d41eb558e582d473a43caff63d68a96fc7b54f2153a95640b2b015",
+      "valoare": 0.198
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 16:46:02",
+      "intrebare": "Preţul Dogecoin pe 2026-08-31",
+      "intrebare_id": 2768,
+      "rationament": "Prețul e plat la intervalul rotunjit; posibilă ușoară fluctuație pozitivă.",
+      "sha256": "889808640dae7265b48a5f4f253c10137c78f5c9c94d8609498c117d53e8c571",
+      "valoare": 0.091
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 16:46:02",
+      "intrebare": "Preţul BNB pe 2026-08-31",
+      "intrebare_id": 2769,
+      "rationament": "Oscilație în jurul valorii de 695; revenire parțială după scăderea recentă.",
+      "sha256": "6abd2151ebf911911da02b3ef521cf22e4cb80bd321aea777be3f8ed3ac51a6a",
+      "valoare": 695.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 16:46:05",
+      "intrebare": "Preţul Bitcoin pe 2026-08-31",
+      "intrebare_id": 2763,
+      "rationament": "Următoarea zi probabil va reveni la nivelul mediu recent.",
+      "sha256": "a7365943c7eee9ae1e4b12ac8b92b2ba80ba0d2081666d7d87e3487149db5299",
+      "valoare": 78500.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 16:46:05",
+      "intrebare": "Preţul Ethereum pe 2026-08-31",
+      "intrebare_id": 2764,
+      "rationament": "Oscilații mici, tendință ușor ascendentă.",
+      "sha256": "f16328d9e547e35cb9bc2f51248a4ffcb5ebb189e08b8d35f45a9aaf0274f9ad",
+      "valoare": 2470.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 16:46:05",
+      "intrebare": "Preţul Solana pe 2026-08-31",
+      "intrebare_id": 2765,
+      "rationament": "Trendul ascendent continuă după corecția recentă.",
+      "sha256": "59f42c7c3dc8211abf5da54c460d14ebb08e03d5e6c10ff9a963f8edc77fed17",
+      "valoare": 107.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 16:46:05",
+      "intrebare": "Preţul XRP pe 2026-08-31",
+      "intrebare_id": 2766,
+      "rationament": "Scădere ușoară observată în ultimele zile.",
+      "sha256": "c58e7e8633586306dc943db197e653ea915fb40385d27070e2337b722658cb4e",
+      "valoare": 1.38
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 16:46:05",
+      "intrebare": "Preţul Cardano pe 2026-08-31",
+      "intrebare_id": 2767,
+      "rationament": "Tendință descendentă constantă.",
+      "sha256": "cd3572152b4cf8f5dbce40cdfbd56de0ac739f32451fbaf520aac4627691a8a5",
+      "valoare": 0.19
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 16:46:05",
+      "intrebare": "Preţul Dogecoin pe 2026-08-31",
+      "intrebare_id": 2768,
+      "rationament": "Preț stabil, fără variații semnificative.",
+      "sha256": "762bf1197c19363f6e9c243b754d5825db6c0749d75618b6d8580a523c08e10b",
+      "valoare": 0.09
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 16:46:05",
+      "intrebare": "Preţul BNB pe 2026-08-31",
+      "intrebare_id": 2769,
+      "rationament": "Ușoară creștere în ultimele sesiuni.",
+      "sha256": "a886172e4d72f63e8af339189741cb7317bb5a0c4ced69c1d58a52a3694e50ad",
+      "valoare": 700.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 16:46:06",
+      "intrebare": "Preţul Bitcoin pe 2026-08-31",
+      "intrebare_id": 2763,
+      "rationament": "Bitcoin se menține într-un canal lateral stabil după recentele fluctuații, anticipând o ușoară revenire spre limita superioară.",
+      "sha256": "284f09daa4225fd4826d09aaefc366850c155990ec054d80e8cbb481a58b0e1c",
+      "valoare": 78900.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 16:46:06",
+      "intrebare": "Preţul Ethereum pe 2026-08-31",
+      "intrebare_id": 2764,
+      "rationament": "Ethereum urmează îndeaproape sentimentul general din piață, cu o minimă corecție pozitivă așteptată pe termen scurt.",
+      "sha256": "600ae4ca72cdf023da2a16ed6ca3670829b30fcc229771961a9d6f9304887156",
+      "valoare": 2475.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 16:46:06",
+      "intrebare": "Preţul Solana pe 2026-08-31",
+      "intrebare_id": 2765,
+      "rationament": "Solana arată o dinamică pozitivă susținută în ultimele zile, sugerând continuarea trendului ascendent moderat.",
+      "sha256": "e16585ef9366557b7a77016f3f1e9c7e20d98c0cbfedf2889e4346b6e8bc5f01",
+      "valoare": 107.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 16:46:06",
+      "intrebare": "Preţul XRP pe 2026-08-31",
+      "intrebare_id": 2766,
+      "rationament": "XRP rămâne extrem de stabil în jurul valorii actuale, cu o volatilitate redusă.",
+      "sha256": "15c8add5ac5e867241c70ea71bdfdf47aea1ecdb1a70d47b977bd61ba9732f2c",
+      "valoare": 1.41
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 16:46:06",
+      "intrebare": "Preţul Cardano pe 2026-08-31",
+      "intrebare_id": 2767,
+      "rationament": "Cardano își continuă tendința de consolidare la minime, fără presiuni majore de cumpărare.",
+      "sha256": "b93d87909a62a2de28246b60284928c5a70064924d9219963106038db2fc60bc",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 16:46:06",
+      "intrebare": "Preţul Dogecoin pe 2026-08-31",
+      "intrebare_id": 2768,
+      "rationament": "Dogecoin stagnează complet la același nivel de preț, lipsit de impuls extern.",
+      "sha256": "24e14589e8a66633064e71af0d92cd96289bfe7ec0cd688537d398bd956b2cf3",
+      "valoare": 0.09
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 16:46:06",
+      "intrebare": "Preţul BNB pe 2026-08-31",
+      "intrebare_id": 2769,
+      "rationament": "BNB oscilează stabil aproape de pragul de 700 USD, menținând echilibrul actual.",
+      "sha256": "c95f6e9cf7e0c81cfb3ea585bb7efaea84dac672528defb2991d10882fd6df53",
+      "valoare": 699.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 16:46:44",
+      "intrebare": "Preţul Bitcoin pe 2026-08-31",
+      "intrebare_id": 2763,
+      "rationament": "Recent average daily change +42 USD; projects slight upward continuation.",
+      "sha256": "4c280bdc513fd9f49f3872c4d8bd930b94ff6cb570d05295402d4e19a283c749",
+      "valoare": 78761.36
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 16:46:44",
+      "intrebare": "Preţul Ethereum pe 2026-08-31",
+      "intrebare_id": 2764,
+      "rationament": "Average daily change –5.5 USD; expects modest decline.",
+      "sha256": "6a96f2a60f2926d88dfe5e5662725dedeeec9734177c73b8f7c565bfb9fc4ea7",
+      "valoare": 2460.83
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 16:46:44",
+      "intrebare": "Preţul Solana pe 2026-08-31",
+      "intrebare_id": 2765,
+      "rationament": "Average daily change +1.41 USD; anticipates mild upward trend.",
+      "sha256": "266b633180442bbc3e8dbdd7a47d3baf15273822357154d06b3082ae54132b32",
+      "valoare": 107.78
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 16:46:44",
+      "intrebare": "Preţul XRP pe 2026-08-31",
+      "intrebare_id": 2766,
+      "rationament": "Average daily change –0.006 USD; predicts near‑flat price.",
+      "sha256": "0c918c4d16115adac8e6bd65555b6d5d408b07f1020c191acdc8be43549b11c2",
+      "valoare": 1.39
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 16:46:44",
+      "intrebare": "Preţul Cardano pe 2026-08-31",
+      "intrebare_id": 2767,
+      "rationament": "Average daily change –0.003 USD; forecasts stagnation at current level.",
+      "sha256": "e018c65b9fe1dc899defde6f8f434bd9508716bf08d75352dfa0e45e82869872",
+      "valoare": 0.2
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 16:46:44",
+      "intrebare": "Preţul Dogecoin pe 2026-08-31",
+      "intrebare_id": 2768,
+      "rationament": "Price flat over period; expects no change.",
+      "sha256": "d168364ba2fe2eb45c98df661ba2a0750c6083b45b32dc47fff1e4cf647bbe8e",
+      "valoare": 0.09
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 16:46:44",
+      "intrebare": "Preţul BNB pe 2026-08-31",
+      "intrebare_id": 2769,
+      "rationament": "Average daily change +1.16 USD; projects modest gain.",
+      "sha256": "bbaf23c42a0cd3c50c6db1576c387f59e1b2b88092c7eec55a8adae071c7d5a2",
+      "valoare": 698.62
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 16:47:13",
+      "intrebare": "Preţul Bitcoin pe 2026-08-31",
+      "intrebare_id": 2763,
+      "rationament": "Volatilitate mare, tendință ușor ascendentă spre 78.5k.",
+      "sha256": "da0264f354490455b4b280a56e6c7aa38736807e9db4e121fb9cdd696119fc46",
+      "valoare": 78500.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 16:47:13",
+      "intrebare": "Preţul Ethereum pe 2026-08-31",
+      "intrebare_id": 2764,
+      "rationament": "Preț stabil în intervalul 2.4k-2.5k, aștept 2.48k.",
+      "sha256": "58e3a392defad91dfe59a53ca7d25847cc469b5acd77cc234547ee88849c4a36",
+      "valoare": 2480.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 16:47:13",
+      "intrebare": "Preţul Solana pe 2026-08-31",
+      "intrebare_id": 2765,
+      "rationament": "Creștere recentă puternică, consolidare la 108 USD.",
+      "sha256": "e980130bc99f0293e737d22695f9dce5dede7e1871250333931ef64c26bab535",
+      "valoare": 108.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 16:47:13",
+      "intrebare": "Preţul XRP pe 2026-08-31",
+      "intrebare_id": 2766,
+      "rationament": "Preț stagnat, o ușoară tendință de sus în sus.",
+      "sha256": "78b7a1c88a33f28ce6d76bce03cfe9f8821c373a38630b83e994f6d8498f10fa",
+      "valoare": 1.42
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 16:47:13",
+      "intrebare": "Preţul Cardano pe 2026-08-31",
+      "intrebare_id": 2767,
+      "rationament": "Tendință descrescătoare, stabilizare la 0.20 USD.",
+      "sha256": "d2de846e2522cce0e6adeafd9e4fc228f069272576e978ecc115e5e41754828e",
+      "valoare": 0.2
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 16:47:13",
+      "intrebare": "Preţul Dogecoin pe 2026-08-31",
+      "intrebare_id": 2768,
+      "rationament": "Preț plat, aștept continuarea tendinței de plat.",
+      "sha256": "2a939c04bb06466dfba7c5bcf720b935dd43e1efe0eeb9acea3e3b6eadb6238a",
+      "valoare": 0.09
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 16:47:13",
+      "intrebare": "Preţul BNB pe 2026-08-31",
+      "intrebare_id": 2769,
+      "rationament": "Trend ascendent, consolidare în jurul pragului 700.",
+      "sha256": "3997a813e121d93be5b68257449750cf8fa11bae12c5d4cb09477acd05331491",
+      "valoare": 700.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 16:50:22",
+      "intrebare": "Preţul Bitcoin pe 2026-08-31",
+      "intrebare_id": 2763,
+      "rationament": "Trei zile consecutive de urcare ușoară după căderea de pe 28; continuare mică în interiorul intervalului 77-80k.",
+      "sha256": "fbe8f531bdae740ec72c3719eca2b9b526d5c21326ee1e040f03bd0cfb732b37",
+      "valoare": 78900.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 16:50:22",
+      "intrebare": "Preţul Ethereum pe 2026-08-31",
+      "intrebare_id": 2764,
+      "rationament": "Oscilează strâns în jurul lui 2470; ușor pozitiv de două zile, fără impuls propriu față de Bitcoin.",
+      "sha256": "920d1cd6e8976bded0b3c5cd64e8a7c8e40b64e452fb1da771ad5be8d7c8826e",
+      "valoare": 2472.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 16:50:22",
+      "intrebare": "Preţul Solana pe 2026-08-31",
+      "intrebare_id": 2765,
+      "rationament": "Singura cu trend clar ascendent în zece zile; presupun continuare moderată, nu repetarea saltului de pe 27.",
+      "sha256": "aa545fed88cf87bffa0e5cb65335867098602e4069dca40af8106fb7f6d8cb68",
+      "valoare": 107.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 16:50:22",
+      "intrebare": "Preţul XRP pe 2026-08-31",
+      "intrebare_id": 2766,
+      "rationament": "Stabilizată după scăderea de pe 28; nimic în date nu justifică abaterea de la ultimul preț.",
+      "sha256": "9882965b16ed949e9212801b7b05861709a2552b01dd9d11bce1c8963e3f9717",
+      "valoare": 1.4
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 16:50:22",
+      "intrebare": "Preţul Cardano pe 2026-08-31",
+      "intrebare_id": 2767,
+      "rationament": "Declin lent, dar rotunjirea la doi zecimali ascunde mișcarea; reperul e practic imbatabil aici.",
+      "sha256": "cb2a90c243d28072d084599648873af264b2c34a9dd822e1235b93da11b28e84",
+      "valoare": 0.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 16:50:22",
+      "intrebare": "Preţul Dogecoin pe 2026-08-31",
+      "intrebare_id": 2768,
+      "rationament": "Zece zile identice la afișare; orice altă valoare ar fi ghiceală pură pe zgomot invizibil.",
+      "sha256": "e7eb65eacb686f2fe1d2930ec484e1d84bab96779b15df4da0dab67c2a05e125",
+      "valoare": 0.09
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 16:50:22",
+      "intrebare": "Preţul BNB pe 2026-08-31",
+      "intrebare_id": 2769,
+      "rationament": "Revenire treptată după 691; se mișcă mai lent decât restul pieței, cu amplitudine mică.",
+      "sha256": "1327bf0ef237f9d32c791d5907db7fd706f0337c65c5876f3be1d64ceec15000",
+      "valoare": 699.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 17:30:13",
+      "intrebare": "Temperatura maximă la București pe 2026-08-31",
+      "intrebare_id": 2770,
+      "rationament": "Urmare a tendinței de încălzire post-frontală, cu cer senin și presiune ridicată stabilă.",
+      "sha256": "744b166f11960d699d35623dd310fbb3869c8fdaa7ef2887e509c51019fd62c0",
+      "valoare": 30.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 17:30:13",
+      "intrebare": "Va ploua la București pe 2026-08-31?",
+      "intrebare_id": 2771,
+      "rationament": "Urmare a tendinței de încălzire post-frontală, cu cer senin și presiune ridicată stabilă.",
+      "sha256": "b3b13f575cdf90a1c126af0f7e82210463ddc772ad221b154936f00a2a67a1a3",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 17:30:13",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-31",
+      "intrebare_id": 2772,
+      "rationament": "Recuperare termică după front, condiții stabile, dar umiditate reziduală din zilele anterioare.",
+      "sha256": "25c19e7b998f31c48bd4ec2000ba0496ae0f5b51ffbafbb1733947a9436d9bb8",
+      "valoare": 30.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 17:30:13",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-31?",
+      "intrebare_id": 2773,
+      "rationament": "Recuperare termică după front, condiții stabile, dar umiditate reziduală din zilele anterioare.",
+      "sha256": "5e067a069e617e7142b89343e385dd0b64d0abd1e9a58e03d54bd2889ec0ba5d",
+      "valoare": 0.15
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 17:30:13",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-31",
+      "intrebare_id": 2774,
+      "rationament": "Tendință ascendentă clară după răcire, cer senin, influență anticiclonică stabilizatoare.",
+      "sha256": "bcb800aa82a8ce395366dde5d67cf26f1b0a101b66e3583b13f5b96e5484ddff",
+      "valoare": 30.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 17:30:13",
+      "intrebare": "Va ploua la Iași pe 2026-08-31?",
+      "intrebare_id": 2775,
+      "rationament": "Tendință ascendentă clară după răcire, cer senin, influență anticiclonică stabilizatoare.",
+      "sha256": "771b313d3185f93ac6c08377768b533a6d643d6ae51fdb0ddfd29d572fcb8cae",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 17:30:13",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-31",
+      "intrebare_id": 2776,
+      "rationament": "Continuarea perioadei secetoase și calde, fără semne de perturbări în apropiere.",
+      "sha256": "cd150d4d7bcab2a8590e70f8ac4248f249a0ce9730ba4b2e5d468fac736673c1",
+      "valoare": 33.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 17:30:13",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-31?",
+      "intrebare_id": 2777,
+      "rationament": "Continuarea perioadei secetoase și calde, fără semne de perturbări în apropiere.",
+      "sha256": "aee67fb09665fa1284ff5126bd29492cc7dcee088b4cfde12b9728245348423a",
+      "valoare": 0.05
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 17:30:13",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-31",
+      "intrebare_id": 2778,
+      "rationament": "Recuperare lentă după ploile recente, influența mării limitează creșterea termică.",
+      "sha256": "eb9a2ce9b91c882c0a075dcd0e1cddb1b34a054884d2e4a91f957f9b69da3700",
+      "valoare": 26.5
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 17:30:13",
+      "intrebare": "Va ploua la Constanța pe 2026-08-31?",
+      "intrebare_id": 2779,
+      "rationament": "Recuperare lentă după ploile recente, influența mării limitează creșterea termică.",
+      "sha256": "bd48a2a5ed484a059ec3caed8adb77e933173e5dfd85e737d38ce729b8d7127d",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 17:30:13",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-31",
+      "intrebare_id": 2780,
+      "rationament": "Recuperare post-frontală în munți, dar instabilitate reziduală posibilă după ploile abundente.",
+      "sha256": "f7df82aa4238facce0a686ec0e7d6928638d346333b44938d75ef52bc69465f3",
+      "valoare": 27.0
+    },
+    {
+      "agent": "qwen",
+      "creata_la": "2026-08-30 17:30:13",
+      "intrebare": "Va ploua la Brașov pe 2026-08-31?",
+      "intrebare_id": 2781,
+      "rationament": "Recuperare post-frontală în munți, dar instabilitate reziduală posibilă după ploile abundente.",
+      "sha256": "b100d2ec8a2d6f0728c1a4d60e88554a9a23c8231debd1be61c333191b533b56",
+      "valoare": 0.25
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 17:30:21",
+      "intrebare": "Temperatura maximă la București pe 2026-08-31",
+      "intrebare_id": 2770,
+      "rationament": "Tendință de încălzire după scăderea recentă, probabilitate redusă de ploaie.",
+      "sha256": "727f03c624bcc9142c7a3e66c5bdf538830adf58a468ba7135e1cf0016156a97",
+      "valoare": 28.5
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 17:30:21",
+      "intrebare": "Va ploua la București pe 2026-08-31?",
+      "intrebare_id": 2771,
+      "rationament": "Tendință de încălzire după scăderea recentă, probabilitate redusă de ploaie.",
+      "sha256": "e46e4b61d1b013173b17bc8df6977072601cfff3567feb09691fbd38ca4a65ac",
+      "valoare": 0.2
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 17:30:21",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-31",
+      "intrebare_id": 2772,
+      "rationament": "Variabilitate recentă, ușoară creștere a temperaturii și riscului de ploaie.",
+      "sha256": "9cb52aef96b254b98e3a60599cdb76eb5ba26de14ebb7ba9d41e919eb463c7cd",
+      "valoare": 27.8
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 17:30:21",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-31?",
+      "intrebare_id": 2773,
+      "rationament": "Variabilitate recentă, ușoară creștere a temperaturii și riscului de ploaie.",
+      "sha256": "ee3e7a9d604b6e3a7c78010a2a1c0a304a78587cbbac21877c52292c2b703d70",
+      "valoare": 0.3
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 17:30:21",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-31",
+      "intrebare_id": 2774,
+      "rationament": "După ploi abundente, stabilizare termică și risc moderat de precipitații.",
+      "sha256": "5ba637fead089031d4628532aaf1cd5a9c253666e1818158b0adbe8200e91793",
+      "valoare": 27.3
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 17:30:21",
+      "intrebare": "Va ploua la Iași pe 2026-08-31?",
+      "intrebare_id": 2775,
+      "rationament": "După ploi abundente, stabilizare termică și risc moderat de precipitații.",
+      "sha256": "a2d83cbba36b5229f49ba2dfd7abe0fa03b8e3c1fae0a47d7c94bcc775a43df9",
+      "valoare": 0.4
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 17:30:21",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-31",
+      "intrebare_id": 2776,
+      "rationament": "Temperaturi constante ridicate, probabilitate scăzută de ploaie.",
+      "sha256": "d4e68150d9de3a22d56599f2ba12da60513e32468aa277a508ef8cf283bba322",
+      "valoare": 32.0
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 17:30:21",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-31?",
+      "intrebare_id": 2777,
+      "rationament": "Temperaturi constante ridicate, probabilitate scăzută de ploaie.",
+      "sha256": "be514f44481aab16fbf4fbe626a9ca40663fd44a3d13b4ca292b2f2c3818af14",
+      "valoare": 0.1
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 17:30:21",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-31",
+      "intrebare_id": 2778,
+      "rationament": "Temperaturi moderate, influență maritimă cu risc de ploaie.",
+      "sha256": "23cd9ef2fe3ab3fe7fef6a2f94dd88c5e4b3981d466b615cd2223127b8709c78",
+      "valoare": 25.8
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 17:30:21",
+      "intrebare": "Va ploua la Constanța pe 2026-08-31?",
+      "intrebare_id": 2779,
+      "rationament": "Temperaturi moderate, influență maritimă cu risc de ploaie.",
+      "sha256": "60175e515e61c69fbeb4d9230188947773143723028bbdcc1d1f001472e08f25",
+      "valoare": 0.35
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 17:30:21",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-31",
+      "intrebare_id": 2780,
+      "rationament": "După ploi intense, temperaturi mai scăzute și risc crescut de precipitații.",
+      "sha256": "571192fc6a0d192c499f3455f042b3eb9940adf728e8874bd616e3ee4233f8aa",
+      "valoare": 25.0
+    },
+    {
+      "agent": "mistral",
+      "creata_la": "2026-08-30 17:30:21",
+      "intrebare": "Va ploua la Brașov pe 2026-08-31?",
+      "intrebare_id": 2781,
+      "rationament": "După ploi intense, temperaturi mai scăzute și risc crescut de precipitații.",
+      "sha256": "a1240cd7def89f3ed2be6e1a406a921a522a14e54762a487181366b7476834f3",
+      "valoare": 0.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 17:30:27",
+      "intrebare": "Temperatura maximă la București pe 2026-08-31",
+      "intrebare_id": 2770,
+      "rationament": "Tendință de încălzire lentă, precipitații reduse după zile uscate.",
+      "sha256": "2b877143e08b37c77070d1e46947121d942959aab8d08b49c3fd4173fa30ca1d",
+      "valoare": 28.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 17:30:27",
+      "intrebare": "Va ploua la București pe 2026-08-31?",
+      "intrebare_id": 2771,
+      "rationament": "Tendință de încălzire lentă, precipitații reduse după zile uscate.",
+      "sha256": "f3b7e8c8a73f7d082852812f8998d4dbc3cdff6af2257cad4f42b4aa9adcc3c3",
+      "valoare": 0.2
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 17:30:27",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-31",
+      "intrebare_id": 2772,
+      "rationament": "Temperaturi în scădere, probabilitate moderată de ploaie după răcire.",
+      "sha256": "e900b9496d580dc2e8bc959ed3cadd27e31bfca8bc78fb7bf097a5c30abfb2ed",
+      "valoare": 27.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 17:30:27",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-31?",
+      "intrebare_id": 2773,
+      "rationament": "Temperaturi în scădere, probabilitate moderată de ploaie după răcire.",
+      "sha256": "a5d07951205768a5cc9dbaddb9bfdb96af835b009016085c0fdca314e9950ffd",
+      "valoare": 0.3
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 17:30:27",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-31",
+      "intrebare_id": 2774,
+      "rationament": "Răcire treptată, precipitații posibile după instabilitate recentă.",
+      "sha256": "95aaa1831859edc78e081a7b825e88d08f524c7c6ccfd1b64327cddd8998666b",
+      "valoare": 26.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 17:30:27",
+      "intrebare": "Va ploua la Iași pe 2026-08-31?",
+      "intrebare_id": 2775,
+      "rationament": "Răcire treptată, precipitații posibile după instabilitate recentă.",
+      "sha256": "9a68d6a00baf59ef6916f472be1b50dc893bdd8c4a4dd9c32ad0a26db7770e19",
+      "valoare": 0.25
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 17:30:27",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-31",
+      "intrebare_id": 2776,
+      "rationament": "Caniculă persistentă, șanse minime de ploaie în regim stabil.",
+      "sha256": "bfff792879c95172790f2c94c1bb1629f2f2ef4c58393e25091bface8855a4d9",
+      "valoare": 32.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 17:30:27",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-31?",
+      "intrebare_id": 2777,
+      "rationament": "Caniculă persistentă, șanse minime de ploaie în regim stabil.",
+      "sha256": "edad60a729553949b7fdbd7ff98a3e1ab437fbd39d6195684bf67cbacd49de5f",
+      "valoare": 0.05
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 17:30:27",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-31",
+      "intrebare_id": 2778,
+      "rationament": "Influență maritimă, temperaturi moderate și precipitații rare.",
+      "sha256": "60815ad4b3dd60f9fd07ccf37a6d9a1e845b4a41fd98b979a3d6dfb6411d277f",
+      "valoare": 25.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 17:30:27",
+      "intrebare": "Va ploua la Constanța pe 2026-08-31?",
+      "intrebare_id": 2779,
+      "rationament": "Influență maritimă, temperaturi moderate și precipitații rare.",
+      "sha256": "4656346617dd71dbcd153614dbe76d80c27878e7d699261f5619c8f0c599dcf1",
+      "valoare": 0.1
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 17:30:27",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-31",
+      "intrebare_id": 2780,
+      "rationament": "Răcire la altitudine, probabilitate ridicată de ploaie după furtuni recente.",
+      "sha256": "6809f47b93e680cac7777760341df38b9d97e6cfe8de1e83680c95f9c1763860",
+      "valoare": 24.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-08-30 17:30:27",
+      "intrebare": "Va ploua la Brașov pe 2026-08-31?",
+      "intrebare_id": 2781,
+      "rationament": "Răcire la altitudine, probabilitate ridicată de ploaie după furtuni recente.",
+      "sha256": "8232bbea977717f977fb525b946c9706aeb9061741283dc5286bd02237918d90",
+      "valoare": 0.4
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 17:31:57",
+      "intrebare": "Temperatura maximă la București pe 2026-08-31",
+      "intrebare_id": 2770,
+      "rationament": "Încălzire treptată după răcirea recentă; uscat, deci max în jur de 30°C.",
+      "sha256": "a0f1613b50427e555b36dab48c57d7c7b4292924ce84a57ad2e74e6d472b0aa1",
+      "valoare": 30.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 17:31:57",
+      "intrebare": "Va ploua la București pe 2026-08-31?",
+      "intrebare_id": 2771,
+      "rationament": "Încălzire treptată după răcirea recentă; uscat, deci max în jur de 30°C.",
+      "sha256": "c8505b5cd4078057592a27e22d5c21d52deed069b7c5c2f68552408cf65e4a68",
+      "valoare": 0.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 17:31:57",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-31",
+      "intrebare_id": 2772,
+      "rationament": "Tendință ascendentă după minimele de pe 27-28; atmosferă mai uscată.",
+      "sha256": "df2792bfa70ded2f2b1f5c67318499f471ec6e55262e0ee1d857bb17c04b50e6",
+      "valoare": 30.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 17:31:57",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-31?",
+      "intrebare_id": 2773,
+      "rationament": "Tendință ascendentă după minimele de pe 27-28; atmosferă mai uscată.",
+      "sha256": "f5210ac9dccf5c90b40fff9e0953729691ef4c1495c794634f77b4719e3625d1",
+      "valoare": 0.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 17:31:57",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-31",
+      "intrebare_id": 2774,
+      "rationament": "Recuperare termică clară după ploile din 26-27, dar ritmul a încetinit.",
+      "sha256": "fa4ab0b20b9578a2a3eabf6e3c79a370e98041c06970e97a9c46c8ec6fca21ed",
+      "valoare": 29.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 17:31:57",
+      "intrebare": "Va ploua la Iași pe 2026-08-31?",
+      "intrebare_id": 2775,
+      "rationament": "Recuperare termică clară după ploile din 26-27, dar ritmul a încetinit.",
+      "sha256": "3048c8b7e96f6f90ef0c9a5033f89e86bdc39c44d6c80a6c3ad84e5c4dfe0c52",
+      "valoare": 0.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 17:31:57",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-31",
+      "intrebare_id": 2776,
+      "rationament": "Serie lungă caldă și uscată, fără schimbare sinoptică; rămâne cald.",
+      "sha256": "0b5bb1714aad1de71f61daa0995f14ce73e4714dc23d3097a3c2e08df416bdfa",
+      "valoare": 33.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 17:31:57",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-31?",
+      "intrebare_id": 2777,
+      "rationament": "Serie lungă caldă și uscată, fără schimbare sinoptică; rămâne cald.",
+      "sha256": "b97f25c01720391cb8e092da965e6104b1f3b7f87422f80d976175fa15e64b5e",
+      "valoare": 0.05
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 17:31:57",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-31",
+      "intrebare_id": 2778,
+      "rationament": "Vânt de mare și cer variabil; după averse revine 27°C.",
+      "sha256": "49748c418c23558c2df0bb5ed9c01d78dc8cae19b107407e1ec5886c13709bb8",
+      "valoare": 27.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 17:31:57",
+      "intrebare": "Va ploua la Constanța pe 2026-08-31?",
+      "intrebare_id": 2779,
+      "rationament": "Vânt de mare și cer variabil; după averse revine 27°C.",
+      "sha256": "a194294e4ff42114dded4b4946f82fc67d246906881daa6dbb3f92675e6c8b5c",
+      "valoare": 0.15
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 17:31:57",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-31",
+      "intrebare_id": 2780,
+      "rationament": "Redresare după ploile abundente; max crește ușor spre 27°C.",
+      "sha256": "23c46f97373005da0995df7388c8bebfc286a80de5eec00e3c8cf4d45cbbc0d4",
+      "valoare": 27.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-08-30 17:31:57",
+      "intrebare": "Va ploua la Brașov pe 2026-08-31?",
+      "intrebare_id": 2781,
+      "rationament": "Redresare după ploile abundente; max crește ușor spre 27°C.",
+      "sha256": "f802eb8627d3e1f29f05929b0a053b9c3ef9428021805a2ee0d759204bb70249",
+      "valoare": 0.35
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 17:32:01",
+      "intrebare": "Temperatura maximă la București pe 2026-08-31",
+      "intrebare_id": 2770,
+      "rationament": "Temperatura scade după valul de căldură; ultimele zile arată în jur de 30 °C.",
+      "sha256": "4da7fa8502839db3f51151bbeb264423d176ffb8a489db9a924922bf00a14185",
+      "valoare": 30.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 17:32:01",
+      "intrebare": "Va ploua la București pe 2026-08-31?",
+      "intrebare_id": 2771,
+      "rationament": "Temperatura scade după valul de căldură; ultimele zile arată în jur de 30 °C.",
+      "sha256": "78ff7503e27d00a22ccee3c61900a7fdb34fa4e49df3284358103117023d7dfd",
+      "valoare": 0.15
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 17:32:01",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-31",
+      "intrebare_id": 2772,
+      "rationament": "Temperaturile recente se stabilizează la ~30 °C, fără semne de încălzire suplimentară.",
+      "sha256": "a483ffc37df78bf93cc3865f92da5844f4064cfa148fc05a8f3ed30252370132",
+      "valoare": 30.1
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 17:32:01",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-31?",
+      "intrebare_id": 2773,
+      "rationament": "Temperaturile recente se stabilizează la ~30 °C, fără semne de încălzire suplimentară.",
+      "sha256": "c45e02ecc6e451d50784705d6c1f4305434b4040421d287348f09eb58df1ac32",
+      "valoare": 0.12
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 17:32:01",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-31",
+      "intrebare_id": 2774,
+      "rationament": "După scăderea abruptă, temperatura a urcat din nou spre 30 °C.",
+      "sha256": "4992b5b5cde1d46314c8769603579fec08c4f38c16960e09f1c9d2745b0a49e7",
+      "valoare": 30.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 17:32:01",
+      "intrebare": "Va ploua la Iași pe 2026-08-31?",
+      "intrebare_id": 2775,
+      "rationament": "După scăderea abruptă, temperatura a urcat din nou spre 30 °C.",
+      "sha256": "9868326302125efe5878f983803ef3fe8e33a20577d0c1ed1d4d084d201ba902",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 17:32:01",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-31",
+      "intrebare_id": 2776,
+      "rationament": "Temperaturile au rămas constante peste 33 °C în ultimele zile, fără precipitații.",
+      "sha256": "deb75f649371f492eae6abfe15ab9d1c65702e29d3847b0ef609125aa49afb49",
+      "valoare": 33.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 17:32:01",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-31?",
+      "intrebare_id": 2777,
+      "rationament": "Temperaturile au rămas constante peste 33 °C în ultimele zile, fără precipitații.",
+      "sha256": "b75c621445725ffe768601d9752d81c5831d50a84af054727bfc78b31795ff19",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 17:32:01",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-31",
+      "intrebare_id": 2778,
+      "rationament": "Trend ușor ascendent de la 24 °C la 26 °C; precipitații rare recent.",
+      "sha256": "9ce1e9dcec925d2c793cfe661336e72d352ea86efeaadde9b934c68a9d7d4502",
+      "valoare": 26.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 17:32:01",
+      "intrebare": "Va ploua la Constanța pe 2026-08-31?",
+      "intrebare_id": 2779,
+      "rationament": "Trend ușor ascendent de la 24 °C la 26 °C; precipitații rare recent.",
+      "sha256": "ad00798e5b120ceb6cca1d9224e1f4fc47be44625b3cdd74d751979cf810c191",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 17:32:01",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-31",
+      "intrebare_id": 2780,
+      "rationament": "Temperatura a crescut recent; ploaie moderată în ultimele săptămâni sugerează șansă medie.",
+      "sha256": "644de7023d38c7619297ad641209452d2db936741843211fd2ac36b07ec9c213",
+      "valoare": 27.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-08-30 17:32:01",
+      "intrebare": "Va ploua la Brașov pe 2026-08-31?",
+      "intrebare_id": 2781,
+      "rationament": "Temperatura a crescut recent; ploaie moderată în ultimele săptămâni sugerează șansă medie.",
+      "sha256": "8026cc1c9cc917fa7819c7eb9c3b3143255a05661262d975f98e2e343d0792fc",
+      "valoare": 0.3
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 17:32:03",
+      "intrebare": "Temperatura maximă la București pe 2026-08-31",
+      "intrebare_id": 2770,
+      "rationament": "Vremea se reîncălzește treptat după un front răcoros; cerul va fi senin, fără șanse majore de ploaie.",
+      "sha256": "247007742ab35ce6ddb729e355047890d12b74b2b25e165736139164af6d309b",
+      "valoare": 31.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 17:32:03",
+      "intrebare": "Va ploua la București pe 2026-08-31?",
+      "intrebare_id": 2771,
+      "rationament": "Vremea se reîncălzește treptat după un front răcoros; cerul va fi senin, fără șanse majore de ploaie.",
+      "sha256": "53c7382a8f270db281fe2b637ae5af5706f343471750a56de625a03639b85fb4",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 17:32:03",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-31",
+      "intrebare_id": 2772,
+      "rationament": "Tendința de încălzire continuă, presiunea atmosferică stabilă reduce semnificativ riscul de precipitații.",
+      "sha256": "a4cbdcffd0e8b760276cb0860082aea23318d321786b375f7cacf3de2e74d759",
+      "valoare": 30.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 17:32:03",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-31?",
+      "intrebare_id": 2773,
+      "rationament": "Tendința de încălzire continuă, presiunea atmosferică stabilă reduce semnificativ riscul de precipitații.",
+      "sha256": "1d2dfab8a84fdbd02d92df8caa314a4f7c818981066279036df625c97403a503",
+      "valoare": 0.15
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 17:32:03",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-31",
+      "intrebare_id": 2774,
+      "rationament": "Temperaturile cresc constant, aerul uscat și stabil menține precipitațiile sub pragul de 0.2 mm.",
+      "sha256": "3b08a60cdb29ceb8bed29fa9fa6a37e5d5ae49a56ae8d2ee4a524bae2cd6e140",
+      "valoare": 30.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 17:32:03",
+      "intrebare": "Va ploua la Iași pe 2026-08-31?",
+      "intrebare_id": 2775,
+      "rationament": "Temperaturile cresc constant, aerul uscat și stabil menține precipitațiile sub pragul de 0.2 mm.",
+      "sha256": "c61496e6928420b2e01eaf881eca478d7ebc9989a9e9523230b463da68615bfc",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 17:32:03",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-31",
+      "intrebare_id": 2776,
+      "rationament": "Valul de căldură persistă în vest, menținând vremea stabilă și complet uscată.",
+      "sha256": "0a76b128418f34277e5a51fc799771493c69c39e7ee8339d39bf478de4bf0677",
+      "valoare": 33.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 17:32:03",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-31?",
+      "intrebare_id": 2777,
+      "rationament": "Valul de căldură persistă în vest, menținând vremea stabilă și complet uscată.",
+      "sha256": "a497d8e2efa63372c6773ea5e1c0daaa6ee7e5a5ad78c62b272b98832b9631bb",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 17:32:03",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-31",
+      "intrebare_id": 2778,
+      "rationament": "Influența maritimă moderează temperatura, iar cerul va fi predominant curat.",
+      "sha256": "c4a3ede15128db2600467027556387418a05cd597b0a44e66fcf34569cdc39ad",
+      "valoare": 27.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 17:32:03",
+      "intrebare": "Va ploua la Constanța pe 2026-08-31?",
+      "intrebare_id": 2779,
+      "rationament": "Influența maritimă moderează temperatura, iar cerul va fi predominant curat.",
+      "sha256": "23759b0fdf0761cad70a0cd1136c30c790549935054c8587992c287aba354293",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 17:32:03",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-31",
+      "intrebare_id": 2780,
+      "rationament": "După precipitațiile recente, zona montană experimentează o recuperare termică ușoară, cu probabilitate redusă de averse.",
+      "sha256": "f72cf35c9277cfc279c87be8c2be42c72dda7cacc221b3e8b38b407eea79f137",
+      "valoare": 27.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-08-30 17:32:03",
+      "intrebare": "Va ploua la Brașov pe 2026-08-31?",
+      "intrebare_id": 2781,
+      "rationament": "După precipitațiile recente, zona montană experimentează o recuperare termică ușoară, cu probabilitate redusă de averse.",
+      "sha256": "1f2c5afec657f9192512c6d3aa6003f685cae09a44e1ba2ed1ce40ae59826532",
+      "valoare": 0.25
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 17:32:34",
+      "intrebare": "Temperatura maximă la București pe 2026-08-31",
+      "intrebare_id": 2770,
+      "rationament": "Trend descending to ~30°C, scarce rain, low chance.",
+      "sha256": "b654b182b4b472032da2f3b233aeb08439bcf213da9eb9406302eeb77b4a310c",
+      "valoare": 30.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 17:32:34",
+      "intrebare": "Va ploua la București pe 2026-08-31?",
+      "intrebare_id": 2771,
+      "rationament": "Trend descending to ~30°C, scarce rain, low chance.",
+      "sha256": "c6aa372707741ea26679b0ec8c48b6d78ca0e90e51a7d6259e13924144056a11",
+      "valoare": 0.2
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 17:32:34",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-31",
+      "intrebare_id": 2772,
+      "rationament": "Stabilizing near 28-29°C, occasional showers, moderate rain chance.",
+      "sha256": "3b8b8a5a4c4ef774e063db3f214efc54ada9b735bd78824c5e028d6d3dc706b5",
+      "valoare": 28.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 17:32:34",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-31?",
+      "intrebare_id": 2773,
+      "rationament": "Stabilizing near 28-29°C, occasional showers, moderate rain chance.",
+      "sha256": "ea4b3cc4ecc8c99710bb6a50bfd2e92c1025df05079abeba48b5c5d584cebc9a",
+      "valoare": 0.3
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 17:32:34",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-31",
+      "intrebare_id": 2774,
+      "rationament": "Recent cooling then rebound to ~28°C, recent rain suggests moderate chance.",
+      "sha256": "584e2d7db36cc645bcea6500fe66d64e41ac1752ac8bc40fba102de4b211fc65",
+      "valoare": 28.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 17:32:34",
+      "intrebare": "Va ploua la Iași pe 2026-08-31?",
+      "intrebare_id": 2775,
+      "rationament": "Recent cooling then rebound to ~28°C, recent rain suggests moderate chance.",
+      "sha256": "2fe4d0dec38ec69597c51506e94dc086f39a6f8148335bd6fb9967c4b2b191ba",
+      "valoare": 0.3
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 17:32:34",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-31",
+      "intrebare_id": 2776,
+      "rationament": "Consistently hot ~33°C, negligible rain historically.",
+      "sha256": "2c39e56ac627df5657233d5a5ef32bfefb659a92d3853da24141ce38ec790c46",
+      "valoare": 33.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 17:32:34",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-31?",
+      "intrebare_id": 2777,
+      "rationament": "Consistently hot ~33°C, negligible rain historically.",
+      "sha256": "996559b9c1339b500c229be14d137ee5d9fc282de833a34edce5d174abc0523e",
+      "valoare": 0.05
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 17:32:34",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-31",
+      "intrebare_id": 2778,
+      "rationament": "Coastal mild ~26°C, recent heavy rain makes moderate chance.",
+      "sha256": "d01bfddcedadc53efb1de1e99652e978da634eafb611e38d38f5d8a12619e2ca",
+      "valoare": 26.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 17:32:34",
+      "intrebare": "Va ploua la Constanța pe 2026-08-31?",
+      "intrebare_id": 2779,
+      "rationament": "Coastal mild ~26°C, recent heavy rain makes moderate chance.",
+      "sha256": "7b5bdae3073c6eaee153e5b68ea5085951ddc98aace636d6c1ccb5cc35423b35",
+      "valoare": 0.3
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 17:32:34",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-31",
+      "intrebare_id": 2780,
+      "rationament": "Mountain cooling to ~26°C, recent heavy rain yields higher chance.",
+      "sha256": "aa23f61c382d5da5c339522fe8acea26bac5b24be5f00564b1d569d19d5154ce",
+      "valoare": 26.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-08-30 17:32:34",
+      "intrebare": "Va ploua la Brașov pe 2026-08-31?",
+      "intrebare_id": 2781,
+      "rationament": "Mountain cooling to ~26°C, recent heavy rain yields higher chance.",
+      "sha256": "a5d23fa60b6fe1f5d38862df06b7fdcc124ee86de34027835bbd8bc472c929c2",
+      "valoare": 0.4
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 17:33:57",
+      "intrebare": "Temperatura maximă la București pe 2026-08-31",
+      "intrebare_id": 2770,
+      "rationament": "Trend de încălzire după frontul rece, tipic sfârșit de august.",
+      "sha256": "5c509df52b7837f25ba642520ab99d58941503d26342b3f1f4853412f31135a6",
+      "valoare": 30.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 17:33:57",
+      "intrebare": "Va ploua la București pe 2026-08-31?",
+      "intrebare_id": 2771,
+      "rationament": "Trend de încălzire după frontul rece, tipic sfârșit de august.",
+      "sha256": "a0861cc5e9d6916436fdd3bcddcfe1d622463f6e76cd05abf67a852d687fb747",
+      "valoare": 0.1
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 17:33:57",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-31",
+      "intrebare_id": 2772,
+      "rationament": "Recuperare termică, dar nu la fel de cald ca începutul lunii.",
+      "sha256": "b5c17411eb2b59b2fe0de2ca6d7695791cb39b528924165c09f9e4d5606462e0",
+      "valoare": 28.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 17:33:57",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-31?",
+      "intrebare_id": 2773,
+      "rationament": "Recuperare termică, dar nu la fel de cald ca începutul lunii.",
+      "sha256": "00faa653d06508df390980c8b8e2643f44398c422ec81201feb65c53974c0053",
+      "valoare": 0.1
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 17:33:57",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-31",
+      "intrebare_id": 2774,
+      "rationament": "Revenire rapidă la căldură după fenomenul din 26-27 august.",
+      "sha256": "df4be35448cde05002ac5808c9e08b4131835272d12aed99d81c48b0bcae8e5c",
+      "valoare": 30.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 17:33:57",
+      "intrebare": "Va ploua la Iași pe 2026-08-31?",
+      "intrebare_id": 2775,
+      "rationament": "Revenire rapidă la căldură după fenomenul din 26-27 august.",
+      "sha256": "6f4c8375800351ca35347999fbcb47eacbe9f199f2b11304a052c935b83f7de6",
+      "valoare": 0.1
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 17:33:57",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-31",
+      "intrebare_id": 2776,
+      "rationament": "Stabilitate termică, puțină scădere după valoarea maximă.",
+      "sha256": "30bfe3549c7292c3c3eb5b05bb13dff586f91b4643d39135fb60dd0ec1580353",
+      "valoare": 32.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 17:33:57",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-31?",
+      "intrebare_id": 2777,
+      "rationament": "Stabilitate termică, puțină scădere după valoarea maximă.",
+      "sha256": "b2fd2f7621e1b6efb85bec62393d540255f71cfa098c1b466352bc96f6c673dc",
+      "valoare": 0.1
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 17:33:57",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-31",
+      "intrebare_id": 2778,
+      "rationament": "Căldură moderată, tipică pentru litoralul de toamnă.",
+      "sha256": "1d4c70bb727c894983b3d6a8807e3584afb8d30be7d2ead6f95c3966c2734960",
+      "valoare": 27.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 17:33:57",
+      "intrebare": "Va ploua la Constanța pe 2026-08-31?",
+      "intrebare_id": 2779,
+      "rationament": "Căldură moderată, tipică pentru litoralul de toamnă.",
+      "sha256": "fccc30d764e5c0506b6d29badf0cb9ac92ffac5c75f86146cb4d4b9e4aa61cdd",
+      "valoare": 0.1
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 17:33:57",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-31",
+      "intrebare_id": 2780,
+      "rationament": "Revenire la temperaturi normale de toamnă, fără precipitații.",
+      "sha256": "5eee2a78ffb6de6cc14744c65cad30f54520bcf84686b4952e6d50c4957574e7",
+      "valoare": 26.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-08-30 17:33:57",
+      "intrebare": "Va ploua la Brașov pe 2026-08-31?",
+      "intrebare_id": 2781,
+      "rationament": "Revenire la temperaturi normale de toamnă, fără precipitații.",
+      "sha256": "bedbf8e0415761b1ffd1a0fccec26947189baa715a2186745cb7d3145d3a2ee4",
+      "valoare": 0.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 17:35:22",
+      "intrebare": "Temperatura maximă la București pe 2026-08-31",
+      "intrebare_id": 2770,
+      "rationament": "Încălzire constantă de patru zile după frontul din 26-27 august; anticiclon de sfârșit de august, câmpia se reîncălzește rapid.",
+      "sha256": "ebaefe576b900175e1256732310f3f3c6c884b888fb9eb974a1ce99abe3fef57",
+      "valoare": 31.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 17:35:22",
+      "intrebare": "Va ploua la București pe 2026-08-31?",
+      "intrebare_id": 2771,
+      "rationament": "Încălzire constantă de patru zile după frontul din 26-27 august; anticiclon de sfârșit de august, câmpia se reîncălzește rapid.",
+      "sha256": "2c652589e7c0f5e8b8f7ba01f8838e4e459892bf8846c0215cf0d14f72fc8458",
+      "valoare": 0.18
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 17:35:22",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-08-31",
+      "intrebare_id": 2772,
+      "rationament": "Trend ascendent 25,3→29,5; depresiune la 340 m, dar convecție de după-amiază posibilă pe versanți.",
+      "sha256": "f035c42316cbf5d3aee9a8e89a9b345ab05685283916a4d9365933a9eaa2d829",
+      "valoare": 30.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 17:35:22",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-08-31?",
+      "intrebare_id": 2773,
+      "rationament": "Trend ascendent 25,3→29,5; depresiune la 340 m, dar convecție de după-amiază posibilă pe versanți.",
+      "sha256": "39eca8363332932d526ce11f7ac90e23b1326d8bbda45e5209d5d19bb1c7a114",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 17:35:22",
+      "intrebare": "Temperatura maximă la Iași pe 2026-08-31",
+      "intrebare_id": 2774,
+      "rationament": "Revenire puternică după episodul rece de 20-22°C; Moldova sub aceeași masă de aer cald ca Muntenia.",
+      "sha256": "48baf87e46360061d759dacb17f5bbde73645fbaf174964b7992187ca30d31a6",
+      "valoare": 30.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 17:35:22",
+      "intrebare": "Va ploua la Iași pe 2026-08-31?",
+      "intrebare_id": 2775,
+      "rationament": "Revenire puternică după episodul rece de 20-22°C; Moldova sub aceeași masă de aer cald ca Muntenia.",
+      "sha256": "11714c0e8ed7f499eadb2008ada34f0ca8cadcdd2fda1c9ea48f75a63ebd4c91",
+      "valoare": 0.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 17:35:22",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-08-31",
+      "intrebare_id": 2776,
+      "rationament": "Zece zile fără ploaie și maxime blocate la 33°C; Banatul a rămas complet în afara frontului.",
+      "sha256": "1a6e8e32f5ce51705856793a56dfda9b699c8710dcca88857a5f67028bffdf2a",
+      "valoare": 33.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 17:35:22",
+      "intrebare": "Va ploua la Timișoara pe 2026-08-31?",
+      "intrebare_id": 2777,
+      "rationament": "Zece zile fără ploaie și maxime blocate la 33°C; Banatul a rămas complet în afara frontului.",
+      "sha256": "c17803221fc872273ad66b202d349446174548961bd1db632a503da305a328a2",
+      "valoare": 0.12
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 17:35:22",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-08-31",
+      "intrebare_id": 2778,
+      "rationament": "Marea tamponează amplitudinea; ultimele zile în urcare lentă, dar litoralul rar depășește 28°C acum.",
+      "sha256": "3fabea1f8af2d123b6421b4d4bd8d11c7d310790812a8e1a4b6a983b089ea671",
+      "valoare": 27.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 17:35:22",
+      "intrebare": "Va ploua la Constanța pe 2026-08-31?",
+      "intrebare_id": 2779,
+      "rationament": "Marea tamponează amplitudinea; ultimele zile în urcare lentă, dar litoralul rar depășește 28°C acum.",
+      "sha256": "2bb63e8e486462aa531756e1797ad5433736e5fb25a6a556ee0b9de2d73e1f62",
+      "valoare": 0.12
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 17:35:22",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-08-31",
+      "intrebare_id": 2780,
+      "rationament": "625 m înseamnă câteva grade sub câmpie; încălzirea continuă, dar montanul dă averse locale după-amiaza.",
+      "sha256": "3b411d8dfb10e5f16976ae4dc7ab838b6e41698c98a9908619ae14f992298667",
+      "valoare": 27.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-08-30 17:35:22",
+      "intrebare": "Va ploua la Brașov pe 2026-08-31?",
+      "intrebare_id": 2781,
+      "rationament": "625 m înseamnă câteva grade sub câmpie; încălzirea continuă, dar montanul dă averse locale după-amiaza.",
+      "sha256": "76cc43f2555cfb3726a48af34d328ec394c77074eb215526f619b1980db0c208",
+      "valoare": 0.3
+    }
+  ],
+  "zi": "2026-08-30"
+}
