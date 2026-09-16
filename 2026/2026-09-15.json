@@ -1,0 +1,1574 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "5c3c83941da01c05a341ccfdae4e2cf9756e7f9b3006e2a9204cb6c0c1ba31e0",
+  "nr_frunze": 174,
+  "predictii": [
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 09:30:09",
+      "intrebare": "Câştigă Rayo Vallecano cu Espanyol?",
+      "intrebare_id": 3743,
+      "rationament": "Avantaj teren, dar Espanyol e echipă solidă; meci echilibrat.",
+      "sha256": "6219abad1af9b309173f0fbb5d6833eef04dc954f99c3f5618eb0da467e56a74",
+      "valoare": 0.52
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 09:30:09",
+      "intrebare": "Câştigă Deportivo Alavés cu Valencia?",
+      "intrebare_id": 3744,
+      "rationament": "Valencia are mai multă calitate, dar Alavés acasă poate incomoda.",
+      "sha256": "e40af61c6f2bd707132ece498a0c8fc8109afe904dca928fab2d247779753eb5",
+      "valoare": 0.45
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 09:30:09",
+      "intrebare": "Câştigă Elche cu Real Madrid?",
+      "intrebare_id": 3745,
+      "rationament": "Real Madrid e mult superioară, Elche acasă are șanse minime.",
+      "sha256": "6feab96d184749e6c14cd68268f4b909fdaa1000bf05f4aea17b533169d7a624",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 09:30:09",
+      "intrebare": "Câştigă Rayo Vallecano cu Espanyol?",
+      "intrebare_id": 3743,
+      "rationament": "Rayo are avantajul terenului, dar Espanyol este echilibrat, făcând meciul foarte strâns.",
+      "sha256": "8daa17bab24d4807a14f05b8c0885722b4824838078e6e436cae6c6d805d4099",
+      "valoare": 0.45
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 09:30:09",
+      "intrebare": "Câştigă Deportivo Alavés cu Valencia?",
+      "intrebare_id": 3744,
+      "rationament": "Valencia este o echipă superioară tehnic, chiar dacă Alavés luptă bine acasă.",
+      "sha256": "28a494e61010177686731c92f284af59eb3730aceb201c1244d7672f227b54ae",
+      "valoare": 0.35
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 09:30:09",
+      "intrebare": "Câştigă Elche cu Real Madrid?",
+      "intrebare_id": 3745,
+      "rationament": "Real Madrid este mult superior ca valoare, iar Elche este o echipă modestă.",
+      "sha256": "fd9da6b9b263b50ff8930f4c77de9206a36d6d02e60aaf47d52fad6d073e7759",
+      "valoare": 0.1
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 09:30:22",
+      "intrebare": "Câştigă Atlético Madrid cu Osasuna?",
+      "intrebare_id": 3787,
+      "rationament": "Atlético e puternică acasă, dar Osasuna poate rezista; victorie probabilă dar nu sigură.",
+      "sha256": "a9c1fea2a18ec385c5528bc011cab708901f3f417008a87cf70a8190431e4cb3",
+      "valoare": 0.78
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 09:30:22",
+      "intrebare": "Câştigă Barcelona cu Racing de Santander?",
+      "intrebare_id": 3788,
+      "rationament": "Barcelona domină categoric acasă, diferența de valoare e uriașă.",
+      "sha256": "1fc7b8e97f0f39f98c3bbfbacdd4779c4f09ec99f4689f69845d02b75ba24c52",
+      "valoare": 0.95
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 09:30:22",
+      "intrebare": "Câştigă Levante cu Athletic Bilbao?",
+      "intrebare_id": 3789,
+      "rationament": "Athletic e favorit, Levante acasă poate surprinde, dar șanse mici de victorie.",
+      "sha256": "be2a7798d741be0ae1a802367dc6fe817e03f1f429a47b04cdfc359fc1da8031",
+      "valoare": 0.35
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 09:30:24",
+      "intrebare": "Câştigă Atlético Madrid cu Osasuna?",
+      "intrebare_id": 3787,
+      "rationament": "Atlético are forma bună și avantajul terenului, Osasuna e echipă modestă.",
+      "sha256": "11962f32278eb04862ff754ba3682dde91a5fd0abd06f4aed1bdabf5d813b6da",
+      "valoare": 0.71
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 09:30:24",
+      "intrebare": "Câştigă Barcelona cu Racing de Santander?",
+      "intrebare_id": 3788,
+      "rationament": "Barcelona domină liga, diferența de calitate este enormă.",
+      "sha256": "7950a3a9f61145dc2e251e479828ac1c99d7ed77962b5ba28a27152316dd72d0",
+      "valoare": 0.92
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 09:30:24",
+      "intrebare": "Câştigă Levante cu Athletic Bilbao?",
+      "intrebare_id": 3789,
+      "rationament": "Athletic este mult mai puternic, Levante are doar avantajul gazdei.",
+      "sha256": "ae81dac4220a6d320a2a1e54fa7a2039cf222e73b52a96813e97cc8c985d64d1",
+      "valoare": 0.34
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 09:30:25",
+      "intrebare": "Câştigă Atlético Madrid cu Osasuna?",
+      "intrebare_id": 3787,
+      "rationament": "Atlético este net superioară pe teren propriu și are o defensivă foarte solidă în fața unui adversar accesibil.",
+      "sha256": "95be63d7dc24eee7169d5d44ec36867ff0c4135d6a7a95b55313ed12531b3673",
+      "valoare": 0.72
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 09:30:25",
+      "intrebare": "Câştigă Barcelona cu Racing de Santander?",
+      "intrebare_id": 3788,
+      "rationament": "Barcelona domină copios meciurile de acasă și diferența uriașă de valoare face ca victoria gazdelor să fie extrem de probabilă.",
+      "sha256": "f8a3aaf5b24b85ba69d3297fd1188d6c0e36270a67ec335d8c5dc3a4f077fc79",
+      "valoare": 0.85
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 09:30:25",
+      "intrebare": "Câştigă Levante cu Athletic Bilbao?",
+      "intrebare_id": 3789,
+      "rationament": "Athletic Bilbao este o echipă foarte organizată și redutabilă în deplasare, plecând cu prima șansă în această confruntare.",
+      "sha256": "9007709baaaf8c9810badc58013b42bf129414251006100ab531144a60728af4",
+      "valoare": 0.38
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 09:30:26",
+      "intrebare": "Câştigă Atlético Madrid cu Osasuna?",
+      "intrebare_id": 3787,
+      "rationament": "Avantajul terenului și superioritatea clară a atacului Atletico față de defensivă solidă, dar nu dominantă.",
+      "sha256": "7ebf98a18bc6b2151fa116ab65a6e45deee7c1172011548b4642e73b859048fc",
+      "valoare": 0.62
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 09:30:26",
+      "intrebare": "Câştigă Barcelona cu Racing de Santander?",
+      "intrebare_id": 3788,
+      "rationament": "Diferență uriașă de clasă; Barcelona acasă este extrem de favorită împotriva unui nou-promovat.",
+      "sha256": "6d5ec99accedf67698d868d9ca1b27e77acbcc6d1815a4494b00234207a76250",
+      "valoare": 0.85
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 09:30:26",
+      "intrebare": "Câştigă Levante cu Athletic Bilbao?",
+      "intrebare_id": 3789,
+      "rationament": "Athletic este echipă de top, dar terenul dificil al Levante reduce șansele oaspeților.",
+      "sha256": "4114cdef74e792c96d87f7e268bd187e2faa84b289723b6827b867aa5bab60fb",
+      "valoare": 0.35
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 09:35:50",
+      "intrebare": "Câştigă Atlético Madrid cu Osasuna?",
+      "intrebare_id": 3787,
+      "rationament": "Atlético e clar superior acasă, dar Osasuna e o echipă disciplinată care scoate des puncte în deplasare.",
+      "sha256": "5e453713469fd8eec72084ec6541b09ec20833eddc7f14cbd5e1c96675f7f38b",
+      "valoare": 0.68
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 09:35:50",
+      "intrebare": "Câştigă Barcelona cu Racing de Santander?",
+      "intrebare_id": 3788,
+      "rationament": "Diferență mare de lot între Barcelona acasă și o nou-promovată; doar o zi slabă ar schimba rezultatul.",
+      "sha256": "29940d95804dd3f5a425d2fdf4e1f819b3640002c9ae9b569688557baff966cd",
+      "valoare": 0.85
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 09:35:50",
+      "intrebare": "Câştigă Levante cu Athletic Bilbao?",
+      "intrebare_id": 3789,
+      "rationament": "Athletic e echipa mai bună, dar terenul Levantei și inconstanța bascilor în deplasare lasă loc surprizei.",
+      "sha256": "78cdc2fb277f163affbfff7222ab9c816783f557992c731b09a0507cf2640821",
+      "valoare": 0.27
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 14:30:24",
+      "intrebare": "Cursul euro (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3790,
+      "rationament": "Ușoară tendință ascendentă recentă, dar volatilitate mică; aștept o continuare modestă.",
+      "sha256": "d4527e4d047cfdd7e0f415e4c45b5c7217d88d9f034709e6f1d0d5d2e7155ca6",
+      "valoare": 5.258
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 14:30:24",
+      "intrebare": "Cursul dolar (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3791,
+      "rationament": "Creștere clară în ultimele zile; probabil se menține sau urcă ușor.",
+      "sha256": "af0802f6f117b882174fc6206db77977d327570a1bb6f46233941c6c2b25c3e4",
+      "valoare": 4.555
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 14:30:24",
+      "intrebare": "Cursul lirei sterline (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3792,
+      "rationament": "Trend ascendent constant; estimare ușor peste ultima valoare.",
+      "sha256": "c0737b1dfc5a293a97345148050135e8e9ade9dd1a9bd1535e4a7e4dfdf7db50",
+      "valoare": 6.145
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 14:30:24",
+      "intrebare": "Cursul francului elveţian (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3793,
+      "rationament": "Mișcări oscilante, fără direcție clară; medie a ultimelor zile.",
+      "sha256": "33e1385bbd6d40e5f2c0231ef5d1bb9b1e13aec7a1df6de668ca3d04b410e632",
+      "valoare": 5.575
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 14:30:24",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3794,
+      "rationament": "Scădere recentă, dar posibilă stabilizare; ușor peste minimul curent.",
+      "sha256": "42ada885170bb726c1eda28895658858759722696d58734f0ff7d8d9fd9f6885",
+      "valoare": 630.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 14:30:26",
+      "intrebare": "Cursul euro (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3790,
+      "rationament": "Ușoară tendință ascendentă recentă, continuă spre 5.27",
+      "sha256": "4acdfd90d9d87c5b0c54fbea06cfec6534a31f18f4b8f90d957ad10003803174",
+      "valoare": 5.265
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 14:30:26",
+      "intrebare": "Cursul dolar (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3791,
+      "rationament": "Creștere moderată în ultimele zile, menținută săptămâna viitoare",
+      "sha256": "57f449590e17ae75ca18c5bce32a6f0614fdf140f3a32a0ee26a8851c68c2d54",
+      "valoare": 4.57
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 14:30:26",
+      "intrebare": "Cursul lirei sterline (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3792,
+      "rationament": "Trend ascendent constant, ușor accelerat",
+      "sha256": "a46e345ddf3f6b68fc04f061397b7d10097a86a83eb15a83d719e973a44c7b63",
+      "valoare": 6.16
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 14:30:26",
+      "intrebare": "Cursul francului elveţian (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3793,
+      "rationament": "Stabilitate cu ușoară creștere recentă",
+      "sha256": "1bf3b4449146a7184771b8f13d477dfee6122506cfed7469474d3a13247bd886",
+      "valoare": 5.58
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 14:30:26",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3794,
+      "rationament": "Scădere ușoară, continuă tendința descendentă",
+      "sha256": "751810a72208cb67d18eec5b8b468585cfb9a541ea31f65e6397d0ca822ff48d",
+      "valoare": 625.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 14:30:29",
+      "intrebare": "Cursul euro (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3790,
+      "rationament": "Menținerea nivelului de la ultima cotație, piața fiind stabilă pe termen scurt fără trend clar.",
+      "sha256": "d3b0fc70e9cc59e52c46c5a30c52d23052241b086ceb88d7348fce4f0de8d7b9",
+      "valoare": 5.2636
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 14:30:29",
+      "intrebare": "Cursul dolar (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3791,
+      "rationament": "Preluarea valorii curente, urmând comportamentul de random walk caracteristic perechilor valutare majore.",
+      "sha256": "67bac63693e8f9a3060fd312f0f91317cac3b70d7d5db5842b20375b8be627be",
+      "valoare": 4.5624
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 14:30:29",
+      "intrebare": "Cursul lirei sterline (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3792,
+      "rationament": "Adoptarea prețului de astăzi ca cea mai bună estimare în absența unor șocuri macroeconomice majore.",
+      "sha256": "576d748b8be61183c4f45894bf9f6adbf2d7f7a6cb9dce5efe78117e7888b403",
+      "valoare": 6.1494
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 14:30:29",
+      "intrebare": "Cursul francului elveţian (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3793,
+      "rationament": "Păstrarea ultimei valori BNR, conform ipotezei de martor care minimizează erorile pătratice medii.",
+      "sha256": "aa85c4e5bae23741f2ee33547b6eb22c8ea77c5fed78f8f5b15387cc0ef8a4ce",
+      "valoare": 5.5779
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 14:30:29",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3794,
+      "rationament": "Stabilizare în jurul valorii recente, deși activul are volatilitate ridicată și o tendință mai dinamică.",
+      "sha256": "e1936c5a6a08ae6c26a04a2096be26c6891fe873c68d3472143bd9c36c83bfd4",
+      "valoare": 626.51
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 14:30:30",
+      "intrebare": "Cursul euro (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3790,
+      "rationament": "Medie mobilă simplă a ultimelor cinci zile pentru a netezi volatilitatea mică și a estima o stabilizare.",
+      "sha256": "a4bd4cd1b5ec3294b1496fc64c5a56ca5076fbcfc7133ea6065ce6c55cd8764d",
+      "valoare": 5.2536
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 14:30:30",
+      "intrebare": "Cursul dolar (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3791,
+      "rationament": "Medie mobilă a ultimelor cinci zile, reflectând o ușoară corecție după creșterea recentă a dolarului.",
+      "sha256": "2691a6f641074c69271cac417ce621dadf6b61ccab1704765eb735e4166e5885",
+      "valoare": 4.545
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 14:30:30",
+      "intrebare": "Cursul lirei sterline (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3792,
+      "rationament": "Medie mobilă a ultimelor cinci zile, indicând o tendință ușor ascendentă dar stabilă a lirei sterline.",
+      "sha256": "a661ba11db56775bdc192780658401ce11c1fc5281b28f94b1e774b5dab7990a",
+      "valoare": 6.13
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 14:30:30",
+      "intrebare": "Cursul francului elveţian (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3793,
+      "rationament": "Medie mobilă a ultimelor cinci zile, sugerând o revenire spre medie după scăderea recentă a francului.",
+      "sha256": "b87e7420346c603893c3a52d5c6c0cca2493880b4ae73647d76ce624e49b6824",
+      "valoare": 5.573
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 14:30:30",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3794,
+      "rationament": "Medie mobilă a ultimelor cinci zile, capturând o stabilizare după scăderea prețului aurului în ultimele zile.",
+      "sha256": "6751978532c004e693b9282710b79f87473fe24121e4ca925cb9f5898ee24585",
+      "valoare": 632.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 14:35:25",
+      "intrebare": "Cursul euro (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3790,
+      "rationament": "Curs administrat, cu derivă lentă în sus; saltul de azi rareori se retrage complet, dar nici nu accelerează.",
+      "sha256": "3daa602531115d783f56d0990b306f1c44082572c40526380e5571f96a684e83",
+      "valoare": 5.2655
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 14:35:25",
+      "intrebare": "Cursul dolar (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3791,
+      "rationament": "Raliu de dolar pe trei zile consecutive; aștept o corecție parțială a EUR/USD spre 1.156, cu EUR/RON aproape fix.",
+      "sha256": "46db5864a85394fc0441de49ce209207bc635b5f69a4b50324e8bbc2d8574704",
+      "valoare": 4.554
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 14:35:25",
+      "intrebare": "Cursul lirei sterline (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3792,
+      "rationament": "EUR/GBP la 0,856, în mijlocul intervalului; presupun reversie ușoară după avansul de luni-marți.",
+      "sha256": "4a9d4b368e9c36d9e2e1d21f4f557f4ae171437fcece64452ee142f36d5f2e00",
+      "valoare": 6.145
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 14:35:25",
+      "intrebare": "Cursul francului elveţian (RON) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3793,
+      "rationament": "EUR/CHF blocat în jur de 0,944 de două săptămâni; păstrez raportul și las derivă din euro.",
+      "sha256": "24bb0d16cf3090d07a31b5b4d2c2b1c5b5110f761416e7a81b3135cc8b81fd0a",
+      "valoare": 5.58
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 14:35:25",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3794,
+      "rationament": "Corecție de cinci zile de la vârful de 649; aur are bias structural ascendent, deci aștept stabilizare, nu continuare.",
+      "sha256": "42bf5f1e0fb1303b06ae8d817d7d9179432759299a02efac62eab5811c83d012",
+      "valoare": 628.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 16:45:31",
+      "intrebare": "Preţul Bitcoin pe 2026-09-16",
+      "intrebare_id": 3844,
+      "rationament": "Ușoară tendință descendentă, dar posibilă revenire; prognoză aproape de media recentă.",
+      "sha256": "0b3e02e9f4edf386a024bff1a9ce13ca0c9dc3dfe51a93a20ca237ca6eec3526",
+      "valoare": 77000.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 16:45:31",
+      "intrebare": "Preţul Ethereum pe 2026-09-16",
+      "intrebare_id": 3845,
+      "rationament": "Volatilitate recentă, medie mobilă sugerează o ușoară creștere față de ultimul preț.",
+      "sha256": "811b2d7b6a4813e97222a2569b1fcebf4b87e0deae06925373fdddfddd05a473",
+      "valoare": 2500.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 16:45:31",
+      "intrebare": "Preţul Solana pe 2026-09-16",
+      "intrebare_id": 3846,
+      "rationament": "Trend lateral cu ușoară revenire; prognoză bazată pe media ultimelor cinci zile.",
+      "sha256": "fcc85df08ff93561302f9caecffdc7aa17e4eeef3afd079c642d32ea75747f53",
+      "valoare": 101.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 16:45:31",
+      "intrebare": "Preţul XRP pe 2026-09-16",
+      "intrebare_id": 3847,
+      "rationament": "Creștere recentă, dar posibilă corecție; prognoză sub ultimul preț.",
+      "sha256": "26c520c8a3c8cca336fde3c0c73ac84bc2c63e8a06a8bdc4fe00904fa9fc6f96",
+      "valoare": 1.4
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 16:45:31",
+      "intrebare": "Preţul Cardano pe 2026-09-16",
+      "intrebare_id": 3848,
+      "rationament": "Stabil la 0.21; prognoză identică cu ultimul preț.",
+      "sha256": "79165eefb07e2a85744e12dce14b431b7cd34465ddb7e547bd318a4f92678a7c",
+      "valoare": 0.21
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 16:45:31",
+      "intrebare": "Preţul Dogecoin pe 2026-09-16",
+      "intrebare_id": 3849,
+      "rationament": "Preț constant de mai multe zile; prognoză neschimbată.",
+      "sha256": "82030c6f2726449f216f6a55020fe8cd1ef93913b3522b0a252a40496413752c",
+      "valoare": 0.08
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 16:45:31",
+      "intrebare": "Preţul BNB pe 2026-09-16",
+      "intrebare_id": 3850,
+      "rationament": "Ușoară tendință de stabilizare; prognoză aproape de media recentă.",
+      "sha256": "0600c0f13c54fee02384fd473282f39992a9bbe81ef7b863565949ed52896ef1",
+      "valoare": 722.44
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 16:45:35",
+      "intrebare": "Preţul Bitcoin pe 2026-09-16",
+      "intrebare_id": 3844,
+      "rationament": "Ușoară scădere după vârf recent, tendință de consolidare sub 78k.",
+      "sha256": "680f59ba46351737b5b89d25da31920ab2292d4bc34eb801d97357032ec537cc",
+      "valoare": 77000.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 16:45:35",
+      "intrebare": "Preţul Ethereum pe 2026-09-16",
+      "intrebare_id": 3845,
+      "rationament": "Oscilații în jur de 2.5k, ușoară tendință descendentă.",
+      "sha256": "d33a202167d01f7a96c4159f30eb6a10be5ef795f9abbcd1e36729aef6829317",
+      "valoare": 2470.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 16:45:35",
+      "intrebare": "Preţul Solana pe 2026-09-16",
+      "intrebare_id": 3846,
+      "rationament": "Corecție moderată după creșterea de la 98 la 106, stabilizare în jur de 101.",
+      "sha256": "7fc7ca45fdf5ee34ac2670de3bed082ee8d86b182ef90dc4ee0aac145c1f9e0e",
+      "valoare": 101.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 16:45:35",
+      "intrebare": "Preţul XRP pe 2026-09-16",
+      "intrebare_id": 3847,
+      "rationament": "Ușoară urcare recentă, susținută de ultimele două zile.",
+      "sha256": "4420b3af5ac04ccf04d76e1a60eaa3b5acaf5c89fcfaa719866dc5d22692d471",
+      "valoare": 1.44
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 16:45:35",
+      "intrebare": "Preţul Cardano pe 2026-09-16",
+      "intrebare_id": 3848,
+      "rationament": "Preț stabil în jur de 0.21, fără variații semnificative.",
+      "sha256": "0b04dd560bd89ff18129a1868f6db643aab36eaf355bbb27afa712828bb9398c",
+      "valoare": 0.21
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 16:45:35",
+      "intrebare": "Preţul Dogecoin pe 2026-09-16",
+      "intrebare_id": 3849,
+      "rationament": "Păstrează nivelul constant de 0.08 în ultimele săptămâni.",
+      "sha256": "2bd5001499b42421a1c1ab9ddb10a6c28b4194de92ab1f5e2d835b1b55ca2138",
+      "valoare": 0.08
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 16:45:35",
+      "intrebare": "Preţul BNB pe 2026-09-16",
+      "intrebare_id": 3850,
+      "rationament": "Ușoară corecție după vârf de 753, tendință de stabilizare sub 720.",
+      "sha256": "987b15e3391c5aca0311dfa87213c0bfd4860567777b3deac4c462de845cf9ce",
+      "valoare": 718.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 16:45:37",
+      "intrebare": "Preţul Bitcoin pe 2026-09-16",
+      "intrebare_id": 3844,
+      "rationament": "După scăderea recentă de la 78k la 76k, anticipez o ușoară corecție pozitivă tehnică.",
+      "sha256": "aca71b0b691568f72a2ea93703544429d337de951f1bcef702ccfa3ff07d140e",
+      "valoare": 76100.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 16:45:37",
+      "intrebare": "Preţul Ethereum pe 2026-09-16",
+      "intrebare_id": 3845,
+      "rationament": "Prețul oscilează în jurul valorii de 2.480 USD, aștept o stabilizare minoră.",
+      "sha256": "fd3b71cdde92d9c9a39cb9e9e6f7287745bb56f78e091054be3640e613971601",
+      "valoare": 2490.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 16:45:37",
+      "intrebare": "Preţul Solana pe 2026-09-16",
+      "intrebare_id": 3846,
+      "rationament": "Se menține stabil în jurul pragului de 100 USD, fără impulsuri majore vizibile.",
+      "sha256": "7ae782ea86aba95bc91bf6eca0f0544686dd536cb7ffaf0d399989b5ba31505a",
+      "valoare": 101.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 16:45:37",
+      "intrebare": "Preţul XRP pe 2026-09-16",
+      "intrebare_id": 3847,
+      "rationament": "A arătat o ușoară creștere în ultimele două zile, dar probabil va reveni la media recentă.",
+      "sha256": "510bd6f79126af9cb96b94dc30a6ac65b1a5cad49683c08dd607eee6d390f646",
+      "valoare": 1.41
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 16:45:37",
+      "intrebare": "Preţul Cardano pe 2026-09-16",
+      "intrebare_id": 3848,
+      "rationament": "Prețul este extrem de stabil la 0.21 USD, anticipăm menținerea nivelului.",
+      "sha256": "1340fd7d144c5519fca356b3986aee9349cc8190ee973ac16fb9f01005959b4e",
+      "valoare": 0.21
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 16:45:37",
+      "intrebare": "Preţul Dogecoin pe 2026-09-16",
+      "intrebare_id": 3849,
+      "rationament": "Valoarea a stagnat constant la 0.08 USD, fără motive de volatilitate imediată.",
+      "sha256": "abcccbf3c055b5d0e6708bb37a4c98b77be909bbf6c2bf54e7a594919d939365",
+      "valoare": 0.08
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 16:45:37",
+      "intrebare": "Preţul BNB pe 2026-09-16",
+      "intrebare_id": 3850,
+      "rationament": "Consolidare clară în jurul valorii de 720 USD după scăderile de săptămâna trecută.",
+      "sha256": "cb936027da98b08f68a3898bcabe8c82fd1eaa995cc083e1ab01e7803c6116c4",
+      "valoare": 720.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 16:45:39",
+      "intrebare": "Preţul Bitcoin pe 2026-09-16",
+      "intrebare_id": 3844,
+      "rationament": "Volatile, dar fără trend clar; ratarea minimă prin replicarea prețului actual este cea mai sigură strategie.",
+      "sha256": "e49232313b710a76e77a8ace745f3ae697a08775ea2d7ea52caa51fcd439048b",
+      "valoare": 76981.7
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 16:45:39",
+      "intrebare": "Preţul Ethereum pe 2026-09-16",
+      "intrebare_id": 3845,
+      "rationament": "Oscilații laterale recente; menținerea nivelului curent minimizează riscul de eroare în absența unui semnal.",
+      "sha256": "27d9a433c42c42bbd1763982dbfe2a440ae6c416cce2f96f4ce71897d2c6b0da",
+      "valoare": 2479.57
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 16:45:39",
+      "intrebare": "Preţul Solana pe 2026-09-16",
+      "intrebare_id": 3846,
+      "rationament": "Lipsa unei direcții dominante sugerează că prețul va rămâne stabil în jurul valorii de închidere.",
+      "sha256": "e9bcf8fda15dccf85d1bd105b0303238b8176bc61c980a4992903ce2db9f8ec8",
+      "valoare": 100.98
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 16:45:39",
+      "intrebare": "Preţul XRP pe 2026-09-16",
+      "intrebare_id": 3847,
+      "rationament": "Mică tendință ascendentă recentă, dar incertitudine mare; prețul actual rămâne cea mai bună estimare.",
+      "sha256": "0327804d9a2fb05c3bc28083a8c6e55c99cb32621fe8e33299968642faf61da7",
+      "valoare": 1.43
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 16:45:39",
+      "intrebare": "Preţul Cardano pe 2026-09-16",
+      "intrebare_id": 3848,
+      "rationament": "Volatilitate extrem de scăzută; prețul se mișcă în pași mici, deci replicarea este optimă.",
+      "sha256": "cc78a92a21d3ee5061db7ff4c5ce9a8a415947777fa0bee8deed04cb9e04e767",
+      "valoare": 0.21
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 16:45:39",
+      "intrebare": "Preţul Dogecoin pe 2026-09-16",
+      "intrebare_id": 3849,
+      "rationament": "Preț plat și stabil; orice deviere este speculativă, deci menținerea valorii actuale este rațională.",
+      "sha256": "abfdf9b448dbbff0f74f932a7c4d291af5b626f5ab301c5deb4a600dac4aa1ef",
+      "valoare": 0.08
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 16:45:39",
+      "intrebare": "Preţul BNB pe 2026-09-16",
+      "intrebare_id": 3850,
+      "rationament": "Consolidare după scăderi; fără catalizator clar, prețul de azi este cel mai probabil pentru mâine.",
+      "sha256": "7203f32972ae18730bcf5e2f313b2dd9179fc74876d6504d32d84c896bed58e7",
+      "valoare": 721.02
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 16:46:11",
+      "intrebare": "Preţul Bitcoin pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3851,
+      "rationament": "Downtrend continues; break below 77k likely.",
+      "sha256": "26e4891b150dda11a987b31d53bbd47bccd8f47a9f56c5b9826ee979fe249dd0",
+      "valoare": 76800.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 16:46:11",
+      "intrebare": "Preţul Ethereum pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3852,
+      "rationament": "Weak momentum; test of 2450 support probable.",
+      "sha256": "831ad7e502dcae3baa22625951cd55457699671fc7115d52082eb481fff9c764",
+      "valoare": 2470.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 16:46:11",
+      "intrebare": "Preţul Solana pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3853,
+      "rationament": "Falling from 106; 100 support weak.",
+      "sha256": "d3217bdefe309f78c5b3aea0b75ab2b9c36656e1abb82bd983e23e6ef005079c",
+      "valoare": 99.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 16:46:11",
+      "intrebare": "Preţul XRP pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3854,
+      "rationament": "Upward move from 1.33; retest 1.45.",
+      "sha256": "e50f4749a2a7e7a34947ecff65268729fff55eae86c250d4b5c2949720ed5e87",
+      "valoare": 1.44
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 16:46:11",
+      "intrebare": "Preţul Dogecoin pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3856,
+      "rationament": "No catalyst; continued decline.",
+      "sha256": "413b205164c4ad2d3ec98c3586d07e2cc10be6b84a053c5c8e0062be657f8bce",
+      "valoare": 0.07
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 16:46:13",
+      "intrebare": "Preţul Bitcoin pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3851,
+      "rationament": "Ușoară scădere continuă, volatilitate moderată, trend descendent pe săptămâna recentă.",
+      "sha256": "9ecc4ebfb54886f893b828770137597dd0692c2b0c3fe65a130ce224bbb4d60d",
+      "valoare": 76000.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 16:46:13",
+      "intrebare": "Preţul Ethereum pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3852,
+      "rationament": "Corecție minoră după fluctuații, susținută de presiune vânzare.",
+      "sha256": "800dd66cf23aba77d3098df93b132a2359a7d800b4afa31585304ad26cbaf74b",
+      "valoare": 2450.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 16:46:13",
+      "intrebare": "Preţul Solana pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3853,
+      "rationament": "Oscilații limitate, tendință ușor descendentă în ultimele zile.",
+      "sha256": "e53e60b9f1367b80a12952daee15a7ac79a6d2a7f19a530a15173e52fff3f72c",
+      "valoare": 101.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 16:46:13",
+      "intrebare": "Preţul XRP pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3854,
+      "rationament": "Recuperare modestă, sprijinită de sentiment pozitiv pe piață.",
+      "sha256": "a576f86d84867fc61a9c504429c4152b3851610198d6016ea19d0988281bf8b7",
+      "valoare": 1.45
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 16:46:13",
+      "intrebare": "Preţul Cardano pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3855,
+      "rationament": "Stabilitate în jurul nivelului curent, fără schimbări majore anticipate.",
+      "sha256": "27e7516a639bb240350e594e1bf541b61fd388c6a60fc589ff64bdfcc0631a0c",
+      "valoare": 0.22
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 16:46:13",
+      "intrebare": "Preţul Dogecoin pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3856,
+      "rationament": "Păstrează nivelul de suport, volatilitate scăzută.",
+      "sha256": "417e4c7e2c260956eea510fccc86cfaf8875c7021fb0aac9c8cd47064f78f447",
+      "valoare": 0.08
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 16:46:13",
+      "intrebare": "Preţul BNB pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3857,
+      "rationament": "Ușoară corecție, presiune vânzare pe termen scurt.",
+      "sha256": "d0ec114310a6ca49df0fb4d2a24be4d1dd20c5e24cb0745935c40c2b9a9229b7",
+      "valoare": 710.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 16:46:15",
+      "intrebare": "Preţul Bitcoin pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3851,
+      "rationament": "Piața dă semne de consolidare ușoară în jurul pragului actual după recentele scăderi.",
+      "sha256": "5f9b79e9992dd70e977a00e16dc0d931d42b1418e301945e044eb09ce87e666b",
+      "valoare": 76500.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 16:46:15",
+      "intrebare": "Preţul Ethereum pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3852,
+      "rationament": "Se menține într-un interval stabil, anticipând o ușoară revenire spre media săptămânală.",
+      "sha256": "c6352c98438e0ffdf68d60f717e08175d5921c3cc96dac5a746d59fa6f2ca79d",
+      "valoare": 2490.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 16:46:15",
+      "intrebare": "Preţul Solana pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3853,
+      "rationament": "Volatilitatea redusă sugerează o stagnare aproape de nivelul de închidere recent.",
+      "sha256": "d3a7bc849aee53bd93a0ad1432cafaa0fa45f5f5a8b765ca9417ae5af65ca334",
+      "valoare": 101.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 16:46:15",
+      "intrebare": "Preţul XRP pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3854,
+      "rationament": "Prețul oscilează strâns, estimăm o stabilizare în zona maximelor recente.",
+      "sha256": "347500f9b8d7bac5f2d2e963624c29b07edee1ed1caa72af1fc6ec84eead76d5",
+      "valoare": 1.41
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 16:46:15",
+      "intrebare": "Preţul Cardano pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3855,
+      "rationament": "Lichiditatea scăzută și tendința laterală mențin valoarea aproape neschimbată.",
+      "sha256": "21490ea05dac2577312acc11a869f6adc28086aad8287afe66a0dae0b2ae5ab9",
+      "valoare": 0.21
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 16:46:15",
+      "intrebare": "Preţul Dogecoin pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3856,
+      "rationament": "Ușoară tendință de corecție liniară pe termen scurt.",
+      "sha256": "d80af73f2a5d1fa89bb251b79dfef8650107857862f9db3bcf20852ca5906354",
+      "valoare": 0.085
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 16:46:15",
+      "intrebare": "Preţul BNB pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3857,
+      "rationament": "Se plasează prudent sub mediile mobile recente din cauza presiunii de vânzare.",
+      "sha256": "553003b4be2dccdb86476d22554769524ba1016cf9b005c89b071f681971dadc",
+      "valoare": 718.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 16:46:16",
+      "intrebare": "Preţul Bitcoin pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3851,
+      "rationament": "Tendința ușor descendentă sugerează o stabilizare sub media ultimelor închideri.",
+      "sha256": "784a181df06284274363a74e3a51e069ff42783596be4a7d90b88f3336f80691",
+      "valoare": 76500.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 16:46:16",
+      "intrebare": "Preţul Ethereum pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3852,
+      "rationament": "Volatilitate moderată cu presiune vânzătoare, anticipând o corecție minoră.",
+      "sha256": "be93aeffb083396e6584a38c9624c7b48a85913aae775cd273261cc6e29569d9",
+      "valoare": 2450.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 16:46:16",
+      "intrebare": "Preţul Solana pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3853,
+      "rationament": "Slăbirea continuă a prețului indică un risc de scădere suplimentară.",
+      "sha256": "b0ebb82b3c4c63de05e692ead7b9eaff6a46502e27d7cc1e6df876b6b3d576f3",
+      "valoare": 99.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 16:46:16",
+      "intrebare": "Preţul XRP pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3854,
+      "rationament": "Revenirea la niveluri anterioare sugerează o consolidare laterală.",
+      "sha256": "6e10533ba24591fcb0d4807259ec4029ab8f0e5f301649c57ee71e847fbf49bd",
+      "valoare": 1.4
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 16:46:16",
+      "intrebare": "Preţul Cardano pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3855,
+      "rationament": "Stagnare prețului cu tendință de scădere ușoară în intervalul scurt.",
+      "sha256": "8fc33e6ab52da4333ba1b6eb5babba5a6063e0b7a66b89af99aa7af46700ff56",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 16:46:16",
+      "intrebare": "Preţul Dogecoin pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3856,
+      "rationament": "Lipsa de momentum pozitiv menține prețul în zona inferioară a intervalului.",
+      "sha256": "aee3604d2f8a2aaf07f7ec1e84f25a2851c9e9180c36bdfd218387efea3ebe4d",
+      "valoare": 0.08
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 16:46:16",
+      "intrebare": "Preţul BNB pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3857,
+      "rationament": "Corecția de la vârfuri sugerează o stabilizare sub media recentă.",
+      "sha256": "73030d9662faf0c6cac3554e0d4aa29f6a7c9cba506c19f2414b921ae2bde67c",
+      "valoare": 715.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 16:50:30",
+      "intrebare": "Preţul Bitcoin pe 2026-09-16",
+      "intrebare_id": 3844,
+      "rationament": "Serie oscilantă cu zile alternante; după căderea de azi mizez pe un mic recul tehnic, nu pe reluarea trendului.",
+      "sha256": "2b11af41cf77ccac909020f63addbc980ddac9d94fb8a24e3c2d9adcfe71f5a8",
+      "valoare": 77180.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 16:50:30",
+      "intrebare": "Preţul Ethereum pe 2026-09-16",
+      "intrebare_id": 3845,
+      "rationament": "Se învârte strâns în jurul lui 2490 de zece zile; revin spre centrul intervalului după scăderea de azi.",
+      "sha256": "cebca5d51862a4fa14211ff666b76d5d9e7e857e2482c8669105d7bcf8c02c11",
+      "valoare": 2488.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 16:50:30",
+      "intrebare": "Preţul Solana pe 2026-09-16",
+      "intrebare_id": 3846,
+      "rationament": "Aceeași alternanță ca la Bitcoin, dar amplificată; ajustare mică în sus, sub volatilitatea zilnică obișnuită.",
+      "sha256": "5a7161d53574794325797493761b3deb9279a14c2cf147e3e91febd0e8251c28",
+      "valoare": 101.4
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 16:50:30",
+      "intrebare": "Preţul XRP pe 2026-09-16",
+      "intrebare_id": 3847,
+      "rationament": "Două zile consecutive de creștere după minimul de 1.33; mă aștept la o pauză, nu la o a treia.",
+      "sha256": "e8330521dd03886efa05463d97bd0b9b0822d72572971668c44065742563fb81",
+      "valoare": 1.42
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 16:50:30",
+      "intrebare": "Preţul Cardano pe 2026-09-16",
+      "intrebare_id": 3848,
+      "rationament": "Rotunjirea la doi zecimali înghite orice mișcare plauzibilă de o zi; reperul e greu de bătut aici.",
+      "sha256": "f4554a0015514f6c4d7b81e24956b9729a95f7a42698ce729a83b7b0b6afb5b0",
+      "valoare": 0.21
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 16:50:30",
+      "intrebare": "Preţul Dogecoin pe 2026-09-16",
+      "intrebare_id": 3849,
+      "rationament": "Plat la două zecimale de o săptămână; orice abatere ar fi zgomot, nu semnal.",
+      "sha256": "56a9495a03c4541e48a62bbde9bf1a767c8e068f97001a2aa2ffb23dd598066e",
+      "valoare": 0.08
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 16:50:30",
+      "intrebare": "Preţul BNB pe 2026-09-16",
+      "intrebare_id": 3850,
+      "rationament": "Stabil în jur de 720 de patru zile, cel mai calm din listă; deviere minimă în sus.",
+      "sha256": "64c07815ababdbb02b96388feaa486f91a8f955191cb2c484f4d66ff9561c1a6",
+      "valoare": 722.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 16:50:52",
+      "intrebare": "Preţul Bitcoin pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3851,
+      "rationament": "Trend ușor descendent, dar ultimele cinci zile oscilează în jur de 77k; presupun stabilizare, fără direcție clară.",
+      "sha256": "21078de145120bf07340e7c2b0da20107835a9306c567ccce7d3d3c9c7169e5d",
+      "valoare": 77150.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 16:50:52",
+      "intrebare": "Preţul Ethereum pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3852,
+      "rationament": "Lateral în banda 2440-2526 de zece zile; media recentă e ușor peste închiderea de azi.",
+      "sha256": "336c1532fdcb9b15e43a160da8d4d7e08cb2b372b9f363d85d5915a61ae9cfae",
+      "valoare": 2492.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 16:50:52",
+      "intrebare": "Preţul Solana pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3853,
+      "rationament": "Se mișcă în tandem cu Ethereum, oscilând strâns în jur de 101; fără semnal de rupere.",
+      "sha256": "c696b904755d5baefa9a39f914e049e4ea7af935f63520ebfb05e07f0685c0d9",
+      "valoare": 101.4
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 16:50:52",
+      "intrebare": "Preţul XRP pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3854,
+      "rationament": "Salt de două zile la maxim local după minim de 1.33; aștept revenire parțială spre mijlocul benzii.",
+      "sha256": "eedb52d1ea303d2e32c1ffadcca794ac3a012fe4df51cfc7d1194d0dcf7aa98e",
+      "valoare": 1.4
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 16:50:52",
+      "intrebare": "Preţul Cardano pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3855,
+      "rationament": "Rezoluție de doar două zecimale; orice mișcare sub 2% e invizibilă, deci repet valoarea curentă.",
+      "sha256": "54189b19adf805fd942ad045eaefa5cc76cee719dd879639578406603e7031d2",
+      "valoare": 0.21
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 16:50:52",
+      "intrebare": "Preţul Dogecoin pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3856,
+      "rationament": "Rotunjit la 0.08 de șase zile; nicio variație plauzibilă nu schimbă a doua zecimală.",
+      "sha256": "46435451655203b34fb65c30e3aad059b692d655e33d5091eb66750e910981ec",
+      "valoare": 0.08
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 16:50:52",
+      "intrebare": "Preţul BNB pe 2026-09-22 (1 săptămână)",
+      "intrebare_id": 3857,
+      "rationament": "Stabilizat în jur de 720 după căderea de la 753; presupun continuarea consolidării.",
+      "sha256": "eea5b8d64aa4237ae82ef4170e8ec2852e593c2c644fdefe1a6f3b5395d195bb",
+      "valoare": 723.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 17:30:19",
+      "intrebare": "Temperatura maximă la București pe 2026-09-16",
+      "intrebare_id": 3858,
+      "rationament": "După trecerea frontului, se instalează o vreme mai răcoroasă și stabilă, tipică pentru jumătatea lui septembrie.",
+      "sha256": "f57c83c9b19d1dd27ac9a54f319e0263d66b114d55b6a92802ec7efa41037497",
+      "valoare": 25.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 17:30:19",
+      "intrebare": "Va ploua la București pe 2026-09-16?",
+      "intrebare_id": 3859,
+      "rationament": "După trecerea frontului, se instalează o vreme mai răcoroasă și stabilă, tipică pentru jumătatea lui septembrie.",
+      "sha256": "d4f4653a269c683dddf97f8aa1885e170943d952da0088451705fd3c1c926e4f",
+      "valoare": 0.15
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 17:30:19",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-09-16",
+      "intrebare_id": 3860,
+      "rationament": "Răcirea post-frontală continuă, dar altitudinea mai mare menține temperaturi sub media câmpiei.",
+      "sha256": "804d5846935f06b3c4ff7079e8aeed72d238385ef9e6ed7bfd9077708950d2d9",
+      "valoare": 22.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 17:30:19",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-09-16?",
+      "intrebare_id": 3861,
+      "rationament": "Răcirea post-frontală continuă, dar altitudinea mai mare menține temperaturi sub media câmpiei.",
+      "sha256": "2bb0a91352ebd16b9930a230a21881212ab245912cef76b39e02e422bf552889",
+      "valoare": 0.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 17:30:19",
+      "intrebare": "Temperatura maximă la Iași pe 2026-09-16",
+      "intrebare_id": 3862,
+      "rationament": "Uscarea după ploile abundente și revenirea la o circulație continentală stabilă, ușor mai rece.",
+      "sha256": "3804049ac5104d5f87109d0c4dc8e8a79361b8fcdccb083a18828e8b0fea4071",
+      "valoare": 23.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 17:30:19",
+      "intrebare": "Va ploua la Iași pe 2026-09-16?",
+      "intrebare_id": 3863,
+      "rationament": "Uscarea după ploile abundente și revenirea la o circulație continentală stabilă, ușor mai rece.",
+      "sha256": "5e9f196b0b29075ae18e1bb7b00d874c1d5c3ad50bb83037066216c431b10326",
+      "valoare": 0.1
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 17:30:19",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-09-16",
+      "intrebare_id": 3864,
+      "rationament": "Influență sud-vestică, revenire la valori normale de septembrie după răcirea bruscă.",
+      "sha256": "18dab5dfb42559d301dc00d7c552b54b589c0226739f321d0c33d3da58d30b9c",
+      "valoare": 26.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 17:30:19",
+      "intrebare": "Va ploua la Timișoara pe 2026-09-16?",
+      "intrebare_id": 3865,
+      "rationament": "Influență sud-vestică, revenire la valori normale de septembrie după răcirea bruscă.",
+      "sha256": "746a88b40afa10bacd730d1320d9b966a1d33cab8a5ac153b9348691b8b58935",
+      "valoare": 0.1
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 17:30:19",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-09-16",
+      "intrebare_id": 3866,
+      "rationament": "Marea încă caldă stabilizează, dar umiditatea poate aduce averse locale, tipic litoral.",
+      "sha256": "ef5d1b594ac66d0e9c7f3949b127747f6f8636398110654ef377c3573e73a998",
+      "valoare": 23.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 17:30:19",
+      "intrebare": "Va ploua la Constanța pe 2026-09-16?",
+      "intrebare_id": 3867,
+      "rationament": "Marea încă caldă stabilizează, dar umiditatea poate aduce averse locale, tipic litoral.",
+      "sha256": "daa2cdb17c524343001976e540dcbfcc0f9b7474c41dddc74612fa16af78a164",
+      "valoare": 0.25
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 17:30:19",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-09-16",
+      "intrebare_id": 3868,
+      "rationament": "Altitudine mare, răcire accentuată după front; posibile averse izolate, dar tendință de stabilizare.",
+      "sha256": "0e1ce90c37038805b5c708e31af06841b350b16912513ae2144236b192ccde2b",
+      "valoare": 20.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-15 17:30:19",
+      "intrebare": "Va ploua la Brașov pe 2026-09-16?",
+      "intrebare_id": 3869,
+      "rationament": "Altitudine mare, răcire accentuată după front; posibile averse izolate, dar tendință de stabilizare.",
+      "sha256": "ff52bebdcd9571ea2f1b84799df2a355cf5205a917582305e81c6374c4dce22d",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 17:30:23",
+      "intrebare": "Temperatura maximă la București pe 2026-09-16",
+      "intrebare_id": 3858,
+      "rationament": "Temperatura scade spre mijlocul septembrie, media recentă 23 °C, puțină ploaie recentă.",
+      "sha256": "0877b2bcefa1e08efae02e1d04478041bce6cab48cd52239eb10ffa7bafc0e14",
+      "valoare": 23.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 17:30:23",
+      "intrebare": "Va ploua la București pe 2026-09-16?",
+      "intrebare_id": 3859,
+      "rationament": "Temperatura scade spre mijlocul septembrie, media recentă 23 °C, puțină ploaie recentă.",
+      "sha256": "30c171f294e534ba8a48b56c115c2bb343f2fe693204b1053c9ff3a8df517da8",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 17:30:23",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-09-16",
+      "intrebare_id": 3860,
+      "rationament": "După valul cald, tendință de răcire; precipitații rare recent.",
+      "sha256": "61f62d316955dfee3cffca184402e0cd9e10ea71fe3d2c22e45dc1ecbd1269e5",
+      "valoare": 22.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 17:30:23",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-09-16?",
+      "intrebare_id": 3861,
+      "rationament": "După valul cald, tendință de răcire; precipitații rare recent.",
+      "sha256": "a96dc870c76840494bddb404ec005408a3a92e2b99591049c1ff7262daa29d47",
+      "valoare": 0.15
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 17:30:23",
+      "intrebare": "Temperatura maximă la Iași pe 2026-09-16",
+      "intrebare_id": 3862,
+      "rationament": "Temperatură în scădere după valul de căldură; ploaie abundentă pe 12‑13 sept.",
+      "sha256": "415964da3116e69dc83229122418fe11a86e1e4239fea4da5979dd06fe9ce2c6",
+      "valoare": 21.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 17:30:23",
+      "intrebare": "Va ploua la Iași pe 2026-09-16?",
+      "intrebare_id": 3863,
+      "rationament": "Temperatură în scădere după valul de căldură; ploaie abundentă pe 12‑13 sept.",
+      "sha256": "a817407e12cc8c24f5b5c3f28bfcbaff1037a8679de4c0a305dd3b97298e4aee",
+      "valoare": 0.4
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 17:30:23",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-09-16",
+      "intrebare_id": 3864,
+      "rationament": "Temperatură moderată după fluctuații mari; precipitații minime recent.",
+      "sha256": "4e75a437d6b764296dda89839d4245269cb93b8789e7df6cc4923b0601ac9f5b",
+      "valoare": 24.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 17:30:23",
+      "intrebare": "Va ploua la Timișoara pe 2026-09-16?",
+      "intrebare_id": 3865,
+      "rationament": "Temperatură moderată după fluctuații mari; precipitații minime recent.",
+      "sha256": "768296c60481fa6345575db3199ea62e4d99244f8639e8e9cac0d578af08246f",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 17:30:23",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-09-16",
+      "intrebare_id": 3866,
+      "rationament": "Temperatură stabilă post‑furtună; ploaie intensă pe 13 sept., apoi uscat.",
+      "sha256": "ff9d18d98b78454478e0cf5ee6089fbc3829294cf2dee12d8879da92716238df",
+      "valoare": 22.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 17:30:23",
+      "intrebare": "Va ploua la Constanța pe 2026-09-16?",
+      "intrebare_id": 3867,
+      "rationament": "Temperatură stabilă post‑furtună; ploaie intensă pe 13 sept., apoi uscat.",
+      "sha256": "82ef1c5d8736e497db6b4b03adc67fa24e75afda115bfcc9b8e486922072d526",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 17:30:23",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-09-16",
+      "intrebare_id": 3868,
+      "rationament": "Răcire evidentă după valul cald; ploi ușoare în ultimele zile.",
+      "sha256": "ff4e65ba32e070cd50ece904e949abcbeccf76b883a8d002c666d6f910427dcd",
+      "valoare": 18.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-15 17:30:23",
+      "intrebare": "Va ploua la Brașov pe 2026-09-16?",
+      "intrebare_id": 3869,
+      "rationament": "Răcire evidentă după valul cald; ploi ușoare în ultimele zile.",
+      "sha256": "8a00d222a99c03263556c795796c971c7ffa7352ed6101f3a86b56684e0b9143",
+      "valoare": 0.25
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 17:30:25",
+      "intrebare": "Temperatura maximă la București pe 2026-09-16",
+      "intrebare_id": 3858,
+      "rationament": "După frontul rece din weekend, vremea se încălzește treptat, stabilizându-se sub un anticiclon.",
+      "sha256": "73d8730fcae315168ad27c36ddec5f219e5ec8d4254c95aa564a4ef9cdabf19e",
+      "valoare": 26.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 17:30:25",
+      "intrebare": "Va ploua la București pe 2026-09-16?",
+      "intrebare_id": 3859,
+      "rationament": "După frontul rece din weekend, vremea se încălzește treptat, stabilizându-se sub un anticiclon.",
+      "sha256": "670c75b273f17b1c40d9442d748deeeecef5d39b80bdd8a5b2968f01a7234871",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 17:30:25",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-09-16",
+      "intrebare_id": 3860,
+      "rationament": "Temperaturile cresc ușor după minimul din 13 septembrie, cerul va fi variabil, fără precipitații semnificative.",
+      "sha256": "94a79acd88f72ace0b3c61125242b7240d1ec9b1acb1717250347cf364a88496",
+      "valoare": 24.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 17:30:25",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-09-16?",
+      "intrebare_id": 3861,
+      "rationament": "Temperaturile cresc ușor după minimul din 13 septembrie, cerul va fi variabil, fără precipitații semnificative.",
+      "sha256": "b079d474d5523943ee1e4721f64b394ba164f6923af5ad588b2d18682cc0a733",
+      "valoare": 0.15
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 17:30:25",
+      "intrebare": "Temperatura maximă la Iași pe 2026-09-16",
+      "intrebare_id": 3862,
+      "rationament": "Masa de aer rece care a adus ploi se îndepărtează, urmând o zi liniștită și mai caldă.",
+      "sha256": "d5b1f37544ca3e318f0e9cc6dcb98ef88b7e188d49269e10cb01b41f4e062d1a",
+      "valoare": 24.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 17:30:25",
+      "intrebare": "Va ploua la Iași pe 2026-09-16?",
+      "intrebare_id": 3863,
+      "rationament": "Masa de aer rece care a adus ploi se îndepărtează, urmând o zi liniștită și mai caldă.",
+      "sha256": "f73a7e88a4a49aa522c269a7a8bc6b1338b08e07f6b212ceb9a0e6e529cfc226",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 17:30:25",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-09-16",
+      "intrebare_id": 3864,
+      "rationament": "Vestul țării recuperează rapid temperaturile ridicate specifice perioadei, cer senin.",
+      "sha256": "ab3890a384c91420d5b12f59ac550c91c8ac73f31387871b66b737d103357332",
+      "valoare": 28.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 17:30:25",
+      "intrebare": "Va ploua la Timișoara pe 2026-09-16?",
+      "intrebare_id": 3865,
+      "rationament": "Vestul țării recuperează rapid temperaturile ridicate specifice perioadei, cer senin.",
+      "sha256": "7aa4658584e1a0ebb315b1c606c1b0f1c4464bf45d6b1d5d6a739bb7d3489869",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 17:30:25",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-09-16",
+      "intrebare_id": 3866,
+      "rationament": "Efectul moderator al mării menține temperaturile constante, după perturbațiile recente se instalează acm calmul.",
+      "sha256": "d0f61846a02d6861ee82c57b0f4b22b18af66eebb17e94bb272803f39c7f1c47",
+      "valoare": 24.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 17:30:25",
+      "intrebare": "Va ploua la Constanța pe 2026-09-16?",
+      "intrebare_id": 3867,
+      "rationament": "Efectul moderator al mării menține temperaturile constante, după perturbațiile recente se instalează acm calmul.",
+      "sha256": "36a6231703986cc40ed94e07ca6747de3365a84242a7bff1de4e31a61f124cae",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 17:30:25",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-09-16",
+      "intrebare_id": 3868,
+      "rationament": "Depresiunea intramontană se încălzește lent, dar rămâne riscul unor nori de după-amiază.",
+      "sha256": "3a98d92a1296b68fc7c94badd6d44fc8d8561a3175e55635b47677f95b8da0e3",
+      "valoare": 21.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-15 17:30:25",
+      "intrebare": "Va ploua la Brașov pe 2026-09-16?",
+      "intrebare_id": 3869,
+      "rationament": "Depresiunea intramontană se încălzește lent, dar rămâne riscul unor nori de după-amiază.",
+      "sha256": "45b091958f7e2ad540f661f46d2bfca4fef48844abb732b2dfe8e2873f47d3ab",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 17:30:27",
+      "intrebare": "Temperatura maximă la București pe 2026-09-16",
+      "intrebare_id": 3858,
+      "rationament": "Recuperare termică moderată după ploaie, cer variabil cu șanse mici de averse izolate.",
+      "sha256": "2498310e9814cffdb57b34567f76cd95d3c56141f99bc346a565745fbd350e83",
+      "valoare": 25.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 17:30:27",
+      "intrebare": "Va ploua la București pe 2026-09-16?",
+      "intrebare_id": 3859,
+      "rationament": "Recuperare termică moderată după ploaie, cer variabil cu șanse mici de averse izolate.",
+      "sha256": "9181130b73329ed25724a5dd57ebef4aec6fa2257b4f2c8d011d5218f66e527b",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 17:30:27",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-09-16",
+      "intrebare_id": 3860,
+      "rationament": "Ușoară încălzire după front rece, cer senin la variabil, precipitații improbable.",
+      "sha256": "5d1daff693f8e04e5c75fe753a6f7a94efb014de4e344a8d2a4c0cd7b7ecb733",
+      "valoare": 23.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 17:30:27",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-09-16?",
+      "intrebare_id": 3861,
+      "rationament": "Ușoară încălzire după front rece, cer senin la variabil, precipitații improbable.",
+      "sha256": "1d30415528e09071ca8159980878444e25823fac0455ccff9271ebbeee70f2cd",
+      "valoare": 0.15
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 17:30:27",
+      "intrebare": "Temperatura maximă la Iași pe 2026-09-16",
+      "intrebare_id": 3862,
+      "rationament": "Stabilizare după ploaie puternică, temperaturi normale pentru septembrie, cer parțial înnorat.",
+      "sha256": "f7063e62f607db2e88cdbcea40ef051d3c4ea29f34e3be355b24ac1f28b734a5",
+      "valoare": 23.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 17:30:27",
+      "intrebare": "Va ploua la Iași pe 2026-09-16?",
+      "intrebare_id": 3863,
+      "rationament": "Stabilizare după ploaie puternică, temperaturi normale pentru septembrie, cer parțial înnorat.",
+      "sha256": "9372aba2214082d3ab5147576e25b07727c3ea8dd0170de7c22f86bf3d4c57f7",
+      "valoare": 0.25
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 17:30:27",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-09-16",
+      "intrebare_id": 3864,
+      "rationament": "Ridicare termică bruscă spre sud, cer senin, aer uscat și stabil.",
+      "sha256": "c892c6519149a9b7173ed6dc985cf3f537bff8d66ed234adc636965f78a682af",
+      "valoare": 28.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 17:30:27",
+      "intrebare": "Va ploua la Timișoara pe 2026-09-16?",
+      "intrebare_id": 3865,
+      "rationament": "Ridicare termică bruscă spre sud, cer senin, aer uscat și stabil.",
+      "sha256": "12a8503c2b98bf95bae2dc1584c5424059e8585f1e580ca1dfef9fab0e06bc28",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 17:30:27",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-09-16",
+      "intrebare_id": 3866,
+      "rationament": "Influență marină moderatoare, cer senin la variabil, precipitații foarte puțin probabile.",
+      "sha256": "0b73c23514319cdaa37a26df365ebf607c4c23174a59fd40ea27299209f763b3",
+      "valoare": 24.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 17:30:27",
+      "intrebare": "Va ploua la Constanța pe 2026-09-16?",
+      "intrebare_id": 3867,
+      "rationament": "Influență marină moderatoare, cer senin la variabil, precipitații foarte puțin probabile.",
+      "sha256": "767d11b298bf6769f4c4bcded0b4afa0503b42731bd72999a0e0d08ab36727e8",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 17:30:27",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-09-16",
+      "intrebare_id": 3868,
+      "rationament": "Altitudine mare, răcire nocturnă accentuată, cer variabil cu șanse mici de averse.",
+      "sha256": "05175a9ba7d0c5d864ccbb8642845cf296202cf283f59ada73a454041e328cf7",
+      "valoare": 21.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-15 17:30:27",
+      "intrebare": "Va ploua la Brașov pe 2026-09-16?",
+      "intrebare_id": 3869,
+      "rationament": "Altitudine mare, răcire nocturnă accentuată, cer variabil cu șanse mici de averse.",
+      "sha256": "cd2651abd9136b745e5acf47bce2ed809b7244d3ce17445ca6a98796dc94407e",
+      "valoare": 0.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 17:35:23",
+      "intrebare": "Temperatura maximă la București pe 2026-09-16",
+      "intrebare_id": 3858,
+      "rationament": "Redresare constantă după frontul din 13 septembrie, +1,1°C/zi; anticiclon uscat, deci încălzire continuă.",
+      "sha256": "e957772640e7be5e1de9bfcb63909f5877c4d2935bd6541f2040f17aa5c8a118",
+      "valoare": 25.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 17:35:23",
+      "intrebare": "Va ploua la București pe 2026-09-16?",
+      "intrebare_id": 3859,
+      "rationament": "Redresare constantă după frontul din 13 septembrie, +1,1°C/zi; anticiclon uscat, deci încălzire continuă.",
+      "sha256": "99e2a9fc5c012c94052e86b02c6bf5abd3ce6907f47e1c09db6a2eb57f576626",
+      "valoare": 0.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 17:35:23",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-09-16",
+      "intrebare_id": 3860,
+      "rationament": "Trei zile de urcare din minimul de 17,4°C; depresiunea se încălzește mai lent, dar tendința e clară.",
+      "sha256": "3ff536b908a844af012b5c53a02078930ce8b4a48988766ae948b5e637eb1dca",
+      "valoare": 23.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 17:35:23",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-09-16?",
+      "intrebare_id": 3861,
+      "rationament": "Trei zile de urcare din minimul de 17,4°C; depresiunea se încălzește mai lent, dar tendința e clară.",
+      "sha256": "c27fc0b8c680eaf48e9a031c5df45512e2abef66b0f9d2b1701ab3e25949e3df",
+      "valoare": 0.15
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 17:35:23",
+      "intrebare": "Temperatura maximă la Iași pe 2026-09-16",
+      "intrebare_id": 3862,
+      "rationament": "Aceeași redresare post-frontală ca la București, cu un grad în minus prin poziția nord-estică.",
+      "sha256": "bb19096045be4e1f17ee7f478a5fa5ffd68d33a1ed413a24a3ea5e42103968b5",
+      "valoare": 23.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 17:35:23",
+      "intrebare": "Va ploua la Iași pe 2026-09-16?",
+      "intrebare_id": 3863,
+      "rationament": "Aceeași redresare post-frontală ca la București, cu un grad în minus prin poziția nord-estică.",
+      "sha256": "2a2e1ff40f8762967b18689964ebdabc3948a6de4103a10818dd14ba9b7ca028",
+      "valoare": 0.12
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 17:35:23",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-09-16",
+      "intrebare_id": 3864,
+      "rationament": "Salt de 5,7°C într-o zi arată advecție caldă dinspre vest; Banatul se încălzește primul și cel mai tare.",
+      "sha256": "b491b8a1b3c5c57e64fc37f9dcd65683dc3a920bfa468f54196194ec2c4ec847",
+      "valoare": 28.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 17:35:23",
+      "intrebare": "Va ploua la Timișoara pe 2026-09-16?",
+      "intrebare_id": 3865,
+      "rationament": "Salt de 5,7°C într-o zi arată advecție caldă dinspre vest; Banatul se încălzește primul și cel mai tare.",
+      "sha256": "99688da132d04b1fcaf2a84b47246cba5f585b1e39b259f9659de2e6894f66a4",
+      "valoare": 0.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 17:35:23",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-09-16",
+      "intrebare_id": 3866,
+      "rationament": "Marea taie extremele; seria e comprimată în 20-25°C indiferent de front, deci revenire moderată.",
+      "sha256": "67f9a6b1ebba515af4827085a5c9d106e9f4348b9f54d6e3f254b98a96953629",
+      "valoare": 24.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 17:35:23",
+      "intrebare": "Va ploua la Constanța pe 2026-09-16?",
+      "intrebare_id": 3867,
+      "rationament": "Marea taie extremele; seria e comprimată în 20-25°C indiferent de front, deci revenire moderată.",
+      "sha256": "e1f9ab0e86226038b78ec35dd8a613d3f85ecaf63e20051add0b5d7741c8f137",
+      "valoare": 0.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 17:35:23",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-09-16",
+      "intrebare_id": 3868,
+      "rationament": "Urcare de ~2°C/zi din minimul de 15,5°C, penalizată de cei 625 m altitudine.",
+      "sha256": "d771006c61ef5690ef2b9369243ab6ffe0d4de26d427432380118a75bbff05eb",
+      "valoare": 21.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-15 17:35:23",
+      "intrebare": "Va ploua la Brașov pe 2026-09-16?",
+      "intrebare_id": 3869,
+      "rationament": "Urcare de ~2°C/zi din minimul de 15,5°C, penalizată de cei 625 m altitudine.",
+      "sha256": "ee74ccc8242f8065ec083de23cbbedf98cfa59eec0f828f928684ab0d808cd5f",
+      "valoare": 0.15
+    }
+  ],
+  "zi": "2026-09-15"
+}
