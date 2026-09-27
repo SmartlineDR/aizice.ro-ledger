@@ -1,0 +1,863 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "337944dfb2d421e0f56ae2708b261cc7e7962d8fff26222a7b6d3f55328d68fc",
+  "nr_frunze": 95,
+  "predictii": [
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 16:45:31",
+      "intrebare": "Preţul Bitcoin pe 2026-09-27",
+      "intrebare_id": 4529,
+      "rationament": "Scădere recentă, dar suport posibil; aștept o ușoară revenire.",
+      "sha256": "2ffb7b3f81ed26b171e6c338d94f25ac006e529605001a706726c669d68ebdb6",
+      "valoare": 84200.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 16:45:31",
+      "intrebare": "Preţul Ethereum pe 2026-09-27",
+      "intrebare_id": 4530,
+      "rationament": "Stagnare după scădere; prognozez o ușoară creștere.",
+      "sha256": "f088cff1481f840026e3d8b01a1e4ff0e85dc318ae19fbddeec25b57fff58ef3",
+      "valoare": 2690.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 16:45:31",
+      "intrebare": "Preţul Solana pe 2026-09-27",
+      "intrebare_id": 4531,
+      "rationament": "Volatilitate medie; medie mobilă simplă sugerează ușoară creștere.",
+      "sha256": "53a8a6b77e64e84743aa7a5e4cf30cbf962684d203370ea39f23539faee23022",
+      "valoare": 121.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 16:45:31",
+      "intrebare": "Preţul XRP pe 2026-09-27",
+      "intrebare_id": 4532,
+      "rationament": "Fluctuații mici; prognozez o ușoară creștere față de ultimul preț.",
+      "sha256": "d05b0ce5e87bcd24044b22231e92d5eb55845fa4bf2d1c0201937facce9c446c",
+      "valoare": 1.55
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 16:45:31",
+      "intrebare": "Preţul Cardano pe 2026-09-27",
+      "intrebare_id": 4533,
+      "rationament": "Preț aproape constant; prognozez o ușoară creștere.",
+      "sha256": "65bc6c90900efb65a352d1496cb80b914a5fb87e4d876e7b9a07507446f02e56",
+      "valoare": 0.255
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 16:45:31",
+      "intrebare": "Preţul Dogecoin pe 2026-09-27",
+      "intrebare_id": 4534,
+      "rationament": "Stabil, posibilă scădere ușoară; prognozez un preț mai mic.",
+      "sha256": "d0631d3a6e59d5baf867503d753b1ae63b32af01a9d0d85616d073d2bd143696",
+      "valoare": 0.099
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 16:45:31",
+      "intrebare": "Preţul BNB pe 2026-09-27",
+      "intrebare_id": 4535,
+      "rationament": "Scădere după vârf; medie mobilă indică o ușoară revenire.",
+      "sha256": "872efb38a1c1326d96db404cb068bf7d908181f072fd150591dd0309618ea436",
+      "valoare": 775.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 16:45:34",
+      "intrebare": "Preţul Bitcoin pe 2026-09-27",
+      "intrebare_id": 4529,
+      "rationament": "Următoarea zi probabil va continua ușoara scădere observată în ultimele două săptămâni.",
+      "sha256": "cd108520961c1c97f029ab100b0bed584b728a98dff9dad59047221f6a789a0c",
+      "valoare": 83500.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 16:45:34",
+      "intrebare": "Preţul Ethereum pe 2026-09-27",
+      "intrebare_id": 4530,
+      "rationament": "Tendința descendentă modestă după vârf sugerează o ușoară corecție.",
+      "sha256": "ee98e88e6768dd94a44e359d382cd5667d841469609b8cb90f8225a43db4e55d",
+      "valoare": 2670.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 16:45:34",
+      "intrebare": "Preţul Solana pe 2026-09-27",
+      "intrebare_id": 4531,
+      "rationament": "După creșterea recentă, prețul pare să se stabilizeze ușor în scădere.",
+      "sha256": "d3552f9440ee6ef2389bbf0116598d7c8743c0e957d2d399b362cb563abeea2b",
+      "valoare": 119.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 16:45:34",
+      "intrebare": "Preţul XRP pe 2026-09-27",
+      "intrebare_id": 4532,
+      "rationament": "Oscilațiile recente indică o ușoară tendință descendentă pe termen scurt.",
+      "sha256": "ddbaec25294e8c67a38646b693cd31c4cdd84f86a5fe7c2255d42629d7d9de11",
+      "valoare": 1.53
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 16:45:34",
+      "intrebare": "Preţul Cardano pe 2026-09-27",
+      "intrebare_id": 4533,
+      "rationament": "Prețul a rămas relativ stabil, aștept o ușoară menținere.",
+      "sha256": "fc97eca25d41ce0bb4ff6ae07971c74213a0d18a80ab6ca517a9e3fdb1b6c28e",
+      "valoare": 0.25
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 16:45:34",
+      "intrebare": "Preţul Dogecoin pe 2026-09-27",
+      "intrebare_id": 4534,
+      "rationament": "Volatilitatea scăzută sugerează menținerea nivelului curent.",
+      "sha256": "2b931cc77f46ccf012fa99816ba4d7d32ef0c8d4f678ac342f775616aa348c6d",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 16:45:34",
+      "intrebare": "Preţul BNB pe 2026-09-27",
+      "intrebare_id": 4535,
+      "rationament": "Următoarea zi ar putea continua ușoara corecție post‑vârf.",
+      "sha256": "fedcc43d108271fa1c5f37b83ab79def2fc7f8c2c95d53ddce8680b85cc87cb0",
+      "valoare": 770.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 16:45:38",
+      "intrebare": "Preţul Bitcoin pe 2026-09-27",
+      "intrebare_id": 4529,
+      "rationament": "Ușoară corecție descendentă continuată după maximul local atins recent.",
+      "sha256": "27d16a25ba16d7443f24ce03c38284ddfab97c41e52a38e03e483e046e3b0841",
+      "valoare": 83500.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 16:45:38",
+      "intrebare": "Preţul Ethereum pe 2026-09-27",
+      "intrebare_id": 4530,
+      "rationament": "Consolidare în jurul valorilor actuale, fără impulsuri clare de creștere.",
+      "sha256": "d7a5467ea033a8e106210601ee55479226c82b23baef25e3f8cefa90b14e6fd5",
+      "valoare": 2675.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 16:45:38",
+      "intrebare": "Preţul Solana pe 2026-09-27",
+      "intrebare_id": 4531,
+      "rationament": "Piața rămâne stabilă, cu fluctuații minore sub rezistența recentă.",
+      "sha256": "7c9d559f0348bc83ef201da21f22779661caf90439e573afa12bd581f61abaca",
+      "valoare": 119.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 16:45:38",
+      "intrebare": "Preţul XRP pe 2026-09-27",
+      "intrebare_id": 4532,
+      "rationament": "Scădere ușoară după testarea pragului de rezistență din ultimele zile.",
+      "sha256": "ea932dfa71b69f5f13d7112a6242d40e04ba0e477763f5cebdfd93ab3bf138fc",
+      "valoare": 1.52
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 16:45:38",
+      "intrebare": "Preţul Cardano pe 2026-09-27",
+      "intrebare_id": 4533,
+      "rationament": "Menținerea valorii curente datorită lipsei de volum suplimentar.",
+      "sha256": "9d0c999c9aeca6fe432567551fa388f7b93faf896f3f477395e929c054b9d3a7",
+      "valoare": 0.25
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 16:45:38",
+      "intrebare": "Preţul Dogecoin pe 2026-09-27",
+      "intrebare_id": 4534,
+      "rationament": "Lichiditate constantă și lipsă de volatilitate semnificativă pe termen scurt.",
+      "sha256": "479101f9ca850f69613e7c6be2bfcee4c9c3cd1f6ee28152524131db9b268b84",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 16:45:38",
+      "intrebare": "Preţul BNB pe 2026-09-27",
+      "intrebare_id": 4535,
+      "rationament": "Ușoară tendință de scădere în concordanță cu corecția generală a pieței.",
+      "sha256": "f8ece490f539de34c863d482e47026af4a5e29f3df9226267218bfea618e9b9c",
+      "valoare": 770.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 16:45:39",
+      "intrebare": "Preţul Bitcoin pe 2026-09-27",
+      "intrebare_id": 4529,
+      "rationament": "Volatilitatea recentă sugerează o stabilizare, deci menținerea prețului actual este cea mai sigură pariere.",
+      "sha256": "4256d5d081330933fab28b8e5dadbf910365b936f51d2915f8202cbd94779d64",
+      "valoare": 83865.45
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 16:45:39",
+      "intrebare": "Preţul Ethereum pe 2026-09-27",
+      "intrebare_id": 4530,
+      "rationament": "Mișcarea laterală recentă indică lipsa unui impuls clar, deci prețul de azi rămâne cel mai probabil.",
+      "sha256": "eeed5ade6a5a2afb8483969a3ab388a8cb424c16045ca6f71586de930a9f6485",
+      "valoare": 2682.41
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 16:45:39",
+      "intrebare": "Preţul Solana pe 2026-09-27",
+      "intrebare_id": 4531,
+      "rationament": "După o ușoară corecție, prețul tinde să revină la nivelul de echilibru actual observat.",
+      "sha256": "b6fc8033afc019b29fc940d76097ba71522bfef91cb6223835a9cca931b01208",
+      "valoare": 120.27
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 16:45:39",
+      "intrebare": "Preţul XRP pe 2026-09-27",
+      "intrebare_id": 4532,
+      "rationament": "Stabilitatea prețului în ultimele zile sugerează că nu va exista o schimbare majoră mâine.",
+      "sha256": "6491200264eac6850db0cb275329e68d4c16bfbe21c6fb3703af19506ecd76b0",
+      "valoare": 1.54
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 16:45:39",
+      "intrebare": "Preţul Cardano pe 2026-09-27",
+      "intrebare_id": 4533,
+      "rationament": "Mișcarea minimă și consolidarea prețului indică o continuare a tendinței de platou.",
+      "sha256": "1663e77016da6fd470b398cdceacd8a2a8341d04fc30059e452f87533e62adc1",
+      "valoare": 0.25
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 16:45:39",
+      "intrebare": "Preţul Dogecoin pe 2026-09-27",
+      "intrebare_id": 4534,
+      "rationament": "Prețul a rămas constant pe un nivel rotund, sugerând rezistență la schimbări imediate.",
+      "sha256": "4ecc5bb8f4183346d8bb31db126b0e3e944a854b941d8e62b2dd834260aed6cc",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 16:45:39",
+      "intrebare": "Preţul BNB pe 2026-09-27",
+      "intrebare_id": 4535,
+      "rationament": "După o scădere ușoară, prețul se așteaptă să se stabilizeze la nivelul actual.",
+      "sha256": "c89c4fa3cdfd6f6f00b2b3c58618792421a12ed341eebdf0b1e0701a66120892",
+      "valoare": 772.72
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 16:50:23",
+      "intrebare": "Preţul Bitcoin pe 2026-09-27",
+      "intrebare_id": 4529,
+      "rationament": "Derivă lentă descendentă de cinci zile după vârful din 21; extrapolez o scădere mică, sub 0,3%.",
+      "sha256": "c1f304f7646b5dbafb4445317cea885654b213331516a01f856f822aabe02d23",
+      "valoare": 83700.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 16:50:23",
+      "intrebare": "Preţul Ethereum pe 2026-09-27",
+      "intrebare_id": 4530,
+      "rationament": "Lateral strâns în jur de 2685 de patru zile; presupun continuarea plafonării cu o ușoară înclinare în jos.",
+      "sha256": "c645ddc595642eabf95e031fe8291e6ebe3c02b42af16da61ea6279a50fa1319",
+      "valoare": 2678.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 16:50:23",
+      "intrebare": "Preţul Solana pe 2026-09-27",
+      "intrebare_id": 4531,
+      "rationament": "Singura monedă care a făcut maxim nou pe 25; după corecția de ieri, aștept stabilizare aproape de nivelul curent.",
+      "sha256": "40f0ad57a244434345072a195acf161c40f4d4891c4ccbc043f899356320af3d",
+      "valoare": 120.6
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 16:50:23",
+      "intrebare": "Preţul XRP pe 2026-09-27",
+      "intrebare_id": 4532,
+      "rationament": "Serie rotunjită la doi zecimali, oscilează între 1,50 și 1,57; nu am semnal care să bată valoarea de azi.",
+      "sha256": "21fbb4461bcb8c78f4b9d5dcf9f5d039daafb2f537d0757ec26a13054857aa10",
+      "valoare": 1.54
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 16:50:23",
+      "intrebare": "Preţul Cardano pe 2026-09-27",
+      "intrebare_id": 4533,
+      "rationament": "Rezoluția datelor e mai mare decât mișcarea zilnică probabilă; rămân pe ultima închidere.",
+      "sha256": "e3802187251210dbb29a57eeaac69a0da4fe460ea948550374763c148745ff20",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 16:50:23",
+      "intrebare": "Preţul Dogecoin pe 2026-09-27",
+      "intrebare_id": 4534,
+      "rationament": "Constantă la două zecimale de nouă zile; orice abatere prezisă ar fi zgomot inventat.",
+      "sha256": "c743b9feaf351cc8c84a207989c940a636d25d83296d1e2f6f67051dbabbd007",
+      "valoare": 0.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 16:50:23",
+      "intrebare": "Preţul BNB pe 2026-09-27",
+      "intrebare_id": 4535,
+      "rationament": "Se descarcă încet de la 799; slăbiciunea de ieri sugerează încă o zi ușor negativă.",
+      "sha256": "847928acf26856ff490d33202d013713822ce3f2ebc2e060d5412b9c8c98fc04",
+      "valoare": 771.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 17:30:55",
+      "intrebare": "Temperatura maximă la București pe 2026-09-27",
+      "intrebare_id": 4536,
+      "rationament": "Recuperare după front rece, tendință de încălzire ușoară, cer senin.",
+      "sha256": "07a91722f0ad073394662fb0ba4d30fb8848dcd6af0c13f242af5d2a429b77be",
+      "valoare": 21.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 17:30:55",
+      "intrebare": "Va ploua la București pe 2026-09-27?",
+      "intrebare_id": 4537,
+      "rationament": "Recuperare după front rece, tendință de încălzire ușoară, cer senin.",
+      "sha256": "bf61e70134903b683e17f6132e02f1afd30d2526a86096b67c8d19ef6e6ad516",
+      "valoare": 0.1
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 17:30:55",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-09-27",
+      "intrebare_id": 4538,
+      "rationament": "Încălzire treptată după perioada rece, dar altitudinea limitează maxima.",
+      "sha256": "5f240fcbe251d77f50013fd9a97a9d4c483b6998661bb8c112e7796fc749274e",
+      "valoare": 19.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 17:30:55",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-09-27?",
+      "intrebare_id": 4539,
+      "rationament": "Încălzire treptată după perioada rece, dar altitudinea limitează maxima.",
+      "sha256": "cad7ae184a7ac26f99f8ff1849168b31eee35721e1042639c96c09b5aa1f841b",
+      "valoare": 0.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 17:30:55",
+      "intrebare": "Temperatura maximă la Iași pe 2026-09-27",
+      "intrebare_id": 4540,
+      "rationament": "Tendință similară cu București, revenire după front, șanse mici de ploaie.",
+      "sha256": "6479c095afbd0c16073339e43838ffeb37bb89748bdc5912877b9a2c4deb842a",
+      "valoare": 20.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 17:30:55",
+      "intrebare": "Va ploua la Iași pe 2026-09-27?",
+      "intrebare_id": 4541,
+      "rationament": "Tendință similară cu București, revenire după front, șanse mici de ploaie.",
+      "sha256": "cbd5af01fcd840dc7931064268d481773822cd7517132ffa27dd6d453c6cd65a",
+      "valoare": 0.15
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 17:30:55",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-09-27",
+      "intrebare_id": 4542,
+      "rationament": "Fluctuații recente, dar medie sezonieră în jur de 23°C, posibilă aversă.",
+      "sha256": "7da8991586e2d4c372ac25d389cfded47669fa50a9a3a1d725c3077947ed41f8",
+      "valoare": 23.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 17:30:55",
+      "intrebare": "Va ploua la Timișoara pe 2026-09-27?",
+      "intrebare_id": 4543,
+      "rationament": "Fluctuații recente, dar medie sezonieră în jur de 23°C, posibilă aversă.",
+      "sha256": "b86b50e66d37c865b87a483637b099cba3e8088004c30d092355853e566ddafa",
+      "valoare": 0.25
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 17:30:55",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-09-27",
+      "intrebare_id": 4544,
+      "rationament": "Umiditate marină, ploaie recentă, temperatură moderată cu șanse de ploaie.",
+      "sha256": "020a1cf3581f9177a7244e8756bcf1941d064bed6330fbeb1df51a2c36c93bd6",
+      "valoare": 20.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 17:30:55",
+      "intrebare": "Va ploua la Constanța pe 2026-09-27?",
+      "intrebare_id": 4545,
+      "rationament": "Umiditate marină, ploaie recentă, temperatură moderată cu șanse de ploaie.",
+      "sha256": "c502af178c907676deef2de031caf9f9006c21eefda38aae4c9190db166ebe28",
+      "valoare": 0.3
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 17:30:55",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-09-27",
+      "intrebare_id": 4546,
+      "rationament": "Recuperare lentă după ploi abundente, altitudine mare, maxime scăzute.",
+      "sha256": "b25e89eda667562455f9f20e9a9aea6bc44a6cd65668a052fb1cb24a1dea0ab9",
+      "valoare": 16.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-26 17:30:55",
+      "intrebare": "Va ploua la Brașov pe 2026-09-27?",
+      "intrebare_id": 4547,
+      "rationament": "Recuperare lentă după ploi abundente, altitudine mare, maxime scăzute.",
+      "sha256": "7204636bd7e02c81c91b7825d1dc1925137b88542d874b6bf7f6e6b1df9dec94",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 17:30:58",
+      "intrebare": "Temperatura maximă la București pe 2026-09-27",
+      "intrebare_id": 4536,
+      "rationament": "Temperatura scade după valul cald; probabilitate mică de ploaie, dar nu zero.",
+      "sha256": "9ba09bfbd1d4f58557d1d4e3b8a33ac033643a13aa954c01cabad891ea83a906",
+      "valoare": 19.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 17:30:58",
+      "intrebare": "Va ploua la București pe 2026-09-27?",
+      "intrebare_id": 4537,
+      "rationament": "Temperatura scade după valul cald; probabilitate mică de ploaie, dar nu zero.",
+      "sha256": "54994482d9c3fc999800a9f060b09e9efa8ffbe391eb6c7eab32ab4ab09a607b",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 17:30:58",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-09-27",
+      "intrebare_id": 4538,
+      "rationament": "Următoarea zi urmează trendul de încălzire lentă, fără precipitații recente.",
+      "sha256": "f0ab81c2545764cb36af638761389d3f652a30968db8584dd58060ab628c25bb",
+      "valoare": 19.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 17:30:58",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-09-27?",
+      "intrebare_id": 4539,
+      "rationament": "Următoarea zi urmează trendul de încălzire lentă, fără precipitații recente.",
+      "sha256": "dc24d7491f301032be3ea3ac09b919ef2e91241a04b6ded1fea4ee05135fae1f",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 17:30:58",
+      "intrebare": "Temperatura maximă la Iași pe 2026-09-27",
+      "intrebare_id": 4540,
+      "rationament": "Temperatura se stabilizează în jur de 20 °C; ploaie puțin probabilă recent.",
+      "sha256": "0f47972381e67c650da1eea0f0db8ef3b3bd878bce96dd70284dda268bed13ea",
+      "valoare": 20.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 17:30:58",
+      "intrebare": "Va ploua la Iași pe 2026-09-27?",
+      "intrebare_id": 4541,
+      "rationament": "Temperatura se stabilizează în jur de 20 °C; ploaie puțin probabilă recent.",
+      "sha256": "22993e3fe0814384492d89a19ddc88ff65e4c10e586763c8b25ddefbf9226a9b",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 17:30:58",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-09-27",
+      "intrebare_id": 4542,
+      "rationament": "Temperatura recentă variază, dar pare să se așeze în jur de 22 °C, fără ploaie.",
+      "sha256": "be897fb89546c2fad9ac49d6b20d96e7421df569c211915b3295116b5864d55c",
+      "valoare": 22.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 17:30:58",
+      "intrebare": "Va ploua la Timișoara pe 2026-09-27?",
+      "intrebare_id": 4543,
+      "rationament": "Temperatura recentă variază, dar pare să se așeze în jur de 22 °C, fără ploaie.",
+      "sha256": "58dc63cd1f74b19966dd45f4552cf0112024fdbf8859c944d59f3a0548b3df1f",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 17:30:58",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-09-27",
+      "intrebare_id": 4544,
+      "rationament": "Temperatura scade spre 20 °C; ploaie moderată recent, deci șansă ceva mai mare.",
+      "sha256": "684a95fe8e2df0433af09b29095533d40ec1e46ab87f624c02e2787bfd1e035f",
+      "valoare": 19.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 17:30:58",
+      "intrebare": "Va ploua la Constanța pe 2026-09-27?",
+      "intrebare_id": 4545,
+      "rationament": "Temperatura scade spre 20 °C; ploaie moderată recent, deci șansă ceva mai mare.",
+      "sha256": "d4455c6bfc718c1af8f4bb5e87f3520338fb7ab81340acf53a2eb9dd1bad007a",
+      "valoare": 0.3
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 17:30:58",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-09-27",
+      "intrebare_id": 4546,
+      "rationament": "Urcare lentă a temperaturii, dar precipitații abundente în ultimele zile.",
+      "sha256": "634f7ca77796b824fefa54f073b110b4341fe06984c401ffcf4ed7b4dde76906",
+      "valoare": 16.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-26 17:30:58",
+      "intrebare": "Va ploua la Brașov pe 2026-09-27?",
+      "intrebare_id": 4547,
+      "rationament": "Urcare lentă a temperaturii, dar precipitații abundente în ultimele zile.",
+      "sha256": "515e4557c67deed2bf50b216373340f677181a51233647ad12a2f21a8dead91b",
+      "valoare": 0.7
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 17:31:01",
+      "intrebare": "Temperatura maximă la București pe 2026-09-27",
+      "intrebare_id": 4536,
+      "rationament": "Tendința de stabilizare termică după răcire continuă, cu cer senin și presiune în creștere.",
+      "sha256": "a46673d15173b70c54586b4e3604720a8722bed2c80a41c290ad5745a16e2e93",
+      "valoare": 22.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 17:31:01",
+      "intrebare": "Va ploua la București pe 2026-09-27?",
+      "intrebare_id": 4537,
+      "rationament": "Tendința de stabilizare termică după răcire continuă, cu cer senin și presiune în creștere.",
+      "sha256": "38a9049b63b97de679f618cd1c373083f073bdebc61e569da679dd44d351f30e",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 17:31:01",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-09-27",
+      "intrebare_id": 4538,
+      "rationament": "Ușoară încălzire diurnă pe fondul unei mase de aer mai stabilă și fără precipitații recente.",
+      "sha256": "4a8b282a2c32666449201b9a1b7086816259c58e8bccb0da3a7c9d1584eb3425",
+      "valoare": 19.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 17:31:01",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-09-27?",
+      "intrebare_id": 4539,
+      "rationament": "Ușoară încălzire diurnă pe fondul unei mase de aer mai stabilă și fără precipitații recente.",
+      "sha256": "8dcfed1b8cc22aeab5ee58b096f333fb686fe130a9a3ef64f14cf4419eb71213",
+      "valoare": 0.15
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 17:31:01",
+      "intrebare": "Temperatura maximă la Iași pe 2026-09-27",
+      "intrebare_id": 4540,
+      "rationament": "Recuperare termică moderată după zilele mai reci, menținându-se cerul predominant senin.",
+      "sha256": "4c331b7411e3077c1aeeb53986a7a6236fd2e60f9bd26e15686836e613eb6ee2",
+      "valoare": 20.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 17:31:01",
+      "intrebare": "Va ploua la Iași pe 2026-09-27?",
+      "intrebare_id": 4541,
+      "rationament": "Recuperare termică moderată după zilele mai reci, menținându-se cerul predominant senin.",
+      "sha256": "cd6e4f6de7c822f7998d1604a9985780ed6fd0ab3f7469398584f64043675810",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 17:31:01",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-09-27",
+      "intrebare_id": 4542,
+      "rationament": "Continuă trendul de revenire la valori mai calde, specific vestului țării în această perioadă.",
+      "sha256": "bfdb3c293ab6098f04ec6f66d759925d951a14bdab94e0334bcf723af771059a",
+      "valoare": 23.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 17:31:01",
+      "intrebare": "Va ploua la Timișoara pe 2026-09-27?",
+      "intrebare_id": 4543,
+      "rationament": "Continuă trendul de revenire la valori mai calde, specific vestului țării în această perioadă.",
+      "sha256": "e8e625c4938f2bf127c0f9ede6b4a0b696807e95cbae2dcf7016a8f142070a6a",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 17:31:01",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-09-27",
+      "intrebare_id": 4544,
+      "rationament": "Influența maritimă menține temperaturile constante, cu probabilitate redusă pentru averse izolate.",
+      "sha256": "f79917dc0a119eaf6fe842b105dde740a5dfdd64350eb220b7b24c08312a1464",
+      "valoare": 20.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 17:31:01",
+      "intrebare": "Va ploua la Constanța pe 2026-09-27?",
+      "intrebare_id": 4545,
+      "rationament": "Influența maritimă menține temperaturile constante, cu probabilitate redusă pentru averse izolate.",
+      "sha256": "73d5d8e900c99f6eaef01bc6dbbd8b6cc64b0cbb5cb6ba466e647b99324412ab",
+      "valoare": 0.25
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 17:31:01",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-09-27",
+      "intrebare_id": 4546,
+      "rationament": "Încălzire treptată de la minimele recente, însă specificul depresionar montan păstrează aerul răcoros.",
+      "sha256": "5cbe27b0f2eb7a843622af8584d848b8fa7fad0921308a18877fa6273bc122c5",
+      "valoare": 16.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-26 17:31:01",
+      "intrebare": "Va ploua la Brașov pe 2026-09-27?",
+      "intrebare_id": 4547,
+      "rationament": "Încălzire treptată de la minimele recente, însă specificul depresionar montan păstrează aerul răcoros.",
+      "sha256": "196aa2e067d73efe83b9b94094d0177733cd25d5c022719907aa0c6791df587a",
+      "valoare": 0.15
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 17:31:03",
+      "intrebare": "Temperatura maximă la București pe 2026-09-27",
+      "intrebare_id": 4536,
+      "rationament": "Tendința de încălzire post-frontală și cer senin în ultimele 24h sugerează o zi uscată și moderat caldă.",
+      "sha256": "97a122c615888471aa4f5e0bac6f71c21d29cf9cad9998837a1ac51ac63a65e2",
+      "valoare": 21.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 17:31:03",
+      "intrebare": "Va ploua la București pe 2026-09-27?",
+      "intrebare_id": 4537,
+      "rationament": "Tendința de încălzire post-frontală și cer senin în ultimele 24h sugerează o zi uscată și moderat caldă.",
+      "sha256": "77fc46b09d16a56e8a5572042674093d6ca60d28f25674b81e5069be34992052",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 17:31:03",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-09-27",
+      "intrebare_id": 4538,
+      "rationament": "Recuperare termică lentă după front rece, cer variabil, risc scăzut de precipitații reziduale.",
+      "sha256": "fee6221b23214b5f93a90e511415805ad8f06854cf27aad8afbb1111ad29d1df",
+      "valoare": 19.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 17:31:03",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-09-27?",
+      "intrebare_id": 4539,
+      "rationament": "Recuperare termică lentă după front rece, cer variabil, risc scăzut de precipitații reziduale.",
+      "sha256": "0590db904546779e628ed98bdd19be64c004041fb32b318ae2ac97b70b360844",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 17:31:03",
+      "intrebare": "Temperatura maximă la Iași pe 2026-09-27",
+      "intrebare_id": 4540,
+      "rationament": "Stabilizare post-pluvială, temperaturi în creștere moderată, cer predominant senin în ultimele ore.",
+      "sha256": "4a77955cfe0c67fd548bd9c03a1f264503bb6d58a6992d2cbeba6ce0693bf8e2",
+      "valoare": 20.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 17:31:03",
+      "intrebare": "Va ploua la Iași pe 2026-09-27?",
+      "intrebare_id": 4541,
+      "rationament": "Stabilizare post-pluvială, temperaturi în creștere moderată, cer predominant senin în ultimele ore.",
+      "sha256": "533ded0f4f7c93c75446c0cc21290dd569d1e919c1f53c6810a5241cab53e596",
+      "valoare": 0.15
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 17:31:03",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-09-27",
+      "intrebare_id": 4542,
+      "rationament": "Influență anticiclonică, cer senin, temperaturi în ușoară creștere față de media locală de septembrie.",
+      "sha256": "70df45acb5383fd90b4b39e46edadeba9d8e94a9054deb59edb443628b0d94a4",
+      "valoare": 23.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 17:31:03",
+      "intrebare": "Va ploua la Timișoara pe 2026-09-27?",
+      "intrebare_id": 4543,
+      "rationament": "Influență anticiclonică, cer senin, temperaturi în ușoară creștere față de media locală de septembrie.",
+      "sha256": "63edfeb6582e4d1263a8a32772f42f111c746b8aaee6f1a88864bb161cd12152",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 17:31:03",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-09-27",
+      "intrebare_id": 4544,
+      "rationament": "Proximitatea mării și instabilitatea reziduală de la 26.09 indică un risc moderat de averse scurte.",
+      "sha256": "b9b137d94330a8926a52d7437530ef8992d0bf222dbd131a83e9831080b92fb3",
+      "valoare": 21.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 17:31:03",
+      "intrebare": "Va ploua la Constanța pe 2026-09-27?",
+      "intrebare_id": 4545,
+      "rationament": "Proximitatea mării și instabilitatea reziduală de la 26.09 indică un risc moderat de averse scurte.",
+      "sha256": "f65fe7b38ff49463b4061f0ae657d1e451676ed429a6d218d518a86c700aa024",
+      "valoare": 0.3
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 17:31:03",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-09-27",
+      "intrebare_id": 4546,
+      "rationament": "Altitudine mare, răcire nocturnă accentuată, cer senin dar cu posibilitate de ceață și precipitații minime.",
+      "sha256": "b19634ba66096dbf978fdc58ec68cc65400cd3b9c889028fa8746d2e6212f799",
+      "valoare": 16.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-26 17:31:03",
+      "intrebare": "Va ploua la Brașov pe 2026-09-27?",
+      "intrebare_id": 4547,
+      "rationament": "Altitudine mare, răcire nocturnă accentuată, cer senin dar cu posibilitate de ceață și precipitații minime.",
+      "sha256": "bfef41788e1f2247d8321b35122023bef12a824e9cd9c4af9e481a2c9782ac67",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 17:35:28",
+      "intrebare": "Temperatura maximă la București pe 2026-09-27",
+      "intrebare_id": 4536,
+      "rationament": "Dupa raceala din 22-23, revenire lenta si doua zile fara precipitatii; sugereaza anticiclon slab, deci inca +2 grade.",
+      "sha256": "4da878c8b976bec29de836975deff2a3d3f8193bab257af0f489c5b28fb3fb93",
+      "valoare": 22.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 17:35:28",
+      "intrebare": "Va ploua la București pe 2026-09-27?",
+      "intrebare_id": 4537,
+      "rationament": "Dupa raceala din 22-23, revenire lenta si doua zile fara precipitatii; sugereaza anticiclon slab, deci inca +2 grade.",
+      "sha256": "67ef6725972d70e034da407885e896347fa17ab439d9414db8a39cf8719d404a",
+      "valoare": 0.12
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 17:35:28",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-09-27",
+      "intrebare_id": 4538,
+      "rationament": "Incalzire constanta de circa un grad pe zi din 24 septembrie, cer aparent senin; continuu trendul, atenuat de altitudine.",
+      "sha256": "aea256eee0bb0a89c0e4cb930267953914dfcd2b574409d02b61d7efece2d776",
+      "valoare": 19.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 17:35:28",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-09-27?",
+      "intrebare_id": 4539,
+      "rationament": "Incalzire constanta de circa un grad pe zi din 24 septembrie, cer aparent senin; continuu trendul, atenuat de altitudine.",
+      "sha256": "f3a194a53aa42dcda5c61105af18d18108f57613c5913bb2da553b8f633bf045",
+      "valoare": 0.15
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 17:35:28",
+      "intrebare": "Temperatura maximă la Iași pe 2026-09-27",
+      "intrebare_id": 4540,
+      "rationament": "Redresare la 20 grade si platou in ultimele doua zile; Moldova urmeaza acelasi val cald dinspre sud-vest, usor mai rece.",
+      "sha256": "2ef8a11b3474055e2952d998ed8634ac37483fc2f2f258b3a87f14a7ae8940b5",
+      "valoare": 20.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 17:35:28",
+      "intrebare": "Va ploua la Iași pe 2026-09-27?",
+      "intrebare_id": 4541,
+      "rationament": "Redresare la 20 grade si platou in ultimele doua zile; Moldova urmeaza acelasi val cald dinspre sud-vest, usor mai rece.",
+      "sha256": "a47817bdff8f8e726488b771b96d00c4fcc83bfae37ccce3b731a2809e3ea995",
+      "valoare": 0.12
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 17:35:28",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-09-27",
+      "intrebare_id": 4542,
+      "rationament": "Cel mai cald oras din set, salt de 4 grade ieri dupa ploaie; Banatul primeste primul aerul cald panonic.",
+      "sha256": "c1c35ba419d94e547adb4ae498a48d5b6c0ec5bcb072adc4f27a46f6507ca8a9",
+      "valoare": 24.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 17:35:28",
+      "intrebare": "Va ploua la Timișoara pe 2026-09-27?",
+      "intrebare_id": 4543,
+      "rationament": "Cel mai cald oras din set, salt de 4 grade ieri dupa ploaie; Banatul primeste primul aerul cald panonic.",
+      "sha256": "b8a6ee9983cc8d3b86fd6b8675c9161d058f7a1010720f652f0c9abf720bf3d2",
+      "valoare": 0.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 17:35:28",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-09-27",
+      "intrebare_id": 4544,
+      "rationament": "Marea Neagra amortizeaza variatiile; serie foarte plata in jur de 20 grade, dar a plouat ieri, deci umezeala persista.",
+      "sha256": "a85aee25bbe40e99a527cf2095ccb45e899403841cc8ac7fcd63623d57c32c04",
+      "valoare": 20.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 17:35:28",
+      "intrebare": "Va ploua la Constanța pe 2026-09-27?",
+      "intrebare_id": 4545,
+      "rationament": "Marea Neagra amortizeaza variatiile; serie foarte plata in jur de 20 grade, dar a plouat ieri, deci umezeala persista.",
+      "sha256": "5381f2b44b8c54078f0f55286eace5349ff1cef12a2e90cbb1c89a6963f0315e",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 17:35:28",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-09-27",
+      "intrebare_id": 4546,
+      "rationament": "625 m si depresiune reci, dar urcare de la 10 la 15.8 in trei zile; prelungesc panta cu un grad.",
+      "sha256": "d532b32af83c8edd79ae0a47b46cb19774d113b29193e565cbbc1024b11f2475",
+      "valoare": 17.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-26 17:35:28",
+      "intrebare": "Va ploua la Brașov pe 2026-09-27?",
+      "intrebare_id": 4547,
+      "rationament": "625 m si depresiune reci, dar urcare de la 10 la 15.8 in trei zile; prelungesc panta cu un grad.",
+      "sha256": "7949d5485a14f9f2c733a028802bed79583cc0fa4198e8f0a709b4c8b137226a",
+      "valoare": 0.2
+    }
+  ],
+  "zi": "2026-09-26"
+}
