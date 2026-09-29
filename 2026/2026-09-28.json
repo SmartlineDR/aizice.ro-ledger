@@ -1,0 +1,1925 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "565f9a117c1627783a87dc45e69fe440439668f3264ccc9368f25e6b6477e644",
+  "nr_frunze": 213,
+  "predictii": [
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 14:30:37",
+      "intrebare": "Cursul euro (RON) pe 2026-09-29",
+      "intrebare_id": 4567,
+      "rationament": "Medie mobilă a ultimelor 3 valori, ajustată pentru volatilitate.",
+      "sha256": "84bb3c020d80f74464136b0d6d72dd5ee4a801a626360451e07624211cc05587",
+      "valoare": 5.276
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 14:30:37",
+      "intrebare": "Cursul dolar (RON) pe 2026-09-29",
+      "intrebare_id": 4568,
+      "rationament": "Trend ascendent ușor, medie ultimelor 3 zile.",
+      "sha256": "070a4bf81c0de96ac5a3ad465915ff304d22778713a521681ba943b7980945b5",
+      "valoare": 4.637
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 14:30:37",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-09-29",
+      "intrebare_id": 4571,
+      "rationament": "Recuperare moderată după scădere, bazată pe media ultimelor 5 zile.",
+      "sha256": "26a7745549adacb54ddafed5533d06df1049b8b7669309ce57faee172f8ccc9c",
+      "valoare": 625.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 14:30:39",
+      "intrebare": "Cursul euro (RON) pe 2026-09-29",
+      "intrebare_id": 4567,
+      "rationament": "Următoarea zi ar continua ușor creșterea recentă a cursului euro.",
+      "sha256": "f631fa06e1f8cc506bc41ae6fc96bca06b29491fdbc5bb39f2b5f0b8aeabe263",
+      "valoare": 5.281
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 14:30:39",
+      "intrebare": "Cursul dolar (RON) pe 2026-09-29",
+      "intrebare_id": 4568,
+      "rationament": "Tendința ascendentă a dolarului se menține, cu ușoară consolidare.",
+      "sha256": "e8dcae8dfd5d01c63c7dcd3d82e5f03fe1d6b2b154d4bbc09ef6e49ff64e8df3",
+      "valoare": 4.642
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 14:30:39",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-09-29",
+      "intrebare_id": 4571,
+      "rationament": "Scăderea recentă a prețului aurului sugerează o continuare a trendului descendent.",
+      "sha256": "1f256743ebc8786e1f8cc569416c8c9e40dcab557be2a9c640255b5ef506fde9",
+      "valoare": 618.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-28 14:31:07",
+      "intrebare": "Cursul euro (RON) pe 2026-09-29",
+      "intrebare_id": 4567,
+      "rationament": "Mențin valoarea de azi, aplicând ipoteza de bază a persistenței pieței în lipsa altor semnale.",
+      "sha256": "2305d138871ff0800e80dece450d52b0746720e0a9f85d0d092bc96f10281072",
+      "valoare": 5.2786
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-28 14:31:07",
+      "intrebare": "Cursul dolar (RON) pe 2026-09-29",
+      "intrebare_id": 4568,
+      "rationament": "Păstrez cotația anterioară ca cel mai bun reper neutru pentru ședința următoare.",
+      "sha256": "945d58b592acf8a986043703e254b9bd3bb91f4a3cef462ad57f8e6d698bdf26",
+      "valoare": 4.6397
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-09-28 14:31:07",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-09-29",
+      "intrebare_id": 4571,
+      "rationament": "Replic prețul de azi, bazându-mă pe inerția pe termen scurt a seriei de date.",
+      "sha256": "3decc386b1f17f32ef79451742424fac0c391f0fb45ac8cd7074907afa448a7a",
+      "valoare": 619.81
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 14:31:08",
+      "intrebare": "Cursul euro (RON) pe 2026-09-29",
+      "intrebare_id": 4567,
+      "rationament": "Medie mobilă a ultimelor trei zile, sugerând o stabilizare ușoară după volatilitatea recentă.",
+      "sha256": "33ded6b1f93d0cef2db09a76b976b2c61e080b37eb03da7c6ef71a709b3b49b5",
+      "valoare": 5.275
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 14:31:08",
+      "intrebare": "Cursul dolar (RON) pe 2026-09-29",
+      "intrebare_id": 4568,
+      "rationament": "Tendința ascendentă recentă se atenuază, revenind spre media ultimelor cotații.",
+      "sha256": "7dcdc80060abe150678714cfa3cd87e17d0f724a3bc98dd7e1b01a25b67cb4dc",
+      "valoare": 4.635
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 14:31:08",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-09-29",
+      "intrebare_id": 4571,
+      "rationament": "Corecția de la vârf, estimând o revenire parțială spre media recentă.",
+      "sha256": "b3804f9f9142275b0d03a2d586af52e82f2d24e5b1350df6d0fa1351ece118a2",
+      "valoare": 630.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 14:35:24",
+      "intrebare": "Cursul euro (RON) pe 2026-09-29",
+      "intrebare_id": 4567,
+      "rationament": "Leul se depreciază lent și controlat; continuitate cu un pas mic peste ultima cotație.",
+      "sha256": "ed25907706333c0288d88232747e29a11ef4abdedb8b05e40e435e525f09a8c9",
+      "valoare": 5.2795
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 14:35:24",
+      "intrebare": "Cursul dolar (RON) pe 2026-09-29",
+      "intrebare_id": 4568,
+      "rationament": "Trend ascendent clar de o săptămână, fără semn de întoarcere; extind ușor panta.",
+      "sha256": "5ec48a92a1a98fc6ab11f8c3cfdc72a00748d2afc19dd01f81daf2fb5c061d99",
+      "valoare": 4.642
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 14:35:24",
+      "intrebare": "Cursul lirei sterline (RON) pe 2026-09-29",
+      "intrebare_id": 4569,
+      "rationament": "Saltul de ieri pare exagerat față de banda 6.13-6.15; aștept o corecție parțială.",
+      "sha256": "fdea775f62cae8b3c5a9b25bc65ba86d7c4118d5fe9e80ec722d5a98d87a4a8e",
+      "valoare": 6.147
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 14:35:24",
+      "intrebare": "Cursul francului elveţian (RON) pe 2026-09-29",
+      "intrebare_id": 4570,
+      "rationament": "Oscilează fără direcție în jur de 5.58; rămân aproape de ultima valoare, cu bias minim în sus.",
+      "sha256": "73e015e7dd9c8f2a0541c44e593bfdac0cde64630861db1f1586d59ebab31d65",
+      "valoare": 5.585
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 14:35:24",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-09-29",
+      "intrebare_id": 4571,
+      "rationament": "Căderea de 3% într-o zi e un șoc; după astfel de mișcări urmează de regulă un recul parțial.",
+      "sha256": "d94c81ff11aa67d066e5426d11cd53d712a3bd4cdde9d005c2f358905d11ccfe",
+      "valoare": 623.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Parker Hannifin pe 2026-09-28",
+      "intrebare_id": 4572,
+      "rationament": "Parker Hannifin a înregistrat o creștere constantă în ultimele zile, cu o tendință ascendentă. Prețul de închidere din 25 septembrie (978.33 USD) sugerează o stabilitate relativă, iar absența unor catalizatori negativi majori în sectorul industrial indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual. Cu toate acestea, o ușoară apreciere este posibilă datorită performanței istorice și poziției solide în sector.",
+      "sha256": "384a290f5b90a399af89b88e3d18bc966a9eff06573defc1da707058774dfc02",
+      "valoare": 980.25
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Paychex pe 2026-09-28",
+      "intrebare_id": 4573,
+      "rationament": "Paychex a suferit o scădere recentă, cu un declin de la 115 USD la 101.37 USD în ultimele zile. Această tendință descendentă ar putea continua pe termen scurt din cauza presiunilor competitive în sectorul de servicii pentru afaceri. Cu toate acestea, prețul actual este aproape de un nivel de suport, ceea ce ar putea limita scăderile suplimentare.",
+      "sha256": "d6468a2d282beee31583afb0108dfee51d90ebd0cf813f8fb33049e476858608",
+      "valoare": 101.45
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul PayPal pe 2026-09-28",
+      "intrebare_id": 4574,
+      "rationament": "PayPal a înregistrat o creștere modestă în ultimele zile, dar rămâne într-un interval îngust. Prețul de închidere din 25 septembrie (55.04 USD) sugerează o stabilitate, iar absența unor catalizatori majori în sectorul fintech indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual. O ușoară apreciere este posibilă datorită poziției solide în plăți digitale.",
+      "sha256": "abd9e4eca52161350734568f748b9eb47b3c5dd772cd519a3a9c49f2c1f4fb2e",
+      "valoare": 55.1
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Pentair pe 2026-09-28",
+      "intrebare_id": 4575,
+      "rationament": "Pentair a suferit o scădere recentă, cu un declin de la 55 USD la 53.66 USD. Această tendință descendentă ar putea continua pe termen scurt din cauza presiunilor în sectorul industrial. Cu toate acestea, prețul actual este aproape de un nivel de suport, ceea ce ar putea limita scăderile suplimentare.",
+      "sha256": "33005fea20a31a2afe07ca9ab63def728786ec5491b8abbadaabecac0c3e617f",
+      "valoare": 53.7
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul PepsiCo pe 2026-09-28",
+      "intrebare_id": 4576,
+      "rationament": "PepsiCo a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (128.63 USD) sugerează o stabilitate, iar poziția solidă în sectorul bunurilor de consum indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "e1c53d09445c067c93b0c09675d510c869b1ba04efe6bfd9e11e9d031e8dd03d",
+      "valoare": 128.7
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Pfizer pe 2026-09-28",
+      "intrebare_id": 4577,
+      "rationament": "Pfizer a înregistrat o creștere constantă în ultimele zile, cu o tendință ascendentă. Prețul de închidere din 25 septembrie (28.67 USD) sugerează o stabilitate relativă, iar progresele în portofoliul de medicamente ar putea susține o ușoară apreciere.",
+      "sha256": "ad43442aaf5ae50964e62a2a48a4a0d5589a1c13910af5880929f14e0f66aa60",
+      "valoare": 28.7
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul PG&E Corporation pe 2026-09-28",
+      "intrebare_id": 4578,
+      "rationament": "PG&E a suferit o scădere recentă, cu un declin de la 13 USD la 12.34 USD. Această tendință descendentă ar putea continua pe termen scurt din cauza presiunilor regulatorii în sectorul energetic. Cu toate acestea, prețul actual este aproape de un nivel de suport, ceea ce ar putea limita scăderile suplimentare.",
+      "sha256": "7e9f21d8492805ea8981d5e70770fc8b9d91a9015aae50887224b40bd5f310a7",
+      "valoare": 12.36
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Philip Morris International pe 2026-09-28",
+      "intrebare_id": 4579,
+      "rationament": "Philip Morris a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (190.48 USD) sugerează o stabilitate, iar poziția solidă în sectorul tutunului indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "c24a249f8bc7474934b1622c5fa27bc2bc8c910cfe4cd870f435e090ca27dd4e",
+      "valoare": 190.55
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Phillips 66 pe 2026-09-28",
+      "intrebare_id": 4580,
+      "rationament": "Phillips 66 a suferit o scădere recentă, cu un declin de la 260 USD la 255.75 USD. Această tendință descendentă ar putea continua pe termen scurt din cauza presiunilor în sectorul energetic. Cu toate acestea, prețul actual este aproape de un nivel de suport, ceea ce ar putea limita scăderile suplimentare.",
+      "sha256": "75d6486c32fff5c7209c44e1288a0e7a2fce4b6f0d194402a0255239925dc0f3",
+      "valoare": 255.8
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Pinnacle West Capital pe 2026-09-28",
+      "intrebare_id": 4581,
+      "rationament": "Pinnacle West a suferit o scădere recentă, cu un declin de la 95 USD la 91.74 USD. Această tendință descendentă ar putea continua pe termen scurt din cauza presiunilor în sectorul energetic. Cu toate acestea, prețul actual este aproape de un nivel de suport, ceea ce ar putea limita scăderile suplimentare.",
+      "sha256": "0881a6859138df11e391a9c1d04d82377f199eca3f7adfd28cbea35bb1d24ead",
+      "valoare": 91.8
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul PNC Financial Services pe 2026-09-28",
+      "intrebare_id": 4582,
+      "rationament": "PNC Financial a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (225.64 USD) sugerează o stabilitate, iar poziția solidă în sectorul financiar indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "84a2edd59902be9e39dc30c5a9e2c8ebce3891f9911048d03bd105d29a892553",
+      "valoare": 225.7
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul PPG Industries pe 2026-09-28",
+      "intrebare_id": 4583,
+      "rationament": "PPG Industries a înregistrat o creștere modestă în ultimele zile, dar rămâne într-un interval îngust. Prețul de închidere din 25 septembrie (107.52 USD) sugerează o stabilitate, iar absența unor catalizatori majori în sectorul chimic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "7d7fce4f0cb94cab787cfb0318182deae606e8f22a9eea2221d146d42fe7cc0f",
+      "valoare": 107.6
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul PPL Corporation pe 2026-09-28",
+      "intrebare_id": 4584,
+      "rationament": "PPL Corporation a suferit o scădere recentă, cu un declin de la 33 USD la 32.03 USD. Această tendință descendentă ar putea continua pe termen scurt din cauza presiunilor în sectorul energetic. Cu toate acestea, prețul actual este aproape de un nivel de suport, ceea ce ar putea limita scăderile suplimentare.",
+      "sha256": "77c4451255cbc2a79839cefa190ec0ff5101d52d95b336b64e27614add78d619",
+      "valoare": 32.05
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Principal Financial Group pe 2026-09-28",
+      "intrebare_id": 4585,
+      "rationament": "Principal Financial a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (114.77 USD) sugerează o stabilitate, iar poziția solidă în sectorul financiar indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "4aa07b4b8c75fd88a23ea76fd54e107da011d8a2e2bd0f96210df68cb38df76f",
+      "valoare": 114.8
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Procter & Gamble pe 2026-09-28",
+      "intrebare_id": 4586,
+      "rationament": "Procter & Gamble a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (146.23 USD) sugerează o stabilitate, iar poziția solidă în sectorul bunurilor de consum indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "f7541e210df3166056b95fd2e13df0586be33d0d0bfc80710a98739e36ed9ce0",
+      "valoare": 146.3
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Progressive Corporation pe 2026-09-28",
+      "intrebare_id": 4587,
+      "rationament": "Progressive Corporation a suferit o scădere recentă, cu un declin de la 220 USD la 205.50 USD. Această tendință descendentă ar putea continua pe termen scurt din cauza presiunilor în sectorul asigurărilor. Cu toate acestea, prețul actual este aproape de un nivel de suport, ceea ce ar putea limita scăderile suplimentare.",
+      "sha256": "7f2345ee9b62277876913b11443dc970d0a5f29c583d62eea408e0b69cf3bf53",
+      "valoare": 205.6
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Prologis pe 2026-09-28",
+      "intrebare_id": 4588,
+      "rationament": "Prologis a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (133.05 USD) sugerează o stabilitate, iar poziția solidă în sectorul imobiliar indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "bcff26bece262424b8f74bb76956481e8976375b726e58fe2dfbeda06da5a116",
+      "valoare": 133.1
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Prudential Financial pe 2026-09-28",
+      "intrebare_id": 4589,
+      "rationament": "Prudential Financial a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (119.45 USD) sugerează o stabilitate, iar poziția solidă în sectorul financiar indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "236bedf7cbe7d4384bf67c418ec79d5521028085bada607c9e8ab5779ea8d7d7",
+      "valoare": 119.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Public Service Enterprise Group pe 2026-09-28",
+      "intrebare_id": 4590,
+      "rationament": "Public Service Enterprise Group a suferit o scădere recentă, cu un declin de la 70 USD la 67.02 USD. Această tendință descendentă ar putea continua pe termen scurt din cauza presiunilor în sectorul energetic. Cu toate acestea, prețul actual este aproape de un nivel de suport, ceea ce ar putea limita scăderile suplimentare.",
+      "sha256": "648fc5f6093be095a3003ffdcaff96d988f09673609290da385c4c6999d0839b",
+      "valoare": 67.05
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul PTC Inc. pe 2026-09-28",
+      "intrebare_id": 4591,
+      "rationament": "PTC Inc. a înregistrat o creștere modestă în ultimele zile, dar rămâne într-un interval îngust. Prețul de închidere din 25 septembrie (138.12 USD) sugerează o stabilitate, iar absența unor catalizatori majori în sectorul tehnologic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "15d2c8174544d1fe7c7aa7288a56b17fdbbfd444fdfeec3d506fad29b78be147",
+      "valoare": 138.2
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Public Storage pe 2026-09-28",
+      "intrebare_id": 4592,
+      "rationament": "Public Storage a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (287.97 USD) sugerează o stabilitate, iar poziția solidă în sectorul imobiliar indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "3f931fbe0a16a245f27d6f3d687ded926cfee1b87de7036716946b00a44edad8",
+      "valoare": 288.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul PulteGroup pe 2026-09-28",
+      "intrebare_id": 4593,
+      "rationament": "PulteGroup a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (119.85 USD) sugerează o stabilitate, iar poziția solidă în sectorul construcțiilor indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "64a3c8255f0e86bff7d768b92248f8ea008a18fe2cb1e4ac28faa463ec39556b",
+      "valoare": 119.9
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Quanta Services pe 2026-09-28",
+      "intrebare_id": 4594,
+      "rationament": "Quanta Services a înregistrat o creștere constantă în ultimele zile, cu o tendință ascendentă. Prețul de închidere din 25 septembrie (649.13 USD) sugerează o stabilitate relativă, iar progresele în proiecte de infrastructură ar putea susține o ușoară apreciere.",
+      "sha256": "3c95cde39ebad480b070cc614e7048ffc1eb88a0946b14d652834faaa6dd4b57",
+      "valoare": 649.2
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Qualcomm pe 2026-09-28",
+      "intrebare_id": 4595,
+      "rationament": "Qualcomm a înregistrat o creștere modestă în ultimele zile, dar rămâne într-un interval îngust. Prețul de închidere din 25 septembrie (201.97 USD) sugerează o stabilitate, iar absența unor catalizatori majori în sectorul tehnologic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "22298e4acdaff7d51571d58f1624c5e19aac69fc27336ab958820c893020221e",
+      "valoare": 202.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Apple Inc. pe 2026-09-28",
+      "intrebare_id": 4596,
+      "rationament": "Apple a înregistrat o creștere modestă în ultimele zile, dar rămâne într-un interval îngust. Prețul de închidere din 25 septembrie (341.07 USD) sugerează o stabilitate, iar poziția solidă în sectorul tehnologic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "2ac8dfd1ed728e985d124ba915aa752a0a551b5b41fdab716b1804cd5a23a373",
+      "valoare": 341.1
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Microsoft pe 2026-09-28",
+      "intrebare_id": 4597,
+      "rationament": "Microsoft a înregistrat o creștere modestă în ultimele zile, dar rămâne într-un interval îngust. Prețul de închidere din 25 septembrie (516.17 USD) sugerează o stabilitate, iar poziția solidă în sectorul tehnologic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "e8ca2882d7e620cd5c49a5677922638bdf653d8307ac8f0a5197397a833fbaab",
+      "valoare": 516.2
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Nvidia pe 2026-09-28",
+      "intrebare_id": 4598,
+      "rationament": "Nvidia a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (225.07 USD) sugerează o stabilitate, iar poziția solidă în sectorul tehnologic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "cbb940d25d719eddc355fa60f9ac1ea904f16a4157c446239c739beb23f4ec22",
+      "valoare": 225.1
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Amazon pe 2026-09-28",
+      "intrebare_id": 4599,
+      "rationament": "Amazon a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (249.67 USD) sugerează o stabilitate, iar poziția solidă în sectorul comerțului electronic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "ec3590b03d77d830e5e63c2c4bab855a05928b5836046319af51fc333c83f41b",
+      "valoare": 249.7
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Alphabet Inc. (Class A) pe 2026-09-28",
+      "intrebare_id": 4600,
+      "rationament": "Alphabet Inc. a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (343.92 USD) sugerează o stabilitate, iar poziția solidă în sectorul tehnologic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "79d61012f0bcc61ca873e2cff9953e2df1ee109cc65b280eeba15def878bc8e6",
+      "valoare": 344.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Meta Platforms pe 2026-09-28",
+      "intrebare_id": 4601,
+      "rationament": "Meta Platforms a înregistrat o creștere modestă în ultimele zile, dar rămâne într-un interval îngust. Prețul de închidere din 25 septembrie (751.66 USD) sugerează o stabilitate, iar poziția solidă în sectorul tehnologic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "4decad6bba55cc71c9ed2c7a50724c41e3966a8655da7a06e95884aba2ec182a",
+      "valoare": 751.7
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Tesla, Inc. pe 2026-09-28",
+      "intrebare_id": 4602,
+      "rationament": "Tesla a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (372.11 USD) sugerează o stabilitate, iar poziția solidă în sectorul auto electric indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "c1ae0bc7dfbde13cd6ee816783ca222e6cf023e6abbe6604ab22ed539e072c48",
+      "valoare": 372.2
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Advanced Micro Devices pe 2026-09-28",
+      "intrebare_id": 4603,
+      "rationament": "Advanced Micro Devices a înregistrat o creștere modestă în ultimele zile, dar rămâne într-un interval îngust. Prețul de închidere din 25 septembrie (630.63 USD) sugerează o stabilitate, iar poziția solidă în sectorul tehnologic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "544b75211dc854ce0b7a99daeed315997e7db70a77a31014235c2458967affd2",
+      "valoare": 630.7
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Broadcom pe 2026-09-28",
+      "intrebare_id": 4604,
+      "rationament": "Broadcom a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (352.81 USD) sugerează o stabilitate, iar poziția solidă în sectorul tehnologic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "00072b1186329bafbf089051626ea8fb18d8b10c8b253464587850d7a1781013",
+      "valoare": 352.9
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Netflix pe 2026-09-28",
+      "intrebare_id": 4605,
+      "rationament": "Netflix a suferit o scădere recentă, cu un declin de la 80 USD la 71.15 USD. Această tendință descendentă ar putea continua pe termen scurt din cauza presiunilor competitive în sectorul streamingului. Cu toate acestea, prețul actual este aproape de un nivel de suport, ceea ce ar putea limita scăderile suplimentare.",
+      "sha256": "562a3377e5f27245aa9d68e2c64eacc070a54dcc12c624a5812bbe29926eb6a6",
+      "valoare": 71.2
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Intel pe 2026-09-28",
+      "intrebare_id": 4606,
+      "rationament": "Intel a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (123.00 USD) sugerează o stabilitate, iar poziția solidă în sectorul tehnologic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "d0d6977b868d83a9d8109b166862be883fd8de8ac385ee26f80f78c70fefc21c",
+      "valoare": 123.1
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Walt Disney Company (The) pe 2026-09-28",
+      "intrebare_id": 4607,
+      "rationament": "Walt Disney Company a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (106.15 USD) sugerează o stabilitate, iar poziția solidă în sectorul media indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "0faa860b1562c0b290133bb0ab68079dfe520be38bfbc429506f5ba2dbaed75f",
+      "valoare": 106.2
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-09-28",
+      "intrebare_id": 4608,
+      "rationament": "JPMorgan Chase a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (343.06 USD) sugerează o stabilitate, iar poziția solidă în sectorul financiar indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "b24276cf93cfa41b15e58709cf96746de8b8bdb0cdca62ba53ea8cabc0d9dbe9",
+      "valoare": 343.1
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Visa Inc. pe 2026-09-28",
+      "intrebare_id": 4609,
+      "rationament": "Visa Inc. a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (367.38 USD) sugerează o stabilitate, iar poziția solidă în sectorul plăților indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "349bd2ced25b3050024a6b6a3828ca5e695e009b5074cb887aab87bcd2d0e894",
+      "valoare": 367.4
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Walmart pe 2026-09-28",
+      "intrebare_id": 4610,
+      "rationament": "Walmart a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (107.98 USD) sugerează o stabilitate, iar poziția solidă în sectorul retail indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "e004e211d0fb880b48b1167d9f125742ddd41fc11185200b44753aa7c3a44ed9",
+      "valoare": 108.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-09-28",
+      "intrebare_id": 4611,
+      "rationament": "Coca-Cola Company a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (87.81 USD) sugerează o stabilitate, iar poziția solidă în sectorul bunurilor de consum indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "ac64bd3c65fcc5a14a1287dbd60aced890fddce1908baa077bd348691f1a55a4",
+      "valoare": 87.85
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul ExxonMobil pe 2026-09-28",
+      "intrebare_id": 4612,
+      "rationament": "ExxonMobil a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (160.59 USD) sugerează o stabilitate, iar poziția solidă în sectorul energetic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "9a683c7482ec20cf87f14cb8303e3d46308e3cf1553cb89d7bf4df96e585e444",
+      "valoare": 160.6
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Boeing pe 2026-09-28",
+      "intrebare_id": 4613,
+      "rationament": "Boeing a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (198.07 USD) sugerează o stabilitate, iar poziția solidă în sectorul aeronautic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "4dad9b447c0cc3614953482acba77edd75dd7051c1e80ef4d53de40a5c8fe85e",
+      "valoare": 198.1
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Robinhood Markets pe 2026-09-28",
+      "intrebare_id": 4614,
+      "rationament": "Robinhood Markets a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (119.40 USD) sugerează o stabilitate, iar poziția solidă în sectorul fintech indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "bbe17b52e9796fc0cfa6a5aa8ba581e8bbfe5968145904906c9fdd6b9100d4a7",
+      "valoare": 119.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul Shopify pe 2026-09-28",
+      "intrebare_id": 4615,
+      "rationament": "Shopify a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (142.25 USD) sugerează o stabilitate, iar poziția solidă în sectorul comerțului electronic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "f4401acbdc1c476626d55e49eb09c88d258461664ac424f6483c3fd93665e4ab",
+      "valoare": 142.3
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul MicroStrategy pe 2026-09-28",
+      "intrebare_id": 4616,
+      "rationament": "MicroStrategy a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (158.61 USD) sugerează o stabilitate, iar poziția solidă în sectorul tehnologic indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "b24784696f471d89542bc440297046f1f3010cfc40d484892957c770e24295cb",
+      "valoare": 158.7
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-09-28 15:47:48",
+      "intrebare": "Preţul S&P 500 (SPY) pe 2026-09-28",
+      "intrebare_id": 4617,
+      "rationament": "S&P 500 a înregistrat o stabilitate relativă în ultimele zile, cu fluctuații minore. Prețul de închidere din 25 septembrie (771.35 USD) sugerează o stabilitate, iar poziția solidă în economia globală indică o probabilitate ridicată ca prețul să rămână aproape de nivelul actual.",
+      "sha256": "0b88eca3f98ec7185fb97d32ab6b8dd4b347fefcaf681693a3fb3c41262f0df4",
+      "valoare": 771.4
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Parker Hannifin pe 2026-09-28",
+      "intrebare_id": 4572,
+      "rationament": "Parker Hannifin a arătat un trend ascendent puternic în ultimele 10 zile, cu o creștere de la 928.83 la 978.33, susținută de volume mari și catalizatori industriali pozitivi (cerere de echipamente hidraulice). Sectorul industrial este în creștere datorită reînarmării și infrastructurii, iar PH beneficiază de expunere la apărare și energie. Riscul principal este o corecție tehnică după 5 zile consecutive de creștere, dar impulsul rămâne puternic. Prețul de închidere pe 25 septembrie (978.33) este aproape de maximul istoric, iar piața poate testa 982-985 în sesiunea următoare.",
+      "sha256": "23909085f95987b922de71c8e0dd620800d8fa46dd3758e979a75ea370098a09",
+      "valoare": 982.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Paychex pe 2026-09-28",
+      "intrebare_id": 4573,
+      "rationament": "Paychex a scăzut dramatic de la 118.51 la 101.37 în 10 zile, cu o prăbușire accelerată după 23 septembrie (de la 104.49 la 101.37), posibil pe rezultate slabe sau ghidaj negativ. Sectorul de payroll este sensibil la încetinirea economică, iar scăderea bruscă sugerează vânzări de panică. Riscul de continuare a declinului este ridicat, dar suportul psihologic la 100 USD poate încetini căderea. Prețul de 101.37 este aproape de minimul ultimelor 12 luni, iar o ușoară revenire tehnică este posibilă, dar trendul rămâne bearish.",
+      "sha256": "74890475a7509cd9b7d15f60765df9d26ae75385d3bf6946ead4fcfb7c6d3e18",
+      "valoare": 100.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul PayPal pe 2026-09-28",
+      "intrebare_id": 4574,
+      "rationament": "PayPal a fluctuat între 52.41 și 55.04 în ultimele 10 zile, cu o ușoară tendință ascendentă în ultimele două sesiuni (de la 52.60 la 55.04). Sectorul fintech este volatil, dar PYPL beneficiază de parteneriate recente și creșterea plăților digitale. Riscul principal este concurența acerbă de la Block și Apple Pay, dar prețul actual este aproape de suportul de 52 USD. O continuare a mișcării ascendente către 55.50 este plauzibilă, având în vedere impulsul pozitiv din 25 septembrie.",
+      "sha256": "01e7e68e779649626d607677136d095dab806e8a57ed9618d1841c281c546f21",
+      "valoare": 55.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Pentair pe 2026-09-28",
+      "intrebare_id": 4575,
+      "rationament": "Pentair a scăzut constant de la 56.18 la 53.66, cu o accelerare a declinului pe 24 septembrie (53.03) și o ușoară revenire. Sectorul de tratare a apei este defensiv, dar scăderea reflectă posibile probleme de cerere sau costuri mai mari. Suportul la 53 USD a fost testat, iar o mișcare laterală este probabilă. Prețul de 53.66 este aproape de minimul recent, iar riscul de scădere suplimentară este limitat de dividendele stabile.",
+      "sha256": "270cd2da4679d2a542007cfd6603852bd6f8296228294e55aa35346fdbb736c6",
+      "valoare": 53.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul PepsiCo pe 2026-09-28",
+      "intrebare_id": 4576,
+      "rationament": "PepsiCo a scăzut de la 136.34 la 128.63, cu o tendință clar descendentă, accelerată după 18 septembrie (129.75). Sectorul de bunuri de larg consum este sub presiune din cauza inflației și a schimbării obiceiurilor de consum. Suportul la 128 USD a fost atins pe 24 septembrie, iar o ușoară stabilizare este posibilă. Riscul de continuare a declinului este moderat, dar dividendele atractive pot atrage cumpărători.",
+      "sha256": "91d50b1aaaee582240ccd4730e1b530b4930f6d2e982a6789da0c9a129502f3a",
+      "valoare": 128.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Pfizer pe 2026-09-28",
+      "intrebare_id": 4577,
+      "rationament": "Pfizer a crescut constant de la 27.72 la 28.67, cu un trend ascendent clar în ultimele 5 sesiuni. Sectorul farmaceutic este defensiv, iar Pfizer beneficiază de portofoliul de vaccinuri și medicamente. Catalizatorii includ aprobări de noi medicamente și cerere sezonieră. Riscul principal este expirarea brevetelor, dar impulsul pozitiv sugerează o continuare către 29 USD.",
+      "sha256": "26bc215d6e035f3e39600710f787c8c595fe983f5a766d61e93615f0e7aefd81",
+      "valoare": 28.9
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul PG&E Corporation pe 2026-09-28",
+      "intrebare_id": 4578,
+      "rationament": "PG&E a scăzut de la 13.60 la 12.34, cu o tendință descendentă puternică, accelerată după 22 septembrie. Sectorul de utilități este volatil din cauza riscurilor de incendii și reglementări. Suportul la 12.30 a fost testat, iar o posibilă continuare a declinului este probabilă. Riscul de faliment sau amenzi majore rămâne ridicat.",
+      "sha256": "a8242c693fc054334bd0efaab1c0619dc7a58acc9518717cfa742f4f71354bbb",
+      "valoare": 12.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Philip Morris International pe 2026-09-28",
+      "intrebare_id": 4579,
+      "rationament": "Philip Morris a fluctuat între 187.48 și 194.86, cu o ușoară tendință descendentă în ultimele 10 zile. Sectorul tutunului este stabil, dar reglementările și scăderea consumului de țigări reprezintă riscuri. Prețul de 190.48 este aproape de media perioadei, iar o mișcare laterală este probabilă. Dividendele mari atrag investitori, dar trendul este neutru.",
+      "sha256": "2798d785047478e77601a34b649380bbd50790ac7057dff0651e18d995afd932",
+      "valoare": 189.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Phillips 66 pe 2026-09-28",
+      "intrebare_id": 4580,
+      "rationament": "Phillips 66 a scăzut brusc de la 274.21 la 255.75, cu o tendință descendentă accelerată după 18 septembrie. Sectorul de rafinare este afectat de scăderea marjelor și a cererii de combustibili. Suportul la 255 USD a fost testat, iar o posibilă continuare a declinului este probabilă. Riscul de volatilitate a prețului țițeiului rămâne ridicat.",
+      "sha256": "2fe2eff3a833434218d94b7b0352010d168013f9238c3d2fc0dc89d553027f73",
+      "valoare": 253.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Pinnacle West Capital pe 2026-09-28",
+      "intrebare_id": 4581,
+      "rationament": "Pinnacle West a scăzut de la 95.40 la 91.74, cu un trend descendent constant. Sectorul de utilități electrice este defensiv, dar creșterea costurilor și reglementările de mediu apasă. Suportul la 91 USD a fost testat, iar o ușoară stabilizare este posibilă. Riscul de scădere suplimentară este limitat de dividende.",
+      "sha256": "fc2dc5d1bed5898e1dced6cef9ea86f3f46f24fc5d143b716fcfcfb2e60ca879",
+      "valoare": 91.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul PNC Financial Services pe 2026-09-28",
+      "intrebare_id": 4582,
+      "rationament": "PNC Financial a scăzut de la 242.72 la 225.64, cu o tendință descendentă puternică, accelerată după 16 septembrie. Sectorul bancar este sub presiune din cauza incertitudinii economice și a scăderii marjelor de dobândă. Suportul la 223 USD a fost testat, iar o posibilă continuare a declinului este probabilă. Riscul de creditare rămâne ridicat.",
+      "sha256": "3ad9ecf57d1c51e19e3f50e665ea52db134f4f16ec6ef44f99c15e3033d39511",
+      "valoare": 223.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul PPG Industries pe 2026-09-28",
+      "intrebare_id": 4583,
+      "rationament": "PPG Industries a fluctuat între 104.52 și 107.77, cu o ușoară tendință ascendentă în ultimele 5 sesiuni. Sectorul de materiale chimice este volatil, dar PPG beneficiază de cerere industrială. Prețul de 107.52 este aproape de maximul recent, iar o continuare a mișcării ascendente este posibilă. Riscul principal este creșterea costurilor materiilor prime.",
+      "sha256": "b390701ba9a127b2ce1aa03bb7d917e073d082e79e6ded16fd1caa67d2fa923f",
+      "valoare": 107.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul PPL Corporation pe 2026-09-28",
+      "intrebare_id": 4584,
+      "rationament": "PPL Corporation a scăzut de la 33.79 la 32.03, cu un trend descendent constant. Sectorul de utilități electrice este defensiv, dar creșterea costurilor și reglementările de mediu apasă. Suportul la 31.80 a fost testat, iar o ușoară stabilizare este posibilă. Riscul de scădere suplimentară este limitat de dividende.",
+      "sha256": "8dc94a4a8f2ab3c9de74872c347459103815332045c005084a2081b5e6f780e5",
+      "valoare": 31.8
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Principal Financial Group pe 2026-09-28",
+      "intrebare_id": 4585,
+      "rationament": "Principal Financial a scăzut de la 118.37 la 114.77, cu un trend descendent în ultimele 5 sesiuni. Sectorul de servicii financiare este afectat de incertitudinea economică. Suportul la 114 USD a fost testat, iar o posibilă continuare a declinului este probabilă. Riscul de scădere a piețelor de capital rămâne ridicat.",
+      "sha256": "79380e46d1069a7d00d15cd34c81642a0fff0f6513ef422b92cd3b8c149e12b6",
+      "valoare": 114.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Procter & Gamble pe 2026-09-28",
+      "intrebare_id": 4586,
+      "rationament": "Procter & Gamble a fluctuat între 145.68 și 148.22, cu o ușoară tendință descendentă în ultimele 3 sesiuni. Sectorul de bunuri de larg consum este defensiv, dar inflația și schimbarea obiceiurilor de consum apasă. Prețul de 146.23 este aproape de suport, iar o mișcare laterală este probabilă. Dividendele stabile atrag investitori.",
+      "sha256": "df7073185ed0bef92c6d6090e027690e56cdce40f987cce43ebbd99d20b22584",
+      "valoare": 146.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Progressive Corporation pe 2026-09-28",
+      "intrebare_id": 4587,
+      "rationament": "Progressive a scăzut de la 221.31 la 205.50, cu un trend descendent puternic, accelerat după 18 septembrie. Sectorul de asigurări este afectat de creșterea costurilor daunelor și a rezervelor. Suportul la 203 USD a fost testat, iar o posibilă continuare a declinului este probabilă. Riscul de reglementări rămâne ridicat.",
+      "sha256": "65b1b507cda3b116e49b4b7aeed4cedf8469b6e722de35d66156bd7a697e73d6",
+      "valoare": 203.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Prologis pe 2026-09-28",
+      "intrebare_id": 4588,
+      "rationament": "Prologis a fluctuat între 133.05 și 135.88, cu o ușoară tendință descendentă în ultimele 5 sesiuni. Sectorul de logistică este afectat de încetinirea comerțului electronic. Suportul la 133 USD a fost testat, iar o posibilă continuare a declinului este probabilă. Riscul de scădere a cererii de spații industriale rămâne ridicat.",
+      "sha256": "62b80fc2efa2641b1f95e59fd0d09d6290f87ae23cc934a74554a592e5508d50",
+      "valoare": 132.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Prudential Financial pe 2026-09-28",
+      "intrebare_id": 4589,
+      "rationament": "Prudential Financial a fluctuat între 117.04 și 119.50, cu o ușoară tendință ascendentă în ultimele 3 sesiuni. Sectorul de asigurări de viață este stabil, dar volatilitatea piețelor financiare apasă. Prețul de 119.45 este aproape de maximul perioadei, iar o continuare a mișcării ascendente este posibilă. Riscul de scădere a randamentelor obligațiunilor rămâne.",
+      "sha256": "9fcca32806dabf2e82201e2dd3eb9cf09ee5439c38d8fc80210d2282083da480",
+      "valoare": 119.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Public Service Enterprise Group pe 2026-09-28",
+      "intrebare_id": 4590,
+      "rationament": "Public Service Enterprise Group a scăzut de la 70.92 la 67.02, cu un trend descendent accelerat după 22 septembrie. Sectorul de utilități electrice este defensiv, dar creșterea costurilor și reglementările de mediu apasă. Suportul la 66.50 a fost testat, iar o ușoară stabilizare este posibilă. Riscul de scădere suplimentară este limitat de dividende.",
+      "sha256": "0664d5114ae2437c2cf9e413a6ce60cd62c2d3842a3b64425acf17d5c7f35a4c",
+      "valoare": 66.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul PTC Inc. pe 2026-09-28",
+      "intrebare_id": 4591,
+      "rationament": "PTC Inc. a fluctuat între 131.16 și 140.40, cu o tendință ascendentă în ultimele 10 zile, dar cu o ușoară corecție pe 24 septembrie. Sectorul de software industrial este în creștere datorită digitalizării. Prețul de 138.12 este aproape de maxim, iar o continuare a mișcării ascendente este posibilă. Riscul principal este concurența de la Siemens și Dassault.",
+      "sha256": "842c0e9235309f344ecf4ef27865f5b0be293bcb75a6433b44de2b287cf7220c",
+      "valoare": 139.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Public Storage pe 2026-09-28",
+      "intrebare_id": 4592,
+      "rationament": "Public Storage a scăzut de la 300.76 la 287.97, cu un trend descendent accelerat după 22 septembrie. Sectorul de depozitare este afectat de încetinirea economică și scăderea cererii. Suportul la 285 USD a fost testat, iar o posibilă continuare a declinului este probabilă. Riscul de scădere a chiriilor rămâne ridicat.",
+      "sha256": "598e3ab266c8693980ccfb351c2fd6f6127c12e6e2fc561e3e75b126f4257254",
+      "valoare": 285.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul PulteGroup pe 2026-09-28",
+      "intrebare_id": 4593,
+      "rationament": "PulteGroup a fluctuat între 117.26 și 122.29, cu o ușoară tendință ascendentă în ultimele 5 sesiuni. Sectorul de construcții rezidențiale este volatil, dar cererea de locuințe rămâne puternică. Prețul de 119.85 este aproape de media perioadei, iar o mișcare laterală este probabilă. Riscul de creștere a dobânzilor rămâne.",
+      "sha256": "fd59c6f20c66c52c3c9d5789468c7d2b9a66204f63991db4512ad82f35834288",
+      "valoare": 119.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Quanta Services pe 2026-09-28",
+      "intrebare_id": 4594,
+      "rationament": "Quanta Services a crescut de la 613.35 la 649.13, cu un trend ascendent puternic, susținut de investiții în infrastructură și energie regenerabilă. Sectorul de construcții electrice este în creștere datorită rețelelor inteligente. Prețul de 649.13 este aproape de maximul istoric, iar o continuare a mișcării ascendente este probabilă. Riscul principal este întârzierea proiectelor.",
+      "sha256": "07245a6f0ed550515b6966e1b5e172832ebb59a26067f3a11a2a87c83974adc2",
+      "valoare": 652.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Qualcomm pe 2026-09-28",
+      "intrebare_id": 4595,
+      "rationament": "Qualcomm a crescut de la 177.72 la 201.97, cu un trend ascendent puternic, accelerat după 18 septembrie. Sectorul de semiconductori este în creștere datorită cererii de cipuri 5G și AI. Prețul de 201.97 este aproape de maximul recent, iar o continuare a mișcării ascendente este probabilă. Riscul principal este concurența de la MediaTek și Apple.",
+      "sha256": "51c0581b73de538adf2c69b93208670249049d80571ea977e669d00ef8f5b43d",
+      "valoare": 205.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Apple Inc. pe 2026-09-28",
+      "intrebare_id": 4596,
+      "rationament": "Apple a fluctuat între 331.34 și 341.07, cu o ușoară tendință ascendentă în ultimele 5 sesiuni. Sectorul tech este volatil, dar Apple beneficiază de lansări de produse și servicii. Prețul de 341.07 este aproape de maximul perioadei, iar o continuare a mișcării ascendente este posibilă. Riscul principal este încetinirea vânzărilor de iPhone.",
+      "sha256": "0872309cc2620bbc992393914bcadd943e116f1727965919a5f12d788f53bee9",
+      "valoare": 343.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Microsoft pe 2026-09-28",
+      "intrebare_id": 4597,
+      "rationament": "Microsoft a crescut de la 490.30 la 516.17, cu un trend ascendent puternic, accelerat pe 25 septembrie. Sectorul de software enterprise este în creștere datorită AI și cloud. Prețul de 516.17 este aproape de maximul istoric, iar o continuare a mișcării ascendente este probabilă. Riscul principal este reglementarea antitrust.",
+      "sha256": "5e87c57b82a288417a4b81db14004e662b2a8c3fca7dd4a540d99591b8f40133",
+      "valoare": 520.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Nvidia pe 2026-09-28",
+      "intrebare_id": 4598,
+      "rationament": "Nvidia a crescut de la 210.96 la 225.07, cu un trend ascendent constant, susținut de cererea de cipuri AI. Sectorul de semiconductori este lider în AI. Prețul de 225.07 este aproape de maximul recent, iar o continuare a mișcării ascendente este probabilă. Riscul principal este concurența de la AMD și Intel.",
+      "sha256": "42d9288cf44dbae4dd4b51589941683abea8a7923dbec7b424fa87b0fb688178",
+      "valoare": 228.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Amazon pe 2026-09-28",
+      "intrebare_id": 4599,
+      "rationament": "Amazon a fluctuat între 245.96 și 258.45, cu o ușoară tendință descendentă în ultimele 3 sesiuni. Sectorul de comerț electronic este afectat de încetinirea economică. Suportul la 248 USD a fost testat, iar o mișcare laterală este probabilă. Riscul de creștere a costurilor logistice rămâne.",
+      "sha256": "b0c113cfe34901aaa33cf157a467f20008ce0939f2f6a34c5f149cd47728511c",
+      "valoare": 248.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Alphabet Inc. (Class A) pe 2026-09-28",
+      "intrebare_id": 4600,
+      "rationament": "Alphabet a fluctuat între 337.83 și 354.97, cu o ușoară tendință descendentă în ultimele 5 sesiuni. Sectorul de publicitate digitală este volatil, dar AI și cloud susțin creșterea. Prețul de 343.92 este aproape de suport, iar o mișcare laterală este probabilă. Riscul de reglementare antitrust rămâne.",
+      "sha256": "46f07b71b7e8a3a7ee0c8b61b1bf3cc6013390e2dd3d60fdf4460497c5523404",
+      "valoare": 342.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Meta Platforms pe 2026-09-28",
+      "intrebare_id": 4601,
+      "rationament": "Meta Platforms a crescut de la 665.60 la 751.66, cu un trend ascendent puternic, accelerat după 21 septembrie. Sectorul de social media beneficiază de AI și monetizare. Prețul de 751.66 este aproape de maximul istoric, iar o continuare a mișcării ascendente este probabilă. Riscul principal este reglementarea confidențialității.",
+      "sha256": "c2045a4c8dc6a1f4de4a7d8b09d568e8d3751f983c2c0f39320a66415695c909",
+      "valoare": 755.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Tesla, Inc. pe 2026-09-28",
+      "intrebare_id": 4602,
+      "rationament": "Tesla a fluctuat între 356.58 și 380.12, cu o ușoară tendință ascendentă în ultimele 5 sesiuni. Sectorul de vehicule electrice este volatil, dar livrările și inovațiile susțin prețul. Prețul de 372.11 este aproape de maximul recent, iar o continuare a mișcării ascendente este posibilă. Riscul de concurență și reglementare rămâne.",
+      "sha256": "20dd9ab140385ae3a3b307b80d87c2a77d05b5f280fcb5d748c03aad3f02ae18",
+      "valoare": 375.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Advanced Micro Devices pe 2026-09-28",
+      "intrebare_id": 4603,
+      "rationament": "AMD a crescut de la 493.41 la 630.63, cu un trend ascendent puternic, accelerat după 17 septembrie. Sectorul de semiconductori beneficiază de cererea de cipuri AI și GPU. Prețul de 630.63 este aproape de maximul istoric, iar o continuare a mișcării ascendente este probabilă. Riscul principal este concurența de la Nvidia.",
+      "sha256": "1de82cb373a414a7133c3b88514453e358009b724573d8b675aa6f7775bd6a7e",
+      "valoare": 635.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Broadcom pe 2026-09-28",
+      "intrebare_id": 4604,
+      "rationament": "Broadcom a fluctuat între 339.27 și 364.54, cu o ușoară tendință descendentă în ultimele 3 sesiuni. Sectorul de semiconductori este volatil, dar diversificarea în software susține creșterea. Prețul de 352.81 este aproape de media perioadei, iar o mișcare laterală este probabilă. Riscul de încetinire a cererii de cipuri rămâne.",
+      "sha256": "04a1b72a9bb5e6eaf0435692df4a2bd9edd3e51dd2474143a9bab6fd88219d98",
+      "valoare": 355.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Netflix pe 2026-09-28",
+      "intrebare_id": 4605,
+      "rationament": "Netflix a scăzut de la 80.32 la 71.15, cu un trend descendent puternic, accelerat după 18 septembrie. Sectorul de streaming este afectat de concurență și creșterea costurilor de conținut. Suportul la 70 USD a fost testat, iar o posibilă continuare a declinului este probabilă. Riscul de pierdere de abonați rămâne ridicat.",
+      "sha256": "c2497733cdd4cd2f158094073192e17f0fb39767938e7fee0257005dfd47f94d",
+      "valoare": 70.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Intel pe 2026-09-28",
+      "intrebare_id": 4606,
+      "rationament": "Intel a crescut de la 97.14 la 123.00, cu un trend ascendent puternic, accelerat după 17 septembrie. Sectorul de semiconductori beneficiază de planurile de restructurare și de cererea de cipuri. Prețul de 123.00 este aproape de maximul recent, iar o continuare a mișcării ascendente este posibilă. Riscul principal este concurența de la AMD și TSMC.",
+      "sha256": "ddce53e6dde00e8c63d2d5cc8f3962e195483ab3b3a2fcaac0c7f131a9b78474",
+      "valoare": 125.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Walt Disney Company (The) pe 2026-09-28",
+      "intrebare_id": 4607,
+      "rationament": "Disney a fluctuat între 102.67 și 108.59, cu o ușoară tendință ascendentă în ultimele 3 sesiuni. Sectorul de divertisment este volatil, dar parcurile și streamingul susțin veniturile. Prețul de 106.15 este aproape de media perioadei, iar o mișcare laterală este probabilă. Riscul de scădere a audienței rămâne.",
+      "sha256": "1072c19bb7d2c717749f074181961ef0abe8df5c69efa55a74afaf73038c5ba0",
+      "valoare": 105.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-09-28",
+      "intrebare_id": 4608,
+      "rationament": "JPMorgan Chase a scăzut de la 352.49 la 343.06, cu un trend descendent accelerat după 22 septembrie. Sectorul bancar este sub presiune din cauza incertitudinii economice și a scăderii marjelor. Suportul la 340 USD a fost testat, iar o posibilă continuare a declinului este probabilă. Riscul de creditare rămâne ridicat.",
+      "sha256": "a66f662cea1378a62d1f7060373d382e98801c5726c226af28c84517706552ba",
+      "valoare": 340.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Visa Inc. pe 2026-09-28",
+      "intrebare_id": 4609,
+      "rationament": "Visa a fluctuat între 361.52 și 375.62, cu o ușoară tendință descendentă în ultimele 5 sesiuni. Sectorul de plăți este stabil, dar reglementările și concurența apasă. Prețul de 367.38 este aproape de suport, iar o mișcare laterală este probabilă. Riscul de schimbare a comportamentului consumatorilor rămâne.",
+      "sha256": "f1d88118a13787defe99ad04719686bea8a8d886f7995b702c21e8a04cd1e040",
+      "valoare": 365.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Walmart pe 2026-09-28",
+      "intrebare_id": 4610,
+      "rationament": "Walmart a fluctuat între 106.73 și 110.53, cu o ușoară tendință descendentă în ultimele 3 sesiuni. Sectorul de retail este defensiv, dar inflația și concurența apasă. Prețul de 107.98 este aproape de suport, iar o mișcare laterală este probabilă. Dividendele stabile atrag investitori.",
+      "sha256": "898e406a87e21cb83ffb3bf218209ffb7f0928c47a7f7e77c6ea6158b6d994b2",
+      "valoare": 107.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-09-28",
+      "intrebare_id": 4611,
+      "rationament": "Coca-Cola a fluctuat între 87.12 și 89.35, cu o ușoară tendință descendentă în ultimele 5 sesiuni. Sectorul de băuturi este defensiv, dar inflația și schimbarea obiceiurilor de consum apasă. Prețul de 87.81 este aproape de suport, iar o mișcare laterală este probabilă. Dividendele stabile atrag investitori.",
+      "sha256": "920ae0441c515ffd2062ceaf17cee8fdd3786e216531096ffc7fd9cff5b2cc9d",
+      "valoare": 87.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul ExxonMobil pe 2026-09-28",
+      "intrebare_id": 4612,
+      "rationament": "ExxonMobil a scăzut de la 169.32 la 160.59, cu un trend descendent accelerat după 18 septembrie. Sectorul energetic este volatil din cauza prețului țițeiului și a cererii globale. Suportul la 159 USD a fost testat, iar o posibilă continuare a declinului este probabilă. Riscul de scădere a prețului petrolului rămâne ridicat.",
+      "sha256": "82c5017c77fd88629c818fea50d03fbcdebdbc27fef567c079b3033e295ebf27",
+      "valoare": 159.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Boeing pe 2026-09-28",
+      "intrebare_id": 4613,
+      "rationament": "Boeing a scăzut de la 210.27 la 198.07, cu un trend descendent puternic, accelerat după 16 septembrie. Sectorul aerospațial este afectat de probleme de producție și reglementări. Suportul la 196 USD a fost testat, iar o posibilă continuare a declinului este probabilă. Riscul de întârzieri ale livrărilor rămâne ridicat.",
+      "sha256": "6e066c4075fd438d32a061d3a1d4a446a1c3569279810e08a6fd09a362b197af",
+      "valoare": 196.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Robinhood Markets pe 2026-09-28",
+      "intrebare_id": 4614,
+      "rationament": "Robinhood Markets a crescut de la 104.42 la 119.40, cu un trend ascendent puternic, accelerat după 17 septembrie. Sectorul fintech beneficiază de creșterea tranzacțiilor cu criptomonede și acțiuni. Prețul de 119.40 este aproape de maximul recent, iar o continuare a mișcării ascendente este posibilă. Riscul de reglementare rămâne ridicat.",
+      "sha256": "e478ad878052c4a513ba32327d5fedf091ee263a3c3d20a46f932628b35d72c1",
+      "valoare": 118.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul Shopify pe 2026-09-28",
+      "intrebare_id": 4615,
+      "rationament": "Shopify a crescut de la 128.50 la 142.25, cu un trend ascendent puternic, accelerat după 21 septembrie. Sectorul de comerț electronic beneficiază de creșterea vânzărilor online și de parteneriate. Prețul de 142.25 este aproape de maximul recent, iar o continuare a mișcării ascendente este posibilă. Riscul de concurență de la Amazon rămâne.",
+      "sha256": "6e93978992792b6e5c0e986958a49c0a3b32e5b64e340c1096d2dffd9d7667c3",
+      "valoare": 144.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul MicroStrategy pe 2026-09-28",
+      "intrebare_id": 4616,
+      "rationament": "MicroStrategy a crescut de la 126.18 la 158.61, cu un trend ascendent puternic, accelerat după 18 septembrie. Sectorul de software și criptomonede beneficiază de creșterea Bitcoin. Prețul de 158.61 este aproape de maximul recent, iar o continuare a mișcării ascendente este posibilă. Riscul de volatilitate a Bitcoin rămâne ridicat.",
+      "sha256": "aec753755dda549059380c07af86e694e3856dd2b2eae57fc5c3a28a1c338332",
+      "valoare": 160.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 15:50:15",
+      "intrebare": "Preţul S&P 500 (SPY) pe 2026-09-28",
+      "intrebare_id": 4617,
+      "rationament": "S&P 500 (SPY) a fluctuat între 754.05 și 773.50, cu o ușoară tendință ascendentă în ultimele 5 sesiuni. Piața generală este susținută de creșterea sectorului tech și așteptările de reducere a dobânzilor. Prețul de 771.35 este aproape de maximul perioadei, iar o continuare a mișcării ascendente este posibilă. Riscul de inflație și geopolitic rămâne.",
+      "sha256": "d6f9a7ef94c5470d6f8835bd05dbe90f3039aa706de2a84f34518a175e5c4588",
+      "valoare": 773.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 16:45:18",
+      "intrebare": "Preţul Bitcoin pe 2026-09-29",
+      "intrebare_id": 4618,
+      "rationament": "Trend descendent ușor, probabil continuă scăderea",
+      "sha256": "03f5f1f590c3e2627088c2757264b83b66979929e8a4d857da9793ae583f7320",
+      "valoare": 83000.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 16:45:18",
+      "intrebare": "Preţul Ethereum pe 2026-09-29",
+      "intrebare_id": 4619,
+      "rationament": "Ușoară corecție după stagnare, aștept o scădere mică",
+      "sha256": "0b093f0e47709ac4ee0e36f32e8d937a61e869f7e2665e8707680993bfce1b3d",
+      "valoare": 2670.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 16:45:18",
+      "intrebare": "Preţul Solana pe 2026-09-29",
+      "intrebare_id": 4620,
+      "rationament": "Scădere după vârf recent, revine către suport",
+      "sha256": "49670f4f125adee9ac8abdb13a88cecb330f3337af18e7bfc1ffeae8344d892d",
+      "valoare": 118.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 16:45:18",
+      "intrebare": "Preţul XRP pe 2026-09-29",
+      "intrebare_id": 4621,
+      "rationament": "Consolidare strânsă, ușoară mișcare în jos",
+      "sha256": "9db8a3e7ebcade75644410c5896bfdeb4f36c18cbc3e7cb03674b1b154a03ae5",
+      "valoare": 1.51
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 16:45:18",
+      "intrebare": "Preţul Cardano pe 2026-09-29",
+      "intrebare_id": 4622,
+      "rationament": "Fără impuls, rămâne în același interval",
+      "sha256": "dfda45369eb4f97704652aa681e5db49682b91d9dc07a7427b673a23d921b7ea",
+      "valoare": 0.25
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 16:45:18",
+      "intrebare": "Preţul Dogecoin pe 2026-09-29",
+      "intrebare_id": 4623,
+      "rationament": "Stagnare, niciun semnal de schimbare",
+      "sha256": "9f8589e7b6402548f0c685715a1a684ead1d40c58770f141aed4d6fcaea7c622",
+      "valoare": 0.09
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 16:45:18",
+      "intrebare": "Preţul BNB pe 2026-09-29",
+      "intrebare_id": 4624,
+      "rationament": "Trend descendent din maxime recente, continuare",
+      "sha256": "b3ac3410cb6db858a5a34a2f9367da38ae09a57d3ed7784120f7b1d807571592",
+      "valoare": 760.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 16:45:23",
+      "intrebare": "Preţul Bitcoin pe 2026-09-29",
+      "intrebare_id": 4618,
+      "rationament": "Următoarea zi ar putea continua ușoara scădere după vârf.",
+      "sha256": "6bcc74a97976a4a0748cbb09c0816d13286484c7932ab794a9e159ebd044fe3c",
+      "valoare": 83100.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 16:45:23",
+      "intrebare": "Preţul Ethereum pe 2026-09-29",
+      "intrebare_id": 4619,
+      "rationament": "Următoarea zi probabil va menține nivelul recent stabil.",
+      "sha256": "cec6e18d2fc9530fa895721cedc91bc6a402e0e075e73d86e1135c2ea5a84630",
+      "valoare": 2690.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 16:45:23",
+      "intrebare": "Preţul Solana pe 2026-09-29",
+      "intrebare_id": 4620,
+      "rationament": "După cădere recentă, prețul ar putea stabiliza ușor sub 120.",
+      "sha256": "5f33947d510cab2b529754bb97196c7cab0976c212b476e8180680ab26ab338e",
+      "valoare": 119.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 16:45:23",
+      "intrebare": "Preţul XRP pe 2026-09-29",
+      "intrebare_id": 4621,
+      "rationament": "Tendința ușoară de scădere sugerează un mic retrocedent.",
+      "sha256": "77e34313e39be82df3e62b19faff274205d10ce0a06653ca44491d0d8e50a9ca",
+      "valoare": 1.51
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 16:45:23",
+      "intrebare": "Preţul Cardano pe 2026-09-29",
+      "intrebare_id": 4622,
+      "rationament": "Fluctuații mici indică o valoare în jur de 0.255.",
+      "sha256": "ea5a86dbd1a5a42c97ff0a378f6b78bb15128f3795e48017fe90bf16d1a1a139",
+      "valoare": 0.255
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 16:45:23",
+      "intrebare": "Preţul Dogecoin pe 2026-09-29",
+      "intrebare_id": 4623,
+      "rationament": "Volatil, dar recent a oscilat între 0.09 și 0.10.",
+      "sha256": "8a88c7c1e96f13f3614f040eb4ade168dea16ea5288b2cf003a242eeeef846bd",
+      "valoare": 0.095
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 16:45:23",
+      "intrebare": "Preţul BNB pe 2026-09-29",
+      "intrebare_id": 4624,
+      "rationament": "Scădere moderată sugerează revenire spre 770.",
+      "sha256": "7505bb2ec25446dfb5c0931aa4037f11114b85fd1fabd3e67e6a97e6ae88f6fa",
+      "valoare": 770.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 16:45:33",
+      "intrebare": "Preţul Bitcoin pe 2026-09-29",
+      "intrebare_id": 4618,
+      "rationament": "Prețul de azi rămâne cel mai sigur reper în absența unui trend clar de direcție.",
+      "sha256": "a8ac5ce98943a4dd2f1e60f8cf86933b9cb706b9f0f83f20c6e96d8183309f2f",
+      "valoare": 83536.01
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 16:45:33",
+      "intrebare": "Preţul Ethereum pe 2026-09-29",
+      "intrebare_id": 4619,
+      "rationament": "Stabilitatea recentă sugerează că prețul de închidere actual va fi cel mai probabil rezultat.",
+      "sha256": "a31916fc6509343a6aaa0b1752ab24e56884d084538d977af602bda79ebf0fd7",
+      "valoare": 2689.71
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 16:45:33",
+      "intrebare": "Preţul Solana pe 2026-09-29",
+      "intrebare_id": 4620,
+      "rationament": "Volatilitatea ridicată face ca prețul curent să fie cea mai prudentă estimare pentru mâine.",
+      "sha256": "374f3f659a90f9ff7a33658e17b0e8e6be0f7dfa6896cf129cc5d69d3be30f80",
+      "valoare": 119.88
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 16:45:33",
+      "intrebare": "Preţul XRP pe 2026-09-29",
+      "intrebare_id": 4621,
+      "rationament": "Lipsa unui momentum clar indică menținerea nivelului actual de piață pentru ziua următoare.",
+      "sha256": "2ff2f4b6627e88372eb7f03290e04c2495961e73b47fdf432afa244abaeb3f1e",
+      "valoare": 1.52
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 16:45:33",
+      "intrebare": "Preţul Cardano pe 2026-09-29",
+      "intrebare_id": 4622,
+      "rationament": "Mișcarea laterală recentă susține ipoteza că prețul de mâine va fi identic cu cel de azi.",
+      "sha256": "1e89efbe6ea470f57545605157c1de89fb8fd9ef8bc12c4dd6520c068f52e829",
+      "valoare": 0.25
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 16:45:33",
+      "intrebare": "Preţul Dogecoin pe 2026-09-29",
+      "intrebare_id": 4623,
+      "rationament": "Oscilația minimă în jurul valorii actuale face ca prețul de azi să fie cea mai bună predicție.",
+      "sha256": "01638e571817fecb42321c8de880be6b197919a12fd2750ab5d88ad6ff30f6cb",
+      "valoare": 0.09
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 16:45:33",
+      "intrebare": "Preţul BNB pe 2026-09-29",
+      "intrebare_id": 4624,
+      "rationament": "Absența unui trend puternic face ca prețul de închidere actual să fie cel mai probabil rezultat.",
+      "sha256": "38877b25bc6b7f197fc9e3d9ae380e8354f37dc69a1d3906ea94275d6824b834",
+      "valoare": 765.78
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 16:46:09",
+      "intrebare": "Preţul Bitcoin pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4625,
+      "rationament": "Recent decline from spike suggests further downside; expect below average.",
+      "sha256": "287070dc56a96ef85e788c22de25da039126dcd34af363ed990ac9b37983316a",
+      "valoare": 83000.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 16:46:09",
+      "intrebare": "Preţul Ethereum pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4626,
+      "rationament": "Sideways with slight downward bias; predict a small drop.",
+      "sha256": "49d3710032e0903b4daa25743e4e7d38e5dfb5be810acff08835cff647dbb390",
+      "valoare": 2670.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 16:46:09",
+      "intrebare": "Preţul Solana pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4627,
+      "rationament": "Recent high may pull back; average suggests lower.",
+      "sha256": "ceee5b8a3a0d83e92b431020230b2e772dc389c291416e74335ee505ea5932cd",
+      "valoare": 118.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 16:46:09",
+      "intrebare": "Preţul XRP pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4628,
+      "rationament": "Stable around 1.50-1.52; predict slight decrease.",
+      "sha256": "80b3bb5978878397809bcb4066d89fb438e076f989d4f9d83641a9c94f77a5a4",
+      "valoare": 1.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 16:46:09",
+      "intrebare": "Preţul Cardano pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4629,
+      "rationament": "Consolidating around 0.25; likely to dip.",
+      "sha256": "5fea09df7059e5490487de750e0520095c692bbe604c7a89a390a82befefec76",
+      "valoare": 0.24
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 16:46:09",
+      "intrebare": "Preţul Dogecoin pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4630,
+      "rationament": "Low volatility; expect same level.",
+      "sha256": "2d70189e3519da3bc7447ab5f842acc7a78002e2af2d0624228c4fc29ccfc2a3",
+      "valoare": 0.09
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 16:46:09",
+      "intrebare": "Preţul BNB pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4631,
+      "rationament": "Below average; trend down.",
+      "sha256": "c0576e7382c519e4190752fbfc9ead80ae1017c69f4b1baa544bdcd7463e1f1a",
+      "valoare": 760.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 16:46:12",
+      "intrebare": "Preţul Bitcoin pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4625,
+      "rationament": "Corecție ușoară după recentul vârf, volatilitate moderată.",
+      "sha256": "7195a45bae598eb7a3c34e3f578f40716e9116eeb9ed7021138abebd1edf6491",
+      "valoare": 78000.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 16:46:12",
+      "intrebare": "Preţul Ethereum pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4626,
+      "rationament": "Trend descendent ușor, susținut de scăderea volumului.",
+      "sha256": "2e8570af6af2f1b5049de108acbb64b9e7e615758803d3b9086973003a3e5eac",
+      "valoare": 2600.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 16:46:12",
+      "intrebare": "Preţul Solana pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4627,
+      "rationament": "Corecție după creșterea rapidă, suport la 115 USD.",
+      "sha256": "ecc4ae432ab5e031fe359ec5b8cd633990b7a2d1bfeb9baf40cffde36b91a5b6",
+      "valoare": 115.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 16:46:12",
+      "intrebare": "Preţul XRP pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4628,
+      "rationament": "Oscilație în jurul 1.5, ușoară presiune vânzătoare.",
+      "sha256": "c64414babe0ca64191103c1dac499e53376bcc30d7dc31379eb6a8d8ba85a29b",
+      "valoare": 1.45
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 16:46:12",
+      "intrebare": "Preţul Cardano pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4629,
+      "rationament": "Stabil în jurul 0.24, posibilă mică scădere.",
+      "sha256": "c7e4eb09009bdcffb09ca90c6759d6959f4e9847b63093c094026fba81da1522",
+      "valoare": 0.23
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 16:46:12",
+      "intrebare": "Preţul Dogecoin pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4630,
+      "rationament": "Fluctuație limitată, tendință ușor descendentă.",
+      "sha256": "483353e22da85c0c43f42ed99cdaf4b12a34b58f6a900099dcb0539b7672ca9e",
+      "valoare": 0.09
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 16:46:12",
+      "intrebare": "Preţul BNB pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4631,
+      "rationament": "Corecție moderată după vârf recent, suport la 750 USD.",
+      "sha256": "ea38a6ef2ba04843ff08a5d1024aad84e7c2f5a883429314fa0c5c33827a1bbe",
+      "valoare": 750.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 16:48:20",
+      "intrebare": "Preţul Bitcoin pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4625,
+      "rationament": "Consolidare laterală după spike, așteptare de direcție clară pentru săptămâna viitoare.",
+      "sha256": "54b31d755ae7edcfc5bfdc2cfe23a0458e81c03de242356284c401b2b158938d",
+      "valoare": 84500.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 16:48:20",
+      "intrebare": "Preţul Ethereum pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4626,
+      "rationament": "Stabilitate în jurul mediei mobile, fără catalizator major imediat vizibil.",
+      "sha256": "5b3b99aff481c280f156b02a53eda52c54740e727084cfba3a7dac332326ea08",
+      "valoare": 2700.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 16:48:20",
+      "intrebare": "Preţul Solana pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4627,
+      "rationament": "Volatilitate ridicată, revenire spre medie după mișcarea recentă sus-jos.",
+      "sha256": "e3d0473fd996f00f35f40a2f07e2930bbdc8eb246fc2f8bfc26ba92134021ef1",
+      "valoare": 120.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 16:48:20",
+      "intrebare": "Preţul XRP pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4628,
+      "rationament": "Plafonare tehnică, probabilitate mare de menținere a nivelului curent.",
+      "sha256": "c7c8dedc493b3f9a7f4b85df2598bdfd17f82db7435cba59b862dd5b06bb2257",
+      "valoare": 1.52
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 16:48:20",
+      "intrebare": "Preţul Cardano pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4629,
+      "rationament": "Mișcare minimă, inerție prețului în intervalul îngust actual.",
+      "sha256": "f2e6ed9a255b63c5c5e2746d5e5db52f0754c9398bff57b59c321d74ed5f9328",
+      "valoare": 0.25
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 16:48:20",
+      "intrebare": "Preţul Dogecoin pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4630,
+      "rationament": "Medie aritmetică a ultimelor închideri, lipsă de trend distinct.",
+      "sha256": "15633b757e7cc2ef60d369aa5a558752ebae9b11423dff65ab8cc2cf8a007ba7",
+      "valoare": 0.095
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 16:48:20",
+      "intrebare": "Preţul BNB pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4631,
+      "rationament": "Corelație cu BTC, așteptare de stabilizare în jurul mediei recente.",
+      "sha256": "8f0910b54ce706d3aa2d0fefdaaa758389761321e87125b9c72784b506bc1250",
+      "valoare": 775.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 16:50:24",
+      "intrebare": "Preţul Bitcoin pe 2026-09-29",
+      "intrebare_id": 4618,
+      "rationament": "Consolidare în jur de 84k după vârful de 21; scăderea de azi pare zgomot, mic recul în sus.",
+      "sha256": "5b52e906d871d053b3253b27c4358690b00f6371a3d41ab999a337777664df5a",
+      "valoare": 83900.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 16:50:24",
+      "intrebare": "Preţul Ethereum pe 2026-09-29",
+      "intrebare_id": 4619,
+      "rationament": "Extrem de stabil de șase zile în jur de 2690; presupun aceeași bandă, cu o nuanță mai sus.",
+      "sha256": "1cdf70e1996b852927382c70ce6b3a032cc1da2ef03bdade0966c4f15ba34eac",
+      "valoare": 2696.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 16:50:24",
+      "intrebare": "Preţul Solana pe 2026-09-29",
+      "intrebare_id": 4620,
+      "rationament": "Trend ușor ascendent de la 111; scăderea de azi de 2% arată ca retragere parțială.",
+      "sha256": "877cc41d7fe47e4e605c718def5b249a3249553c44cf1ae92b914756e6846e5a",
+      "valoare": 120.6
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 16:50:24",
+      "intrebare": "Preţul XRP pe 2026-09-29",
+      "intrebare_id": 4621,
+      "rationament": "Plat la 1.52 de trei zile, fără impuls direcțional; rămân practic pe loc.",
+      "sha256": "c2554aed1ba7415ca6d375d020f5d0467670415c84faf0030a5a6bded64383a1",
+      "valoare": 1.523
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 16:50:24",
+      "intrebare": "Preţul Cardano pe 2026-09-29",
+      "intrebare_id": 4622,
+      "rationament": "Oscilează între 0.25 și 0.26; mijlocul benzii e cea mai sigură estimare.",
+      "sha256": "e0d64d9a03bf433e5190932aa3b5a35a1d18ed97a9a514edb7b43dbdfe20295d",
+      "valoare": 0.252
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 16:50:24",
+      "intrebare": "Preţul Dogecoin pe 2026-09-29",
+      "intrebare_id": 4623,
+      "rationament": "Rotunjirea ascunde mișcarea reală; valoarea de mijloc a intervalului 0.09–0.10 e cea mai probabilă.",
+      "sha256": "58566f69fec3c9320d3adb8d6a6b02026132e512c2bc586da1511523b257c04f",
+      "valoare": 0.095
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 16:50:24",
+      "intrebare": "Preţul BNB pe 2026-09-29",
+      "intrebare_id": 4624,
+      "rationament": "Bandă 765–780 de o săptămână; căderea de azi la marginea de jos invită la un mic recul.",
+      "sha256": "1e80731c9f279a06a06058126e034cba3e87eb6445101a32ed14df610e3f99fd",
+      "valoare": 769.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 16:50:46",
+      "intrebare": "Preţul Bitcoin pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4625,
+      "rationament": "Consolidare sub 85k după respingerea de pe 21 septembrie; ușoară derivă în jos, fără catalizator vizibil.",
+      "sha256": "f0790df72511550a0c26f94ab8d7f31e67a4356fe2ea6eb1e8ae65b42a054d8b",
+      "valoare": 83200.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 16:50:46",
+      "intrebare": "Preţul Ethereum pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4626,
+      "rationament": "Bandă foarte strânsă 2685-2700 de cinci zile; presupun continuarea lateralului cu un plus marginal.",
+      "sha256": "10bb9b07007f725820dc2e6b499cc5aad833479e82fcd0e92ca7595a5b4ec3ed",
+      "valoare": 2700.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 16:50:46",
+      "intrebare": "Preţul Solana pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4627,
+      "rationament": "Singura care a făcut maxim local recent; păstrez un pic din forța relativă față de Bitcoin.",
+      "sha256": "cc266ab3ea5aeb9d5c1c10bbad4ed232d1ead161da676d34eafcd1f61df84f9e",
+      "valoare": 121.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 16:50:46",
+      "intrebare": "Preţul XRP pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4628,
+      "rationament": "Stabilizat exact la mijlocul intervalului 1.41-1.57; nimic în date nu sugerează ieșire.",
+      "sha256": "b2e370a4576c2e7267353869083c136abde9f9ef9e8d21fa808aeca9eb77c80c",
+      "valoare": 1.52
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 16:50:46",
+      "intrebare": "Preţul Cardano pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4629,
+      "rationament": "Rotunjirea la doi zecimali face orice altă valoare un pariu pe zgomot.",
+      "sha256": "12522661cf869a55714d7b6891f0a5107ce8183e758d05ef4696e446b0e74ddd",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 16:50:46",
+      "intrebare": "Preţul Dogecoin pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4630,
+      "rationament": "Oscilează între 0.09 și 0.10; aleg pragul superior, unde a stat majoritatea zilelor.",
+      "sha256": "fbf0c34a4410e8a070d4a5f1c6489abce5cd2cb3a5eca788426e7c5836a5fe32",
+      "valoare": 0.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 16:50:46",
+      "intrebare": "Preţul BNB pe 2026-10-05 (1 săptămână)",
+      "intrebare_id": 4631,
+      "rationament": "Revenire în zona 765-780 după vârful de 799; presupun recuperarea scăderii de azi.",
+      "sha256": "64c7d61fe4b90ca18f2eeecfb087a3ab66a83144f4454ec76e8906de5dfb4d0a",
+      "valoare": 767.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 17:31:02",
+      "intrebare": "Temperatura maximă la București pe 2026-09-29",
+      "intrebare_id": 4632,
+      "rationament": "Recuperare după front rece; tendință de încălzire, cer senin.",
+      "sha256": "d77977798d7a3c9b0f1ff03481eee2552b62271350c56ce6aef4ff5dbd4c2ec0",
+      "valoare": 24.5
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 17:31:02",
+      "intrebare": "Va ploua la București pe 2026-09-29?",
+      "intrebare_id": 4633,
+      "rationament": "Recuperare după front rece; tendință de încălzire, cer senin.",
+      "sha256": "02a31b2ed2fdf54f9c4c2dfdd5bd55382eb89dbd53be1794eb55c660ea1ee2a3",
+      "valoare": 0.15
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 17:31:02",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-09-29",
+      "intrebare_id": 4634,
+      "rationament": "Ușoară încălzire după minim, altitudine mare, uscat.",
+      "sha256": "f907653a6647aac71ded9f9e268fe59587c6d98c522474f94ed7bcb4f6163652",
+      "valoare": 20.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 17:31:02",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-09-29?",
+      "intrebare_id": 4635,
+      "rationament": "Ușoară încălzire după minim, altitudine mare, uscat.",
+      "sha256": "239dabbb2aa37f4f7b28b5c6cefc21defab3242ae0ba64c37e8e10cc2336f92e",
+      "valoare": 0.1
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 17:31:02",
+      "intrebare": "Temperatura maximă la Iași pe 2026-09-29",
+      "intrebare_id": 4636,
+      "rationament": "Temperaturi în creștere ușoară, uscat în ultimele zile.",
+      "sha256": "2ccc79d85a965472dc6607ae393ce09bb8e899713561438dae99abaf76129b99",
+      "valoare": 20.8
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 17:31:02",
+      "intrebare": "Va ploua la Iași pe 2026-09-29?",
+      "intrebare_id": 4637,
+      "rationament": "Temperaturi în creștere ușoară, uscat în ultimele zile.",
+      "sha256": "8b79001b852aee78c92bbfed0f02af7a8a36e40ebd91aed59b7b42378dad3982",
+      "valoare": 0.1
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 17:31:02",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-09-29",
+      "intrebare_id": 4638,
+      "rationament": "Încălzire puternică după ploaie, aer uscat.",
+      "sha256": "5f85f3662e34dcce35949d3f7595b63982d43be9a81c9c5aec3430c76142065b",
+      "valoare": 26.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 17:31:02",
+      "intrebare": "Va ploua la Timișoara pe 2026-09-29?",
+      "intrebare_id": 4639,
+      "rationament": "Încălzire puternică după ploaie, aer uscat.",
+      "sha256": "192eea2e1864fb1f6db05308f53205fa118e4a02d9c2361a64f66627a683935e",
+      "valoare": 0.1
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 17:31:02",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-09-29",
+      "intrebare_id": 4640,
+      "rationament": "Răcire după front, șanse de averse marine.",
+      "sha256": "af6d96c4e06bf84439ed9755fa872f2b49b3680df57427f86d0a2ba13b13f0ec",
+      "valoare": 19.2
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 17:31:02",
+      "intrebare": "Va ploua la Constanța pe 2026-09-29?",
+      "intrebare_id": 4641,
+      "rationament": "Răcire după front, șanse de averse marine.",
+      "sha256": "5c1fe63e10a4f872d84f6f035cb59650020b58a32dc6a93b8f59d5939d8d17c1",
+      "valoare": 0.35
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 17:31:02",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-09-29",
+      "intrebare_id": 4642,
+      "rationament": "Recuperare lentă, altitudine mare, uscat după ploi.",
+      "sha256": "eb54348ea9351b6f3c17ab193a897193538b4be3bc252f9dc8bc0eb7406ff253",
+      "valoare": 17.0
+    },
+    {
+      "agent": "deepseek",
+      "creata_la": "2026-09-28 17:31:02",
+      "intrebare": "Va ploua la Brașov pe 2026-09-29?",
+      "intrebare_id": 4643,
+      "rationament": "Recuperare lentă, altitudine mare, uscat după ploi.",
+      "sha256": "18081d31b9576d1dadf645be70de9e6b9cb0e095acb0bdb257d00095f6649f51",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 17:31:04",
+      "intrebare": "Temperatura maximă la București pe 2026-09-29",
+      "intrebare_id": 4632,
+      "rationament": "Următoarele zile cresc, dar fără ploaie recentă, aștept temperatură moderată și șansă mică de precipitații.",
+      "sha256": "e16dc7b1e2755798817a02f4fd83f5e4d71ec0bb3ba8cc8e269f01dfffff2efc",
+      "valoare": 24.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 17:31:04",
+      "intrebare": "Va ploua la București pe 2026-09-29?",
+      "intrebare_id": 4633,
+      "rationament": "Următoarele zile cresc, dar fără ploaie recentă, aștept temperatură moderată și șansă mică de precipitații.",
+      "sha256": "f48a8bd5d49a8e8d872ad21d32488adfa0766da76be8bbf0ddab8c2a27b62d7b",
+      "valoare": 0.12
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 17:31:04",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-09-29",
+      "intrebare_id": 4634,
+      "rationament": "Temperatura urcă din 20°C spre 21°C, iar ultimele zile au fost uscate.",
+      "sha256": "2a43b94e3bdbc965d57e18fe5f22529d49ea0f0378463845c3f7215f711685aa",
+      "valoare": 21.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 17:31:04",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-09-29?",
+      "intrebare_id": 4635,
+      "rationament": "Temperatura urcă din 20°C spre 21°C, iar ultimele zile au fost uscate.",
+      "sha256": "85b0dcb496455b24dfdde375c9f466fc9e49baece414b8c8c9f7bd22a663a18e",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 17:31:04",
+      "intrebare": "Temperatura maximă la Iași pe 2026-09-29",
+      "intrebare_id": 4636,
+      "rationament": "Oscilație între 20‑22°C, tendință ușor ascendentă, fără ploaie recentă.",
+      "sha256": "79e2b899c6540dbaeac006f7567b8bd0c4c9233aeb38b2d6483be23e1de74e23",
+      "valoare": 21.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 17:31:04",
+      "intrebare": "Va ploua la Iași pe 2026-09-29?",
+      "intrebare_id": 4637,
+      "rationament": "Oscilație între 20‑22°C, tendință ușor ascendentă, fără ploaie recentă.",
+      "sha256": "6421a728f7740916020c279628f89a8282f0220910b2f88e8b1fedf16e0fa191",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 17:31:04",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-09-29",
+      "intrebare_id": 4638,
+      "rationament": "Temperaturile cresc rapid spre 25‑26°C, iar ultimele zile au fost uscate.",
+      "sha256": "7636b6cbc13a09d9a6c08e41ab01976e4d90cab0b7d3e8060e8388e69ede7aa5",
+      "valoare": 26.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 17:31:04",
+      "intrebare": "Va ploua la Timișoara pe 2026-09-29?",
+      "intrebare_id": 4639,
+      "rationament": "Temperaturile cresc rapid spre 25‑26°C, iar ultimele zile au fost uscate.",
+      "sha256": "96a8918d94aa5a7686a8bff552d129043a71b90637f37fb0613f19843b5a437b",
+      "valoare": 0.08
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 17:31:04",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-09-29",
+      "intrebare_id": 4640,
+      "rationament": "Temperatură stabilă în jur de 20‑21°C, dar ploi sporadice recent cresc probabilitatea.",
+      "sha256": "492e0c59379f4c0eae165c5aeb079af21dce934694a26082650667032a733ea6",
+      "valoare": 20.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 17:31:04",
+      "intrebare": "Va ploua la Constanța pe 2026-09-29?",
+      "intrebare_id": 4641,
+      "rationament": "Temperatură stabilă în jur de 20‑21°C, dar ploi sporadice recent cresc probabilitatea.",
+      "sha256": "c591b1e1750125afef3ab3dc7cbc1518dac7ced93dc5169dd6fbd627b8e8a1a1",
+      "valoare": 0.3
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 17:31:04",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-09-29",
+      "intrebare_id": 4642,
+      "rationament": "Urcare de la 13°C la 17°C, fără precipitații în ultimele zile.",
+      "sha256": "72db0123cde8a2089db545e1c5b16770ba202e130ee23112a8c49d04b9467c43",
+      "valoare": 17.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-09-28 17:31:04",
+      "intrebare": "Va ploua la Brașov pe 2026-09-29?",
+      "intrebare_id": 4643,
+      "rationament": "Urcare de la 13°C la 17°C, fără precipitații în ultimele zile.",
+      "sha256": "ca615d2031c7f1737f1109eaf6a313c41bb90107e3e5ed1ad66a979da34d358c",
+      "valoare": 0.12
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 17:31:19",
+      "intrebare": "Temperatura maximă la București pe 2026-09-29",
+      "intrebare_id": 4632,
+      "rationament": "Tendință ascendentă recentă, cer senin, fără semne de front rece iminent.",
+      "sha256": "8f793a5fbabd390ba20c5b54e61bafc81bda6863d5873ab337444d6712d4c338",
+      "valoare": 24.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 17:31:19",
+      "intrebare": "Va ploua la București pe 2026-09-29?",
+      "intrebare_id": 4633,
+      "rationament": "Tendință ascendentă recentă, cer senin, fără semne de front rece iminent.",
+      "sha256": "ff45ca21026192e200f34a5364126cafa94afbf8819b8d03f468d59a77bced38",
+      "valoare": 0.15
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 17:31:19",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-09-29",
+      "intrebare_id": 4634,
+      "rationament": "Recuperare termică moderată după front, cer variabil, probabilitate scăzută de precipitații.",
+      "sha256": "36ddc717bda6cbc41ff6f79fd37a53a7af5988ab3407f899a69d4c5fd7ba0896",
+      "valoare": 21.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 17:31:19",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-09-29?",
+      "intrebare_id": 4635,
+      "rationament": "Recuperare termică moderată după front, cer variabil, probabilitate scăzută de precipitații.",
+      "sha256": "961692bb98545022e319123c6f13d9609958d843252996949370e63ea74859ca",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 17:31:19",
+      "intrebare": "Temperatura maximă la Iași pe 2026-09-29",
+      "intrebare_id": 4636,
+      "rationament": "Stabilizare după ploaie, temperaturi în creștere, risc redus de precipitații noi.",
+      "sha256": "c4a923e460ac31b35553d61d705a5a1f893c3bb0043fc9502576c49976df4615",
+      "valoare": 21.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 17:31:19",
+      "intrebare": "Va ploua la Iași pe 2026-09-29?",
+      "intrebare_id": 4637,
+      "rationament": "Stabilizare după ploaie, temperaturi în creștere, risc redus de precipitații noi.",
+      "sha256": "aef83bb467c7f7c69d6be31d0dfc9c104b2e8275d3d0a945b9a7ba1d884bdff8",
+      "valoare": 0.25
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 17:31:19",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-09-29",
+      "intrebare_id": 4638,
+      "rationament": "Curent cald din vest, cer senin, temperaturi ridicate pentru septembrie.",
+      "sha256": "4e59f9cbc37a78b6df2f2eecbf4a5a46d7adbfa7ca96170e4650cb88dabac7c9",
+      "valoare": 26.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 17:31:19",
+      "intrebare": "Va ploua la Timișoara pe 2026-09-29?",
+      "intrebare_id": 4639,
+      "rationament": "Curent cald din vest, cer senin, temperaturi ridicate pentru septembrie.",
+      "sha256": "ad7a927be231cb317a96e3076dac83c2adfe073e8ac0a55c097513ea6c61ff23",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 17:31:19",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-09-29",
+      "intrebare_id": 4640,
+      "rationament": "Influență maritimă, temperaturi scăzute, probabilitate moderată de ploaie ușoară.",
+      "sha256": "50bbd37a24875af59ae1976bbfd1d4b2b0e785cd4d1d04ebe146807c1f37a603",
+      "valoare": 19.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 17:31:19",
+      "intrebare": "Va ploua la Constanța pe 2026-09-29?",
+      "intrebare_id": 4641,
+      "rationament": "Influență maritimă, temperaturi scăzute, probabilitate moderată de ploaie ușoară.",
+      "sha256": "592a13768c185e815be84c999cfafb7175ad00ba33676d2ee4f86d7166167245",
+      "valoare": 0.35
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 17:31:19",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-09-29",
+      "intrebare_id": 4642,
+      "rationament": "Altitudine mare, recuperare lentă după furtună, cer variabil, risc moderat.",
+      "sha256": "23087a6c6f190488d632de9fb20d5da91b459f002305f36f5b31428b7160bf00",
+      "valoare": 17.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-09-28 17:31:19",
+      "intrebare": "Va ploua la Brașov pe 2026-09-29?",
+      "intrebare_id": 4643,
+      "rationament": "Altitudine mare, recuperare lentă după furtună, cer variabil, risc moderat.",
+      "sha256": "c93e14d4945aa2ad3161f4361c324df791b4ca97465ab50e2973ec620360abba",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 17:35:22",
+      "intrebare": "Temperatura maximă la București pe 2026-09-29",
+      "intrebare_id": 4632,
+      "rationament": "Trend clar ascendent trei zile la rând (21→22,7→23,6) pe vreme uscată anticiclonică, deci încălzirea continuă.",
+      "sha256": "78ca71eb2d63ef24307618f65001a1ae599cd2bde7f5c00b9b990cad38e7e546",
+      "valoare": 25.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 17:35:22",
+      "intrebare": "Va ploua la București pe 2026-09-29?",
+      "intrebare_id": 4633,
+      "rationament": "Trend clar ascendent trei zile la rând (21→22,7→23,6) pe vreme uscată anticiclonică, deci încălzirea continuă.",
+      "sha256": "5773fc48d7d8b5450ee0ad9636d8016cb423c1d6915b6c57240922e5b8430d94",
+      "valoare": 0.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 17:35:22",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-09-29",
+      "intrebare_id": 4634,
+      "rationament": "Ultimele trei zile s-au plafonat în jur de 20°C; depresiunea și altitudinea limitează încălzirea suplimentară.",
+      "sha256": "d8e5d5d38a8eb4331db86c14306249001dc69d47b05562427a50462d1894aaa5",
+      "valoare": 20.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 17:35:22",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-09-29?",
+      "intrebare_id": 4635,
+      "rationament": "Ultimele trei zile s-au plafonat în jur de 20°C; depresiunea și altitudinea limitează încălzirea suplimentară.",
+      "sha256": "a4a00a44c2107db13665ea51c530cad58311879c31dbf2f387369ea60769f27f",
+      "valoare": 0.15
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 17:35:22",
+      "intrebare": "Temperatura maximă la Iași pe 2026-09-29",
+      "intrebare_id": 4636,
+      "rationament": "Oscilează 20–22°C de cinci zile fără precipitații; media recentă e mai sigură decât extrapolarea.",
+      "sha256": "a9772ec24ad939f127ea8aa8d4968dfafdf93e4da14387d173b19a5d0b449f49",
+      "valoare": 21.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 17:35:22",
+      "intrebare": "Va ploua la Iași pe 2026-09-29?",
+      "intrebare_id": 4637,
+      "rationament": "Oscilează 20–22°C de cinci zile fără precipitații; media recentă e mai sigură decât extrapolarea.",
+      "sha256": "6627d064137f9b6859d1724ef68f349c16bfbbb6d7e6e6a9774184a3f4bff1ec",
+      "valoare": 0.15
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 17:35:22",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-09-29",
+      "intrebare_id": 4638,
+      "rationament": "Cea mai caldă serie din lot, creștere constantă 22,7→24,1→25,5; vestul se încălzește primul sub advecție sudică.",
+      "sha256": "6edeb988c98ee6ac5354207ab0230a79607cb2b375fe1ed6124ba7c7657db71e",
+      "valoare": 26.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 17:35:22",
+      "intrebare": "Va ploua la Timișoara pe 2026-09-29?",
+      "intrebare_id": 4639,
+      "rationament": "Cea mai caldă serie din lot, creștere constantă 22,7→24,1→25,5; vestul se încălzește primul sub advecție sudică.",
+      "sha256": "da65b902b53c10e4a9f7926adfa23e116401e0f9793853b4a651b0e0a0af2386",
+      "valoare": 0.12
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 17:35:22",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-09-29",
+      "intrebare_id": 4640,
+      "rationament": "Marea taie amplitudinea, iar ploile mici reapar la două-trei zile (1,4 și 1,1 mm) — regim de averse.",
+      "sha256": "e9e4b4532861e24b98897873ed67af31531dfeab67e256ac837229d50b39f301",
+      "valoare": 20.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 17:35:22",
+      "intrebare": "Va ploua la Constanța pe 2026-09-29?",
+      "intrebare_id": 4641,
+      "rationament": "Marea taie amplitudinea, iar ploile mici reapar la două-trei zile (1,4 și 1,1 mm) — regim de averse.",
+      "sha256": "e9180f00fbba9c338fe4cca0d7f28fa3be65a6edda8c250245230bb2c6b69319",
+      "valoare": 0.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 17:35:22",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-09-29",
+      "intrebare_id": 4642,
+      "rationament": "Redresare lentă după episodul rece, dar 625 m altitudine și aer rece de vale țin maxima jos.",
+      "sha256": "a9ffa60bac52b11f1eb1a3a4cc11d3fa853da938a6a564a05b72c048bf2152b6",
+      "valoare": 17.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-09-28 17:35:22",
+      "intrebare": "Va ploua la Brașov pe 2026-09-29?",
+      "intrebare_id": 4643,
+      "rationament": "Redresare lentă după episodul rece, dar 625 m altitudine și aer rece de vale țin maxima jos.",
+      "sha256": "85e9a2073e2b40a52c2cd61ea3f09bf93b3a5b74d289ae2bd7a6743bcf456378",
+      "valoare": 0.15
+    }
+  ],
+  "zi": "2026-09-28"
+}
