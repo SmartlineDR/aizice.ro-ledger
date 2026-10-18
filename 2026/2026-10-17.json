@@ -1,0 +1,692 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "d4b99011552f1cfab4ae5770e5681bb75bc6eb716e8631a60afe0a07886c8dba",
+  "nr_frunze": 76,
+  "predictii": [
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 09:30:16",
+      "intrebare": "Câştigă Real Betis cu Barcelona?",
+      "intrebare_id": 5830,
+      "rationament": "Betis have home edge but Barcelona's quality dominates.",
+      "sha256": "92032e7c5591fb4ebfd386c604402e018323d9b47615711b00244888f19c6121",
+      "valoare": 0.25
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 09:30:16",
+      "intrebare": "Câştigă Rapid București cu Corvinul Hunedoara?",
+      "intrebare_id": 5831,
+      "rationament": "Rapid are solid at home and favored over Corvinul.",
+      "sha256": "2943a3347ff7ae98d189a8584b54691a2b9d5f4cb2bd893382daae3d82e4f6ef",
+      "valoare": 0.6
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 09:30:16",
+      "intrebare": "Câştigă Bayer Leverkusen cu Freiburg?",
+      "intrebare_id": 5832,
+      "rationament": "Leverkusen's firepower and home support make them clear favorites.",
+      "sha256": "6864b9cf4a1136c5bee06464d699f217b342c93034de11d6fe542d98a5d64347",
+      "valoare": 0.65
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 09:30:16",
+      "intrebare": "Câştigă UTA Arad cu CFR 1907 Cluj?",
+      "intrebare_id": 5833,
+      "rationament": "Arad's home advantage narrows gap, slight edge over Cluj.",
+      "sha256": "d64838c2090e2b42884903b075686c8c7153ece31daeef0f1165c6f6923597cb",
+      "valoare": 0.45
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 09:30:16",
+      "intrebare": "Câştigă Paris FC cu Rennes?",
+      "intrebare_id": 5834,
+      "rationament": "Rennes' quality outweighs Paris FC's home boost.",
+      "sha256": "41cd0344bec2e1605e51c384cdfa60960155a1ac3086740f5db77307a1c0fa4a",
+      "valoare": 0.35
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 09:30:16",
+      "intrebare": "Câştigă Nottingham Forest cu Arsenal?",
+      "intrebare_id": 5835,
+      "rationament": "Arsenal's class likely overcomes Forest's home spirit.",
+      "sha256": "f2b752852a1646b3eefd59316f81fe8d0bbe9d85c79624f9b89cdb627eabeb98",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 09:30:16",
+      "intrebare": "Câştigă Universitatea Craiova cu Farul Constanța?",
+      "intrebare_id": 5836,
+      "rationament": "Craiova's form and home factor give them modest lead.",
+      "sha256": "9b39ee983e3b7becc86f63968d39e8b56fc119509408228de919f4d396ea5f48",
+      "valoare": 0.55
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 09:30:16",
+      "intrebare": "Câştigă Juventus cu Lazio?",
+      "intrebare_id": 5837,
+      "rationament": "Juventus' pedigree and home crowd make them favorites.",
+      "sha256": "135685717b3aa415f8368076fae52176bc4d00efa52431378288fc3ddb90ce2b",
+      "valoare": 0.6
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 09:30:16",
+      "intrebare": "Câştigă Lyon cu Nice?",
+      "intrebare_id": 5838,
+      "rationament": "Lyon's attack and home ground tilt odds their way.",
+      "sha256": "d2ab6caca2304108d9324475e62d23d4954dae1c8ffdca7db3ac1f1c1c8e3162",
+      "valoare": 0.58
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 09:30:16",
+      "intrebare": "Câştigă Real Madrid cu Sevilla?",
+      "intrebare_id": 5839,
+      "rationament": "Real Madrid's depth and home advantage dominate Sevilla.",
+      "sha256": "ada015df1f0c8c3f4b6ce42e8255a7e70e7241ae43e79f90d3eb4f8b2dc72dc0",
+      "valoare": 0.65
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 09:30:22",
+      "intrebare": "Câştigă Real Betis cu Barcelona?",
+      "intrebare_id": 5830,
+      "rationament": "Barcelona este superioară tehnic, dar terenul Betis reduce avantajul oaspetelui.",
+      "sha256": "a1057aea381b3350e097733cfb783db0910279180cb64ef99aecaadf4edca22d",
+      "valoare": 0.25
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 09:30:22",
+      "intrebare": "Câştigă Rapid București cu Corvinul Hunedoara?",
+      "intrebare_id": 5831,
+      "rationament": "Rapid are avantajul terenului și o ușoară superioritate în clasament.",
+      "sha256": "ee186ba6080aeca20055757bd14b31f9bef5de20a4b2356230c30dc74ef0ecbe",
+      "valoare": 0.6
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 09:30:22",
+      "intrebare": "Câştigă Bayer Leverkusen cu Freiburg?",
+      "intrebare_id": 5832,
+      "rationament": "Leverkusen este mai constant acasă, Freiburg este defensiv vulnerabil în deplasare.",
+      "sha256": "72a76167ac8d86b623b9b664fb26b6771a58d85faead4c7770d987a63c719d84",
+      "valoare": 0.65
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 09:30:22",
+      "intrebare": "Câştigă UTA Arad cu CFR 1907 Cluj?",
+      "intrebare_id": 5833,
+      "rationament": "CFR Cluj este favorită, dar terenul UTA echilibrează ușor șansele.",
+      "sha256": "5cb6ece2413b624bcd7cbc26e22f50b3e0305ac5bcb76b6ac0f1f806c63b9a75",
+      "valoare": 0.35
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 09:30:22",
+      "intrebare": "Câştigă Paris FC cu Rennes?",
+      "intrebare_id": 5834,
+      "rationament": "Meci echilibrat, Paris FC are avantajul terenului, dar Rennes este competitiv.",
+      "sha256": "27ba6834d5fb604bb7e687d5c69ff716d0b2098cbc8ec234b065765e4586d0b3",
+      "valoare": 0.4
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 09:30:22",
+      "intrebare": "Câştigă Nottingham Forest cu Arsenal?",
+      "intrebare_id": 5835,
+      "rationament": "Arsenal este clar superior, dar Forest poate surprinde acasă.",
+      "sha256": "1e9ae5d9eeae5f3da58ef156bd25e067a418db529a34074c0edffeea073cb461",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 09:30:22",
+      "intrebare": "Câştigă Universitatea Craiova cu Farul Constanța?",
+      "intrebare_id": 5836,
+      "rationament": "Craiova are avantajul terenului și o ușoară superioritate istorică.",
+      "sha256": "3d73523de7f276e5a2ecf0e8e1a0c41b9de3c48f54b7b16940e074ea63cc4bf8",
+      "valoare": 0.55
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 09:30:22",
+      "intrebare": "Câştigă Juventus cu Lazio?",
+      "intrebare_id": 5837,
+      "rationament": "Meci echilibrat, Juventus are avantajul terenului, Lazio este competitivă.",
+      "sha256": "bb765d31b30e920aca34fd497b19232c91e99715064f1ce59975f34c6c71404d",
+      "valoare": 0.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 09:30:22",
+      "intrebare": "Câştigă Lyon cu Nice?",
+      "intrebare_id": 5838,
+      "rationament": "Lyon este ușor favorită acasă, dar Nice este defensiv solidă.",
+      "sha256": "faa33e267c8a73713b940b98aca696a51ffdfcfbd60d8fec6e14a0c48098f600",
+      "valoare": 0.55
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 09:30:22",
+      "intrebare": "Câştigă Real Madrid cu Sevilla?",
+      "intrebare_id": 5839,
+      "rationament": "Real Madrid este superior tehnic, avantajul terenului crește șansele.",
+      "sha256": "59cf4d57909231a7b914e6b66d99bd51a5f4eda2b2e328772a9f461742d3aa64",
+      "valoare": 0.65
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 16:45:10",
+      "intrebare": "Preţul Bitcoin pe 2026-10-18",
+      "intrebare_id": 5840,
+      "rationament": "Ușoară scădere continuă, volatilitate scăzută recent.",
+      "sha256": "aee8674ba7bf0b35fa20215ab0ce79199ce5deabfa952039ce960696d2205d8d",
+      "valoare": 81200.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 16:45:10",
+      "intrebare": "Preţul Ethereum pe 2026-10-18",
+      "intrebare_id": 5841,
+      "rationament": "Tendință descendentă modestă, corecție după creșteri.",
+      "sha256": "08b6d70385e09e4ef94a53663b508335598bd81e990862ec19e62a6c43f93807",
+      "valoare": 2415.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 16:45:10",
+      "intrebare": "Preţul Solana pe 2026-10-18",
+      "intrebare_id": 5842,
+      "rationament": "Ușoară corecție după fluctuații recente.",
+      "sha256": "46cef183bbb69036175a46186ca6c91d03c0bc9d54bd1beb8a44f4756fbea670",
+      "valoare": 103.8
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 16:45:10",
+      "intrebare": "Preţul XRP pe 2026-10-18",
+      "intrebare_id": 5843,
+      "rationament": "Scădere lentă, presiune vânzător pe termen scurt.",
+      "sha256": "c4294fb337df1a2995050b381c34ae80f1b6cd2aec5b06b6771e2c192dcdef20",
+      "valoare": 1.28
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 16:45:10",
+      "intrebare": "Preţul Cardano pe 2026-10-18",
+      "intrebare_id": 5844,
+      "rationament": "Trend descendent, volumul scăzut susține mică coborâre.",
+      "sha256": "c6ed1f206352382b5d347e22161296bb5308bf25fcf642818a49114a26c0c621",
+      "valoare": 0.21
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 16:45:10",
+      "intrebare": "Preţul Dogecoin pe 2026-10-18",
+      "intrebare_id": 5845,
+      "rationament": "Stabilitate pe termen scurt, fără impuls clar.",
+      "sha256": "73ac0470d9bff96fbdaf3e5519dd9e6e2c4e3ef128120a4ffa76f68fa1213c1a",
+      "valoare": 0.08
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 16:45:10",
+      "intrebare": "Preţul BNB pe 2026-10-18",
+      "intrebare_id": 5846,
+      "rationament": "Ușoară scădere, trend recent în coborâre.",
+      "sha256": "e25718f3b50befaf8ee22ceb0b60f383c6d21bc03e7affe4d0dcb794fce5d34f",
+      "valoare": 718.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-17 16:45:13",
+      "intrebare": "Preţul Bitcoin pe 2026-10-18",
+      "intrebare_id": 5840,
+      "rationament": "Ușoară tendință de scădere în ultimele zile, dar menținerea într-un canal strâns sugerează o mică corecție negativă.",
+      "sha256": "644996f89793cc073ce909ca4d27767f0ade622c59a38b1b115cbdb547e707dd",
+      "valoare": 81400.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-17 16:45:13",
+      "intrebare": "Preţul Ethereum pe 2026-10-18",
+      "intrebare_id": 5841,
+      "rationament": "Prețul stagnează în jurul valorii de 2428 USD, așteptând un nou impuls pentru a sparge rezistența recentă.",
+      "sha256": "82dacd51e780caa9de4f5837563da0c8c87e04261b50f6897412103cdb4375e7",
+      "valoare": 2420.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-17 16:45:13",
+      "intrebare": "Preţul Solana pe 2026-10-18",
+      "intrebare_id": 5842,
+      "rationament": "Volatilitate redusă și o stabilizare vizibilă în jur de 104 USD, cu șanse mici de mișcări majore.",
+      "sha256": "850cd5163df34af803dbcb47f70c08e09666de4fef3c84138e0da8fdffb8102a",
+      "valoare": 104.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-17 16:45:13",
+      "intrebare": "Preţul XRP pe 2026-10-18",
+      "intrebare_id": 5843,
+      "rationament": "Se menține pe o pantă ușor descendentă, testând minimele recente de 1.30 USD.",
+      "sha256": "150d0869ad496a79f30f491df379406eacdbbdedbdfe818ad562c1418419de13",
+      "valoare": 1.29
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-17 16:45:13",
+      "intrebare": "Preţul Cardano pe 2026-10-18",
+      "intrebare_id": 5844,
+      "rationament": "A atins un minim local la 0.22 USD, unde pare să-și găsească un scurt suport temporar.",
+      "sha256": "45dec7aa2aca668b6c6bb10ce2db600ed4e87c81583eb874cd88d2b3032fe3a9",
+      "valoare": 0.22
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-17 16:45:13",
+      "intrebare": "Preţul Dogecoin pe 2026-10-18",
+      "intrebare_id": 5845,
+      "rationament": "Lichiditate scăzută și stagnare absolută la pragul de 0.08 USD fără știri majore.",
+      "sha256": "ea6bbcf2e480aa4eaad5456cd6d42a0cdaf11ec8f89c35eecd752aeaee40b20a",
+      "valoare": 0.08
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-17 16:45:13",
+      "intrebare": "Preţul BNB pe 2026-10-18",
+      "intrebare_id": 5846,
+      "rationament": "Continuă ușoara tendință de scădere din ultimele 48 de ore, orientându-se spre testarea suportului.",
+      "sha256": "1f570ae944395d09d17ab4e3784bf8c9f92538665e69feafce386370a9e14c07",
+      "valoare": 718.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 16:45:15",
+      "intrebare": "Preţul Bitcoin pe 2026-10-18",
+      "intrebare_id": 5840,
+      "rationament": "Momentum-ul scăzut sugerează o continuarea laterală, deci prețul de azi rămâne cea mai probabilă estimare pentru mâine.",
+      "sha256": "3910739d16f8e915d6d9a877f38d447e129ae7106157c2f2d79dc79bf61f48e2",
+      "valoare": 81548.01
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 16:45:15",
+      "intrebare": "Preţul Ethereum pe 2026-10-18",
+      "intrebare_id": 5841,
+      "rationament": "Volatilitatea recentă este mică, iar absența unui trend clar indică stabilitate la nivelul actual de închidere.",
+      "sha256": "d73c9e422e8f12e2261d2bef98fdb0079f56f85d0962c4dab66365d4ff554a6d",
+      "valoare": 2428.4
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 16:45:15",
+      "intrebare": "Preţul Solana pe 2026-10-18",
+      "intrebare_id": 5842,
+      "rationament": "Tendința ușor descendentă se stabilizează, iar prețul de azi este cel mai sigur reper pentru o mișcare neutră.",
+      "sha256": "0bbbd3bf06512b5be362410d868d7c4ba6bf63088de80c6199c5f30d7827e1fc",
+      "valoare": 104.24
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 16:45:15",
+      "intrebare": "Preţul XRP pe 2026-10-18",
+      "intrebare_id": 5843,
+      "rationament": "Prețul a coborât constant în ultimele zile, sugerând o inerție negativă, dar o stabilizare la nivelul actual este probabilă.",
+      "sha256": "8a172f8551b8df73c5f29748f245c8013be636c8a31b2dd7125c388ef7984210",
+      "valoare": 1.3
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 16:45:15",
+      "intrebare": "Preţul Cardano pe 2026-10-18",
+      "intrebare_id": 5844,
+      "rationament": "Mișcarea laterală strânsă indică lipsa volatilității majore, deci prețul de azi este cea mai bună predicție.",
+      "sha256": "c37be9e08aa0bcfd42a78172d8a53d016acdb4f221576175d4264f1c0fe48ffe",
+      "valoare": 0.22
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 16:45:15",
+      "intrebare": "Preţul Dogecoin pe 2026-10-18",
+      "intrebare_id": 5845,
+      "rationament": "Prețul a rămas neschimbat de mai multe zile, indicând o piață blocată la acest nivel de rezistență/suport.",
+      "sha256": "33a0519268e62c788fb0fd5bdd5ffab7f67ce99a5cc7414c3390a52e71bc3945",
+      "valoare": 0.08
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 16:45:15",
+      "intrebare": "Preţul BNB pe 2026-10-18",
+      "intrebare_id": 5846,
+      "rationament": "După o scădere constantă, piața pare să se stabilizeze, făcând prețul de azi cea mai probabilă valoare pentru mâine.",
+      "sha256": "f1295f557914080d1ce48a32ba04526b9555761471977b7905b45c226530c00f",
+      "valoare": 720.19
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 16:45:21",
+      "intrebare": "Preţul Bitcoin pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5847,
+      "rationament": "Trend descendent recent, volatilitate moderată, suport la 78k",
+      "sha256": "ed412a22e740ac7445d0393614055397b74fc7a77f32bbf7f8f8e334b326d57c",
+      "valoare": 78500.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 16:45:21",
+      "intrebare": "Preţul Ethereum pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5848,
+      "rationament": "Corecție ușoară după creștere, nivel de suport la 2440",
+      "sha256": "dda32c3650aa7ab990dfbd17c47b4f7896bf65e6ea2b8eb01f95a6bd1ff0f8b0",
+      "valoare": 2450.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 16:45:21",
+      "intrebare": "Preţul Solana pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5849,
+      "rationament": "Oscilație în jurul 104, ușoară scădere spre 103",
+      "sha256": "c10cc231d272426de7dc57d50428c2a8d9cebe1c3c4691e55899726a05f00d3d",
+      "valoare": 103.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 16:45:21",
+      "intrebare": "Preţul XRP pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5850,
+      "rationament": "Scădere continuă, prag de rezistență la 1.30",
+      "sha256": "6d05acd310ea9175dcef79d1a575ec3b113eafe5355276bd8ac27b10f81442ce",
+      "valoare": 1.28
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 16:45:21",
+      "intrebare": "Preţul Cardano pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5851,
+      "rationament": "Stabil în jurul 0.22, ușoară presiune vânzătoare",
+      "sha256": "08de55d67e2b06ecd16ea3e9233e1904bb7e66783c7c5adf4ee4a50868658fd9",
+      "valoare": 0.22
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 16:45:21",
+      "intrebare": "Preţul Dogecoin pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5852,
+      "rationament": "Piață plată, menține nivelul curent",
+      "sha256": "cd8e0fabe2be119d3c7f61c30f2974ed695b686c0285860c4b7771f6300d99eb",
+      "valoare": 0.08
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-17 16:45:21",
+      "intrebare": "Preţul BNB pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5853,
+      "rationament": "Trend descendent, suport la 710",
+      "sha256": "3b250982e78b2869139b3313310cc99f0bf920487e2e7d75e3ffe24342e9333c",
+      "valoare": 710.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-17 16:45:23",
+      "intrebare": "Preţul Bitcoin pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5847,
+      "rationament": "Piața arată o ușoară tendință de corecție pe termen scurt, menținându-se totuși aproape de nivelurile actuale.",
+      "sha256": "dddd15bf0bea6a0612969e76a53689016e2fb55498373d544abd80f40d6e9700",
+      "valoare": 80500.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-17 16:45:23",
+      "intrebare": "Preţul Ethereum pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5848,
+      "rationament": "Volatilitatea redusă și presiunea de vânzare recentă sugerează o ușoară scădere sub prețul de azi.",
+      "sha256": "a1c44073652b199815ed6d4d0190b145b6e5fc592e4991fa99c2d7715871a9d3",
+      "valoare": 2390.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-17 16:45:23",
+      "intrebare": "Preţul Solana pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5849,
+      "rationament": "Se observă o stabilizare în jurul valorilor actuale, cu potențial minor de scădere.",
+      "sha256": "bf51683343406c81f554eb3106d137b301c29c7a8f1739e62e2fdad2b4338125",
+      "valoare": 102.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-17 16:45:23",
+      "intrebare": "Preţul XRP pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5850,
+      "rationament": "Tendința descendentă din ultimele zile indică o continuare a corecției modeste.",
+      "sha256": "4361c4d87b973a93685bd0f193db9d4d1d024d52aec1993d8dc060fdda695a26",
+      "valoare": 1.28
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-17 16:45:23",
+      "intrebare": "Preţul Cardano pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5851,
+      "rationament": "Prețul stagnează aproape de minimele recente, fără impuls puternic de creștere.",
+      "sha256": "60242f6409634a4357e30543d620b1ad9626dbd69922257c9b89e157fe128d83",
+      "valoare": 0.22
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-17 16:45:23",
+      "intrebare": "Preţul Dogecoin pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5852,
+      "rationament": "Lipsa volumului menține activul stabil la pragul psihologic actual.",
+      "sha256": "ae0d77f3afc589577f7070dc2509a576a7ee8ed3b0e8806deef86608c31d56b6",
+      "valoare": 0.08
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-17 16:45:23",
+      "intrebare": "Preţul BNB pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5853,
+      "rationament": "Urmează o ușoară consolidare pe fondul sentimentului general de prudență din piață.",
+      "sha256": "4fc043726e1810ab7b6a49d1795997b65f1659d38f856265d45edec0799363f8",
+      "valoare": 715.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 16:45:24",
+      "intrebare": "Preţul Bitcoin pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5847,
+      "rationament": "Tendința laterală ușor descendentă sugerează menținerea nivelului actual fără variații majore.",
+      "sha256": "c5cf1b8e342788b6174445af81e7386862ece009a40619710ac0e7c5ec695a07",
+      "valoare": 81500.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 16:45:24",
+      "intrebare": "Preţul Ethereum pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5848,
+      "rationament": "Slăbirea continuă față de vârfurile din mijlocul săptămânii indică o stabilizare la niveluri inferioare.",
+      "sha256": "b2ab17e64ef48b5e199bb715eb888fc3b048d18eda8128da5a79706df7f3cedf",
+      "valoare": 2420.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 16:45:24",
+      "intrebare": "Preţul Solana pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5849,
+      "rationament": "Presiunea vânzătoare constantă pe ultimele zile sugerează o continuarea a scăderii modeste.",
+      "sha256": "4550facf50310eb2203d6a9f4b47e8677dcce8e54a246e87f647e2994e7e4c76",
+      "valoare": 104.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 16:45:24",
+      "intrebare": "Preţul XRP pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5850,
+      "rationament": "Drumul descendent clar indică o continuare a pierderilor de valoare pe termen scurt.",
+      "sha256": "c468726c64cf34e2dab5dd81b4eee600fb9a867ceb757c19e5ee53473317ccde",
+      "valoare": 1.29
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 16:45:24",
+      "intrebare": "Preţul Cardano pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5851,
+      "rationament": "Volatilitate minimă și tendință de scădere lentă către suportul actual.",
+      "sha256": "5b4fc4a55219f17ad75c780a454fe5418aa027276c5b0399f3715de5eb883c2a",
+      "valoare": 0.22
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 16:45:24",
+      "intrebare": "Preţul Dogecoin pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5852,
+      "rationament": "Stagnare completă la nivel minim, fără semne de rebound iminent.",
+      "sha256": "13d364f8269e3263b0c3d2d3c00615c720b1df32be94007f6d44c79131b69eb7",
+      "valoare": 0.08
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-17 16:45:24",
+      "intrebare": "Preţul BNB pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5853,
+      "rationament": "Slăbire progresivă față de vârf, sugerând o continuare a corecției tehnice.",
+      "sha256": "68271ea99d10c69b876c61f53bfb37f4edaacbe4a70165de43ec92733e17d0ab",
+      "valoare": 718.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-17 16:50:12",
+      "intrebare": "Preţul Bitcoin pe 2026-10-18",
+      "intrebare_id": 5840,
+      "rationament": "Ușoară tendință descendentă după respingerea de la 83.7k; anticipez stagnare marginal sub închiderea de azi.",
+      "sha256": "a4def079a3ae666e22d31f882a44cd668c00aedf14c9bf45075e64abf56bc171",
+      "valoare": 81450.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-17 16:50:12",
+      "intrebare": "Preţul Ethereum pe 2026-10-18",
+      "intrebare_id": 5841,
+      "rationament": "Consolidare în jur de 2420-2440 după scădere; aștept o mișcare mică, ușor în jos, odată cu BTC.",
+      "sha256": "fc716bac325131f2e4cab128c04bfba877fc8f36c41b174dfa128989b6a726d2",
+      "valoare": 2422.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-17 16:50:12",
+      "intrebare": "Preţul Solana pe 2026-10-18",
+      "intrebare_id": 5842,
+      "rationament": "Minime tot mai joase din 11 octombrie; prelungesc puțin deriva negativă, fără semnal de inversare.",
+      "sha256": "74e6f046fff2362f457cb1b1a7bb19f4c031aa030b379fe0cbea5c7929b95e65",
+      "valoare": 103.9
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-17 16:50:12",
+      "intrebare": "Preţul XRP pe 2026-10-18",
+      "intrebare_id": 5843,
+      "rationament": "Patru zile consecutive în scădere; momentum slab, dar mișcarea zilnică e mică, deci doar ușor sub azi.",
+      "sha256": "9272cb0eae8797a9041e64d076cda27465758161b8ff100303dc15cf5b32e32e",
+      "valoare": 1.295
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-17 16:50:12",
+      "intrebare": "Preţul Cardano pe 2026-10-18",
+      "intrebare_id": 5844,
+      "rationament": "Rotunjirea ascunde detaliul; tendință ușor negativă, aproape de 0.22.",
+      "sha256": "707e23558e761085c3831e5288bc9d065e8b454d848ee2cde6b38436afb1a973",
+      "valoare": 0.221
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-17 16:50:12",
+      "intrebare": "Preţul Dogecoin pe 2026-10-18",
+      "intrebare_id": 5845,
+      "rationament": "Preț plat la 0.08 de zile întregi; păstrez valoarea, cu o mică marjă pentru volatilitate.",
+      "sha256": "a7b1b58ae00076fbb9cd365be1b782aaccd4ebdfe0a36286ba1dee7bd10c6244",
+      "valoare": 0.0815
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-17 16:50:12",
+      "intrebare": "Preţul BNB pe 2026-10-18",
+      "intrebare_id": 5846,
+      "rationament": "Coborâre constantă de la 754; continuare lentă a scăderii, cu pași zilnici mici.",
+      "sha256": "98dace52d9a09ab876c12563878357341a392dabe6bcaab6acf4a05091c0593f",
+      "valoare": 718.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-17 16:50:27",
+      "intrebare": "Preţul Bitcoin pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5847,
+      "rationament": "Trend lateral-ușor descendent după vârful din 11 octombrie; mers aleator cu derivă negativă mică.",
+      "sha256": "d37fb4ff90733cc3d8bab4c639ae83d3fe375cacd16532ff7dc88437bec28dba",
+      "valoare": 81300.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-17 16:50:27",
+      "intrebare": "Preţul Ethereum pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5848,
+      "rationament": "Maxime mai joase din 11 octombrie, volatilitate mai mare decât BTC; derivă ușor negativă.",
+      "sha256": "ec2a4c7f0ea1185bc73b98a8173c6822aa27ef91984e2b79ef4f6164f6915e18",
+      "valoare": 2410.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-17 16:50:27",
+      "intrebare": "Preţul Solana pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5849,
+      "rationament": "Scădere constantă de la 111 la 104; continuare moderată a pantei, fără semnal de inversare.",
+      "sha256": "cbfb76ca688cb230b6dd84ec3bc77e25672e717105c247018a45350d5cc0cac5",
+      "valoare": 103.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-17 16:50:27",
+      "intrebare": "Preţul XRP pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5850,
+      "rationament": "Minime mai joase șase zile la rând; presiune descendentă ușoară, fără capitulare evidentă.",
+      "sha256": "2000569212f7b21e7760398331ce6426c3c8e13aeac758bc810b3abb2f680b37",
+      "valoare": 1.29
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-17 16:50:27",
+      "intrebare": "Preţul Cardano pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5851,
+      "rationament": "Coboară lent spre 0.22; rotunjirea face ca orice mișcare mică să rămână la același nivel.",
+      "sha256": "2655f0297bc4dcc8e4d8ef3df66420b8f4ec8136158160c4f05d47926253586d",
+      "valoare": 0.22
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-17 16:50:27",
+      "intrebare": "Preţul Dogecoin pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5852,
+      "rationament": "Stabil la 0.08 de șase zile; mișcarea necesară pentru alt nivel e improbabilă într-o săptămână.",
+      "sha256": "aacd557c87b9bc10db8604b5de04844cf8c8fab2f38e4d0f1f31d8187b99ea92",
+      "valoare": 0.08
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-17 16:50:27",
+      "intrebare": "Preţul BNB pe 2026-10-24 (1 săptămână)",
+      "intrebare_id": 5853,
+      "rationament": "Cădere constantă de la 754 la 720; derivă negativă moderată, corelată cu restul pieței.",
+      "sha256": "0fbe869b374b2de1f002cbea96d59679b99dd6bfbf5c49d152ecb10ad5ab6907",
+      "valoare": 714.0
+    }
+  ],
+  "zi": "2026-10-17"
+}
