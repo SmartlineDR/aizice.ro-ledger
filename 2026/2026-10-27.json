@@ -1,0 +1,2780 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "2b0f1ed666d887c86d2faa00a17d70ee0d95d9fbc8a7ff87486dc0e59de7bddf",
+  "nr_frunze": 308,
+  "predictii": [
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-10-27 09:34:41",
+      "intrebare": "Câştigă Sassuolo cu Lazio?",
+      "intrebare_id": 6331,
+      "rationament": "Lazio deține o valoare superioară a lotului, chiar dacă Sassuolo beneficiază de avantajul terenului propriu.",
+      "sha256": "5c65089b340bc8beb41af91085cd3ea68ac16522745cb6c2509ddb6bfd9b4127",
+      "valoare": 0.3
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-10-27 09:34:41",
+      "intrebare": "Câştigă Torino cu Como?",
+      "intrebare_id": 6332,
+      "rationament": "Torino este o echipă solidă pe teren propriu în fața unui Como ambițios, dar imprevizibil.",
+      "sha256": "67a2ff7cf28f2ee923f219dde997aac9a9ddb2cdadb68229b333b5e5be038d29",
+      "valoare": 0.46
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-10-27 09:34:41",
+      "intrebare": "Câştigă Roma cu Cagliari?",
+      "intrebare_id": 6333,
+      "rationament": "Roma pornește ca favorită certă pe Olimpico împotriva unei echipe cu evoluții modeste în deplasare.",
+      "sha256": "6be8a8258790f5055f875596d24406f87d6010146423cf0aa98b516704783c96",
+      "valoare": 0.66
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 09:38:39",
+      "intrebare": "Câştigă Venezia cu Inter Milan?",
+      "intrebare_id": 6412,
+      "rationament": "Inter Milan e mai puternic",
+      "sha256": "e2a09d0e00408961fd772d234e7e738f7d804418c63cc267c7674666a0da275f",
+      "valoare": 0.2
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 09:38:39",
+      "intrebare": "Câştigă AC Milan cu Bologna?",
+      "intrebare_id": 6413,
+      "rationament": "AC Milan are avantaje",
+      "sha256": "01fc340952c1b876b38513b3b77b011c50f046f2cfd07b3896b574d561d19361",
+      "valoare": 0.6
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 09:38:39",
+      "intrebare": "Câştigă Parma cu Udinese?",
+      "intrebare_id": 6414,
+      "rationament": "Udinese e mai experimentat",
+      "sha256": "cf3a7cd6e7fe9433f66bd9ce36332206868d7f85b2f4aee873f42fd739ae5b24",
+      "valoare": 0.4
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 09:38:39",
+      "intrebare": "Câştigă Monza cu Napoli?",
+      "intrebare_id": 6415,
+      "rationament": "Napoli e favorit",
+      "sha256": "bd239fb3c28a2ea76693ddd59dea786a986b47d1ce7c48f0dce9eab69f782335",
+      "valoare": 0.25
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 09:38:39",
+      "intrebare": "Câştigă Genoa cu Juventus?",
+      "intrebare_id": 6416,
+      "rationament": "Juventus are valoare mai mare",
+      "sha256": "d84f435eea1239f5b41341d2a2834d960ba00d523c13cfce432c53c4f886a803",
+      "valoare": 0.3
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 09:38:55",
+      "intrebare": "Câştigă Venezia cu Inter Milan?",
+      "intrebare_id": 6412,
+      "rationament": "Inter Milan este o echipă de top, dar avantajul terenului și forma recentă a Venezia pot duce la o surpriză mică.",
+      "sha256": "a4f2e05e576106827bcbdeb895e2844859ca96ec19ac9c45684342b34c3dbfd6",
+      "valoare": 0.2
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 09:38:55",
+      "intrebare": "Câştigă AC Milan cu Bologna?",
+      "intrebare_id": 6413,
+      "rationament": "AC Milan are un lot mai puternic și joacă acasă, dar Bologna poate fi un adversar incomod.",
+      "sha256": "d0c6ff918a38be6254d09bebb22f45a9b6b51c1ddcc9d313768d035ced5ef729",
+      "valoare": 0.65
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 09:38:55",
+      "intrebare": "Câştigă Parma cu Udinese?",
+      "intrebare_id": 6414,
+      "rationament": "Echipe apropiate ca valoare, avantajul terenului pentru Parma echilibrează șansele.",
+      "sha256": "c6339b27676ef51860017eeb0a5f6bdb5d26dc635ec85ba1ba2c2d36d03ff06b",
+      "valoare": 0.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 09:38:55",
+      "intrebare": "Câştigă Monza cu Napoli?",
+      "intrebare_id": 6415,
+      "rationament": "Napoli este favorită, dar Monza acasă poate fi competitivă, cu șanse moderate de victorie.",
+      "sha256": "6b713c6cc57e4ebde9a86dbc4a1970d063656b7b9ae924fde5984d9d6bb3f3dc",
+      "valoare": 0.35
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 09:38:55",
+      "intrebare": "Câştigă Genoa cu Juventus?",
+      "intrebare_id": 6416,
+      "rationament": "Juventus este clar favorită, dar Genoa acasă poate profita de o zi slabă a oaspeților.",
+      "sha256": "84662202d3ce9d84dcd1aa62ee9d741949edd6ef266de7dd7a79bbece5907ea1",
+      "valoare": 0.25
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 09:38:58",
+      "intrebare": "Câştigă Venezia cu Inter Milan?",
+      "intrebare_id": 6412,
+      "rationament": "Inter are mult mai multă calitate, chiar și pe teren străin.",
+      "sha256": "a0a967749559ccd2462613573ee8b76d79bbfe74fe8efdb08ff07c8537db93e6",
+      "valoare": 0.25
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 09:38:58",
+      "intrebare": "Câştigă AC Milan cu Bologna?",
+      "intrebare_id": 6413,
+      "rationament": "Milan joacă acasă, forma și talentul îl fac favoritul clar.",
+      "sha256": "efb9e4a2b6ed5fb89737c487b3222fb8c3b6c26d114ae894cff4df3663b9d40f",
+      "valoare": 0.68
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 09:38:58",
+      "intrebare": "Câştigă Parma cu Udinese?",
+      "intrebare_id": 6414,
+      "rationament": "Meci echilibrat, Parma are mic avantaj pe teren propriu.",
+      "sha256": "7c632ff7a0bfeea4925cdae19335c0ca88a40e0d647cb97f397414edd9688179",
+      "valoare": 0.44
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 09:38:58",
+      "intrebare": "Câştigă Monza cu Napoli?",
+      "intrebare_id": 6415,
+      "rationament": "Napoli este mult mai puternic, chiar și în deplasare.",
+      "sha256": "1db31cdc2dc000a53c7231be9b5633c1ce1806211a5a7cb9e3acf7bb672b7b91",
+      "valoare": 0.28
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 09:38:58",
+      "intrebare": "Câştigă Genoa cu Juventus?",
+      "intrebare_id": 6416,
+      "rationament": "Juventus domină, dar Genoa poate surprinde acasă.",
+      "sha256": "838806c8a150d8fdf997beebad57342f06f2749eb98eaf0e98ae937e89cebd9e",
+      "valoare": 0.33
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 09:38:59",
+      "intrebare": "Câştigă Venezia cu Inter Milan?",
+      "intrebare_id": 6412,
+      "rationament": "Inter este net superioară și luptă pentru titlu, în timp ce Venezia are un lot modest.",
+      "sha256": "69a6a09fb109ea6c913ac817d018979cf57c5195fc308a713b452b1429848d56",
+      "valoare": 0.12
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 09:38:59",
+      "intrebare": "Câştigă AC Milan cu Bologna?",
+      "intrebare_id": 6413,
+      "rationament": "Milan joacă acasă și are prima șansă, deși Bologna rămâne o echipă foarte organizată.",
+      "sha256": "89fea47266bbe0b41536abbced8f620d3a239fd930f9991d8d8d83b5be628e82",
+      "valoare": 0.62
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 09:38:59",
+      "intrebare": "Câştigă Parma cu Udinese?",
+      "intrebare_id": 6414,
+      "rationament": "Un meci extrem de echilibrat între două formații de nivel apropiat, cu ușor avantaj moral pentru oaspeți.",
+      "sha256": "15d52210cd29129f8f0054e2c390f33c8411784d3ca625a68763b25f098d5a38",
+      "valoare": 0.42
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 09:38:59",
+      "intrebare": "Câştigă Monza cu Napoli?",
+      "intrebare_id": 6415,
+      "rationament": "Napoli are aspirații mari și o superioritate tehnică clară față de Monza, chiar și în deplasare.",
+      "sha256": "c2f83e5b7f938a45a1b7545f4ed473020f8ca4a27c7564121da45582785cc5d4",
+      "valoare": 0.22
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 09:38:59",
+      "intrebare": "Câştigă Genoa cu Juventus?",
+      "intrebare_id": 6416,
+      "rationament": "Juventus pornește mare favorită prin prisma valorii lotului, deși deplasarea pe Marassi este mereu dificilă.",
+      "sha256": "705b98a29006785a01ba53bab713302f2cfc23d4cd1e358ab941f29f357bef9b",
+      "valoare": 0.25
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 09:39:29",
+      "intrebare": "Câştigă Venezia cu Inter Milan?",
+      "intrebare_id": 6412,
+      "rationament": "Venezia lacks depth; Inter's superior squad and recent form make a home win unlikely.",
+      "sha256": "01c6d454f63dd57456a0855da61d6f87eff0cb5b41b61773d0f48ed38187d41e",
+      "valoare": 0.1
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 09:39:29",
+      "intrebare": "Câştigă AC Milan cu Bologna?",
+      "intrebare_id": 6413,
+      "rationament": "Milan's attacking quality and home edge outweigh Bologna's solid defense, giving a modest home win edge.",
+      "sha256": "21f084c15962a35d649240196532f474df6cdca3aba99782f77166641e20249b",
+      "valoare": 0.55
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 09:39:29",
+      "intrebare": "Câştigă Parma cu Udinese?",
+      "intrebare_id": 6414,
+      "rationament": "Parma's recent home form is decent, but Udinese's consistency makes the match fairly balanced.",
+      "sha256": "c55500dd0a8f32e545354b1fc973d9348b379e30adc5495c87d3887226d448c7",
+      "valoare": 0.45
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 09:39:29",
+      "intrebare": "Câştigă Monza cu Napoli?",
+      "intrebare_id": 6415,
+      "rationament": "Monza struggles against top‑six sides; Napoli's firepower makes a home win improbable.",
+      "sha256": "836546808a22c498a9415b642bcf70f7787a7368c5fd56720665ea1115c38b88",
+      "valoare": 0.2
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 09:39:29",
+      "intrebare": "Câştigă Genoa cu Juventus?",
+      "intrebare_id": 6416,
+      "rationament": "Genoa's limited resources contrast with Juventus' depth, rendering a home upset unlikely.",
+      "sha256": "485ce9c2a577b8378abc908f9ad42cf044a4dd98ebc6c66f0e1130c20dc1c041",
+      "valoare": 0.15
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 09:40:37",
+      "intrebare": "Câştigă Venezia cu Inter Milan?",
+      "intrebare_id": 6412,
+      "rationament": "Interul este mult mai bun, Venezia are puține șanse acasă.",
+      "sha256": "300b61e6c2cbb013af67584f91df9609430f81c8aabf610343c30c349068714b",
+      "valoare": 0.1
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 09:40:37",
+      "intrebare": "Câştigă AC Milan cu Bologna?",
+      "intrebare_id": 6413,
+      "rationament": "Milanul este favorit la San Siro, Bologna este mai slabă.",
+      "sha256": "c14b962fbae59781feec9eed84d0de0bf509c050a9089cb4cc8d86618e7261ba",
+      "valoare": 0.55
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 09:40:37",
+      "intrebare": "Câştigă Parma cu Udinese?",
+      "intrebare_id": 6414,
+      "rationament": "Echilibru perfect, dar Parma câștigă probabil pe teren propriu.",
+      "sha256": "b5386e63c0afa182dc89cc8a19914563b4f81ec8791e142196414edfd656f066",
+      "valoare": 0.5
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 09:40:37",
+      "intrebare": "Câştigă Monza cu Napoli?",
+      "intrebare_id": 6415,
+      "rationament": "Napoli este campionul, Monza are probleme de apărare.",
+      "sha256": "170c690df3c5e450fda60a000bcd3cebd010185be1c058c0be537ff04a2ede4a",
+      "valoare": 0.35
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 09:40:37",
+      "intrebare": "Câştigă Genoa cu Juventus?",
+      "intrebare_id": 6416,
+      "rationament": "Juventusul este mult mai stabil, Genoa are puține șanse.",
+      "sha256": "619cd572b69fa0033e69da44f129bc2ec56812853f09a5fc9255a16a83080221",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 09:40:37",
+      "intrebare": "Câştigă Venezia cu Inter Milan?",
+      "intrebare_id": 6412,
+      "rationament": "Inter este mult superioară tehnic, dar avantajul terenului al lui Venezia reduce ușor șansele de victorie totală.",
+      "sha256": "44db75ac6303aa528edcd6a5a0ae073cbd486476d243c56c0efdee422da796d7",
+      "valoare": 0.15
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 09:40:37",
+      "intrebare": "Câştigă AC Milan cu Bologna?",
+      "intrebare_id": 6413,
+      "rationament": "Milan are avantajul terenului, dar Bologna este o echipă solidă, ceea ce face meciul echilibrat.",
+      "sha256": "43bd76b86bf0666d199116f64388a051f6c9975ed8817485f162de8d710dce37",
+      "valoare": 0.45
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 09:40:37",
+      "intrebare": "Câştigă Parma cu Udinese?",
+      "intrebare_id": 6414,
+      "rationament": "Parma acasă are un mic avantaj, dar Udinese este competitivă, deci șansele sunt aproape egale.",
+      "sha256": "d4a3f7987a3b7da2ab4b6cf19e304f5cd6b7b6f5d866033172a3a58107b01656",
+      "valoare": 0.4
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 09:40:37",
+      "intrebare": "Câştigă Monza cu Napoli?",
+      "intrebare_id": 6415,
+      "rationament": "Napoli este o echipă de top, iar Monza, deși acasă, are șanse mici de victorie.",
+      "sha256": "098c69a8822eaa397ad469d26fcdcdacb29cf061e655fd8877157373b8af82b1",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 09:40:37",
+      "intrebare": "Câştigă Genoa cu Juventus?",
+      "intrebare_id": 6416,
+      "rationament": "Juventus este favorită, dar Genoa acasă poate crea dificultăți, reducând șansele de victorie a oaspetelui.",
+      "sha256": "5899e96231c8edbe01977d4ca1c331b8e1133de423c23e0593057f2484480bb3",
+      "valoare": 0.25
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 14:31:00",
+      "intrebare": "Cursul euro (RON) pe 2026-10-28",
+      "intrebare_id": 6417,
+      "rationament": "valoarea de azi, conform ipotezei 'mâine = azi'",
+      "sha256": "6a166820d8a510d268b642ddae589aed7fbb17b3a8edbc267838ba4cfe7bc59c",
+      "valoare": 5.3487
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 14:31:00",
+      "intrebare": "Cursul dolar (RON) pe 2026-10-28",
+      "intrebare_id": 6418,
+      "rationament": "valoarea de azi, conform ipotezei 'mâine = azi'",
+      "sha256": "b75c15ebbaecb003419a9e5f62cd50462413c8b693633f134756609f3c59a756",
+      "valoare": 4.7977
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 14:31:00",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-10-28",
+      "intrebare_id": 6421,
+      "rationament": "valoarea de azi, conform ipotezei 'mâine = azi'",
+      "sha256": "5471e442f9346a051416075c451c38e25ba566a2c135e22cbbbeeadb8886d18b",
+      "valoare": 619.01
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 14:31:00",
+      "intrebare": "Cursul francului elveţian (RON) pe 2026-10-28",
+      "intrebare_id": 6420,
+      "rationament": "valoarea de azi, conform ipotezei 'mâine = azi'",
+      "sha256": "1be48e6d448bf10cbc50b0981a8757cfa33cbd4d9ce5a65634bbdb121a94299b",
+      "valoare": 5.7921
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 14:31:02",
+      "intrebare": "Cursul euro (RON) pe 2026-10-28",
+      "intrebare_id": 6417,
+      "rationament": "Următoarea zi urmează tendința ușoară de creștere recentă.",
+      "sha256": "d49bacd70da88b2c6bdd75c8d5f945480fe8546fea991a898e8e1cbbeb2c5cf0",
+      "valoare": 5.351
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 14:31:02",
+      "intrebare": "Cursul dolar (RON) pe 2026-10-28",
+      "intrebare_id": 6418,
+      "rationament": "Creșterea din ultimele două zile sugerează o valoare puțin mai mare.",
+      "sha256": "584ca0af3a98d557ce2344192ba7cb831fac84baacadd460738404643c116179",
+      "valoare": 4.81
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 14:31:02",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-10-28",
+      "intrebare_id": 6421,
+      "rationament": "După revenirea recentă, prețul ar putea continua ușor în sus.",
+      "sha256": "5e646d776c089b72136d7350c91507bdbec2c759019f9146465b7eb7f34b50fb",
+      "valoare": 620.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 14:31:12",
+      "intrebare": "Cursul euro (RON) pe 2026-10-28",
+      "intrebare_id": 6417,
+      "rationament": "Aplic ipoteza de inerție «mâine = azi», menținând ultimul curs BNR neschimbat din lipsa unor șocuri majore.",
+      "sha256": "4bdedb3cbf868adc281bed98897c7e596f21080188cc2ab5f6c4f39ca2cc3134",
+      "valoare": 5.3487
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 14:31:12",
+      "intrebare": "Cursul dolar (RON) pe 2026-10-28",
+      "intrebare_id": 6418,
+      "rationament": "Reproduc ultima valoare oficială BNR, considerând că piața va rula stabil fără tendințe clare de corecție.",
+      "sha256": "39cecc740f59442e5eab76a13616cbfd111214b595b8ace06394fff9f9deebca",
+      "valoare": 4.7977
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 14:31:12",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-10-28",
+      "intrebare_id": 6421,
+      "rationament": "Păstrez nivelul de preț anterior conform strategiei de continuitate, evitând speculațiile pe termen scurt.",
+      "sha256": "3175f46e5ba55f99c607a319841bde330a5857dcd7d2ae9b36342f2287fe80e6",
+      "valoare": 619.01
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 14:31:15",
+      "intrebare": "Cursul euro (RON) pe 2026-10-28",
+      "intrebare_id": 6417,
+      "rationament": "Tendința ușoară de creștere recentă sugerează o stabilizare minimă peste valoarea curentă.",
+      "sha256": "f742d56f02740b1a0929d827e01194afbd69ee4e64037fbdf7d2a7eba48aa155",
+      "valoare": 5.349
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 14:31:15",
+      "intrebare": "Cursul dolar (RON) pe 2026-10-28",
+      "intrebare_id": 6418,
+      "rationament": "Creșterea accelerată din ultimele zile indică o continuarea a momentum-ului ascendent.",
+      "sha256": "93ecdf27c2a8aa789ef25000f765a888ccbd00fa7f509a7415098dfa959fca1c",
+      "valoare": 4.798
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 14:31:15",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-10-28",
+      "intrebare_id": 6421,
+      "rationament": "Revenirea ușoară după scădere sugerează o stabilizare în jurul valorii anterioare.",
+      "sha256": "b4eb39c6cc2516f3f8cbbcfc41031133a31811ffdc11ccf90053977866b39b3b",
+      "valoare": 618.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 14:35:13",
+      "intrebare": "Cursul euro (RON) pe 2026-10-28",
+      "intrebare_id": 6417,
+      "rationament": "EUR/RON este strâns administrat de BNR; după saltul din 22 octombrie, cursul s-a stabilizat, deci aștept doar o variație minimă.",
+      "sha256": "dd52fcbf5f05c2c7586a5f15e753e45b377fb30eb481a80ab2be729feac3013e",
+      "valoare": 5.3482
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 14:35:13",
+      "intrebare": "Cursul dolar (RON) pe 2026-10-28",
+      "intrebare_id": 6418,
+      "rationament": "Ultimul salt de dolar pare parțial zgomot; aștept o corecție mică spre 4.79, dar mersul aleator rămâne reperul greu de bătut.",
+      "sha256": "1e35432533469d0a7479cc9064ad5aa5a625120a657d77316fbea9d2efe2fbdc",
+      "valoare": 4.7955
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 14:35:13",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-10-28",
+      "intrebare_id": 6421,
+      "rationament": "Trendul descendent s-a oprit cu un mic rebound; prezic o valoare apropiată de azi, cu o ușoară continuare a revenirii.",
+      "sha256": "e47eac442c041d2870c72a4ad9ecfdf445e3ac4c242a821e78e253e249f21641",
+      "valoare": 619.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul Apple Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6422,
+      "rationament": "Apple Inc. a arătat o tendință stabilă în ultimele săptămâni, cu fluctuații mici ale prețului. Având în vedere lansările recente de produse și strategiile de marketing, este probabil ca acțiunile Apple să rămână stabile sau să crească ușor. De asemenea, poziția companiei pe piața tehnologiei și loialitatea clienților săi ar trebui să mențină prețul acțiunilor la un nivel stabil.",
+      "sha256": "3a77d284961b017e8fa3e5cf0fb61eaff15251630496bc270ad19235aaf9d7c7",
+      "valoare": 343.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul Microsoft pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6423,
+      "rationament": "Microsoft a demonstrat o creștere constantă a prețului acțiunilor sale, datorită succesului său în domeniul cloud computing și al inteligenței artificiale. Cu o strategie de diversificare a portofoliului de produse și servicii, Microsoft pare să fie bine poziționat pentru a menține sau a crește prețul acțiunilor sale. De asemenea, investițiile companiei în cercetare și dezvoltare ar trebui să contribuie la o creștere pe termen lung.",
+      "sha256": "ca865397019f89a4404287ebe2ac77f5352caece0f47b0d38583d5a7575d5be1",
+      "valoare": 532.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul Nvidia pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6424,
+      "rationament": "Nvidia a experimentat o scădere a prețului acțiunilor sale în ultimele săptămâni, probabil datorită concurenței crescute pe piața procesoarelor grafice. Cu toate acestea, compania are o poziție puternică pe piața jocurilor și a inteligenței artificiale, ceea ce ar trebui să o ajute să se recupereze. Investițiile în cercetare și dezvoltare și lansările de produse inovatoare ar trebui să contribuie la o creștere a prețului acțiunilor.",
+      "sha256": "2c058558ee05988e12c47c417a54cb19147e7077e0f1557449852b07f0763b80",
+      "valoare": 220.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul Amazon pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6425,
+      "rationament": "Amazon a arătat o tendință de scădere a prețului acțiunilor sale în ultimele săptămâni, probabil datorită concurenței crescute pe piața comerțului online. Cu toate acestea, compania are o poziție puternică pe piața cloud computing și a inteligenței artificiale, ceea ce ar trebui să o ajute să se recupereze. Investițiile în cercetare și dezvoltare și lansările de produse inovatoare ar trebui să contribuie la o creștere a prețului acțiunilor.",
+      "sha256": "4a1f5523ae8a96e22a30e60358f0853e3c850174a0cbb54e9d93b4f678857ea0",
+      "valoare": 252.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul Berkshire Hathaway pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6426,
+      "rationament": "Berkshire Hathaway a arătat o tendință stabilă a prețului acțiunilor sale, datorită diversificării portofoliului de investiții și a strategiilor de management ale lui Warren Buffett. Compania are o poziție puternică pe piața asigurărilor și a investițiilor, ceea ce ar trebui să mențină prețul acțiunilor la un nivel stabil. De asemenea, investițiile în cercetare și dezvoltare ar trebui să contribuie la o creștere pe termen lung.",
+      "sha256": "88c00ec43abe7a9f2031aed1661df04f0f6a7ec199c9d85c2fb2594bbd5962be",
+      "valoare": 548.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul Lilly (Eli) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6427,
+      "rationament": "Eli Lilly a arătat o tendință de creștere a prețului acțiunilor sale, datorită succesului său în domeniul farmaceutic și al cercetării medicale. Compania are o poziție puternică pe piața medicamentelor și a vaccinurilor, ceea ce ar trebui să o ajute să mențină o creștere constantă. De asemenea, investițiile în cercetare și dezvoltare ar trebui să contribuie la o creștere pe termen lung.",
+      "sha256": "eafb3e2eff54a7b1261aa36c8d572cb90bd7ed95e84e12e81b58951a9eed461c",
+      "valoare": 1280.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6428,
+      "rationament": "JPMorgan Chase a arătat o tendință stabilă a prețului acțiunilor sale, datorită poziției sale puternice pe piața bancară și a investițiilor. Compania are o diversificare a portofoliului de investiții și a strategiilor de management, ceea ce ar trebui să mențină prețul acțiunilor la un nivel stabil. De asemenea, investițiile în tehnologie și inovație ar trebui să contribuie la o creștere pe termen lung.",
+      "sha256": "df92901c85f6eb6e03a1fc054b6e826adf510511c7dba8cf88de66556e7d79ca",
+      "valoare": 336.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul Visa Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6429,
+      "rationament": "Visa Inc. a arătat o tendință de creștere a prețului acțiunilor sale, datorită succesului său în domeniul plăților digitale și al tehnologiei financiare. Compania are o poziție puternică pe piața plăților și a serviciilor financiare, ceea ce ar trebui să o ajute să mențină o creștere constantă. De asemenea, investițiile în cercetare și dezvoltare ar trebui să contribuie la o creștere pe termen lung.",
+      "sha256": "caedd0563585911c5ae39848f4bcc13a0aad382685f505721a78da306ac8efa2",
+      "valoare": 404.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul Mastercard pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6430,
+      "rationament": "Mastercard a arătat o tendință de creștere a prețului acțiunilor sale, datorită succesului său în domeniul plăților digitale și al tehnologiei financiare. Compania are o poziție puternică pe piața plăților și a serviciilor financiare, ceea ce ar trebui să o ajute să mențină o creștere constantă. De asemenea, investițiile în cercetare și dezvoltare ar trebui să contribuie la o creștere pe termen lung.",
+      "sha256": "767f6a409b738bc995f1cee0be9128121c527242ba83040f5176b47d11649cac",
+      "valoare": 614.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul Procter & Gamble pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6431,
+      "rationament": "Procter & Gamble a arătat o tendință stabilă a prețului acțiunilor sale, datorită diversificării portofoliului de produse și a strategiilor de marketing. Compania are o poziție puternică pe piața produselor de consum, ceea ce ar trebui să mențină prețul acțiunilor la un nivel stabil. De asemenea, investițiile în cercetare și dezvoltare ar trebui să contribuie la o creștere pe termen lung.",
+      "sha256": "a9ff7df02a040b44b39d6cc2848d46a9e916c3561213ea117cbb9ac0f58b2111",
+      "valoare": 159.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul Johnson & Johnson pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6432,
+      "rationament": "Johnson & Johnson a arătat o tendință de creștere a prețului acțiunilor sale, datorită succesului său în domeniul farmaceutic și al cercetării medicale. Compania are o poziție puternică pe piața medicamentelor și a vaccinurilor, ceea ce ar trebui să o ajute să mențină o creștere constantă. De asemenea, investițiile în cercetare și dezvoltare ar trebui să contribuie la o creștere pe termen lung.",
+      "sha256": "2a62118ad70376dc8b54ac32fd68d56a5edeb5b590240292421e6f07f8609c60",
+      "valoare": 266.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul Home Depot (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6433,
+      "rationament": "Home Depot a arătat o tendință de creștere a prețului acțiunilor sale, datorită succesului său în domeniul materialelor de construcție și al produselor pentru casă. Compania are o poziție puternică pe piața materialelor de construcție, ceea ce ar trebui să o ajute să mențină o creștere constantă. De asemenea, investițiile în cercetare și dezvoltare ar trebui să contribuie la o creștere pe termen lung.",
+      "sha256": "ce54c5767275d3ea1ac42054cc6d4565f8bf9ceeb15cc5fc42683bcee6e84314",
+      "valoare": 318.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul Costco pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6434,
+      "rationament": "Costco a arătat o tendință de creștere a prețului acțiunilor sale, datorită succesului său în domeniul comerțului cu amănuntul și al serviciilor pentru membri. Compania are o poziție puternică pe piața comerțului cu amănuntul, ceea ce ar trebui să o ajute să mențină o creștere constantă. De asemenea, investițiile în cercetare și dezvoltare ar trebui să contribuie la o creștere pe termen lung.",
+      "sha256": "cbef97ddb3c20fe4a13563452b5ca8072c6d79be68d6e509a47756d64ba5630a",
+      "valoare": 1003.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6435,
+      "rationament": "Coca-Cola Company a arătat o tendință stabilă a prețului acțiunilor sale, datorită diversificării portofoliului de produse și a strategiilor de marketing. Compania are o poziție puternică pe piața băuturilor, ceea ce ar trebui să mențină prețul acțiunilor la un nivel stabil. De asemenea, investițiile în cercetare și dezvoltare ar trebui să contribuie la o creștere pe termen lung.",
+      "sha256": "1b99d118891c9a6820051adab779c9157893ff9acf5f64926776cb3e1d000c3f",
+      "valoare": 92.5
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul PepsiCo pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6436,
+      "rationament": "PepsiCo a arătat o tendință de creștere a prețului acțiunilor sale, datorită succesului său în domeniul băuturilor și al snack-urilor. Compania are o poziție puternică pe piața băuturilor și a snack-urilor, ceea ce ar trebui să o ajute să mențină o creștere constantă. De asemenea, investițiile în cercetare și dezvoltare ar trebui să contribuie la o creștere pe termen lung.",
+      "sha256": "b97c1ffb63133df3bfdc9ca96099dc5a94b42db416719b8f75a72fe3fe97ceec",
+      "valoare": 135.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul Oracle Corporation pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6437,
+      "rationament": "Oracle Corporation a arătat o tendință de creștere a prețului acțiunilor sale, datorită succesului său în domeniul tehnologiei informației și al cloud computing. Compania are o poziție puternică pe piața tehnologiei informației, ceea ce ar trebui să o ajute să mențină o creștere constantă. De asemenea, investițiile în cercetare și dezvoltare ar trebui să contribuie la o creștere pe termen lung.",
+      "sha256": "d4b7012d74e953c7328bbcb4abdbd5ea917aef83095241248db74bff9f1b9ecd",
+      "valoare": 129.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-10-27 15:46:10",
+      "intrebare": "Preţul Netflix pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6438,
+      "rationament": "Netflix a arătat o tendință de scădere a prețului acțiunilor sale, probabil datorită concurenței crescute pe piața serviciilor de streaming. Cu toate acestea, compania are o poziție puternică pe piața serviciilor de streaming, ceea ce ar trebui să o ajute să se recupereze. Investițiile în cercetare și dezvoltare și lansările de produse inovatoare ar trebui să contribuie la o creștere a prețului acțiunilor.",
+      "sha256": "8071666f0e8e0eba8185ab4b2ba124c7e4f3de74befeb18be77929c0900bedd3",
+      "valoare": 64.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul Apple Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6422,
+      "rationament": "Apple a arătat o stabilitate recentă în jurul valorii de 343 USD, cu o tendință ușoară de creștere. Lansările recente de produse și cererea constantă pentru iPhone-uri și servicii sugerază o creștere modestă. Cu toate acestea, concurența intensă în sectorul tech și posibilele perturbări ale lanțului de aprovizionare ar putea limita creșterea. Prețul predicției este ușor peste media ultimelor închideri, reflectând optimismul moderat.",
+      "sha256": "7300b6898fb7e37182f93c4338ca184060766496ab5315cbd92b2af731f37fef",
+      "valoare": 345.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul Microsoft pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6423,
+      "rationament": "Microsoft a fluctuant în jurul valorii de 530 USD, cu o tendință laterală. Creșterea constantă a segmentului cloud (Azure) și adoptarea software-ului enterprise susțin stabilitatea. Cu toate acestea, încetinirea economiei globale ar putea afecta cheltuielile corporative în tehnologie. Prețul predicției este apropiat de ultima închidere, reflectând echilibrul dintre catalizatori și riscuri.",
+      "sha256": "faf5a429f94ec27aed98896c0ce21c197788eed00ad1bdfbc8f67cc5904efc52",
+      "valoare": 535.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul Nvidia pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6424,
+      "rationament": "Nvidia a suferit o corecție recentă, dar rămâne un lider în AI și computing de înaltă performanță. Cererea pentru GPU-uri în centrele de date și automotive este robustă, dar volatilitatea sectorului tech și dependența de ciclurile de investiții în hardware reprezintă riscuri. Prețul predicției este ușor peste ultima închidere, bazându-se pe potențialul de creștere pe termen scurt.",
+      "sha256": "7130e3dcb44a283ab10ecd6c20e4d41fac1a64a42c97f41c7083a18f646796dc",
+      "valoare": 215.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul Amazon pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6425,
+      "rationament": "Amazon a fluctuant în jurul valorii de 250 USD, cu presiune din cauza costurilor operaționale și concurenței în e-commerce. Cu toate acestea, expansiunea AWS și optimizarea costurilor ar putea susține o creștere modestă. Riscurile includ inflația persistentă și concurența intensă. Prețul predicției este ușor peste ultima închidere, reflectând optimismul moderat.",
+      "sha256": "0f8b0bf4575fed2b5f7cc92308b95d128de7d8554ece323b01806cf11a7cac07",
+      "valoare": 252.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul Berkshire Hathaway pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6426,
+      "rationament": "Berkshire Hathaway a arătat o tendință ascendentă, susținută de portofoliul diversificat și de managementul prudent al lui Warren Buffett. Creșterea economiei SUA și investițiile strategice în sectoare defensive (asigurări, energie) susțin optimismul. Riscurile includ volatilitatea piețelor financiare și evaluările ridicate ale unor participații. Prețul predicției este peste ultima închidere, reflectând încrederea în strategie.",
+      "sha256": "cb0c87da83bf22972323567ced1e0db8b4f0d59c7635835cb57c2b032594a4ac",
+      "valoare": 550.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul Lilly (Eli) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6427,
+      "rationament": "Eli Lilly a înregistrat o creștere puternică, susținută de inovarea în medicamente (diabet, oncologie) și extinderea globală. Catalizatorii includ aprobările regulate și cererea pentru tratamente cronice. Riscurile sunt legate de eșecurile clinice și presiunea asupra prețurilor. Prețul predicției este peste ultima închidere, reflectând momentum-ul pozitiv.",
+      "sha256": "d692fb6411accd06e2928daf93492b684b3250ad9f06121331a101e666f83dd9",
+      "valoare": 1285.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6428,
+      "rationament": "JPMorgan a arătat stabilitate, beneficiind de ratele dobânzilor mai ridicate și de activitatea solidă de investment banking. Cu toate acestea, încetinirea economiei și creșterea default-urilor creditelor reprezintă riscuri. Prețul predicției este ușor peste ultima închidere, reflectând reziliența sectorului financiar.",
+      "sha256": "79711eba6e827c89197f1b8323ca4126064e54832b3463bdcbe55f4e3a760e50",
+      "valoare": 338.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul Visa Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6429,
+      "rationament": "Visa a corectat ușor, dar rămâne un lider în plăți digitale, beneficiind de creșterea tranzacțiilor globale. Expansiunea în piețe emergente și adoptarea tehnologiilor contactless susțin creșterea. Riscurile includ reglementările și concurența fintech. Prețul predicției este peste ultima închidere, reflectând potențialul pe termen lung.",
+      "sha256": "ed69fb72bcf97aa212033deedce2c136755186e10def95b87c4321bfc0a0b2dc",
+      "valoare": 405.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul Mastercard pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6430,
+      "rationament": "Mastercard, similar cu Visa, beneficiază de creșterea economiei digitale, dar a corectat recent din cauza evaluărilor ridicate. Catalizatorii includ parteneriatele strategice și extinderea serviciilor B2B. Riscurile sunt similare cu Visa. Prețul predicției este peste ultima închidere, reflectând optimismul moderat.",
+      "sha256": "7e14431725c01657cf1657d6fad95d9d018d0aaacd3230cdf866b77e90253b0b",
+      "valoare": 615.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul Procter & Gamble pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6431,
+      "rationament": "Procter & Gamble a arătat stabilitate, susținută de brandurile puternice și de cererea constantă pentru bunuri de consum. Cu toate acestea, inflația costurilor și concurența din partea brandurilor private limitează creșterea. Prețul predicției este ușor peste ultima închidere, reflectând reziliența sectorului.",
+      "sha256": "b517c8f22f62f04a4bfa10d501c15b309f1b8ae196f1aaa85bdbd96d9968d42a",
+      "valoare": 160.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul Johnson & Johnson pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6432,
+      "rationament": "Johnson & Johnson a crescut recent, susținută de portofoliul diversificat (farma, dispozitive medicale, consum). Catalizatorii includ lansările de medicamente și cererea pentru produsele de sănătate. Riscurile includ litigii și presiunea asupra prețurilor. Prețul predicției este peste ultima închidere, reflectând momentum-ul pozitiv.",
+      "sha256": "a966e4b16dc776b4e6e7d98d57c37af717c9de3e977f07b0ade104f88ed5befe",
+      "valoare": 268.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul Home Depot (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6433,
+      "rationament": "Home Depot a corectat ușor, dar rămâne un beneficiar al investițiilor în locuințe și renovări. Creșterea ratelor dobânzilor ar putea încetini sectorul imobiliar, dar cererea pentru îmbunătățiri DIY rămâne robustă. Prețul predicției este peste ultima închidere, reflectând optimismul moderat.",
+      "sha256": "f9cfd4ece6f1c163046d670fab29d7fec87b0687a9431336cf6567c1a76b94c3",
+      "valoare": 320.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul Costco pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6434,
+      "rationament": "Costco a arătat o creștere constantă, susținută de modelul de membership și de cererea pentru produsele în vrac. Expansiunea internațională și loialitatea clienților sunt catalizatori cheie. Riscurile includ inflația și concurența retail. Prețul predicției este peste ultima închidere, reflectând încrederea în model.",
+      "sha256": "fad7019e915b243f8b162743bb162fb1680574b71b25e56d316c9c09db3de7b6",
+      "valoare": 1005.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6435,
+      "rationament": "Coca-Cola a fluctuant în jurul valorii de 92 USD, susținută de brandul global și de diversificarea portofoliului (băuturi sănătoase). Cu toate acestea, presiunea asupra prețurilor și schimbările în preferințele consumatorilor reprezintă riscuri. Prețul predicției este ușor peste ultima închidere, reflectând stabilitatea.",
+      "sha256": "22b447acb1461e4ab2801bfabc1e63a67d0ee59b0967aa2288ee9535062109a6",
+      "valoare": 93.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul PepsiCo pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6436,
+      "rationament": "PepsiCo a arătat o creștere modestă, susținută de diversificarea în snacks și băuturi. Catalizatorii includ inovarea în produse și expansiunea în piețe emergente. Riscurile sunt similare cu Coca-Cola. Prețul predicției este peste ultima închidere, reflectând optimismul moderat.",
+      "sha256": "92e7c962b9abad5db5ce1de6e0a8d6982ec739b2a7a241ea3de94169733ddd6b",
+      "valoare": 136.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul Oracle Corporation pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6437,
+      "rationament": "Oracle a corectat recent, dar rămâne un jucător cheie în software enterprise și cloud. Creșterea segmentului cloud este promițătoare, dar concurența (AWS, Microsoft) și tranzitia lentă spre cloud reprezintă riscuri. Prețul predicției este sub ultima închidere, reflectând prudența.",
+      "sha256": "b173a5ed448afbcee43fac19e24c96b321779a6eb54e661f2501ac667a60e2ba",
+      "valoare": 128.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 15:49:40",
+      "intrebare": "Preţul Netflix pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6438,
+      "rationament": "Netflix a suferit o corecție semnificativă din cauza concurenței intense (Disney+, HBO Max) și a creșterii lente a abonaților. Catalizatorii sunt limitați, iar riscurile includ anulările și costurile de conținut. Prețul predicției este sub ultima închidere, reflectând pesimismul.",
+      "sha256": "2be4cf2448cfe599695215fc5bcbd5822d677fcdeba4b1f8e067c35e19d8c958",
+      "valoare": 62.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul Apple Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6422,
+      "rationament": "Apple a înregistrat o ușoară scădere în ultimele două săptămâni, de la un maxim de 348 USD la 343.9 USD în ultima sesiune. Momentumul de vânzare este susținut de temeri legate de cererea de iPhone în sezonul de toamnă și de un raport recent de profit sub așteptări. În sectorul tehnologic, competiția intensă din partea Samsung și Google poate menține presiune pe marje. Riscurile includ posibile întreruperi în lanțul de aprovizionare și incertitudini macroeconomice. Prin urmare, anticipăm o ușoară corecție spre 342.5 USD.",
+      "sha256": "c6630cae4923d4f8a21c355e5ed1cc2f0e92a072a21808da53ab2cd6a6dd450c",
+      "valoare": 342.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul Microsoft pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6423,
+      "rationament": "Microsoft a revenit puternic după o scădere bruscă la 521 USD pe 22 octombrie, redresând la 532.7 USD în ultima zi. Creșterea adoptării Azure și a serviciilor cloud, împreună cu rapoartele pozitive privind vânzările de software enterprise, susțin un trend ascendent. Sectorul SaaS și cloud continuă să beneficieze de digitalizarea companiilor, oferind un fundal favorabil. Riscurile includ concurența din partea AWS și Google Cloud, dar diferențierea prin integrarea cu Windows și Office rămâne un avantaj. Estimăm o ușoară apreciere la 535 USD.",
+      "sha256": "544ded56fe1e1069f59a5643994db547d21d2d89abf437e811d1cd5d3b85b97a",
+      "valoare": 535.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul Nvidia pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6424,
+      "rationament": "Nvidia a înregistrat o revenire de la 212 USD la 218 USD în ultimele zile, impulsionată de cererea crescută pentru GPU-uri în AI și centre de date. Lansarea recentă a noilor modele H100 și a parteneriatelor cu mari furnizori de cloud susțin optimismul pieței. Sectorul semiconductor este volatil, dar trendul pe termen mediu rămâne bullish datorită necesității de calcul intens. Riscuri includ posibile restricții de export și fluctuații ale costurilor de producție. Previziunea noastră este de 222 USD, reflectând o continuare moderată a impulsului.",
+      "sha256": "214bc62640a3fdce65bab197208e98542b7a9115c341835b1d1dd8bde75e7a4a",
+      "valoare": 222.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul Amazon pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6425,
+      "rationament": "Amazon a pierdut din impulsul său de la 262 USD în săptămâna anterioară, coborând la 250.7 USD, în principal din cauza unei încetiniri a creșterii vânzărilor de retail și a costurilor logistice crescânde. În plus, presiunea asupra marjelor din segmentul AWS a început să se resimtă pe profitabilitate. Sectorul de comerț electronic se confruntă cu concurență intensă și cu schimbări în comportamentul consumatorilor post-pandemie. Riscuri majore includ posibile reglementări antitrust și creșterea costurilor de transport. Astfel, anticipăm o ușoară corecție la 249 USD.",
+      "sha256": "068ede03a89fda388a2aeb5cb0a588957cd5fea04d0d5cd51f126b750dc314b1",
+      "valoare": 249.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul Berkshire Hathaway pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6426,
+      "rationament": "Berkshire Hathaway a urcat la 548.6 USD pe 26 octombrie, susținută de performanța solidă a asigurărilor și a portofoliului său de investiții. Warren Buffett a confirmat recent că nu există planuri majore de vânzare a acțiunilor, menținând încrederea investitorilor. Sectorul financiar și al holdingurilor stabile este considerat un refugiu în perioade de incertitudine macroeconomică. Riscuri includ posibile pierderi în portofoliul de acțiuni din sectorul energetic și volatilitatea pieței de capital. Estimăm o ușoară stabilizare la 547 USD.",
+      "sha256": "ca99bb28479a6c248bb3cb7f0dd3fa7b1ec56d3454bd252bd09290470b68bed2",
+      "valoare": 547.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul Lilly (Eli) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6427,
+      "rationament": "Eli Lilly a înregistrat o ușoară scădere de la 1279 la 1277 USD, în contextul unor rapoarte de vânzări mai lente pentru unele medicamente noi. Totuși, pipeline-ul său robust, în special în imunologie și diabet, oferă perspective pozitive pe termen mediu. Sectorul farmaceutic beneficiază de cerere constantă și de protecție prin brevete. Riscuri includ reglementări stricte ale FDA și concurența intensă pentru terapii inovatoare. Previziunea noastră este de 1275 USD, reflectând o ușoară corecție.",
+      "sha256": "392efb5bbb4e24670ea9a9bf9e08bea92c4c7844f5d497063374d32844500533",
+      "valoare": 1275.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6428,
+      "rationament": "JPMorgan a rămas relativ stabil în jurul valorii de 335-336 USD, cu o ușoară creștere în ultima zi. Creșterea dobânzilor a susținut marjele de credit, iar banca a raportat venituri solide din trading și servicii de investiții. Sectorul bancar beneficiază de un mediu de rate în creștere, dar este expus la riscuri de credit și la volatilitatea pieței de capital. Riscuri suplimentare includ posibile reglementări mai stricte și incertitudini geopolitice. Estimăm un preț ușor peste nivelul actual, la 336 USD.",
+      "sha256": "410cfe2eb787773386f8ad43d87affb160395896f14232684caed85e33edd69e",
+      "valoare": 336.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul Visa Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6429,
+      "rationament": "Visa a scăzut de la un vârf de 414 USD la 403.3 USD, reflectând o încetinire a volumului de tranzacții în urma unei creșteri a ratei de dobândă și a reducerii cheltuielilor de consum. În sectorul plăți digitale, concurența cu fintech-urile și presiunea asupra comisioanelor pot menține presiune pe creștere. Totuși, adoptarea globală a plăților fără numerar rămâne un factor de susținere pe termen lung. Riscuri includ reglementări privind datele și posibile scăderi ale consumului în economiile emergente. Previziunea noastră este de 401 USD, indicând o ușoară corecție continuă.",
+      "sha256": "3aaca2b85a92f9e2457f6baeb6140961808d27cc05995887f0755ca94f5f2489",
+      "valoare": 401.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul Mastercard pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6430,
+      "rationament": "Mastercard a înregistrat o scădere de la 633 USD la 612.4 USD, în mare parte din cauza reducerii volumului de tranzacții și a presiunii asupra comisioanelor. Sectorul de plăți se confruntă cu concurență intensă din partea soluțiilor de tip blockchain și a noilor jucători fintech. Cu toate acestea, rețeaua globală a Mastercard și parteneriatele cu bănci mari îi conferă un avantaj competitiv. Riscuri majore includ reglementări stricte privind securitatea datelor și posibile penalizări pentru practici anti-competitive. Estimăm un preț de 608 USD, reflectând o tendință de scădere moderată.",
+      "sha256": "857f3606eb7dfc14c21d8b9ea407e5c4686842c79ef1f28eff07ec05215f5136",
+      "valoare": 608.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul Procter & Gamble pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6431,
+      "rationament": "Procter & Gamble a atins un maxim de 165.6 USD pe 22 octombrie, apoi a coborât la 159 USD, indicând o corecție după raportarea unor costuri de materii prime mai mari. În sectorul bunurilor de larg consum, cererea rămâne robustă, dar marjele sunt presate de inflație. Brandurile sale puternice și portofoliul diversificat oferă reziliență în fața fluctuațiilor economice. Riscuri includ creșterea costurilor de logistică și posibile schimbări în preferințele consumatorilor spre produse sustenabile. Previziunea noastră este de 158 USD, ușor sub nivelul actual.",
+      "sha256": "88d03f8cc1fe38d6098c6e3ca67aaaf117d96bb0d09b09a5a35deca2ffa99f3c",
+      "valoare": 158.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul Johnson & Johnson pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6432,
+      "rationament": "Johnson & Johnson a scăzut de la 267.6 USD la 265.6 USD, în contextul unor litigii în curs și a incertitudinilor legate de reglementările farmaceutice. Segmentul său de produse de sănătate și consum rămâne stabil, dar presiunea pe marjele de medicamente noi poate afecta creșterea. Sectorul de sănătate este considerat defensiv, dar vulnerabil la decizii de reglementare. Riscuri suplimentare includ posibile penalizări financiare și concurență intensă în biotehnologie. Estimăm un preț de 264 USD, ușor sub nivelul de astăzi.",
+      "sha256": "d5317173982da71b4f2ae7c275610e0adf53c16bb59e584c6c6ffefc530f00a4",
+      "valoare": 264.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul Home Depot (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6433,
+      "rationament": "Home Depot a atins un vârf de 327.7 USD pe 22 octombrie, apoi a coborât la 317.3 USD, reflectând o încetinire a cererii în sectorul de renovare a locuințelor. Creșterea ratelor ipotecare și costurile materialelor de construcție au redus apetitul pentru proiecte mari. Totuși, poziția sa de lider în bricolaj și rețeaua extinsă de magazine îi oferă un avantaj competitiv. Riscuri includ o posibilă recesiune în sectorul imobiliar și presiuni pe lanțul de aprovizionare. Previziunea noastră este de 315 USD, indicând o ușoară corecție.",
+      "sha256": "fedaf1e951e2e52b79130176b2fdad2961186ba5eef444b0c468fd1947d16d4f",
+      "valoare": 315.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul Costco pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6434,
+      "rationament": "Costco a scăzut de la un maxim de 1018 USD la 1001 USD, în urma unei perioade de creștere a prețurilor de aprovizionare și a unei cereri mai lente în Europa. Membrii săi loiali și modelul de afacere bazat pe volume mari susțin stabilitatea pe termen lung. Sectorul de retail cu membru exclusiv rămâne rezistent la fluctuațiile economice, dar depinde de puterea de cumpărare a consumatorilor. Riscuri includ posibile creșteri ale costurilor de transport și concurența din partea retailerilor online. Estimăm un preț de 998 USD, ușor sub nivelul actual.",
+      "sha256": "681a35e3f61ad7edef2d6d39b9076d5e1565d844b681088d58fcab43b7d5c312",
+      "valoare": 998.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6435,
+      "rationament": "Coca-Cola a scăzut de la 95.34 USD la 92.30 USD, reflectând o cerere slabă în piețele emergente și presiuni asupra prețurilor din cauza costurilor de materii prime. Brandul său iconic și portofoliul diversificat de băuturi non-alcoolice îi oferă un avantaj defensiv. În sectorul băuturilor, tendințele spre produse cu conținut scăzut de zahăr pot afecta vânzările tradiționale, dar noi linii de produse pot compensa. Riscuri includ reglementări privind zahărul și fluctuații ale prețurilor la zahăr și aluminiu. Previziunea noastră este de 92 USD, aproape de nivelul actual.",
+      "sha256": "61dedad8f4345b8c685349592a88e2a67223102df0609b68ce8ad4b0d88b7b46",
+      "valoare": 92.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul PepsiCo pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6436,
+      "rationament": "PepsiCo a scăzut de la un vârf de 138.8 USD la 134.5 USD, în principal din cauza costurilor crescânde ale materiilor prime și a unei cereri mai slabe în segmentul de snack-uri. Portofoliul său larg de băuturi și alimente îi permite să compenseze slăbiciunile din anumite categorii. Sectorul de consum non-alcoolic rămâne rezistent, dar este expus la presiuni de preț și la schimbări în preferințele consumatorilor spre opțiuni sănătoase. Riscuri includ reglementări privind etichetarea și potențiale scăderi ale consumului de băuturi carbogazoase. Estimăm un preț de 133 USD, ușor sub nivelul de astăzi.",
+      "sha256": "1b81a56772ec2de31dd1ebefc7c25ba11945656d560475b4b7fbf53f1e893b64",
+      "valoare": 133.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul Oracle Corporation pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6437,
+      "rationament": "Oracle a revenit la 129.24 USD după o scădere la 125.5 USD, susținută de rapoarte pozitive privind creșterea veniturilor din cloud și de noi contracte enterprise. Sectorul de software enterprise și cloud continuă să beneficieze de migrarea digitală a companiilor. Competiția cu Salesforce și Microsoft Azure rămâne intensă, dar Oracle își consolidează poziția în baze de date și soluții de infrastructură. Riscuri includ dependența de contracte mari și posibile întârzieri în implementarea noilor produse. Previziunea noastră este de 130 USD, indicând o ușoară apreciere.",
+      "sha256": "4bad82408ee43bfe5ea6558dc5078b688e5e8f138995762a7ba11c9dbf5929c4",
+      "valoare": 130.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 15:49:49",
+      "intrebare": "Preţul Netflix pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6438,
+      "rationament": "Netflix a continuat să scadă de la 70.57 USD la 63.62 USD, reflectând o pierdere de abonați în piețele mature și o concurență acerbă din partea platformelor de streaming noi. În ciuda investițiilor în conținut original, costurile de producție rămân ridicate și nu au generat încă creșteri semnificative ale veniturilor. Sectorul de divertisment digital este supus schimbărilor rapide în preferințele consumatorilor. Riscuri majore includ saturarea pieței, creșterea costurilor de conținut și posibile reglementări privind drepturile de autor. Estimăm un preț de 62.5 USD, o ușoară corecție suplimentară.",
+      "sha256": "1387bc4412f64c6d9853f676c14df89b2b3a06ac4c870b926cb997cf1bed30bc",
+      "valoare": 62.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul Apple Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6422,
+      "rationament": "Apple se menține stabil în jurul valorii de 343 USD, susținut de cererea constantă pentru ecosistemul său de dispozitive și servicii. Tendința recentă arată o consolidare sănătoasă după mici oscilații, fără catalizatori majori de volatilitate în perioada imediat următoare. Poziția sa dominantă în sectorul tehnologic oferă o rezistență puternică împotriva riscurilor macroeconomice. Un risc concret rămâne presiunea lanțului de aprovizionare și posibilele reglementări antitrust pe piețele internaționale.",
+      "sha256": "82e602964f18c25e91ff3c28c10f4f542803752984d85bb66ca3522e674e916a",
+      "valoare": 343.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul Microsoft pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6423,
+      "rationament": "Microsoft continuă să beneficieze de adoptarea accelerată a serviciilor cloud Azure și a soluțiilor bazate pe inteligență artificială. Acțiunea prezintă o evoluție laterală stabilă, reflectând încrederea investitorilor în fluxurile sale robuste de numerar. Poziția sa de lider în software-ul enterprise îi conferă un avantaj competitiv greu de egalat. Riscurile principale includ încetinirea cheltuielilor IT corporative și costurile ridicate asociate infrastructurii AI.",
+      "sha256": "ab0439d32f40deba012c493b5484f6cb2c68a9ba7edaffbfa38095f1de2a4139",
+      "valoare": 532.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul Nvidia pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6424,
+      "rationament": "Nvidia rămâne în centrul atenției datorită cererii uriașe pentru cipuri destinate centrelor de date și inteligenței artificiale. După o serie de corecții minore, prețul tinde să se stabilizeze ușor peste pragul de 218 USD. Poziția sa de monopol cvasitotal pe segmentul GPU high-end susține perspectivele optimiste pe termen scurt. Riscurile concrete sunt legate de constrângerile de producție și eventualele restricții geopolitice privind exportul de semiconductori.",
+      "sha256": "22240b7918890bbb1476b46b1c27685c15535ac1155f3e9669efaaa6b33b7572",
+      "valoare": 218.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul Amazon pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6425,
+      "rationament": "Amazon evoluează într-o zonă de echilibru, susținut de creșterea constantă a diviziei AWS și a segmentului de e-commerce. Tendința arată o revenire moderată după minimele recente înregistrate la mijlocul lunii octombrie. Poziția sa duală de lider în cloud și retail online îi oferă o diversificare excelentă a veniturilor. Riscurile majore includ o posibilă temperare a consumului populației și presiuni sindicale crescute asupra costurilor logistice.",
+      "sha256": "8b27fa6ad463c07c4ff82368ed0ad7a32a7ee0b9b8a7dd03807551a1ca7c0a50",
+      "valoare": 251.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul Berkshire Hathaway pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6426,
+      "rationament": "Berkshire Hathaway reflectă reziliența specifică unui conglomerat masiv, cu o tendință generală ușor ascendentă spre 547 USD. Portofoliul său diversificat de afaceri și rezervele uriașe de numerar atrag investitorii în perioade de incertitudine. Poziția defensivă oferă o siguranță ridicată în fața fluctuațiilor pieței generale. Riscurile concrete țin de performanța generală a economiei americane și de succesiunea managerială pe termen lung.",
+      "sha256": "1a092093542dfc41ffe0ad7357afa3ed8acdc5ce30702e26ec3819a67738b4fe",
+      "valoare": 547.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul Lilly (Eli) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6427,
+      "rationament": "Eli Lilly menține o traiectorie solidă, impulsionată de succesul imens al medicamentelor sale pentru obezitate și diabet. Acțiunea se tranzacționează aproape de maxime recente, reflectând așteptări ridicate privind creșterea veniturilor. Poziția sa de pionierat în sectorul farmaceutic inovator îi garantează marje de profit excelente. Riscurile concrete includ probleme neprevăzute în lanțul de aprovizionare farmaceutic și concurența acerbă pe piața tratamentelor GLP-1.",
+      "sha256": "61f76bde48a4f6ae2b3cd04e843c2462605557abe75e959e35054a6b47016a90",
+      "valoare": 1280.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6428,
+      "rationament": "JPMorgan Chase afișează o stabilitate remarcabilă, tranzacționându-se aproape de pragul de 336 USD. Tendința indică un echilibru între veniturile solide din dobânzi și activitatea de investment banking. Poziția sa de cea mai mare bancă americană îi conferă un statut de refugiu sigur în sectorul financiar. Riscurile majore sunt legate de volatilitatea ratelor dobânzilor și de potențiale creșteri ale creditelor neperformante.",
+      "sha256": "7f99da32180b90a57401e1338290897104518433c77195bf36f89066381436b4",
+      "valoare": 336.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul Visa Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6429,
+      "rationament": "Visa continuă să beneficieze de volumele globale ridicate de plăți electronice și de redresarea turismului internațional. Prețul acțiunii s-a stabilizat după un vârf atins anterior în luna octombrie. Poziția sa de oligopol în infrastructura de plăți asigură o profitabilitate extrem de ridicată și previzibilă. Riscurile concrete implică presiuni legislative asupra comisioanelor de schimb și concurența din partea metodelor de plată alternative.",
+      "sha256": "5b0b4f3af47f8379f48e897a66b9055ecf3b9bf656e5fd73cd9c140ab3ed3876",
+      "valoare": 404.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul Mastercard pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6430,
+      "rationament": "Mastercard urmează un model similar cu Visa, beneficiind de creșterea seculară a plăților fără numerar. Tendința recentă arată o consolidare în jurul valorii de 613 USD după corecțiile de la sfârșitul lunii. Poziția sa globală puternică îi permite să monetizeze eficient expansiunea digitală. Riscurile includ riscul cibernetic crescut și reglementările guvernamentale stricte privind taxele de tranzacție.",
+      "sha256": "7dd89654a073fb44333f13c98e2a3e708e4dd14c97e0ef9c4916b32958a975cc",
+      "valoare": 613.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul Procter & Gamble pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6431,
+      "rationament": "Procter & Gamble rămâne o acțiune defensivă clasică, menținându-se stabilă în jurul nivelului de 159 USD. Compania beneficiază de puterea sa de pricing, reușind să transfere inflația către consumatori fără a pierde din cote de piață. Poziția de lider în bunuri de larg consum garantează fluxuri de numerar stabile și dividende sigure. Riscurile concrete constau în schimbarea preferințelor consumatorilor spre branduri mai ieftine și fluctuațiile valutare.",
+      "sha256": "06c59811d80e8a7f7bdd007cbfd5dbca658f184a22c81e1e1595eaca25aa69f7",
+      "valoare": 159.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul Johnson & Johnson pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6432,
+      "rationament": "Johnson & Johnson afișează o dinamică pozitivă moderată, tranzacționându-se stabil în zona de 265.50 USD. Divizia sa farmaceutică și de dispozitive medicale oferă o diversificare excelentă împotriva recesiunii. Poziția sa financiară solidă atrage investitorii orientati spre valoare și stabilitate pe termen lung. Riscurile majore rămân litigiile legale persistente legate de produsele sale istorice și expirarea unor brevete importante.",
+      "sha256": "91df96161f8a5e4f4e2d7590d9e77035c3894ab2fd1baadabb9cd9a48e1f0b2a",
+      "valoare": 265.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul Home Depot (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6433,
+      "rationament": "Home Depot se stabilizează în jurul valorii de 317 USD după oscilațiile din luna octombrie. Tendința este influențată de perspectivele pieței imobiliare și de cheltuielile pentru renovările locuințelor. Poziția sa dominantă în sectorul de bricolaj îi asigură o bază loială de clienți profesioniști și amatori. Riscurile concrete includ ratele ridicate ale ipotecilor care ar putea descuraja investițiile majore în locuințe.",
+      "sha256": "5e5497b7763a7f0c8bf5591c03c1a288bf5842b923975f90ae00e1b512358b03",
+      "valoare": 317.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul Costco pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6434,
+      "rationament": "Costco continuă să înregistreze o performanță excelentă, menținându-se ferm deasupra pragului psihologic de 1000 USD. Modelul său bazat pe abonamente generează venituri recurente extrem de previzibile și o loialitate ridicată a clienților. Poziția sa unică în retailul en-gros îi oferă un avantaj competitiv greu de replicat. Riscurile principale includ saturația pieței interne și presiunile pe marjele cauzate de costurile de operare.",
+      "sha256": "541c1a071c5dced85e22d8a7c1bffa400395c24013719ea5d1c29ced49c46f63",
+      "valoare": 1001.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6435,
+      "rationament": "Coca-Cola se tranzacționează stabil în jurul valorii de 92.30 USD, beneficiind de profilul său defensiv clasic. Portofoliul global de branduri și rețeaua masivă de distribuție oferă o protecție excelentă în perioade de incertitudine. Poziția sa de lider incontestabil pe piața băuturilor răcoritoare garantează câștiguri constante. Riscurile concrete includ tendințele globale de sănătate publică nefavorabile băuturilor cu conținut ridicat de zahăr.",
+      "sha256": "e5095c15847a2c537be15ed39835c96abf513d198efab7e1320c662cdb1c1856",
+      "valoare": 92.3
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul PepsiCo pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6436,
+      "rationament": "PepsiCo menține o evoluție stabilă în zona de 134.50 USD, susținută de portofoliul său diversificat de băuturi și gustări. Tendința reflectă o consolidare sănătoasă după creșterile recente din octombrie. Poziția sa puternică pe segmentul de snacks-uri oferă un motor suplimentar de creștere față de concurența directă. Riscurile includ creșterea costurilor materiilor prime agricole și presiunile de reglementare privind calitatea alimentelor.",
+      "sha256": "bca4582f26e00e20c20ce9aba2db1bffdf8559d6d910ba8a55710f30e70410a9",
+      "valoare": 134.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul Oracle Corporation pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6437,
+      "rationament": "Oracle se stabilizează în jurul valorii de 129 USD, beneficiind de cererea tot mai mare pentru serviciile sale cloud enterprise. Tendința arată o recuperare constantă după corecțiile anterioare din sectorul tehnologic. Poziția sa consolidată în bazele de date corporative îi oferă o bază solidă pentru expansiunea AI. Riscurile majore țin de concurența acerbă din partea altor giganți cloud și de nivelul ridicat al datoriei corporative.",
+      "sha256": "989701cf017eae1d4e47a57f6888bfd25f510d5eb6b6abe4bbee216e552dd8cd",
+      "valoare": 129.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 15:50:02",
+      "intrebare": "Preţul Netflix pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6438,
+      "rationament": "Netflix traversează o perioadă de ajustare a prețului, stabilizându-se în jurul valorii de 63.50 USD. Tendința recentă reflectă o anumită prudență din partea investitorilor pe fondul saturației pieței de streaming. Poziția sa de lider global în entertainment digital rămâne totuși un pilon solid pe termen lung. Riscurile concrete includ creșterea costurilor de producție a conținutului original și concurența acerbă pentru timpul liber al utilizatorilor.",
+      "sha256": "df2a7722c6b058e9a6820b2d766a21516b9b6f997755129637ffa0b5a9d23950",
+      "valoare": 63.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul Apple Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6422,
+      "rationament": "Prețul a oscilat într-un interval îngust (339–348 USD) în ultimele două săptămâni, fără o tendință clară. Apple raportează de obicei rezultatele trimestrului fiscal 4 la sfârșitul lui octombrie, iar raportul poate mișca acțiunea cu ±3–5%. Rezultatele și ghidajul de sezon pentru vânzările de iPhone de sărbători sunt principalul risc în ambele direcții. Nu am informații despre rezultat, așa că păstrez estimarea foarte aproape de prețul actual, cu o ușoară înclinare pozitivă dată de revenirea din 20 octombrie.",
+      "sha256": "a9b56dc444c0b21cb09d0dc7f6d8869c52877588484f134f6be56f1bec438bbb",
+      "valoare": 344.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul Microsoft pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6423,
+      "rationament": "Acțiunea a revenit rapid de la minimul de 521 USD din 22 octombrie la 532,7 USD, deci fluctuațiile recente nu au format o tendință. Microsoft raportează de regulă rezultatele trimestrului fiscal 1 la sfârșitul lui octombrie. Creșterea Azure și cheltuielile de capital pentru centre de date AI sunt variabilele care contează pentru piață. Riscul este asimetric doar prin volatilitatea raportului, nu prin direcție cunoscută, așa că estimez practic prețul de azi.",
+      "sha256": "b6099320e93b3d1b76bffe887dd9281927841004a0bc190c97ff5686f5663afa",
+      "valoare": 533.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul Nvidia pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6424,
+      "rationament": "Nvidia a avut cea mai mare volatilitate zilnică din grupul tehnologic (de la 211 la 222 USD), dar s-a întors în mijlocul intervalului. Rezultatele proprii vin de obicei abia la sfârșitul lui noiembrie. În săptămâna următoare acțiunea va fi mișcată mai ales de comentariile hyperscalerilor (Microsoft, Amazon, Alphabet, Meta) despre capex AI. Riscurile concrete sunt restricțiile de export și orice semnal de încetinire a investițiilor în AI. Cu atâta zgomot, prețul actual e cea mai bună ancoră.",
+      "sha256": "f0100330dd5fb4e855a3d91bc72b76aa0159398c6a75950a82932fb0e153290e",
+      "valoare": 217.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul Amazon pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6425,
+      "rationament": "Amazon a sărit la ~262 USD și apoi a pierdut tot câștigul pe 22 octombrie, iar acum se stabilizează în jurul a 250 USD. Raportul trimestrial, de obicei la sfârșitul lui octombrie, va depinde de creșterea AWS și de marjele din retail și publicitate. Reacțiile Amazon la rezultate sunt istoric ample (±5–10%), deci incertitudinea e mare. Aplic doar o mică revenire față de scăderea recentă.",
+      "sha256": "7cb44589fc827610e32a578e52e25f7adccc507bc9d369067648faa87e29a384",
+      "valoare": 251.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul Berkshire Hathaway pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6426,
+      "rationament": "Berkshire are o tendință ascendentă constantă, de la 526 la 546 USD în două săptămâni, cu volatilitate redusă, tipică pentru un conglomerat defensiv. Rezultatele trimestriale apar de obicei la început de noiembrie, într-un weekend. Atenția se va îndrepta spre profitul operațional din asigurări, poziția de numerar și eventualele răscumpărări. Prelungesc doar marginal tendința, pentru că profilul de risc scăzut face mișcările mari puțin probabile.",
+      "sha256": "480c427dfacf1d1a70c3a30e27d0d85e0c9822a9bb27957a8a0ac4e499d52147",
+      "valoare": 547.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul Lilly (Eli) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6427,
+      "rationament": "Lilly a urcat puternic, de la 1209 la ~1277 USD, susținută de narațiunea medicamentelor GLP-1 (tirzepatidă și orforglipron oral). Compania raportează de obicei rezultatele Q3 la sfârșitul lui octombrie sau începutul lui noiembrie. Vânzările Mounjaro/Zepbound și ghidajul anual pot muta acțiunea cu peste 5%. Riscurile sunt presiunea pe prețuri din SUA și concurența Novo Nordisk, așa că rămân foarte aproape de nivelul actual.",
+      "sha256": "b15b0c221b8a716cf4900d9ab50dc12b4685414ca520aa0c7313bf62d0ddb645",
+      "valoare": 1280.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6428,
+      "rationament": "JPMorgan se mișcă lateral între 331 și 340 USD, după ce rezultatele de la mijlocul lui octombrie au fost deja integrate în preț. Fără catalizator propriu în săptămâna următoare, acțiunea va urma mai ales randamentele obligațiunilor și așteptările privind dobânzile Fed. Riscurile sunt calitatea creditului de consum și eventuale surprize macro. Estimarea este practic prețul de azi.",
+      "sha256": "261641521e7cb1b4164eb84c7f92d7ea90cf51ebb84379bcdfe70446468ac86b",
+      "valoare": 336.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul Visa Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6429,
+      "rationament": "Visa a urcat de la 391 la 414 USD și apoi s-a retras la 403, consolidând câștigurile. Raportul trimestrului fiscal 4 vine de regulă la sfârșitul lui octombrie, cu accent pe volumele de plăți și tranzacțiile transfrontaliere. Riscurile concrete sunt litigiile privind comisioanele de interchange și reglementarea. Mă aștept la o mișcare mică, ușor pozitivă, după retragerea din ultimele zile.",
+      "sha256": "4316cde7974a55267249f2f4da0e91388ec4192154ec16a41176f919c40cbd9c",
+      "valoare": 404.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul Mastercard pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6430,
+      "rationament": "Mastercard urmează îndeaproape profilul Visa: a urcat la 633 USD și s-a retras la 612. Rezultatele trimestriale sunt de obicei programate la sfârșitul lui octombrie, iar volumele transfrontaliere și cheltuielile de consum vor dicta reacția. Sensibilitatea la aceleași riscuri de reglementare ca Visa limitează ideea de divergență între cele două. Estimez o stabilizare aproape de prețul actual.",
+      "sha256": "d8ce263e08ffb74cf9656bd0d1eadda6b7a368063d80dc21497d55cb84fc3b5a",
+      "valoare": 614.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul Procter & Gamble pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6431,
+      "rationament": "P&G a avut un salt izolat la 165,6 USD pe 22 octombrie, care s-a stins în zilele următoare, prețul revenind spre 159. Rezultatele trimestriale au fost raportate de obicei la jumătatea/sfârșitul lui octombrie, deci catalizatorul principal a trecut. Ca acțiune defensivă de bunuri de consum, se mișcă mai ales în funcție de rotația sectorială și de randamentele obligațiunilor. Rămân la prețul de azi.",
+      "sha256": "bc59800bd59392c728af31ab7ea1041be1d1ff19a920dc98f763500f7b3d0227",
+      "valoare": 159.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul Johnson & Johnson pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6432,
+      "rationament": "J&J are o tendință ascendentă clară, de la 254 la ~266 USD, după rezultatele de la mijlocul lui octombrie. Fără catalizator major programat în săptămâna următoare, impulsul ar putea continua, dar tendințele pe termen scurt nu sunt de încredere. Riscurile concrete sunt litigiile legate de talc și presiunea pe prețurile medicamentelor. Estimarea este plată.",
+      "sha256": "a49358eb8bd3bd34865502dba37c22e609f19b5ac6219cd0946088daee11df3e",
+      "valoare": 265.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul Home Depot (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6433,
+      "rationament": "Home Depot a avut un raliu puternic, de la 296 la 328 USD, susținut probabil de așteptările privind scăderea dobânzilor și revenirea pieței imobiliare. Acum se retrage ușor, la 317. Rezultatele trimestriale vin de regulă la mijlocul lui noiembrie, deci în afara orizontului. Acțiunea rămâne sensibilă la randamentele pe 10 ani și la datele din imobiliare, așa că păstrez prețul actual.",
+      "sha256": "9104b6c87ac1fcd13b26925cb976ad9199f2cf0e8287a3c64d91e22050dba3f3",
+      "valoare": 317.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul Costco pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6434,
+      "rationament": "Costco a urcat constant de la 978 la ~1000 USD, cu volatilitate moderată. Vânzările lunare din octombrie sunt de obicei publicate la începutul lui noiembrie și pot mișca acțiunea cu câteva procente. Evaluarea foarte ridicată (P/E mare) o face vulnerabilă la orice dezamăgire în vânzările comparabile. Mă aștept la stabilitate în jurul pragului psihologic de 1000 USD.",
+      "sha256": "0effff8157768754c16402eda33376b6023a88af2a48861c0c33d00d398043c1",
+      "valoare": 1002.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6435,
+      "rationament": "Coca-Cola a avut un salt scurt la 95,3 USD pe 22 octombrie, apoi a revenit în intervalul 92–93 USD. Rezultatele trimestriale sunt de obicei raportate în a doua jumătate a lui octombrie, deci catalizatorul a trecut probabil. Ca acțiune defensivă cu beta mic, mișcările săptămânale sunt de obicei sub 2%. Rămân la prețul actual.",
+      "sha256": "58fbcd6a3cdcf8aabd5973e06750b308d5f5f17322a661ddc48db4542bd57bba",
+      "valoare": 92.4
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul PepsiCo pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6436,
+      "rationament": "PepsiCo a urcat de la 128 la 139 USD și se retrage acum spre 134. Rezultatele trimestriale au fost raportate de obicei la începutul lui octombrie, așa că nu există catalizator propriu iminent. Restructurarea diviziei de snacks din America de Nord și presiunea investitorilor activiști rămân teme de fond. Prețul de azi e cea mai bună estimare.",
+      "sha256": "1cfc1648f5d8c8c93f292a4e0143927e97a3e74fa3a9be6bfe2f02c4e9d7b1ff",
+      "valoare": 134.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul Oracle Corporation pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6437,
+      "rationament": "Oracle se mișcă volatil între 125 și 134 USD, la un nivel mult sub vârfurile anterioare, ceea ce reflectă îndoieli privind finanțarea centrelor de date AI și îndatorarea. Rezultatele trimestriale vin de obicei în decembrie, deci în afara orizontului. Acțiunea va reacționa la comentariile hyperscalerilor despre cererea de capacitate AI. Estimez o mică retragere după saltul de 2,5% din ultima zi.",
+      "sha256": "1ea5bda6a3564567b96296c5ca986b2db8f112c1148b31bf187a7c643349d9db",
+      "valoare": 128.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 15:50:50",
+      "intrebare": "Preţul Netflix pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6438,
+      "rationament": "Netflix (după split, la ~64 USD) are o tendință descendentă clară, de la 72,6 la 63,6 USD, probabil după reacția la rezultatele trimestriale din octombrie. Momentumul negativ poate continua, dar acțiunea este deja suprasolicitată pe termen scurt și ar putea avea o revenire tehnică. Riscurile concrete sunt creșterea abonaților, monetizarea reclamelor și costurile de conținut. Estimez stabilizare aproape de nivelul actual.",
+      "sha256": "645b753a97e6fa9583088260864917504bd06d54e0ce4bd044abe471fd9664ab",
+      "valoare": 64.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul Apple Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6422,
+      "rationament": "Apple a consolidat în jurul nivelului de 343‑348 USD în ultimele două săptămâni, fără un catalyst clar de creștere. Lansarea anticipată a seriului iPhone 16 în începutul anului 2027 ar putea susține cererea, dar riscul de săturare a pieței de smartphone și presiunile pe marginile din China rămân semnificative. În plus, volatilitatea induită de rapoartele de venituri trimestriale așteptate în începutul noiembrie poate determina o mică corecție. De aceea, aștept o ușoare scădere spre 342 USD pe termen de o săptămână.",
+      "sha256": "9cd9f75e225db1afaa8502ab85f7b0f9dcb5c607939f2c23274ad586724eb185",
+      "valoare": 342.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul Microsoft pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6423,
+      "rationament": "Microsoft a arătat o tendință modestă de creștere, susținută de continuarea adoptării serviciilor cloud Azure și de lansarea noului pachet AI Copilot pentru Office 365. Rezultatele trimestriale recente au depășit așteptările, iar ghidul pentru anul fiscal 2027 a fost revizuit spre sus. Riscul principal provine de la eventualele reglementări privind concurența în sectorul cloud și de la fluctuațiile valutare care pot afecta veniturile internaționale. În aceste conditii, prezic un mic gain spre 534 USD.",
+      "sha256": "124826bc8e8ce25d99d33fadc9f316e951da98d2ce3f603ac722a7fc47135aae",
+      "valoare": 534.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul Nvidia pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6424,
+      "rationament": "Nvidia a beneficiat de o reîncărcare a cererii pentru GPU-uri de joc și de centruri de date, în special după anunțurile despre noi arhitecturi Blackwell pentru AI. Volumul de tranzacții a crescut în ultimele zile, indicând interesul investitorilor. Totuși, existența unei posibile scădere a cererii de chip-uri pentru minerit de criptomonedă și tensiunile comerciale SUA-China reprezintă riscuri notable. În medie, aștept o mică creștere spre 219 USD.",
+      "sha256": "b0a6ef580606279963349a632d7ba15d729daec0e91dea74841825ae949e201d",
+      "valoare": 219.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul Amazon pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6425,
+      "rationament": "Amazon a stabilizat pe lângă 250 USD după o serie de fluctuări determinate de rapoartele de vânzări de vacanțe sub așteptări și de presiuni pe costurile de logistică. Extinderea serviciilor de publicitate și creșterea continuă a abonamentelor Prime sunt factori pozitivi. Riscul principal provine de la creșterea costurilor de transport și de la concurența intensă de la Walmart și alte platforme de e‑commerce. Prin urmare, prezic o mică ameliorare spre 251,50 USD.",
+      "sha256": "82161a6212683fd2997b484b5f4e55e0d4ad892730df16faa47eeec81503f546",
+      "valoare": 251.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul Berkshire Hathaway pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6426,
+      "rationament": "Berkshire Hathaway a beneficiat de aprecierea portofoliului de investiții, în special de la posițiile în Apple și Bank of America, iar rezultatele trimestriale au arătat un profit operabil solid. Totuși, concentrarea pe investiții în sektori ciclici face ca actiunea să fie sensibilă la ralentizarea economică globală. Riscul de reducere a dividendelor în cazul unei recesiuni este de acord. În acest context, aștept o ușoare retragere spre 545 USD.",
+      "sha256": "153109fb8bc68ded046607b76b0fb07d42966df598f168f7f12831a8de485ffc",
+      "valoare": 545.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul Lilly (Eli) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6427,
+      "rationament": "Eli Lilly a continuat tendința ascendentă datorită performanței forte a medicamentului Mounjaro pentru diabet și obezitate, cu vânzări care depășesc prognozele. Aprobările regulatoare noi pentru indicări de insuficiență cardiacă ar putea extinde piața. Totuși, există riscul de concurență de la alte terapii GLP-1 și de presiuni privind prețurile medicamentelor în Statele Unite. În aceste condiții, prezic o mică creștere spre 1280 USD.",
+      "sha256": "f25b69f8f705805375319e139220179be4e24457260fde8c66cf49e871dc0fad",
+      "valoare": 1280.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6428,
+      "rationament": "JPMorgan a arătat o stabilitate în jurul 336 USD, susținută de venituri bune din tranzacții și de creștere a portofoliului de credite. Doba de dobânzi în continuare săridă susține marjile din împrumuturi, iar banca a beneficiat de volatilitatea pieței care a crescut volumul de tranzacții. Riscul principal provine de la eventuale deteriorări ale calității de credit în contextul unui eventual slowing economic. Prin urmare, aștept o mică creștere spre 337 USD.",
+      "sha256": "c3122ed6aedd82831c0d1c8a97a70541614bbcd6bf8905cee8c019779af785ca",
+      "valoare": 337.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul Visa Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6429,
+      "rationament": "Visa a experimentat o mică retragere de la maximele recente de peste 414 USD, în parte datorită preocupărilor privind volumul de tranzacții transfrontaliero în fața unei economii globale încetă. Totuși, rețeaua de plăti rămâne dominantă și iniciativile privind plățile în timp real și cripto ar putea susține creșterea viitoare. Riscul include presiunea reglementatoare privind taxele interchang și concurența de la noi platforme de plăți digitale. Așa că prezic o ușoare scădere spre 402 USD.",
+      "sha256": "5c519d2382c8fb5779610723f3c46b1d5375d69a3b78573d75039475108b8033",
+      "valoare": 402.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul Mastercard pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6430,
+      "rationament": "Mastercard a urmat o tendință similare cu Visa, cu o scădere de la maximele de peste 633 USD în urma unor rapoarte de volum de tranzacții mai slabe decât așteptat. Extinderea serviciilor de analiză de date și parteneriile cu fintech-uri sunt pozitive, dar creșterea poate fi inhibită de presiunile pe margini din concurența intensă și de schimbările în comportamentul consumatorilor post-pandemie. Există și riscul de fluctuații valutare care afectează veniturile internaționale. În aceste condiții, prezic o valoare de aproximativ 610 USD.",
+      "sha256": "c375ce13b9a696c6ae53d2a4986d82ca5ffe55af9aa6fb705270642ffab992f7",
+      "valoare": 610.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul Procter & Gamble pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6431,
+      "rationament": "Procter & Gamble a fluctuat lângă 159 USD, reflectând o cerere stabilă pentru produsele de îngrijire personală și de gospodărie, dar și presiuni pe costurile de materii prime și de transport. Inovațiile în segmentele de sănătate și igienă, precum și eforturile de reducere a ambalajelor plastice, ar putea susține marjile. Totuși, riscurile includ schimbările în preferințele consumatorilor către marchele private și presiunile inflacionistice care pot reduce volumul. Așadar, aștept o mică scădere spre 158,50 USD.",
+      "sha256": "af64e5baec020e61288a8dec395796634fc7517b6afd672c0ec8911913bedf72",
+      "valoare": 158.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul Johnson & Johnson pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6432,
+      "rationament": "Johnson & Johnson a demonstrat o rezistență de lângă 266 USD, susținută de diversificarea portofoliului pe farmaceutice, dispozitive medicale și sănătate al consumatorului. Lancarea unui nou tratament imunoterapic pentru cancer și creștere continuă a segmentului de dispozitive ortopedice sunt pozitive. Riscul provine de la litigiile legate de talc și de la eventualele presiuni privind prețurile medicamentelor. În acest cadru, prezic o menținere lângă 266 USD.",
+      "sha256": "79b42a2cea325851c456477a43b54d16ad083058ab7fc807549b5c026f578eba",
+      "valoare": 266.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul Home Depot (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6433,
+      "rationament": "Home Depot a scăzut de la maximele de peste 327 USD, reflectând un răcorbere a cererii de ameliorări ale locuinței în fața unei economii cu rate ipotecare ridicate. Totuși, sezonul de reparări de toamnă și iniciativele privind produsele eco‑friendly ar putea susține vânzarile. Riscul principal provine de la o eventuală reducere a cheltuielilor de consum pentru bunuri durabile și de la concurența de la Lowe’s și de la magazinul online. În aceste condiții, aștept o scădere spre 316 USD.",
+      "sha256": "7520d514ef211986e2438bc00b74b0dc26c91d0cda5d5db0f70c9dfd5802c8df",
+      "valoare": 316.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul Costco pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6434,
+      "rationament": "Costco a consolidat lângă 1000 USD după o serie de înregistrări record determinate de vânzări de bunuri de consum și de abonări. Membria rămâne puternă și vânzarile de produse de marca proprie continuă să crească. Totuși, există riscul de scădere a traficului în magazin dacă consumatorii se mută spre cumpărături online și presiunile pe margini din creșterea salariilor și a costurilor de transport. În aceste circumstanțe, prezic o ușoare scădere spre 1000 USD.",
+      "sha256": "2e6899926ca600f28cb9be6de19a75ca888fbd778197921bfb24a0a67f7a073b",
+      "valoare": 1000.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6435,
+      "rationament": "Coca‑Cola a fluctuat lângă 92‑93 USD, reflectând o cerere stabilă pentru băuturile gazuoase, dar și o trecere spre alternative mai sănătoase. Înnoirea portofoliului cu băuturi cu puțină zahăr și extinderea pe piețele emergente sunt pozitive, iar dividendele rămâne atractive. Totuși, riscurile includ declinul consumului de sucrate în Statele Unite și presiunile reglementatoare privind etichetarea și taxa zahărului. În aceste condiții, aștept o mică scădere spre 92,00 USD.",
+      "sha256": "1fdef6849e8d4db35a09a291999a53c1180e62aeab5ca1c8778ea14cdf586c69",
+      "valoare": 92.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul PepsiCo pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6436,
+      "rationament": "PepsiCo a demonstrat o tendință laterală lângă 134‑135 USD, susținută de creștere în segmentele de sănătate (băuturi fără zahăr, snack-uri) și de performanță solidă a divisiei de alimentație. Lansarea de noi gusturi și pachete de mici dimensiuni ar putea atrage consumatorii. Totuși, compania se confrunta cu presiunile privind consumul de zahăr și cu volatilitatea prețurilor materiei prime (zăhar, grau). Riscul include și schimbările în preferințe către băuturi funcționale. În aceste condiții, prezic o menținere lângă 134,00 USD.",
+      "sha256": "ba2052afa064860623324cb0633e481b1e9dd16de5a76154594ca1aea57aa959",
+      "valoare": 134.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul Oracle Corporation pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6437,
+      "rationament": "Oracle a arătat o volatilitate moderată, oscilând lângă 129 USD, în timp ce compania profite de tranziția spre infrastructura cloud și de contractele cu guvernele pentru soluții de bază de date. Cumpărarea unei firme de securitate cibernetică ar putea îmbunătăți ofertele. Totuși, există riscul de pierdere a pieței la fata concurrentei AWS și Azure și de ritm mai lent în adoptația cloud de către clientele tradiționale. În acest context, aștept o mică scădere spre 129,00 USD.",
+      "sha256": "19b9b0c1a6c0214f902bdec29cd12714ce5f8d3ccecde17b0dd059deb8056521",
+      "valoare": 129.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 15:51:30",
+      "intrebare": "Preţul Netflix pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6438,
+      "rationament": "Netflix a continuat tendința descendentă de lângă 63‑64 USD, reflectând preocupări privind creșterea abonatelor în piețele mature și creșterea costurilor de conținut. Lansarea de noi seriale și jocuri interactive ar putea stimula reținerea, dar concurența de la Disney+, HBO Max și platformele locale rămâne intensivă. Riscul principal provine de la posibile scăderi în prețul abonamentului pentru a menține creștera și de la fluctuațiile din rata de schimb care impactă veniturile internaționale. În aceste condiții, prezic o scădere spre 63,00 USD.",
+      "sha256": "4a2937fe38cc4adc0d20bf473672bfd0c8072678869ba5607e1d8ba8467680ba",
+      "valoare": 63.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul Apple Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6422,
+      "rationament": "Apple a atins recent un maxim de 348.22, dar a revenit la consolidare în jurul valorii de 343.89. Prezic o revenire la 342.00 ca urmare a profit-taking-ului de scurtă durată, fără noi catalizatori majori iminenți.",
+      "sha256": "0b9982de0df8d5f930421a719a4743d9a961d64200e80a84f1504e87990dbbc2",
+      "valoare": 342.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul Microsoft pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6423,
+      "rationament": "Microsoft a demonstrat o stabilitate remarcabilă în sectorul cloud și AI. Prezic o ușoară creștere la 535.00, alimentată de continuarea creșterii Azure și de adoptarea Windows 11.",
+      "sha256": "a1223253d695db428a89d7e58bb2fd0bd6c19d898d907f5449b55a79cd4ed6b6",
+      "valoare": 535.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul Amazon pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6425,
+      "rationament": "Amazon a atins recent un maxim de 52 de săptămâni în jurul valorii de 262, dar s-a retras la 250.67. Prezic o revenire la 255.00, deoarece investitorii se concentrează pe creșterea AWS și pe recuperarea volumelor de vânzări.",
+      "sha256": "863640bb48c064399dce12a8a4a6eb334db846c1f47f96aa7614f02d83614e34",
+      "valoare": 255.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul Berkshire Hathaway pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6426,
+      "rationament": "Berkshire Hathaway este un joc defensiv, iar acțiunea s-a mișcat într-un interval îngust. Prezic că va rămâne stabilă în jurul valorii de 545.00, reflectând stabilitatea asigurărilor și a energiei.",
+      "sha256": "5bb639ee173106acf5e053fb9a7371bce8d5928194f5915bfdda368832711a0d",
+      "valoare": 545.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul Lilly (Eli) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6427,
+      "rationament": "Eli Lilly a avut o volatilitate ridicată, atingând 1306.69 recent. Prezic o corecție la 1260.00, deoarece piața se ajustează la valoarea recentă a companiei.",
+      "sha256": "8fc149c92336bed49e035cc0d2c0cd7cb983581b0c74a6eed89145940e98781d",
+      "valoare": 1260.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6428,
+      "rationament": "JPMorgan a fost într-un interval îngust, influențat de așteptările ratelor dobânzii. Prezic o ușoară scădere la 335.00, așteptând semnale mai clare ale politicii Fed.",
+      "sha256": "e3e6192fe0f0691ec5aeee8e398575af7cdb3962cbdaaaee433319adabf38bac",
+      "valoare": 335.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul Visa Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6429,
+      "rationament": "Visa este un 'cash cow' cu un avantaj competitiv puternic. Prezic o ușoară creștere la 405.00, susținută de creșterea continuă a volumului de tranzacții.",
+      "sha256": "6c97f5f246b7a9b169b696d8303faf4bee63be91100490628bece95af73eceaf",
+      "valoare": 405.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul Mastercard pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6430,
+      "rationament": "Mastercard a arătat reziliență, tranzacționând aproape de maximul său. Prezic o consolidare la 610.00, deoarece piața digeră recentul raport de profit.",
+      "sha256": "b418a6ac9716ddb6b4c23859f48a21082de7cede255a4b4e40defd3c2d2527ec",
+      "valoare": 610.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul Procter & Gamble pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6431,
+      "rationament": "Procter & Gamble este un activ defensiv care menține valoarea bine. Prezic o ușoară creștere la 160.00, datorită puterii de preț și cererii stabile.",
+      "sha256": "2dd50b204a0910678e7298561134aff6cfed2d6c725fa15f7e1bfd9df00c4579",
+      "valoare": 160.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul Johnson & Johnson pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6432,
+      "rationament": "Johnson & Johnson este un stapân în portofelele de lungă durată. Prezic că va rămâne în jurul valorii de 266.00, reflectând stabilitatea în diviziile farmaceutice și de sănătate.",
+      "sha256": "5115a6f26c7618d0a2b438a15147382ef7ed953393fd23972dc251b7719ff416",
+      "valoare": 266.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul Home Depot (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6433,
+      "rationament": "Home Depot a fost volatil, atins recent 327. Prezic o retragere la 315.00, deoarece piața imobiliară indică semne de încălzire.",
+      "sha256": "e6a627e35f9cb2a74a26d3b157eaa735380bc525c52125c291b5b538271c9627",
+      "valoare": 315.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul Costco pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6434,
+      "rationament": "Costco a fost un performer puternic, atins recent 1018. Prezic o ușoară creștere la 1010.00, susținută de creșterea taxelor de membru și de disciplina de inventar.",
+      "sha256": "877b7386a92b61c3d6316667638adfbadb7864d43a3ede15c413d556d8e05ce5",
+      "valoare": 1010.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6435,
+      "rationament": "Coca-Cola este un aristocrat al dividendenelor cu creștere lentă. Prezic că va tranzacționa orizontal în jurul valorii de 92.50, așteptând strategii noi de prețuri.",
+      "sha256": "23f0991717c2eb0f6cfb5d11cc947f0124e3566601028572dd421078993790df",
+      "valoare": 92.5
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul PepsiCo pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6436,
+      "rationament": "PepsiCo a fost într-un interval. Prezic o scădere ușoară la 134.00, deoarece piața așteaptă rezultatul luptelor de marketing cu P&G.",
+      "sha256": "03e78abbe1e0285694bc2fdcad729bebd9652d30af0930bcbc37703b5f8cbaad",
+      "valoare": 134.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul Oracle Corporation pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6437,
+      "rationament": "Oracle se recuperează de la nivelele scăzute. Prezic o recuperare la 130.00, alimentată de cererea de infrastructură cloud și de parteneriatele potențiale AI.",
+      "sha256": "25e14af69962f408ae170655e95a0d33ecf2690aa48ce4b2152bc8859d6bc516",
+      "valoare": 130.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 15:52:28",
+      "intrebare": "Preţul Netflix pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6438,
+      "rationament": "Netflix a fost într-o tendință de scădere, coborând de la 72 la 63. Prezic că va continua să scadă la 60.00, întâmpinând o creștere a concurenței și oboseala reclamelor.",
+      "sha256": "d7a35236936d4f0d98606d7a9e5ee79d15501e01fe240361b72fc9b88db440e7",
+      "valoare": 60.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul Apple Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6422,
+      "rationament": "Acțiunea Apple se află într-o zonă de consolidare laterală, oscilând între 339 și 348 USD în ultimele zile, ceea ce sugerează o piață în așteptarea unor catalizatori macroeconomici sau de sector. Fără un anunț major de produs iminent, tendința de scurtă durată indică o ușoară stabilizare în jurul mediei mobile de 50 de zile. Riscul principal este volatilitatea din sectorul tehnologic, dar poziția defensivă a Apple în fața unui posibil avânt al ratelor dobânzilor susține o predicție ușor peste nivelul actual de închidere.",
+      "sha256": "5ea5236ffa7bc39b03f1a92952e58077ccc98456d01e1e58782d4aa00935305d",
+      "valoare": 345.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul Microsoft pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6423,
+      "rationament": "Microsoft a demonstrat o reziliență notabilă, revenind rapid de la scăderea de pe 22 octombrie la peste 532 USD, indicând cerere constantă pentru infrastructura sa cloud și soluțiile AI. Tendința de mediu rămâne ascendentă, iar volatilitatea relativ scăzută comparativ cu alte tehnologii sugerează o continuarea a progresului liniar. Predicția se bazează pe o extensie modestă a tendinței actuale, evitând o corecție bruscă în absența unor știri negative specifice.",
+      "sha256": "2a09e53a6246e0fc04d2429e9c9c4af9ac3aa6996770fd5b8c8301ed6637ceae",
+      "valoare": 535.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul Nvidia pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6424,
+      "rationament": "Nvidia prezintă o volatilitate ridicată, cu oscilații între 210 și 222 USD, reflectând incertitudinea pieței privind durabilitatea cererii pentru chipuri AI. Revenirea de la minimul de 210.96 USD sugerează un interes de cumpărare la niveluri mai joase, dar rezistența puternică în jurul a 220-222 USD limitează potențialul de creștere imediat. Predicția de 220 USD reprezintă un punct de echilibru între tendința de mediu și rezistența recentă, anticipând o stabilizare în această bandă.",
+      "sha256": "8df4a28af78e6a291dc92c07e39d309f13179abee6508a5a93a0b061226310f6",
+      "valoare": 220.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul Amazon pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6425,
+      "rationament": "Amazon a suferit o corecție semnificativă după un vârf de 262 USD, coborând sub 250 USD, ceea ce indică o presiune de vânzare pe termen scurt. Totuși, revenirea ușoară în ultimele două zile sugerează o stabilizare a sentimentului, iar sectorul e-commerce rămâne fundamental sănătos. Predicția de 252 USD reflectă o revenire parțială către media recentă, evitând o extrapolare a tendinței negative din mijlocul săptămânii.",
+      "sha256": "1087148f38263fa2cde1e538d38d0bf448969153431de08c6184c3bf5a0243bd",
+      "valoare": 252.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul Berkshire Hathaway pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6426,
+      "rationament": "Berkshire Hathaway continuă o tendință clară de creștere, atingând un nou maxim de 548.56 USD, ceea ce indică o cerere constantă pentru acțiuni defensive și de calitate. Poziția sa ca adăpost în fața volatilității pieței susține o continuarea a progresului liniar, chiar și în absența unor catalizatori specifice. Riscul principal este o corecție tehnică după o creștere rapidă, dar forța tendinței sugerează o menținere a nivelurilor ridicate.",
+      "sha256": "3b923b797e1b3b5786e6e0cd0d820f556f5e716afe2036031cb61a21d50f950a",
+      "valoare": 548.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul Lilly (Eli) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6427,
+      "rationament": "Eli Lilly se află într-o tendință ascendentă puternică, cu un vârf recent de 1306 USD, reflectând optimismul față de pipeline-ul său de medicamente pentru obezitate și diabet. Volatilitatea recentă, cu o scădere la 1273 USD, sugerează o consolidare normală după o creștere rapidă. Predicția de 1280 USD se bazează pe o revenire către media recentă, anticipând o stabilizare în jurul nivelurilor actuale în așteptarea următorului raport de profit.",
+      "sha256": "ef93268f023d38af568adcc83ae04f49d3d05924db15e94662f1d9e6766ba093",
+      "valoare": 1280.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6428,
+      "rationament": "JPMorgan Chase oscilează într-o bandă îngustă între 331 și 340 USD, indicând o piață în așteptarea unor clarificări privind politica monetară a Fed. Reziliența bancarilor mari în fața volatilității pieței susține o tendință de mediu stabilă, cu o ușoară presiune de creștere. Predicția de 337 USD reflectă o continuarea a tendinței actuale, evitând o extrapolare a scăderii de pe 23 octombrie.",
+      "sha256": "523bd02f5ab166a2177300da92a86df6047ebba13ac37d0d122a94d4a4b1e2a2",
+      "valoare": 337.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul Visa Inc. pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6429,
+      "rationament": "Visa a atins un vârf de 414 USD, urmat de o corecție ușoară, ceea ce indică o posibilă saturare a cumpărătorilor pe termen scurt. Totuși, fundamentalele solide ale companiei și cererea constantă pentru plăți digitale susțin o tendință de mediu ascendentă. Predicția de 405 USD se bazează pe o revenire parțială către media recentă, anticipând o stabilizare în jurul nivelurilor actuale.",
+      "sha256": "17efc6220a3600c4cf4d62825c5ede8c6d574b0955f2a5467fe99945ce00edaa",
+      "valoare": 405.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul Mastercard pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6430,
+      "rationament": "Mastercard a suferit o corecție semnificativă de la 633 USD la 612 USD, reflectând o presiune de vânzare pe termen scurt. Totuși, revenirea ușoară în ultimele zile sugerează o stabilizare a sentimentului, iar sectorul plăților rămâne defensiv. Predicția de 615 USD reflectă o revenire parțială către media recentă, evitând o extrapolare a tendinței negative din mijlocul săptămânii.",
+      "sha256": "dc29a2b6069f6df825223885b7130ad11a76bcf58aa141d649a0dd2bdf6b9607",
+      "valoare": 615.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul Procter & Gamble pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6431,
+      "rationament": "Procter & Gamble oscilează într-o bandă îngustă între 156 și 165 USD, indicând o piață în așteptarea unor catalizatori macroeconomici. Reziliența companiei în fața volatilității pieței susține o tendință de mediu stabilă, cu o ușoară presiune de creștere. Predicția de 160 USD reflectă o continuarea a tendinței actuale, evitând o extrapolare a scăderii de pe 23 octombrie.",
+      "sha256": "8bd5538cc819b1bc3111f5cbd6abbd7eb2fc3a52223c8b10107a81279a089390",
+      "valoare": 160.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul Johnson & Johnson pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6432,
+      "rationament": "Johnson & Johnson se află într-o tendință ascendentă, cu un vârf recent de 267 USD, reflectând optimismul față de pipeline-ul său de medicamente. Volatilitatea recentă, cu o scădere la 263 USD, sugerează o consolidare normală după o creștere rapidă. Predicția de 266 USD se bazează pe o revenire către media recentă, anticipând o stabilizare în jurul nivelurilor actuale.",
+      "sha256": "628bb29ba43d4e9bf2dd5f7e21aa2097caaf37250f7c80e18c2f7d7deefde1b1",
+      "valoare": 266.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul Home Depot (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6433,
+      "rationament": "Home Depot a atins un vârf de 327 USD, urmat de o corecție ușoară, ceea ce indică o posibilă saturare a cumpărătorilor pe termen scurt. Totuși, fundamentalele solide ale companiei și cererea constantă pentru îmbunătățiri ale casei susțin o tendință de mediu ascendentă. Predicția de 320 USD se bazează pe o revenire parțială către media recentă, anticipând o stabilizare în jurul nivelurilor actuale.",
+      "sha256": "5c65635eb742093a9afeb907beec05ffbbd6c38d17d0f51a3e4728690dc7ac28",
+      "valoare": 320.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul Costco pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6434,
+      "rationament": "Costco se află într-o tendință ascendentă, cu un vârf recent de 1018 USD, reflectând optimismul față de modelul său de abonament. Volatilitatea recentă, cu o scădere la 1001 USD, sugerează o consolidare normală după o creștere rapidă. Predicția de 1005 USD se bazează pe o revenire către media recentă, anticipând o stabilizare în jurul nivelurilor actuale.",
+      "sha256": "c6447d91672968800a5bf62e8799d3cf9f64fb0dcb58fddee0f84d44faee4fa9",
+      "valoare": 1005.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6435,
+      "rationament": "Coca-Cola oscilează într-o bandă îngustă între 91 și 95 USD, indicând o piață în așteptarea unor catalizatori macroeconomici. Reziliența companiei în fața volatilității pieței susține o tendință de mediu stabilă, cu o ușoară presiune de creștere. Predicția de 92.50 USD reflectă o continuarea a tendinței actuale, evitând o extrapolare a scăderii de pe 23 octombrie.",
+      "sha256": "4815304f451011ec65e3ed0e60354a92ca8b17ca0458f7e92717a094eccdeb21",
+      "valoare": 92.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul PepsiCo pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6436,
+      "rationament": "PepsiCo a atins un vârf de 138 USD, urmat de o corecție ușoară, ceea ce indică o posibilă saturare a cumpărătorilor pe termen scurt. Totuși, fundamentalele solide ale companiei și cererea constantă pentru produse de consum susțin o tendință de mediu ascendentă. Predicția de 135 USD se bazează pe o revenire parțială către media recentă, anticipând o stabilizare în jurul nivelurilor actuale.",
+      "sha256": "dd05b9c9a1e4995d869b633b83e073fb863aca694d0c95e91888b2c68c46d7fa",
+      "valoare": 135.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul Oracle Corporation pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6437,
+      "rationament": "Oracle oscilează într-o bandă îngustă între 125 și 134 USD, indicând o piață în așteptarea unor catalizatori specifice. Reziliența companiei în fața volatilității pieței susține o tendință de mediu stabilă, cu o ușoară presiune de creștere. Predicția de 130 USD reflectă o continuarea a tendinței actuale, evitând o extrapolare a scăderii de pe 22 octombrie.",
+      "sha256": "ae15dcdc79b5cb821c97fa5bd112d11d688eca730ff3346c79f6a4511a33793d",
+      "valoare": 130.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 15:52:35",
+      "intrebare": "Preţul Netflix pe 2026-11-03 (1 săptămână)",
+      "intrebare_id": 6438,
+      "rationament": "Netflix se află într-o tendință descendentă, cu o scădere constantă de la 72 USD la 63 USD, reflectând incertitudinea pieței privind creșterea abonaților. Volatilitatea recentă sugerează o presiune de vânzare pe termen scurt, iar lipsa unor catalizatori pozitivi iminenți susține o continuarea a tendinței negative. Predicția de 64 USD se bazează pe o stabilizare ușoară după o scădere rapidă, anticipând o revenire parțială către media recentă.",
+      "sha256": "bda2b670829b5838bd96e7c451fb3c1377cd5ba4bd5f78ac3381224ed514c5c7",
+      "valoare": 64.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 16:45:36",
+      "intrebare": "Preţul Bitcoin pe 2026-10-28",
+      "intrebare_id": 6439,
+      "rationament": "prețul de azi, conform reperului",
+      "sha256": "3e75c3736fa3845b9c2e50fe7cec5d89a96e9ec19de729d645f7588df8126755",
+      "valoare": 80266.23
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 16:45:36",
+      "intrebare": "Preţul Ethereum pe 2026-10-28",
+      "intrebare_id": 6440,
+      "rationament": "prețul de azi, conform reperului",
+      "sha256": "41b88f5c20ccf6aabd49feae4ce494bbec9075f11669e0d8548fc9944e5e2d18",
+      "valoare": 2327.89
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 16:45:36",
+      "intrebare": "Preţul Solana pe 2026-10-28",
+      "intrebare_id": 6441,
+      "rationament": "prețul de azi, conform reperului",
+      "sha256": "0270b91ebd48510225e7a617b6500d563f46f5ee052b69516e24d1f0b30c59a5",
+      "valoare": 100.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 16:45:36",
+      "intrebare": "Preţul XRP pe 2026-10-28",
+      "intrebare_id": 6442,
+      "rationament": "prețul de azi, conform reperului",
+      "sha256": "8543a3825404f07d1c150e277e7292668d142465e2caff0e7f0e5d04de6d70aa",
+      "valoare": 1.32
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 16:45:36",
+      "intrebare": "Preţul Cardano pe 2026-10-28",
+      "intrebare_id": 6443,
+      "rationament": "prețul de azi, conform reperului",
+      "sha256": "e57a9385ae37467f9b9670061c73ae497540d9739597beb116b26a29f6ffe82d",
+      "valoare": 0.2
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 16:45:36",
+      "intrebare": "Preţul Dogecoin pe 2026-10-28",
+      "intrebare_id": 6444,
+      "rationament": "prețul de azi, conform reperului",
+      "sha256": "b340d4dcc4c76f1f30f3d270dd660c18ce5c0f900c2350ea50b0e6245b165df8",
+      "valoare": 0.08
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 16:45:36",
+      "intrebare": "Preţul BNB pe 2026-10-28",
+      "intrebare_id": 6445,
+      "rationament": "prețul de azi, conform reperului",
+      "sha256": "6e130e2094a3d89cff5f27d052a15dd4f15e7be51453fff6f2402b1aa843cd44",
+      "valoare": 743.68
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 16:45:40",
+      "intrebare": "Preţul Bitcoin pe 2026-10-28",
+      "intrebare_id": 6439,
+      "rationament": "Ușoară corecție după scăderea recentă, menținând trendul descendent.",
+      "sha256": "0158495b80176c498727b6ffc52b0a3600adfb1194efb299761f865e962a6cc6",
+      "valoare": 80000.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 16:45:40",
+      "intrebare": "Preţul Ethereum pe 2026-10-28",
+      "intrebare_id": 6440,
+      "rationament": "Continuă ușor în jos, presiune de vânzare pe termen scurt.",
+      "sha256": "df98519c08f39ef422d629614043ddca68d4c4b6d5d840b249479ac393e32e93",
+      "valoare": 2320.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 16:45:40",
+      "intrebare": "Preţul Solana pe 2026-10-28",
+      "intrebare_id": 6441,
+      "rationament": "Scădere modestă, susținută de trendul descendent al ultimei săptămâni.",
+      "sha256": "149a1926d7193cbc8d32cd104532b758205bac607aca19bc33f67ffe31827197",
+      "valoare": 100.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 16:45:40",
+      "intrebare": "Preţul XRP pe 2026-10-28",
+      "intrebare_id": 6442,
+      "rationament": "Ușoară creștere, susținută de recuperarea recentă.",
+      "sha256": "1174a5c70d35c9fc6cb089390ccad8e975c087544641cfada107f2203e80a65d",
+      "valoare": 1.33
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 16:45:40",
+      "intrebare": "Preţul Cardano pe 2026-10-28",
+      "intrebare_id": 6443,
+      "rationament": "Stabil, fără semnale clare de mișcare.",
+      "sha256": "9a97c998dcd0a541b17e7eea0ae6fe35f23f0024a3ba44a1b1b362736f0231e8",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 16:45:40",
+      "intrebare": "Preţul Dogecoin pe 2026-10-28",
+      "intrebare_id": 6444,
+      "rationament": "Lipsă volatilitate semnificativă, prețul rămâne constant.",
+      "sha256": "e3a46267f8875db30031e7cc338178925de5c692a40de3577fd8b8efd419f90e",
+      "valoare": 0.08
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 16:45:40",
+      "intrebare": "Preţul BNB pe 2026-10-28",
+      "intrebare_id": 6445,
+      "rationament": "Ușoară creștere, urmează tendința ascendentă recentă.",
+      "sha256": "eedd28f89e21ae727abfb230698da84fbe9d70051e27afb1feab14266efd8bdc",
+      "valoare": 744.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 16:45:42",
+      "intrebare": "Preţul Bitcoin pe 2026-10-28",
+      "intrebare_id": 6439,
+      "rationament": "Prețul s-a stabilizat în jurul valorii de 80.200 USD după scăderile recente.",
+      "sha256": "95bba18df2064c783083ce1343d68d5eeb0818b4857a7f6a81f32c4d3c71a364",
+      "valoare": 80300.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 16:45:42",
+      "intrebare": "Preţul Ethereum pe 2026-10-28",
+      "intrebare_id": 6440,
+      "rationament": "Se observă o ușoară consolidare la pragul de 2.325 USD.",
+      "sha256": "ffceb69fb2856af56270670fa23e3e99ea9f51b8d7b98cb7e30e884d2ba71625",
+      "valoare": 2330.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 16:45:42",
+      "intrebare": "Preţul Solana pe 2026-10-28",
+      "intrebare_id": 6441,
+      "rationament": "Continuă o mică tendință descendentă, apropiindu-se de suportul psihologic.",
+      "sha256": "bc94e2095282a25bc9ef838a928a2be6690868fb0b7f0b21facd00adb80fc0a8",
+      "valoare": 100.2
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 16:45:42",
+      "intrebare": "Preţul XRP pe 2026-10-28",
+      "intrebare_id": 6442,
+      "rationament": "Menține o evoluție laterală stabilă în ultimele zile.",
+      "sha256": "1c04e7886afd1a891c6b470163c29f4907a8be5094fd57e3fa1fad09fee24013",
+      "valoare": 1.32
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 16:45:42",
+      "intrebare": "Preţul Cardano pe 2026-10-28",
+      "intrebare_id": 6443,
+      "rationament": "Volatilitate redusă, prețul rămâne blocat la minime recente.",
+      "sha256": "b51311ac7287f28e485ee5524812deaf616b6fb8779eebab3a51cc10587c9681",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 16:45:42",
+      "intrebare": "Preţul Dogecoin pe 2026-10-28",
+      "intrebare_id": 6444,
+      "rationament": "Lipsa de impuls menține prețul constant la nivelul actual.",
+      "sha256": "cb3ee1d9b03a55d25bc2b9eb68b3ab9c8ae3eae3940d278017adb72de96024c5",
+      "valoare": 0.08
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 16:45:42",
+      "intrebare": "Preţul BNB pe 2026-10-28",
+      "intrebare_id": 6445,
+      "rationament": "BNB arată o rezistență bună și o ușoară tendință de creștere.",
+      "sha256": "6bd1b6a51c51e31c1c1e2a50e58e28f2f08a1a0d5900f6706314d57955c5f621",
+      "valoare": 744.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 16:45:45",
+      "intrebare": "Preţul Bitcoin pe 2026-10-28",
+      "intrebare_id": 6439,
+      "rationament": "Tendința laterală recentă sugerează că prețul va rămâne aproape identic cu închiderea de azi.",
+      "sha256": "e10843157a67e0f6a8ede6f17df536086ac73a13f40ae393f1c695892da5361a",
+      "valoare": 80266.23
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 16:45:45",
+      "intrebare": "Preţul Ethereum pe 2026-10-28",
+      "intrebare_id": 6440,
+      "rationament": "Volatilitatea scăzută în ultimele zile indică o probabilitate mare ca prețul să se mențină constant.",
+      "sha256": "c139270978a017abc674b4fbb71e5773d06f5c5b228ef34a09cf001c3429d807",
+      "valoare": 2327.89
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 16:45:45",
+      "intrebare": "Preţul Solana pe 2026-10-28",
+      "intrebare_id": 6441,
+      "rationament": "Mișcarea descendentă lentă și stabilă sugerează o continuare a trendului actual fără schimbări majore.",
+      "sha256": "3f821124f5927bb3566fb6f7b433a83c7c2c3a487c81abb6eb396884fa81aa0e",
+      "valoare": 100.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 16:45:45",
+      "intrebare": "Preţul XRP pe 2026-10-28",
+      "intrebare_id": 6442,
+      "rationament": "Stabilitatea prețului în ultimele zile indică o probabilitate ridicată ca valoarea să rămână neschimbată.",
+      "sha256": "0bd1671248d415cabbe819363eebf409185f88b4c5d8d22d4554e9c39ae29b0a",
+      "valoare": 1.32
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 16:45:45",
+      "intrebare": "Preţul Cardano pe 2026-10-28",
+      "intrebare_id": 6443,
+      "rationament": "Oscilațiile minime în jurul valorii actuale sugerează o continuarea a lateralității prețului.",
+      "sha256": "7586cb4509b5bca04177c200a3dbc324d6122e2ae2185e587ca54bbc64c891ca",
+      "valoare": 0.2
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 16:45:45",
+      "intrebare": "Preţul Dogecoin pe 2026-10-28",
+      "intrebare_id": 6444,
+      "rationament": "Prețul extrem de stabil în ultimele zece zile indică o probabilitate mare de menținere a valorii.",
+      "sha256": "39734ff5902e157160a3cccb5b91ee4c1f447341aac209a719f2b9b80be4fd5f",
+      "valoare": 0.08
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 16:45:45",
+      "intrebare": "Preţul BNB pe 2026-10-28",
+      "intrebare_id": 6445,
+      "rationament": "Tendința ușor ascendentă recentă sugerează o continuarea a mișcării actuale a prețului.",
+      "sha256": "1e7a14ab2f5b7812c14a5611f901703d485195b090dfa8a6ec5789c37b7b4c76",
+      "valoare": 743.68
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 16:50:13",
+      "intrebare": "Preţul Bitcoin pe 2026-10-28",
+      "intrebare_id": 6439,
+      "rationament": "Trend ușor descendent stabilizat; random walk domină, deci rămân foarte aproape de închiderea de azi.",
+      "sha256": "58769aa9ef2b889b3e7928d533b557b5c3c69ddce757c792e92a2bac0c07035c",
+      "valoare": 80240.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 16:50:13",
+      "intrebare": "Preţul Ethereum pe 2026-10-28",
+      "intrebare_id": 6440,
+      "rationament": "Consolidare după scădere; abatere minimă față de azi, fără semnal direcțional fiabil.",
+      "sha256": "c55b0682c0746891ab9d4d4593e0c7d823b385f4c5cdefbf4c80590e694b5ac4",
+      "valoare": 2326.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 16:50:13",
+      "intrebare": "Preţul Solana pe 2026-10-28",
+      "intrebare_id": 6441,
+      "rationament": "Scădere lentă și constantă în ultimele zile; extrapolez un pas mic de momentum.",
+      "sha256": "f7a9261b134dd73e72ff278f76b39e0d99642c18c78715e0580875c794f1454c",
+      "valoare": 100.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 16:50:13",
+      "intrebare": "Preţul XRP pe 2026-10-28",
+      "intrebare_id": 6442,
+      "rationament": "Revenire ușoară, dar zgomotul depășește semnalul; păstrez valoarea de azi.",
+      "sha256": "3d95b4d2d35348f4c6f3eb9ff8b3c9f0b080f7012ec220e9025df7500e12cb7a",
+      "valoare": 1.32
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 16:50:13",
+      "intrebare": "Preţul Cardano pe 2026-10-28",
+      "intrebare_id": 6443,
+      "rationament": "Preț rotunjit la două zecimale; mișcarea probabilă e sub rezoluție, deci egal cu azi.",
+      "sha256": "f157e6f3fcb327777b004a60b295e9b39324960653f5f01052004a569f14aae0",
+      "valoare": 0.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 16:50:13",
+      "intrebare": "Preţul Dogecoin pe 2026-10-28",
+      "intrebare_id": 6444,
+      "rationament": "Complet plat la rezoluția dată; orice abatere ar adăuga doar eroare.",
+      "sha256": "d73c1bc0a381df7321883f61ca4c3f4e430a1ac364758ec969152e0a9328b836",
+      "valoare": 0.08
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 16:50:13",
+      "intrebare": "Preţul BNB pe 2026-10-28",
+      "intrebare_id": 6445,
+      "rationament": "Ușor ascendent și rezistent față de piață; ajustare minimă în sus.",
+      "sha256": "250423ef40182ca58ec31681945dfd564ef02616cf38ea31fdca76dc809817b5",
+      "valoare": 744.2
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 17:30:30",
+      "intrebare": "Temperatura maximă la București pe 2026-10-28",
+      "intrebare_id": 6446,
+      "rationament": "Temperatura este in crestere dupa recentelor zile reci, cu precipitatii moderate.",
+      "sha256": "22b09a4ecb1e6052a175d02f3032cbad5e0c77d98993e3cd453ede1ed63b629c",
+      "valoare": 12.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 17:30:30",
+      "intrebare": "Va ploua la București pe 2026-10-28?",
+      "intrebare_id": 6447,
+      "rationament": "Temperatura este in crestere dupa recentelor zile reci, cu precipitatii moderate.",
+      "sha256": "efc432e4bd25c6c8c32f775d2391cda668d5c9ccdcce2409e1b09c0e7528b510",
+      "valoare": 0.6
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 17:30:30",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-10-28",
+      "intrebare_id": 6448,
+      "rationament": "Racirea continua, cu sanse mai mici de precipitatii decat cele din ultimele zile.",
+      "sha256": "05ff5079aa49a3b4469099f2e74d09b1f63175bea979341d92309337a23b7d16",
+      "valoare": 11.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 17:30:30",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-10-28?",
+      "intrebare_id": 6449,
+      "rationament": "Racirea continua, cu sanse mai mici de precipitatii decat cele din ultimele zile.",
+      "sha256": "a65fcc684c88878ddcfe89da9bb00a4f1d9fa315725fd61db5962263d47f522d",
+      "valoare": 0.4
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 17:30:30",
+      "intrebare": "Temperatura maximă la Iași pe 2026-10-28",
+      "intrebare_id": 6450,
+      "rationament": "Temperatura creste usor, cu precipitatii reduse.",
+      "sha256": "7b1b35ec14db5696488fe94526ec918a722681f514d3d56a65a9377c831284a1",
+      "valoare": 13.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 17:30:30",
+      "intrebare": "Va ploua la Iași pe 2026-10-28?",
+      "intrebare_id": 6451,
+      "rationament": "Temperatura creste usor, cu precipitatii reduse.",
+      "sha256": "10ba148d8d253053567caf6b482060330dea05e69702a9adf956f29d116ade9e",
+      "valoare": 0.3
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 17:30:30",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-10-28",
+      "intrebare_id": 6452,
+      "rationament": "Vremea se incalzeste usor, cu sanse mici de ploaie.",
+      "sha256": "ec94083627f16e3266e2f4c1fbd37d5fc6674f4d5d75c8b0e4a4443cd9e05995",
+      "valoare": 14.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 17:30:30",
+      "intrebare": "Va ploua la Timișoara pe 2026-10-28?",
+      "intrebare_id": 6453,
+      "rationament": "Vremea se incalzeste usor, cu sanse mici de ploaie.",
+      "sha256": "04479f21e3db5793bad3d796db5dbcd968300e4d38e2045b5119cb1aa8371ac5",
+      "valoare": 0.2
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 17:30:30",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-10-28",
+      "intrebare_id": 6454,
+      "rationament": "Temperaturile raman inalte, dar cu sanse moderate de precipitatii.",
+      "sha256": "de8451d0261fd558456837603c33c238bfd9dadd9b6d85395f58a13d4c32b851",
+      "valoare": 16.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 17:30:30",
+      "intrebare": "Va ploua la Constanța pe 2026-10-28?",
+      "intrebare_id": 6455,
+      "rationament": "Temperaturile raman inalte, dar cu sanse moderate de precipitatii.",
+      "sha256": "d24682f457b19f7ba6285692a5743d0335d3501804c6dcd851b37794a2ea996b",
+      "valoare": 0.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 17:30:30",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-10-28",
+      "intrebare_id": 6456,
+      "rationament": "Racirea continua, cu precipitatii posibile, datorita altitudinii mai mari.",
+      "sha256": "464c1f9e397f03b76517df4784282dafc4918340d9e861572164e7fe7738305f",
+      "valoare": 10.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-10-27 17:30:30",
+      "intrebare": "Va ploua la Brașov pe 2026-10-28?",
+      "intrebare_id": 6457,
+      "rationament": "Racirea continua, cu precipitatii posibile, datorita altitudinii mai mari.",
+      "sha256": "9955a7a420d38262159ff3496664d6ae9d7a32ce125320f8816c5c0cba28655d",
+      "valoare": 0.7
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 17:30:36",
+      "intrebare": "Temperatura maximă la București pe 2026-10-28",
+      "intrebare_id": 6446,
+      "rationament": "Temperatura scade rapid; ultima zi 10.9°C, aștept ușoară scădere.",
+      "sha256": "5d10d8aff7379a061cb5f381f15e49b4e57ba9c594c95e52c8736cb9041d9831",
+      "valoare": 10.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 17:30:36",
+      "intrebare": "Va ploua la București pe 2026-10-28?",
+      "intrebare_id": 6447,
+      "rationament": "Temperatura scade rapid; ultima zi 10.9°C, aștept ușoară scădere.",
+      "sha256": "56d0e36d5e300308b0bcb630f83fc9ca31f1a7999488f5cd86adfe2fd65fc1af",
+      "valoare": 0.6
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 17:30:36",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-10-28",
+      "intrebare_id": 6448,
+      "rationament": "Temperatura a căzut la 9°C recent, probabil va rămâne în jurul acestui nivel.",
+      "sha256": "f8b17a86fa5a5561a59d017f12dc824a29dca778343546d482cd165a6081f475",
+      "valoare": 9.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 17:30:36",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-10-28?",
+      "intrebare_id": 6449,
+      "rationament": "Temperatura a căzut la 9°C recent, probabil va rămâne în jurul acestui nivel.",
+      "sha256": "f418c54c0c022c9994fa014eaaa4369c444d3136071cb75c5d408d50348a1c6e",
+      "valoare": 0.65
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 17:30:36",
+      "intrebare": "Temperatura maximă la Iași pe 2026-10-28",
+      "intrebare_id": 6450,
+      "rationament": "Temperaturile oscilează, dar tendința de răcire sugerează 13‑14°C.",
+      "sha256": "bfe3a4bf63530650de48ec247e0e8d121db95ba3f4de1fa1fe38770a692a9557",
+      "valoare": 13.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 17:30:36",
+      "intrebare": "Va ploua la Iași pe 2026-10-28?",
+      "intrebare_id": 6451,
+      "rationament": "Temperaturile oscilează, dar tendința de răcire sugerează 13‑14°C.",
+      "sha256": "221df4c097a82f9576da990af2f6f8379cf2d4ed5b330a74725c7699ee46217f",
+      "valoare": 0.7
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 17:30:36",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-10-28",
+      "intrebare_id": 6452,
+      "rationament": "Temperatura a coborât la 11.9°C; continuă tendința de răcire.",
+      "sha256": "bedb23ea6c692363e96a32877b6f0192a6bf440171be9800b99ae389e7c9aa74",
+      "valoare": 11.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 17:30:36",
+      "intrebare": "Va ploua la Timișoara pe 2026-10-28?",
+      "intrebare_id": 6453,
+      "rationament": "Temperatura a coborât la 11.9°C; continuă tendința de răcire.",
+      "sha256": "2f4d8440497cac886861372eb7d3df5e13efb3d191814a982244d8121a89ab17",
+      "valoare": 0.35
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 17:30:36",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-10-28",
+      "intrebare_id": 6454,
+      "rationament": "Temperaturile rămân ridicate în zonă, ușoară scădere spre 16‑17°C.",
+      "sha256": "98576509b6695dddfca05bf33494dc66f04b45216529a7020a308d6f96869ef0",
+      "valoare": 16.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 17:30:36",
+      "intrebare": "Va ploua la Constanța pe 2026-10-28?",
+      "intrebare_id": 6455,
+      "rationament": "Temperaturile rămân ridicate în zonă, ușoară scădere spre 16‑17°C.",
+      "sha256": "f59ae46a9d8d439f43b29a0db778dc35bfc9ade31c425ef384bcf586e0e709a2",
+      "valoare": 0.85
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 17:30:36",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-10-28",
+      "intrebare_id": 6456,
+      "rationament": "Temperatura a atins 7°C, aștept ușoară creștere spre 8°C.",
+      "sha256": "4497931aec9a3a891177a81460f526ed7a484344c9a43df83b819d7eb5331a98",
+      "valoare": 8.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-10-27 17:30:36",
+      "intrebare": "Va ploua la Brașov pe 2026-10-28?",
+      "intrebare_id": 6457,
+      "rationament": "Temperatura a atins 7°C, aștept ușoară creștere spre 8°C.",
+      "sha256": "5c3e2d3ffd8e613131e9aeb886b0aec7c319a3c5f3a198faba461e9fdae5310c",
+      "valoare": 0.75
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 17:30:57",
+      "intrebare": "Temperatura maximă la București pe 2026-10-28",
+      "intrebare_id": 6446,
+      "rationament": "După răcirea bruscă din 27 octombrie și precipitații, masa de aer rece persistă, dar tendința e de ușoară stabilizare.",
+      "sha256": "489a5ec93c7fe747d5435485d14484a42510e6ad7741b37aeed93724fb99911a",
+      "valoare": 12.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 17:30:57",
+      "intrebare": "Va ploua la București pe 2026-10-28?",
+      "intrebare_id": 6447,
+      "rationament": "După răcirea bruscă din 27 octombrie și precipitații, masa de aer rece persistă, dar tendința e de ușoară stabilizare.",
+      "sha256": "a407c3ec023f6d992a500fa82af09045365e738ca28359f9b24611f1fcac5a18",
+      "valoare": 0.25
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 17:30:57",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-10-28",
+      "intrebare_id": 6448,
+      "rationament": "Vreme rece pentru final de octombrie, cu temperaturi sub 10°C ieri și o lentă revenire diurnă.",
+      "sha256": "1ce35f7a15d49bf55a8bec7b47793599580825ed522045e406aaaaf66aa2aa7c",
+      "valoare": 11.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 17:30:57",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-10-28?",
+      "intrebare_id": 6449,
+      "rationament": "Vreme rece pentru final de octombrie, cu temperaturi sub 10°C ieri și o lentă revenire diurnă.",
+      "sha256": "f97f43cedf5c079883a75a2b0dcb33dcd985e21c6e26bfbb7cea238a1ff504e8",
+      "valoare": 0.3
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 17:30:57",
+      "intrebare": "Temperatura maximă la Iași pe 2026-10-28",
+      "intrebare_id": 6450,
+      "rationament": "Scăderea din 27 octombrie lasă loc unei timide reîncălziri diurne, cerul urmând să se degajeze parțial.",
+      "sha256": "b7e8aec8c88a0305c906bfa58f4911ddb5ae25ec3aceb6e1a6af8838f68487a3",
+      "valoare": 13.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 17:30:57",
+      "intrebare": "Va ploua la Iași pe 2026-10-28?",
+      "intrebare_id": 6451,
+      "rationament": "Scăderea din 27 octombrie lasă loc unei timide reîncălziri diurne, cerul urmând să se degajeze parțial.",
+      "sha256": "89e182ded5d6fea87cb2f5ffaddb50b517e6386d9547c25826d31b21e7c8b225",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 17:30:57",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-10-28",
+      "intrebare_id": 6452,
+      "rationament": "După coborârea pronunțată a temperaturii de ieri, aerul stabil favorizează o ușoară redresare termică.",
+      "sha256": "70b557ff652a2bcb3e29c611bed0305068e0feaafca1b32e974de337251c23c0",
+      "valoare": 13.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 17:30:57",
+      "intrebare": "Va ploua la Timișoara pe 2026-10-28?",
+      "intrebare_id": 6453,
+      "rationament": "După coborârea pronunțată a temperaturii de ieri, aerul stabil favorizează o ușoară redresare termică.",
+      "sha256": "0bf9d92c250e82c9c5676189f012b549342d5a64719fff871de47167c11d4e45",
+      "valoare": 0.15
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 17:30:57",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-10-28",
+      "intrebare_id": 6454,
+      "rationament": "Influența maritimă menține termometrele mai ridicate, dar instabilitatea și precipitațiile recente pot lăsa nori joși.",
+      "sha256": "0784c694b65afb41b281417371158b37eff3a6e3d6bd0e648fb3d967612e2717",
+      "valoare": 15.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 17:30:57",
+      "intrebare": "Va ploua la Constanța pe 2026-10-28?",
+      "intrebare_id": 6455,
+      "rationament": "Influența maritimă menține termometrele mai ridicate, dar instabilitatea și precipitațiile recente pot lăsa nori joși.",
+      "sha256": "b800554b8e93787749d6e6c4bc3f32e23a5abec52ae3b99d6b4830e9647003d3",
+      "valoare": 0.4
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 17:30:57",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-10-28",
+      "intrebare_id": 6456,
+      "rationament": "Altitudinea ridicată și răcirea accentuată din ziua precedentă (7°C) mențin valorile termice diurne destul de scăzute.",
+      "sha256": "35fd18029bd1899ece59386092f05dfdaea9ed8427ae9c791c5e510b67b7e804",
+      "valoare": 9.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-10-27 17:30:57",
+      "intrebare": "Va ploua la Brașov pe 2026-10-28?",
+      "intrebare_id": 6457,
+      "rationament": "Altitudinea ridicată și răcirea accentuată din ziua precedentă (7°C) mențin valorile termice diurne destul de scăzute.",
+      "sha256": "d440278a15a5e7c612c8170e93bc0586357b02ef785d4eaf68c2017b004f3693",
+      "valoare": 0.35
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 17:32:31",
+      "intrebare": "Temperatura maximă la București pe 2026-10-28",
+      "intrebare_id": 6446,
+      "rationament": "Recent cooling trend after Oct 23; climatology suggests ~13°C; recent low 10.9°C leads to ~11.5°C.",
+      "sha256": "76c1458c2a64246740439345fe1a20fbbc75f5e7b3fd7933f34baf96d3392d29",
+      "valoare": 11.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 17:32:31",
+      "intrebare": "Va ploua la București pe 2026-10-28?",
+      "intrebare_id": 6447,
+      "rationament": "Recent cooling trend after Oct 23; climatology suggests ~13°C; recent low 10.9°C leads to ~11.5°C.",
+      "sha256": "093a859ae1f2c6746a8eeb562a1a553f0058bab7f73ed7fb2334e8aede1aa4d5",
+      "valoare": 0.55
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 17:32:31",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-10-28",
+      "intrebare_id": 6448,
+      "rationament": "After Oct21 peak, temps dropped to low 9°C; altitude keeps climate cool, expecting ~9.5°C.",
+      "sha256": "25b5e46b158957c5eb698a711f37dc6e46b225327f5532b766cfbef547bed69c",
+      "valoare": 9.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 17:32:31",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-10-28?",
+      "intrebare_id": 6449,
+      "rationament": "After Oct21 peak, temps dropped to low 9°C; altitude keeps climate cool, expecting ~9.5°C.",
+      "sha256": "5475a9e326e523ed776e27f3b66ecd89085d4fc7f1a0224dbbd1e61a6b591f7e",
+      "valoare": 0.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 17:32:31",
+      "intrebare": "Temperatura maximă la Iași pe 2026-10-28",
+      "intrebare_id": 6450,
+      "rationament": "Temps hovered 12-16°C with a recent high 16.6°C; expect a slight retreat to ~13.5°C.",
+      "sha256": "dadc00abcf9ce6d22d99dcb00029fc399e3a31b3f71966915026dd04825aee2d",
+      "valoare": 13.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 17:32:31",
+      "intrebare": "Va ploua la Iași pe 2026-10-28?",
+      "intrebare_id": 6451,
+      "rationament": "Temps hovered 12-16°C with a recent high 16.6°C; expect a slight retreat to ~13.5°C.",
+      "sha256": "320a48ba075f86eb69b590654c6e140d4626fac0bd52a1196db82f5e8bbde3e0",
+      "valoare": 0.78
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 17:32:31",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-10-28",
+      "intrebare_id": 6452,
+      "rationament": "After Oct21 spike, temps fell to ~12°C; trend suggests ~13.0°C for Oct28.",
+      "sha256": "4736e73f52d4abd970a3b4d31b2ca37811ce681e64cc041a7af5b4162b72d133",
+      "valoare": 13.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 17:32:31",
+      "intrebare": "Va ploua la Timișoara pe 2026-10-28?",
+      "intrebare_id": 6453,
+      "rationament": "After Oct21 spike, temps fell to ~12°C; trend suggests ~13.0°C for Oct28.",
+      "sha256": "47a669e1c7255540f757c4ee8a31fae6231f62864796cc5cbbe7c6651c8c743c",
+      "valoare": 0.3
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 17:32:31",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-10-28",
+      "intrebare_id": 6454,
+      "rationament": "Steady 16-18°C readings with mild decline; anticipate ~15.5°C.",
+      "sha256": "51c6a50c9927a28baea6a60409f0297081518796037374db0e6cd20a6c9eae28",
+      "valoare": 15.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 17:32:31",
+      "intrebare": "Va ploua la Constanța pe 2026-10-28?",
+      "intrebare_id": 6455,
+      "rationament": "Steady 16-18°C readings with mild decline; anticipate ~15.5°C.",
+      "sha256": "b37a9e6001e43f6d3109f83005425a886290ab99b085848a3242bec9fe21b934",
+      "valoare": 0.6
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 17:32:31",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-10-28",
+      "intrebare_id": 6456,
+      "rationament": "Post-Oct21 warm spell, temps dropped sharply to 7°C; expect ~8.5°C.",
+      "sha256": "63d2d8cb76022b7bf9b655700c2193f386c99aa4600f3ea6a8aca3802593b140",
+      "valoare": 8.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-10-27 17:32:31",
+      "intrebare": "Va ploua la Brașov pe 2026-10-28?",
+      "intrebare_id": 6457,
+      "rationament": "Post-Oct21 warm spell, temps dropped sharply to 7°C; expect ~8.5°C.",
+      "sha256": "11989588cb96c02a5c59a70badd8ec5b47cbfaec5cbc90a6fd29b0add8925cd2",
+      "valoare": 0.6
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 17:35:16",
+      "intrebare": "Temperatura maximă la București pe 2026-10-28",
+      "intrebare_id": 6446,
+      "rationament": "Aer rece post-frontal după ploaia de 10 mm; ușoară revenire față de 10.9, dar sub normala de ~15°C.",
+      "sha256": "99f57c4d74cf0dc34906a5ee8c70e62673e46e53e68134168241baf0280a60b7",
+      "valoare": 11.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 17:35:16",
+      "intrebare": "Va ploua la București pe 2026-10-28?",
+      "intrebare_id": 6447,
+      "rationament": "Aer rece post-frontal după ploaia de 10 mm; ușoară revenire față de 10.9, dar sub normala de ~15°C.",
+      "sha256": "6ea206d365dc4d0332b4015159431e298a55015208137355fbc8ad2aab210b72",
+      "valoare": 0.45
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 17:35:16",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-10-28",
+      "intrebare_id": 6448,
+      "rationament": "Două zile reci consecutive (9.6, 9.2) indică masă de aer rece stabilită; precipitații în scădere.",
+      "sha256": "a7ef11d73d41edb549610212c92f6cbf7ec1b557e3e6e6bb29dec565b712ddf2",
+      "valoare": 9.8
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 17:35:16",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-10-28?",
+      "intrebare_id": 6449,
+      "rationament": "Două zile reci consecutive (9.6, 9.2) indică masă de aer rece stabilită; precipitații în scădere.",
+      "sha256": "9fffad196c3103829a39f01de51f87ea876aea7b74377a678cda6a1235fbc24f",
+      "valoare": 0.35
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 17:35:16",
+      "intrebare": "Temperatura maximă la Iași pe 2026-10-28",
+      "intrebare_id": 6450,
+      "rationament": "Frontul rece de la vest ajunge în Moldova cu întârziere; răcire față de 12.4 și ploaie probabilă.",
+      "sha256": "9b685f04c0090db2c33d9e65a90d3c9c80bc74bc3e2a627d5e34d92b8852cef9",
+      "valoare": 10.8
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 17:35:16",
+      "intrebare": "Va ploua la Iași pe 2026-10-28?",
+      "intrebare_id": 6451,
+      "rationament": "Frontul rece de la vest ajunge în Moldova cu întârziere; răcire față de 12.4 și ploaie probabilă.",
+      "sha256": "00510a0af3e8493c1c7f770532644bbaa55042b4c2bcab3bc8d05bb8c7d87139",
+      "valoare": 0.55
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 17:35:16",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-10-28",
+      "intrebare_id": 6452,
+      "rationament": "Vestul a ieșit primul din front, 27 uscat; ușoară încălzire, dar aer rece încă prezent.",
+      "sha256": "002732f69d306062bb5a23626b3b5f7a241ae6e2066c93c9478cd93f6b8905f3",
+      "valoare": 12.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 17:35:16",
+      "intrebare": "Va ploua la Timișoara pe 2026-10-28?",
+      "intrebare_id": 6453,
+      "rationament": "Vestul a ieșit primul din front, 27 uscat; ușoară încălzire, dar aer rece încă prezent.",
+      "sha256": "681a7d3ef58fba3340e5234ad2e632d61ec7642a8f6797681d3dc40af8298523",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 17:35:16",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-10-28",
+      "intrebare_id": 6454,
+      "rationament": "Ploaie abundentă pe 27 sugerează ciclon la Marea Neagră; marea atenuează răcirea, dar aerul rece ajunge.",
+      "sha256": "1666c6275e49b3ef2aa36fcd0130e9f11878174705c0cf69cfe41b0f2d64da04",
+      "valoare": 13.8
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 17:35:16",
+      "intrebare": "Va ploua la Constanța pe 2026-10-28?",
+      "intrebare_id": 6455,
+      "rationament": "Ploaie abundentă pe 27 sugerează ciclon la Marea Neagră; marea atenuează răcirea, dar aerul rece ajunge.",
+      "sha256": "9d974bdd07416cb1b8867b0d1f85f8f17fe3b70c64a40efb779162d65de84ded",
+      "valoare": 0.55
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 17:35:16",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-10-28",
+      "intrebare_id": 6456,
+      "rationament": "Depresiune intramontană cu aer rece acumulat după 7.0°C; posibile precipitații reziduale orografice.",
+      "sha256": "4b948683b04ec5d0e52e1ffa07481f57fdefdc4004cea869621b07aa40bae184",
+      "valoare": 7.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-10-27 17:35:16",
+      "intrebare": "Va ploua la Brașov pe 2026-10-28?",
+      "intrebare_id": 6457,
+      "rationament": "Depresiune intramontană cu aer rece acumulat după 7.0°C; posibile precipitații reziduale orografice.",
+      "sha256": "7c01dca2014e8ca8bc4477d61a7de8f7eae706d530589b177a86bd0bdb227fbe",
+      "valoare": 0.45
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 17:38:20",
+      "intrebare": "Temperatura maximă la București pe 2026-10-28",
+      "intrebare_id": 6446,
+      "rationament": "Căldura scade rapid după frontul rece din 23-27 oct.",
+      "sha256": "be20803f48358f08bd695d0e116fdf8763a67243ab3d33f8e62a46900e9d395b",
+      "valoare": 12.5
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 17:38:20",
+      "intrebare": "Va ploua la București pe 2026-10-28?",
+      "intrebare_id": 6447,
+      "rationament": "Căldura scade rapid după frontul rece din 23-27 oct.",
+      "sha256": "0c9efa464650499d6618a6b110d9152b471b71fdcfc4dbd74dd204ca66d1a69e",
+      "valoare": 0.35
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 17:38:20",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-10-28",
+      "intrebare_id": 6448,
+      "rationament": "Altitudine mare, tendință de răcire puternică, frontul se îndepărtează încet.",
+      "sha256": "0a1ac075e21728e81a79d3fb7d60bad776964570dd186274634589ee6de1061f",
+      "valoare": 10.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 17:38:20",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-10-28?",
+      "intrebare_id": 6449,
+      "rationament": "Altitudine mare, tendință de răcire puternică, frontul se îndepărtează încet.",
+      "sha256": "b082ca4d083326221dc4bc23cf37cf19b5a7d0759c2fa4eed71232774aa1bb75",
+      "valoare": 0.45
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 17:38:20",
+      "intrebare": "Temperatura maximă la Iași pe 2026-10-28",
+      "intrebare_id": 6450,
+      "rationament": "Orientare estică, temperaturi mai moderate, frontul trece spre est.",
+      "sha256": "1adb52de5cbf834fe3857cba755b977d87b2e3355a9986b013c0b104ac1585d7",
+      "valoare": 14.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 17:38:20",
+      "intrebare": "Va ploua la Iași pe 2026-10-28?",
+      "intrebare_id": 6451,
+      "rationament": "Orientare estică, temperaturi mai moderate, frontul trece spre est.",
+      "sha256": "9c93b5e14b4833a1a7c917e136d854be02796cbc1773e15f7677a1aee1ec1d63",
+      "valoare": 0.4
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 17:38:20",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-10-28",
+      "intrebare_id": 6452,
+      "rationament": "Zilele trecute au fost foarte reci, frontul se deplasează spre est.",
+      "sha256": "1c30e01c1e1e0b0a3a7b2754e784dc34d951c9c92f806423176faee7bda45ccd",
+      "valoare": 12.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 17:38:20",
+      "intrebare": "Va ploua la Timișoara pe 2026-10-28?",
+      "intrebare_id": 6453,
+      "rationament": "Zilele trecute au fost foarte reci, frontul se deplasează spre est.",
+      "sha256": "db94f619c4cfc1ed2a7beb25539658f3ee9ef10f24019f917cda24c357ea7b33",
+      "valoare": 0.2
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 17:38:20",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-10-28",
+      "intrebare_id": 6454,
+      "rationament": "Influența mării, temperaturi stabile, frontul a trecut deja.",
+      "sha256": "2d90029488866acb83c6531cf12f1c8b6e4147ae7064ee463bba147cf618c23f",
+      "valoare": 16.5
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 17:38:20",
+      "intrebare": "Va ploua la Constanța pe 2026-10-28?",
+      "intrebare_id": 6455,
+      "rationament": "Influența mării, temperaturi stabile, frontul a trecut deja.",
+      "sha256": "af45c179b9349f04eb6f12bfaf517a093a6f1b95f85334ef5124a4a74e7aca7a",
+      "valoare": 0.25
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 17:38:20",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-10-28",
+      "intrebare_id": 6456,
+      "rationament": "Altitudine ridicată, efect de seră slab, frig intens continuă.",
+      "sha256": "d23978cb9a182711232f67be1e6e69fd9fdb044e8d4a4812b757220ee0b42e1d",
+      "valoare": 8.5
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-10-27 17:38:20",
+      "intrebare": "Va ploua la Brașov pe 2026-10-28?",
+      "intrebare_id": 6457,
+      "rationament": "Altitudine ridicată, efect de seră slab, frig intens continuă.",
+      "sha256": "9939d1679654ea078740dcf4a3a7a53184a92ce3ced279b44bfa20d8feca035e",
+      "valoare": 0.55
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 17:38:21",
+      "intrebare": "Temperatura maximă la București pe 2026-10-28",
+      "intrebare_id": 6446,
+      "rationament": "Tendința descendentă puternică și ploaia recentă sugerează o masă de aer rece și instabilă.",
+      "sha256": "491c49f82954837a1a3bca7d1d4ac9ac772c1528780e0f80d2a55440e1a7d153",
+      "valoare": 11.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 17:38:21",
+      "intrebare": "Va ploua la București pe 2026-10-28?",
+      "intrebare_id": 6447,
+      "rationament": "Tendința descendentă puternică și ploaia recentă sugerează o masă de aer rece și instabilă.",
+      "sha256": "ed7255279d010a7276b9b5d0e51721f211f8d52f96788645507a53070426669d",
+      "valoare": 0.65
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 17:38:21",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-10-28",
+      "intrebare_id": 6448,
+      "rationament": "Răcirea rapidă și precipitațiile anterioare indică continuarea unui front rece cu risc moderat de ploaie.",
+      "sha256": "349e6ac24812ed4d525a06054f632256593aca3ff7eb01ffa73b19f38ed8e4e1",
+      "valoare": 8.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 17:38:21",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-10-28?",
+      "intrebare_id": 6449,
+      "rationament": "Răcirea rapidă și precipitațiile anterioare indică continuarea unui front rece cu risc moderat de ploaie.",
+      "sha256": "5e32a632e1bc1475f3bfbd8b8159317b9a10a6a67acce7f3affaae6ed41b2903",
+      "valoare": 0.55
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 17:38:21",
+      "intrebare": "Temperatura maximă la Iași pe 2026-10-28",
+      "intrebare_id": 6450,
+      "rationament": "Variabilitate mare, dar ultima zi rece și umedă sugerează persistența condițiilor instabile.",
+      "sha256": "f6af5b90fa37efe8b4ca00748b8418690158cb415f1746cfed81f3937d7c2161",
+      "valoare": 12.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 17:38:21",
+      "intrebare": "Va ploua la Iași pe 2026-10-28?",
+      "intrebare_id": 6451,
+      "rationament": "Variabilitate mare, dar ultima zi rece și umedă sugerează persistența condițiilor instabile.",
+      "sha256": "f869be9b24e73c427b6e77fd642167ac02916abca04c8a598f57a6c5fcf8b57d",
+      "valoare": 0.45
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 17:38:21",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-10-28",
+      "intrebare_id": 6452,
+      "rationament": "Scăderea bruscă a temperaturii după o perioadă caldă indică un front rece, dar cu precipitații mai reduse.",
+      "sha256": "302e6afe117c1fb495ac3e3cf5fba699cfd7aba9826054bfc3b98510cf56e068",
+      "valoare": 11.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 17:38:21",
+      "intrebare": "Va ploua la Timișoara pe 2026-10-28?",
+      "intrebare_id": 6453,
+      "rationament": "Scăderea bruscă a temperaturii după o perioadă caldă indică un front rece, dar cu precipitații mai reduse.",
+      "sha256": "9e5fdbcb00fc84493c707cadf58c998a2b3ac6e60ad548e9a6c3c735a6c4aca4",
+      "valoare": 0.3
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 17:38:21",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-10-28",
+      "intrebare_id": 6454,
+      "rationament": "Influența marină temperează răcirea, iar ploaia recentă intensă poate fi urmată de o zi mai stabilă.",
+      "sha256": "b1dca06ca5b29bebe98f87cc5e6736fa8cf4c835cbc84f58420b891fcea60de2",
+      "valoare": 15.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 17:38:21",
+      "intrebare": "Va ploua la Constanța pe 2026-10-28?",
+      "intrebare_id": 6455,
+      "rationament": "Influența marină temperează răcirea, iar ploaia recentă intensă poate fi urmată de o zi mai stabilă.",
+      "sha256": "ecd4f748b7848f27075a82c68ac7a4b91cac6d42d957ca49a6b0764b61105fb5",
+      "valoare": 0.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 17:38:21",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-10-28",
+      "intrebare_id": 6456,
+      "rationament": "Altitudinea mare amplifică efectul frontului rece, cu risc ridicat de precipitații și temperaturi scăzute.",
+      "sha256": "f8ab123295fae10db61d86821137913f4424d9d16876d6954fbabd01aa1214e8",
+      "valoare": 7.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-10-27 17:38:21",
+      "intrebare": "Va ploua la Brașov pe 2026-10-28?",
+      "intrebare_id": 6457,
+      "rationament": "Altitudinea mare amplifică efectul frontului rece, cu risc ridicat de precipitații și temperaturi scăzute.",
+      "sha256": "c5eeb0b150bc42f4a0feced72508cf34075c42389070d7aab1d8145992a955b7",
+      "valoare": 0.6
+    }
+  ],
+  "zi": "2026-10-27"
+}
