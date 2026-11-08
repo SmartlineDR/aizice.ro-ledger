@@ -1,0 +1,1979 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "ec8dc2b7f76c7fdde732e23048794ca436a53cfe726adaa02f177259838c3ad5",
+  "nr_frunze": 219,
+  "predictii": [
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 09:30:14",
+      "intrebare": "Câştigă Csíkszereda Miercurea Ciuc cu Universitatea Cluj?",
+      "intrebare_id": 7138,
+      "rationament": "Gazda are avantaj de teren, dar echipa oaspete este mult mai puternică.",
+      "sha256": "47d0b3834e095c7463028d6e95a6e0a020653bfa9de9299d00b0085da334a1a2",
+      "valoare": 0.35
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 09:30:14",
+      "intrebare": "Câştigă Borussia Dortmund cu Elversberg?",
+      "intrebare_id": 7139,
+      "rationament": "Dortmund domină Bundesliga și joacă acasă, diferența este mare.",
+      "sha256": "4ca1378961ec433a20816ff72c7b5e97df60ed9ce3b9fd90cdfed61e85001b9b",
+      "valoare": 0.85
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 09:30:14",
+      "intrebare": "Câştigă Arsenal cu Hull City?",
+      "intrebare_id": 7140,
+      "rationament": "Arsenal este mult mai bun și are avantajul terenului.",
+      "sha256": "23f9769e759d92088535928167a5d8047e377d236fb91306d18fcd91c67147e2",
+      "valoare": 0.8
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 09:30:14",
+      "intrebare": "Câştigă Farul Constanța cu Rapid București?",
+      "intrebare_id": 7141,
+      "rationament": "Rapid este ușor superior, dar gazda are avantaj de acasă.",
+      "sha256": "4002b7c2e0ae0b20439b42296004d6d542c6f125ca2060f75eb29d408f81ebab",
+      "valoare": 0.45
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 09:30:14",
+      "intrebare": "Câştigă Nottingham Forest cu Manchester City?",
+      "intrebare_id": 7142,
+      "rationament": "City este mult mai puternic, chiar și în deplasare.",
+      "sha256": "f66ca870d1688a90d40af2645097859c573a5b0579e7f00348dcf269dac51efd",
+      "valoare": 0.15
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 09:30:14",
+      "intrebare": "Câştigă Auxerre cu Paris FC?",
+      "intrebare_id": 7143,
+      "rationament": "Meci echilibrat, ușoară preferință pentru gazdă.",
+      "sha256": "13020361ec96911ee1457883a96859a73a44591c6c0a72b2087d3aea9762f6dc",
+      "valoare": 0.55
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 09:30:14",
+      "intrebare": "Câştigă FCSB cu Corvinul Hunedoara?",
+      "intrebare_id": 7144,
+      "rationament": "FCSB este mult mai puternic și joacă pe propriul teren.",
+      "sha256": "2932c4765544ca498edf5567f1ec369817f994db79972f9d48a05b5c096c5874",
+      "valoare": 0.75
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 09:30:14",
+      "intrebare": "Câştigă Roma cu Sassuolo?",
+      "intrebare_id": 7145,
+      "rationament": "Roma are avantaj de teren și calitate superioară.",
+      "sha256": "c82409575ebd8b07170fde4bbb18c11c39d4db14196a87d6723a23da0df91fa5",
+      "valoare": 0.7
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 09:30:14",
+      "intrebare": "Câştigă Valencia cu Real Madrid?",
+      "intrebare_id": 7146,
+      "rationament": "Real Madrid este mult mai bun, chiar și în deplasare.",
+      "sha256": "8b109769642775f294bef376eb1064358142839690e369a00a7a8b832e899954",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 09:30:14",
+      "intrebare": "Câştigă Paris Saint-Germain cu Troyes?",
+      "intrebare_id": 7147,
+      "rationament": "PSG domină liga și joacă acasă, diferență foarte mare.",
+      "sha256": "575fda329a16805036aa0cf343a4c74df57f51c1b949ad7f0e4676f80583de36",
+      "valoare": 0.9
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 09:30:30",
+      "intrebare": "Câştigă Leeds United cu Tottenham Hotspur?",
+      "intrebare_id": 7221,
+      "rationament": "Tottenham este favorită, dar avantajul terenului pentru Leeds echilibrează șansele.",
+      "sha256": "4908b0519c99454156f734927cc6952abd7eb2a1e4253c0daaf85d6f9f662764",
+      "valoare": 0.4
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 09:30:30",
+      "intrebare": "Câştigă Napoli cu Lazio?",
+      "intrebare_id": 7222,
+      "rationament": "Napoli are un lot mai puternic, dar Lazio este imprevizibilă, cu șanse echilibrate.",
+      "sha256": "6dff91a6a28fe0f1f24c961220782c108a2eb29df0be10b70c690bd7899f07cb",
+      "valoare": 0.55
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 09:30:30",
+      "intrebare": "Câştigă Elche cu Real Betis?",
+      "intrebare_id": 7223,
+      "rationament": "Betis este favorită, dar Elche acasă poate produce surprize, deși șansele sunt mici.",
+      "sha256": "40bcef90708aad2312f581fec3795b55ff98d67f1e740be4381d5d8ba5dd0a5a",
+      "valoare": 0.35
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 09:30:30",
+      "intrebare": "Câştigă Sepsi OSK cu Voluntari?",
+      "intrebare_id": 7224,
+      "rationament": "Sepsi este mai constantă și are avantajul terenului, fiind favorită clară.",
+      "sha256": "7c6ca27ab6c73b5e3b0818ef6d145b8d1db1ff636133ce72d3efe42f6a167574",
+      "valoare": 0.6
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 09:30:30",
+      "intrebare": "Câştigă Brighton and Hove Albion cu Brentford?",
+      "intrebare_id": 7225,
+      "rationament": "Meci echilibrat, ambele echipe au stiluri similare, cu șanse egale.",
+      "sha256": "61e2662fbe74eb7be40f340023a29fee442248e4a1edc0c4881b06f4d10143ed",
+      "valoare": 0.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 09:30:30",
+      "intrebare": "Câştigă Genoa cu AC Milan?",
+      "intrebare_id": 7226,
+      "rationament": "Milan este favorită clară, dar Genoa acasă poate pune probleme, deși șansele sunt mici.",
+      "sha256": "cefa76e4ea9c4a4818d6e02fb603a7ce4c8b63a4875bcd909a2e87768bbdfc53",
+      "valoare": 0.25
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 09:30:30",
+      "intrebare": "Câştigă Brest cu Lyon?",
+      "intrebare_id": 7227,
+      "rationament": "Lyon este favorită, dar Brest acasă poate produce surprize, deși șansele sunt reduse.",
+      "sha256": "b38ab9a78f751f02666bf9ee6e9b817b8d47b231d7bfb3947be173dad401caf2",
+      "valoare": 0.3
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 09:30:30",
+      "intrebare": "Câştigă CFR 1907 Cluj cu Universitatea Craiova?",
+      "intrebare_id": 7228,
+      "rationament": "Meci echilibrat, CFR are avantajul terenului, dar Craiova este o echipă puternică.",
+      "sha256": "752ece530f761296ef22fbe5b18af19fedd1091c9bba2756635a4998932bc968",
+      "valoare": 0.55
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 09:30:30",
+      "intrebare": "Câştigă Inter Milan cu Como?",
+      "intrebare_id": 7229,
+      "rationament": "Inter este favorită clară, cu un lot superior și avantajul terenului.",
+      "sha256": "ecd0a28dcf82d3cf8b714777294bd2595436615a866e5cf1a3204174ac17224c",
+      "valoare": 0.75
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 09:30:30",
+      "intrebare": "Câştigă Atlético Madrid cu Barcelona?",
+      "intrebare_id": 7230,
+      "rationament": "Meci echilibrat, Atlético acasă este puternică, dar Barcelona are un lot mai valoros.",
+      "sha256": "ab7ff6f5349b2371108685d1ecb545d13b41efbd0858232017f665a2dfca4ae9",
+      "valoare": 0.45
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 09:30:36",
+      "intrebare": "Câştigă Leeds United cu Tottenham Hotspur?",
+      "intrebare_id": 7221,
+      "rationament": "Tottenham are un lot superior, dar Leeds pe teren propriu este mereu periculoasă și poate produce surpriza.",
+      "sha256": "066a47724fd3c12f79ed5f4ec6c65dd9aa49f47cc4b68b6be783672e40d9c4cb",
+      "valoare": 0.38
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 09:30:36",
+      "intrebare": "Câştigă Napoli cu Lazio?",
+      "intrebare_id": 7222,
+      "rationament": "Napoli pornește cu un ușor avantaj pe teren propriu într-un duel clasic din Serie A foarte echilibrat.",
+      "sha256": "a35c288572fbd0bd0c637a1a27dd6b9c402ec1bbdee071cce2bf5cf3ed7c9d3b",
+      "valoare": 0.52
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 09:30:36",
+      "intrebare": "Câştigă Elche cu Real Betis?",
+      "intrebare_id": 7223,
+      "rationament": "Betis are mai multă experiență și consistență, fiind favorită certă în deplasare.",
+      "sha256": "0309f4c667bcc220fe90870002e8bbae3b261d5e72c835286bdb2c12bbc33184",
+      "valoare": 0.35
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 09:30:36",
+      "intrebare": "Câştigă Sepsi OSK cu Voluntari?",
+      "intrebare_id": 7224,
+      "rationament": "Sepsi este în mod tradițional mai puternică acasă și are prima șansă în acest meci din Liga I.",
+      "sha256": "d18cb3f134d145866d6457b818124cecc2f32ee222aa010ad8f1ef3aa763a829",
+      "valoare": 0.55
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 09:30:36",
+      "intrebare": "Câştigă Brighton and Hove Albion cu Brentford?",
+      "intrebare_id": 7225,
+      "rationament": "Brighton joacă un fotbal excelent acasă și poate specula micile vulnerabilități ale celor de la Brentford.",
+      "sha256": "6dcfa62071d664a7f8c49644785bdbf4ee866a1f063a6520cddfb42db04b19a7",
+      "valoare": 0.54
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 09:30:36",
+      "intrebare": "Câştigă Genoa cu AC Milan?",
+      "intrebare_id": 7226,
+      "rationament": "Milan este net superioară valoric și are nevoie de puncte, deși deplasarea de la Genoa e dificilă.",
+      "sha256": "d709efd870d719c2f58c9f3c81045dd3da48ae93353330cf391e803fcc56c630",
+      "valoare": 0.28
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 09:30:36",
+      "intrebare": "Câştigă Brest cu Lyon?",
+      "intrebare_id": 7227,
+      "rationament": "Brest este redutabilă pe teren propriu, punând probleme constante unei echipe imprevizibile ca Lyon.",
+      "sha256": "99709c3a55911ab8ff481d46555e23301000f902d18417f0e50bb2d983dbe706",
+      "valoare": 0.42
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 09:30:36",
+      "intrebare": "Câştigă CFR 1907 Cluj cu Universitatea Craiova?",
+      "intrebare_id": 7228,
+      "rationament": "Un derby extrem de echilibrat în Liga I, unde micile detalii și forța terenului propriu pot înclina balanța.",
+      "sha256": "c63d6ef214ba2c73189021fef551d6d88a99eb95044627341d1b50edc12eaad9",
+      "valoare": 0.48
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 09:30:36",
+      "intrebare": "Câştigă Inter Milan cu Como?",
+      "intrebare_id": 7229,
+      "rationament": "Inter este mare favorită pe San Siro în fața unei nou-promovate care luptă pentru supraviețuire.",
+      "sha256": "7b0311abe02f23f6d82de9152c9f3cacabec40a95b5a4442be9bad09465dea83",
+      "valoare": 0.75
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 09:30:36",
+      "intrebare": "Câştigă Atlético Madrid cu Barcelona?",
+      "intrebare_id": 7230,
+      "rationament": "Meci de 'cota zero', extrem de strâns, unde defensiva lui Atletico poate neutraliza parțial forța Barcei.",
+      "sha256": "4a93276190774e8aee885f01685522a1a3111e27d1a9d7b2da6d2e7f4f69837a",
+      "valoare": 0.45
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 09:30:39",
+      "intrebare": "Câştigă Leeds United cu Tottenham Hotspur?",
+      "intrebare_id": 7221,
+      "rationament": "Tottenham este superior tehnic, dar avantajul terenului leedezian reduce marja de siguranță a oaspeților.",
+      "sha256": "ebc18249d0daeb5dc1b485d79198a3d841a6540b10e8223312d39711a6bd7636",
+      "valoare": 0.35
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 09:30:39",
+      "intrebare": "Câştigă Napoli cu Lazio?",
+      "intrebare_id": 7222,
+      "rationament": "Napoli domină acasă, dar Lazio este o echipă solidă care complică adesea meciurile în deplasare.",
+      "sha256": "65f86472ac8856adef3622a2f6a6c09c1603c0f227c0a9e7238f84171a0b3c66",
+      "valoare": 0.55
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 09:30:39",
+      "intrebare": "Câştigă Elche cu Real Betis?",
+      "intrebare_id": 7223,
+      "rationament": "Betis este o echipă de top în Liga, iar Elche luptă pentru menținere, favorizând oaspeții.",
+      "sha256": "3a089519cd9ed1f63703bf62db59f6c8356e9fb010b73b15b7be42809ef1c2db",
+      "valoare": 0.3
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 09:30:39",
+      "intrebare": "Câştigă Sepsi OSK cu Voluntari?",
+      "intrebare_id": 7224,
+      "rationament": "Meci echilibrat în Liga I, unde avantajul terenului nu garantează victoria împotriva unei echipe competitive.",
+      "sha256": "eed3e6e85d18567028af3b01ed3ca0548e2c9b49adabf00c7ef635cf51eda186",
+      "valoare": 0.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 09:30:39",
+      "intrebare": "Câştigă Brighton and Hove Albion cu Brentford?",
+      "intrebare_id": 7225,
+      "rationament": "Brighton joacă ofensiv acasă, dar Brentford este periculos la contra, menținând echilibrul relativ.",
+      "sha256": "7f7ad46de261c459e1a9efb136137f7d292f485c2ffd2f2dd6d8f8d8bfb20712",
+      "valoare": 0.55
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 09:30:39",
+      "intrebare": "Câştigă Genoa cu AC Milan?",
+      "intrebare_id": 7226,
+      "rationament": "Milan este clar superior ca valoare individuală și tactică, chiar și în deplasare la Genoa.",
+      "sha256": "19e45bb6afb0b2daff3354b83eae05aabde5284cf7d138238cfd211f09707982",
+      "valoare": 0.25
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 09:30:39",
+      "intrebare": "Câştigă Brest cu Lyon?",
+      "intrebare_id": 7227,
+      "rationament": "Lyon are potențial mai mare, dar Brest este solid acasă, făcând meciul foarte deschis.",
+      "sha256": "9e9fe855a3b60bd4e74493817c8cc5a203472757f2e67e8246f7c0534e8172d1",
+      "valoare": 0.4
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 09:30:39",
+      "intrebare": "Câştigă CFR 1907 Cluj cu Universitatea Craiova?",
+      "intrebare_id": 7228,
+      "rationament": "Craiova este favorită tehnic, dar Cluj este puternic acasă, reducând probabilitatea victoriei oaspeților.",
+      "sha256": "0532d8e9519be439a849378af637da2941032d8dd759e6e8875736085a1f4724",
+      "valoare": 0.45
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 09:30:39",
+      "intrebare": "Câştigă Inter Milan cu Como?",
+      "intrebare_id": 7229,
+      "rationament": "Inter este dominant acasă și superior ca experiență și adâncime de lot față de Como.",
+      "sha256": "9c8800764f0a1fef3e7441bcbd94d2fd24bfe22f4791b255888ccc76e11ca576",
+      "valoare": 0.7
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 09:30:39",
+      "intrebare": "Câştigă Atlético Madrid cu Barcelona?",
+      "intrebare_id": 7230,
+      "rationament": "Barcelona este superioară tehnic, dar stilul defensiv al Atlético acasă echilibrează șansele.",
+      "sha256": "3c1fb42637b47910d9051567a1f3a736123d2ab72d4585c7fb070fc25ee50614",
+      "valoare": 0.4
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-07 16:45:14",
+      "intrebare": "Preţul Bitcoin pe 2026-11-08",
+      "intrebare_id": 7231,
+      "rationament": "tendință ascendentă",
+      "sha256": "74992f4c3c63b939f9ef3e47c2601bac2c9a908f006034a1b19abc4f33d14b1d",
+      "valoare": 76000.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-07 16:45:14",
+      "intrebare": "Preţul Ethereum pe 2026-11-08",
+      "intrebare_id": 7232,
+      "rationament": "stabilizare",
+      "sha256": "77816593f150d95687c03dc1e04b7f35c071626ff4f719920ad2b40147661837",
+      "valoare": 2250.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-07 16:45:14",
+      "intrebare": "Preţul Solana pe 2026-11-08",
+      "intrebare_id": 7233,
+      "rationament": "fluctuații mici",
+      "sha256": "e5dc93fbd0f3ff017bba871f4011b22f77e785f01ffee92b9ead35ab2f391af9",
+      "valoare": 90.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-07 16:45:14",
+      "intrebare": "Preţul XRP pe 2026-11-08",
+      "intrebare_id": 7234,
+      "rationament": "scădere ușoară",
+      "sha256": "6604ffde9930af867e1ec6e22c21a11102dc363ca0b8b3cb40eb4f02890fbda4",
+      "valoare": 1.2
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-07 16:45:14",
+      "intrebare": "Preţul Cardano pe 2026-11-08",
+      "intrebare_id": 7235,
+      "rationament": "stabil",
+      "sha256": "2f9d42060df5a98636ce221def87df106133bf67ea3808fc2516d482d251d163",
+      "valoare": 0.19
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-07 16:45:14",
+      "intrebare": "Preţul Dogecoin pe 2026-11-08",
+      "intrebare_id": 7236,
+      "rationament": "fără schimbări",
+      "sha256": "74556481a27df0b1d2b69c404ae59e44a3487e79b9669d3d85e357ce7d6f79c3",
+      "valoare": 0.07
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-07 16:45:14",
+      "intrebare": "Preţul BNB pe 2026-11-08",
+      "intrebare_id": 7237,
+      "rationament": "creștere lentă",
+      "sha256": "896318c778b063a4c389a6deb85b42db6983bd7ec9ee0442137d1306239b9902",
+      "valoare": 700.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 16:47:06",
+      "intrebare": "Preţul Bitcoin pe 2026-11-08",
+      "intrebare_id": 7231,
+      "rationament": "prețul de închidere de azi, conform reperului",
+      "sha256": "146a7e8e0473335150d80a78a397107aaa361e93824d4e930e408aed3bef2e1e",
+      "valoare": 75937.67
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 16:47:06",
+      "intrebare": "Preţul Ethereum pe 2026-11-08",
+      "intrebare_id": 7232,
+      "rationament": "prețul de închidere de azi, conform reperului",
+      "sha256": "17c1b4ce6fffe7d4ad8f7362f8d9602becef6fd8eeb3370d841f20ce21c65356",
+      "valoare": 2245.21
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 16:47:06",
+      "intrebare": "Preţul Solana pe 2026-11-08",
+      "intrebare_id": 7233,
+      "rationament": "prețul de închidere de azi, conform reperului",
+      "sha256": "652658afbdc34d97ef69dbf8da6d4cdfa8f939b202c2199711d67c3e0e59f46b",
+      "valoare": 89.94
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 16:47:06",
+      "intrebare": "Preţul XRP pe 2026-11-08",
+      "intrebare_id": 7234,
+      "rationament": "prețul de închidere de azi, conform reperului",
+      "sha256": "c1ab748835ec4e21f8e555efa04d832a15b2c0364f82737f368a0a5df476d1e2",
+      "valoare": 1.17
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 16:47:06",
+      "intrebare": "Preţul Cardano pe 2026-11-08",
+      "intrebare_id": 7235,
+      "rationament": "prețul de închidere de azi, conform reperului",
+      "sha256": "cc0a644b32109fb523f0a037a7f44e0108c742713e9b3814bc87fd8bbd27fea5",
+      "valoare": 0.18
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 16:47:06",
+      "intrebare": "Preţul Dogecoin pe 2026-11-08",
+      "intrebare_id": 7236,
+      "rationament": "prețul de închidere de azi, conform reperului",
+      "sha256": "417c27a26054a0eabb9e55322edacdd79bf42d00d424ee8e9394e272f2e68d53",
+      "valoare": 0.07
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 16:47:06",
+      "intrebare": "Preţul BNB pe 2026-11-08",
+      "intrebare_id": 7237,
+      "rationament": "prețul de închidere de azi, conform reperului",
+      "sha256": "16f3f2d8f191a95423a08ab152ab7ea79a8ef4f4b2e83bc5dd8319e5a08c7429",
+      "valoare": 695.04
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 16:47:09",
+      "intrebare": "Preţul Bitcoin pe 2026-11-08",
+      "intrebare_id": 7231,
+      "rationament": "Ușoară revenire după scădere, nivel susținut în jurul 76k.",
+      "sha256": "4a9e5cc45014b65b0d4b065fd0dda8530f27c72f7d40533570669740db1e0f8c",
+      "valoare": 76200.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 16:47:09",
+      "intrebare": "Preţul Ethereum pe 2026-11-08",
+      "intrebare_id": 7232,
+      "rationament": "Corecție moderată după vârf, menținere în zona 2.2k‑2.3k.",
+      "sha256": "6c26b2847da82c8f5030de4353e4089e5410c0ae6630051ab5b905a6edb77d4f",
+      "valoare": 2260.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 16:47:09",
+      "intrebare": "Preţul Solana pe 2026-11-08",
+      "intrebare_id": 7233,
+      "rationament": "Oscilație limitată, tendință ușor ascendentă spre 90 USD.",
+      "sha256": "133e529b4d2023d1d594243579c60985d4f2b9ebd1d09d5e4b20d8d79b0716b4",
+      "valoare": 90.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 16:47:09",
+      "intrebare": "Preţul XRP pe 2026-11-08",
+      "intrebare_id": 7234,
+      "rationament": "Scădere continuă, posibilă stabilizare sub 1.2 USD.",
+      "sha256": "2ce531def54279ab4869f989954bbc81a9187cd2aee0996d05ddccbdf360ca69",
+      "valoare": 1.15
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 16:47:09",
+      "intrebare": "Preţul Cardano pe 2026-11-08",
+      "intrebare_id": 7235,
+      "rationament": "Preț stabil, fără semnale majore de schimbare.",
+      "sha256": "57df39ef790e4e512b5620f65f62ad135b35397131efc7b5770cfd3cb6ab0a47",
+      "valoare": 0.18
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 16:47:09",
+      "intrebare": "Preţul Dogecoin pe 2026-11-08",
+      "intrebare_id": 7236,
+      "rationament": "Păstrează nivelul recent, volatilitate scăzută.",
+      "sha256": "97721f3c9463a2f43107a685625088f086c4e4227c64eb392dd6e82bdf5ae618",
+      "valoare": 0.07
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 16:47:09",
+      "intrebare": "Preţul BNB pe 2026-11-08",
+      "intrebare_id": 7237,
+      "rationament": "Ușoară recuperare după corecție, în jurul 698 USD.",
+      "sha256": "7af1ab6c1f642d0d83ce654f4c1cf99430713ac77b9dda4d23fc8f7ab479bc09",
+      "valoare": 698.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 16:47:17",
+      "intrebare": "Preţul Bitcoin pe 2026-11-08",
+      "intrebare_id": 7231,
+      "rationament": "După scăderile recente și stabilizarea de la 75.937 USD, mă aștept la o ușoară revenire tehnică pe termen scurt.",
+      "sha256": "8eab423d893e8db7becc45d0042a26b582da9906b3040b0c9f75af029b7f7a82",
+      "valoare": 76100.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 16:47:17",
+      "intrebare": "Preţul Ethereum pe 2026-11-08",
+      "intrebare_id": 7232,
+      "rationament": "Prețul s-a consolidat în jurul valorii de 2.245 USD, sugerând o menținere a nivelului actual în lipsa altor știri.",
+      "sha256": "d1d889bfb7c3b457f388cb34e7606c8c3b701f710038e6475b3601168dbce238",
+      "valoare": 2250.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 16:47:17",
+      "intrebare": "Preţul Solana pe 2026-11-08",
+      "intrebare_id": 7233,
+      "rationament": "După corecții, Solana tinde să se stabilizeze aproape de pragul de 90 USD prin mici mișcări laterale.",
+      "sha256": "8badaffecb7c4f6ab15efe95d2f862674824898a8fda7ae90f5a508ddf53e508",
+      "valoare": 90.2
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 16:47:17",
+      "intrebare": "Preţul XRP pe 2026-11-08",
+      "intrebare_id": 7234,
+      "rationament": "Stabilizarea ușoară de sub 1.18 USD indică o atenuare temporară a presiunii de vânzare din ultimele zile.",
+      "sha256": "65bae616dc19f3dd9c027274b1eeaa99c38c74f4b3c276b52c82462983619551",
+      "valoare": 1.175
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 16:47:17",
+      "intrebare": "Preţul Cardano pe 2026-11-08",
+      "intrebare_id": 7235,
+      "rationament": "Volatilitate redusă și o evoluție extrem de plată, anticipând menținerea prețului curent.",
+      "sha256": "f8ff91d242c4971368b7a14651ed94979ae94e97864bb0be05538b3a69d7a253",
+      "valoare": 0.181
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 16:47:17",
+      "intrebare": "Preţul Dogecoin pe 2026-11-08",
+      "intrebare_id": 7236,
+      "rationament": "A rămas blocat în aceeași zonă de preț redus, cu șanse minime de variații majore imediate.",
+      "sha256": "3a599aeb3fc944491169847c9917e5f86af9e128271f220f5b4a66f053a3cb30",
+      "valoare": 0.071
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 16:47:17",
+      "intrebare": "Preţul BNB pe 2026-11-08",
+      "intrebare_id": 7237,
+      "rationament": "BNB a arătat o rezistență bună în jurul valorii de 695 USD, sugerând o consolidare stabilă.",
+      "sha256": "3716a0e0714547703d8f2336e08187c75f7ec48718eba69a662925a1402b12f5",
+      "valoare": 696.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-07 16:47:37",
+      "intrebare": "Preţul Bitcoin pe 2026-11-08",
+      "intrebare_id": 7231,
+      "rationament": "3‑day average shows price stability; expect similar level tomorrow.",
+      "sha256": "9c7f5f83ab565e278f61bb4f47ed4ac85c6a97899ba88558cbbcb661b393b0e5",
+      "valoare": 75950.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-07 16:47:37",
+      "intrebare": "Preţul Ethereum pe 2026-11-08",
+      "intrebare_id": 7232,
+      "rationament": "3‑day average shows price stability; expect similar level tomorrow.",
+      "sha256": "60b600bdfb7663b1b950269c6791aa220ae1a4d92886142c51c9c5722aeba189",
+      "valoare": 2240.6
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-07 16:47:37",
+      "intrebare": "Preţul Solana pe 2026-11-08",
+      "intrebare_id": 7233,
+      "rationament": "3‑day average shows price stability; expect similar level tomorrow.",
+      "sha256": "7c56229ff7f45095c5a56171978e00da4df5806c191408dfb3168999f4117a51",
+      "valoare": 89.8
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-07 16:47:37",
+      "intrebare": "Preţul XRP pe 2026-11-08",
+      "intrebare_id": 7234,
+      "rationament": "3‑day average shows price stability; expect similar level tomorrow.",
+      "sha256": "bd29f09510f191d28402127736d6b7656af8055bad9a370dbd465a206bfb5d53",
+      "valoare": 1.19
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-07 16:47:37",
+      "intrebare": "Preţul Cardano pe 2026-11-08",
+      "intrebare_id": 7235,
+      "rationament": "3‑day average shows price stability; expect similar level tomorrow.",
+      "sha256": "c1f26012b178301fd09ed50262da0bf759db11c3921d0d1b03abd9a0884d96d3",
+      "valoare": 0.18
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-07 16:47:37",
+      "intrebare": "Preţul Dogecoin pe 2026-11-08",
+      "intrebare_id": 7236,
+      "rationament": "3‑day average shows price stability; expect similar level tomorrow.",
+      "sha256": "c36f42428587efb531c2424ef59e5c24f53408e4233418dc9c0e19476af260dc",
+      "valoare": 0.07
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-07 16:47:37",
+      "intrebare": "Preţul BNB pe 2026-11-08",
+      "intrebare_id": 7237,
+      "rationament": "3‑day average shows price stability; expect similar level tomorrow.",
+      "sha256": "af1c5a31091b6f7caf3115291446bead0c24a5280c6aec216184c674d7b4ba0f",
+      "valoare": 692.8
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-07 16:48:26",
+      "intrebare": "Preţul Bitcoin pe 2026-11-08",
+      "intrebare_id": 7231,
+      "rationament": "Prețul a scăzut de la 80k la 75k. Aștept revenire.",
+      "sha256": "03115c00517a32b3ea0a96c84020828a64fc94a8e20f3e6c7541324c87b603b8",
+      "valoare": 76000.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-07 16:48:26",
+      "intrebare": "Preţul Ethereum pe 2026-11-08",
+      "intrebare_id": 7232,
+      "rationament": "Prețul a stagnat, aștept o mică creștere.",
+      "sha256": "da29cb72a91adbddf5d82e8062d9f48dbe5ca781cc93abbbfa5b78ede471d37f",
+      "valoare": 2250.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-07 16:48:26",
+      "intrebare": "Preţul Solana pe 2026-11-08",
+      "intrebare_id": 7233,
+      "rationament": "Scădere recentă, probabil continuare tendinței de scădere.",
+      "sha256": "c305c9391e9bc33afc7839743aad8e7cbc9424fe811f9298e983fe050b5883ed",
+      "valoare": 89.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-07 16:48:26",
+      "intrebare": "Preţul XRP pe 2026-11-08",
+      "intrebare_id": 7234,
+      "rationament": "Scădere constantă, aștept preț mai mic.",
+      "sha256": "58af8c656d5484f1b323c41c52fc6c55dc0b489ec879394c6dfed5ce33b01020",
+      "valoare": 1.16
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-07 16:48:26",
+      "intrebare": "Preţul Cardano pe 2026-11-08",
+      "intrebare_id": 7235,
+      "rationament": "Volatilitate scăzută, preț stabil.",
+      "sha256": "c8b3fe9d4d5898315c80983fc0f5a0849439543e195f5c9c99c9357ba1b5066a",
+      "valoare": 0.18
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-07 16:48:26",
+      "intrebare": "Preţul Dogecoin pe 2026-11-08",
+      "intrebare_id": 7236,
+      "rationament": "Volatilitate scăzută, preț stabil.",
+      "sha256": "6621e278ad4a0244a90ffd726402c4cd7050bb8bafdfee74712bbe59346d805e",
+      "valoare": 0.07
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-07 16:48:26",
+      "intrebare": "Preţul BNB pe 2026-11-08",
+      "intrebare_id": 7237,
+      "rationament": "Scădere ușoară, aștept revenire.",
+      "sha256": "d53577dfb98d9ecba2c5f26645579c1ecb553e9e69998f84d449af2adb20514c",
+      "valoare": 696.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 16:48:31",
+      "intrebare": "Preţul Bitcoin pe 2026-11-08",
+      "intrebare_id": 7231,
+      "rationament": "Volatilitatea recentă sugerează o stabilizare, deci prețul de azi rămâne cea mai probabilă estimare pentru mâine.",
+      "sha256": "d18a62a0b597dbaaa84084e193b2f3842397919e65ff93adc53b7dac000bf9bb",
+      "valoare": 75937.67
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 16:48:31",
+      "intrebare": "Preţul Ethereum pe 2026-11-08",
+      "intrebare_id": 7232,
+      "rationament": "Lipsa unui trend clar indică o continuare a nivelului actual, evitând supraponderea mișcărilor anterioare.",
+      "sha256": "94540c5eccd17b8aca52882091f71e009d632d2d567d8e77d0d4bd2c43e50896",
+      "valoare": 2245.21
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 16:48:31",
+      "intrebare": "Preţul Solana pe 2026-11-08",
+      "intrebare_id": 7233,
+      "rationament": "Tendința ușor descendentă se oprește, iar prețul de închidere actual reflectă cel mai bine așteptările de piață.",
+      "sha256": "d861a3a5ebaeb529a31681118d3ca6b1d3b6b7433c94bc5791dab284bb9c3592",
+      "valoare": 89.94
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 16:48:31",
+      "intrebare": "Preţul XRP pe 2026-11-08",
+      "intrebare_id": 7234,
+      "rationament": "Scăderea constantă din ultimele zile sugerează o inerție negativă, menținând nivelul actual ca reper realist.",
+      "sha256": "6ef7ecc49a7e0d67c2d9821ce83308ac1cb8e5cde22fd31e7637013677a65d86",
+      "valoare": 1.17
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 16:48:31",
+      "intrebare": "Preţul Cardano pe 2026-11-08",
+      "intrebare_id": 7235,
+      "rationament": "Stabilitatea prețului în ultimele zile indică o piață laterală, fără motive pentru o schimbare bruscă.",
+      "sha256": "94e2a8ee7d5b72d617ef83267972015622056bd2646a37afec3a270ddd370313",
+      "valoare": 0.18
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 16:48:31",
+      "intrebare": "Preţul Dogecoin pe 2026-11-08",
+      "intrebare_id": 7236,
+      "rationament": "Lipsa de volatilitate semnificativă sugerează o continuare a nivelului actual, fără impulsuri noi de preț.",
+      "sha256": "e3881777ee18d0c0448fc0d6c0e73234b673f10c62071037e2d2f5d3a4f6cb7b",
+      "valoare": 0.07
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 16:48:31",
+      "intrebare": "Preţul BNB pe 2026-11-08",
+      "intrebare_id": 7237,
+      "rationament": "Oscilațiile recente se echilibrează, iar prețul de azi este cea mai prudentă estimare pentru mâine.",
+      "sha256": "662fb8de80a9116433f4422e23821b6b6cd93f44b80b6519fa2e830cddf5fa39",
+      "valoare": 695.04
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-11-07 16:49:14",
+      "intrebare": "Preţul Bitcoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7238,
+      "rationament": "După corecția de la vârful recent, prețul dă semne de consolidare și o ușoară revenire spre media mobilă pe termen scurt.",
+      "sha256": "d7ccb025e15204551b73ff69edfef530a0e6ee36a8bdb015e76fa11f78c11e64",
+      "valoare": 76500.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-11-07 16:49:14",
+      "intrebare": "Preţul Ethereum pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7239,
+      "rationament": "Prețul a absorbit scăderea bruscă și tinde să revină treptat spre nivelul de echilibru dinaintea volatilității recente.",
+      "sha256": "2836cedda7310e3605602bbe158399b492b922a283bb7eaefd35158154e6d48a",
+      "valoare": 2265.0
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-11-07 16:49:14",
+      "intrebare": "Preţul Solana pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7240,
+      "rationament": "Nivelul de 90 USD oferă suport tehnic, favorizând o recuperare minoră după vânzările din ultimele zile.",
+      "sha256": "324f5cccaf66eb689ab275b591f5175babb504a4b028067d7ad0a077ba30ea99",
+      "valoare": 91.5
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-11-07 16:49:14",
+      "intrebare": "Preţul XRP pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7241,
+      "rationament": "Scăderea pare să încetinească în jurul valorii actuale, existând premise pentru o revenire marginală.",
+      "sha256": "ad569e9435b9d6b5b2b1575da46440051033db0bf2999911f525d6257fda879f",
+      "valoare": 1.19
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-11-07 16:49:14",
+      "intrebare": "Preţul Cardano pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7242,
+      "rationament": "Volatilitatea rămâne foarte redusă, prețul urmând să fluctueze strâns în jurul mediei recente.",
+      "sha256": "37600c75486d847c68708156f8831232db258fa7d42a356cbb457c058664dee5",
+      "valoare": 0.185
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-11-07 16:49:14",
+      "intrebare": "Preţul Dogecoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7243,
+      "rationament": "Activul manifestă stabilitate la pragul curent, indicând o oscilație modestă în absența unor catalizatori majori.",
+      "sha256": "823ffd16d309e6490a53a95483442927f0ecf576ec8cfa94acdf902c25e52a46",
+      "valoare": 0.074
+    },
+    {
+      "agent": "gemini-flash",
+      "creata_la": "2026-11-07 16:49:14",
+      "intrebare": "Preţul BNB pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7244,
+      "rationament": "Suportul din zona 690-695 USD a rezistat, favorizând revenirea peste pragul psihologic de 700 USD.",
+      "sha256": "ca28b5b6689152ab7a53179cbd5575f2fc3076088a9a375fea391c850f84a6cd",
+      "valoare": 702.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-07 16:49:17",
+      "intrebare": "Preţul Bitcoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7238,
+      "rationament": "trend crescător",
+      "sha256": "2fbcd188853706815b95d3c713d299694d91767d18aaf7844c53768dd3e8fee8",
+      "valoare": 78000.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-07 16:49:17",
+      "intrebare": "Preţul Ethereum pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7239,
+      "rationament": "stabilizare",
+      "sha256": "d82ec842d94fa964a11190e00c577a208f4362d7f90fe64a732b1579ff825235",
+      "valoare": 2300.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-07 16:49:17",
+      "intrebare": "Preţul Solana pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7240,
+      "rationament": "volatilitate scăzută",
+      "sha256": "86cfc8da58df98f7f13aeec7553401a82ae3f71a85b5270363498464f5d4a70c",
+      "valoare": 92.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-07 16:49:17",
+      "intrebare": "Preţul XRP pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7241,
+      "rationament": "corecție",
+      "sha256": "08b5ab55583af3f19f01a41379500505472bb76ce96a34eb8bd9bf5216613f54",
+      "valoare": 1.2
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-07 16:49:17",
+      "intrebare": "Preţul Cardano pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7242,
+      "rationament": "stabil",
+      "sha256": "b385e6566bda54d6eb4071206cdb5527ede2c62fd1c7c07c3c3fe590e1909c39",
+      "valoare": 0.19
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-07 16:49:17",
+      "intrebare": "Preţul Dogecoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7243,
+      "rationament": "trend descrescător",
+      "sha256": "227cfce27364594250b49a4a3a40d3bca4b54d476a8f0ff195ae84ee2d6761e4",
+      "valoare": 0.07
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-07 16:49:17",
+      "intrebare": "Preţul BNB pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7244,
+      "rationament": "creștere lentă",
+      "sha256": "19f5c6d60a6bc830e0689b95e86131aea0b008bcf5cea93ff994b36818536b71",
+      "valoare": 710.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 16:49:47",
+      "intrebare": "Preţul Bitcoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7238,
+      "rationament": "stabilitate recentă, tendință laterală",
+      "sha256": "a383d27468267bbe952b6ccca3ff3533663ee145f00f6c720c2fd44aa3040f0b",
+      "valoare": 78000.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 16:49:47",
+      "intrebare": "Preţul Ethereum pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7239,
+      "rationament": "consolidare în jurul mediei recente",
+      "sha256": "0ffc9ffa288f26a9659edb7e9dccba6e63fec23f7d29720bdbd128bd506eed86",
+      "valoare": 2250.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 16:49:47",
+      "intrebare": "Preţul Solana pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7240,
+      "rationament": "scădere ușoară din cauza presiunii vânzătorilor",
+      "sha256": "16de5182188faa0e1cfba5c874c96320d3f0c5a31413e436b3680c5e812344bd",
+      "valoare": 90.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 16:49:47",
+      "intrebare": "Preţul XRP pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7241,
+      "rationament": "continuarea declinului din ultimele zile",
+      "sha256": "86e90afe49f655fea46308bed90c688b347f06f27cfb0ecd24200ba4ca8fc4c2",
+      "valoare": 1.15
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 16:49:47",
+      "intrebare": "Preţul Cardano pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7242,
+      "rationament": "lipsa impulsului ascendent",
+      "sha256": "3bb2022634ee8ccf4c4ad7449a6d2d35375902b1afcba5d83414ccfa3462770e",
+      "valoare": 0.18
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 16:49:47",
+      "intrebare": "Preţul Dogecoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7243,
+      "rationament": "stabilitate la niveluri actuale",
+      "sha256": "2306428149323931888e0b08938a19f9fe3051b4574a99fe5910a6c9814245f8",
+      "valoare": 0.07
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 16:49:47",
+      "intrebare": "Preţul BNB pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7244,
+      "rationament": "corecție minoră față de vârfurile recente",
+      "sha256": "15088b70006be28de2318adcf0fc7832ffe3a936f770a570aa00eca2f7623912",
+      "valoare": 690.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 16:49:49",
+      "intrebare": "Preţul Bitcoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7238,
+      "rationament": "Corelație ușoară cu trendul descendent recent și volatilitatea moderată.",
+      "sha256": "73d5ea66fb163f270b9d4ec66107424c95d111cd82f87321b942edb4edfc29fb",
+      "valoare": 77000.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 16:49:49",
+      "intrebare": "Preţul Ethereum pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7239,
+      "rationament": "După un spike, revine la nivelul mediu al ultimei săptămâni.",
+      "sha256": "ee19840ff96a2ca9793b7c67dd9989817e00abfc3f2ab9c1a96395052c17ae34",
+      "valoare": 2300.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 16:49:49",
+      "intrebare": "Preţul Solana pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7240,
+      "rationament": "Oscilații în jurul 90 USD, fără tendință clară.",
+      "sha256": "e3eb689c56d643a37f608cc149f7f04bff9f3053fbe05298bd11437770145bd8",
+      "valoare": 90.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 16:49:49",
+      "intrebare": "Preţul XRP pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7241,
+      "rationament": "Ușor de scăzut, dar se menține în jurul mediei săptămânii.",
+      "sha256": "af88f324263c7e5a5806efaa2b731229723de279f090865c932b25103a481142",
+      "valoare": 1.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 16:49:49",
+      "intrebare": "Preţul Cardano pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7242,
+      "rationament": "Stabil în jurul valorii de 0.19 USD.",
+      "sha256": "a68d1ad1737ab565938d74d231b51f19201c5fb3d547f35a1ea73b5086ee4a74",
+      "valoare": 0.19
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 16:49:49",
+      "intrebare": "Preţul Dogecoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7243,
+      "rationament": "Fluctuație mică între 0.07 și 0.08, medie estimată.",
+      "sha256": "0fe2c37941d6a29c3db9d69be2d5bbb9a54aa3f88f7c8d70cf1a3034b8760224",
+      "valoare": 0.075
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 16:49:49",
+      "intrebare": "Preţul BNB pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7244,
+      "rationament": "După creșterea temporară, revine la nivelul mediu recent.",
+      "sha256": "6c05d532bdd6a03bfda801063fad86c167659b810a4df8b90de18aff6da4bab5",
+      "valoare": 700.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 16:49:51",
+      "intrebare": "Preţul Bitcoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7238,
+      "rationament": "Piața consolidează după recentele corecții, menținând un nivel de suport stabil aproape de media ultimelor zile.",
+      "sha256": "64bd5bee58932b14b8e8cc5aa7b69dc5328c39bfc60865664e881f012990d6d0",
+      "valoare": 76500.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 16:49:51",
+      "intrebare": "Preţul Ethereum pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7239,
+      "rationament": "Ethereum urmează îndeaproape sentimentul general din piață, stabilizându-se în jurul valorii de 2.250 USD.",
+      "sha256": "0752e954ace9581dfe683d00935ef271798ca86a996c67f7c85ab3d48e9ac95e",
+      "valoare": 2250.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 16:49:51",
+      "intrebare": "Preţul Solana pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7240,
+      "rationament": "Solana arată o ușoară tendință de stabilizare în zona pragului psihologic de 90 USD.",
+      "sha256": "ad6b7643046222bac41798e10a711942640e87a5b03d256af7e199d091feb553",
+      "valoare": 90.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 16:49:51",
+      "intrebare": "Preţul XRP pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7241,
+      "rationament": "După o ușoară scădere recentă, prețul tinde să se consolideze în jurul valorii actuale.",
+      "sha256": "a5bedbe4d7eef38c3f71f03730718287cb56a83f4ff5a65e5caee894234015c3",
+      "valoare": 1.18
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 16:49:51",
+      "intrebare": "Preţul Cardano pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7242,
+      "rationament": "Volatilitate redusă, cu menținerea prețului constant în jurul valorii de 0,18 USD.",
+      "sha256": "1f45a658b481f606ce233540adf726d55fb932e05f7c0c20dfef67a8f0c83be1",
+      "valoare": 0.18
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 16:49:51",
+      "intrebare": "Preţul Dogecoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7243,
+      "rationament": "Lipsa de impuls nou va menține Dogecoin stabil la nivelul minim recent.",
+      "sha256": "6c4f500dbe9d2cf15ec365b3f71310c2926f418828d349314fef94cb66d3b4e2",
+      "valoare": 0.07
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 16:49:51",
+      "intrebare": "Preţul BNB pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7244,
+      "rationament": "BNB își menține rezistența în zona de 695 USD datorită lichidității constante din rețea.",
+      "sha256": "cc8f0c083e378e46501295c95a97771c85a481780b2506a351d28c71319f8c07",
+      "valoare": 695.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 16:50:12",
+      "intrebare": "Preţul Bitcoin pe 2026-11-08",
+      "intrebare_id": 7231,
+      "rationament": "Consolidare după respingerea de la 80.5k; drift zilnic neglijabil, aproape de ultima închidere, ușoară revenire medie.",
+      "sha256": "fad9c00542a6672a7900e0fd58dbfe187b90b8024c626c874934883d59ba5575",
+      "valoare": 75980.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 16:50:12",
+      "intrebare": "Preţul Ethereum pe 2026-11-08",
+      "intrebare_id": 7232,
+      "rationament": "Spike-ul din 4 noiembrie s-a retras complet; prețul stabil în jur de 2240, fără semnal direcțional clar.",
+      "sha256": "0fa757322427337477a94f3de2eec3ea0be09ff7296f612761ae285ad1c0430d",
+      "valoare": 2246.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 16:50:12",
+      "intrebare": "Preţul Solana pe 2026-11-08",
+      "intrebare_id": 7233,
+      "rationament": "Trend ușor descendent, dar stabilizare în jur de 90; predicție practic egală cu ultima închidere.",
+      "sha256": "cfa2e4c3775bc1d560e9f8571edac1414bb7a1fa9c3ee057760374aa7d03d652",
+      "valoare": 90.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 16:50:12",
+      "intrebare": "Preţul XRP pe 2026-11-08",
+      "intrebare_id": 7234,
+      "rationament": "Trei zile de scădere; momentum slab negativ compensat de posibilă revenire, rămân la ultima valoare.",
+      "sha256": "973654d03e78dab180bbfaee1cdd749375f6febfed72146e3d5d212c3600322a",
+      "valoare": 1.17
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 16:50:12",
+      "intrebare": "Preţul Cardano pe 2026-11-08",
+      "intrebare_id": 7235,
+      "rationament": "Precizia de două zecimale face orice abatere nesemnificativă; păstrez ultima închidere.",
+      "sha256": "c6ab3898f8ef7c1bb218fd81d7e50cb1074ea77fc01c6641e9a6520618ca484a",
+      "valoare": 0.18
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 16:50:12",
+      "intrebare": "Preţul Dogecoin pe 2026-11-08",
+      "intrebare_id": 7236,
+      "rationament": "Rotunjirea la două zecimale face ca reperul să fie aproape imbatabil; păstrez 0.07.",
+      "sha256": "6c944c980194bd5c75a2ba9265d274c3f9e380295cd3aa1260b5f2f479391dea",
+      "valoare": 0.07
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 16:50:12",
+      "intrebare": "Preţul BNB pe 2026-11-08",
+      "intrebare_id": 7237,
+      "rationament": "Revenire lentă după scăderea din 5 noiembrie; ajustare minimă în sus față de ultima închidere.",
+      "sha256": "37e2c47f27dfe15aaa6ca8825a3ab718aa337e86cdcb53777a467a8fa2e76be1",
+      "valoare": 695.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-07 16:50:16",
+      "intrebare": "Preţul Bitcoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7238,
+      "rationament": "Recent downtrend from 80k to 76k; expect continued sideways around 76k.",
+      "sha256": "67ea02d22d5eec41fe3792e7284d6047d8486569e84192aae6ce2af88cf0aa0b",
+      "valoare": 76000.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-07 16:50:16",
+      "intrebare": "Preţul Ethereum pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7239,
+      "rationament": "After Nov4 spike, price fell to ~2.24k; likely stays near that level.",
+      "sha256": "1cf5acafefc9b442628d0fb5c333092e0bde7cf009525cde2db2ab648dc68455",
+      "valoare": 2240.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-07 16:50:16",
+      "intrebare": "Preţul Solana pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7240,
+      "rationament": "Steady decline from 96 to 90; anticipate continuation near 90.",
+      "sha256": "12e99331673adce387b359866eaebd667427874b6863c5576c1b0041dba63b30",
+      "valoare": 90.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-07 16:50:16",
+      "intrebare": "Preţul XRP pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7241,
+      "rationament": "Gradual drop from 1.31 to 1.17; expect slight further dip to ~1.15.",
+      "sha256": "a33d70fe2bc7c8ae889f86f008076fc45a859c5315993cdf58dde2d683874cfd",
+      "valoare": 1.15
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-07 16:50:16",
+      "intrebare": "Preţul Cardano pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7242,
+      "rationament": "Flat around 0.18‑0.20; recent bias toward lower end.",
+      "sha256": "2443488f0bb3d98593db6495655eb103752486cb5a540916e75365d0a14c1c5d",
+      "valoare": 0.18
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-07 16:50:16",
+      "intrebare": "Preţul Dogecoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7243,
+      "rationament": "Consistent 0.07‑0.08 range; recent closes at 0.07.",
+      "sha256": "523b84d05181bc8dafc4b89de7dc94638730b177eb90793562cc169db4c9d143",
+      "valoare": 0.07
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-07 16:50:16",
+      "intrebare": "Preţul BNB pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7244,
+      "rationament": "Oscillating between 689‑720; recent average ~695.",
+      "sha256": "7b3de7cf08c0fd930c226ff53df9cec0cfb1f0816269bd3ba456338dddf3021a",
+      "valoare": 695.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 16:50:25",
+      "intrebare": "Preţul Bitcoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7238,
+      "rationament": "După spike-ul din 4 nov, prețul s-a stabilizat lângă 76k; aștept o mică revenire spre media de 10 zile.",
+      "sha256": "d044a3894bbdd20918ea4f12e40e52c45cf29d9a982f6dc3005fe5a94c9ddfbb",
+      "valoare": 76300.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 16:50:25",
+      "intrebare": "Preţul Ethereum pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7239,
+      "rationament": "Spike-ul spre 2424 s-a anulat complet; consolidare strânsă în jur de 2240-2275, deci estimez aproape de prețul actual.",
+      "sha256": "9eca31f948b5e3456e35cac3e5a11cf9d2c990dbba66aed9dd2e211c2293ae14",
+      "valoare": 2250.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 16:50:25",
+      "intrebare": "Preţul Solana pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7240,
+      "rationament": "Trend ușor descendent de la 96 la 90; estimez o stabilizare cu o revenire minoră.",
+      "sha256": "86584720e34948c4ca9372320dc4308e0633b0d362c63cb3504bfc9f26266b27",
+      "valoare": 90.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 16:50:25",
+      "intrebare": "Preţul XRP pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7241,
+      "rationament": "Scădere de trei zile la rând; o revenire parțială spre 1.20 e plauzibilă, dar momentumul rămâne slab.",
+      "sha256": "2041245d5172611be3ba14eacb9a91f14275b1e3acf3c14ea857b2c46e03cb4f",
+      "valoare": 1.19
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 16:50:25",
+      "intrebare": "Preţul Cardano pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7242,
+      "rationament": "Interval foarte îngust și rotunjirea la două zecimale; cel mai probabil rămâne la 0.18.",
+      "sha256": "c62515eb4fb6919b94caffb116e4ca5dd22cee2a94936b7937e857f665477ed8",
+      "valoare": 0.18
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 16:50:25",
+      "intrebare": "Preţul Dogecoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7243,
+      "rationament": "Prețul e stabil la 0.07-0.08, iar rotunjirea face ca prețul actual să fie cea mai bună estimare.",
+      "sha256": "2d63f67f8026b4a9fa824afdefcdfa57669544ad6e61ac4caeac90b14be2a6fb",
+      "valoare": 0.07
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 16:50:25",
+      "intrebare": "Preţul BNB pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7244,
+      "rationament": "BNB are volatilitate redusă și oscilează între 690 și 720; estimez o ușoară revenire spre medie.",
+      "sha256": "5d120091f9aa03ff8d093011dc3d4efdfd87c03935ea25e536599875363561a2",
+      "valoare": 697.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-07 16:51:25",
+      "intrebare": "Preţul Bitcoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7238,
+      "rationament": "Trendă scăzătoare recentă sugerează continuarea scăderii pe termen scurt.",
+      "sha256": "30c1ad5e6ce665b24e0c8827a964b149be29e14dd4bad2cd0deca0fea6146d6b",
+      "valoare": 72000.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-07 16:51:25",
+      "intrebare": "Preţul Ethereum pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7239,
+      "rationament": "Mișcare laterală cu presiune vânzători în ultimele zile.",
+      "sha256": "1f0bc60f251405f171dc164c1bf012fb79b16e32a9f803412ca1d6fe442bd4c1",
+      "valoare": 2100.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-07 16:51:25",
+      "intrebare": "Preţul Solana pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7240,
+      "rationament": "Consolidare în zona recentă de prețuri mai mici.",
+      "sha256": "2309b69aee18ec9a15bbf2d3f121b90ef0cf30394f4c3a3e4b19974ad57e7e4e",
+      "valoare": 85.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-07 16:51:25",
+      "intrebare": "Preţul XRP pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7241,
+      "rationament": "Volatilitate redusă, așteptat un mic ajustare în jos.",
+      "sha256": "f6220138808206fa26e13588d1a71084451d575d212bb843718664a91a45e4ea",
+      "valoare": 1.15
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-07 16:51:25",
+      "intrebare": "Preţul Cardano pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7242,
+      "rationament": "Piață stabilă, scădere minimă probabilă a prețului.",
+      "sha256": "dc76971f6b559beb133a70225fe0bb7476db07be934e4d8aa720f787c7b6d8e1",
+      "valoare": 0.17
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-07 16:51:25",
+      "intrebare": "Preţul Dogecoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7243,
+      "rationament": "Presiune vânzători puternică, prețul se apropie de suport.",
+      "sha256": "0e7015d1c8a69f8e4e1c2ae2f2487a6da6e25a51e9d233423bf1a74dd28a9a45",
+      "valoare": 0.06
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-07 16:51:25",
+      "intrebare": "Preţul BNB pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7244,
+      "rationament": "Performanță slabă recentă, așteptat un mic test de suport.",
+      "sha256": "54a6fbab336fc89d802c6f42e62fead59670831242c85c90196e622fb374a847",
+      "valoare": 680.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 16:51:26",
+      "intrebare": "Preţul Bitcoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7238,
+      "rationament": "Tendința laterală sugerează o ușoară corecție în jos față de media recentă.",
+      "sha256": "c75021674669975de8005c32c44713aef61d6ff7ca82afa0c34149bdc814c4a5",
+      "valoare": 76500.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 16:51:26",
+      "intrebare": "Preţul Ethereum pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7239,
+      "rationament": "Volatilitate scăzută, prețul se va stabiliza în jurul valorii medii a ultimelor zile.",
+      "sha256": "772b82d6c63300fb9bf329f5d217b39f939c7aba4ad75b22cf1c511fd2542bc6",
+      "valoare": 2250.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 16:51:26",
+      "intrebare": "Preţul Solana pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7240,
+      "rationament": "Slăbirea continuă a prețului indică o persistență a trendului descendent pe termen scurt.",
+      "sha256": "1379399643af448b4ef7a0f3190d44a0db3ee7991aaa1125051f09df7e7b54e8",
+      "valoare": 90.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 16:51:26",
+      "intrebare": "Preţul XRP pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7241,
+      "rationament": "Corecția recentă de la 1.31 sugerează o stabilizare în jurul suportului actual.",
+      "sha256": "13d8ba2a13fff5f9ea6a09c4c50542dd0d8ffa36d4be268366a82c4ae6e67f00",
+      "valoare": 1.18
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 16:51:26",
+      "intrebare": "Preţul Cardano pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7242,
+      "rationament": "Lipsa de momentum și prețul constant indică o continuare a stagnării la nivel actual.",
+      "sha256": "02f6a9b02b56e2044ccb6b3a5be446e44e34e5c8de20814cc5732218de647cd8",
+      "valoare": 0.18
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 16:51:26",
+      "intrebare": "Preţul Dogecoin pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7243,
+      "rationament": "Tendința de scădere lentă și volatilitate minimă susțin o valoare ușor sub media.",
+      "sha256": "e795f66ab93502e5d683047f1d7279d20c5bd41439c018a7eeea124f042f731c",
+      "valoare": 0.07
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 16:51:26",
+      "intrebare": "Preţul BNB pe 2026-11-14 (1 săptămână)",
+      "intrebare_id": 7244,
+      "rationament": "Mișcarea laterală în jurul a 700 USD sugerează o ușoară presiune bearish pe termen scurt.",
+      "sha256": "b6a68d08b71f9782c65aa3c82def71eca8a61564056b9ad1fe5d23b51cfe4e33",
+      "valoare": 695.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 17:30:41",
+      "intrebare": "Temperatura maximă la București pe 2026-11-08",
+      "intrebare_id": 7245,
+      "rationament": "Temperatura în scădere treptată, precipitații reduse în ultimele zile.",
+      "sha256": "22beb827fba042b1ed2d3b237b197f4aed10cfb5a2b0ecf06d6144a2acb4a877",
+      "valoare": 9.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 17:30:41",
+      "intrebare": "Va ploua la București pe 2026-11-08?",
+      "intrebare_id": 7246,
+      "rationament": "Temperatura în scădere treptată, precipitații reduse în ultimele zile.",
+      "sha256": "2ad56ebf5d6caee448151fce9e0faa80b717963e83369b2ec19a9395a7d521dd",
+      "valoare": 0.25
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 17:30:41",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-08",
+      "intrebare_id": 7247,
+      "rationament": "Temperaturi în scădere, precipitații absente recent.",
+      "sha256": "130ca3627a308b5a3bab888e44db1ec321abc91fce8c20a870e0ffec419b21b9",
+      "valoare": 8.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 17:30:41",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-08?",
+      "intrebare_id": 7248,
+      "rationament": "Temperaturi în scădere, precipitații absente recent.",
+      "sha256": "aa15ac20149b3c73ea64d51b22629094c753431aad0e3908cd13995020028dc9",
+      "valoare": 0.1
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 17:30:41",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-08",
+      "intrebare_id": 7249,
+      "rationament": "Temperaturi scăzute, precipitații minime în ultimele zile.",
+      "sha256": "ab80e0d7acf09f3640051f2924bab19004f62d9f8cff4e72d76fce9d317e7d34",
+      "valoare": 7.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 17:30:41",
+      "intrebare": "Va ploua la Iași pe 2026-11-08?",
+      "intrebare_id": 7250,
+      "rationament": "Temperaturi scăzute, precipitații minime în ultimele zile.",
+      "sha256": "d0725a7bd871de32de3979afd29babde65d1f00288433b875e821e4f80afc5e2",
+      "valoare": 0.15
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 17:30:41",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-08",
+      "intrebare_id": 7251,
+      "rationament": "Temperaturi în scădere, fără precipitații recente.",
+      "sha256": "07f1ca40ca50b92515fa80cd0d92994deb3bf176a37256e77f82c4583f26a23b",
+      "valoare": 10.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 17:30:41",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-08?",
+      "intrebare_id": 7252,
+      "rationament": "Temperaturi în scădere, fără precipitații recente.",
+      "sha256": "ff5aeeabccc6398712453a1e1d134f644a57daa55029d937204ef3eefeff7b7c",
+      "valoare": 0.05
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 17:30:41",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-08",
+      "intrebare_id": 7253,
+      "rationament": "Temperaturi scăzute, precipitații variabile recent.",
+      "sha256": "6ad0cb9ff0fac4b3afbf06a1f64e62cc9459959b9f6cdaebe51b7066820679d3",
+      "valoare": 9.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 17:30:41",
+      "intrebare": "Va ploua la Constanța pe 2026-11-08?",
+      "intrebare_id": 7254,
+      "rationament": "Temperaturi scăzute, precipitații variabile recent.",
+      "sha256": "2104d4daa37f7679f19ce98eec4d5492c102cf9de1f7ce0c66604f4d6dfadffd",
+      "valoare": 0.2
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 17:30:41",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-08",
+      "intrebare_id": 7255,
+      "rationament": "Temperaturi scăzute, precipitații reduse în ultimele zile.",
+      "sha256": "693adde85ce46fbd53155ffd26f10804106e4298cd2b3055ced278565e9f83e0",
+      "valoare": 6.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-07 17:30:41",
+      "intrebare": "Va ploua la Brașov pe 2026-11-08?",
+      "intrebare_id": 7256,
+      "rationament": "Temperaturi scăzute, precipitații reduse în ultimele zile.",
+      "sha256": "0a14dc9c19a8ea4f103f604cba336c7da5fb99ec87a4a0152599dde7f0e3e852",
+      "valoare": 0.15
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 17:30:45",
+      "intrebare": "Temperatura maximă la București pe 2026-11-08",
+      "intrebare_id": 7245,
+      "rationament": "Temperatura scade ușor; ultimele două zile ~9‑10°C, fără precipitații.",
+      "sha256": "a38bee8092df99f06d453b1597418d3676a530c2fede9ed334e9389e03c923b4",
+      "valoare": 9.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 17:30:45",
+      "intrebare": "Va ploua la București pe 2026-11-08?",
+      "intrebare_id": 7246,
+      "rationament": "Temperatura scade ușor; ultimele două zile ~9‑10°C, fără precipitații.",
+      "sha256": "e675c977dad891d5b00149efee02f95bc1c516857f2d7d13a3641724d9f9a401",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 17:30:45",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-08",
+      "intrebare_id": 7247,
+      "rationament": "Trend descendent spre 8°C, ultimele zile uscate.",
+      "sha256": "0278635291e6caf08d8df33b9d06b4eab6da5f8bf0ae7acdbc031f10eb1efba5",
+      "valoare": 7.8
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 17:30:45",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-08?",
+      "intrebare_id": 7248,
+      "rationament": "Trend descendent spre 8°C, ultimele zile uscate.",
+      "sha256": "6461f1d63fd469ac34fb59c8384d05a69e9816745b686ce536658c1f13e3d881",
+      "valoare": 0.15
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 17:30:45",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-08",
+      "intrebare_id": 7249,
+      "rationament": "Temperatura a coborât la 6°C; probabilitate mică de ploaie recentă.",
+      "sha256": "3203a0c3d5a269edb5fd90484947201acdddea2d11bb8cc26b25a5338cdadd97",
+      "valoare": 5.8
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 17:30:45",
+      "intrebare": "Va ploua la Iași pe 2026-11-08?",
+      "intrebare_id": 7250,
+      "rationament": "Temperatura a coborât la 6°C; probabilitate mică de ploaie recentă.",
+      "sha256": "d08d87ecd393cd0a56ebc33c0d580c36d0ed36af5cfbc5306b49d3cdeba0d3aa",
+      "valoare": 0.1
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 17:30:45",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-08",
+      "intrebare_id": 7251,
+      "rationament": "Scădere continuă, ultima zi 9.5°C, fără precipitații în 10 zile.",
+      "sha256": "2a3b222026cff354a95b7b980310eac525c25f05c0b3556d5321e284f4261455",
+      "valoare": 9.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 17:30:45",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-08?",
+      "intrebare_id": 7252,
+      "rationament": "Scădere continuă, ultima zi 9.5°C, fără precipitații în 10 zile.",
+      "sha256": "848e097907f573894f1fde8151a949b1e7dcefbb7f29fbfa62d2e89b89436579",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 17:30:45",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-08",
+      "intrebare_id": 7253,
+      "rationament": "Temperatura a scăzut la 7‑8°C; ploaie intensă recent, dar apoi uscat.",
+      "sha256": "cb117b2691a439fefd4a01a8ae892da95b12533d1b075e65932a88e18c418d44",
+      "valoare": 7.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 17:30:45",
+      "intrebare": "Va ploua la Constanța pe 2026-11-08?",
+      "intrebare_id": 7254,
+      "rationament": "Temperatura a scăzut la 7‑8°C; ploaie intensă recent, dar apoi uscat.",
+      "sha256": "9ee627b072366caec977d08bc8a81b34c05d46a98235374f02a8e4a7146a0133",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 17:30:45",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-08",
+      "intrebare_id": 7255,
+      "rationament": "Temperatura stabilă în jur de 6°C; precipitații intermitente, dar recente aproape zero.",
+      "sha256": "c3655e24026c36bb09f0dd592d9039988b4b24dce1dddbdab9567e1a308263e1",
+      "valoare": 6.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-07 17:30:45",
+      "intrebare": "Va ploua la Brașov pe 2026-11-08?",
+      "intrebare_id": 7256,
+      "rationament": "Temperatura stabilă în jur de 6°C; precipitații intermitente, dar recente aproape zero.",
+      "sha256": "5aed8ea40e4be67830dac2adf98e7e8de4438d1db2eb2e446dc1425dc3e44760",
+      "valoare": 0.25
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 17:30:49",
+      "intrebare": "Temperatura maximă la București pe 2026-11-08",
+      "intrebare_id": 7245,
+      "rationament": "Tendință de ușoară încălzire după zile reci; presiune ridicată recent aduce vreme stabilă, fără precipitații.",
+      "sha256": "8ce8d5269a57192e20ece04219604c7d197d9fc3a994c1a4e3747dcbd99e2d2f",
+      "valoare": 11.2
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 17:30:49",
+      "intrebare": "Va ploua la București pe 2026-11-08?",
+      "intrebare_id": 7246,
+      "rationament": "Tendință de ușoară încălzire după zile reci; presiune ridicată recent aduce vreme stabilă, fără precipitații.",
+      "sha256": "b50e7380a6236b6a9558b6a2dcd60336744af320ea683935b27e42d71952eb4e",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 17:30:49",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-08",
+      "intrebare_id": 7247,
+      "rationament": "Temperaturi scăzute constante, dar cerul senin va permite o ușoară revenire diurnă, fără precipitații.",
+      "sha256": "2ec42a56b4cc9bcb323059ea7979fb851018e80453275bdceff2ba6b500ea8e3",
+      "valoare": 9.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 17:30:49",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-08?",
+      "intrebare_id": 7248,
+      "rationament": "Temperaturi scăzute constante, dar cerul senin va permite o ușoară revenire diurnă, fără precipitații.",
+      "sha256": "8bc8d7d293cb13eacd6cae843a744c466d9646f93053eda40604ed0483355120",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 17:30:49",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-08",
+      "intrebare_id": 7249,
+      "rationament": "Masă de aer rece persistentă în est, cu tendință de stabilizări locale și cer variabil.",
+      "sha256": "3c90bd4e5a728198eedf94fdce2acfe66f75267eb2b331d79ed9a24b7f983884",
+      "valoare": 7.8
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 17:30:49",
+      "intrebare": "Va ploua la Iași pe 2026-11-08?",
+      "intrebare_id": 7250,
+      "rationament": "Masă de aer rece persistentă în est, cu tendință de stabilizări locale și cer variabil.",
+      "sha256": "37d73e6573fb075702f6ea75e9d1500ccfdbf2abf2c3d065a41f165391ee2f1e",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 17:30:49",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-08",
+      "intrebare_id": 7251,
+      "rationament": "Ușoară creștere față de minimul din 7 noiembrie, menținând regimul uscat și anticiclonic.",
+      "sha256": "812df8153cc44c32dd39f88faf4abf3427bb0fe9f216b584276d4ccac72ff88c",
+      "valoare": 11.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 17:30:49",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-08?",
+      "intrebare_id": 7252,
+      "rationament": "Ușoară creștere față de minimul din 7 noiembrie, menținând regimul uscat și anticiclonic.",
+      "sha256": "a7215d2e06ffe0e11c1f92612cf1db88e7411b8eff3a4bbde6d99585abc36041",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 17:30:49",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-08",
+      "intrebare_id": 7253,
+      "rationament": "Efectul maritim moderează frigul, iar lipsa perturbațiilor recente garantează o zi uscată.",
+      "sha256": "252397c2ef8c2c04bf365872bfb3819179d68551e223f1c554c010a017f3f42d",
+      "valoare": 10.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 17:30:49",
+      "intrebare": "Va ploua la Constanța pe 2026-11-08?",
+      "intrebare_id": 7254,
+      "rationament": "Efectul maritim moderează frigul, iar lipsa perturbațiilor recente garantează o zi uscată.",
+      "sha256": "eb8c1c5507a14045d2b7bd2082a3402bb69b6ab540adf14f04d974359470614f",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 17:30:49",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-08",
+      "intrebare_id": 7255,
+      "rationament": "Inversiune termică montană și răcire nocturnă accentuată, cu probabilitate mică de precipitații slabe.",
+      "sha256": "5ed7d5bb87303d51fe81fee5314e06df08627b4c6574ed9ab8635ea6eb0e7dc2",
+      "valoare": 7.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-07 17:30:49",
+      "intrebare": "Va ploua la Brașov pe 2026-11-08?",
+      "intrebare_id": 7256,
+      "rationament": "Inversiune termică montană și răcire nocturnă accentuată, cu probabilitate mică de precipitații slabe.",
+      "sha256": "b89d47dc7457cdc24133c57d77e883b6175a4c0e24afb1b0b975b11d33a09dc3",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 17:30:52",
+      "intrebare": "Temperatura maximă la București pe 2026-11-08",
+      "intrebare_id": 7245,
+      "rationament": "Tendința la coborâre continuă după ploaia intensă, cer senin recent sugerează uscare.",
+      "sha256": "09dca3b9e72f832feb058280a72373fbcb9a7a0adf8370778ede49e0870de5b0",
+      "valoare": 9.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 17:30:52",
+      "intrebare": "Va ploua la București pe 2026-11-08?",
+      "intrebare_id": 7246,
+      "rationament": "Tendința la coborâre continuă după ploaia intensă, cer senin recent sugerează uscare.",
+      "sha256": "e256cbcd592118f9cfa4f513a35b899b41560e79465179291acb9ae5fae1ecf0",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 17:30:52",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-08",
+      "intrebare_id": 7247,
+      "rationament": "Scădere constantă a temperaturii și patru zile consecutive fără precipitații indică stabilitate.",
+      "sha256": "cba12176b12f7fce9f316787041731c1605fbdd4549faf283f8024fe32318216",
+      "valoare": 7.8
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 17:30:52",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-08?",
+      "intrebare_id": 7248,
+      "rationament": "Scădere constantă a temperaturii și patru zile consecutive fără precipitații indică stabilitate.",
+      "sha256": "738c96b6565e061a7d65d389fdd990e40222e84a0ce0620ee163211cfce1be57",
+      "valoare": 0.05
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 17:30:52",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-08",
+      "intrebare_id": 7249,
+      "rationament": "Răcire bruscă recentă și tendința de scădere continuă, risc mic de ploaie.",
+      "sha256": "a5024a50b73730213ecec5ebd0b0703b5d64add27b97acec3b798ce4bbfb4182",
+      "valoare": 6.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 17:30:52",
+      "intrebare": "Va ploua la Iași pe 2026-11-08?",
+      "intrebare_id": 7250,
+      "rationament": "Răcire bruscă recentă și tendința de scădere continuă, risc mic de ploaie.",
+      "sha256": "106250e6f662a8eab54d046360715d4121e1ddd3582ff72100203aac706b4929",
+      "valoare": 0.15
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 17:30:52",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-08",
+      "intrebare_id": 7251,
+      "rationament": "Uscăciune totală în ultimele 10 zile și scădere moderată a temperaturii maxime.",
+      "sha256": "c8d800b4374b5fe358c90aa2d1e10e577b50a508621362e7f378d6794fd11715",
+      "valoare": 9.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 17:30:52",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-08?",
+      "intrebare_id": 7252,
+      "rationament": "Uscăciune totală în ultimele 10 zile și scădere moderată a temperaturii maxime.",
+      "sha256": "186adf595c72713e444314cc80fae28b32f40785192e9f89f9ddaac2f7b4347e",
+      "valoare": 0.05
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 17:30:52",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-08",
+      "intrebare_id": 7253,
+      "rationament": "Recuperare termică după furtună, dar persistă instabilitate reziduală și temperaturi scăzute.",
+      "sha256": "80acb03df74940aec951f15426abd2e24d5c5bde88e4291cccd1eb1d919c76d6",
+      "valoare": 8.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 17:30:52",
+      "intrebare": "Va ploua la Constanța pe 2026-11-08?",
+      "intrebare_id": 7254,
+      "rationament": "Recuperare termică după furtună, dar persistă instabilitate reziduală și temperaturi scăzute.",
+      "sha256": "ed9d7187c664e463df9794e8440d55db6de98adb9760ab661b316bd9ac4ac963",
+      "valoare": 0.1
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 17:30:52",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-08",
+      "intrebare_id": 7255,
+      "rationament": "Altitudine mare, temperaturi aproape de îngheț, risc crescut de precipitații mixte sau ninsoare.",
+      "sha256": "df5d3eb8f5cf4e78e8f4b2424da78f6c4935f532f8ae6354ab1eebecb2cfa0ef",
+      "valoare": 6.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-07 17:30:52",
+      "intrebare": "Va ploua la Brașov pe 2026-11-08?",
+      "intrebare_id": 7256,
+      "rationament": "Altitudine mare, temperaturi aproape de îngheț, risc crescut de precipitații mixte sau ninsoare.",
+      "sha256": "5cd1e7bc4a54dc084f749bfcbd3f7fc060fce79d3f8b0b21cb963d75cb7cd89c",
+      "valoare": 0.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 17:35:16",
+      "intrebare": "Temperatura maximă la București pe 2026-11-08",
+      "intrebare_id": 7245,
+      "rationament": "Două zile uscate după ploi; persistență în jur de 9-10°C, sub normala de ~12°C, fără semne de nou front.",
+      "sha256": "76a97e4d8c5f9dcd79b7ff0a9fa0c21d631509244c1b939b293dc74a6500e7ca",
+      "valoare": 9.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 17:35:16",
+      "intrebare": "Va ploua la București pe 2026-11-08?",
+      "intrebare_id": 7246,
+      "rationament": "Două zile uscate după ploi; persistență în jur de 9-10°C, sub normala de ~12°C, fără semne de nou front.",
+      "sha256": "4a6b37687d92f3a7027634801317c812c42182be88929cc5479d3a64b0c68e55",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 17:35:16",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-08",
+      "intrebare_id": 7247,
+      "rationament": "Cinci zile uscate și răcire lentă sugerează anticiclon; posibile inversiuni sau ceață țin maxima joasă.",
+      "sha256": "ce6ff47778fcdc7f7c5a4bd34cd247b65b6346162f2c9afe2824a0ea8476b6e4",
+      "valoare": 8.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 17:35:16",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-08?",
+      "intrebare_id": 7248,
+      "rationament": "Cinci zile uscate și răcire lentă sugerează anticiclon; posibile inversiuni sau ceață țin maxima joasă.",
+      "sha256": "178782a4d5b934826ff6850e14958d0e5ac42f04b41d04f8e26a7224c97896c1",
+      "valoare": 0.15
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 17:35:16",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-08",
+      "intrebare_id": 7249,
+      "rationament": "Răcire constantă până la 6.2°C și aer rece din nord-est; persistență cu ușoară revenire.",
+      "sha256": "cfcb6459622f5a5c252ee81c43b9a6ba74a7f4bf416671d3d21f00fc13090759",
+      "valoare": 6.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 17:35:16",
+      "intrebare": "Va ploua la Iași pe 2026-11-08?",
+      "intrebare_id": 7250,
+      "rationament": "Răcire constantă până la 6.2°C și aer rece din nord-est; persistență cu ușoară revenire.",
+      "sha256": "0e648177dd750d67abc579c33fb1a4d6adfa51dd456fe54abbf4b8446008ccf3",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 17:35:16",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-08",
+      "intrebare_id": 7251,
+      "rationament": "Zece zile fără precipitații și scădere treptată; regim anticiclonic stabil, continui tendința.",
+      "sha256": "8f662f569f0591ac85c0b983303f047407dc891b8b365877e80d692fb9a1f2f6",
+      "valoare": 9.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 17:35:16",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-08?",
+      "intrebare_id": 7252,
+      "rationament": "Zece zile fără precipitații și scădere treptată; regim anticiclonic stabil, continui tendința.",
+      "sha256": "385ec7ba96869ca1119b35c0d12fc94fe85cfd7f676eba1836881f9ba9fd4aa1",
+      "valoare": 0.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 17:35:16",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-08",
+      "intrebare_id": 7253,
+      "rationament": "După front, vânt din nord răcește litoralul; marea caldă limitează scăderea, deci puțin peste ieri.",
+      "sha256": "4e2069afcc8a32c831c3c6dd2be1f91cc84275ebd36cd746d4edd1cb634465b3",
+      "valoare": 8.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 17:35:16",
+      "intrebare": "Va ploua la Constanța pe 2026-11-08?",
+      "intrebare_id": 7254,
+      "rationament": "După front, vânt din nord răcește litoralul; marea caldă limitează scăderea, deci puțin peste ieri.",
+      "sha256": "9fc1d093be3335839ef1eb2a6ede57e0773131f57660afb0cb2fe3909d70028d",
+      "valoare": 0.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 17:35:16",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-08",
+      "intrebare_id": 7255,
+      "rationament": "Depresiune intramontană cu inversiuni în regim uscat; maxima stagnează în jur de 6°C.",
+      "sha256": "91bc7d28c20b1b8a46d3d27cf22995f9df2b6d56e9498c38249b9be1ea7b6392",
+      "valoare": 6.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-07 17:35:16",
+      "intrebare": "Va ploua la Brașov pe 2026-11-08?",
+      "intrebare_id": 7256,
+      "rationament": "Depresiune intramontană cu inversiuni în regim uscat; maxima stagnează în jur de 6°C.",
+      "sha256": "67995cd862a865fdcd68317929f99c218d1f206c6feae147a8a88b3d48a5631f",
+      "valoare": 0.2
+    }
+  ],
+  "zi": "2026-11-07"
+}
