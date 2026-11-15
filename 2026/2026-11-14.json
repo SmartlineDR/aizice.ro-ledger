@@ -1,0 +1,1304 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "8bed4fe2105a98025a0c4bec26378ce2f523de192c08061db01cad2b3e475827",
+  "nr_frunze": 144,
+  "predictii": [
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 16:45:19",
+      "intrebare": "Preţul Bitcoin pe 2026-11-15",
+      "intrebare_id": 7648,
+      "rationament": "Trend descendent accelerat, suport la 64k.",
+      "sha256": "2f5283d96d91112f75dd55ac643d412e3ef5638a9ca2f14dc1153e151bfe1431",
+      "valoare": 64500.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 16:45:19",
+      "intrebare": "Preţul Ethereum pe 2026-11-15",
+      "intrebare_id": 7649,
+      "rationament": "Scădere continuă, nivel de rezistență la 1.8k.",
+      "sha256": "3a448e45ee7af411b089b523f80604d3a4408cf028bb80176f920e46fbeae17d",
+      "valoare": 1750.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 16:45:19",
+      "intrebare": "Preţul Solana pe 2026-11-15",
+      "intrebare_id": 7650,
+      "rationament": "Cădere rapidă, prag psihologic sub 75.",
+      "sha256": "da89630ef6223885a17d9db26b55986ac6e10e986c45fb5574c5d41bd72d6847",
+      "valoare": 70.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 16:45:19",
+      "intrebare": "Preţul XRP pe 2026-11-15",
+      "intrebare_id": 7651,
+      "rationament": "Trend descendent, suport la 0.9.",
+      "sha256": "4ee95ff896f9f23cce95d038c8df1726874d295eb935c5b64c68207aad164d46",
+      "valoare": 0.95
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 16:45:19",
+      "intrebare": "Preţul Cardano pe 2026-11-15",
+      "intrebare_id": 7652,
+      "rationament": "Scădere lentă, zona 0.15‑0.16.",
+      "sha256": "3bb00f2c9ddae7896c1bb84cdf82020d000b6e1c08908b576fe6ecadcd031fe3",
+      "valoare": 0.15
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 16:45:19",
+      "intrebare": "Preţul Dogecoin pe 2026-11-15",
+      "intrebare_id": 7653,
+      "rationament": "Stabil la 0.06, ușor de scăzut.",
+      "sha256": "94085be2044fd7759a35b53d747b9b03c80a94ce67af95db854adbe2fa253f36",
+      "valoare": 0.06
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 16:45:19",
+      "intrebare": "Preţul BNB pe 2026-11-15",
+      "intrebare_id": 7654,
+      "rationament": "Cădere abruptă, următorul nivel de suport la 580.",
+      "sha256": "57c38eb5fc4298fa111bdc22e3f00c2ececc187ea99f432e125e7c03447b9509",
+      "valoare": 580.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-14 16:45:21",
+      "intrebare": "Preţul Bitcoin pe 2026-11-15",
+      "intrebare_id": 7648,
+      "rationament": "Piața este într-un trend descendent puternic, dar anticipez o moderare a scăderilor în weekend.",
+      "sha256": "33455c60e9244f71e9e0f131ebe49d64d443f7119e40d5aa2c143330d21359cf",
+      "valoare": 65200.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-14 16:45:21",
+      "intrebare": "Preţul Ethereum pe 2026-11-15",
+      "intrebare_id": 7649,
+      "rationament": "Urmează linia de colaps a Bitcoin-ului, dar momentumul negativ ar putea încetini ușor.",
+      "sha256": "28da1e5e1cb2754bd8f13df050d1ed652ccfa1916fd2eb1e71680fde674e6ab6",
+      "valoare": 1820.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-14 16:45:21",
+      "intrebare": "Preţul Solana pe 2026-11-15",
+      "intrebare_id": 7650,
+      "rationament": "Presiunea la vânzare rămâne ridicată pe tot segmentul altcoinelor majore.",
+      "sha256": "ca8229f9c17bc003e032f4ca7643b6341edf5bd25aea009d534c15ede81726a8",
+      "valoare": 72.5
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-14 16:45:21",
+      "intrebare": "Preţul XRP pe 2026-11-15",
+      "intrebare_id": 7651,
+      "rationament": "Volatilitatea redusă sugerează o ușoară stabilizare aproape de pragul de 1 USD.",
+      "sha256": "4d4f57bc2139c34f86b9ff99af2e2c0b5ee28a2db8329f272cfe771f4aaddd60",
+      "valoare": 0.97
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-14 16:45:21",
+      "intrebare": "Preţul Cardano pe 2026-11-15",
+      "intrebare_id": 7652,
+      "rationament": "Prețul stagnează la minime, cu variații zilnice aproape nule.",
+      "sha256": "ea0e199a6b1933fd9065d8667f44d026e89e5a7a0c8ef7349c5a9dac49db8de1",
+      "valoare": 0.16
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-14 16:45:21",
+      "intrebare": "Preţul Dogecoin pe 2026-11-15",
+      "intrebare_id": 7653,
+      "rationament": "Lipsa de volum menține activul blocat pe o traiectorie descendentă minoră.",
+      "sha256": "245e6b2593253e4111bd4fb4a3331dd5e5cb03bf223ba2c7a303a5eed92b162f",
+      "valoare": 0.06
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-14 16:45:21",
+      "intrebare": "Preţul BNB pe 2026-11-15",
+      "intrebare_id": 7654,
+      "rationament": "Corecția severă din ultimele zile poate continua moderat spre suportul psihologic.",
+      "sha256": "d28fb4747a50443325aa52dd8d7e10ca00b0d23d547f60cb86ac34f3822e1bfb",
+      "valoare": 590.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 16:45:59",
+      "intrebare": "Preţul Bitcoin pe 2026-11-15",
+      "intrebare_id": 7648,
+      "rationament": "Extrapolarea scăderii recente de ~2,9 % pe zi.",
+      "sha256": "adc65b03bc978ca420f20a24ebeff763206f05238e6cb14929eca7ed850736b9",
+      "valoare": 64432.77
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 16:45:59",
+      "intrebare": "Preţul Ethereum pe 2026-11-15",
+      "intrebare_id": 7649,
+      "rationament": "Extrapolarea scăderii recente de ~3,5 % pe zi.",
+      "sha256": "1ad7a2a47d41d6cced780b8cbbb1f5262768dcc02d2c09c6dfd3bea64552f2b4",
+      "valoare": 1796.22
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 16:45:59",
+      "intrebare": "Preţul Solana pe 2026-11-15",
+      "intrebare_id": 7650,
+      "rationament": "Extrapolarea scăderii recente de ~5,0 % pe zi.",
+      "sha256": "73dfb9a61e28c9758b7c772dc0fe5b2db9c54a7a379ff1e85bbf627641c936d6",
+      "valoare": 70.64
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 16:45:59",
+      "intrebare": "Preţul XRP pe 2026-11-15",
+      "intrebare_id": 7651,
+      "rationament": "Extrapolarea scăderii recente de ~2,0 % pe zi.",
+      "sha256": "7c7da2a7083e16344b6af9f375378f07b36615bd598d01905a90b281012c7847",
+      "valoare": 0.9704
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 16:45:59",
+      "intrebare": "Preţul Cardano pe 2026-11-15",
+      "intrebare_id": 7652,
+      "rationament": "Extrapolarea scăderii recente de ~5,9 % pe zi.",
+      "sha256": "c6419ed257fd80e7e1f82882acd44b0db2b868cefd68caf4deb13895a1bc3380",
+      "valoare": 0.1506
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 16:45:59",
+      "intrebare": "Preţul Dogecoin pe 2026-11-15",
+      "intrebare_id": 7653,
+      "rationament": "Prețul a fost stabil; prezic neschimbare.",
+      "sha256": "559beb8f75f9eca118860f72491070d346e43fd948562202bb2b4da151eb1c9f",
+      "valoare": 0.06
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 16:45:59",
+      "intrebare": "Preţul BNB pe 2026-11-15",
+      "intrebare_id": 7654,
+      "rationament": "Extrapolarea scăderii recente de ~4,5 % pe zi.",
+      "sha256": "80da67f78d3cbe4b48eb7d0472aab9daf656c7668ddad0632360ab60edbddbcd",
+      "valoare": 574.87
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 16:46:36",
+      "intrebare": "Preţul Bitcoin pe 2026-11-15",
+      "intrebare_id": 7648,
+      "rationament": "Trend scăzută puternică ultimele zile, prețul de azi e 66k.",
+      "sha256": "91026be21af30ad07155fc0c056ca3a6837285ec6590b9a0126bdcea30d65cb5",
+      "valoare": 64500.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 16:46:36",
+      "intrebare": "Preţul Ethereum pe 2026-11-15",
+      "intrebare_id": 7649,
+      "rationament": "Scădere continuă, presiune vânzări, expectanță preț mai jos de 1861.",
+      "sha256": "3c5de21828d60f9154ffea1c426d3f7b25310611583f6eb23d2855271468435c",
+      "valoare": 1800.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 16:46:36",
+      "intrebare": "Preţul Solana pe 2026-11-15",
+      "intrebare_id": 7650,
+      "rationament": "Cădere constantă, volatilitate mare, expectanță preț mai jos de 74.32.",
+      "sha256": "38f5635fffb7cf3155debc9cfa74c11bb6e77fd2cf2c5def00d750adf867202a",
+      "valoare": 72.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 16:46:36",
+      "intrebare": "Preţul XRP pe 2026-11-15",
+      "intrebare_id": 7651,
+      "rationament": "Trend negativă clară, presiune de vânzare, expectanță scădere.",
+      "sha256": "ec1e9d5bf060cc7e40842a22f0112acc76e0ed557334f9fd8b511b0e0fb46e9a",
+      "valoare": 0.95
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 16:46:36",
+      "intrebare": "Preţul Cardano pe 2026-11-15",
+      "intrebare_id": 7652,
+      "rationament": "Preț stabil dar în scădere, expectanță continuare tendinței.",
+      "sha256": "f7259ce54d810080f546a6fab21ce16d14bfdd700a853bdd54ec3ddd20abed2d",
+      "valoare": 0.15
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 16:46:36",
+      "intrebare": "Preţul Dogecoin pe 2026-11-15",
+      "intrebare_id": 7653,
+      "rationament": "Scădere mică, expectanță continuare tendinței negative de pe piață.",
+      "sha256": "72a7d717b2235337538219d9c80973eabf24d9bceb76a6ecc192077c5e6ff3eb",
+      "valoare": 0.055
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 16:46:36",
+      "intrebare": "Preţul BNB pe 2026-11-15",
+      "intrebare_id": 7654,
+      "rationament": "Cădere accentuată, pierderi masive, expectanță preț mai jos de 602.",
+      "sha256": "0270f08d2fdca10d3a5b8d9b63d3ebbea1801f672741e09ee60451b4dea65205",
+      "valoare": 580.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 16:46:37",
+      "intrebare": "Preţul Bitcoin pe 2026-11-15",
+      "intrebare_id": 7648,
+      "rationament": "Tendința descendentă puternică sugerează continuarea scăderii sub nivelul actual.",
+      "sha256": "9b9ce1ce513fc77d95997a538fec73a41db65ef61b564b0eec94809f7fdad89e",
+      "valoare": 64500.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 16:46:37",
+      "intrebare": "Preţul Ethereum pe 2026-11-15",
+      "intrebare_id": 7649,
+      "rationament": "Volatilitate ridicată și trend negativ indică o continuare a corecției prețului.",
+      "sha256": "3680d19ab29a1d29875619be0f36026445012747658a6c0afca1ebb3ca9bf137",
+      "valoare": 1780.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 16:46:37",
+      "intrebare": "Preţul Solana pe 2026-11-15",
+      "intrebare_id": 7650,
+      "rationament": "Scăderea accelerată în ultimele zile sugerează inerție negativă pentru mâine.",
+      "sha256": "313150f4f2d107b79e0281a357006009350dbedcaddb2b38a7d298ce8d08db6f",
+      "valoare": 70.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 16:46:37",
+      "intrebare": "Preţul XRP pe 2026-11-15",
+      "intrebare_id": 7651,
+      "rationament": "Trendul constant descendent indică o ușoară continuare a presiunii vândutului.",
+      "sha256": "342f0f223cf91fe644997b7146b5613a851ca2468964ac525700f2ebc2f1c1f2",
+      "valoare": 0.97
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 16:46:37",
+      "intrebare": "Preţul Cardano pe 2026-11-15",
+      "intrebare_id": 7652,
+      "rationament": "Stabilitate relativă cu o mică tendință de scădere recentă.",
+      "sha256": "1822bb8b2ac5a28d581d995870f2a6bba8fbe1968ac1afeeec7e830fd6209cc8",
+      "valoare": 0.16
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 16:46:37",
+      "intrebare": "Preţul Dogecoin pe 2026-11-15",
+      "intrebare_id": 7653,
+      "rationament": "Prețul este plat, probabil va rămâne stabil sau va scădea marginal.",
+      "sha256": "7dc37aa404aeb671af81afede71cea16d722bee0a8e4284fe185f01f65ea4cc7",
+      "valoare": 0.06
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 16:46:37",
+      "intrebare": "Preţul BNB pe 2026-11-15",
+      "intrebare_id": 7654,
+      "rationament": "Scăderea bruscă recentă sugerează continuarea vânzărilor agresive pe piață.",
+      "sha256": "7af57027b68ae12d7d64c285ac569405b6d76f8f21cc975bdfe4da35c8cb7bbb",
+      "valoare": 575.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 16:46:46",
+      "intrebare": "Preţul Bitcoin pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7655,
+      "rationament": "Trend descendent accelerat, volatilitate ridicată, fără semnale de revenire pe termen scurt.",
+      "sha256": "ffe6f4a2028d331b6791401c375a5343ae8235c96365188507a03172695e2025",
+      "valoare": 64000.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 16:46:46",
+      "intrebare": "Preţul Ethereum pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7656,
+      "rationament": "Scădere constantă, suportul recent sub 1900 USD, presiune vânzare continuă.",
+      "sha256": "aacc1c552a8503e87313fae1eeb9d4b858ef4032292b3fa8c3d55a3cf37560cf",
+      "valoare": 1700.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 16:46:46",
+      "intrebare": "Preţul Solana pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7657,
+      "rationament": "Pierdere rapidă din cauza scăderii volumului și a sentimentului de piață negativ.",
+      "sha256": "cbb5385e96fd513b63477b00b0480b4d4111257df61d68dc9feb60bda3cb7ece",
+      "valoare": 65.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 16:46:46",
+      "intrebare": "Preţul XRP pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7658,
+      "rationament": "Trend descendent susținut, lipsă de catalizatori pozitivi în săptămâna următoare.",
+      "sha256": "5641a410bf1f9d049a8bd9485f02af0f8e4b79575b6b004b6ef8dfc3c28cdfb2",
+      "valoare": 0.85
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 16:46:46",
+      "intrebare": "Preţul Cardano pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7659,
+      "rationament": "Scădere ușoară, niveluri de suport slabe, volatilitate redusă.",
+      "sha256": "7a2bd8cb186ff43a855d2c7e7d193df73ecfa347a9e147e9143827a9a5feadb7",
+      "valoare": 0.14
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 16:46:46",
+      "intrebare": "Preţul Dogecoin pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7660,
+      "rationament": "Stabilitate la nivel scăzut, ușoară depreciere anticipată.",
+      "sha256": "c6955e9d9ccff4737cff69257593013a6d224213e26857eb46c1ec5b95e92598",
+      "valoare": 0.06
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 16:46:46",
+      "intrebare": "Preţul BNB pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7661,
+      "rationament": "Trend descendent pronunțat, presiune de vânzare și scădere a încrederii investitorilor.",
+      "sha256": "64ffa151cb605d2f3e716f5a4961af0c153e92431f7d4e7c66db1cd84b626af5",
+      "valoare": 540.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-14 16:46:48",
+      "intrebare": "Preţul Bitcoin pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7655,
+      "rationament": "Piața este în plină tendință de scădere abruptă, iar momentumul negativ va continua moderat.",
+      "sha256": "9db0c8c4af54bfb36c06f28ea6498588d7359e8664c44b68986e30f9bf069fec",
+      "valoare": 63000.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-14 16:46:48",
+      "intrebare": "Preţul Ethereum pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7656,
+      "rationament": "Corelația puternică cu Bitcoin și presiunea de vânzare actuală sugerează continuarea deprecierii.",
+      "sha256": "24f2364be46f03ad2cea8a68bf5f80beb6a415903572b1af6273997e89e1febd",
+      "valoare": 1700.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-14 16:46:48",
+      "intrebare": "Preţul Solana pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7657,
+      "rationament": "Volatilitatea ridicată amplifică pierderile recente pe fondul sentimentului general de panică.",
+      "sha256": "2c3546c8b97467ddb96c870556a537e58f565056c54c2682e5ab6b662bbee166",
+      "valoare": 68.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-14 16:46:48",
+      "intrebare": "Preţul XRP pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7658,
+      "rationament": "Urmează tendința generală de corecție, menținându-și totuși un minim suport tehnic.",
+      "sha256": "91dc64a346e32d2ab940b0f3ef6eeac80f4842872bd86849db1cde656d555500",
+      "valoare": 0.9
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-14 16:46:48",
+      "intrebare": "Preţul Cardano pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7659,
+      "rationament": "Lichiditatea scăzută și trendul descendent accentuat nu oferă semne imediate de redresare.",
+      "sha256": "01662a1aae177e5f57d89d0da8bfa239a5370afa137b3162ce2d072881257dce",
+      "valoare": 0.15
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-14 16:46:48",
+      "intrebare": "Preţul Dogecoin pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7660,
+      "rationament": "Lipsa interesului speculativ pe termen scurt împinge prețul spre noi minime locale.",
+      "sha256": "a4cde4a904995f20790b2012d236ef766abf1c143d12e0150b4b3324e6f7890e",
+      "valoare": 0.05
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-14 16:46:48",
+      "intrebare": "Preţul BNB pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7661,
+      "rationament": "Păstrează o scădere paralelă cu piața crypto majoră, fără catalizatori pozitivi apropiați.",
+      "sha256": "023fb45772021a1eb385261fae82ed5a6f1ebf0034a0263c810909913cd1187e",
+      "valoare": 560.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 16:47:04",
+      "intrebare": "Preţul Bitcoin pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7655,
+      "rationament": "Downtrend continuation from -1080 USD/day over last 9 days",
+      "sha256": "2baf2a227f6af42f8bc9cb3a8b04d04ba7cc5f735c5841bed9a46f76d71a21aa",
+      "valoare": 59000.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 16:47:04",
+      "intrebare": "Preţul Ethereum pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7656,
+      "rationament": "Downtrend continuation from -42 USD/day over last 9 days",
+      "sha256": "dd0773b68fd9a2f40c9953fa8965b2a7b10b4fa5416c36a5415c2482a8aa3543",
+      "valoare": 1570.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 16:47:04",
+      "intrebare": "Preţul Solana pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7657,
+      "rationament": "Downtrend continuation from -1.7 USD/day over last 9 days",
+      "sha256": "f5359d810b9e7658873a95505d810f3408f636c7154a41369385b9eb7a18f6dd",
+      "valoare": 63.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 16:47:04",
+      "intrebare": "Preţul XRP pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7658,
+      "rationament": "Downtrend continuation from -0.024 USD/day over last 9 days",
+      "sha256": "9e10f3bf10a2de0da4b4c8547cfccdbeebd40ae08855c81de781f46f689b5c6d",
+      "valoare": 0.82
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 16:47:04",
+      "intrebare": "Preţul Cardano pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7659,
+      "rationament": "Downtrend continuation from -0.0022 USD/day over last 9 days",
+      "sha256": "e6ef3c502a08a8380cc0c7bbdc87c06db4a922a0a038fe19c13c703764fa2c5e",
+      "valoare": 0.14
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 16:47:04",
+      "intrebare": "Preţul Dogecoin pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7660,
+      "rationament": "Downtrend continuation from -0.0011 USD/day over last 9 days",
+      "sha256": "2d3cff8c1432e2d167d1641ea0d509e2e89473bb84afd91dcd3ad0666d5359f9",
+      "valoare": 0.05
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 16:47:04",
+      "intrebare": "Preţul BNB pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7661,
+      "rationament": "Downtrend continuation from -9.8 USD/day over last 9 days",
+      "sha256": "5dd6d988c050d546867b13002f9ad8b3d2e0648b6626f191905458702ee4d5f6",
+      "valoare": 534.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 16:47:36",
+      "intrebare": "Preţul Bitcoin pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7655,
+      "rationament": "Trendă descrescătoare puternică, aștept continuarea scăderii ușoare.",
+      "sha256": "8871759fc0dce27b5eb37fb270984b36d8a3572885d14988826d96b511b61e3c",
+      "valoare": 65000.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 16:47:36",
+      "intrebare": "Preţul Ethereum pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7656,
+      "rationament": "Scădere constantă, prevăd o corecție mică în continuare.",
+      "sha256": "8fc8904e2cd8e5bc65955b278cd2c086d2a46761ddb4e250a6d6f0d98a2d76e3",
+      "valoare": 1800.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 16:47:36",
+      "intrebare": "Preţul Solana pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7657,
+      "rationament": "Performanță slabă recentă, aștept preț mai mic de 75.",
+      "sha256": "b255ecfede3746f626b237bcb8e82e9f9d3709ac164d2501e9e2cf710e995565",
+      "valoare": 72.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 16:47:36",
+      "intrebare": "Preţul XRP pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7658,
+      "rationament": "Cădere continuă, probabil o pauză mică înainte de a coborî.",
+      "sha256": "2f15ea0d1fd90e6e2a49f2b212ee8024eb036155f4250a7eb0ab436f8bf06d49",
+      "valoare": 0.95
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 16:47:36",
+      "intrebare": "Preţul Cardano pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7659,
+      "rationament": "Stagnare și scădere, cred că va merge puțin mai jos.",
+      "sha256": "facd18c1483494405018a771f89deb23abd9794a2d73a4722bdd10408811a845",
+      "valoare": 0.15
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 16:47:36",
+      "intrebare": "Preţul Dogecoin pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7660,
+      "rationament": "Prețul scade, prevăd o continuare a tendinței negative.",
+      "sha256": "1d55ff53499f0e2800b32826e5fa0170c0f09b56cbe85f1798fdb3ce6a3ef714",
+      "valoare": 0.05
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 16:47:36",
+      "intrebare": "Preţul BNB pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7661,
+      "rationament": "Scădere accentuată, aștept prețul sub 600 USD.",
+      "sha256": "3db46d93dc28c18fe30cb4f11c19c28b505bb17a9dcb78a6dd11275e82109678",
+      "valoare": 580.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 16:47:37",
+      "intrebare": "Preţul Bitcoin pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7655,
+      "rationament": "Tendința descendentă accelerată sugerează continuarea scăderii sub suportul actual.",
+      "sha256": "140e7836544354cb9d5081dfd6e2aeef2bae2653fc08412624c2948ef6807c5f",
+      "valoare": 64500.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 16:47:37",
+      "intrebare": "Preţul Ethereum pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7656,
+      "rationament": "Volatilitate ridicată și pierdere de suport indică o corecție mai profundă.",
+      "sha256": "05ee93b53c964c7fa4e964de9178716f6122107f533b3aeaa60bda255deb0f49",
+      "valoare": 1750.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 16:47:37",
+      "intrebare": "Preţul Solana pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7657,
+      "rationament": "Performanță slabă față de BTC, continuarea trendului bearish pe termen scurt.",
+      "sha256": "fb6ab38022421042653de6c4e6ac77c897edb5dea1b9561ab7f81bd23a9473d1",
+      "valoare": 68.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 16:47:37",
+      "intrebare": "Preţul XRP pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7658,
+      "rationament": "Slăbire constantă a prețului, lipsa de cumpărături agresive la niveluri mai joase.",
+      "sha256": "fd6fe6fd8ce700780702991805fbbd2030d90501c0344843e5751f295a2f7175",
+      "valoare": 0.92
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 16:47:37",
+      "intrebare": "Preţul Cardano pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7659,
+      "rationament": "Stagnare urmată de scădere, inerția negativă persistă în piața actuală.",
+      "sha256": "2a7d2f817ce956253fe9ffae29b0704f1bb4f9d8cd690008eeecc4a463fcdef2",
+      "valoare": 0.15
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 16:47:37",
+      "intrebare": "Preţul Dogecoin pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7660,
+      "rationament": "Lichiditate redusă și sentiment negativ, risc de scădere suplimentară semnificativă.",
+      "sha256": "7abd5e7a52f3551706b346df6be7276cf8868f168c9a78a8b9bcaca8d874a413",
+      "valoare": 0.055
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 16:47:37",
+      "intrebare": "Preţul BNB pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7661,
+      "rationament": "Corelare puternică cu BTC, continuarea scăderii proporționale cu piața generală.",
+      "sha256": "a69499b6049666043794c86d13953e52ad09d43f0549b007439a99dbf5457316",
+      "valoare": 570.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 16:50:13",
+      "intrebare": "Preţul Bitcoin pe 2026-11-15",
+      "intrebare_id": 7648,
+      "rationament": "Scădere accentuată de trei zile; aproape de mers aleator, cu o ușoară continuare a momentumului negativ.",
+      "sha256": "e309184a6c03a7be820699b9157ebdeab810125efd42f4bb244e27217ff6f8a9",
+      "valoare": 66250.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 16:50:13",
+      "intrebare": "Preţul Ethereum pe 2026-11-15",
+      "intrebare_id": 7649,
+      "rationament": "Trend descendent constant; previziune foarte apropiată de prețul de azi, cu o mică ajustare în jos.",
+      "sha256": "efa547e972a3e5ca8f6426e3ca19577cb8b80ecf927f9ee2d9e0866a58b55960",
+      "valoare": 1856.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 16:50:13",
+      "intrebare": "Preţul Solana pe 2026-11-15",
+      "intrebare_id": 7650,
+      "rationament": "Scădere de aproximativ 5% pe zi recent; presupun o încetinire, deci doar o mică ajustare sub prețul de azi.",
+      "sha256": "63c317c8f9128d06bc760759bf5b02861d5f649cb5898e31454443b58df3d7f0",
+      "valoare": 74.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 16:50:13",
+      "intrebare": "Preţul XRP pe 2026-11-15",
+      "intrebare_id": 7651,
+      "rationament": "Declin lent și constant de zece zile; prelungesc ușor tendința.",
+      "sha256": "439502163cec26956866388c097bd4e5512f59f649e49c6b7481bdc14ee847a5",
+      "valoare": 0.985
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 16:50:13",
+      "intrebare": "Preţul Cardano pe 2026-11-15",
+      "intrebare_id": 7652,
+      "rationament": "Rotunjirea la două zecimale face ca prețul de azi să fie aproape sigur cel mai bun estimat.",
+      "sha256": "4c1887d507dee0da817827f986a7a14c46e9ad1cc91dccd49ebd569e9a08c7fb",
+      "valoare": 0.16
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 16:50:13",
+      "intrebare": "Preţul Dogecoin pe 2026-11-15",
+      "intrebare_id": 7653,
+      "rationament": "Granularitatea grosieră a prețului face ca o mișcare vizibilă într-o zi să fie improbabilă.",
+      "sha256": "570912a93c05f86507c1974307cd054b6fcc6a4ba1a5351fc262fe6e49a288b7",
+      "valoare": 0.06
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 16:50:13",
+      "intrebare": "Preţul BNB pe 2026-11-15",
+      "intrebare_id": 7654,
+      "rationament": "Scădere abruptă recentă; previziune apropiată de azi, cu o mică continuare a momentumului.",
+      "sha256": "ff6ea71c2aa26f81b031c053496d5883a936a0ba7fecb9db57eaac464d3ab95e",
+      "valoare": 600.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 16:50:25",
+      "intrebare": "Preţul Bitcoin pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7655,
+      "rationament": "Scădere abruptă de ~13% în zece zile; anticipez o stabilizare cu un mic rebound, dar trendul rămâne descendent.",
+      "sha256": "bffec23901c4772137501854fb3753f0897f959dcdd6da98a62185af468a6f7c",
+      "valoare": 66800.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 16:50:25",
+      "intrebare": "Preţul Ethereum pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7656,
+      "rationament": "Trend descendent constant, sub 2000 USD; posibilă consolidare aproape de nivelul actual, cu un rebound minor.",
+      "sha256": "de39753e4e4e799a7c393e5daf99fb36d565e273387937f4772340ddebecb5a7",
+      "valoare": 1870.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 16:50:25",
+      "intrebare": "Preţul Solana pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7657,
+      "rationament": "Scădere de ~17%, cu volatilitate ridicată; estimez o consolidare în jurul nivelului actual.",
+      "sha256": "5ce731806142f8a0c1eb9c1b897eaca27e029f819a4237db61711b24f681ede9",
+      "valoare": 74.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 16:50:25",
+      "intrebare": "Preţul XRP pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7658,
+      "rationament": "Declin liniar persistent, aproape zilnic; momentumul sugerează o ușoară continuare sub 1 USD.",
+      "sha256": "e19e0d555d7aaf618bf285cfc1eca44da612d1e15334979d3075c06cde322e27",
+      "valoare": 0.98
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 16:50:25",
+      "intrebare": "Preţul Cardano pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7659,
+      "rationament": "Mișcare lentă în jos; la rotunjirea la două zecimale, cel mai probabil rămâne la 0.16.",
+      "sha256": "9bfc2b7a9a21f878b4543e4c9afda2a1f5a12a0ca13aafacbdad99a4e7fce719",
+      "valoare": 0.16
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 16:50:25",
+      "intrebare": "Preţul Dogecoin pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7660,
+      "rationament": "Preț foarte mic, iar rotunjirea face probabilă menținerea la 0.06 USD.",
+      "sha256": "2f918bb2c51e716a2bf5f12f861726aed8de3a510847a41fef7a9b5cd7f5ad3e",
+      "valoare": 0.06
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 16:50:25",
+      "intrebare": "Preţul BNB pe 2026-11-21 (1 săptămână)",
+      "intrebare_id": 7661,
+      "rationament": "Scădere accelerată de ~13% în trei zile; posibil un mic rebound tehnic după o vânzare excesivă.",
+      "sha256": "102a5232776dd485fcf4c5b3df249646b8cbb4d705ecb774f146d186b5eaeebf",
+      "valoare": 605.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 17:30:16",
+      "intrebare": "Temperatura maximă la București pe 2026-11-15",
+      "intrebare_id": 7662,
+      "rationament": "După ploaia abundentă și scăderea la 15.2°C, se așteaptă răcire și probabilitate ridicată de precipitații.",
+      "sha256": "aabe384319f866f9bf66a2a16dcc83926e95401244c236a900ca07b7f32e3cd4",
+      "valoare": 13.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 17:30:16",
+      "intrebare": "Va ploua la București pe 2026-11-15?",
+      "intrebare_id": 7663,
+      "rationament": "După ploaia abundentă și scăderea la 15.2°C, se așteaptă răcire și probabilitate ridicată de precipitații.",
+      "sha256": "a8077e58c4aa9b4e15d7f7ef1ea7f545dd48e12deab70cfe87b8f6d3dd86dffd",
+      "valoare": 0.6
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 17:30:16",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-15",
+      "intrebare_id": 7664,
+      "rationament": "Temperatura a variat mult; după 19°C urmat de 7.4°C, se prevede mediu și șansă moderată de ploaie.",
+      "sha256": "75ff7d4c900c33ff69eede337a009f3778291faa8e87ced11508e2c58216e61f",
+      "valoare": 10.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 17:30:16",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-15?",
+      "intrebare_id": 7665,
+      "rationament": "Temperatura a variat mult; după 19°C urmat de 7.4°C, se prevede mediu și șansă moderată de ploaie.",
+      "sha256": "c0330d4f6be12174f5cc22c8129da4edcefb04dd002bea2ddda05c5e9886f9d6",
+      "valoare": 0.3
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 17:30:16",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-15",
+      "intrebare_id": 7666,
+      "rationament": "După un vârf de 23.5°C și revenirea la 9.5°C, temperatura va fi moderată, ploaia puțin probabilă.",
+      "sha256": "8798c9a739e9e1dba9b012f4f5f6d8bd640dcc029c708be76e0fa85975171806",
+      "valoare": 12.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 17:30:16",
+      "intrebare": "Va ploua la Iași pe 2026-11-15?",
+      "intrebare_id": 7667,
+      "rationament": "După un vârf de 23.5°C și revenirea la 9.5°C, temperatura va fi moderată, ploaia puțin probabilă.",
+      "sha256": "34e9cb08d542c3b28852c1bcec86b5e0534d216a44bd2e98ca6d243a22f43743",
+      "valoare": 0.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 17:30:16",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-15",
+      "intrebare_id": 7668,
+      "rationament": "Temperatura a scăzut brusc după 16.8°C; se așteaptă revenire la 12°C și șansă medie de ploaie.",
+      "sha256": "73bccba6e2c9fed72d35d3cd55687bb82002bdb6f0f64cdc90bba52c8a0af335",
+      "valoare": 12.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 17:30:16",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-15?",
+      "intrebare_id": 7669,
+      "rationament": "Temperatura a scăzut brusc după 16.8°C; se așteaptă revenire la 12°C și șansă medie de ploaie.",
+      "sha256": "da4b6ace23489bbca29408c7aa2432b12c6dee666aafa9e1a0acb5b027ea2cc2",
+      "valoare": 0.4
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 17:30:16",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-15",
+      "intrebare_id": 7670,
+      "rationament": "Temperaturile ridicate recent și ploaia intensă de 15.2 mm indică continuarea căldurii și a precipitațiilor.",
+      "sha256": "9dba4630445d7f3b5adcba6c1b030e2b37743605fc51c482cb8bfeaa3c5b4ca9",
+      "valoare": 20.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 17:30:16",
+      "intrebare": "Va ploua la Constanța pe 2026-11-15?",
+      "intrebare_id": 7671,
+      "rationament": "Temperaturile ridicate recent și ploaia intensă de 15.2 mm indică continuarea căldurii și a precipitațiilor.",
+      "sha256": "bb0145a8db121c198c2a5ce84a2c96ecbc75f10495e5fc8461450c23a2bbf0d6",
+      "valoare": 0.7
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 17:30:16",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-15",
+      "intrebare_id": 7672,
+      "rationament": "După 18.6°C urmat de 6.8°C și ploaie, se așteaptă răcire și probabilitate mare de precipitații.",
+      "sha256": "5c23e3d859e27a47d153940c12716966e3ba23864bf28114cbb5a0a1edc7fbd5",
+      "valoare": 9.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-14 17:30:16",
+      "intrebare": "Va ploua la Brașov pe 2026-11-15?",
+      "intrebare_id": 7673,
+      "rationament": "După 18.6°C urmat de 6.8°C și ploaie, se așteaptă răcire și probabilitate mare de precipitații.",
+      "sha256": "9f2ccc9d617a21ff7f723e12ef43632d0061a2c41b752381b0ff760d7132eabc",
+      "valoare": 0.6
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 17:31:24",
+      "intrebare": "Temperatura maximă la București pe 2026-11-15",
+      "intrebare_id": 7662,
+      "rationament": "After 14th's heavy rain, cold front brings cooler, dry conditions.",
+      "sha256": "e2fa91d6b31f3fce931cfe67371b63d96bfcdcca3ce0b110fe21aed8f62f4e12",
+      "valoare": 13.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 17:31:24",
+      "intrebare": "Va ploua la București pe 2026-11-15?",
+      "intrebare_id": 7663,
+      "rationament": "After 14th's heavy rain, cold front brings cooler, dry conditions.",
+      "sha256": "aee709ce0027d99088df770b4b8b48ff47ef3673f0465f4dc75ee1128b31566e",
+      "valoare": 0.1
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 17:31:24",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-15",
+      "intrebare_id": 7664,
+      "rationament": "Post-front cooling; moisture decreasing, slight chance of lingering showers.",
+      "sha256": "e9457be0cacbdaa5997dc790c4c7ccf504c0e08e13cfb8302ecc2ea9e6d74a6e",
+      "valoare": 8.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 17:31:24",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-15?",
+      "intrebare_id": 7665,
+      "rationament": "Post-front cooling; moisture decreasing, slight chance of lingering showers.",
+      "sha256": "e0b295801cc145abe7d5886b15ad6c4be74da240e1c70a12ffa2ec7cc71ef575",
+      "valoare": 0.2
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 17:31:24",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-15",
+      "intrebare_id": 7666,
+      "rationament": "Cool air mass persists; isolated showers possible but unlikely.",
+      "sha256": "99cb31b898a570577aedc3ace9912109265cef33d42ef483d9910adca92574d5",
+      "valoare": 9.2
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 17:31:24",
+      "intrebare": "Va ploua la Iași pe 2026-11-15?",
+      "intrebare_id": 7667,
+      "rationament": "Cool air mass persists; isolated showers possible but unlikely.",
+      "sha256": "8ac334bd093c00579379ad2ba977dbb12ff3563ca40196ba11c41293749aba5f",
+      "valoare": 0.25
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 17:31:24",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-15",
+      "intrebare_id": 7668,
+      "rationament": "Recent heavy rains ended; expect mild, mostly dry day.",
+      "sha256": "b23fee239ecb175d4c46f4a23510accff2e494ba61bd6287bb215561bf4fa834",
+      "valoare": 10.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 17:31:24",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-15?",
+      "intrebare_id": 7669,
+      "rationament": "Recent heavy rains ended; expect mild, mostly dry day.",
+      "sha256": "684aee39e4b2b5ceacdd73340b858371ccfd1b62a697e0ddce8faf002c4bd89c",
+      "valoare": 0.2
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 17:31:24",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-15",
+      "intrebare_id": 7670,
+      "rationament": "Strong rain on 14th likely cleared; warm but dry conditions follow.",
+      "sha256": "ec7f681626d1e98f720a9ebc5fdce6ef87422528df17a461e93775758726daf7",
+      "valoare": 16.8
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 17:31:24",
+      "intrebare": "Va ploua la Constanța pe 2026-11-15?",
+      "intrebare_id": 7671,
+      "rationament": "Strong rain on 14th likely cleared; warm but dry conditions follow.",
+      "sha256": "7553996d1602e9dd8fdcfe69c627c4ff765accc5afac95165db2d4caf6e60ae0",
+      "valoare": 0.1
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 17:31:24",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-15",
+      "intrebare_id": 7672,
+      "rationament": "Cool and wet trend continues; moderate chance of light rain.",
+      "sha256": "fddafc19e31a8cd6541ec5c0a10147b4241d17d8f777fdc29b4b82ec767b1b3f",
+      "valoare": 7.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-14 17:31:24",
+      "intrebare": "Va ploua la Brașov pe 2026-11-15?",
+      "intrebare_id": 7673,
+      "rationament": "Cool and wet trend continues; moderate chance of light rain.",
+      "sha256": "ddae6d60a00a40b3845ddf5a21ac06d2e1ba9fafc4e1cd490d6bbcdcbb2eaf92",
+      "valoare": 0.3
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 17:32:23",
+      "intrebare": "Temperatura maximă la București pe 2026-11-15",
+      "intrebare_id": 7662,
+      "rationament": "Căldura din 13 a fost anomalie, frontul rece a coborât mult, aștept stabilizare la ~10-12°C.",
+      "sha256": "dfadac4b2552753f3049b4a2f154edcea4bdbb4de241b8e0763ce71a87913bf8",
+      "valoare": 11.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 17:32:23",
+      "intrebare": "Va ploua la București pe 2026-11-15?",
+      "intrebare_id": 7663,
+      "rationament": "Căldura din 13 a fost anomalie, frontul rece a coborât mult, aștept stabilizare la ~10-12°C.",
+      "sha256": "874637c8d47d27c5639a07c2393a79e538f3c73583934b24bb73b26c495e9885",
+      "valoare": 0.6
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 17:32:23",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-15",
+      "intrebare_id": 7664,
+      "rationament": "Scădere abruptă de 11°C, aerul rece va persista, probabil nu se mai încălzește mult.",
+      "sha256": "daf16c81a6f054c1aff534e9838fc1c5aa7af6f9897deb51561b834e79013b3b",
+      "valoare": 8.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 17:32:23",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-15?",
+      "intrebare_id": 7665,
+      "rationament": "Scădere abruptă de 11°C, aerul rece va persista, probabil nu se mai încălzește mult.",
+      "sha256": "655faefee01d13c9b139d08ef236c9ae5900589fa7e20fdda980e43080962792",
+      "valoare": 0.4
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 17:32:23",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-15",
+      "intrebare_id": 7666,
+      "rationament": "Căldura mare de 13 a fost urmată de o scădere bruscă, aștept revenire moderată.",
+      "sha256": "b7c5158f92b1a9dff146c0d583ff52a0f56c54d2c05b30971f7483af5188023b",
+      "valoare": 10.5
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 17:32:23",
+      "intrebare": "Va ploua la Iași pe 2026-11-15?",
+      "intrebare_id": 7667,
+      "rationament": "Căldura mare de 13 a fost urmată de o scădere bruscă, aștept revenire moderată.",
+      "sha256": "91cc6b6623998add002a406042ef41f5cd91206547abf19f0d45340b9120b363",
+      "valoare": 0.5
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 17:32:23",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-15",
+      "intrebare_id": 7668,
+      "rationament": "Căldura de 16-17°C a dispărut, frontul rece aduce vreme instabilă și ploaie.",
+      "sha256": "342d3158cdf47b8c7735dacee4a684573bf5893565c38fc7a0ac214846255116",
+      "valoare": 10.5
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 17:32:23",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-15?",
+      "intrebare_id": 7669,
+      "rationament": "Căldura de 16-17°C a dispărut, frontul rece aduce vreme instabilă și ploaie.",
+      "sha256": "681e18eed9af3e9131b584c0f246d03f73b54c3f4a79061037f3af49176acf9b",
+      "valoare": 0.6
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 17:32:23",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-15",
+      "intrebare_id": 7670,
+      "rationament": "Impactul frontului este mai puțin puternic pe coastă, aștept menținerea căldurii sau scădere ușoară.",
+      "sha256": "ccc5a2e7c931a826d9a526024809693e26a109f92f8eac27c24619488c197148",
+      "valoare": 17.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 17:32:23",
+      "intrebare": "Va ploua la Constanța pe 2026-11-15?",
+      "intrebare_id": 7671,
+      "rationament": "Impactul frontului este mai puțin puternic pe coastă, aștept menținerea căldurii sau scădere ușoară.",
+      "sha256": "72197a723082aa3e49f90b55c1f2712c6c4676b39971e13ec04a6f293339d722",
+      "valoare": 0.4
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 17:32:23",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-15",
+      "intrebare_id": 7672,
+      "rationament": "Căldura de 18°C a dispărut complet, aștept vreme rece și ploioasă.",
+      "sha256": "74606669ed08ea2278a9a21af5127d64c342f5e1f676e046cf324f2754b759ed",
+      "valoare": 7.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-14 17:32:23",
+      "intrebare": "Va ploua la Brașov pe 2026-11-15?",
+      "intrebare_id": 7673,
+      "rationament": "Căldura de 18°C a dispărut complet, aștept vreme rece și ploioasă.",
+      "sha256": "8d34a5e464fa24997154ccf655b0f24341b4bc8ad7e7b2172edc34a9675061a4",
+      "valoare": 0.7
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 17:32:24",
+      "intrebare": "Temperatura maximă la București pe 2026-11-15",
+      "intrebare_id": 7662,
+      "rationament": "Front rece a trecut ieri (22.8mm), aducând răcoare și cer senin, dar umiditatea reziduală menține șanse moderate de ploaie.",
+      "sha256": "26cb16953b1cdf595ee20906ac7ea33d2625c19a54d323dfa3429d37e91dbf24",
+      "valoare": 10.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 17:32:24",
+      "intrebare": "Va ploua la București pe 2026-11-15?",
+      "intrebare_id": 7663,
+      "rationament": "Front rece a trecut ieri (22.8mm), aducând răcoare și cer senin, dar umiditatea reziduală menține șanse moderate de ploaie.",
+      "sha256": "e4536e330d43534cf14883f312e1fec4d056149edda100b08098fdefec155a4d",
+      "valoare": 0.45
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 17:32:24",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-15",
+      "intrebare_id": 7664,
+      "rationament": "Temperatura a scăzut brusc de la 19.0 la 7.4, indicând un sistem frontal activ care se retrage, lăsând cer parțial acoperit.",
+      "sha256": "259bca2cdd91ab0a65454a31c51531dde121e2e5bfc1177e9a152e7ae403769d",
+      "valoare": 8.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 17:32:24",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-15?",
+      "intrebare_id": 7665,
+      "rationament": "Temperatura a scăzut brusc de la 19.0 la 7.4, indicând un sistem frontal activ care se retrage, lăsând cer parțial acoperit.",
+      "sha256": "1bbdb61810928f136dd853406a3f9f2d01956672cc3adb823ae764dcd3c2586e",
+      "valoare": 0.3
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 17:32:24",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-15",
+      "intrebare_id": 7666,
+      "rationament": "După o zi caldă (23.5) și ploioasă, sistemul se stabilizează, dar tranziția rapidă sugerează instabilitate reziduală și posibile averse.",
+      "sha256": "43afaf9ca0c4ac80bff7a9f483efe2a7bc7d22ebf439643e015bdbf129539b5e",
+      "valoare": 9.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 17:32:24",
+      "intrebare": "Va ploua la Iași pe 2026-11-15?",
+      "intrebare_id": 7667,
+      "rationament": "După o zi caldă (23.5) și ploioasă, sistemul se stabilizează, dar tranziția rapidă sugerează instabilitate reziduală și posibile averse.",
+      "sha256": "eaac650c32bce32a4fe287529363732cd6800b7020c3bc9abfdacb04fdf969e1",
+      "valoare": 0.4
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 17:32:24",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-15",
+      "intrebare_id": 7668,
+      "rationament": "După o perioadă intens de ploaie, cerul se limpezește și temperaturile revin la normal pentru început de toamnă, cu risc scăzut.",
+      "sha256": "b45b1d58e33182244e6fbd54ae5f11c3ef74f65580e358460ddbcf065f0d9083",
+      "valoare": 11.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 17:32:24",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-15?",
+      "intrebare_id": 7669,
+      "rationament": "După o perioadă intens de ploaie, cerul se limpezește și temperaturile revin la normal pentru început de toamnă, cu risc scăzut.",
+      "sha256": "8fe1eace8df075b5edd9851ab3fcee344fc8cc8f8987a252276c9bbb2e0d0ef5",
+      "valoare": 0.25
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 17:32:24",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-15",
+      "intrebare_id": 7670,
+      "rationament": "Influența marină menține temperaturi mai blânde, iar ploaia de ieri sugerează un sistem de averse care se disipă lent.",
+      "sha256": "a9038fd24a93d43768963f1e5400da7f9aa4c394ce5bf00bd42617665896ca83",
+      "valoare": 16.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 17:32:24",
+      "intrebare": "Va ploua la Constanța pe 2026-11-15?",
+      "intrebare_id": 7671,
+      "rationament": "Influența marină menține temperaturi mai blânde, iar ploaia de ieri sugerează un sistem de averse care se disipă lent.",
+      "sha256": "4bcd4066eebfcccad38d0ffaa538cd551d4037afbf4bc46831e2295f36713876",
+      "valoare": 0.35
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 17:32:24",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-15",
+      "intrebare_id": 7672,
+      "rationament": "Altitudinea mare amplifică efectul frontului rece; ploaia de ieri (5.7mm) și scăderea temperaturii indică persistența instabilității.",
+      "sha256": "23148c20d43b6af31c381bf8044c0aff6ca4e1503b97514a021ac27198429d77",
+      "valoare": 7.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-14 17:32:24",
+      "intrebare": "Va ploua la Brașov pe 2026-11-15?",
+      "intrebare_id": 7673,
+      "rationament": "Altitudinea mare amplifică efectul frontului rece; ploaia de ieri (5.7mm) și scăderea temperaturii indică persistența instabilității.",
+      "sha256": "fd3aa5852b88add359030106967e823a53fed8d21af5364870d7403dfb6d1455",
+      "valoare": 0.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 17:35:17",
+      "intrebare": "Temperatura maximă la București pe 2026-11-15",
+      "intrebare_id": 7662,
+      "rationament": "Front rece trecut pe 14 cu 22.8 mm; aer postfrontal mai rece, aproape de climatologie (~11°C), posibile reziduuri de ploaie.",
+      "sha256": "34485d93001a6fb850921f544110a3f38c6f77d651ce95df53cb4fae3d73790c",
+      "valoare": 10.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 17:35:17",
+      "intrebare": "Va ploua la București pe 2026-11-15?",
+      "intrebare_id": 7663,
+      "rationament": "Front rece trecut pe 14 cu 22.8 mm; aer postfrontal mai rece, aproape de climatologie (~11°C), posibile reziduuri de ploaie.",
+      "sha256": "c077bb4a774d8a5d7589bfc59fdf4af4fcfe6da76951b594b270c78768764e5b",
+      "valoare": 0.4
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 17:35:17",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-15",
+      "intrebare_id": 7664,
+      "rationament": "Răcirea s-a produs deja pe 14 (7.4°C, uscat); masa de aer rece persistă, probabil stabil și uscat.",
+      "sha256": "22ee7cd00efafc7e926794ac6ba237d1f4bee12cbd330207e82003ff59ade8c5",
+      "valoare": 7.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 17:35:17",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-15?",
+      "intrebare_id": 7665,
+      "rationament": "Răcirea s-a produs deja pe 14 (7.4°C, uscat); masa de aer rece persistă, probabil stabil și uscat.",
+      "sha256": "e259180deddd56c1ad804fa71d7373007943b30c711c8d92a686d896266c1dff",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 17:35:17",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-15",
+      "intrebare_id": 7666,
+      "rationament": "Frontul a trecut pe 14 (9.5°C, uscat); aer rece postfrontal, ușor sub climatologia de ~8-9°C.",
+      "sha256": "11d73770be7ebc5f07f80c6e0cd318c1ec94664444f3fc8dd18ac0b122cf4066",
+      "valoare": 8.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 17:35:17",
+      "intrebare": "Va ploua la Iași pe 2026-11-15?",
+      "intrebare_id": 7667,
+      "rationament": "Frontul a trecut pe 14 (9.5°C, uscat); aer rece postfrontal, ușor sub climatologia de ~8-9°C.",
+      "sha256": "682a47007067e3e778db40b92f429411174e6aebca416d9f0b98d4f0cfa83637",
+      "valoare": 0.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 17:35:17",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-15",
+      "intrebare_id": 7668,
+      "rationament": "Vestul s-a răcit și uscat pe 14 după zile ploioase; tendință de stabilizare sub dorsală.",
+      "sha256": "c19b185f7d39dc77969152af155be5f2b728d3de96d90d68c2d8d576f04004ce",
+      "valoare": 9.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 17:35:17",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-15?",
+      "intrebare_id": 7669,
+      "rationament": "Vestul s-a răcit și uscat pe 14 după zile ploioase; tendință de stabilizare sub dorsală.",
+      "sha256": "8137fa56ef6c33f801233372c0c7f943e8b3060c2dc0e8b04507c4a492c6c16a",
+      "valoare": 0.25
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 17:35:17",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-15",
+      "intrebare_id": 7670,
+      "rationament": "Frontul a ajuns ultimul pe litoral (15.2 mm pe 14); răcire continuă, marea caldă menține maxima peste interior.",
+      "sha256": "9f4d727149ca52279bc3fbac8208b14ffa93b08289346fc86c65b7fa8cb54afd",
+      "valoare": 12.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 17:35:17",
+      "intrebare": "Va ploua la Constanța pe 2026-11-15?",
+      "intrebare_id": 7671,
+      "rationament": "Frontul a ajuns ultimul pe litoral (15.2 mm pe 14); răcire continuă, marea caldă menține maxima peste interior.",
+      "sha256": "6f4dedfbc2c6be89fef6740cbf63e7a0bca14b37485ba8fb5f186e5c163f62a5",
+      "valoare": 0.45
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 17:35:17",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-15",
+      "intrebare_id": 7672,
+      "rationament": "Depresiune intramontană cu aer rece acumulat după front; precipitații reziduale orografice posibile.",
+      "sha256": "02261c421f60d862c73960efcea7013d55260abee99830b52605d0863c52b104",
+      "valoare": 5.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-14 17:35:17",
+      "intrebare": "Va ploua la Brașov pe 2026-11-15?",
+      "intrebare_id": 7673,
+      "rationament": "Depresiune intramontană cu aer rece acumulat după front; precipitații reziduale orografice posibile.",
+      "sha256": "100df6ecb614c440d229f568e3116118be6fe30d02976d755d6cf61b0739bb78",
+      "valoare": 0.4
+    }
+  ],
+  "zi": "2026-11-14"
+}
