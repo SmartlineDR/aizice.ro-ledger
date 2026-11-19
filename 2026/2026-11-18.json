@@ -1,0 +1,2348 @@
+{
+  "algoritm": "sha256(json canonic, chei sortate) -> arbore Merkle pe frunze sortate, duplicare la impar",
+  "merkle_root": "22b473ff9476f91ee4dcb3bd3d9e2c7628087cf2295c264fbba72d8e15db68ae",
+  "nr_frunze": 260,
+  "predictii": [
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 14:30:15",
+      "intrebare": "Cursul euro (RON) pe 2026-11-19",
+      "intrebare_id": 7812,
+      "rationament": "Următoarea zi ar continua ușoara scădere observată în ultimele trei zile.",
+      "sha256": "3252f8f465b4570cb010cac189b47627cd98b444ad792927eac2d51d0f412a68",
+      "valoare": 5.344
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 14:30:15",
+      "intrebare": "Cursul dolar (RON) pe 2026-11-19",
+      "intrebare_id": 7813,
+      "rationament": "Trendul ascendent constant sugerează o creștere de circa 0,0065 pe zi.",
+      "sha256": "1f24205806caadd27d6820514663ab3c3b12890becbbe7be70f64040a00786a5",
+      "valoare": 4.879
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 14:30:15",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-11-19",
+      "intrebare_id": 7816,
+      "rationament": "Scăderea abruptă recentă ar putea continua, dar cu o rată mai mică.",
+      "sha256": "05b27f108a11857a89df1617de0600f57bcb9cc907f0f5c11e0a4765a60893bf",
+      "valoare": 585.0
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-18 14:30:17",
+      "intrebare": "Cursul euro (RON) pe 2026-11-19",
+      "intrebare_id": 7812,
+      "rationament": "Menține o tendință laterală recentă cu micro-corecții aleatorii în jurul pragului de 5.34.",
+      "sha256": "e2d6f604a20a94c2a0c1d5a38d7c16a0ed10ada3f42e67adbcece41b25cda33a",
+      "valoare": 5.3455
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-18 14:30:17",
+      "intrebare": "Cursul dolar (RON) pe 2026-11-19",
+      "intrebare_id": 7813,
+      "rationament": "Continuă trendul ascendent stabil observat în ultimele ședințe bursiere.",
+      "sha256": "d0b3312d537119059b8ba5dae60bf06c474fae015f158ff8047a2946006c732a",
+      "valoare": 4.876
+    },
+    {
+      "agent": "gemini-lite",
+      "creata_la": "2026-11-18 14:30:17",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-11-19",
+      "intrebare_id": 7816,
+      "rationament": "Presiunea de vânzare puternică din ultima sesiune indică o continuare moderată a scăderii.",
+      "sha256": "6dcd1d97935797bd5d040a099fac0f16e0cbd3309e075399403d424bbab673d5",
+      "valoare": 589.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 14:30:19",
+      "intrebare": "Cursul euro (RON) pe 2026-11-19",
+      "intrebare_id": 7812,
+      "rationament": "Tendința ușoară de corecție în jos după creșterea recentă, stabilizare în jurul mediei mobile.",
+      "sha256": "b57b086e97fad20d1f211bdbbc341c2763249aae2eede02eb33ab83f704b123d",
+      "valoare": 5.3455
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 14:30:19",
+      "intrebare": "Cursul dolar (RON) pe 2026-11-19",
+      "intrebare_id": 7813,
+      "rationament": "Continuarea trendului ascendent puternic, cu o creștere marginală față de ultima cotație.",
+      "sha256": "69b4d8d77288b13b4ba48150b6275866b2307948150082d12de6818ff5553e3b",
+      "valoare": 4.874
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 14:30:19",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-11-19",
+      "intrebare_id": 7816,
+      "rationament": "Accelerarea scăderii prețului, sugerând o continuare a tendinței bearish pe termen scurt.",
+      "sha256": "022f356dba2f8ad7ac10bec9a4011f06ae450794054770b434e5c9df84f99e24",
+      "valoare": 585.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 14:35:11",
+      "intrebare": "Cursul euro (RON) pe 2026-11-19",
+      "intrebare_id": 7812,
+      "rationament": "BNR ține EUR/RON stabil cu ușoară revenire spre medie; după scăderea recentă anticipez o mișcare minimă în sus.",
+      "sha256": "4647321d1e3ef11d6d7b23567bd757697173d264ac5cf0ad239d29136b8d0e0b",
+      "valoare": 5.3462
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 14:35:11",
+      "intrebare": "Cursul dolar (RON) pe 2026-11-19",
+      "intrebare_id": 7813,
+      "rationament": "Dolarul se apreciază constant de o săptămână, dar ritmul încetinește; extrapolez prudent o creștere mică.",
+      "sha256": "3b453475dc0c5b9e779b51dcf4f2e2062b0ab687dce1f36378fc8498d0bffce7",
+      "valoare": 4.8745
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 14:35:11",
+      "intrebare": "Preţul aurului (RON/gram) pe 2026-11-19",
+      "intrebare_id": 7816,
+      "rationament": "Trendul descendent e puternic, cu o scădere bruscă ieri; mizez pe o continuare slabă, fără panică suplimentară.",
+      "sha256": "e71420533b3e873d11372c9119f7508183265974af84aabe550ce982f787df0a",
+      "valoare": 589.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Bristol Myers Squibb pe 2026-11-18",
+      "intrebare_id": 7817,
+      "rationament": "Bristol Myers Squibb a arătat o tendință descendentă recentă, cu o scădere de la 64.19 USD la 61.35 USD în ultimele zile. Lipsa catalizatorilor pozitivi și presiunea vânzărilor în sectorul farmaceutic sugerează o continuare a acestei tendințe. Cu toate acestea, suportul istoric în jurul nivelului de 61 USD ar putea limita scăderea. Riscurile includ concurența crescută în domeniul oncologic și întârzieri în aprobările de medicamente.",
+      "sha256": "938406eac7740c42f292149e4fcdfe131be77d26c340b1318cca3c61aa43ea78",
+      "valoare": 61.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Broadcom pe 2026-11-18",
+      "intrebare_id": 7818,
+      "rationament": "Broadcom a demonstrat reziliență în ciuda volatilității recente, cu un suport puternic în jurul nivelului de 330 USD. Creșterea cererii pentru soluțiile de semiconductori și achizițiile strategice susțin perspectiva pozitivă. Cu toate acestea, riscurile geopolitice legate de lanțul de aprovizionare ar putea afecta performanța pe termen scurt.",
+      "sha256": "07972720d8c4bc4fb8a3ce1013b9198fa36de271e18fe6ad66ce77eb973bc68d",
+      "valoare": 343.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Broadridge Financial Solutions pe 2026-11-18",
+      "intrebare_id": 7819,
+      "rationament": "Broadridge Financial Solutions a arătat stabilitate în jurul nivelului de 190 USD, cu o ușoară tendință descendentă recentă. Creșterea organică moderată și extinderea serviciilor digitale susțin perspectiva, dar concurența intensă în sectorul financiar ar putea limita creșterea.",
+      "sha256": "8c6779555bc65d150365a28f2afeb71f3ebeac66d200047e85b66750f74746d0",
+      "valoare": 189.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Brown & Brown pe 2026-11-18",
+      "intrebare_id": 7820,
+      "rationament": "Brown & Brown a înregistrat o scădere recentă, dar suportul istoric în jurul nivelului de 72 USD ar putea limita declinul. Creșterea organică și achizițiile strategice susțin perspectiva pe termen lung, dar riscurile includ presiunea asupra marjelor din cauza concurenței.",
+      "sha256": "c896d700c4e98c3be410d94ec574d4f1246a75091dcbf96f93bcbf7a9e6470cc",
+      "valoare": 72.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Brown–Forman pe 2026-11-18",
+      "intrebare_id": 7821,
+      "rationament": "Brown–Forman a arătat o tendință laterală în jurul nivelului de 30 USD, cu o ușoară presiune descendentă. Cererea stabilă pentru băuturile spirtoase și extinderea pe piețele emergente susțin perspectiva, dar riscurile includ fluctuatiile valutare și costurile mai mari ale materiilor prime.",
+      "sha256": "ee96d09c3b0f03279bb031ab2985dfd958228647aad1279c517ef2a9c41019f4",
+      "valoare": 30.3
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Builders FirstSource pe 2026-11-18",
+      "intrebare_id": 7822,
+      "rationament": "Builders FirstSource a înregistrat o scădere semnificativă recentă, cu presiune descendentă din cauza încetinirii sectorului imobiliar. Suportul în jurul nivelului de 58 USD ar putea limita declinul, dar riscurile includ scăderea cererii și presiunea asupra marjelor.",
+      "sha256": "e3194e34179f5de623648a892f3c46ccf140931d6db4f96898de4df950524ecb",
+      "valoare": 58.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Bunge Global pe 2026-11-18",
+      "intrebare_id": 7823,
+      "rationament": "Bunge Global a arătat o tendință descendentă recentă, dar suportul istoric în jurul nivelului de 96 USD ar putea limita scăderea. Creșterea cererii pentru produsele agricole și extinderea capacităților susțin perspectiva, dar riscurile includ volatilitatea prețurilor materiilor prime.",
+      "sha256": "45cadd0fcddae882d61d9f3fd1723f90ba66c94c6bc2e685bb19f7ae7732309f",
+      "valoare": 96.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul BXP, Inc. pe 2026-11-18",
+      "intrebare_id": 7824,
+      "rationament": "BXP, Inc. a înregistrat o scădere recentă, dar suportul în jurul nivelului de 62 USD ar putea limita declinul. Cererea stabilă pentru spațiile de birouri și diversificarea portofoliului susțin perspectiva, dar riscurile includ rata crescută a vacanțelor și presiunea asupra chiriilor.",
+      "sha256": "d8bb28c19076e6bc17a0e234334024b0dcc8ebfbf16cfbebc9183be7d82deb42",
+      "valoare": 62.8
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul C.H. Robinson pe 2026-11-18",
+      "intrebare_id": 7825,
+      "rationament": "C.H. Robinson a arătat o tendință descendentă recentă, cu presiune din cauza încetinirii sectorului logistic. Suportul în jurul nivelului de 138 USD ar putea limita declinul, dar riscurile includ concurența intensă și presiunea asupra marjelor.",
+      "sha256": "4e54ef8e2c37facb8054eb07937b76dd6a5a6073e9fe7edf7c68a0e13c873b4b",
+      "valoare": 138.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Cadence Design Systems pe 2026-11-18",
+      "intrebare_id": 7826,
+      "rationament": "Cadence Design Systems a înregistrat o scădere recentă, dar suportul în jurul nivelului de 308 USD ar putea limita declinul. Creșterea cererii pentru soluțiile de design electronic și extinderea portofoliului susțin perspectiva, dar riscurile includ concurența din partea jucătorilor mai mari.",
+      "sha256": "00577f584ad97892ff860c71c16c68e23263788eb835e0f55772aa13e068c2d2",
+      "valoare": 308.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Camden Property Trust pe 2026-11-18",
+      "intrebare_id": 7827,
+      "rationament": "Camden Property Trust a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 98 USD ar putea limita declinul. Cererea stabilă pentru locuințe de închiriat și extinderea portofoliului susțin perspectiva, dar riscurile includ rata crescută a vacanțelor și presiunea asupra chiriilor.",
+      "sha256": "19b951566c31e23e08f64635cbea5ec4577644304cd531d9cbc6a160107f9eb6",
+      "valoare": 98.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Capital One pe 2026-11-18",
+      "intrebare_id": 7828,
+      "rationament": "Capital One a înregistrat o scădere recentă, dar suportul în jurul nivelului de 187 USD ar putea limita declinul. Creșterea creditării și extinderea serviciilor digitale susțin perspectiva, dar riscurile includ calitatea creditului și presiunea asupra marjelor.",
+      "sha256": "016977b8455e2b234b252cdba2ec6a946b9c82b2d96527bd3d7ff7466e47f6c6",
+      "valoare": 187.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Cardinal Health pe 2026-11-18",
+      "intrebare_id": 7829,
+      "rationament": "Cardinal Health a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 278 USD ar putea limita declinul. Creșterea cererii pentru produsele medicale și extinderea lanțului de aprovizionare susțin perspectiva, dar riscurile includ presiunea asupra prețurilor și concurența.",
+      "sha256": "7f9e7a93f7078734c63e4091ffb0958ceeabf87b94247bb403836a52925e8add",
+      "valoare": 278.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Carnival Corporation pe 2026-11-18",
+      "intrebare_id": 7830,
+      "rationament": "Carnival Corporation a înregistrat o scădere semnificativă recentă, cu presiune din cauza incertitudinilor legate de sectorul turismului. Suportul în jurul nivelului de 28 USD ar putea limita declinul, dar riscurile includ scăderea cererii și costurile operaționale ridicate.",
+      "sha256": "bc0bf3866a500440dd60502a20bcfd5b097569f43c17523e71edf7727b4cf9e2",
+      "valoare": 28.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Carrier Global pe 2026-11-18",
+      "intrebare_id": 7831,
+      "rationament": "Carrier Global a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 51 USD ar putea limita declinul. Creșterea cererii pentru soluțiile de climatizare și extinderea portofoliului susțin perspectiva, dar riscurile includ presiunea asupra prețurilor și concurența.",
+      "sha256": "17cd8fdc10af76a82bc031563fff54d7453195bf53492e0a7b2a0abc754e2bd4",
+      "valoare": 51.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Carvana pe 2026-11-18",
+      "intrebare_id": 7832,
+      "rationament": "Carvana a înregistrat o scădere recentă, dar suportul în jurul nivelului de 71 USD ar putea limita declinul. Creșterea vânzărilor online și extinderea rețelei susțin perspectiva, dar riscurile includ concurența intensă și presiunea asupra marjelor.",
+      "sha256": "773e548b0f27619e1e409272a6798d4242e662138dac4eb0866b152497f167be",
+      "valoare": 71.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Casey's pe 2026-11-18",
+      "intrebare_id": 7833,
+      "rationament": "Casey's a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 710 USD ar putea limita declinul. Creșterea vânzărilor și extinderea rețelei susțin perspectiva, dar riscurile includ presiunea asupra marjelor și concurența.",
+      "sha256": "6593d1c0989ae239a28149cb308d1045c4301513e81838500b54268cd8b08191",
+      "valoare": 710.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Caterpillar Inc. pe 2026-11-18",
+      "intrebare_id": 7834,
+      "rationament": "Caterpillar Inc. a înregistrat o scădere recentă, dar suportul în jurul nivelului de 572 USD ar putea limita declinul. Creșterea cererii pentru echipamente grele și extinderea pe piețele emergente susțin perspectiva, dar riscurile includ încetinirea sectorului construcțiilor.",
+      "sha256": "36b7b4be397d491ca64aebe696e175e182d3df98783556d3ae6a5416ba81e5b0",
+      "valoare": 572.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Cboe Global Markets pe 2026-11-18",
+      "intrebare_id": 7835,
+      "rationament": "Cboe Global Markets a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 372 USD ar putea limita declinul. Creșterea volumului de tranzacționare și extinderea produselor susțin perspectiva, dar riscurile includ volatilitatea pieței și concurența.",
+      "sha256": "735b6198ad02b14d0f62b33669d8e637a076d90d1eddfbe4deb536585bd96f2d",
+      "valoare": 372.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul CBRE Group pe 2026-11-18",
+      "intrebare_id": 7836,
+      "rationament": "CBRE Group a înregistrat o scădere recentă, dar suportul în jurul nivelului de 131 USD ar putea limita declinul. Creșterea cererii pentru servicii imobiliare și extinderea globală susțin perspectiva, dar riscurile includ încetinirea sectorului imobiliar.",
+      "sha256": "bcde9eec2515cd1867799db836102059101d7b2fd2813375e07ca355c64bee49",
+      "valoare": 131.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul CDW Corporation pe 2026-11-18",
+      "intrebare_id": 7837,
+      "rationament": "CDW Corporation a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 162 USD ar putea limita declinul. Creșterea cererii pentru soluțiile IT și extinderea portofoliului susțin perspectiva, dar riscurile includ concurența intensă și presiunea asupra marjelor.",
+      "sha256": "e258721ba9d34d7e638996625963f7490cb4c0346390434e73db8354a2a16a6a",
+      "valoare": 162.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Cencora pe 2026-11-18",
+      "intrebare_id": 7838,
+      "rationament": "Cencora a înregistrat o scădere recentă, dar suportul în jurul nivelului de 348 USD ar putea limita declinul. Creșterea cererii pentru produsele farmaceutice și extinderea lanțului de aprovizionare susțin perspectiva, dar riscurile includ presiunea asupra prețurilor și concurența.",
+      "sha256": "bd4ba733ceb1b84dd9f15885a00dadb306b79f8abe3608e09fcd05ad4b9a2449",
+      "valoare": 348.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Centene Corporation pe 2026-11-18",
+      "intrebare_id": 7839,
+      "rationament": "Centene Corporation a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 72 USD ar putea limita declinul. Creșterea numărului de asigurați și extinderea serviciilor susțin perspectiva, dar riscurile includ presiunea asupra costurilor și reglementările.",
+      "sha256": "518daf192095684208fca9c3ee07ab71ce90fe0ad404ef52f6029f4b7e541646",
+      "valoare": 72.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul CenterPoint Energy pe 2026-11-18",
+      "intrebare_id": 7840,
+      "rationament": "CenterPoint Energy a înregistrat o scădere recentă, dar suportul în jurul nivelului de 39.50 USD ar putea limita declinul. Creșterea cererii pentru energie și extinderea infrastructurii susțin perspectiva, dar riscurile includ reglementările și costurile ridicate.",
+      "sha256": "c133a57ba8fd56da808998be10fae9e90d6d9f240a25527a1a381077258d6396",
+      "valoare": 39.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Apple Inc. pe 2026-11-18",
+      "intrebare_id": 7841,
+      "rationament": "Apple Inc. a arătat o tendință laterală recentă, cu suport puternic în jurul nivelului de 352 USD. Lansările de produse și extinderea serviciilor susțin perspectiva, dar riscurile includ concurența intensă și incertitudinile legate de lanțul de aprovizionare.",
+      "sha256": "44770284745db35a612811e6e2142fd207a80aea566624e5450711d9b920303a",
+      "valoare": 352.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Microsoft pe 2026-11-18",
+      "intrebare_id": 7842,
+      "rationament": "Microsoft a înregistrat o scădere recentă, dar suportul în jurul nivelului de 508 USD ar putea limita declinul. Creșterea cererii pentru cloud și software susțin perspectiva, dar riscurile includ concurența și reglementările.",
+      "sha256": "b8a7769894fc0f30d2a2520fbbb17c53ebb543067d79ebd728b32a6f7b9425e7",
+      "valoare": 508.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Nvidia pe 2026-11-18",
+      "intrebare_id": 7843,
+      "rationament": "Nvidia a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 156 USD ar putea limita declinul. Creșterea cererii pentru GPU-uri și inteligența artificială susțin perspectiva, dar riscurile includ concurența și volatilitatea sectorului.",
+      "sha256": "61b2286940ed395e7deda11e713b80be9d660acaf5514fc744d097f8a2c16233",
+      "valoare": 156.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Amazon pe 2026-11-18",
+      "intrebare_id": 7844,
+      "rationament": "Amazon a înregistrat o scădere recentă, dar suportul în jurul nivelului de 258 USD ar putea limita declinul. Creșterea vânzărilor online și extinderea serviciilor cloud susțin perspectiva, dar riscurile includ concurența și presiunea asupra marjelor.",
+      "sha256": "111bb36d134f4048729dc467b932a602d90667444a80c20feb531684d0ac81c7",
+      "valoare": 258.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Alphabet Inc. (Class A) pe 2026-11-18",
+      "intrebare_id": 7845,
+      "rationament": "Alphabet Inc. a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 281 USD ar putea limita declinul. Creșterea veniturilor din publicitate și extinderea serviciilor cloud susțin perspectiva, dar riscurile includ reglementările și concurența.",
+      "sha256": "cdda6be393b33c1072ee0e1fbc1b87cbd6f2ce68800e3123bba689b783799b67",
+      "valoare": 281.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Meta Platforms pe 2026-11-18",
+      "intrebare_id": 7846,
+      "rationament": "Meta Platforms a înregistrat o scădere recentă, dar suportul în jurul nivelului de 619 USD ar putea limita declinul. Creșterea utilizatorilor și extinderea realității virtuale susțin perspectiva, dar riscurile includ reglementările și concurența.",
+      "sha256": "b29e87c91f2aa030bef071cf6fbc4d82080b06bc2ee7104bbf243b06d6b80755",
+      "valoare": 619.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Tesla, Inc. pe 2026-11-18",
+      "intrebare_id": 7847,
+      "rationament": "Tesla, Inc. a arătat o tendință laterală recentă, cu suport în jurul nivelului de 381 USD. Creșterea vânzărilor de vehicule electrice și extinderea producției susțin perspectiva, dar riscurile includ concurența și incertitudinile legate de lanțul de aprovizionare.",
+      "sha256": "91880aa436bc42267a2e4c22415ab655fbaf1376e08e7f5f297a0e1685d1b362",
+      "valoare": 381.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Advanced Micro Devices pe 2026-11-18",
+      "intrebare_id": 7848,
+      "rationament": "Advanced Micro Devices a înregistrat o scădere recentă, dar suportul în jurul nivelului de 505 USD ar putea limita declinul. Creșterea cererii pentru procesoare și extinderea portofoliului susțin perspectiva, dar riscurile includ concurența și volatilitatea sectorului.",
+      "sha256": "b817f4dda656d5ec32f3fcdf30a8da7418740d1d2fda60a3a7cd3d6349bcaa9d",
+      "valoare": 505.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Netflix pe 2026-11-18",
+      "intrebare_id": 7849,
+      "rationament": "Netflix a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 59.50 USD ar putea limita declinul. Creșterea numărului de abonați și extinderea conținutului susțin perspectiva, dar riscurile includ concurența intensă și presiunea asupra costurilor.",
+      "sha256": "6f216b368b1a222f84696b640daa24d9072ccc093f37463544c299b0d8490b1b",
+      "valoare": 59.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Intel pe 2026-11-18",
+      "intrebare_id": 7850,
+      "rationament": "Intel a înregistrat o scădere recentă, dar suportul în jurul nivelului de 55 USD ar putea limita declinul. Creșterea cererii pentru procesoare și extinderea producției susțin perspectiva, dar riscurile includ concurența și întârzierile tehnologice.",
+      "sha256": "5b1ec5076be21b9bf6a57f0d4ca82a8dd2dcad6f1426d55afadd7fd25250a636",
+      "valoare": 55.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Walt Disney Company (The) pe 2026-11-18",
+      "intrebare_id": 7851,
+      "rationament": "Walt Disney Company a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 117 USD ar putea limita declinul. Creșterea abonaților la Disney+ și redeschiderea parcurilor susțin perspectiva, dar riscurile includ concurența și presiunea asupra veniturilor.",
+      "sha256": "cd3c5a648dce3779ca86a0672bb1209c5299d4da84e17bba6b4a54f4a3031992",
+      "valoare": 117.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-11-18",
+      "intrebare_id": 7852,
+      "rationament": "JPMorgan Chase a înregistrat o scădere recentă, dar suportul în jurul nivelului de 330 USD ar putea limita declinul. Creșterea creditării și extinderea serviciilor financiare susțin perspectiva, dar riscurile includ calitatea creditului și reglementările.",
+      "sha256": "d4f1a23fe2eab35f949cf5d0d5361c09980399e988ef0b5adac6f2aae50fe5fc",
+      "valoare": 330.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Visa Inc. pe 2026-11-18",
+      "intrebare_id": 7853,
+      "rationament": "Visa Inc. a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 418 USD ar putea limita declinul. Creșterea tranzacțiilor digitale și extinderea globală susțin perspectiva, dar riscurile includ concurența și reglementările.",
+      "sha256": "5be16e506d4ed81144f87a26dcf39798800dde6e8271af15cd5606e08cdc6acf",
+      "valoare": 418.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Walmart pe 2026-11-18",
+      "intrebare_id": 7854,
+      "rationament": "Walmart a înregistrat o scădere recentă, dar suportul în jurul nivelului de 127.50 USD ar putea limita declinul. Creșterea vânzărilor online și extinderea serviciilor susțin perspectiva, dar riscurile includ concurența și presiunea asupra marjelor.",
+      "sha256": "868281ba0e2b8df4606496f4c8d05c19c5ae527ad390e7220e4516a8e5241c28",
+      "valoare": 127.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-11-18",
+      "intrebare_id": 7855,
+      "rationament": "Coca-Cola Company a arătat o tendință laterală recentă, cu suport în jurul nivelului de 98.50 USD. Creșterea cererii pentru băuturile non-alcoolice și extinderea pe piețele emergente susțin perspectiva, dar riscurile includ fluctuatiile valutare și costurile materiilor prime.",
+      "sha256": "dd5180f49149eaa795f0c78b50c69dcd4a35d8e62b3bdecde4b70d5a18bd9475",
+      "valoare": 98.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul ExxonMobil pe 2026-11-18",
+      "intrebare_id": 7856,
+      "rationament": "ExxonMobil a înregistrat o scădere recentă, dar suportul în jurul nivelului de 167 USD ar putea limita declinul. Creșterea prețurilor petrolului și extinderea producției susțin perspectiva, dar riscurile includ reglementările și volatilitatea prețurilor.",
+      "sha256": "9950fae2bd1296c0ec39b0cee8f70a41b5ea5bda4a8876b53b0a09a2ae964821",
+      "valoare": 167.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Boeing pe 2026-11-18",
+      "intrebare_id": 7857,
+      "rationament": "Boeing a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 164 USD ar putea limita declinul. Creșterea cererii pentru aeronave și reluarea livrărilor susțin perspectiva, dar riscurile includ întârzierile de producție și presiunea asupra costurilor.",
+      "sha256": "9fc988819bb578bdd13092620eba99ac7725ffc10789d5cce5fe79aa10e57cea",
+      "valoare": 164.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Palantir Technologies pe 2026-11-18",
+      "intrebare_id": 7858,
+      "rationament": "Palantir Technologies a înregistrat o scădere recentă, dar suportul în jurul nivelului de 155 USD ar putea limita declinul. Creșterea cererii pentru soluțiile de analiză a datelor și extinderea portofoliului susțin perspectiva, dar riscurile includ concurența și volatilitatea sectorului.",
+      "sha256": "4bc9bd98c2f258d856ec4140abad02e8447c3636f4c4760ced985967528e6d7c",
+      "valoare": 155.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Coinbase pe 2026-11-18",
+      "intrebare_id": 7859,
+      "rationament": "Coinbase a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 114 USD ar putea limita declinul. Creșterea volumului de tranzacționare și extinderea serviciilor susțin perspectiva, dar riscurile includ volatilitatea criptomonedelor și reglementările.",
+      "sha256": "a5060b9e116c757779656709199fa7dc651677d6bbee9152c5b928bb6a656ee8",
+      "valoare": 114.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Uber pe 2026-11-18",
+      "intrebare_id": 7860,
+      "rationament": "Uber a înregistrat o scădere recentă, dar suportul în jurul nivelului de 68.50 USD ar putea limita declinul. Creșterea cererii pentru servicii de ride-sharing și extinderea livrărilor susțin perspectiva, dar riscurile includ concurența și presiunea asupra marjelor.",
+      "sha256": "2cd4691a59db90c7259be9794c3708cc32f9d5dd00f6311f810fe1590c10253f",
+      "valoare": 68.5
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Robinhood Markets pe 2026-11-18",
+      "intrebare_id": 7861,
+      "rationament": "Robinhood Markets a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 69 USD ar putea limita declinul. Creșterea numărului de utilizatori și extinderea serviciilor susțin perspectiva, dar riscurile includ volatilitatea pieței și reglementările.",
+      "sha256": "ade7b28e41b87c0c2c317888b0d8427b8330b978ad112a00026280a8b3af54ff",
+      "valoare": 69.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Shopify pe 2026-11-18",
+      "intrebare_id": 7862,
+      "rationament": "Shopify a înregistrat o scădere recentă, dar suportul în jurul nivelului de 142 USD ar putea limita declinul. Creșterea cererii pentru platformele de e-commerce și extinderea serviciilor susțin perspectiva, dar riscurile includ concurența și presiunea asupra marjelor.",
+      "sha256": "3dee8ba47bcda858e3f6d24af130195a1a450398ecbb608cd9b95ded460728ca",
+      "valoare": 142.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul MicroStrategy pe 2026-11-18",
+      "intrebare_id": 7863,
+      "rationament": "MicroStrategy a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 97 USD ar putea limita declinul. Creșterea cererii pentru soluțiile de business intelligence și expunerea la Bitcoin susțin perspectiva, dar riscurile includ volatilitatea criptomonedelor și presiunea asupra lichidității.",
+      "sha256": "a88d7560d98a6732f569a58fc6ec1c087995cb6be85752b0c75b6c83fd486e7d",
+      "valoare": 97.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul S&P 500 (SPY) pe 2026-11-18",
+      "intrebare_id": 7864,
+      "rationament": "S&P 500 a înregistrat o scădere recentă, dar suportul în jurul nivelului de 733 USD ar putea limita declinul. Diversificarea sectorială și perspectivele economice susțin perspectiva, dar riscurile includ incertitudinile geopolitice și volatilitatea pieței.",
+      "sha256": "fd90c9d6a2c25845ec90dbc0a02c8ff8683152b427e0f6f812bc6e349dafca29",
+      "valoare": 733.0
+    },
+    {
+      "agent": "command",
+      "creata_la": "2026-11-18 15:46:22",
+      "intrebare": "Preţul Nasdaq 100 (QQQ) pe 2026-11-18",
+      "intrebare_id": 7865,
+      "rationament": "Nasdaq 100 a arătat o tendință descendentă recentă, dar suportul în jurul nivelului de 657 USD ar putea limita declinul. Creșterea companiilor tehnologice și extinderea inovării susțin perspectiva, dar riscurile includ volatilitatea sectorului și reglementările.",
+      "sha256": "8bd350811d3895950acd1c207062ffcab8c26917eeacb04369d341e41e1a56be",
+      "valoare": 657.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Bristol Myers Squibb pe 2026-11-18",
+      "intrebare_id": 7817,
+      "rationament": "BMY a scăzut cu 2,5% pe 17 noiembrie, la 61,35, minimul ferestrei, după un interval lateral de 62–63,4. Pe termen lung, piața evaluează pierderea exclusivității pentru Eliquis și Opdivo față de rampa de creștere a Cobenfy și a portofoliului nou. Nu am știri după iunie 2026, deci nu știu dacă scăderea are un catalizator specific, cum ar fi date clinice. Aleg un mic rebound tehnic de 0,15%, practic egal cu prețul de azi, pentru că pharma defensivă rar continuă scăderile fără știri.",
+      "sha256": "8ca3cb305d40821b3dd5115d421cd534a824944565616a9525355b8bd1b6c191",
+      "valoare": 61.45
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Broadcom pe 2026-11-18",
+      "intrebare_id": 7818,
+      "rationament": "Broadcom a avut o volatilitate extremă: de la 291 la 364 în cinci ședințe, apoi o corecție la 333 și o revenire la 341,6. Este singurul nume din semiconductori AI care a închis pe plus ieri, în timp ce NVDA și AMD au stagnat, semn de cerere relativă pentru expunerea pe ASIC-uri custom (TPU, clienți hyperscaler). Rezultatele fiscale Q4 vin de regulă în decembrie, deci mâine nu e programat niciun catalizator propriu. Mișcările zilnice de 3–5% fac orice abatere mare de la prețul curent pur zgomot, așa că rămân aproape de 341,6.",
+      "sha256": "1016044a61345c93ccfe0947ff709e21c17f8e5afe0c09f7589caa00e75efbc6",
+      "valoare": 342.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Broadridge Financial Solutions pe 2026-11-18",
+      "intrebare_id": 7819,
+      "rationament": "Broadridge a scăzut cu 3,4% ieri, la 188,58, o mișcare mare pentru un furnizor de infrastructură post-trade cu venituri recurente și volatilitate istoric redusă. Fără un catalizator cunoscut de mine, astfel de căderi la acțiuni stabile tind să se corecteze parțial. Riscul este ca scăderea să reflecte o știre reală, de exemplu privind volumele din wealth management sau o retrogradare de rating de la analiști. Estimez un rebound minim, de aproximativ 0,2%.",
+      "sha256": "4016119ff531b081bbfe06732a361a4b08b56bd3be76f0c1adcf0ad3bf7aa028",
+      "valoare": 188.9
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Brown & Brown pe 2026-11-18",
+      "intrebare_id": 7820,
+      "rationament": "Brown & Brown oscilează între 70,5 și 74,4, iar ieri a scăzut cu 1,7% după un salt de 2,2% luni. Brokerajul de asigurări este presat de încetinirea creșterii primelor în segmentul property și de integrarea achizițiilor mari recente. Seria nu arată un trend clar pe două săptămâni, doar zgomot în jurul valorii de 72. Prognoza este practic prețul de azi, cu o ușoară revenire.",
+      "sha256": "228f8f4512a06639ad6c5d222c67487b77bd1dae28c6cd0953bef025b10675de",
+      "valoare": 72.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Brown–Forman pe 2026-11-18",
+      "intrebare_id": 7821,
+      "rationament": "Brown-Forman se tranzacționează într-un canal îngust, 30,0–31,0, la minime multianuale, pe fondul slăbiciunii structurale a cererii de spirtoase premium și al riscului de tarife la exportul de whiskey american. Scăderea de ieri, de 2,2%, a readus prețul spre baza canalului, unde a revenit de două ori în ultimele zile. Volatilitatea mică și lipsa unui catalizator imediat justifică o predicție aproape identică cu prețul de azi.",
+      "sha256": "3e6de5ebff5f4c6348e04713e33dedc08d7664101bdbcae0d5d8c19b4a9921e9",
+      "valoare": 30.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Builders FirstSource pe 2026-11-18",
+      "intrebare_id": 7822,
+      "rationament": "Builders FirstSource este într-un trend descendent clar, de la 69,5 la 57,9 (-17% în două săptămâni), cu minime noi aproape zilnic. Compania depinde de construcția de locuințe noi unifamiliale, sensibilă la dobânzile ipotecare și la stocurile mari ale constructorilor. Momentum-ul pe termen scurt e negativ, dar după o asemenea serie pot apărea revenirile de o zi. Echilibrez cele două efecte cu o predicție foarte puțin peste prețul de azi.",
+      "sha256": "0ebe0111df4b6e80e1dbe92a517efa83615747b63fcc218cca9cc1dd625944ea",
+      "valoare": 58.05
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Bunge Global pe 2026-11-18",
+      "intrebare_id": 7823,
+      "rationament": "Bunge a scăzut cu 6% în ultimele două ședințe (101,65 → 95,60), după un trend ascendent constant. Marjele de procesare a soiei și cererea de uleiuri vegetale pentru biocombustibili, influențată de politicile RVO din SUA, sunt principalii drivere. Știrile despre politica de biocombustibili mișcă brusc tot sectorul, dar nu am informații despre noiembrie 2026. Mizez pe o stabilizare ușoară, de aproximativ 0,25%.",
+      "sha256": "06a397d337c422e78a4d78c8eca439d65499509b3c4cfb6eb666e8223d7662da",
+      "valoare": 95.85
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul BXP, Inc. pe 2026-11-18",
+      "intrebare_id": 7824,
+      "rationament": "BXP, REIT de birouri premium (Boston, NYC, SF), are un trend ușor descendent, de la 66 la 62,8. Vulnerabilitatea la randamentele obligațiunilor pe termen lung este mare, iar ziua de ieri a fost una de aversiune generală la risc. Gradul de închiriere în clădirile de clasă A se îmbunătățește lent, dar asta e deja în preț. Prognozez un preț practic egal cu cel de azi.",
+      "sha256": "82d31b35fef22932cbbae6dddcf718b225fd43a18d857ec6c0bc1b9487205c0f",
+      "valoare": 62.85
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul C.H. Robinson pe 2026-11-18",
+      "intrebare_id": 7825,
+      "rationament": "C.H. Robinson este printre puținele acțiuni din listă cu un trend ascendent solid: de la 125 la 138, cu un maxim nou ieri, chiar într-o piață în scădere. Narațiunea pozitivă ține de creșterea productivității prin automatizare și AI în brokerajul de transport, care susține marjele chiar și pe o piață de freight slabă. După un maxim nou într-o zi de piață negativă, o mică consolidare e la fel de probabilă ca o continuare, așa că rămân foarte aproape de prețul de azi.",
+      "sha256": "b2fb62972c206c2338fb3efb00870974eaa7ef7cf89df5bd867207417d102eee",
+      "valoare": 137.8
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Cadence Design Systems pe 2026-11-18",
+      "intrebare_id": 7826,
+      "rationament": "Cadence a coborât de la 336,5 la 307 (-8,8%) în cinci ședințe, odată cu corecția generală a tech-ului legat de AI. Ca furnizor de software EDA, beneficiază de cererea pentru designul de cipuri AI, dar evaluarea premium o face sensibilă la rotația din sector. Scăderea de ieri a fost moderată (-0,8%), un semn de posibilă decelerare a vânzărilor. Estimez o revenire foarte mică.",
+      "sha256": "bd85cd62ff24d46d4335fe780db3bb6af7fcd4571ba45eb265d6d0dfd24167e4",
+      "valoare": 307.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Camden Property Trust pe 2026-11-18",
+      "intrebare_id": 7827,
+      "rationament": "Camden, REIT rezidențial axat pe Sunbelt, este în trend ușor descendent (104,5 → 98), presat de oferta mare de apartamente noi din Texas, Florida și Arizona, care limitează creșterea chiriilor. Volatilitatea zilnică este scăzută, sub 1%. Nu văd un catalizator imediat. Predicția este practic prețul de azi.",
+      "sha256": "9630b07c81926a519e76e50dacf6804f700c8732490e906a74728c7a84e4c9e7",
+      "valoare": 98.15
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Capital One pe 2026-11-18",
+      "intrebare_id": 7828,
+      "rationament": "Capital One este într-o scădere aproape neîntreruptă, de la 206 la 186,8 (-9,5%), inclusiv -3,3% ieri. Scăderea e mai puternică decât la alte bănci mari, probabil din cauza temerilor legate de creditul de consum și pierderile pe carduri. Integrarea Discover rămâne un factor de risc și oportunitate specific. Momentum-ul e negativ, dar după o zi de -3% aleg o revenire foarte mică, nu o continuare.",
+      "sha256": "30e950c4445951b8fefdbb1ff8db5fe12b3b303b7f0d692f461fd2635b5c3e7e",
+      "valoare": 187.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Cardinal Health pe 2026-11-18",
+      "intrebare_id": 7829,
+      "rationament": "Cardinal Health a avut un trend ascendent constant, de la 262 la 284 (+8%), întrerupt ieri de o scădere de 1,6%. Distribuitorii farmaceutici beneficiază de volumele mari de GLP-1 și de creșterea segmentului specialty. Corecția de ieri pare o realizare de profit în cadrul trendului. Prognozez o revenire minimă.",
+      "sha256": "27f4de085bc8fd701605a5709025cfa86460524d760cbf6a34c9cfb3e233339f",
+      "valoare": 279.6
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Carnival Corporation pe 2026-11-18",
+      "intrebare_id": 7830,
+      "rationament": "Carnival a scăzut de la 31,3 la 28,16 (-10%), cu patru ședințe consecutive pe minus. Acțiunea e sensibilă la percepția asupra cheltuielilor discreționare ale consumatorului american și la prețul combustibilului. Îndatorarea ridicată amplifică mișcările în zilele de aversiune la risc. Un mic rebound după o serie descendentă e plauzibil, dar marginal.",
+      "sha256": "e82fafb7ac1d864f21e72c074e8908504916fb587309d71101493c4f5c8aa93a",
+      "valoare": 28.22
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Carrier Global pe 2026-11-18",
+      "intrebare_id": 7831,
+      "rationament": "Carrier a coborât de la 55,7 la 51,3, cu o scădere marcată luni (-4,7%) și o continuare moderată ieri. Afacerea HVAC rezidențial e afectată de normalizarea stocurilor după tranziția la noii agenți frigorifici, în timp ce segmentul de răcire pentru data centere oferă un contrapunct pozitiv. Scăderea de ieri a încetinit. Estimez o stabilizare cu o variație minimă.",
+      "sha256": "dfb660d2dbefb5d5c6371d581dd711b52b30f44abca9448b3b2f60a9bd02c748",
+      "valoare": 51.4
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Carvana pe 2026-11-18",
+      "intrebare_id": 7832,
+      "rationament": "Prețurile Carvana par ajustate, probabil după un split, iar acțiunea oscilează între 70,7 și 77,6, cu trend ușor descendent. Sensibilitatea la dobânzile pentru creditele auto și la calitatea portofoliului de credite vândut rămâne principalul risc specific. Ieri a crescut ușor (+0,5%) într-o piață negativă, semn de stabilizare. Prognozez exact prețul de azi.",
+      "sha256": "45e8d29cd9197d612b966472d81913371810f8510ffb2a998a41a9bd0e9689e3",
+      "valoare": 71.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Casey's pe 2026-11-18",
+      "intrebare_id": 7833,
+      "rationament": "Casey's are un trend ascendent solid, de la 675 la 713, cu performanță defensivă, susținut de marjele la mâncarea preparată și de integrarea achiziției Fikes (CEFCO). Ca retailer de convenience din Midwest, e puțin corelat cu sell-off-ul din tech. Volatilitatea zilnică e moderată și nu are rezultate trimestriale programate mâine. Prognoza este egală cu prețul de azi.",
+      "sha256": "c4e9b24d3ec5f1d8ab47872ac61d51c6058d65fc9fe9fd95a5daedd465454685",
+      "valoare": 713.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Caterpillar Inc. pe 2026-11-18",
+      "intrebare_id": 7834,
+      "rationament": "Caterpillar a corectat cu 5% luni, de la 600 la 570,5, apoi s-a stabilizat ieri (570,8). Acțiunea a devenit parțial o investiție AI datorită generatoarelor și turbinelor pentru data centere, de unde și corelația cu volatilitatea semiconductorilor. Ciclul agricol și cel minier rămân slabe. Stabilizarea de ieri sugerează un preț apropiat de cel curent, cu o revenire minimă.",
+      "sha256": "f6a134c281833a34159b970d108bbb60fe55168aee503aa6a6fdc13387686fd4",
+      "valoare": 571.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Cboe Global Markets pe 2026-11-18",
+      "intrebare_id": 7835,
+      "rationament": "Cboe a urcat de la 345 la 377,5, beneficiind de volatilitatea ridicată a pieței, care crește volumele de opțiuni pe SPX și de futures pe VIX. Ziua de ieri (-2%) a fost o realizare de profit. Cât timp piața rămâne agitată, fundamentalul pe termen scurt e favorabil bursei. Estimez o mică revenire.",
+      "sha256": "4864e7509f4d81b71b576dfa20b5ce02b7adf6e821ccd39b7fdbb3e5c7f1778d",
+      "valoare": 370.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul CBRE Group pe 2026-11-18",
+      "intrebare_id": 7836,
+      "rationament": "CBRE are un trend descendent de la 141 la 130,7, sensibil la ciclul tranzacțiilor imobiliare comerciale și la randamentele pe termen lung. Diversificarea în managementul de facilități și construcția de data centere dă o bază de venituri mai stabilă decât la brokerajul pur. Scăderea de ieri (-1,8%) urmează piața. Prognozez o revenire minimă, aproape de prețul de azi.",
+      "sha256": "f85cad82616e76ca08371a8d0129f8ef304d9d33ba6ce844a47e522211c4fb9d",
+      "valoare": 130.9
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul CDW Corporation pe 2026-11-18",
+      "intrebare_id": 7837,
+      "rationament": "CDW a avut un maxim de 173 pe 11 noiembrie și apoi a pierdut aproape 6%. Revânzătorul IT depinde de ciclul de upgrade al PC-urilor (sfârșitul suportului pentru Windows 10) și de bugetele IT din sectorul public, ambele cu vizibilitate limitată. Scăderea pare legată de sentimentul tech general, nu de o știre specifică pe care să o cunosc. Predicția e foarte aproape de prețul de azi.",
+      "sha256": "5091c8395081b30b19c5718cf0e58abb27fbdbe45b543e98be5902c8c395d2da",
+      "valoare": 163.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Cencora pe 2026-11-18",
+      "intrebare_id": 7838,
+      "rationament": "Cencora a revenit de la 333,6 la 359 și a corectat la 350,6 ieri. La fel ca Cardinal, beneficiază de volumele de medicamente de specialitate și GLP-1, cu venituri foarte previzibile. Mișcările zilnice sunt în general de 1–2%. Aleg o mică revenire.",
+      "sha256": "10f222d514f4568ad34b796b6cb9b929090ed9bb2a13a07394e5c025cb37963a",
+      "valoare": 350.9
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Centene Corporation pe 2026-11-18",
+      "intrebare_id": 7839,
+      "rationament": "Centene a revenit de la minimul de 68,5 la 74,8 și a cedat ieri 3% (72,55). Asigurătorul e extrem de sensibil la știrile despre subvențiile ACA, ratele Medicaid și costurile medicale, deci titlurile politice pot produce mișcări de 5–10% oricând. Fără informații despre știrile din noiembrie 2026, nu am motiv să deviez. Prognozez exact prețul de azi.",
+      "sha256": "516171f94d1d9d20ac4e7d14ee81c04d31a59c9021516da6390b2a1f5048e2b7",
+      "valoare": 72.55
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul CenterPoint Energy pe 2026-11-18",
+      "intrebare_id": 7840,
+      "rationament": "CenterPoint, utilitate din Houston, a scăzut ieri cu 2,2% la 39,80, o mișcare mare pentru sector, probabil din cauza randamentelor obligațiunilor sau a rotației sectoriale. Narațiunea de creștere, cu cererea de electricitate pentru data centere și industrie în Texas, și planul mare de investiții rămân intacte. Scăderile bruște la utilități tind să se corecteze parțial. Estimez un rebound mic, de 0,3%.",
+      "sha256": "5c1253b48f068929df1ad8f907f6ff78bff46ee9d2f9bd3285ab9fe0d29eb8e9",
+      "valoare": 39.92
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Apple Inc. pe 2026-11-18",
+      "intrebare_id": 7841,
+      "rationament": "Apple a fost foarte stabil, între 342 și 356, cu scăderi mici luni și ieri, semn de rezistență relativă față de Nasdaq. Ciclul iPhone și monetizarea serviciilor dau un profil mai defensiv decât semiconductorii, iar investitorii o folosesc ca refugiu în sectorul tech. Riscurile specifice rămân reglementarea App Store și tarifele pe lanțul de aprovizionare. Prognoza e aproape de prețul de azi.",
+      "sha256": "3094f98809d9fd28c254324976946270a53f0cca8909b28cbeb445bb3ec11504",
+      "valoare": 352.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Microsoft pe 2026-11-18",
+      "intrebare_id": 7842,
+      "rationament": "Microsoft este într-o scădere aproape neîntreruptă, de la 555,8 la 506 (-9%), una dintre cele mai consistente din grupul mega-cap. Piața pare să reevalueze capex-ul enorm pentru AI în raport cu monetizarea Azure și Copilot. Seria de minime noi indică vânzări persistente, însă la -9% pe două săptămâni un rebound de o zi e plauzibil. Echilibrez cele două efecte cu o variație minimă.",
+      "sha256": "7819a0dbb25ba3cdcc2327adde18d1de1e98b47730d89b17af72826ce9d15b12",
+      "valoare": 506.8
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Nvidia pe 2026-11-18",
+      "intrebare_id": 7843,
+      "rationament": "Nvidia a scăzut de la 200 la 155,5 (-22%), o corecție majoră pe fondul temerilor privind sustenabilitatea capex-ului AI și concurența ASIC-urilor custom (Broadcom crește în aceeași perioadă). Rezultatele fiscale Q3 au fost raportate istoric în a doua jumătate a lui noiembrie, deci un raport iminent ar putea mări mult volatilitatea. Ieri scăderea a încetinit (-0,4%), un posibil semn de epuizare a vânzătorilor. Prognozez o revenire mică, conștient că abaterea reală poate fi de ±5–8%.",
+      "sha256": "8f7ea0a3cf44d10b8d26e602120810d93e9740dea903e09af14b825c50558f8b",
+      "valoare": 155.9
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Amazon pe 2026-11-18",
+      "intrebare_id": 7844,
+      "rationament": "Amazon a scăzut cu 3,3% luni și a rămas stabil ieri (257,9). Mișcarea reflectă corecția mega-cap tech și preocupările privind capex-ul AWS. Sezonul de cumpărături (Black Friday) se apropie, dar e deja în preț. Prognozez o variație minimă față de prețul de azi.",
+      "sha256": "d213d850eff04e075e67e2c9e89f5f1082a50320eafb82ee1180a54fe6bd8155",
+      "valoare": 258.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Alphabet Inc. (Class A) pe 2026-11-18",
+      "intrebare_id": 7845,
+      "rationament": "Alphabet a urcat la 298,7 pe 12 noiembrie, apoi a pierdut 6% în trei ședințe. Pozitivul specific ține de TPU-uri și Gemini, care au schimbat percepția asupra poziției sale în AI, dar riscurile antitrust (căutare și ad-tech) rămân. Scăderea de ieri a fost mai mică decât cea de luni. Prognozez o revenire minimă.",
+      "sha256": "37d33ab883c02329c6a4de1ad71c18f19d2905f2592a37afd80453abea620b33",
+      "valoare": 280.6
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Meta Platforms pe 2026-11-18",
+      "intrebare_id": 7846,
+      "rationament": "Meta oscilează între 605 și 642, cu mișcări zilnice de 2–5%, fără un trend clar. Piața cântărește creșterea veniturilor din publicitate, susținută de AI, contra capex-ului foarte mare pentru infrastructură și a pierderilor din Reality Labs. Sell-off-ul tech din ultimele zile a dus-o înapoi spre mijlocul intervalului. Rămân aproape de prețul de azi.",
+      "sha256": "87c5887cd0a2eba031768f55df4f2bd6bebdf1974f6781501daacaec6250b7b7",
+      "valoare": 619.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Tesla, Inc. pe 2026-11-18",
+      "intrebare_id": 7847,
+      "rationament": "Tesla a revenit de la 343,7 la 397 și s-a stabilizat în jurul a 380 în ultimele două ședințe. Evaluarea depinde aproape exclusiv de narațiunile robotaxi și Optimus, nu de livrările de vehicule, deci reacționează puternic la declarațiile conducerii. Stabilizarea recentă sugerează echilibru pe termen scurt. Prognozez practic prețul de azi.",
+      "sha256": "a19d5628180659ec462c774f4b767724d81e28c3f25e478aba715ec575d8ea6e",
+      "valoare": 380.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Advanced Micro Devices pe 2026-11-18",
+      "intrebare_id": 7848,
+      "rationament": "AMD a avut cea mai mare volatilitate din listă: 404 → 585 → 503, cu mișcări zilnice de până la 20%, probabil pe știri legate de contractele GPU pentru AI (de exemplu parteneriatul OpenAI). Ieri prețul s-a stabilizat la 503 după două zile de scădere. La o asemenea volatilitate, orice ajustare direcțională e nesemnificativă. Rămân aproape de prețul de azi, cu o revenire minimă.",
+      "sha256": "2c81271f375087d308c6ea3fc4e4291159a5ca4e9e747788010db7fee2e1a292",
+      "valoare": 504.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Netflix pe 2026-11-18",
+      "intrebare_id": 7849,
+      "rationament": "Prețul Netflix reflectă un split și se află într-un trend descendent constant (66,4 → 59,7, -10%). Piața pare să reevalueze multiplul de creștere după o perioadă de evaluare ridicată, posibil și din cauza riscurilor legate de achiziții media sau costurile de conținut. Fără catalizator cunoscut, după cinci ședințe de scădere aleg o revenire foarte mică.",
+      "sha256": "db7fa328ea980c83ae2b23675a79a4a5da29758b3208cbecd3f4650a1842ad60",
+      "valoare": 59.8
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Intel pe 2026-11-18",
+      "intrebare_id": 7850,
+      "rationament": "Intel a urcat la 62,5 pe 11 noiembrie și a scăzut la 55,2, urmând sentimentul pentru semiconductori. Narațiunea specifică ține de foundry (18A/14A), atragerea de clienți externi și participațiile strategice (guvernul SUA, Nvidia), fiecare știre pe acest front putând produce mișcări de 5–10%. Ieri s-a stabilizat. Prognozez o revenire minimă.",
+      "sha256": "cdbdfa8cca0647068a54b9c85bbfc31146a2f5962d0eca94309ada2d5b1f4282",
+      "valoare": 55.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Walt Disney Company (The) pe 2026-11-18",
+      "intrebare_id": 7851,
+      "rationament": "Disney e stabilă, între 116,7 și 119,7, iar scăderea de ieri (-1,5%) a dus-o la baza intervalului. Rezultatele fiscale Q4 au fost probabil publicate la jumătatea lui noiembrie, iar reacția pieței pare moderată. Parcurile tematice și profitabilitatea streamingului sunt principalii drivere. Estimez o revenire minimă spre mijlocul intervalului.",
+      "sha256": "cbef25b063793072a84dcde3902930ca17f664585cd8be3e7acd57a636d2d960",
+      "valoare": 117.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul JPMorgan Chase pe 2026-11-18",
+      "intrebare_id": 7852,
+      "rationament": "JPMorgan a scăzut cu 4,7% în ultimele două ședințe (346 → 330), mai mult decât S&P 500, într-un context de temeri privind creditul de consum (vezi și Capital One). Ca cea mai mare bancă americană, are cea mai robustă bază de capital, iar volatilitatea pieței ajută veniturile din trading. Aleg o revenire mică, de 0,15%.",
+      "sha256": "bfbc4c29057751e3cd7a793a8b8f7729618d0a323c3a9a50bf6bdbae85226f88",
+      "valoare": 330.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Visa Inc. pe 2026-11-18",
+      "intrebare_id": 7853,
+      "rationament": "Visa a scăzut cu 2,3% ieri, după o perioadă laterală, 420–426. Modelul de rețea de plăți e defensiv și puțin expus la riscul de credit, dar sensibil la cheltuielile consumatorului și la riscurile de reglementare (Credit Card Competition Act, litigiile privind comisioanele). Scăderea pare legată de sell-off-ul din financiare. Prognozez o revenire minimă.",
+      "sha256": "983c84d9a5cfbf1736d3cd489df032ae90d9bf42d885a913a48aaaeb358d2f10",
+      "valoare": 417.4
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Walmart pe 2026-11-18",
+      "intrebare_id": 7854,
+      "rationament": "Walmart a fost defensivă în ultimele zile (125,5 → 128,4), cu o scădere mică ieri. Rezultatele trimestriale Q3 sunt de obicei publicate în a doua jumătate a lui noiembrie, ceea ce ar putea crește volatilitatea dacă raportul e iminent. Câștigurile de cotă de piață la gospodăriile cu venituri mari și creșterea e-commerce sunt în preț. Rămân practic la prețul de azi.",
+      "sha256": "a50dfaad97ead692701722c02b5de8664cf14153a21b544cefe91a4bdc448754",
+      "valoare": 127.55
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Coca-Cola Company (The) pe 2026-11-18",
+      "intrebare_id": 7855,
+      "rationament": "Coca-Cola a avut un trend ascendent constant, de la 95,7 la 99,5, ca refugiu defensiv în timpul sell-off-ului tech. Volatilitatea zilnică e foarte scăzută, sub 1%. Riscurile specifice (dolar puternic, GLP-1 pentru volumele de băuturi zaharoase) sunt bine cunoscute. Prognoza este egală cu prețul de azi.",
+      "sha256": "9607f555adaef3b6af16fc3043974f40099c68eee6013aba64717495fa77bcd1",
+      "valoare": 98.8
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul ExxonMobil pe 2026-11-18",
+      "intrebare_id": 7856,
+      "rationament": "Exxon oscilează între 164,5 și 170,6, legată aproape exclusiv de prețul țițeiului și de marjele de rafinare. Integrarea Pioneer și producția din Guyana oferă creștere de volum, dar direcția zilnică depinde de petrol, pe care nu îl pot prezice. Ieri a avut o mișcare minimă. Prognoza este egală cu prețul de azi.",
+      "sha256": "eae421a87302118155dfda0ae4cb4d59586639ed5dfca562f9911e742a4a9d7c",
+      "valoare": 167.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Boeing pe 2026-11-18",
+      "intrebare_id": 7857,
+      "rationament": "Boeing a scăzut cu 5% în ultimele două ședințe (171,5 → 163,9), ieșind din intervalul anterior, 171–177. Riscurile specifice includ ritmul de producție al 737 MAX sub supravegherea FAA, certificarea 777X și fluxul de numerar. Scăderea pare legată în parte de aversiunea generală la risc. Prognozez o variație minimă.",
+      "sha256": "142ba7d9b1371d1ed63f945a69328496cddc7bd47b4cddbcb9637490be791317",
+      "valoare": 164.1
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Palantir Technologies pe 2026-11-18",
+      "intrebare_id": 7858,
+      "rationament": "Palantir a scăzut de la 172,4 la 156,6 (-9%) în patru ședințe. Evaluarea extrem de ridicată o face vulnerabilă în orice rotație din acțiunile AI cu multipli mari, chiar dacă creșterea veniturilor din contracte guvernamentale și AIP comercial rămâne puternică. Un mic rebound după o serie descendentă e plauzibil, dar fără convingere.",
+      "sha256": "ac4ba2c0159086060b2d7d8e563960cc8dd13393ee277b3b2c1376933c1a566f",
+      "valoare": 156.9
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Coinbase pe 2026-11-18",
+      "intrebare_id": 7859,
+      "rationament": "Coinbase a scăzut de la 151,5 la 115 (-24%), cu cinci ședințe consecutive pe minus. Probabil reflectă o scădere puternică a prețului bitcoin, care reduce volumele de tranzacționare și veniturile din comisioane. Corelația cu criptomonedele domină orice alt factor, iar acestea se tranzacționează 24/7, deci direcția de mâine e imprevizibilă. Aleg o revenire minimă.",
+      "sha256": "4a7bbebfe5d557d9fc6ebb1001b3145c93bfbea60e48dfff9a20c39f363c29b2",
+      "valoare": 115.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Uber pe 2026-11-18",
+      "intrebare_id": 7860,
+      "rationament": "Uber (preț ajustat, probabil după split) se tranzacționează lateral între 68,6 și 71,2. Profitabilitatea în creștere și fluxul de numerar sunt contrabalansate de temerile legate de concurența robotaxi (Waymo, Tesla) pe termen lung. Fără trend clar sau catalizator iminent, prognozez exact prețul de azi.",
+      "sha256": "0064f81438184b2a223cfbb1ff768417f01de482cc746be00847e8647eac5f56",
+      "valoare": 68.81
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Robinhood Markets pe 2026-11-18",
+      "intrebare_id": 7861,
+      "rationament": "Robinhood a scăzut de la 87,4 la 69,2 (-21%), cu patru ședințe consecutive pe minus, legat de prăbușirea cripto și scăderea activității traderilor retail. Veniturile din tranzacții cripto și opțiuni sunt foarte sensibile la sentimentul speculativ. După o asemenea serie, un rebound de o zi e posibil, dar momentum-ul rămâne negativ, așa că aleg o revenire foarte mică.",
+      "sha256": "9e772c3028509d424c6ae8b6f350ba5a9113c237fea784f308d7472fe85ae580",
+      "valoare": 69.4
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Shopify pe 2026-11-18",
+      "intrebare_id": 7862,
+      "rationament": "Shopify a scăzut cu 4% ieri, la 141,9, după o perioadă laterală, 146–152. Platforma de e-commerce are un multiplu ridicat și o volatilitate mare în zilele de risc. Black Friday/Cyber Monday aduce volumele GMV maxime ale anului, dar asta e deja în preț. Prognozez o revenire minimă.",
+      "sha256": "adb59744d21cb7f51519d76db3a8560d2ce19d8ecbf82bf3dee56f78c9efd77d",
+      "valoare": 142.2
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul MicroStrategy pe 2026-11-18",
+      "intrebare_id": 7863,
+      "rationament": "Strategy (MicroStrategy) a scăzut de la 142,5 la 96,5 (-32%), o mișcare amplificată față de bitcoin prin efectul de levier al deținerilor. Comprimarea primei față de valoarea netă a activelor (mNAV) accelerează scăderea, iar volatilitatea zilnică depășește 5%. Fără să cunosc direcția bitcoin de mâine, rămân aproape de prețul de azi, cu o ajustare minimă.",
+      "sha256": "d20ba30a0b50ed6ff93bfada0fa49fc72c2f2cc7312a9a2759b83b337f07787a",
+      "valoare": 96.6
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul S&P 500 (SPY) pe 2026-11-18",
+      "intrebare_id": 7864,
+      "rationament": "SPY a scăzut de la 759,8 la 732,4 (-3,6%) în patru ședințe, condus de mega-cap tech și financiare, în timp ce sectoarele defensive (staples, sănătate) au rezistat. Indicele e foarte aproape de minimul din 5 noiembrie (733), un nivel tehnic urmărit. Raportul Nvidia, dacă e iminent, ar putea influența semnificativ indicele. Prognozez o revenire minimă, de 0,08%.",
+      "sha256": "9a2dab3922d0db4ae0313f56ba71ffad00d9c73a031cde3a784648d62f03fac4",
+      "valoare": 733.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 15:51:55",
+      "intrebare": "Preţul Nasdaq 100 (QQQ) pe 2026-11-18",
+      "intrebare_id": 7865,
+      "rationament": "QQQ a pierdut 4,8% de la maximul din 11 noiembrie, cu o scădere mai mare decât SPY, din cauza ponderii mari a NVDA, MSFT și AMZN. Volatilitatea indicelui e ridicată pe fondul reevaluării narațiunii AI. Prețul se apropie de minimul din 5 noiembrie (647). Prognozez o revenire minimă, de 0,1%.",
+      "sha256": "ddd8358c58671056afcc2e19b81ad17c10bf8fbe0f6b88f96a5cb95c4d9de497",
+      "valoare": 657.6
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-18 16:45:10",
+      "intrebare": "Preţul Bitcoin pe 2026-11-19",
+      "intrebare_id": 7866,
+      "rationament": "tendință descrescătoare",
+      "sha256": "c9563cb0976c6d30cbd3c4096a14aec29966badfca7591a07c55f40e8f9925a2",
+      "valoare": 64500.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-18 16:45:10",
+      "intrebare": "Preţul Ethereum pe 2026-11-19",
+      "intrebare_id": 7867,
+      "rationament": "stabilizare",
+      "sha256": "665655e3597b43360d535ab2d3c940d1b2d0ef688401eac23077da610bd73c93",
+      "valoare": 1800.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-18 16:45:10",
+      "intrebare": "Preţul Solana pe 2026-11-19",
+      "intrebare_id": 7868,
+      "rationament": "creștere lentă",
+      "sha256": "5f1341b4e83ce3df0de0b32d064cddf84f42ce60eab1b7a7ca5ba8665c57f6a3",
+      "valoare": 75.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-18 16:45:10",
+      "intrebare": "Preţul XRP pe 2026-11-19",
+      "intrebare_id": 7869,
+      "rationament": "volatilitate scăzută",
+      "sha256": "95276a4a503a810afdd6f86bb5372c4a1885357593401e4147b4a0bf0ef7585f",
+      "valoare": 1.0
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-18 16:45:10",
+      "intrebare": "Preţul Cardano pe 2026-11-19",
+      "intrebare_id": 7870,
+      "rationament": "stabil",
+      "sha256": "6fae371ac2b1ec46551e2454ae51ebd31c8f07576f983525cd5d60cfcce86310",
+      "valoare": 0.16
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-18 16:45:10",
+      "intrebare": "Preţul Dogecoin pe 2026-11-19",
+      "intrebare_id": 7871,
+      "rationament": "stagnare",
+      "sha256": "bfff285b4b9e021759d113b9d20eea748c42ad1e6ca166cd5e0ef608e5810177",
+      "valoare": 0.06
+    },
+    {
+      "agent": "llama",
+      "creata_la": "2026-11-18 16:45:10",
+      "intrebare": "Preţul BNB pe 2026-11-19",
+      "intrebare_id": 7872,
+      "rationament": "tendință ascendentă",
+      "sha256": "3fd7d60ddb5b8eeff35cc6151d900657c4dbcac6a791df6809fd85118fed87c5",
+      "valoare": 595.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 16:45:13",
+      "intrebare": "Preţul Bitcoin pe 2026-11-19",
+      "intrebare_id": 7866,
+      "rationament": "Trend descendent continu, ușoară corecție anticipată.",
+      "sha256": "49495ad27f1620417ed57c60758f6d04a39cef4b48268d1a5afa0623250f0f84",
+      "valoare": 63200.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 16:45:13",
+      "intrebare": "Preţul Ethereum pe 2026-11-19",
+      "intrebare_id": 7867,
+      "rationament": "Scădere susținută, posibilă mică revenire.",
+      "sha256": "8597fc99eda7926987cab86ab203fbae9f07e9da96635c0704157c574125f4a6",
+      "valoare": 1760.0
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 16:45:13",
+      "intrebare": "Preţul Solana pe 2026-11-19",
+      "intrebare_id": 7868,
+      "rationament": "Volatilitate în scădere, ușoară corecție.",
+      "sha256": "8d6e6770412db4fe79321fa3d156f31dbc055665354e4aa46501a1452a19d15f",
+      "valoare": 73.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 16:45:13",
+      "intrebare": "Preţul XRP pe 2026-11-19",
+      "intrebare_id": 7869,
+      "rationament": "Recuperare după nivelul de suport recent.",
+      "sha256": "9dc6b8d474f37e601eabb7e797ff9a4166913edf5d70b0018375c7d17ffa971a",
+      "valoare": 1.02
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 16:45:13",
+      "intrebare": "Preţul Cardano pe 2026-11-19",
+      "intrebare_id": 7870,
+      "rationament": "Stabilitate în intervalul 0.15‑0.16.",
+      "sha256": "4fda3ddb5a46d7dd1ce596edeffaf727ed34b5919ed7c4bc47f2029b9834ad66",
+      "valoare": 0.15
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 16:45:13",
+      "intrebare": "Preţul Dogecoin pe 2026-11-19",
+      "intrebare_id": 7871,
+      "rationament": "Lipsă de mișcare semnificativă.",
+      "sha256": "870ba401e6360b0acd0d45f8a7c5f4ba3ab42d377c6c0f53de332557bc2da9c7",
+      "valoare": 0.06
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 16:45:13",
+      "intrebare": "Preţul BNB pe 2026-11-19",
+      "intrebare_id": 7872,
+      "rationament": "Ușoară scădere după revenirea temporară.",
+      "sha256": "7607aa25271d805d1cf2cd0a8c6937075bb0a9f1758b95b4c85168f0c5850520",
+      "valoare": 585.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 16:45:34",
+      "intrebare": "Preţul Bitcoin pe 2026-11-19",
+      "intrebare_id": 7866,
+      "rationament": "Downtrend continues; recent lower highs suggest further slip toward 63k.",
+      "sha256": "7f57085bfd719d3af531c16dfde4aae699e03ca67adc9d8c92da5038fed30033",
+      "valoare": 63000.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 16:45:34",
+      "intrebare": "Preţul Ethereum pe 2026-11-19",
+      "intrebare_id": 7867,
+      "rationament": "Recent bearish momentum and lower closes point to a modest dip near 1760.",
+      "sha256": "d77a0594c17d2714433126bc554971e5cabedee481adfe0f8779b1a9176eba00",
+      "valoare": 1760.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 16:45:34",
+      "intrebare": "Preţul Solana pe 2026-11-19",
+      "intrebare_id": 7868,
+      "rationament": "Steady decline with occasional rebounds; expect another small drop to about 73.",
+      "sha256": "03df0802a87370af17b40963cd7f1a3a3e597d0d394fc82d6bf07ca0f5bb9745",
+      "valoare": 73.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 16:45:34",
+      "intrebare": "Preţul XRP pe 2026-11-19",
+      "intrebare_id": 7869,
+      "rationament": "Persistent selling pressure keeps price under 1; anticipate a slight fall to 0.97.",
+      "sha256": "484d2fc52f1f261fc5a5bf0781dde9ce2986101092a57c7dfd2fe60d2ffa1269",
+      "valoare": 0.97
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 16:45:34",
+      "intrebare": "Preţul Cardano pe 2026-11-19",
+      "intrebare_id": 7870,
+      "rationament": "Stagnant around 0.15 with mild downside bias; predict a tiny dip to 0.148.",
+      "sha256": "beeb492136514c4a710f5589ddaec0d7a52026e8a2923413d3b5e00f753b0c5b",
+      "valoare": 0.148
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 16:45:34",
+      "intrebare": "Preţul Dogecoin pe 2026-11-19",
+      "intrebare_id": 7871,
+      "rationament": "Flat at 0.06, slight bearish tilt; forecast a marginal decrease to 0.059.",
+      "sha256": "b9e397621a1aceb5fa5f411c60ef2c92bccd00b4fb579476ed5a0774872bf0de",
+      "valoare": 0.059
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 16:45:34",
+      "intrebare": "Preţul BNB pe 2026-11-19",
+      "intrebare_id": 7872,
+      "rationament": "Lower highs and lows indicate continued weakness; target near 580.",
+      "sha256": "2492001a34678f7525d2a6a4669312d982e5256356cdd29aa553de88654ff75e",
+      "valoare": 580.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 16:46:24",
+      "intrebare": "Preţul Bitcoin pe 2026-11-19",
+      "intrebare_id": 7866,
+      "rationament": "Trenda generală a fost descendentă în ultimele zile, așa că aștept o ușoară scădere.",
+      "sha256": "90cddf6f1a70b10476e7acff78f0a7b11bee7108b2058b85d0e3fcd542b4b7e0",
+      "valoare": 63500.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 16:46:24",
+      "intrebare": "Preţul Ethereum pe 2026-11-19",
+      "intrebare_id": 7867,
+      "rationament": "Scădere continuă, prețul a atins un minim recent și se menține jos.",
+      "sha256": "3f8bb9ffc63af424eba4871296a4f8e008bea13f81f5e9c1f126663fd4ce3ae6",
+      "valoare": 1750.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 16:46:24",
+      "intrebare": "Preţul Solana pe 2026-11-19",
+      "intrebare_id": 7868,
+      "rationament": "Volatilitate mare, dar tendința de jos, probabil o scădere mică.",
+      "sha256": "d181050f7fdbed86ec06ce1698d0d47bfc2b388b1ab990c7eaca70a6572517c6",
+      "valoare": 73.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 16:46:24",
+      "intrebare": "Preţul XRP pe 2026-11-19",
+      "intrebare_id": 7869,
+      "rationament": "Recuperare recentă, dar tendința generală este scăzătoare, așa că aștept stagnare.",
+      "sha256": "5e59a7e7883340481816c4e5f65adb2a64b4a63ca7353a0b4dab44d5625c1a0e",
+      "valoare": 1.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 16:46:24",
+      "intrebare": "Preţul Cardano pe 2026-11-19",
+      "intrebare_id": 7870,
+      "rationament": "Prețul fluctuează foarte puțin între 0.15 și 0.17, așa că rămâne.",
+      "sha256": "6e942d45055a778b6137d57782bcfbf864ed8ed6c0d97052ffa5459c7ce5e085",
+      "valoare": 0.15
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 16:46:24",
+      "intrebare": "Preţul Dogecoin pe 2026-11-19",
+      "intrebare_id": 7871,
+      "rationament": "Prețul este plat, aștept continuarea tendinței de platitudine.",
+      "sha256": "88ab4ea5681fed0ef631d2d52fc7dc3b783c2f053d45791a99a16d0c70599217",
+      "valoare": 0.06
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 16:46:24",
+      "intrebare": "Preţul BNB pe 2026-11-19",
+      "intrebare_id": 7872,
+      "rationament": "Tendință descendentă clară, aștept o scădere mică.",
+      "sha256": "fa1065d61a5739e2075335e39dc5f82a7debf744053db2977c92b4bd404734d8",
+      "valoare": 585.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 16:46:25",
+      "intrebare": "Preţul Bitcoin pe 2026-11-19",
+      "intrebare_id": 7866,
+      "rationament": "Tendința descendentă continuă, cu o ușoară stabilizare recentă sub nivelul de ieri.",
+      "sha256": "e437f08c5f5df51c887a8095359820e2502f329c86ba33cde4e79f2d95d98692",
+      "valoare": 63500.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 16:46:25",
+      "intrebare": "Preţul Ethereum pe 2026-11-19",
+      "intrebare_id": 7867,
+      "rationament": "Continuarea scăderii, urmărind modelul bitcoin, cu o mică rezistență la suport.",
+      "sha256": "59239ee54d8be9b3c7ff75e466a17dc35c332cde2f10b7ebbfd63642ce2493a1",
+      "valoare": 1780.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 16:46:25",
+      "intrebare": "Preţul Solana pe 2026-11-19",
+      "intrebare_id": 7868,
+      "rationament": "Volatilitate ridicată, dar tendința generală rămâne descendentă spre suportul recent.",
+      "sha256": "6eba4c64ad311af1a2edb50eb5f5bac01e2637b150381efb0be89ef0693a208d",
+      "valoare": 74.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 16:46:25",
+      "intrebare": "Preţul XRP pe 2026-11-19",
+      "intrebare_id": 7869,
+      "rationament": "Stabilizare după scădere, posibilă ușoară corecție în sus față de minimul recent.",
+      "sha256": "0c885bda4a304e683e1c54d3a4cea0c66e4c69e3a8f5b2d9744c6e28538100cf",
+      "valoare": 0.98
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 16:46:25",
+      "intrebare": "Preţul Cardano pe 2026-11-19",
+      "intrebare_id": 7870,
+      "rationament": "Mișcare laterală plată, prețul se menține constant în jurul valorii actuale.",
+      "sha256": "8a01a6fc43d62d79be34fb5d533a956ddd83aacbc92ec0108a002c745f8fee57",
+      "valoare": 0.15
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 16:46:25",
+      "intrebare": "Preţul Dogecoin pe 2026-11-19",
+      "intrebare_id": 7871,
+      "rationament": "Preț blocat pe un nivel, fără semne clare de mișcare în ambele direcții.",
+      "sha256": "2064ac923c65cb8bffea6f8ad0edddc5fa749cb63aa6ccda3ef61fe70ce0b8bc",
+      "valoare": 0.06
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 16:46:25",
+      "intrebare": "Preţul BNB pe 2026-11-19",
+      "intrebare_id": 7872,
+      "rationament": "Ușoară scădere continuă, urmărind tendința pieței generale, fără rebound semnificativ.",
+      "sha256": "3aa41f0e1dc74bfe047bb2f59a3fb110721e7d99669da3ea5d29e1d3fa4fd870",
+      "valoare": 588.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 16:50:13",
+      "intrebare": "Preţul Bitcoin pe 2026-11-19",
+      "intrebare_id": 7866,
+      "rationament": "Consolidare după scădere bruscă; aproape de închiderea de azi, ușoară revenire spre media ultimelor patru zile.",
+      "sha256": "90c3b70082b3c8a77c3c1434a850102039b44f55426142ff864a292d34db56e2",
+      "valoare": 64050.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 16:50:13",
+      "intrebare": "Preţul Ethereum pe 2026-11-19",
+      "intrebare_id": 7867,
+      "rationament": "Lateral în jur de 1790-1835 după prăbușire; abatere minimă de la prețul de azi.",
+      "sha256": "edd8c3a10dc19eff77a4c921ec2f216b6d9a0979f172915c06b892baf6b72882",
+      "valoare": 1798.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 16:50:13",
+      "intrebare": "Preţul Solana pe 2026-11-19",
+      "intrebare_id": 7868,
+      "rationament": "Revenire recentă, apoi ușoară corecție; menținere aproape de nivelul actual.",
+      "sha256": "4b279fd69df9650697de7528f1dfae04d8c1da75cb5e154f4e69be7ee94952a7",
+      "valoare": 74.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 16:50:13",
+      "intrebare": "Preţul XRP pe 2026-11-19",
+      "intrebare_id": 7869,
+      "rationament": "Recuperare graduală stabilă; nicio bază pentru abatere de la închiderea de azi.",
+      "sha256": "c4866f1b0a1ff274be18600e7b9eef4c7a954ae51928bceac6f6bc79e875bd26",
+      "valoare": 0.99
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 16:50:13",
+      "intrebare": "Preţul Cardano pe 2026-11-19",
+      "intrebare_id": 7870,
+      "rationament": "Oscilează între 0.15 și 0.16; estimare ușor peste 0.15 rotunjit.",
+      "sha256": "143cbc2845c31cbb15b6df76f67c0783f593bb6f3a8e4cc32d3e397ec43c72d3",
+      "valoare": 0.153
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 16:50:13",
+      "intrebare": "Preţul Dogecoin pe 2026-11-19",
+      "intrebare_id": 7871,
+      "rationament": "Stabil la 0.06 rotunjit; variații sub precizia afișată.",
+      "sha256": "ad24eabb2bcd13c0a2a462312e9ad116bab8e2d71f259f09268af9afd903daa1",
+      "valoare": 0.062
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 16:50:13",
+      "intrebare": "Preţul BNB pe 2026-11-19",
+      "intrebare_id": 7872,
+      "rationament": "Consolidare în intervalul 590-597; foarte aproape de închiderea de azi.",
+      "sha256": "d8dd283446fd2292621312585f1b9b70b84a15d7208da1e48c37202ef10d947e",
+      "valoare": 591.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:31:15",
+      "intrebare": "Temperatura maximă la București pe 2026-11-19",
+      "intrebare_id": 7873,
+      "rationament": "Reîncălzire graduală după recepție, probabilitate de ploaie ridicată din ultimele zile.",
+      "sha256": "16c525b54cf9abe4d206c7bab26e0d39520469cb5420ffc5d7f0e7aef4f8f467",
+      "valoare": 13.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:31:15",
+      "intrebare": "Va ploua la București pe 2026-11-19?",
+      "intrebare_id": 7874,
+      "rationament": "Reîncălzire graduală după recepție, probabilitate de ploaie ridicată din ultimele zile.",
+      "sha256": "b536e5d8d1eb862f233aa4a1dde9bedc6450b4accadb0b16b445a5eadb07424e",
+      "valoare": 0.7
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:31:15",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-19",
+      "intrebare_id": 7875,
+      "rationament": "Încărcătoare după scădere brusă, tendință de încălzire și ploaie frecventă.",
+      "sha256": "6f74692c5a5ce203659dc8c624e9fdced9a9da21ee175d280cf949c3bf61e764",
+      "valoare": 11.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:31:15",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-19?",
+      "intrebare_id": 7876,
+      "rationament": "Încărcătoare după scădere brusă, tendință de încălzire și ploaie frecventă.",
+      "sha256": "7f8543c7c8b60491dae5d2e79bad63f431c56ff9d14b10cc2e4c13e7f2994d45",
+      "valoare": 0.65
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:31:15",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-19",
+      "intrebare_id": 7877,
+      "rationament": "Răcire după vârf termic, apoi reîncălzire cu precipitații persistente.",
+      "sha256": "5fbeb6b61de8d4c77134b8deb5a93ef2132732763db01d27ad24210c7b372f6a",
+      "valoare": 16.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:31:15",
+      "intrebare": "Va ploua la Iași pe 2026-11-19?",
+      "intrebare_id": 7878,
+      "rationament": "Răcire după vârf termic, apoi reîncălzire cu precipitații persistente.",
+      "sha256": "51295e531e728dc4e109fe6510d073e16172add10caaea87a4a88ba551c8de0f",
+      "valoare": 0.7
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:31:15",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-19",
+      "intrebare_id": 7879,
+      "rationament": "Plateau termic urmat de răcire și reîncălzire, precipitații intense recente.",
+      "sha256": "d505568015c1553320b279dd2fe19edb4de040e75e1c38536531b293be138ed5",
+      "valoare": 16.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:31:15",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-19?",
+      "intrebare_id": 7880,
+      "rationament": "Plateau termic urmat de răcire și reîncălzire, precipitații intense recente.",
+      "sha256": "ed719131e19dd298e45f99a538022d34861c5d709212dd29bb76f6c15f221abc",
+      "valoare": 0.8
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:31:15",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-19",
+      "intrebare_id": 7881,
+      "rationament": "Descărcare termică după val caldă, precipitații rare în ultimele zile.",
+      "sha256": "8e088086686aff2f84779561fe3fbb4389f6bc1e0f344afccc92fec1ccf8d676",
+      "valoare": 16.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:31:15",
+      "intrebare": "Va ploua la Constanța pe 2026-11-19?",
+      "intrebare_id": 7882,
+      "rationament": "Descărcare termică după val caldă, precipitații rare în ultimele zile.",
+      "sha256": "c28e6adaf0a3d6e8df6612c79b09a695f1f5ab82a618a053df3609727cc65831",
+      "valoare": 0.3
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:31:15",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-19",
+      "intrebare_id": 7883,
+      "rationament": "Reîncălzire lentă după scădere brusă, probabilitate de ploaie crescută.",
+      "sha256": "01ebdac3f65d3185d0b2615139f4a9e0cfcd6cf7006cd2051e7f0d3f8df0f531",
+      "valoare": 13.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:31:15",
+      "intrebare": "Va ploua la Brașov pe 2026-11-19?",
+      "intrebare_id": 7884,
+      "rationament": "Reîncălzire lentă după scădere brusă, probabilitate de ploaie crescută.",
+      "sha256": "1882f1b1857c120d4ab08f0077dfae76a95723b8937a1a307f999fd4686e6046",
+      "valoare": 0.7
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:32:43",
+      "intrebare": "Temperatura maximă la București pe 2026-11-19",
+      "intrebare_id": 7873,
+      "rationament": "Recuperare lentă după frigul din 15, dar tendință de creștere.",
+      "sha256": "51bdb8bb1a90488ae811846e766616795c3db05f7a0ad4caf36569653b771907",
+      "valoare": 12.5
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:32:43",
+      "intrebare": "Va ploua la București pe 2026-11-19?",
+      "intrebare_id": 7874,
+      "rationament": "Recuperare lentă după frigul din 15, dar tendință de creștere.",
+      "sha256": "d3a18b0c2b60e6fee0165e1ab31e98c81243127f140ed742529a118862e3a95e",
+      "valoare": 0.3
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:32:43",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-19",
+      "intrebare_id": 7875,
+      "rationament": "Altitudine ridicată, tendință de creștere stabilă.",
+      "sha256": "e527f787e81ca184c7961052485e4a3ab3b38bc181d1c0924b7ffc670aea512e",
+      "valoare": 13.5
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:32:43",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-19?",
+      "intrebare_id": 7876,
+      "rationament": "Altitudine ridicată, tendință de creștere stabilă.",
+      "sha256": "e2599e9bbfcf0cbb27a76c1837b4ea20f13f811a42a0bc3499cd0977ff7f3106",
+      "valoare": 0.4
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:32:43",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-19",
+      "intrebare_id": 7877,
+      "rationament": "Recuperare rapidă și caldă, influență așezată.",
+      "sha256": "6e92a3ad43f9fecb3f9b93cffcaf1a5977fe0921f5904c8f4b00a35e4565f3d0",
+      "valoare": 16.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:32:43",
+      "intrebare": "Va ploua la Iași pe 2026-11-19?",
+      "intrebare_id": 7878,
+      "rationament": "Recuperare rapidă și caldă, influență așezată.",
+      "sha256": "0c3d435876c4a2d934397b5e8ac277f5aa20cbc750dad0911ae59555c39a6e41",
+      "valoare": 0.3
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:32:43",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-19",
+      "intrebare_id": 7879,
+      "rationament": "Ploaie abundentă recent, instabilitate atmosferică.",
+      "sha256": "d4df290991f824c4c163e2be9519664e2dd3a8819174c2bab30d4b0e15ef79b8",
+      "valoare": 15.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:32:43",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-19?",
+      "intrebare_id": 7880,
+      "rationament": "Ploaie abundentă recent, instabilitate atmosferică.",
+      "sha256": "3a083a094cfe9a001b9a9407a79a8497b06d047d9759b4ba172f64951e096dbf",
+      "valoare": 0.6
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:32:43",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-19",
+      "intrebare_id": 7881,
+      "rationament": "Efect de țărm, tendință de încălzire ușoară.",
+      "sha256": "230a4fe38099f64bf775c25005080e27f0570a4b0a835a8c430b37a86b7b34da",
+      "valoare": 17.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:32:43",
+      "intrebare": "Va ploua la Constanța pe 2026-11-19?",
+      "intrebare_id": 7882,
+      "rationament": "Efect de țărm, tendință de încălzire ușoară.",
+      "sha256": "8eeba535c0c7edba64d9424896da42202cb47d083ebd3e506575067465e1d4d1",
+      "valoare": 0.3
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:32:43",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-19",
+      "intrebare_id": 7883,
+      "rationament": "Altitudine mare, recuperare lentă, probabilitate mare de precipitații.",
+      "sha256": "809a23081a5f896ebac8b180441e41483f1892aa1ac530e7472e037e462e440a",
+      "valoare": 12.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:32:43",
+      "intrebare": "Va ploua la Brașov pe 2026-11-19?",
+      "intrebare_id": 7884,
+      "rationament": "Altitudine mare, recuperare lentă, probabilitate mare de precipitații.",
+      "sha256": "53aced16ac15fd3da13dc6cbb7cc3fdd74cd538a18deb0c0122aee9ef71f6934",
+      "valoare": 0.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:32:48",
+      "intrebare": "Temperatura maximă la București pe 2026-11-19",
+      "intrebare_id": 7873,
+      "rationament": "Tendința ascendentă recentă sugerează o nouă masă de aer cald și instabil, aducând precipitații.",
+      "sha256": "5f432c0e12dcd7b0dfabb8424f6ee66138dfcd3624887cf246bbdd6931c36c2e",
+      "valoare": 14.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:32:48",
+      "intrebare": "Va ploua la București pe 2026-11-19?",
+      "intrebare_id": 7874,
+      "rationament": "Tendința ascendentă recentă sugerează o nouă masă de aer cald și instabil, aducând precipitații.",
+      "sha256": "30ef26d68a13e5774644822d3e18b116828cedfc0756353a2149eee80d61e77e",
+      "valoare": 0.65
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:32:48",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-19",
+      "intrebare_id": 7875,
+      "rationament": "Recuperarea termică moderată după frig, cu risc moderat de ploaie din cauza umidității persistente.",
+      "sha256": "eab1244ae96c3a288d013c4e9084b1ef1984f51ee78be2946d9e1d16a95f47e5",
+      "valoare": 12.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:32:48",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-19?",
+      "intrebare_id": 7876,
+      "rationament": "Recuperarea termică moderată după frig, cu risc moderat de ploaie din cauza umidității persistente.",
+      "sha256": "7aa3dcbaeae5f61f64ba9d51c9fc638f4247ea68158da6aa2f6f7dbd2d9b405b",
+      "valoare": 0.55
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:32:48",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-19",
+      "intrebare_id": 7877,
+      "rationament": "Creșterea bruscă a temperaturii indică o aducere de aer cald, adesea însoțită de precipitații.",
+      "sha256": "96fbff9c2b90ca65be59bbf9c0f67b3535c842505819bb683d643ac0d9d5e2a3",
+      "valoare": 16.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:32:48",
+      "intrebare": "Va ploua la Iași pe 2026-11-19?",
+      "intrebare_id": 7878,
+      "rationament": "Creșterea bruscă a temperaturii indică o aducere de aer cald, adesea însoțită de precipitații.",
+      "sha256": "489bc5e6e17ef30694a364203a99861611d79f4046ad110948d052863b258cfe",
+      "valoare": 0.6
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:32:48",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-19",
+      "intrebare_id": 7879,
+      "rationament": "Frecvența ridicată a ploilor în ultimele zile și instabilitatea locală susțin o probabilitate mare de precipitații.",
+      "sha256": "4d5f41670a0a74fc581a6bf7edfb61751fc9e799ede5673f1b6f1e63fbe74922",
+      "valoare": 14.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:32:48",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-19?",
+      "intrebare_id": 7880,
+      "rationament": "Frecvența ridicată a ploilor în ultimele zile și instabilitatea locală susțin o probabilitate mare de precipitații.",
+      "sha256": "668f30a78297838c227589f891348adcb08ffcf4d30c8c2e456ba9570c4ea1dd",
+      "valoare": 0.7
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:32:48",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-19",
+      "intrebare_id": 7881,
+      "rationament": "Clima maritimă stabilă după o perioadă uscată, cu risc scăzut de precipitații semnificative.",
+      "sha256": "aadf5d38fbbca306bcab1f1a3d51f20a187c43247fbfe6ce4447f30a4d4b476b",
+      "valoare": 15.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:32:48",
+      "intrebare": "Va ploua la Constanța pe 2026-11-19?",
+      "intrebare_id": 7882,
+      "rationament": "Clima maritimă stabilă după o perioadă uscată, cu risc scăzut de precipitații semnificative.",
+      "sha256": "b6740bfa9d738133313131cf62f1d8483e696e95e902bed8d0afb3b289dbfd0b",
+      "valoare": 0.25
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:32:48",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-19",
+      "intrebare_id": 7883,
+      "rationament": "Altitudinea mai mare limitează temperatura, iar activitatea frontală recentă sugerează continuarea ploilor.",
+      "sha256": "6ee7778ee81c2ca3a0ddc1cc721a6c4651f53d2da02b7ffcdbf6a8e4ad4cf74a",
+      "valoare": 11.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:32:48",
+      "intrebare": "Va ploua la Brașov pe 2026-11-19?",
+      "intrebare_id": 7884,
+      "rationament": "Altitudinea mai mare limitează temperatura, iar activitatea frontală recentă sugerează continuarea ploilor.",
+      "sha256": "64ed810bacfa635669a33b434cbadf6c5983efcf166951a94ab53029fcbb41bc",
+      "valoare": 0.6
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 17:32:59",
+      "intrebare": "Temperatura maximă la București pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7885,
+      "rationament": "Temperaturile recente medii 10‑13°C, fără călduri extreme, aștept 13.2°C; ploaie moderată recent, probabilitate 35%.",
+      "sha256": "d32bd0f394a2fec15be340df1dbc30e906e3ae8a01d991c275ba7d94eb77ecb9",
+      "valoare": 13.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 17:32:59",
+      "intrebare": "Va ploua la București pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7886,
+      "rationament": "Temperaturile recente medii 10‑13°C, fără călduri extreme, aștept 13.2°C; ploaie moderată recent, probabilitate 35%.",
+      "sha256": "c17c5a851220d6b84d7256d4a9d1f4abee4a2ac7bd02d97e8678278ae2093a44",
+      "valoare": 0.35
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 17:32:59",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7887,
+      "rationament": "Temperatură medie recentă 7‑12°C, aștept 11.5°C; precipitații intermitente, probabilitate 30%.",
+      "sha256": "a56764326a6bca9c67bb35e8aa895d201f3e22740cb6fbb408857549ef6083c2",
+      "valoare": 11.5
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 17:32:59",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7888,
+      "rationament": "Temperatură medie recentă 7‑12°C, aștept 11.5°C; precipitații intermitente, probabilitate 30%.",
+      "sha256": "64e1065f1e9fbf25fb42cb097a7ff8e4706c2588b0c4fefdcd880537c3f88c0d",
+      "valoare": 0.3
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 17:32:59",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7889,
+      "rationament": "Temperaturi recente 8‑14°C, ușor mai cald, 12.8°C; ploaie ocazională, probabilitate 25%.",
+      "sha256": "a19a2bf8c8941ca28b995f39cf481ff286c73b7dec863bff0d7b9d333e2f8e82",
+      "valoare": 12.8
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 17:32:59",
+      "intrebare": "Va ploua la Iași pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7890,
+      "rationament": "Temperaturi recente 8‑14°C, ușor mai cald, 12.8°C; ploaie ocazională, probabilitate 25%.",
+      "sha256": "ff484b7fb79f2826730b0675dc7f0996965c44a92ddb5349747a66326455229d",
+      "valoare": 0.25
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 17:32:59",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7891,
+      "rationament": "Temperaturi 9‑16°C, medie 13°C, 13.4°C; perioadă ploioasă recent, probabilitate 45%.",
+      "sha256": "a250faf9c55900e502111913f0c274068554be594b9f028b21deaa15cca82771",
+      "valoare": 13.4
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 17:32:59",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7892,
+      "rationament": "Temperaturi 9‑16°C, medie 13°C, 13.4°C; perioadă ploioasă recent, probabilitate 45%.",
+      "sha256": "f93bcfcc5a70b1e9854494a2d6368afb3070f43b39a199069c14d069f3285ca7",
+      "valoare": 0.45
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 17:32:59",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7893,
+      "rationament": "Coasta are temperaturi 12‑18°C, 15.3°C estimat; ploaie recentă intensă, dar rar, 30%.",
+      "sha256": "b908ba86359734a0db39b643736bbac45968bc14017586e4c504b7315304bb59",
+      "valoare": 15.3
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 17:32:59",
+      "intrebare": "Va ploua la Constanța pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7894,
+      "rationament": "Coasta are temperaturi 12‑18°C, 15.3°C estimat; ploaie recentă intensă, dar rar, 30%.",
+      "sha256": "014f8ab4677bad52bbdca03cd829c6d96a3bef3493f237f3c263c62b0da4dcf3",
+      "valoare": 0.3
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 17:32:59",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7895,
+      "rationament": "Temperaturi montane 6‑12°C, 10.2°C prevăzut; precipitații frecvente recent, probabilitate 40%.",
+      "sha256": "813f5b4be507e51f492925c652858aad67165887236f8e10efa5caf0441e153b",
+      "valoare": 10.2
+    },
+    {
+      "agent": "gpt-oss",
+      "creata_la": "2026-11-18 17:32:59",
+      "intrebare": "Va ploua la Brașov pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7896,
+      "rationament": "Temperaturi montane 6‑12°C, 10.2°C prevăzut; precipitații frecvente recent, probabilitate 40%.",
+      "sha256": "9e2d8429f188a7229fa794d1752ccf15f752102bed4df3c3c08adb49eb66866f",
+      "valoare": 0.4
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:33:41",
+      "intrebare": "Temperatura maximă la București pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7885,
+      "rationament": "Recent cooling after extreme spike; climatology suggests ~11°C; moderate rain chance.",
+      "sha256": "e9d0f1a76beea680dd18bcf96319fb8268d0a9bafb6aef7cf3507cd56ac23e14",
+      "valoare": 11.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:33:41",
+      "intrebare": "Va ploua la București pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7886,
+      "rationament": "Recent cooling after extreme spike; climatology suggests ~11°C; moderate rain chance.",
+      "sha256": "33628af527d49d3143390851a31147c53a27e3284686dca0a3b4ae05460afee3",
+      "valoare": 0.3
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:33:41",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7887,
+      "rationament": "Post-spike drop; typical November max ~8‑9°C; intermittent showers give moderate probability.",
+      "sha256": "9d9713d235264fa5dada8d827b821dcdf2eef04aad229b81fad0de822070f79e",
+      "valoare": 8.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:33:41",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7888,
+      "rationament": "Post-spike drop; typical November max ~8‑9°C; intermittent showers give moderate probability.",
+      "sha256": "08927e8d17e74d22373638b7fc5eef1716350d55fb82a53c6d5dc5dc28c4d036",
+      "valoare": 0.4
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:33:41",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7889,
+      "rationament": "Warm rebound after spike; expect ~11°C; recent rain frequency yields ~50% chance.",
+      "sha256": "778f70d12358b842a2f152e4c2fd379c77dc35e7573f6f2644678dd47e943e94",
+      "valoare": 11.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:33:41",
+      "intrebare": "Va ploua la Iași pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7890,
+      "rationament": "Warm rebound after spike; expect ~11°C; recent rain frequency yields ~50% chance.",
+      "sha256": "a03ce1ca310011da78be22648277e6a01d533847cc3325a48f0890cba55f80ee",
+      "valoare": 0.5
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:33:41",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7891,
+      "rationament": "Upward trend in temps; expect ~13°C; frequent recent rains raise chance to 70%.",
+      "sha256": "f0e355d043da0f7f6b21700ce4bd25a13734276be9f83f606a0c404f7e01546d",
+      "valoare": 13.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:33:41",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7892,
+      "rationament": "Upward trend in temps; expect ~13°C; frequent recent rains raise chance to 70%.",
+      "sha256": "31e15c138bb49af1e7e2d41c3f55403ac8062796e73f299c59c339b169a01cc4",
+      "valoare": 0.7
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:33:41",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7893,
+      "rationament": "Post‑spike cooling to ~13°C; sea influence keeps rain low (~20%).",
+      "sha256": "9f6b0189b57a0839f32dc329b00758cef8661b28f7d188903f122c8b5533f736",
+      "valoare": 13.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:33:41",
+      "intrebare": "Va ploua la Constanța pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7894,
+      "rationament": "Post‑spike cooling to ~13°C; sea influence keeps rain low (~20%).",
+      "sha256": "f598ff9d492156bf2082b4f446d59b31fa3f2a6b86432276e17895df3a3b3c4a",
+      "valoare": 0.2
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:33:41",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7895,
+      "rationament": "Mountain cooling after spike; expect ~8°C; occasional showers give ~40% chance.",
+      "sha256": "3504aae02b8ffdf207d8cf3dfe40a4961920e986b1bce706f2f69f6b13e4ecd6",
+      "valoare": 8.0
+    },
+    {
+      "agent": "nemotron",
+      "creata_la": "2026-11-18 17:33:41",
+      "intrebare": "Va ploua la Brașov pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7896,
+      "rationament": "Mountain cooling after spike; expect ~8°C; occasional showers give ~40% chance.",
+      "sha256": "f390b40618bc5b78748288d58dfba31dae9a8cb9ec3a815e9ddd0980163f6335",
+      "valoare": 0.4
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:14",
+      "intrebare": "Temperatura maximă la București pe 2026-11-19",
+      "intrebare_id": 7873,
+      "rationament": "Încălzire și precipitații în creștere trei zile, ca înainte de 13 nov; probabil front sosind, cald înaintea lui.",
+      "sha256": "b02b50c55c3c40ec234093c4dd6f2426d0aa76b1c2fa56c8378445f6d6bea146",
+      "valoare": 16.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:14",
+      "intrebare": "Va ploua la București pe 2026-11-19?",
+      "intrebare_id": 7874,
+      "rationament": "Încălzire și precipitații în creștere trei zile, ca înainte de 13 nov; probabil front sosind, cald înaintea lui.",
+      "sha256": "271a0fd3c3fb76b70c96f03455766b5794209d5363a5feb091d697e7560fda5a",
+      "valoare": 0.6
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:14",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-19",
+      "intrebare_id": 7875,
+      "rationament": "Frontul trece probabil dinspre vest, deci răcire ușoară după 13.4°C, cu precipitații slabe probabile.",
+      "sha256": "4c8523eb111a957dbb593302e9dcde3e0cc2b5c78ca911cb625c75d02758f09e",
+      "valoare": 12.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:14",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-19?",
+      "intrebare_id": 7876,
+      "rationament": "Frontul trece probabil dinspre vest, deci răcire ușoară după 13.4°C, cu precipitații slabe probabile.",
+      "sha256": "24878cc43a7667a47548631796b3c06836c6f3cd7b5f22996492ae4007ee4a24",
+      "valoare": 0.6
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:14",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-19",
+      "intrebare_id": 7877,
+      "rationament": "Estul rămâne în sectorul cald încă o zi; trendul ascendent continuă, frontul poate ajunge seara.",
+      "sha256": "44a5de74830ab85cff987456886aa56bfc471f26c805a848df19252accb271aa",
+      "valoare": 17.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:14",
+      "intrebare": "Va ploua la Iași pe 2026-11-19?",
+      "intrebare_id": 7878,
+      "rationament": "Estul rămâne în sectorul cald încă o zi; trendul ascendent continuă, frontul poate ajunge seara.",
+      "sha256": "8ad44182f0a24bb15ceffad674b1340894d96b7c2d3db3675e2121b7f9f9442e",
+      "valoare": 0.55
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:14",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-19",
+      "intrebare_id": 7879,
+      "rationament": "22 mm pe 18 nov sugerează că frontul a trecut deja; urmează aer mai rece, posibil ploaie reziduală.",
+      "sha256": "d7e9966211fff8ec1b3bdeec1927e62894fb6cad737bd603f7a4122a06df9215",
+      "valoare": 11.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:14",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-19?",
+      "intrebare_id": 7880,
+      "rationament": "22 mm pe 18 nov sugerează că frontul a trecut deja; urmează aer mai rece, posibil ploaie reziduală.",
+      "sha256": "3b852f6aa53a4e44e2bacbfd9290cb4cd8d1387b473df4cf0b9303df60071552",
+      "valoare": 0.6
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:14",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-19",
+      "intrebare_id": 7881,
+      "rationament": "Litoralul e în est, cald în sector advectiv; ultimele zile aproape uscate, ploaia frontală poate întârzia.",
+      "sha256": "b3c6b91b5fc36feda77cc9e30d64945e7d85784c047b4ef76db666082d2fd8a8",
+      "valoare": 16.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:14",
+      "intrebare": "Va ploua la Constanța pe 2026-11-19?",
+      "intrebare_id": 7882,
+      "rationament": "Litoralul e în est, cald în sector advectiv; ultimele zile aproape uscate, ploaia frontală poate întârzia.",
+      "sha256": "6ad6d2ae5d2317611e34c28f95c70c9ab473f1a2bff0884460fe7f11da85b689",
+      "valoare": 0.4
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:14",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-19",
+      "intrebare_id": 7883,
+      "rationament": "7.4 mm și încălzire pe 18; munții prind frontul devreme, răcire și precipitații probabile.",
+      "sha256": "8bb02bd1629dd1684691dbe97cc651754b2881ff2e0dd6436763572bdbe41989",
+      "valoare": 11.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:14",
+      "intrebare": "Va ploua la Brașov pe 2026-11-19?",
+      "intrebare_id": 7884,
+      "rationament": "7.4 mm și încălzire pe 18; munții prind frontul devreme, răcire și precipitații probabile.",
+      "sha256": "4d6392d5489fb67ca2eed7af78efa1f943aef94370be7c8074ae12294747044e",
+      "valoare": 0.65
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:27",
+      "intrebare": "Temperatura maximă la București pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7885,
+      "rationament": "La 7 zile contează mai mult climatologia (~8°C), ușor ridicată de anomalia caldă recentă; sfârșitul lui noiembrie are ploaie moderat frecventă.",
+      "sha256": "7ed53c26fe8e1d1fe0398179968efd659668573af12c088d3b68dd0ba32a32cd",
+      "valoare": 9.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:27",
+      "intrebare": "Va ploua la București pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7886,
+      "rationament": "La 7 zile contează mai mult climatologia (~8°C), ușor ridicată de anomalia caldă recentă; sfârșitul lui noiembrie are ploaie moderat frecventă.",
+      "sha256": "9d1b716a83b148a0c3bfedd7b0d0389c1aeb458a33759d18de3be31aca719b5a",
+      "valoare": 0.35
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:27",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7887,
+      "rationament": "Normala intra-carpatică e ~5-6°C, ajustată în sus de seria recentă caldă; vreme instabilă, zile cu precipitații frecvente.",
+      "sha256": "654e8c8c746d5196496477e7a4f05da1dbe938c53ab69d2977169dd6af5b1e6c",
+      "valoare": 6.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:27",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7888,
+      "rationament": "Normala intra-carpatică e ~5-6°C, ajustată în sus de seria recentă caldă; vreme instabilă, zile cu precipitații frecvente.",
+      "sha256": "4e70b66b342578a6a8bcea70b605b54c078d31038659c48b68a225744b82847d",
+      "valoare": 0.4
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:27",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7889,
+      "rationament": "Moldova se răcește repede spre final de noiembrie (normal ~6°C); trend recent cald, dar regresie spre climatologie.",
+      "sha256": "bde306ed1fd319c8406c732dc39005103f7e9d6d7ce3c571f6aa632ac064c08e",
+      "valoare": 7.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:27",
+      "intrebare": "Va ploua la Iași pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7890,
+      "rationament": "Moldova se răcește repede spre final de noiembrie (normal ~6°C); trend recent cald, dar regresie spre climatologie.",
+      "sha256": "bf466f6e25e52dc6bed6009a743d36bf337a2d6ca7a231ce5bdfb7eea9713f84",
+      "valoare": 0.35
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:27",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7891,
+      "rationament": "Vestul e cel mai blând (normal ~9°C) și cel mai expus fronturilor atlantice, vizibile în ultimele zile ploioase.",
+      "sha256": "06b3fcd61f395968ab595682d6ce37c613c9e45f97c929308795602cbea84320",
+      "valoare": 10.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:27",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7892,
+      "rationament": "Vestul e cel mai blând (normal ~9°C) și cel mai expus fronturilor atlantice, vizibile în ultimele zile ploioase.",
+      "sha256": "3eae5f6d3209b4d75b75c522beb08e7f1d14ebdaf80f77fdf30efcd939c2e7df",
+      "valoare": 0.45
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:27",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7893,
+      "rationament": "Marea încă caldă menține maxime ~10-11°C; litoralul are mai puține zile cu precipitații decât interiorul.",
+      "sha256": "2fd867cdc20d955f52e6f066e17e4250ece9b3dcc5cb26d6525ce83c5913b117",
+      "valoare": 11.0
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:27",
+      "intrebare": "Va ploua la Constanța pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7894,
+      "rationament": "Marea încă caldă menține maxime ~10-11°C; litoralul are mai puține zile cu precipitații decât interiorul.",
+      "sha256": "d6d283cc2c6c71aea4ef9072175cc775af4fc760cb8745129c66cefebc7bd8f6",
+      "valoare": 0.3
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:27",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7895,
+      "rationament": "Depresiune înaltă (625 m), normala ~4-5°C, inversiuni frecvente; recentul ușor cald împinge puțin în sus.",
+      "sha256": "f4e8787420e024ece5d7e43cbae32ceeb5bef81fc72f6f07688ede600b9a6370",
+      "valoare": 5.5
+    },
+    {
+      "agent": "claude-opus",
+      "creata_la": "2026-11-18 17:35:27",
+      "intrebare": "Va ploua la Brașov pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7896,
+      "rationament": "Depresiune înaltă (625 m), normala ~4-5°C, inversiuni frecvente; recentul ușor cald împinge puțin în sus.",
+      "sha256": "c14eae622a678be5e490b7e0e8e2a410eaff99414737ef14e152704090eaed03",
+      "valoare": 0.4
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:35:33",
+      "intrebare": "Temperatura maximă la București pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7885,
+      "rationament": "Căldura din 13 noiembrie a fost o anomalie, tendința actuală este de stabilizare pe o stare de răcoare.",
+      "sha256": "e285857cbde07bb043dbbe5aa6d0cbaac06646fdea7d30706774a900a9d04493",
+      "valoare": 7.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:35:33",
+      "intrebare": "Va ploua la București pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7886,
+      "rationament": "Căldura din 13 noiembrie a fost o anomalie, tendința actuală este de stabilizare pe o stare de răcoare.",
+      "sha256": "6b9f88f5639ed631f7a48d651191e2b99a1806dbaa9779da578a19812496cda2",
+      "valoare": 0.2
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:35:33",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7887,
+      "rationament": "Altitudinea mare reduce temperatura, iar frontul rece a trecut, lăsând o probabilitate medie de ploaie.",
+      "sha256": "69b3b0205fd200616f14a9e2ad1458c540c60f1c37d74ad079c9a6873bcaaf7f",
+      "valoare": 5.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:35:33",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7888,
+      "rationament": "Altitudinea mare reduce temperatura, iar frontul rece a trecut, lăsând o probabilitate medie de ploaie.",
+      "sha256": "263c73e11b18496ddffe8112e174f279ed1a526fe1f5e6135e95be3f42ffee15",
+      "valoare": 0.4
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:35:33",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7889,
+      "rationament": "Căldura recentă a fost un vârtej, acum se revine la normele lunii noiembrie cu 6-7 grade.",
+      "sha256": "5d8c7d06b24f128808fae8415a44a5dd32782f64e74597576fae7953c541fcc0",
+      "valoare": 6.5
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:35:33",
+      "intrebare": "Va ploua la Iași pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7890,
+      "rationament": "Căldura recentă a fost un vârtej, acum se revine la normele lunii noiembrie cu 6-7 grade.",
+      "sha256": "af61f112b239651f506de650781e6aed627e86ac5812b10639476e3080fcd6c0",
+      "valoare": 0.45
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:35:33",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7891,
+      "rationament": "Ploile intense au trecut, vremea se stabilizează pe o stare de răcoare, dar nu e secătoare.",
+      "sha256": "335e1bef945ec385816c9cff35f520390a90f0c23ea65b9243e7a37002ab7e9d",
+      "valoare": 6.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:35:33",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7892,
+      "rationament": "Ploile intense au trecut, vremea se stabilizează pe o stare de răcoare, dar nu e secătoare.",
+      "sha256": "a5ec0c6a0f6929037cbb47e299049200dc3ec34c7c514ff85d8dc06541d3c67a",
+      "valoare": 0.25
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:35:33",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7893,
+      "rationament": "Influența mării încălzesc, dar temperatura scade clar de la vârful din 13 noiembrie.",
+      "sha256": "e536596c18e90a5f656853a42d4b0e7e7814a4e1ebf5b2ba59e3561e7dba8388",
+      "valoare": 9.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:35:33",
+      "intrebare": "Va ploua la Constanța pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7894,
+      "rationament": "Influența mării încălzesc, dar temperatura scade clar de la vârful din 13 noiembrie.",
+      "sha256": "0052ad2008b4274ada2e8c9748341c63e07371f2c178a41fb7656d5fa7d3470b",
+      "valoare": 0.2
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:35:33",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7895,
+      "rationament": "Altitudinea mare face temperaturile mult mai scăzute decât la miazăzi, aproape de punctul de îngheț.",
+      "sha256": "8f0bd46e2ced845aac4484600ecebc7fd2c8b3a19defc0ed48b42f211d9b3db8",
+      "valoare": 2.0
+    },
+    {
+      "agent": "glm-flash",
+      "creata_la": "2026-11-18 17:35:33",
+      "intrebare": "Va ploua la Brașov pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7896,
+      "rationament": "Altitudinea mare face temperaturile mult mai scăzute decât la miazăzi, aproape de punctul de îngheț.",
+      "sha256": "2cd7ce7b84a6ab874ef42f9abeec032cb1595fd0c757abb4c3712437d24332ca",
+      "valoare": 0.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:35:35",
+      "intrebare": "Temperatura maximă la București pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7885,
+      "rationament": "Medie recentă stabilă după fluctuații, probabilitate moderată de precipitații reziduale.",
+      "sha256": "b2fb48a811811d3696c004316c27f5f636785dc41ac021eeda45cbb638f985e3",
+      "valoare": 11.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:35:35",
+      "intrebare": "Va ploua la București pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7886,
+      "rationament": "Medie recentă stabilă după fluctuații, probabilitate moderată de precipitații reziduale.",
+      "sha256": "b2b9399a3b186e6e166ea16102851ad21626cc6b590314018142a6a4ddf38860",
+      "valoare": 0.35
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:35:35",
+      "intrebare": "Temperatura maximă la Cluj-Napoca pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7887,
+      "rationament": "Tendință ușor ascendentă, probabilitate ridicată de ploaie datorită umidității persistente.",
+      "sha256": "96d36a493888926fcc031e674c307fb1c6c5ac9aee0ecaef448152f01b2db977",
+      "valoare": 9.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:35:35",
+      "intrebare": "Va ploua la Cluj-Napoca pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7888,
+      "rationament": "Tendință ușor ascendentă, probabilitate ridicată de ploaie datorită umidității persistente.",
+      "sha256": "f8951e27af07160019147fcedbfe72950b0c5e62127444fd384b1cf80b893e06",
+      "valoare": 0.45
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:35:35",
+      "intrebare": "Temperatura maximă la Iași pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7889,
+      "rationament": "Stabilizare termică după vârf, probabilitate moderată de precipitații ușoare.",
+      "sha256": "3db375230c4bf7aad7d7cfe28e96cca4db6475c77bd073a0fce63fdbb3405c18",
+      "valoare": 11.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:35:35",
+      "intrebare": "Va ploua la Iași pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7890,
+      "rationament": "Stabilizare termică după vârf, probabilitate moderată de precipitații ușoare.",
+      "sha256": "73cb4d7dba154ecd3c024ce00f5690e31f44c2bbeea0d806b557b1d1e0607ea7",
+      "valoare": 0.4
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:35:35",
+      "intrebare": "Temperatura maximă la Timișoara pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7891,
+      "rationament": "Climă mai caldă, probabilitate ridicată de ploaie din cauza activității ciclonice.",
+      "sha256": "5603df163bf1f5165f3c70b4aa2fc64545284c0b01a77d4db22bdb74d20b9519",
+      "valoare": 13.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:35:35",
+      "intrebare": "Va ploua la Timișoara pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7892,
+      "rationament": "Climă mai caldă, probabilitate ridicată de ploaie din cauza activității ciclonice.",
+      "sha256": "4f4f05555c69fbb69adfc881bdf4da3cd298451bcae1ccf8e51e2e55665cf933",
+      "valoare": 0.55
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:35:35",
+      "intrebare": "Temperatura maximă la Constanța pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7893,
+      "rationament": "Influență marină moderatoare, probabilitate scăzută de precipitații semnificative.",
+      "sha256": "94f603dbf4ab2019fe0e7da19d84530721d0d06de16f5b8e576aa0b1758d5443",
+      "valoare": 14.0
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:35:35",
+      "intrebare": "Va ploua la Constanța pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7894,
+      "rationament": "Influență marină moderatoare, probabilitate scăzută de precipitații semnificative.",
+      "sha256": "5a248e2c33880b78ec9269db968f1656c536bca49e79c51c76ed740d0ecfef5b",
+      "valoare": 0.25
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:35:35",
+      "intrebare": "Temperatura maximă la Brașov pe 2026-11-25 (7 zile)",
+      "intrebare_id": 7895,
+      "rationament": "Altitudine mai mare, probabilitate echilibrată de precipitații mixte sau ploaie.",
+      "sha256": "bdf1b0891191b05bed55074f73ed7efc1b737410d47bc04101e112bb3578e4c4",
+      "valoare": 8.5
+    },
+    {
+      "agent": "qwen38",
+      "creata_la": "2026-11-18 17:35:35",
+      "intrebare": "Va ploua la Brașov pe 2026-11-25? (7 zile)",
+      "intrebare_id": 7896,
+      "rationament": "Altitudine mai mare, probabilitate echilibrată de precipitații mixte sau ploaie.",
+      "sha256": "643f4b8691215640efd2b073c7a15c8662787383e9571e65ed8af63754178853",
+      "valoare": 0.5
+    }
+  ],
+  "zi": "2026-11-18"
+}
